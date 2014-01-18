@@ -1,0 +1,42 @@
+/* ==========================================================================
+   BACKGROUND SIZE
+   ========================================================================== */
+
+  .bg-cv  {               background-size: cover; }
+  .bg-cn  {               background-size: contain; }
+  .bg-quarter {           background-size: 25%; }
+  .bg-half {              background-size: 50%; }
+  .bg-three-quarters {    background-size: 75%; }
+  .bg-full {              background-size: 100%; }
+  .bg-auto {              background-size: auto; }
+
+@include break(not-small) {
+  .bg-cv-ns {             background-size: cover; }
+  .bg-cn-ns {             background-size: contain; }
+  .bg-quarter-ns {        background-size: 25%; }
+  .bg-half-ns {           background-size: 50%; }
+  .bg-three-quarters-ns { background-size: 75%; }
+  .bg-full-ns {           background-size: 100%; }
+  .bg-auto-ns {           background-size: auto; }
+}
+
+@include break(medium) {
+  .bg-cv-m {              background-size: cover; }
+  .bg-cn-m {              background-size: contain; }
+  .bg-quarter-m {         background-size: 25%; }
+  .bg-half-m {            background-size: 50%; }
+  .bg-three-quarters-m {  background-size: 75%; }
+  .bg-full-m {            background-size: 100%; }
+  .bg-auto-m {            background-size: auto; }
+}
+
+@include break(large) {
+  .bg-cv-l {              background-size: cover; }
+  .bg-cn-l {              background-size: contain; }
+  .bg-quarter-l {         background-size: 25%; }
+  .bg-half-l {            background-size: 50%; }
+  .bg-three-quarters-l {  background-size: 75%; }
+  .bg-full-l {            background-size: 100%; }
+  .bg-auto-l {            background-size: auto; }
+}
+

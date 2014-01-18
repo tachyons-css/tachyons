@@ -1,0 +1,91 @@
+/* ==========================================================================
+   WIDTHS
+   ========================================================================== */
+
+/* Width Scale */
+
+.wi1 {  width: 1rem; }
+.wi2 {  width: 2rem; }
+.wi3 {  width: 4rem; }
+.wi4 {  width: 8rem; }
+.wi5 {  width: 16rem; }
+.wi6 {  width: 32rem; }
+.wi7 {  width: 48rem; }
+.wi8 {  width: 64rem; }
+.wi9 {  width: 96rem; }
+.wi10 { width: 128rem; }
+
+/* Width String Properties */
+
+.wi-bb { width: border-box; }
+.wi-cb { width: content-box; }
+.wi-mx { width: max-content; }
+.wi-mn { width: min-content; }
+.wi-av { width: available; }
+.wi-fc { width: fit-content; }
+.wi-at { width: auto; }
+.wi-i {  width: inherit; }
+
+@include break(not-small) {
+  .wi1-ns {  width: 1rem; }
+  .wi2-ns {  width: 2rem; }
+  .wi3-ns {  width: 4rem; }
+  .wi4-ns {  width: 8rem; }
+  .wi5-ns {  width: 16rem; }
+  .wi6-ns {  width: 32rem; }
+  .wi7-ns {  width: 48rem; }
+  .wi8-ns {  width: 64rem; }
+  .wi9-ns {  width: 96rem; }
+  .wi10-ns { width: 128rem; }
+  .wi-bb-ns { width: border-box; }
+  .wi-cb-ns { width: content-box; }
+  .wi-mx-ns { width: max-content; }
+  .wi-mn-ns { width: min-content; }
+  .wi-av-ns { width: available; }
+  .wi-fc-ns { width: fit-content; }
+  .wi-at-ns { width: auto; }
+  .wi-i-ns {  width: inherit; }
+}
+
+@include break(medium) {
+  .wi1-m {      width: 1rem; }
+  .wi2-m {      width: 2rem; }
+  .wi3-m {      width: 4rem; }
+  .wi4-m {      width: 8rem; }
+  .wi5-m {      width: 16rem; }
+  .wi6-m {      width: 32rem; }
+  .wi7-m {      width: 48rem; }
+  .wi8-m {      width: 64rem; }
+  .wi9-m {      width: 96rem; }
+  .wi10-m {     width: 128rem; }
+  .wi-bb-m {    width: border-box; }
+  .wi-cb-m {    width: content-box; }
+  .wi-mx-m {    width: max-content; }
+  .wi-mn-m {    width: min-content; }
+  .wi-av-m {    width: available; }
+  .wi-fc-m {    width: fit-content; }
+  .wi-at-m {    width: auto; }
+  .wi-i-m {     width: inherit; }
+}
+
+@include break(large) {
+  .wi1-l {      width: 1rem; }
+  .wi2-l {      width: 2rem; }
+  .wi3-l {      width: 4rem; }
+  .wi4-l {      width: 8rem; }
+  .wi5-l {      width: 16rem; }
+  .wi6-l {      width: 32rem; }
+  .wi7-l {      width: 48rem; }
+  .wi8-l {      width: 64rem; }
+  .wi9-l {      width: 96rem; }
+  .wi10-l {     width: 128rem; }
+  .wi-bb-l {    width: border-box; }
+  .wi-cb-l {    width: content-box; }
+  .wi-mx-l {    width: max-content; }
+  .wi-mn-l {    width: min-content; }
+  .wi-av-l {    width: available; }
+  .wi-fc-l {    width: fit-content; }
+  .wi-at-l {    width: auto; }
+  .wi-i-l {     width: inherit; }
+}
+

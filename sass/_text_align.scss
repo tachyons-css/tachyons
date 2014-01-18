@@ -1,0 +1,56 @@
+/* Text Align */
+
+.tl  { text-align: left; }
+.tr  { text-align: right; }
+.tc  { text-align: center; }
+.tj  { text-align: justify; }
+.ts  { text-align: start; }
+.te  { text-align: end; }
+.tmp { text-align: match-parent; }
+.tse { text-align: start end; }
+.tp  { text-align: "."; }
+.tsp { text-align: start "."; }
+.tpe { text-align: "." end; }
+
+@include break(not-small) {
+  .tl-ns  { text-align: left; }
+  .tr-ns  { text-align: right; }
+  .tc-ns  { text-align: center; }
+  .tj-ns  { text-align: justify; }
+  .ts-ns  { text-align: start; }
+  .te-ns  { text-align: end; }
+  .tmp-ns { text-align: match-parent; }
+  .tse-ns { text-align: start end; }
+  .tp-ns  { text-align: "."; }
+  .tsp-ns { text-align: start "."; }
+  .tpe-ns { text-align: "." end; }
+}
+
+@include break(medium) {
+  .tl-m  { text-align: left; }
+  .tr-m  { text-align: right; }
+  .tc-m  { text-align: center; }
+  .tj-m  { text-align: justify; }
+  .ts-m  { text-align: start; }
+  .te-m  { text-align: end; }
+  .tmp-m { text-align: match-parent; }
+  .tse-m { text-align: start end; }
+  .tp-m  { text-align: "."; }
+  .tsp-m { text-align: start "."; }
+  .tpe-m { text-align: "." end; }
+}
+
+@include break(large) {
+  .tl-l  { text-align: left; }
+  .tr-l  { text-align: right; }
+  .tc-l  { text-align: center; }
+  .tj-l  { text-align: justify; }
+  .ts-l  { text-align: start; }
+  .te-l  { text-align: end; }
+  .tmp-l { text-align: match-parent; }
+  .tse-l { text-align: start end; }
+  .tp-l  { text-align: "."; }
+  .tsp-l { text-align: start "."; }
+  .tpe-l { text-align: "." end; }
+}
+

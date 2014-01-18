@@ -1,0 +1,79 @@
+/* ==========================================================================
+   MAX HEIGHT
+   ========================================================================== */
+
+.mxhi1  {  max-height: 1rem; }
+.mxhi2  {  max-height: 2rem; }
+.mxhi3  {  max-height: 4rem; }
+.mxhi4  {  max-height: 8rem; }
+.mxhi5  {  max-height: 16rem; }
+.mxhi6  {  max-height: 32rem; }
+.mxhi7  {  max-height: 48rem; }
+.mxhi8  {  max-height: 64rem; }
+.mxhi9  {  max-height: 96rem; }
+.mxhi10 {  max-height: 128rem; }
+
+.mxhi-none { max-height: none; }
+.mxhi-max {  max-height: max-content; }
+.mxhi-min {  max-height: min-content; }
+.mxhi-fit {  max-height: fit-content; }
+.mxhi-fill { max-height: fill-available; }
+
+@include break(not-small) {
+
+  .mxhi1-ns  {  max-height: 1rem; }
+  .mxhi2-ns  {  max-height: 2rem; }
+  .mxhi3-ns  {  max-height: 4rem; }
+  .mxhi4-ns  {  max-height: 8rem; }
+  .mxhi5-ns  {  max-height: 16rem; }
+  .mxhi6-ns  {  max-height: 32rem; }
+  .mxhi7-ns  {  max-height: 48rem; }
+  .mxhi8-ns  {  max-height: 64rem; }
+  .mxhi9-ns  {  max-height: 96rem; }
+  .mxhi10-ns {  max-height: 128rem; }
+
+  .mxhi-none-ns { max-height: none; }
+  .mxhi-max-ns {  max-height: max-content; }
+  .mxhi-min-ns {  max-height: min-content; }
+  .mxhi-fit-ns {  max-height: fit-content; }
+  .mxhi-fill-ns { max-height: fill-available; }
+}
+
+@include break(medium) {
+  .mxhi1-m  {  max-height: 1rem; }
+  .mxhi2-m  {  max-height: 2rem; }
+  .mxhi3-m  {  max-height: 4rem; }
+  .mxhi4-m  {  max-height: 8rem; }
+  .mxhi5-m  {  max-height: 16rem; }
+  .mxhi6-m  {  max-height: 32rem; }
+  .mxhi7-m  {  max-height: 48rem; }
+  .mxhi8-m  {  max-height: 64rem; }
+  .mxhi9-m  {  max-height: 96rem; }
+  .mxhi10-m {  max-height: 128rem; }
+
+  .mxhi-none-m { max-height: none; }
+  .mxhi-max-m {  max-height: max-content; }
+  .mxhi-min-m {  max-height: min-content; }
+  .mxhi-fit-m {  max-height: fit-content; }
+  .mxhi-fill-m { max-height: fill-available; }
+}
+
+@include break(large) {
+  .mxhi1-l  {  max-height: 1rem; }
+  .mxhi2-l  {  max-height: 2rem; }
+  .mxhi3-l  {  max-height: 4rem; }
+  .mxhi4-l  {  max-height: 8rem; }
+  .mxhi5-l  {  max-height: 16rem; }
+  .mxhi6-l  {  max-height: 32rem; }
+  .mxhi7-l  {  max-height: 48rem; }
+  .mxhi8-l  {  max-height: 64rem; }
+  .mxhi9-l  {  max-height: 96rem; }
+  .mxhi10-l {  max-height: 128rem; }
+
+  .mxhi-none-l { max-height: none; }
+  .mxhi-max-l {  max-height: max-content; }
+  .mxhi-min-l {  max-height: min-content; }
+  .mxhi-fit-l {  max-height: fit-content; }
+  .mxhi-fill-l { max-height: fill-available; }
+}
+

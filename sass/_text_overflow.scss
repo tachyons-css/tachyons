@@ -1,0 +1,42 @@
+/* ==========================================================================
+   TEXT OVERFLOW
+   ========================================================================== */
+
+.t-clip { text-overflow: clip; }
+.t-ellipsis { text-overflow: ellipsis; }
+.t-dots { text-overflow: "…"; }
+
+/* Two-value syntax: the first value describes the overflow at the left end of the line,
+                     the second at the right end. Directionality has no influence */
+
+.t-clip-ellipsis { text-overflow: clip ellipsis; }
+.t-double { text-overflow: "…" "…"; }
+.t-i { text-overflow: inherit; }
+
+@include break(not-small) {
+  .t-clip-ns { text-overflow: clip; }
+  .t-ellipsis-ns { text-overflow: ellipsis; }
+  .t-dots-ns { text-overflow: "…"; }
+  .t-clip-ellipsis-ns { text-overflow: clip ellipsis; }
+  .t-double-ns { text-overflow: "…" "…"; }
+  .t-i-ns { text-overflow: inherit; }
+}
+
+@include break(medium) {
+  .t-clip-m { text-overflow: clip; }
+  .t-ellipsis-m { text-overflow: ellipsis; }
+  .t-dots-m { text-overflow: "…"; }
+  .t-clip-ellipsis-m { text-overflow: clip ellipsis; }
+  .t-double-m { text-overflow: "…" "…"; }
+  .t-i-m { text-overflow: inherit; }
+}
+
+@include break(large) {
+  .t-clip-l { text-overflow: clip; }
+  .t-ellipsis-l { text-overflow: ellipsis; }
+  .t-dots-l { text-overflow: "…"; }
+  .t-clip-ellipsis-l { text-overflow: clip ellipsis; }
+  .t-double-l { text-overflow: "…" "…"; }
+  .t-i-l { text-overflow: inherit; }
+}
+

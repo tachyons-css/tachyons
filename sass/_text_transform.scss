@@ -1,0 +1,30 @@
+/* ==========================================================================
+   TEXT TRANSFORM
+   ========================================================================== */
+
+.ttc { text-transform: capitalize; }
+.ttu { text-transform: uppercase; }
+.ttl { text-transform: lowercase; }
+.ttn { text-transform: none; }
+
+@include break(not-small) {
+  .ttc-ns { text-transform: capitalize; }
+  .ttu-ns { text-transform: uppercase; }
+  .ttl-ns { text-transform: lowercase; }
+  .ttn-ns { text-transform: none; }
+}
+
+@include break(medium) {
+  .ttc-m { text-transform: capitalize; }
+  .ttu-m { text-transform: uppercase; }
+  .ttl-m { text-transform: lowercase; }
+  .ttn-m { text-transform: none; }
+}
+
+@include break(large) {
+  .ttc-l { text-transform: capitalize; }
+  .ttu-l { text-transform: uppercase; }
+  .ttl-l { text-transform: lowercase; }
+  .ttn-l { text-transform: none; }
+}
+

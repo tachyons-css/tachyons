@@ -1,0 +1,79 @@
+/* ==========================================================================
+   HEIGHTS
+   ========================================================================== */
+
+.hi-10,  .tenth          { height: 10%; }
+.hi-25,  .quarter        { height: 25%; }
+.hi-50,  .half           { height: 50%; }
+.hi-75,  .three-quarters { height: 75%; }
+.hi-100, .full           { height: 100%; }
+
+.ht1   { height: 1rem; }
+.ht2   { height: 2rem; }
+.ht3   { height: 4rem; }
+.ht4   { height: 8rem; }
+.ht5   { height: 16rem; }
+.ht6   { height: 32rem; }
+.ht7   { height: 48rem; }
+.ht8   { height: 64rem; }
+.ht9   { height: 96rem; }
+.ht10  { height: 128rem; }
+
+.ht-auto { height: auto; }
+
+@include break(not-small) {
+  .hi-10-ns,  .tenth-ns          { height: 10%; }
+  .hi-25-ns,  .quarter-ns        { height: 25%; }
+  .hi-50-ns,  .half-ns           { height: 50%; }
+  .hi-75-ns,  .three-quarters-ns { height: 75%; }
+  .hi-100-ns, .full-ns           { height: 100%; }
+  .ht1-ns   { height: 1rem; }
+  .ht2-ns   { height: 2rem; }
+  .ht3-ns   { height: 4rem; }
+  .ht4-ns   { height: 8rem; }
+  .ht5-ns   { height: 16rem; }
+  .ht6-ns   { height: 32rem; }
+  .ht7-ns   { height: 48rem; }
+  .ht8-ns   { height: 64rem; }
+  .ht9-ns   { height: 96rem; }
+  .ht10-ns  { height: 128rem; }
+  .ht-auto-ns { height: auto; }
+}
+
+@include break(medium) {
+  .hi-10-m,  .tenth-m          { height: 10%; }
+  .hi-25-m,  .quarter-m        { height: 25%; }
+  .hi-50-m,  .half-m           { height: 50%; }
+  .hi-75-m,  .three-quarters-m { height: 75%; }
+  .hi-100-m, .full-m           { height: 100%; }
+  .ht1-m   { height: 1rem; }
+  .ht2-m   { height: 2rem; }
+  .ht3-m   { height: 4rem; }
+  .ht4-m   { height: 8rem; }
+  .ht5-m   { height: 16rem; }
+  .ht6-m   { height: 32rem; }
+  .ht7-m   { height: 48rem; }
+  .ht8-m   { height: 64rem; }
+  .ht9-m   { height: 96rem; }
+  .ht10-m  { height: 128rem; }
+  .ht-auto-m { height: auto; }
+}
+
+@include break(large) {
+  .hi-10-l,  .tenth-l          { height: 10%; }
+  .hi-25-l,  .quarter-l        { height: 25%; }
+  .hi-50-l,  .half-l           { height: 50%; }
+  .hi-75-l,  .three-quarters-l { height: 75%; }
+  .hi-100-l, .full-l           { height: 100%; }
+  .ht1-l   { height: 1rem; }
+  .ht2-l   { height: 2rem; }
+  .ht3-l   { height: 4rem; }
+  .ht4-l   { height: 8rem; }
+  .ht5-l   { height: 16rem; }
+  .ht6-l   { height: 32rem; }
+  .ht7-l   { height: 48rem; }
+  .ht8-l   { height: 64rem; }
+  .ht9-l   { height: 96rem; }
+  .ht10-l  { height: 128rem; }
+  .ht-auto-l { height: auto; }
+}

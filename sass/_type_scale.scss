@@ -1,0 +1,43 @@
+/* ==========================================================================
+   TYPE SCALE
+   ========================================================================== */
+
+.f1    { font-size: 2rem; }
+.f2    { font-size: 1.5rem; }
+.f3    { font-size: 1.2rem; }
+.f4    { font-size: 1.2rem; }
+.f5    { font-size: 1rem; }
+.f6,
+.small { font-size: .85rem; }
+
+
+@include break(not-small){
+ .mega-ns { font-size: 3rem; }
+ .f1-ns {   font-size: 2rem; }
+ .f2-ns {   font-size: 1.5rem; }
+ .f3-ns {   font-size: 1.2rem; }
+ .f4-ns {   font-size: 1.2rem; }
+ .f5-ns {   font-size: 1rem; }
+ .f6-ns {   font-size: .85rem; }
+}
+
+@include break(medium) {
+ .mega-m { font-size: 3rem; }
+ .f1-m {   font-size: 2rem; }
+ .f2-m {   font-size: 1.5rem; }
+ .f3-m {   font-size: 1.2rem; }
+ .f4-m {   font-size: 1.2rem; }
+ .f5-m {   font-size: 1rem; }
+ .f6-m {   font-size: .85rem; }
+}
+
+@include break(large) {
+ .mega-l { font-size: 4rem; }
+ .f1-l   { font-size: 3rem; }
+ .f2-l   { font-size: 2rem; }
+ .f3-l   { font-size: 1.5rem; }
+ .f4-l   { font-size: 1.2rem; }
+ .f5-l   { font-size: 1rem; }
+ .f6-l   { font-size: 1rem; }
+}
+

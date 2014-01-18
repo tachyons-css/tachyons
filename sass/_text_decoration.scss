@@ -1,0 +1,35 @@
+/* ==========================================================================
+   TEXT DECORAION
+   ========================================================================== */
+
+.under  { text-decoration: underline; }
+.over   { text-decoration: overline; }
+.strike { text-decoration: line-through; }
+.blink  { text-decoration: blink; }
+.none   { text-decoration: none; }
+
+
+@include break(not-small) {
+  .under-ns  { text-decoration: underline; }
+  .over-ns   { text-decoration: overline; }
+  .strike-ns { text-decoration: line-through; }
+  .blink-ns  { text-decoration: blink; }
+  .none-ns   { text-decoration: none; }
+}
+
+@include break(medium) {
+  .under-m  { text-decoration: underline; }
+  .over-m   { text-decoration: overline; }
+  .strike-m { text-decoration: line-through; }
+  .blink-m  { text-decoration: blink; }
+  .none-m   { text-decoration: none; }
+}
+
+@include break(large) {
+  .under-l  { text-decoration: underline; }
+  .over-l   { text-decoration: overline; }
+  .strike-l { text-decoration: line-through; }
+  .blink-l  { text-decoration: blink; }
+  .none-l   { text-decoration: none; }
+}
+

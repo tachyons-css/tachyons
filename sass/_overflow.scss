@@ -1,0 +1,30 @@
+ /* ==========================================================================
+    OVERFLOWS
+    ========================================================================== */
+
+.of-vis { overflow: visible; }
+.of-hid { overflow: hidden; }
+.of-scr { overflow: scroll; }
+.of-aut { overflow: auto; }
+
+@include break(not-small) {
+  .of-vis-ns { overflow: visible; }
+  .of-hid-ns { overflow: hidden; }
+  .of-scr-ns { overflow: scroll; }
+  .of-aut-ns { overflow: auto; }
+}
+
+@include break(medium) {
+  .of-vis-m { overflow: visible; }
+  .of-hid-m { overflow: hidden; }
+  .of-scr-m { overflow: scroll; }
+  .of-aut-m { overflow: auto; }
+}
+
+@include break(large) {
+  .of-vis-l { overflow: visible; }
+  .of-hid-l { overflow: hidden; }
+  .of-scr-l { overflow: scroll; }
+  .of-aut-l { overflow: auto; }
+}
+

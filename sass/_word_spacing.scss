@@ -1,0 +1,26 @@
+/* ==========================================================================
+   WORD SPACING
+   ========================================================================== */
+
+.wsn { word-spacing: normal; }
+.ws1 { word-spacing: 0.3em; }
+.ws2 { word-spacing: -0.43em; } /* For eliminating space between inline-block elements */
+
+@include break(not-small) {
+  .wsn-ns { word-spacing: normal; }
+  .ws1-ns { word-spacing: 0.3em; }
+  .ws2-ns { word-spacing: -0.43em; }
+}
+
+@include break(medium) {
+  .wsn-m { word-spacing: normal; }
+  .ws1-m { word-spacing: 0.3em; }
+  .ws2-m { word-spacing: -0.43em; }
+}
+
+@include break(large) {
+  .wsn-l { word-spacing: normal; }
+  .ws1-l { word-spacing: 0.3em; }
+  .ws2-l { word-spacing: -0.43em; }
+}
+

@@ -1,0 +1,26 @@
+/* ==========================================================================
+   BORDER WIDTHS
+
+   LEGEND
+
+   b = border
+
+   a = all
+   t = top
+   b = bottom
+   l = left
+   r = right
+
+   w = width
+
+   0-5 = step in sizing scale
+
+   ========================================================================== */
+
+  .baw0 { border-width: 0; }
+  .baw1 { border-width: .125rem; }
+  .baw2 { border-width: .25rem; }
+  .baw3 { border-width: .5rem; }
+  .baw4 { border-width: .75rem; }
+  .baw5 { border-width: 1rem; }
+
