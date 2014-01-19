@@ -3,18 +3,3 @@
 .fsn     { font-style: normal; }
 .i       { font-style: italic; }
 
-@include break(not-small) {
-  .fsn-ns     { font-style: normal; }
-  .i-ns       { font-style: italic; }
-}
-
-@include break(medium) {
-  .fsn-m     { font-style: normal; }
-  .i-m       { font-style: italic; }
-}
-
-@include break(large) {
-  .fsn-l      { font-style: normal; }
-  .i-l        { font-style: italic; }
-}
-
