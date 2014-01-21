@@ -1,0 +1,17 @@
+{
+  "name": "tachyons",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "~3.4.0",
+    "gulp-livereload": "~0.2.0",
+    "gulp-minify-css": "~0.2.0",
+    "tiny-lr": "0.0.5",
+    "gulp-util": "~2.2.12",
+    "gulp-watch": "~0.5.0",
+    "gulp-csslint": "~0.1.3",
+    "gulp-uglify": "~0.1.0",
+    "gulp-jshint": "~1.3.4",
+    "gulp-imagemin": "~0.1.4",
+    "gulp-sass": "~0.4.1"
+  }
+}
