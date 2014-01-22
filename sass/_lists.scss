@@ -8,20 +8,10 @@
 .circle {       list-style-type: circle; }
 .square {       list-style-type: square; }
 .decimal {      list-style-type: decimal; }
-.leading-zero { list-style-type: decimal-leading-zero; }
-.lower-roman {  list-style-type: lower-roman; }
-.upper-roman {  list-style-type: upper-roman; }
-.lower-greek {  list-style-type: lower-greek; }
-.lower-latin {  list-style-type: lower-latin; }
-.upper-latin {  list-style-type: upper-latin; }
-.lower-alpha {  list-style-type: lower-alpha; }
-.upper-alpha {  list-style-type: upper-alpha; }
-.list {         list-style-type: none; }
-
 
 /* Horizontal list: can be used on ol or ul */
 
-.list {         list-style: none; }
+.list {         list-style-type: none; }
 
 .list--h {
            list-style-type: none;
@@ -33,14 +23,6 @@
   .circle-ns {       list-style-type: circle; }
   .square-ns {       list-style-type: square; }
   .decimal-ns {      list-style-type: decimal; }
-  .leading-zero-ns { list-style-type: decimal-leading-zero; }
-  .lower-roman-ns {  list-style-type: lower-roman; }
-  .upper-roman-ns {  list-style-type: upper-roman; }
-  .lower-greek-ns {  list-style-type: lower-greek; }
-  .lower-latin-ns {  list-style-type: lower-latin; }
-  .upper-latin-ns {  list-style-type: upper-latin; }
-  .lower-alpha-ns {  list-style-type: lower-alpha; }
-  .upper-alpha-ns {  list-style-type: upper-alpha; }
   .list-ns {         list-style-type: none; }
   .list--h-ns {
              list-style-type: none;
@@ -53,15 +35,6 @@
   .circle-m {       list-style-type: circle; }
   .square-m {       list-style-type: square; }
   .decimal-m {      list-style-type: decimal; }
-  .leading-zero-m { list-style-type: decimal-leading-zero; }
-  .lower-roman-m {  list-style-type: lower-roman; }
-  .upper-roman-m {  list-style-type: upper-roman; }
-  .lower-greek-m {  list-style-type: lower-greek; }
-  .lower-latin-m {  list-style-type: lower-latin; }
-  .upper-latin-m {  list-style-type: upper-latin; }
-  .lower-alpha-m {  list-style-type: lower-alpha; }
-  .upper-alpha-m {  list-style-type: upper-alpha; }
-  .list-m {         list-style-type: none; }
   .list-m {         list-style: none; }
   .list--h-m {
              list-style-type: none;
@@ -83,7 +56,6 @@
   .lower-alpha-l {  list-style-type: lower-alpha; }
   .upper-alpha-l {  list-style-type: upper-alpha; }
   .list-l {         list-style-type: none; }
-  .list-l {         list-style: none; }
   .list--h-l {
              list-style-type: none;
              > li {   display: inline-block; }
