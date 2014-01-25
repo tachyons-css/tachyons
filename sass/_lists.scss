@@ -14,19 +14,19 @@
 .list {         list-style-type: none; }
 
 .list--h {
-           list-style-type: none;
-           > li {   display: inline-block; }
+   list-style-type: none;
+   .list-item {   display: inline-block; }
 }
 
 @include break(not-small) {
-  .disc-ns {         list-style-type: disc; }
-  .circle-ns {       list-style-type: circle; }
-  .square-ns {       list-style-type: square; }
-  .decimal-ns {      list-style-type: decimal; }
-  .list-ns {         list-style-type: none; }
+  .disc-ns {    list-style-type: disc; }
+  .circle-ns {  list-style-type: circle; }
+  .square-ns {  list-style-type: square; }
+  .decimal-ns { list-style-type: decimal; }
+  .list-ns {    list-style-type: none; }
   .list--h-ns {
-             list-style-type: none;
-             > li {   display: inline-block; }
+                list-style-type: none;
+    .list-item-ns {   display: inline-block; }
   }
 }
 
@@ -38,7 +38,7 @@
   .list-m {         list-style: none; }
   .list--h-m {
              list-style-type: none;
-             > li {   display: inline-block; }
+             .list-item {   display: inline-block; }
   }
 }
 
@@ -57,8 +57,8 @@
   .upper-alpha-l {  list-style-type: upper-alpha; }
   .list-l {         list-style-type: none; }
   .list--h-l {
-             list-style-type: none;
-             > li {   display: inline-block; }
+      list-style-type: none;
+     .list-item {   display: inline-block; }
   }
 }
 

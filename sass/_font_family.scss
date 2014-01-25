@@ -1,7 +1,7 @@
 /* Font Family Groups */
 
-.serif       { font-family: georgia, serif; }
-.sans-serif  { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
+.serif       {  font-family: georgia, serif; }
+.sans-serif  {  font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
 .font-mono    { font-family: monospace; }
 
 @include break(not-small) {
