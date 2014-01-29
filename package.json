@@ -1,6 +1,23 @@
 {
   "name": "tachyons",
-  "version": "0.1.0",
+  "version": "0.0.0",
+  "description": "Performance-first css framework built with sass.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrmrs/tachyons.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "oocss",
+    "performance"
+  ],
+  "author": "mrmrs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrmrs/tachyons/issues"
+  },
   "devDependencies": {
     "gulp": "~3.4.0",
     "gulp-livereload": "~0.2.0",
@@ -14,6 +31,7 @@
     "gulp-imagemin": "~0.1.4",
     "gulp-sass": "~0.4.1",
     "jshint-stylish": "~0.1.5",
-    "gulp-svgmin": "~0.4.1"
+    "gulp-svgmin": "~0.4.1",
+    "gulp-autoprefixer": "0.0.5"
   }
 }
