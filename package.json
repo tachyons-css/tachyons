@@ -19,7 +19,7 @@
     "url": "https://github.com/mrmrs/tachyons/issues"
   },
   "devDependencies": {
-    "gulp": "~3.4.0",
+    "gulp": "~3.5.0",
     "gulp-livereload": "~0.2.0",
     "gulp-minify-css": "~0.2.0",
     "tiny-lr": "0.0.5",
