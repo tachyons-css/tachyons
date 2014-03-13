@@ -1,13 +1,15 @@
-/* ==========================================================================
-   DIMENSION UTILITIES
-   ========================================================================== */
+/*
 
-.auto-wrap {
+   DIMENSION UTILITIES
+
+*/
+
+.wrap {
   display: block;
   width: auto !important;
 }
 
-.auto-fill {
+.fill {
   display: block;
   overflow: hidden;
   width: auto !important;

@@ -1,24 +1,16 @@
-/* Font Family Groups */
+/*
+
+   Font Family Groups
+
+*/
 
 .serif       {  font-family: georgia, serif; }
 .sans-serif  {  font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
-.font-mono    { font-family: monospace; }
 
-@include break(not-small) {
-  .serif-ns        { font-family: georgia, serif; }
-  .sans-serif-ns   { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
-  .font-mono-ns    { font-family: monospace; }
-}
-
-@include break(medium) {
-  .serif-m        { font-family: georgia, serif; }
-  .sans-serif-m   { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
-  .font-mono-m    { font-family: monospace; }
-}
-
-@include break(large) {
-  .serif-l        { font-family: georgia, serif; }
-  .sans-serif-l   { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
-  .font-mono-l    { font-family: monospace; }
-}
+// From http://cssfontstack.com
+.code        {    font-family: Consolas, monaco, monospace; }
+.serif-bodini {   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
+.serif-calisto {  font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; }
+.serif-garamond { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; }
+.serif-times {    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
 

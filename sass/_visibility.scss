@@ -1,14 +1,9 @@
-/* ==========================================================================
+/*
+
    VISIBILITY
-   ========================================================================== */
 
+*/
 
-.vis          { visibility: visible; }
-.vis-hidden   { visibility: hidden; }
-.vis-collapse { visibility: collapse; }
-
-.vis-bf-vis {   backface-visibility: visible; }
-.vis-bf-hid {   backface-visibility: hidden; }
 
 /*
     Text that is hidden but accessible
@@ -23,11 +18,6 @@
 }
 
 @include break(not-small) {
-  .vis-ns          { visibility: visible; }
-  .vis-hidden-ns   { visibility: hidden; }
-  .vis-collapse-ns { visibility: collapse; }
-  .vis-bf-vis-ns {   backface-visibility: visible; }
-  .vis-bf-hid-ns {   backface-visibility: hidden; }
   .clip-ns {
     position: fixed !important;
     _position: absolute !important;
@@ -37,11 +27,6 @@
 }
 
 @include break(medium) {
-  .vis-m          { visibility: visible; }
-  .vis-hidden-m   { visibility: hidden; }
-  .vis-collapse-m { visibility: collapse; }
-  .vis-bf-vis-m   { backface-visibility: visible; }
-  .vis-bf-hid-m   { backface-visibility: hidden; }
   .clip-m {
     position: fixed !important;
     _position: absolute !important;
@@ -51,11 +36,6 @@
 }
 
 @include break(large) {
-  .vis-l          { visibility: visible; }
-  .vis-hidden-l   { visibility: hidden; }
-  .vis-collapse-l { visibility: collapse; }
-  .vis-bf-vis-l   { backface-visibility: visible; }
-  .vis-bf-hid-l   { backface-visibility: hidden; }
   .clip-l {
     position: fixed !important;
     _position: absolute !important;

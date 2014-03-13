@@ -1,6 +1,8 @@
- /* ==========================================================================
+/*
+
     POSITIONING
-    ========================================================================== */
+
+ */
 
 .pos-stat { position: static; }
 .pos-rel  { position: relative; }
@@ -31,17 +33,6 @@
 
 /* Top Percentage based scale */
 
-.top-10  { top: 10%; }
-.top-20  { top: 20%; }
-.top-30  { top: 30%; }
-.top-40  { top: 40%; }
-.top-50  { top: 50%; }
-.top-60  { top: 60%; }
-.top-70  { top: 70%; }
-.top-80  { top: 80%; }
-.top-90  { top: 90%; }
-.top-100 { top: 100%; }
-
 .top-auto { top: auto; }
 .top-i { top: inherit; ;}
 
@@ -68,16 +59,6 @@
   .left-4-ns   { left:  4rem; }
   .right-4-ns  { right: 4rem; }
   .bottom-4-ns { bottom: 4rem; }
-  .top-10-ns  { top: 10%; }
-  .top-20-ns  { top: 20%; }
-  .top-30-ns  { top: 30%; }
-  .top-40-ns  { top: 40%; }
-  .top-50-ns  { top: 50%; }
-  .top-60-ns  { top: 60%; }
-  .top-70-ns  { top: 70%; }
-  .top-80-ns  { top: 80%; }
-  .top-90-ns  { top: 90%; }
-  .top-100-ns { top: 100%; }
   .top-auto-ns { top: auto; }
   .top-i-ns { top: inherit; ;}
   .center-ns { margin: 0 auto; }
@@ -104,16 +85,6 @@
   .left-4-m   { left:  4rem; }
   .right-4-m  { right: 4rem; }
   .bottom-4-m { bottom: 4rem; }
-  .top-10-m  { top: 10%; }
-  .top-20-m  { top: 20%; }
-  .top-30-m  { top: 30%; }
-  .top-40-m  { top: 40%; }
-  .top-50-m  { top: 50%; }
-  .top-60-m  { top: 60%; }
-  .top-70-m  { top: 70%; }
-  .top-80-m  { top: 80%; }
-  .top-90-m  { top: 90%; }
-  .top-100-m { top: 100%; }
   .top-auto-m { top: auto; }
   .top-i-m { top: inherit; ;}
   .center-m { margin: 0 auto; }
@@ -140,16 +111,6 @@
   .left-4-l   { left:  4rem; }
   .right-4-l  { right: 4rem; }
   .bottom-4-l { bottom: 4rem; }
-  .top-10-l  { top: 10%; }
-  .top-20-l  { top: 20%; }
-  .top-30-l  { top: 30%; }
-  .top-40-l  { top: 40%; }
-  .top-50-l  { top: 50%; }
-  .top-60-l  { top: 60%; }
-  .top-70-l  { top: 70%; }
-  .top-80-l  { top: 80%; }
-  .top-90-l  { top: 90%; }
-  .top-100-l { top: 100%; }
   .top-auto-l { top: auto; }
   .top-i-l { top: inherit; ;}
   .center-l { margin: 0 auto; }

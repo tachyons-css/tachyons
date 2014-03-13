@@ -1,6 +1,13 @@
-/* ==========================================================================
+/*
+
    FLOATS
-   ========================================================================== */
+
+   1. Floated elements are automatically rendered as block level elements.
+      Setting floats to display inline will remove double margin bug in
+      ie6. You know, just in case.
+
+*/
+
 
 
 .fl { float: left;  display: inline; }
