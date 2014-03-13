@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Performance-first css framework built with sass.",
   "main": "index.html",
   "repository": {
@@ -26,8 +26,6 @@
     "gulp-util": "~2.2.12",
     "gulp-watch": "~0.5.0",
     "gulp-csslint": "~0.1.3",
-    "gulp-uglify": "~0.1.0",
-    "gulp-jshint": "~1.3.4",
     "gulp-imagemin": "~0.1.4",
     "jshint-stylish": "~0.1.5",
     "gulp-svgmin": "~0.4.1",

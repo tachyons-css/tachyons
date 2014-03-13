@@ -8,11 +8,9 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     prefix = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css'),
-    uglify = require('gulp-uglify'),
     sass = require('gulp-ruby-sass'),
     imagemin = require('gulp-imagemin'),
     svgmin = require('gulp-svgmin'),
-    jshint = require('gulp-jshint'),
     csslint = require('gulp-csslint');
 
 
@@ -49,16 +47,6 @@ gulp.task('minify-svg', function(){
   gulp.src('./img/svg')
           .pipe(svgmin())
           .pipe(gulp.dest('./img/svg'));
-});
-
-
-// Task to run jshint and pipe output to terminal
-
-gulp.task('jshint', function(){
-  gulp.src('./js/*.js')
-     .pipe(jshint())
-     .pipe(jshint.reporter('jshint-stylish'));
-
 });
 
 
@@ -101,10 +89,10 @@ gulp.task('pre-process', function(){
 */
 
 gulp.task('default', function(){
-  gulp.run('pre-process', 'csslint', 'jshint');
+  gulp.run('pre-process', 'csslint');
   server.listen(35729, function (err) {
     gulp.watch(['./sass/*.scss', './js/*.js'], function(event) {
-      gulp.run('pre-process', 'csslint', 'jshint');
+      gulp.run('pre-process', 'csslint');
     });
   });
 });
