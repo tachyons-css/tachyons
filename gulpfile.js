@@ -23,14 +23,6 @@ gulp.task('minify-css', function(){
 });
 
 
-// Task to minify all js files in the js directory
-
-gulp.task('minify-js', function() {
-  gulp.src('./js/*.js')
-    .pipe(uglify())
-    .pipe(gulp.dest('./js/'));
-});
-
 
 // Task to optmize and minify images
 
@@ -82,7 +74,6 @@ gulp.task('pre-process', function(){
 
  • Process sass and lints outputted css
  • Outputted css is run through autoprefixer
- • Runs jshint on all js files in ./js/
  • Sends updates to any files in directory to browser for
  automatic reloading
 
@@ -91,7 +82,7 @@ gulp.task('pre-process', function(){
 gulp.task('default', function(){
   gulp.run('pre-process', 'csslint');
   server.listen(35729, function (err) {
-    gulp.watch(['./sass/*.scss', './js/*.js'], function(event) {
+    gulp.watch(['./sass/*.scss'], function(event) {
       gulp.run('pre-process', 'csslint');
     });
   });
@@ -99,6 +90,6 @@ gulp.task('default', function(){
 
 
 gulp.task('production', function(){
-    gulp.run('minify-css', 'minify-js', 'minify-img', 'minify-svg');
+    gulp.run('minify-css', 'minify-img', 'minify-svg');
 });
 
