@@ -4,25 +4,25 @@
 
  */
 
-.ba-none {   border-style: none; }
-.ba-dotted { border-style: dotted; }
-.ba-solid {  border-style: solid; }
+.bs-none {   border-style: none; }
+.bs-dotted { border-style: dotted; }
+.bs-solid {  border-style: solid; }
 
 @include break(not-small) {
-  .ba-none-ns {   border-style: none; }
-  .ba-dotted-ns { border-style: dotted; }
-  .ba-solid-ns {  border-style: solid; }
+  .bs-none-ns {   border-style: none; }
+  .bs-dotted-ns { border-style: dotted; }
+  .bs-solid-ns {  border-style: solid; }
 }
 
 @include break(medium) {
-  .ba-none-m {   border-style: none; }
-  .ba-dotted-m { border-style: dotted; }
-  .ba-solid-m {  border-style: solid; }
+  .bs-none-m {   border-style: none; }
+  .bs-dotted-m { border-style: dotted; }
+  .bs-solid-m {  border-style: solid; }
 }
 
 @include break(large) {
-  .ba-none-l {   border-style: none; }
-  .ba-dotted-l { border-style: dotted; }
-  .ba-solid-l {  border-style: solid; }
+  .bs-none-l {   border-style: none; }
+  .bs-dotted-l { border-style: dotted; }
+  .bs-solid-l {  border-style: solid; }
 }
 
