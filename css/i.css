@@ -123,43 +123,43 @@
 /*
  BORDER STYLES
  */
-.ba-none { border-style: none; }
+.bs-none { border-style: none; }
 
-.ba-dotted { border-style: dotted; }
+.bs-dotted { border-style: dotted; }
 
-.ba-solid { border-style: solid; }
+.bs-solid { border-style: solid; }
 
-@media screen and (min-width: 48em) { .ba-none-ns { border-style: none; }
-  .ba-dotted-ns { border-style: dotted; }
-  .ba-solid-ns { border-style: solid; } }
-@media screen and (min-width: 48em) and (max-width: 64em) { .ba-none-m { border-style: none; }
-  .ba-dotted-m { border-style: dotted; }
-  .ba-solid-m { border-style: solid; } }
-@media screen and (min-width: 64em) { .ba-none-l { border-style: none; }
-  .ba-dotted-l { border-style: dotted; }
-  .ba-solid-l { border-style: solid; } }
+@media screen and (min-width: 48em) { .bs-none-ns { border-style: none; }
+  .bs-dotted-ns { border-style: dotted; }
+  .bs-solid-ns { border-style: solid; } }
+@media screen and (min-width: 48em) and (max-width: 64em) { .bs-none-m { border-style: none; }
+  .bs-dotted-m { border-style: dotted; }
+  .bs-solid-m { border-style: solid; } }
+@media screen and (min-width: 64em) { .bs-none-l { border-style: none; }
+  .bs-dotted-l { border-style: dotted; }
+  .bs-solid-l { border-style: solid; } }
 /* BORDER WIDTHS
  LEGEND
- b = border
- a = all t = top b = bottom l = left r = right
- w = width
+ b = border w = width
  0-5 = step in sizing scale
 
 */
-.baw0 { border-width: 0; }
+.bw0 { border-width: 0; }
 
-.baw1 { border-width: .125rem; }
+.bw1 { border-width: .125rem; }
 
-.baw2 { border-width: .25rem; }
+.bw2 { border-width: .25rem; }
 
-.baw3 { border-width: .5rem; }
+.bw3 { border-width: .5rem; }
 
-.baw4 { border-width: .75rem; }
+.bw4 { border-width: .75rem; }
 
-.baw5 { border-width: 1rem; }
+.bw5 { border-width: 1rem; }
 
 /*
  BORDER BASE
+ Legend
+ a = all t = top r = right b = bottom l = left
 
 */
 .ba { border-style: solid; border-width: 1px; }
@@ -268,7 +268,9 @@
   .dtcolg-l { display: table-column-group; } }
 /*
  FLOATS
- 1. Floated elements are automatically rendered as block level elements. Setting floats to display inline will remove double margin bug in ie6. You know, just in case.
+ 1. Floated elements are automatically rendered as block level elements. Setting floats to display inline will fix the double margin bug in ie6. You know... just in case.
+ Legend
+ f = float l = left r = right n = none
 
 */
 .fl { float: left; display: inline; }
@@ -292,7 +294,7 @@
 */
 .serif { font-family: georgia, serif; }
 
-.sans-serif { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
+.sans-serif { font-family: 'Source Sans Pro', sans-serif; }
 
 .code { font-family: Consolas, monaco, monospace; }
 
