@@ -393,9 +393,13 @@ img { max-width: 100%; }
 
 */
 .link { text-decoration: none; -webkit-transition: .4s all; transition: .4s all; }
+
 .link:link { color: #30BBDB; }
+
 .link:visited { color: #2D243B; }
+
 .link:hover { color: #004EAB; }
+
 .link:active { color: #C4E3E0; }
 
 /*
@@ -799,7 +803,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .near-wht { color: #eeeeee; }
 
-.wht { color: white; }
+.wht { color: white !important; }
 
 /* Text colors */
 .aqua { color: #7fdbff; }

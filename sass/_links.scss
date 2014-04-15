@@ -7,10 +7,11 @@
 .link {
   text-decoration: none;
   transition: .4s all;
-
-  &:link    { color: #30BBDB; }
-  &:visited { color: #2D243B; }
-  &:hover   { color: #004EAB; }
-  &:active  { color: #C4E3E0; }
 }
+
+.link:link    { color: #30BBDB; }
+.link:visited { color: #2D243B; }
+.link:hover   { color: #004EAB; }
+.link:active  { color: #C4E3E0; }
+
 
