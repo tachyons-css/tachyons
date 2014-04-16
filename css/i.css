@@ -787,23 +787,23 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 */
 /* Grays */
-.blk { color: #111111; }
+.black { color: #111111; }
 
-.dk-gry { color: #333333; }
+.dk-gray { color: #333333; }
 
-.md-gry { color: #666666; }
+.md-gray { color: #666666; }
 
 .gray { color: #888888; }
 
 .silver { color: #999999; }
 
-.lt-slvr { color: #aaaaaa; }
+.lt-silver { color: #aaaaaa; }
 
-.lt-gry { color: #cccccc; }
+.lt-gray { color: #cccccc; }
 
-.near-wht { color: #eeeeee; }
+.near-white { color: #eeeeee; }
 
-.wht { color: white !important; }
+.white { color: white !important; }
 
 /* Text colors */
 .aqua { color: #7fdbff; }
@@ -833,6 +833,24 @@ table { border-collapse: collapse; border-spacing: 0; }
 .maroon { color: #85144b; }
 
 /* Background colors */
+.bg-blackk { color: #111111; }
+
+.bg-dk-gray { color: #333333; }
+
+.bg-md-gray { color: #666666; }
+
+.bg-gray { color: #888888; }
+
+.bg-silver { color: #999999; }
+
+.bg-lt-silver { color: #aaaaaa; }
+
+.bg-lt-gray { color: #cccccc; }
+
+.bg-near-white { color: #eeeeee; }
+
+.bg-white { color: white !important; }
+
 .bg-aqua { background-color: #7fdbff; }
 
 .bg-blue { background-color: #0074d9; }

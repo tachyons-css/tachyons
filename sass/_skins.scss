@@ -7,15 +7,15 @@
 
 /* Grays */
 
-.blk {      color: $near-black; }
-.dk-gry {   color: $dark-gray; }
-.md-gry {   color: $mid-gray; }
-.gray {     color: $gray; }
-.silver  {  color: $silver; }
-.lt-slvr {  color: $light-silver; }
-.lt-gry {   color: $light-gray; }
-.near-wht { color: $near-white; }
-.wht {      color: $white!important; }
+.black {      color: $near-black; }
+.dk-gray {    color: $dark-gray; }
+.md-gray {    color: $mid-gray; }
+.gray {       color: $gray; }
+.silver  {    color: $silver; }
+.lt-silver {  color: $light-silver; }
+.lt-gray {    color: $light-gray; }
+.near-white { color: $near-white; }
+.white {      color: $white!important; }
 
 
 /* Text colors */
@@ -36,6 +36,15 @@
 
 
 /* Background colors */
+.bg-blackk {      color: $near-black; }
+.bg-dk-gray {   color: $dark-gray; }
+.bg-md-gray {   color: $mid-gray; }
+.bg-gray {     color: $gray; }
+.bg-silver  {  color: $silver; }
+.bg-lt-silver {  color: $light-silver; }
+.bg-lt-gray {   color: $light-gray; }
+.bg-near-white { color: $near-white; }
+.bg-white {      color: $white!important; }
 
 .bg-aqua {    background-color: $aqua; }
 .bg-blue {    background-color: $blue; }
