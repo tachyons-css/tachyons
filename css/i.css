@@ -1531,18 +1531,18 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 */
 /* The Media Object Built by @stubornella http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/  <div class="media attribution">  <a href="http://twitter.com/stubbornella" class="img"> <img src="http://stubbornella.com/profile_image.jpg" alt="me" /> </a>  <div class="bd"> @Stubbornella 14 minutes ago </div>  </div> */
-/* The Flag Object Built by @csswizzrdry http://csswizardry.com/2013/05/the-flag-object/   Use to vertically center text against an image.  <div class="flag"> <div class="flag__image"> <img src="" alt=""> </div> <div class="flag__body"> <p></p> </div> </div>  */
+/* The Flag Object Built by @csswizzrdry http://csswizardry.com/2013/05/the-flag-object/   Use to vertically center text against an image.  <div class="dt wi-100"> <div class="dtc"> <img src="" alt=""> </div> <div class="flag--body"> <p></p> </div> </div>  */
 .flag { display: table; width: 100%; }
 
-.flag__image, .flag__body { display: table-cell; vertical-align: middle; }
-.flag--top .flag__image, .flag--top .flag__body { vertical-align: top; }
-.flag--bottom .flag__image, .flag--bottom .flag__body { vertical-align: bottom; }
+.flag--image, .flag--body { display: table-cell; vertical-align: middle; }
+.flag--top .flag--image, .flag--top .flag--body { vertical-align: top; }
+.flag--bottom .flag--image, .flag--bottom .flag--body { vertical-align: bottom; }
 
-.flag__image { padding-right: 10px; }
-.flag__image > img { display: block; max-width: none; }
-.flag--rev .flag__image { padding-right: 0; padding-left: 10px; }
+.flag--image { padding-right: 10px; }
+.flag--image > img { display: block; max-width: none; }
+.flag--rev .flag--image { padding-right: 0; padding-left: 10px; }
 
-.flag__body { width: 100%; }
+.flag--body { width: 100%; }
 
 /*
  VISIBILITY
@@ -1710,3 +1710,45 @@ table { border-collapse: collapse; border-spacing: 0; }
  Add custom styles here.
 
 */
+/* VERTICAL ALIGN
+*/
+.v-base { vertical-align: baseline; }
+
+.v-sub { vertical-align: sub; }
+
+.v-sup { vertical-align: super; }
+
+.v-txt-top { vertical-align: text-top; }
+
+.v-txt-btm { vertical-align: text-bottom; }
+
+.v-mid { vertical-align: middle; }
+
+.v-top { vertical-align: top; }
+
+.v-btm { vertical-align: bottom; }
+
+@media screen and (min-width: 48em) { .v-base-ns { vertical-align: baseline; }
+  .v-sub-ns { vertical-align: sub; }
+  .v-sup-ns { vertical-align: super; }
+  .v-txt-top-ns { vertical-align: text-top; }
+  .v-txt-btm-ns { vertical-align: text-bottom; }
+  .v-mid-ns { vertical-align: middle; }
+  .v-top-ns { vertical-align: top; }
+  .v-btm-ns { vertical-align: bottom; } }
+@media screen and (min-width: 48em) and (max-width: 64em) { .v-base-m { vertical-align: baseline; }
+  .v-sub-m { vertical-align: sub; }
+  .v-sup-m { vertical-align: super; }
+  .v-txt-top-m { vertical-align: text-top; }
+  .v-txt-btm-m { vertical-align: text-bottom; }
+  .v-mid-m { vertical-align: middle; }
+  .v-top-m { vertical-align: top; }
+  .v-btm-m { vertical-align: bottom; } }
+@media screen and (min-width: 64em) { .v-base-l { vertical-align: baseline; }
+  .v-sub-l { vertical-align: sub; }
+  .v-sup-l { vertical-align: super; }
+  .v-txt-top-l { vertical-align: text-top; }
+  .v-txt-btm-l { vertical-align: text-bottom; }
+  .v-mid-l { vertical-align: middle; }
+  .v-top-l { vertical-align: top; }
+  .v-btm-l { vertical-align: bottom; } }
