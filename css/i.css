@@ -1531,7 +1531,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 */
 /* The Media Object Built by @stubornella http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/  <div class="media attribution">  <a href="http://twitter.com/stubbornella" class="img"> <img src="http://stubbornella.com/profile_image.jpg" alt="me" /> </a>  <div class="bd"> @Stubbornella 14 minutes ago </div>  </div> */
-/* The Flag Object Built by @csswizzrdry http://csswizardry.com/2013/05/the-flag-object/   Use to vertically center text against an image.  <div class="dt wi-100"> <div class="dtc"> <img src="" alt=""> </div> <div class="flag--body"> <p></p> </div> </div>  */
+/* The Flag Object Built by @csswizzrdry http://csswizardry.com/2013/05/the-flag-object/   Use to vertically center text against an image.  <div class="flag"> <div class="flag--image"> <img src="" alt=""> </div> <div class="flag--body"> <p></p> </div> </div>  */
 .flag { display: table; width: 100%; }
 
 .flag--image, .flag--body { display: table-cell; vertical-align: middle; }
