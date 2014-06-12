@@ -33,10 +33,10 @@
  * Use to vertically center text against an image.
  *
  *  <div class="flag">
- *      <div class="flag__image">
+ *      <div class="flag--image">
  *          <img src="" alt="">
  *      </div>
- *      <div class="flag__body">
+ *      <div class="flag--body">
  *          <p></p>
  *      </div>
  *  </div>
@@ -44,12 +44,12 @@
  */
 
 .flag {
-    display: table;
-    width: 100%;
+  display: table;
+  width: 100%;
 }
 
-.flag__image,
-.flag__body {
+.flag--image,
+.flag--body {
     display: table-cell;
     vertical-align: middle;
 
@@ -63,7 +63,7 @@
 
 }
 
-.flag__image {
+.flag--image {
     padding-right: 10px;
 
     > img {
@@ -78,7 +78,7 @@
 
 }
 
-.flag__body {
+.flag--body {
     width: 100%;
 }
 
