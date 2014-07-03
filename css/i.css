@@ -129,6 +129,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 */
 /* variables */
+/*  Box Sizing 
+*/
+div, article, section, main, footer, header { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
 /*
  BACKGROUND SIZE
 
@@ -413,11 +417,11 @@ table { border-collapse: collapse; border-spacing: 0; }
  Font Family Groups
 
 */
-.serif { font-family: georgia, serif; }
+body, .sans-serif { font-family: avenir, 'avenir next', helvetica, 'helvetica neue', arial, sans-serif; }
 
-.sans-serif { font-family: 'Source Sans Pro', sans-serif; }
+.serif { font-family: "Calisto MT", georgia, serif; }
 
-.code { font-family: Consolas, monaco, monospace; }
+.code, code { font-family: Consolas, monaco, monospace; }
 
 .serif-bodini { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
 
