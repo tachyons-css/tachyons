@@ -468,6 +468,9 @@ body, .sans-serif { font-family: avenir, 'avenir next', helvetica, 'helvetica ne
   .fw1-l { font-weight: 100; }
   .fw4-l { font-weight: 400; }
   .fw9-l { font-weight: 900; } }
+/* Forms */
+.input { outline: 0; border: 1px solid #999999; }
+
 /*
  IMAGES
 
