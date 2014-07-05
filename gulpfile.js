@@ -44,10 +44,10 @@ gulp.task('pre-process', function(){
         return files.pipe(sass())
           .pipe(prefix())
           .pipe(size({gzip: true, showFiles: true, title:'pre uncss'}))
-          .pipe(uncss({
-            html: ['index.html']
-          }))
-          .pipe(size({gzip: true, showFiles: true, title:'after uncss'}))
+          //.pipe(uncss({
+          //  html: ['index.html']
+          //}))
+          //.pipe(size({gzip: true, showFiles: true, title:'after uncss'}))
           .pipe(gulp.dest('css'))
           .pipe(browserSync.reload({stream:true}));
       }));
