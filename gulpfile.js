@@ -78,8 +78,8 @@ gulp.task('bs-reload', function () {
 */
 gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync'], function(){
   gulp.start('pre-process', 'csslint');
-  gulp.watch('sass/*.scss', ['pre-process', 'minify-css']);
-  gulp.watch('css/i.css', ['bs-reload']);
+  gulp.watch('sass/*.scss', ['pre-process']);
+  gulp.watch('css/i.css', ['minify-css', 'bs-reload']);
   gulp.watch('*.html', ['bs-reload']);
 });
 
