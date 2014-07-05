@@ -1,29 +1,33 @@
-// Gulp tasks for MNML
+// Gulp tasks for Tachyons
 
 // Load plugins 
 var gulp = require('gulp'),
     gutil = require('gulp-util'),
     watch = require('gulp-watch'),
     prefix = require('gulp-autoprefixer'),
+    uncss = require('gulp-uncss'),
     minifyCSS = require('gulp-minify-css'),
-    sass = require('gulp-ruby-sass'),
+    sass = require('gulp-sass'),
+    size = require('gulp-size'),
+    rename = require('gulp-rename'),
     csslint = require('gulp-csslint'),
     browserSync = require('browser-sync'),
     browserReload = browserSync.reload;
 
-
 // Minify all css files in the css directory
 // Run this in the root directory of the project with `gulp minify-css `
 gulp.task('minify-css', function(){
-  gulp.src('./css/*.css')
-    .pipe(minifyCSS({keepSpecialComments: 0}))
-    .pipe(gulp.dest('./css/i.min.css'));
+  gulp.src('./css/i.css')
+    .pipe(minifyCSS())
+    .pipe(size({gzip: true, showFiles: true, title:'minified css'}))
+    .pipe(rename('i.min.css'))
+    .pipe(gulp.dest('./css/'));
 });
 
 // Use csslint without box-sizing or compatible vendor prefixes (these
 // don't seem to be kept up to date on what to yell about)
 gulp.task('csslint', function(){
-  gulp.src('./css/*.css')
+  gulp.src('./css/i.css')
     .pipe(csslint({
           'compatible-vendor-prefixes': false,
           'box-sizing': false,
@@ -37,8 +41,13 @@ gulp.task('csslint', function(){
 gulp.task('pre-process', function(){
   gulp.src('./sass/i.scss')
       .pipe(watch(function(files) {
-        return files.pipe(sass({loadPath: ['./sass/'], style: "compact"}))
+        return files.pipe(sass())
           .pipe(prefix())
+          .pipe(size({gzip: true, showFiles: true, title:'pre uncss'}))
+          .pipe(uncss({
+            html: ['index.html']
+          }))
+          .pipe(size({gzip: true, showFiles: true, title:'after uncss'}))
           .pipe(gulp.dest('css'))
           .pipe(browserSync.reload({stream:true}));
       }));
@@ -67,9 +76,9 @@ gulp.task('bs-reload', function () {
  • Reloads browsers when you change html or sass files
 
 */
-gulp.task('default', ['pre-process', 'bs-reload', 'browser-sync'], function(){
+gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync'], function(){
   gulp.start('pre-process', 'csslint');
-  gulp.watch('sass/*.scss', ['pre-process']);
+  gulp.watch('sass/*.scss', ['pre-process', 'minify-css']);
   gulp.watch('css/i.css', ['bs-reload']);
   gulp.watch('*.html', ['bs-reload']);
 });
