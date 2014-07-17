@@ -11,6 +11,7 @@ var gulp = require('gulp'),
     size = require('gulp-size'),
     rename = require('gulp-rename'),
     csslint = require('gulp-csslint'),
+    shell = require('gulp-shell'),
     browserSync = require('browser-sync'),
     browserReload = browserSync.reload;
 
@@ -23,6 +24,14 @@ gulp.task('minify-css', function(){
     .pipe(rename('i.min.css'))
     .pipe(gulp.dest('./css/'));
 });
+
+// Runs style guide generator on file change
+gulp.task('hologram', function () {
+  return gulp.src('doc_assets/*', {read: false})
+    .pipe(shell([
+      'hologram'
+    ]))
+})
 
 // Use csslint without box-sizing or compatible vendor prefixes (these
 // don't seem to be kept up to date on what to yell about)
@@ -76,10 +85,10 @@ gulp.task('bs-reload', function () {
  • Reloads browsers when you change html or sass files
 
 */
-gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync'], function(){
+gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync', 'hologram'], function(){
   gulp.start('pre-process', 'csslint');
-  gulp.watch('sass/*.scss', ['pre-process']);
-  gulp.watch('css/i.css', ['minify-css', 'bs-reload']);
-  gulp.watch('*.html', ['bs-reload']);
+  gulp.watch('sass/*.scss', ['pre-process', 'minify-css']);
+  gulp.watch('css/i.css', ['bs-reload']);
+  gulp.watch('doc_assets/*', ['bs-reload', 'hologram']);
 });
 
