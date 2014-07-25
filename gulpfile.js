@@ -42,12 +42,11 @@ gulp.task('pre-process', function(){
   gulp.src('./sass/i.scss')
       .pipe(watch(function(files) {
         return files.pipe(sass())
+          .pipe(size({gzip: false, showFiles: true, title:'PRE-prefixed uncompressed css'}))
+          .pipe(size({gzip: true, showFiles: true, title:'PRE-prefixed uncompressed css'}))
           .pipe(prefix())
-          .pipe(size({gzip: true, showFiles: true, title:'pre uncss'}))
-          //.pipe(uncss({
-          //  html: ['index.html']
-          //}))
-          //.pipe(size({gzip: true, showFiles: true, title:'after uncss'}))
+          .pipe(size({gzip: false, showFiles: true, title:'Prefixed uncompressed css'}))
+          .pipe(size({gzip: true, showFiles: true, title:'Prefixed uncompressed css'}))
           .pipe(gulp.dest('css'))
           .pipe(browserSync.reload({stream:true}));
       }));
@@ -78,8 +77,8 @@ gulp.task('bs-reload', function () {
 */
 gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync'], function(){
   gulp.start('pre-process', 'csslint');
-  gulp.watch('sass/*.scss', ['pre-process']);
-  gulp.watch('css/i.css', ['minify-css', 'bs-reload']);
+  gulp.watch('sass/*.scss', ['pre-process', 'minify-css']);
+  gulp.watch('css/i.css', ['bs-reload']);
   gulp.watch('*.html', ['bs-reload']);
 });
 
