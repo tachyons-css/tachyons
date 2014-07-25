@@ -42,8 +42,10 @@ gulp.task('pre-process', function(){
   gulp.src('./sass/i.scss')
       .pipe(watch(function(files) {
         return files.pipe(sass())
+          .pipe(size({gzip: false, showFiles: true, title:'PRE-prefixed uncompressed css'}))
           .pipe(size({gzip: true, showFiles: true, title:'PRE-prefixed uncompressed css'}))
           .pipe(prefix())
+          .pipe(size({gzip: false, showFiles: true, title:'Prefixed uncompressed css'}))
           .pipe(size({gzip: true, showFiles: true, title:'Prefixed uncompressed css'}))
           .pipe(gulp.dest('css'))
           .pipe(browserSync.reload({stream:true}));
