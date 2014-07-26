@@ -30,5 +30,8 @@
     "gulp-uncss": "^0.4.4",
     "gulp-util": "^2.2.18",
     "gulp-watch": "^0.6.8"
+  },
+  "scripts": {
+    "start": "gulp"
   }
 }
