@@ -14,15 +14,6 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync'),
     browserReload = browserSync.reload;
 
-// Minify all css files in the css directory
-// Run this in the root directory of the project with `gulp minify-css `
-gulp.task('minify-css', function(){
-  gulp.src('./css/i.css')
-    .pipe(minifyCSS())
-    .pipe(size({gzip: true, showFiles: true, title:'minified css'}))
-    .pipe(rename('i.min.css'))
-    .pipe(gulp.dest('./css/'));
-});
 
 // Use csslint without box-sizing or compatible vendor prefixes (these
 // don't seem to be kept up to date on what to yell about)
@@ -42,14 +33,24 @@ gulp.task('pre-process', function(){
   gulp.src('./sass/i.scss')
       .pipe(watch(function(files) {
         return files.pipe(sass())
-          .pipe(size({gzip: false, showFiles: true, title:'PRE-prefixed uncompressed css'}))
-          .pipe(size({gzip: true, showFiles: true, title:'PRE-prefixed uncompressed css'}))
+          .pipe(size({gzip: false, showFiles: true, title:'un-prefixed uncompressed css'}))
+          .pipe(size({gzip: true, showFiles: true, title:'un-prefixed uncompressed css'}))
           .pipe(prefix())
-          .pipe(size({gzip: false, showFiles: true, title:'Prefixed uncompressed css'}))
-          .pipe(size({gzip: true, showFiles: true, title:'Prefixed uncompressed css'}))
+          .pipe(size({gzip: false, showFiles: true, title:'prefixed uncompressed css'}))
+          .pipe(size({gzip: true, showFiles: true, title:'prefixed uncompressed css'}))
           .pipe(gulp.dest('css'))
           .pipe(browserSync.reload({stream:true}));
       }));
+});
+
+// Minify all css files in the css directory
+// Run this in the root directory of the project with `gulp minify-css `
+gulp.task('minify-css', function(){
+  gulp.src('./css/i.css')
+    .pipe(minifyCSS())
+    .pipe(rename('i.min.css'))
+    .pipe(gulp.dest('./css/'))
+    .pipe(size({gzip: true, showFiles: true, title:'minified css'}));
 });
 
 // Initialize browser-sync which starts a static server also allows for 
