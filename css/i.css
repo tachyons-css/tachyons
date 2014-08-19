@@ -3291,10 +3291,10 @@ img {
   font-size: 1.5rem; }
 
 .f3 {
-  font-size: 1.2rem; }
+  font-size: 1.25rem; }
 
 .f4 {
-  font-size: 1.2rem; }
+  font-size: 1.25rem; }
 
 .f5 {
   font-size: 1rem; }
@@ -3310,9 +3310,9 @@ img {
   .f2-ns {
     font-size: 1.5rem; }
   .f3-ns {
-    font-size: 1.2rem; }
+    font-size: 1.25em; }
   .f4-ns {
-    font-size: 1.2rem; }
+    font-size: 1.25rem; }
   .f5-ns {
     font-size: 1rem; }
   .f6-ns {
@@ -3326,9 +3326,9 @@ img {
   .f2-m {
     font-size: 1.5rem; }
   .f3-m {
-    font-size: 1.2rem; }
+    font-size: 1.25rem; }
   .f4-m {
-    font-size: 1.2rem; }
+    font-size: 1.25rem; }
   .f5-m {
     font-size: 1rem; }
   .f6-m {
@@ -3344,7 +3344,7 @@ img {
   .f3-l {
     font-size: 1.5rem; }
   .f4-l {
-    font-size: 1.2rem; }
+    font-size: 1.25rem; }
   .f5-l {
     font-size: 1rem; }
   .f6-l {
