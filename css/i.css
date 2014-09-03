@@ -327,6 +327,13 @@ table {
 
 */
 /* variables */
+/* Base.css */
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
 /* 
   Box Sizing 
 */
@@ -1178,6 +1185,13 @@ body, .sans-serif {
 @media screen and (min-width: 48em) and (max-width: 64em) { }
 
 @media screen and (min-width: 64em) { }
+
+/* Heights */
+.h-50 {
+  height: 50%; }
+
+.h-100 {
+  height: 100%; }
 
 /*
 
