@@ -37,6 +37,7 @@
 .top-i { top: inherit; ;}
 
 .center { margin: 0 auto; }
+.centered { margin: 0 auto; }
 
 @include break(not-small) {
   .pos-stat-ns { position: static; }

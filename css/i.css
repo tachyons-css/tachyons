@@ -1744,6 +1744,9 @@ img {
 .center {
   margin: 0 auto; }
 
+.centered {
+  margin: 0 auto; }
+
 @media screen and (min-width: 48em) {
   .pos-stat-ns {
     position: static; }
