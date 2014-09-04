@@ -328,10 +328,7 @@ table {
 */
 /* variables */
 /* Base.css */
-html {
-  height: 100%; }
-
-body {
+html, body {
   height: 100%; }
 
 /* 
