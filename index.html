@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="css/i.min.css">
   </head>
   <body>
-    <header class="bg-blue pas pam-m pvxl-l tc-ns">
+    <header class="bg-blue phs pvm pam-m pvxl-l tc-ns">
       <h1 class="aqua f5 mega-ns dib db-ns b mrs mrn-ns mbn ttu">Tachyons </h1>
-      <h2 class="aqua f5 f4-ns dib db-ns fw1 mbx">A performance-first CSS framework</h2>
-      <a href="http://github.com/mrmrs/tachyons/" class="f6 link white">View on Github ▸</a>
+      <h2 class="aqua f5 f4-ns dib db-ns fw1 mbm mbx-ns">Performance-first CSS</h2>
+      <a href="http://github.com/mrmrs/tachyons/" class="dn f6 link white tc db-ns">View on Github ▸</a>
     </header>
     <main>
       <div class="pas pam-m pal-l center mw7">
+        <h1 class="fw4 small ttu mtl">About</h1>
         <p class="serif lh-copy f5 f4-ns">A set of single purpose css classes that make it easy to design fully responsive websites/apps in the browser without writing any css.</p>
         <p class="serif lh-copy f5 f4-ns">Build jank-free highly performant interfaces with just <i>7.6kb</i> of css</p>
 
@@ -59,16 +60,34 @@
           <div class="small f5-ns fl wi-100 pam bg-maroon">.bg-maroon { background-color: #85144B; }</div>
         </div>
         <h2 class="ttu mtx">Floats</h2>
-        <p class="serif mtx f2">Simple utilities for floating an element at any breakpoint</p>
-        <div class="cf">
-          <div class="fl pal bg-orange">Float left</div>
-          <div class="fr pal bg-aqua">
-            Float right
-          </div>
-          <div class="fn pal bg-red tc">
-            Float none
-          </div>
-        </div>
+        <p class="serif">Simple, single purpose utilities for floating any element at any breakpoint</p>
+        <article class="pvl bt bb b--near-white">
+          <p class="serif f2">Single-purpose float classes</p>
+          <h4>The CSS</h4>
+<pre class="small">
+<code>
+.fl { float: left; }
+.fr { float: right; }
+.fn { float: none; }
+</code>
+</pre>
+
+          <h4>The HTML</h4>
+<pre class="small">
+<code>
+&lt;div class="cf"&gt;
+  &lt;div class="fl pal bg-orange"&gt; Float left  &lt;/div&gt;
+  &lt;div class="fr pal bg-aqua"&gt;   Float right &lt;/div&gt;
+  &lt;div class="fn pal bg-red tc"&gt; Float none  &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+<div class="cf">
+  <div class="fl f6 f4-ns pal bg-orange"> Float left  </div>
+  <div class="fr f6 f4-ns pal bg-aqua">   Float right </div>
+  <div class="fn f6 f4-ns pal bg-red tc"> Float none  </div>
+</div>
+</article>
         <p class="serif mtx f2">Float an image left only at screensizes larger than mobile.</p>
         <div class="cf mtl">
           <img src="http://placekitten.com/900/480/" class="fl-ns wi-50-ns mrm-ns mbm-ns" />
