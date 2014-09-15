@@ -327,12 +327,8 @@ table {
 
 */
 /* variables */
-/* Base.css */
-html, body {
-  height: 100%; }
-
-/* 
-  Box Sizing 
+/*
+  Box Sizing
 */
 div, article, section, main, footer, header {
   -webkit-box-sizing: border-box;
@@ -705,9 +701,9 @@ div, article, section, main, footer, header {
  * License: MIT
  *
  *                */
-/* 
+/*
 
-  Base .btn class 
+  Base .btn class
 
   Code:
   <a href="#" class="btn">Default button</a>
@@ -739,10 +735,10 @@ div, article, section, main, footer, header {
   -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
   transition: background-color 0.3s, color 0.3s, border 0.3s; }
 
-/* 
+/*
 
-  Sizes 
-  
+  Sizes
+
   Small  = .btn--s
   Medium = .btn--m
   Large  = .btn--l
@@ -763,9 +759,9 @@ div, article, section, main, footer, header {
   font-size: 20px;
   border-radius: 0.25em !important; }
 
-/* 
+/*
 
-  Layout utility for responsive buttons 
+  Layout utility for responsive buttons
 
   Code:
   <a href="#" class="btn btn--full">
@@ -924,6 +920,10 @@ div, article, section, main, footer, header {
   display: block;
   overflow: hidden;
   width: auto !important; }
+
+.dbf {
+  display: block;
+  width: 100%; }
 
 /*
 
@@ -1173,7 +1173,7 @@ body, .sans-serif {
     font-weight: 900; } }
 
 /* Forms */
-.input {
+.input-text {
   outline: 0;
   border: 1px solid #999; }
 
@@ -1182,241 +1182,6 @@ body, .sans-serif {
 @media screen and (min-width: 48em) and (max-width: 64em) { }
 
 @media screen and (min-width: 64em) { }
-
-/*
-
-   Heights
-
-*/
-/* Width Scale */
-.wi1 {
-  height: 1rem; }
-
-.wi2 {
-  height: 2rem; }
-
-.wi3 {
-  height: 4rem; }
-
-.wi4 {
-  height: 8rem; }
-
-.wi5 {
-  height: 16rem; }
-
-.hi-10 {
-  height: 10%; }
-
-.hi-20 {
-  height: 20%; }
-
-.hi-25 {
-  height: 25%; }
-
-.hi-40 {
-  height: 40%; }
-
-.hi-50 {
-  height: 50%; }
-
-.hi-60 {
-  height: 60%; }
-
-.hi-75 {
-  height: 75%; }
-
-.hi-80 {
-  height: 80%; }
-
-.hi-100 {
-  height: 100%; }
-
-/* Width String Properties */
-.hi-bb {
-  height: border-box; }
-
-.hi-cb {
-  height: content-box; }
-
-.hi-mx {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content; }
-
-.hi-mn {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content; }
-
-.hi-av {
-  height: available; }
-
-.hi-fc {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content; }
-
-.hi-at {
-  height: auto; }
-
-.hi-i {
-  height: inherit; }
-
-@media screen and (min-width: 48em) {
-  .wi1-ns {
-    height: 1rem; }
-  .wi2-ns {
-    height: 2rem; }
-  .wi3-ns {
-    height: 4rem; }
-  .wi4-ns {
-    height: 8rem; }
-  .wi5-ns {
-    height: 16rem; }
-  .hi-10-ns {
-    height: 10%; }
-  .hi-20-ns {
-    height: 20%; }
-  .hi-25-ns {
-    height: 25%; }
-  .hi-40-ns {
-    height: 40%; }
-  .hi-50-ns {
-    height: 50%; }
-  .hi-60-ns {
-    height: 60%; }
-  .hi-75-ns {
-    height: 75%; }
-  .hi-80-ns {
-    height: 80%; }
-  .hi-100-ns {
-    height: 100%; }
-  .hi-bb-ns {
-    height: border-box; }
-  .hi-cb-ns {
-    height: content-box; }
-  .hi-mx-ns {
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content; }
-  .hi-mn-ns {
-    height: -webkit-min-content;
-    height: -moz-min-content;
-    height: min-content; }
-  .hi-av-ns {
-    height: available; }
-  .hi-fc-ns {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content; }
-  .hi-at-ns {
-    height: auto; }
-  .hi-i-ns {
-    height: inherit; } }
-
-@media screen and (min-width: 48em) and (max-width: 64em) {
-  .wi1-m {
-    height: 1rem; }
-  .wi2-m {
-    height: 2rem; }
-  .wi3-m {
-    height: 4rem; }
-  .wi4-m {
-    height: 8rem; }
-  .wi5-m {
-    height: 16rem; }
-  .hi-10-m {
-    height: 10%; }
-  .hi-20-m {
-    height: 20%; }
-  .hi-25-m {
-    height: 25%; }
-  .hi-40-m {
-    height: 40%; }
-  .hi-50-m {
-    height: 50%; }
-  .hi-60-m {
-    height: 60%; }
-  .hi-75-m {
-    height: 75%; }
-  .hi-80-m {
-    height: 80%; }
-  .hi-100-m {
-    height: 100%; }
-  .hi-bb-m {
-    height: border-box; }
-  .hi-cb-m {
-    height: content-box; }
-  .hi-mx-m {
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content; }
-  .hi-mn-m {
-    height: -webkit-min-content;
-    height: -moz-min-content;
-    height: min-content; }
-  .hi-av-m {
-    height: available; }
-  .hi-fc-m {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content; }
-  .hi-at-m {
-    height: auto; }
-  .hi-i-m {
-    height: inherit; } }
-
-@media screen and (min-width: 64em) {
-  .wi1-l {
-    height: 1rem; }
-  .wi2-l {
-    height: 2rem; }
-  .wi3-l {
-    height: 4rem; }
-  .wi4-l {
-    height: 8rem; }
-  .wi5-l {
-    height: 16rem; }
-  .hi-10-l {
-    height: 10%; }
-  .hi-20-l {
-    height: 20%; }
-  .hi-25-l {
-    height: 25%; }
-  .hi-40-l {
-    height: 40%; }
-  .hi-50-l {
-    height: 50%; }
-  .hi-60-l {
-    height: 60%; }
-  .hi-75-l {
-    height: 75%; }
-  .hi-80-l {
-    height: 80%; }
-  .hi-100-l {
-    height: 100%; }
-  .hi-bb-l {
-    height: border-box; }
-  .hi-cb-l {
-    height: content-box; }
-  .hi-mx-l {
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content; }
-  .hi-mn-l {
-    height: -webkit-min-content;
-    height: -moz-min-content;
-    height: min-content; }
-  .hi-av-l {
-    height: available; }
-  .hi-fc-l {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content; }
-  .hi-at-l {
-    height: auto; }
-  .hi-i-l {
-    height: inherit; } }
 
 /*
 
@@ -1969,9 +1734,6 @@ img {
 .center {
   margin: 0 auto; }
 
-.centered {
-  margin: 0 auto; }
-
 @media screen and (min-width: 48em) {
   .pos-stat-ns {
     position: static; }
@@ -2123,71 +1885,71 @@ img {
 */
 /* Grays */
 .black {
-  color: #111; }
+  color: #111 !important; }
 
 .dark-gray {
-  color: #333; }
+  color: #333 !important; }
 
 .mid-gray {
-  color: #666; }
+  color: #666 !important; }
 
 .gray {
-  color: #888; }
+  color: #888 !important; }
 
 .silver {
-  color: #999; }
+  color: #999 !important; }
 
 .light-silver {
-  color: #aaa; }
+  color: #aaa !important; }
 
 .light-gray {
-  color: #ccc; }
+  color: #ccc !important; }
 
 .near-white {
-  color: #eee; }
+  color: #eee !important; }
 
 .white {
   color: #fff !important; }
 
 /* Text colors */
 .aqua {
-  color: #7FDBFF; }
+  color: #7FDBFF !important; }
 
 .blue {
-  color: #0074D9; }
+  color: #0074D9 !important; }
 
 .navy {
-  color: #001F3F; }
+  color: #001F3F !important; }
 
 .teal {
-  color: #39CCCC; }
+  color: #39CCCC !important; }
 
 .green {
-  color: #2ECC40; }
+  color: #2ECC40 !important; }
 
 .olive {
-  color: #3D9970; }
+  color: #3D9970 !important; }
 
 .lime {
-  color: #01FF70; }
+  color: #01FF70 !important; }
 
 .yellow {
-  color: #FFDC00; }
+  color: #FFDC00 !important; }
 
 .orange {
-  color: #FF851B; }
+  color: #FF851B !important; }
 
 .red {
-  color: #FF4136; }
+  color: #FF4136 !important; }
 
 .fuchsia {
-  color: #F012BE; }
+  color: #F012BE !important; }
 
 .purple {
-  color: #B10DC9; }
+  color: #B10DC9 !important; }
 
 .maroon {
-  color: #85144B; }
+  color: #85144B !important; }
 
 /* Background colors */
 .bg-black {
@@ -2215,7 +1977,7 @@ img {
   background-color: #eee; }
 
 .bg-white {
-  background-color: #fff !important; }
+  background-color: #fff; }
 
 .bg-aqua {
   background-color: #7FDBFF; }
@@ -3522,9 +3284,6 @@ img {
 /* ==========================================================================
    TYPE SCALE
    ========================================================================== */
-.mega {
-  font-size: 4rem; }
-
 .f1 {
   font-size: 2rem; }
 
@@ -3535,14 +3294,17 @@ img {
   font-size: 1.25rem; }
 
 .f4 {
+  font-size: 1.25rem; }
+
+.f5 {
   font-size: 1rem; }
 
-.f5, .small {
+.f6, .small {
   font-size: 0.85rem; }
 
 @media screen and (min-width: 48em) {
   .mega-ns {
-    font-size: 4rem; }
+    font-size: 3rem; }
   .f1-ns {
     font-size: 2rem; }
   .f2-ns {
@@ -3558,7 +3320,7 @@ img {
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
   .mega-m {
-    font-size: 4rem; }
+    font-size: 3rem; }
   .f1-m {
     font-size: 2rem; }
   .f2-m {
@@ -3566,23 +3328,27 @@ img {
   .f3-m {
     font-size: 1.25rem; }
   .f4-m {
-    font-size: 1rem; }
+    font-size: 1.25rem; }
   .f5-m {
+    font-size: 1rem; }
+  .f6-m {
     font-size: 0.85rem; } }
 
 @media screen and (min-width: 64em) {
   .mega-l {
     font-size: 4rem; }
   .f1-l {
-    font-size: 2rem; }
+    font-size: 3rem; }
   .f2-l {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .f3-l {
-    font-size: 1.25rem; }
+    font-size: 1.5rem; }
   .f4-l {
-    font-size: 1rem; }
+    font-size: 1.25rem; }
   .f5-l {
-    font-size: 0.85rem; } }
+    font-size: 1rem; }
+  .f6-l {
+    font-size: 1rem; } }
 
 /*
 
@@ -3982,36 +3748,6 @@ img {
     width: auto; }
   .wi-i-l {
     width: inherit; } }
-
-/*
-
-   WORD SPACING
-
-*/
-.wsn {
-  word-spacing: normal; }
-
-.wsib {
-  word-spacing: -0.43em; }
-
-/* For eliminating space between inline-block elements */
-@media screen and (min-width: 48em) {
-  .wsn-ns {
-    word-spacing: normal; }
-  .wsib-ns {
-    word-spacing: -0.43em; } }
-
-@media screen and (min-width: 48em) and (max-width: 64em) {
-  .wsn-m {
-    word-spacing: normal; }
-  .wsib-m {
-    word-spacing: -0.43em; } }
-
-@media screen and (min-width: 64em) {
-  .wsn-l {
-    word-spacing: normal; }
-  .wsib-l {
-    word-spacing: -0.43em; } }
 
 /*
 

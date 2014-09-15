@@ -18,7 +18,7 @@ var gulp = require('gulp'),
 // Use csslint without box-sizing or compatible vendor prefixes (these
 // don't seem to be kept up to date on what to yell about)
 gulp.task('csslint', function(){
-  gulp.src('./css/i.css')
+  gulp.src('./css/tachyons.css')
     .pipe(csslint({
           'compatible-vendor-prefixes': false,
           'box-sizing': false,
@@ -30,7 +30,7 @@ gulp.task('csslint', function(){
 
 // Task that compiles scss files down to good old css
 gulp.task('pre-process', function(){
-  gulp.src('./sass/i.scss')
+  gulp.src('./sass/tachyons.scss')
       .pipe(watch(function(files) {
         return files.pipe(sass())
           .pipe(size({gzip: false, showFiles: true, title:'un-prefixed uncompressed css'}))
@@ -46,9 +46,9 @@ gulp.task('pre-process', function(){
 // Minify all css files in the css directory
 // Run this in the root directory of the project with `gulp minify-css `
 gulp.task('minify-css', function(){
-  gulp.src('./css/i.css')
+  gulp.src('./css/tachyons.css')
     .pipe(minifyCSS())
-    .pipe(rename('i.min.css'))
+    .pipe(rename('tachyons.min.css'))
     .pipe(gulp.dest('./css/'))
     .pipe(size({gzip: true, showFiles: true, title:'minified css'}));
 });
@@ -79,7 +79,7 @@ gulp.task('bs-reload', function () {
 gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync'], function(){
   gulp.start('pre-process', 'csslint');
   gulp.watch('sass/*.scss', ['pre-process', 'minify-css']);
-  gulp.watch('css/i.css', ['bs-reload']);
+  gulp.watch('css/tachyons.css', ['bs-reload']);
   gulp.watch('*.html', ['bs-reload']);
 });
 

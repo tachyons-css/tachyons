@@ -7,32 +7,32 @@
 
 /* Grays */
 
-.black {        color: $near-black; }
-.dark-gray {    color: $dark-gray; }
-.mid-gray {     color: $mid-gray; }
-.gray {         color: $gray; }
-.silver  {      color: $silver; }
-.light-silver { color: $light-silver; }
-.light-gray {   color: $light-gray; }
-.near-white {   color: $near-white; }
+.black {        color: $near-black!important; }
+.dark-gray {    color: $dark-gray!important; }
+.mid-gray {     color: $mid-gray!important; }
+.gray {         color: $gray!important; }
+.silver  {      color: $silver!important; }
+.light-silver { color: $light-silver!important; }
+.light-gray {   color: $light-gray!important; }
+.near-white {   color: $near-white!important; }
 .white {        color: $white!important; }
 
 
 /* Text colors */
 
-.aqua {    color: $aqua; }
-.blue {    color: $blue; }
-.navy {    color: $navy; }
-.teal {    color: $teal; }
-.green {   color: $green; }
-.olive {   color: $olive; }
-.lime {    color: $lime; }
-.yellow {  color: $yellow; }
-.orange {  color: $orange; }
-.red {     color: $red; }
-.fuchsia { color: $fuchsia; }
-.purple {  color: $purple; }
-.maroon {  color: $maroon; }
+.aqua {    color: $aqua!important; }
+.blue {    color: $blue!important; }
+.navy {    color: $navy!important; }
+.teal {    color: $teal!important; }
+.green {   color: $green!important; }
+.olive {   color: $olive!important; }
+.lime {    color: $lime!important; }
+.yellow {  color: $yellow!important; }
+.orange {  color: $orange!important; }
+.red {     color: $red!important; }
+.fuchsia { color: $fuchsia!important; }
+.purple {  color: $purple!important; }
+.maroon {  color: $maroon!important; }
 
 
 /* Background colors */
@@ -45,7 +45,7 @@
 .bg-light-silver {  background-color: $light-silver; }
 .bg-light-gray {    background-color: $light-gray; }
 .bg-near-white { background-color: $near-white; }
-.bg-white {      background-color: $white!important; }
+.bg-white {      background-color: $white; }
 
 .bg-aqua {    background-color: $aqua; }
 .bg-blue {    background-color: $blue; }
@@ -60,8 +60,11 @@
 .bg-fuchsia { background-color: $fuchsia; }
 .bg-purple {  background-color: $purple; }
 .bg-maroon {  background-color: $maroon; }
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> master
