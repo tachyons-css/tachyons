@@ -1885,71 +1885,71 @@ img {
 */
 /* Grays */
 .black {
-  color: #111; }
+  color: #111 !important; }
 
 .dark-gray {
-  color: #333; }
+  color: #333 !important; }
 
 .mid-gray {
-  color: #666; }
+  color: #666 !important; }
 
 .gray {
-  color: #888; }
+  color: #888 !important; }
 
 .silver {
-  color: #999; }
+  color: #999 !important; }
 
 .light-silver {
-  color: #aaa; }
+  color: #aaa !important; }
 
 .light-gray {
-  color: #ccc; }
+  color: #ccc !important; }
 
 .near-white {
-  color: #eee; }
+  color: #eee !important; }
 
 .white {
   color: #fff !important; }
 
 /* Text colors */
 .aqua {
-  color: #7FDBFF; }
+  color: #7FDBFF !important; }
 
 .blue {
-  color: #0074D9; }
+  color: #0074D9 !important; }
 
 .navy {
-  color: #001F3F; }
+  color: #001F3F !important; }
 
 .teal {
-  color: #39CCCC; }
+  color: #39CCCC !important; }
 
 .green {
-  color: #2ECC40; }
+  color: #2ECC40 !important; }
 
 .olive {
-  color: #3D9970; }
+  color: #3D9970 !important; }
 
 .lime {
-  color: #01FF70; }
+  color: #01FF70 !important; }
 
 .yellow {
-  color: #FFDC00; }
+  color: #FFDC00 !important; }
 
 .orange {
-  color: #FF851B; }
+  color: #FF851B !important; }
 
 .red {
-  color: #FF4136; }
+  color: #FF4136 !important; }
 
 .fuchsia {
-  color: #F012BE; }
+  color: #F012BE !important; }
 
 .purple {
-  color: #B10DC9; }
+  color: #B10DC9 !important; }
 
 .maroon {
-  color: #85144B; }
+  color: #85144B !important; }
 
 /* Background colors */
 .bg-black {
