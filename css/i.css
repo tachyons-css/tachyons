@@ -1977,7 +1977,7 @@ img {
   background-color: #eee; }
 
 .bg-white {
-  background-color: #fff !important; }
+  background-color: #fff; }
 
 .bg-aqua {
   background-color: #7FDBFF; }
@@ -3748,36 +3748,6 @@ img {
     width: auto; }
   .wi-i-l {
     width: inherit; } }
-
-/*
-
-   WORD SPACING
-
-*/
-.wsn {
-  word-spacing: normal; }
-
-.wsib {
-  word-spacing: -0.43em; }
-
-/* For eliminating space between inline-block elements */
-@media screen and (min-width: 48em) {
-  .wsn-ns {
-    word-spacing: normal; }
-  .wsib-ns {
-    word-spacing: -0.43em; } }
-
-@media screen and (min-width: 48em) and (max-width: 64em) {
-  .wsn-m {
-    word-spacing: normal; }
-  .wsib-m {
-    word-spacing: -0.43em; } }
-
-@media screen and (min-width: 64em) {
-  .wsn-l {
-    word-spacing: normal; }
-  .wsib-l {
-    word-spacing: -0.43em; } }
 
 /*
 
