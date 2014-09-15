@@ -327,8 +327,8 @@ table {
 
 */
 /* variables */
-/* 
-  Box Sizing 
+/*
+  Box Sizing
 */
 div, article, section, main, footer, header {
   -webkit-box-sizing: border-box;
@@ -701,9 +701,9 @@ div, article, section, main, footer, header {
  * License: MIT
  *
  *                */
-/* 
+/*
 
-  Base .btn class 
+  Base .btn class
 
   Code:
   <a href="#" class="btn">Default button</a>
@@ -735,10 +735,10 @@ div, article, section, main, footer, header {
   -webkit-transition: background-color 0.3s, color 0.3s, border 0.3s;
   transition: background-color 0.3s, color 0.3s, border 0.3s; }
 
-/* 
+/*
 
-  Sizes 
-  
+  Sizes
+
   Small  = .btn--s
   Medium = .btn--m
   Large  = .btn--l
@@ -759,9 +759,9 @@ div, article, section, main, footer, header {
   font-size: 20px;
   border-radius: 0.25em !important; }
 
-/* 
+/*
 
-  Layout utility for responsive buttons 
+  Layout utility for responsive buttons
 
   Code:
   <a href="#" class="btn btn--full">
@@ -1173,7 +1173,7 @@ body, .sans-serif {
     font-weight: 900; } }
 
 /* Forms */
-.input {
+.input-text {
   outline: 0;
   border: 1px solid #999; }
 
