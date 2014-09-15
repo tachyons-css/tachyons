@@ -7,6 +7,10 @@ article,
 section,
 main,
 footer,
-header {
+header,
+form,
+fieldset,
+input[type="text"]{
   box-sizing: border-box;
 }
+
