@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      TACHYONS - Form follows function
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/tachyons.css">
+
+    <style>
+      html , body { font-family: "Open Sans"; }
+    </style>
+
+  </head>
+  <body>
+    <section>
+      <h1 class="dn">Sign up form</h1>
+      <div class="center mw6">
+      <form class="pan wi-100 mtl">
+        <fieldset id="Sign Up" class="bn phn">
+          <legend class="f4 b mhn bb b--near-white pbm mbm wi-100 db">Create a free account</legend>
+          <div>
+            <label class="db b" for="email">Email</label>
+            <input class=" br2 ba b--silver pas dib" type="text" name="email" value="Example: first.name@email.com" id="email">
+            <p class="form-error red mts f5 small">Please enter a valid email address</p>
+          </div>
+          <div class="mtm">
+            <label class="db b" for="email-verify">Verify email</label>
+            <input class="br2 ba b--silver pas mw6" type="text" name="email-verify" value="Re-enter email" id="email-verify">
+            <p class="form-error red mts f5 small">Please enter a valid email address</p>
+            <p class="form-error red mts f5 small">Your emails do not match. Please try again.</p>
+          </div>
+          <div class="mtm">
+            <label class="db b" for="password">Password</label>
+            <input class="br2 ba b--silver pas mw5" type="password" name="password" value="" id="email-verify">
+            <p class="form-error red mts f5 small">Please enter a valid password (must be at least 6 characters)</p>
+          </div>
+          <div class="dt-ns mtl">
+            <button class="f5 br2 bn pvs phm dtc-ns v-mid mrm">Sign up</button>
+            <p class="small dtc-ns v-mid">
+              By clicking Sign up, <br>I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+            </p>
+          </div>
+          <p>
+            Already have an account? Sign In ▸
+          </p>
+        </fieldset><!-- #Sign Up -->
+      </form>
+    </div>
+    </section>
+    <section>
+    </section>
+  </body>
+</html>
