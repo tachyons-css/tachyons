@@ -6,11 +6,11 @@
 
 /* Width Scale */
 
-.wi1 {  height: 1rem; }
-.wi2 {  height: 2rem; }
-.wi3 {  height: 4rem; }
-.wi4 {  height: 8rem; }
-.wi5 {  height: 16rem; }
+.hi1 {  height: 1rem; }
+.hi2 {  height: 2rem; }
+.hi3 {  height: 4rem; }
+.hi4 {  height: 8rem; }
+.hi5 {  height: 16rem; }
 
 .hi-10 { height:  10%; }
 .hi-20 { height:  20%; }
@@ -20,7 +20,7 @@
 .hi-60 { height:  60%; }
 .hi-75 { height:  75%; }
 .hi-80 { height:  80%; }
-.hi-100 { height: 100%; }
+.hi-100 { height: 100%!important; }
 
 /* Width String Properties */
 
@@ -34,11 +34,11 @@
 .hi-i {  height: inherit; }
 
 @include break(not-small) {
-  .wi1-ns {  height: 1rem; }
-  .wi2-ns {  height: 2rem; }
-  .wi3-ns {  height: 4rem; }
-  .wi4-ns {  height: 8rem; }
-  .wi5-ns {  height: 16rem; }
+  .hi1-ns {  height: 1rem; }
+  .hi2-ns {  height: 2rem; }
+  .hi3-ns {  height: 4rem; }
+  .hi4-ns {  height: 8rem; }
+  .hi5-ns {  height: 16rem; }
   .hi-10-ns { height:  10%; }
   .hi-20-ns { height:  20%; }
   .hi-25-ns { height:  25%; }
