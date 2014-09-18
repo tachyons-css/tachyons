@@ -1098,6 +1098,9 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
 body, .sans-serif {
   font-family: avenir, 'avenir next', helvetica, 'helvetica neue', arial, sans-serif; }
 
+.open-sans {
+  font-family: "Open sans", sans-serif; }
+
 .serif {
   font-family: "Calisto MT", georgia, serif; }
 
