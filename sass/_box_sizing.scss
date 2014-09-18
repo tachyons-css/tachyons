@@ -10,7 +10,10 @@ footer,
 header,
 form,
 fieldset,
-input[type="text"]{
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
   box-sizing: border-box;
 }
 
