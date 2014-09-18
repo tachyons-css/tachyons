@@ -330,7 +330,7 @@ table {
 /*
   Box Sizing
 */
-div, article, section, main, footer, header, form, fieldset, input[type="text"] {
+div, article, section, main, footer, header, form, fieldset, input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -729,8 +729,6 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"] 
   color: #111;
   display: inline-block;
   letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
-  padding: 1em 0.75em;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-transition: color 0.4s, background-color 0.4s, border 0.4s;
@@ -1755,6 +1753,9 @@ img {
   top: inherit; }
 
 .center {
+  margin: 0 auto; }
+
+.centered {
   margin: 0 auto; }
 
 @media screen and (min-width: 48em) {
@@ -3463,6 +3464,9 @@ img {
 /* ==========================================================================
    TYPE SCALE
    ========================================================================== */
+.mega {
+  font-size: 4rem; }
+
 .f1 {
   font-size: 2rem; }
 
@@ -3473,17 +3477,14 @@ img {
   font-size: 1.25rem; }
 
 .f4 {
-  font-size: 1.25rem; }
-
-.f5 {
   font-size: 1rem; }
 
-.f6, .small {
+.f5, .small {
   font-size: 0.85rem; }
 
 @media screen and (min-width: 48em) {
   .mega-ns {
-    font-size: 3rem; }
+    font-size: 4rem; }
   .f1-ns {
     font-size: 2rem; }
   .f2-ns {
@@ -3499,7 +3500,7 @@ img {
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
   .mega-m {
-    font-size: 3rem; }
+    font-size: 4rem; }
   .f1-m {
     font-size: 2rem; }
   .f2-m {
@@ -3507,27 +3508,23 @@ img {
   .f3-m {
     font-size: 1.25rem; }
   .f4-m {
-    font-size: 1.25rem; }
-  .f5-m {
     font-size: 1rem; }
-  .f6-m {
+  .f5-m {
     font-size: 0.85rem; } }
 
 @media screen and (min-width: 64em) {
   .mega-l {
     font-size: 4rem; }
   .f1-l {
-    font-size: 3rem; }
-  .f2-l {
     font-size: 2rem; }
-  .f3-l {
+  .f2-l {
     font-size: 1.5rem; }
-  .f4-l {
+  .f3-l {
     font-size: 1.25rem; }
-  .f5-l {
+  .f4-l {
     font-size: 1rem; }
-  .f6-l {
-    font-size: 1rem; } }
+  .f5-l {
+    font-size: 0.85rem; } }
 
 /*
 
