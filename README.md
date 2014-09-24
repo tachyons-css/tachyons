@@ -11,7 +11,7 @@ Simple modules and components that move faster than the speed of light.
 Set up the project by cloning the repo, navigating into it, then installing the necessary dependencies by running:
 
 ```
- git clone git@github:mrmrs/tachyons.git yourProject
+ git clone git@github.com:mrmrs/tachyons.git yourProject
  cd yourProject
  rm -rf .git
  git init
