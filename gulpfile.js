@@ -12,7 +12,8 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     csslint = require('gulp-csslint'),
     browserSync = require('browser-sync'),
-    browserReload = browserSync.reload;
+    browserReload = browserSync.reload,
+    stylestats = require('gulp-stylestats');
 
 
 // Use csslint without box-sizing or compatible vendor prefixes (these
@@ -62,6 +63,14 @@ gulp.task('browser-sync', function() {
         }
     });
 });
+
+
+
+gulp.task('stylestats', function () {
+  gulp.src('./css/tachyons.css')
+    .pipe(stylestats());
+});
+
 
 // Function to call for reloading browsers
 gulp.task('bs-reload', function () {
