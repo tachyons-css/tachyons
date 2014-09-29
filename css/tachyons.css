@@ -420,6 +420,18 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"] 
 .b--white {
   border-color: #fff; }
 
+.b--white-25 {
+  border-color: rgba(255, 255, 255, 0.25); }
+
+.b--black-25 {
+  border-color: rgba(0, 0, 0, 0.25); }
+
+.b--white-50 {
+  border-color: rgba(255, 255, 255, 0.5); }
+
+.b--black-50 {
+  border-color: rgba(0, 0, 0, 0.5); }
+
 .b--aqua {
   border-color: #7FDBFF; }
 
