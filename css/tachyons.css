@@ -979,7 +979,9 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"] 
   display: inline-table; }
 
 .dt {
-  display: table; }
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
 
 .dtc {
   display: table-cell; }
@@ -1002,7 +1004,9 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"] 
   .dit-ns {
     display: inline-table; }
   .dt-ns {
-    display: table; }
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
   .dtc-ns {
     display: table-cell; }
   .dtcol-ns {
@@ -1022,7 +1026,9 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"] 
   .dit-m {
     display: inline-table; }
   .dt-m {
-    display: table; }
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
   .dtc-m {
     display: table-cell; }
   .dtcol-m {
@@ -1042,7 +1048,9 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"] 
   .dit-l {
     display: inline-table; }
   .dt-l {
-    display: table; }
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
   .dtc-l {
     display: table-cell; }
   .dtcol-l {
