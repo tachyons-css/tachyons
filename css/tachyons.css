@@ -327,6 +327,9 @@ table {
 
 */
 /* variables */
+html, body {
+  height: 100%; }
+
 /*
   Box Sizing
 */
