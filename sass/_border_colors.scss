@@ -15,6 +15,11 @@
 .b--near-white {   border-color: $near-white; }
 .b--white {        border-color: $white; }
 
+.b--white-25 {   border-color: hsla(0, 0%, 100%, .25); }
+.b--black-25 {   border-color: hsla(0, 100%, 0%, .25); }
+.b--white-50 {   border-color: hsla(0, 0%, 100%, .5); }
+.b--black-50 {   border-color: hsla(0, 100%, 0%, .5); }
+
 .b--aqua {         border-color: $aqua; }
 .b--blue {         border-color: $blue; }
 .b--navy {         border-color: $navy; }

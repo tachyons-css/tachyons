@@ -22,16 +22,7 @@
 .wi-80 { width:  80%; }
 .wi-100 { width: 100%; }
 
-/* Width String Properties */
-
-.wi-bb { width: border-box; }
-.wi-cb { width: content-box; }
-.wi-mx { width: max-content; }
-.wi-mn { width: min-content; }
-.wi-av { width: available; }
-.wi-fc { width: fit-content; }
 .wi-at { width: auto; }
-.wi-i {  width: inherit; }
 
 @include break(not-small) {
   .wi1-ns {  width: 1rem; }
@@ -48,14 +39,7 @@
   .wi-75-ns { width:  75%; }
   .wi-80-ns { width:  80%; }
   .wi-100-ns { width: 100%; }
-  .wi-bb-ns { width: border-box; }
-  .wi-cb-ns { width: content-box; }
-  .wi-mx-ns { width: max-content; }
-  .wi-mn-ns { width: min-content; }
-  .wi-av-ns { width: available; }
-  .wi-fc-ns { width: fit-content; }
   .wi-at-ns { width: auto; }
-  .wi-i-ns {  width: inherit; }
 }
 
 @include break(medium) {
@@ -73,14 +57,7 @@
   .wi-75-m { width:  75%; }
   .wi-80-m { width:  80%; }
   .wi-100-m { width: 100%; }
-  .wi-bb-m {    width: border-box; }
-  .wi-cb-m {    width: content-box; }
-  .wi-mx-m {    width: max-content; }
-  .wi-mn-m {    width: min-content; }
-  .wi-av-m {    width: available; }
-  .wi-fc-m {    width: fit-content; }
   .wi-at-m {    width: auto; }
-  .wi-i-m {     width: inherit; }
 }
 
 @include break(large) {
@@ -98,12 +75,5 @@
   .wi-75-l {    width:  75%; }
   .wi-80-l {    width:  80%; }
   .wi-100-l {   width: 100%; }
-  .wi-bb-l {    width: border-box; }
-  .wi-cb-l {    width: content-box; }
-  .wi-mx-l {    width: max-content; }
-  .wi-mn-l {    width: min-content; }
-  .wi-av-l {    width: available; }
-  .wi-fc-l {    width: fit-content; }
   .wi-at-l {    width: auto; }
-  .wi-i-l {     width: inherit; }
 }

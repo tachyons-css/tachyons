@@ -1,9 +1,10 @@
 // TACHYONS
-//
+
 @import "normalize";
 @import "queries";
 @import "colors";
 
+@import "base";
 @import "box_sizing";
 @import "background_size";
 @import "border_colors";
@@ -27,6 +28,8 @@
 @import "links";
 @import "lists";
 @import "max_widths";
+@import "widths";
+@import "heights";
 @import "overflow";
 @import "position";
 @import "skins";
@@ -39,7 +42,6 @@
 @import "utilities";
 @import "visibility";
 @import "white_space";
-@import "widths";
 @import "styles";
 @import "vertical_align";
 

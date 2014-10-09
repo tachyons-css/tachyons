@@ -1,60 +1,38 @@
 # TACHYONS
 
+WIP (heavily in flux)
+
 A performance-first css framework
 
-Simple modules and components that move faster than the speed of light.
-
-
+Single purpose classes that are extremely composable.
 
 ## Getting started
 
-Set up the project by cloning the repo, navigating into it, then installing the necessary dependencies by running:
+Set up the project by cloning the repo, navigating into it, and installing the necessary dependencies by running the following commands:
 
 ```
- git clone git@github:mrmrs/tachyons.git yourProject
+ git clone git@github.com:mrmrs/tachyons.git yourProject
  cd yourProject
  rm -rf .git
  git init
  git add remote git@github.com/yourUserName/yourProject.git
- npm install -g gulp
- npm install .
+ npm install
 ```
 
 ### To run the development environment
-
-Once you've run npm install just run this very complicated command in your terminal to start gulp
-
-    gulp
+```
+npm start
+```
 
 This will watch the sass directory and do the following on file change:
-  • Compile scss files down to css/i.css
-  • Run autoprefixer on css/app.css (this allows you to keep vendor prefixes out of your css)
+  • Compile scss files down to css/tachyons.css 
+  • Run autoprefixer on css/tachyons.css (this allows you to keep vendor prefixes out of your css)
   • Run csslint and spit the output to your terminal window where you are running gulp
-  • Run an instance of livereload. With the chrome and safari extensions, you can see
-    changes in the browser without hitting refresh
-
-### To minify assets for production
-
-    gulp production
-
-This will
-  • Compile scss files down to css/i.css
-  • Run autoprefixer on css/app.css (this allows you to keep vendor prefixes out of your css)
-  • Minify all css files and move them to in the ./css
-  • Compress / minify all images in the ./img directory
-  • Compress / minify all svg elements in the ./img/svg/ directory
+  • Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change.
 
 ## Perf Stats
 
-This will be where I track performance benchmarks
-
-### File sizes
-
-```
-i.css       53kb
-i.min.css   36kb
-gzipped     6.2kb
-```
+Coming soon...
 
 ## License
 

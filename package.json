@@ -28,6 +28,7 @@
     "gulp-sass": "^0.7.2",
     "gulp-shell": "^0.2.8",
     "gulp-size": "^0.4.0",
+    "gulp-stylestats": "^0.2.8",
     "gulp-uncss": "^0.4.4",
     "gulp-util": "^2.2.18",
     "gulp-watch": "^0.6.8"
