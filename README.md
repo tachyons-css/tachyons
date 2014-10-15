@@ -45,19 +45,16 @@ all scroll simultaneously. If you fill out a form on one device all devices will
 
 ## Built with Tachyons
 
-[http://mrmrs.io/btns/]
-[http://clrs.cc]
-[http://pesticide.io]
-[http://zachhurd.com]
-[http://mrmrs.io/beats/]
-[http://mrmrs.io/up/]
-[http://mrmrs.cc]
-[http://mrmrs.io]
-[http://designbytyping.com]
-[http://☠☣.ws]
-
-
-
+* http://clrs.cc
+* http://pesticide.io
+* http://mrmrs.io/btns/
+* http://zachhurd.com
+* http://mrmrs.cc
+* http://mrmrs.io
+* http://mrmrs.io/up/
+* http://mrmrs.io/beats/
+* http://designbytyping.com
+* http://☠☣.ws
 
 ## License
 
