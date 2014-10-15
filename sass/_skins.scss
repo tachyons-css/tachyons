@@ -90,6 +90,11 @@
 .bg-purple-hover:hover {  background-color: $purple!important; }
 .bg-maroon-hover:hover {  background-color: $maroon!important; }
 
+.dim { border-color: $aqua; transition: border-color .15s ease-out; }
+.dim:hover { border-color: rgba(255,255,255,.4); transition: border-color .1s ease-in; }
+.dim:active,
+.dim:focus { border-color: rgba(255,255,255,.8); transition: border-color .1s ease-out; }
+
 /* Background colors */
 
 .bg-black {      background-color: $near-black; }

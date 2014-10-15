@@ -2304,6 +2304,21 @@ img {
 .bg-maroon-hover:hover {
   background-color: #85144B !important; }
 
+.dim {
+  border-color: #7FDBFF;
+  -webkit-transition: border-color 0.15s ease-out;
+  transition: border-color 0.15s ease-out; }
+
+.dim:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: border-color 0.1s ease-in;
+  transition: border-color 0.1s ease-in; }
+
+.dim:active, .dim:focus {
+  border-color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: border-color 0.1s ease-out;
+  transition: border-color 0.1s ease-out; }
+
 /* Background colors */
 .bg-black {
   background-color: #111; }
