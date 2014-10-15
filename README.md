@@ -1,6 +1,7 @@
 # TACHYONS
 
-WIP (heavily in flux)
+WIP (heavily in flux).
+More documetation and examples will be coming soon.
 
 Build responsive, performant, and easy to maintain interfaces faster.
 
@@ -30,9 +31,22 @@ This will watch the sass directory and do the following on file change:
 * Run csslint and spit the print the results to your terminal window 
 * Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change.
 
+## Built with Tachyons
+[http://mrmrs.io/btns/]
+[http://clrs.cc]
+[http://pesticide.io]
+[http://zachhurd.com]
+[http://mrmrs.io/beats/]
+[http://mrmrs.io/up/]
+[http://mrmrs.cc]
+[http://mrmrs.io]
+[http://designbytyping.com]
+[http://☠☣.ws]
+
+
 ## Perf Stats
 
-Coming soon...
+Coming eventually...
 
 ## License
 
