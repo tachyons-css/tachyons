@@ -23,6 +23,7 @@
     "gulp": "^3.8.2",
     "gulp-autoprefixer": "0.0.7",
     "gulp-csslint": "^0.1.4",
+    "gulp-file-include": "^0.5.1",
     "gulp-minify-css": "^0.3.5",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^0.7.2",
@@ -34,6 +35,7 @@
     "gulp-watch": "^0.6.8"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "test": "gulp fileinclude"
   }
 }

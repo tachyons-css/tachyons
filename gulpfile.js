@@ -11,10 +11,19 @@ var gulp = require('gulp'),
     size = require('gulp-size'),
     rename = require('gulp-rename'),
     csslint = require('gulp-csslint'),
+    fileinclude = require('gulp-file-include'),
     browserSync = require('browser-sync'),
     browserReload = browserSync.reload,
     stylestats = require('gulp-stylestats');
 
+gulp.task('fileinclude', function() {
+  gulp.src(['test.html'])
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@views'
+    }))
+    .pipe(gulp.dest('./'));
+});
 
 // Use csslint without box-sizing or compatible vendor prefixes (these
 // don't seem to be kept up to date on what to yell about)
@@ -34,11 +43,11 @@ gulp.task('pre-process', function(){
   gulp.src('./sass/tachyons.scss')
       .pipe(watch(function(files) {
         return files.pipe(sass())
-          .pipe(size({gzip: false, showFiles: true, title:'un-prefixed uncompressed css'}))
-          .pipe(size({gzip: true, showFiles: true, title:'un-prefixed uncompressed css'}))
+          .pipe(size({gzip: false, showFiles: true, title:'un-prefixed css'}))
+          .pipe(size({gzip: true, showFiles: true, title:'un-prefixed gzipped css'}))
           .pipe(prefix())
-          .pipe(size({gzip: false, showFiles: true, title:'prefixed uncompressed css'}))
-          .pipe(size({gzip: true, showFiles: true, title:'prefixed uncompressed css'}))
+          .pipe(size({gzip: false, showFiles: true, title:'prefixed css'}))
+          .pipe(size({gzip: true, showFiles: true, title:'prefixed css'}))
           .pipe(gulp.dest('css'))
           .pipe(browserSync.reload({stream:true}));
       }));
@@ -86,7 +95,7 @@ gulp.task('bs-reload', function () {
 
 */
 gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync'], function(){
-  gulp.start('pre-process', 'csslint');
+  gulp.start('pre-process', 'minify-css', 'csslint');
   gulp.watch('sass/*.scss', ['pre-process', 'minify-css']);
   gulp.watch('css/tachyons.css', ['bs-reload']);
   gulp.watch('*.html', ['bs-reload']);
