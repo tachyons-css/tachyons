@@ -2,9 +2,7 @@
 
 WIP (heavily in flux)
 
-A performance-first css framework
-
-Single purpose classes that are extremely composable.
+Build responsive, performant, and easy to maintain interfaces faster.
 
 ## Getting started
 
@@ -19,16 +17,18 @@ Set up the project by cloning the repo, navigating into it, and installing the n
  npm install
 ```
 
+You can alternatively fork the repo and clone your own version of it.
+
 ### To run the development environment
 ```
 npm start
 ```
 
 This will watch the sass directory and do the following on file change:
-  • Compile scss files down to css/tachyons.css 
-  • Run autoprefixer on css/tachyons.css (this allows you to keep vendor prefixes out of your css)
-  • Run csslint and spit the output to your terminal window where you are running gulp
-  • Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change.
+* Compile scss files down to css/tachyons.css and css/tachyons.min.css
+* Run autoprefixer on css/tachyons.css (this allows you to keep vendor prefixes out of your source files)
+* Run csslint and spit the print the results to your terminal window 
+* Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change.
 
 ## Perf Stats
 
