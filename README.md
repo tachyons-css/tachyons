@@ -5,6 +5,16 @@ More documetation and examples will be coming soon.
 
 Build responsive, performant, and easy to maintain interfaces faster.
 
+## Principles
+
+* Everything should be 100% responsive
+* Everything should be readable on any device
+* Everything should be as performant as possible 
+* Designing in the browser should be easy
+* It should be easy to change an interface without breaking any existing interfaces
+* Doing one thing extremely well promotes reusability and reduces repetition 
+* CSS is for users. Not developers.
+
 ## Getting started
 
 Set up the project by cloning the repo, navigating into it, and installing the necessary dependencies by running the following commands:
@@ -28,10 +38,13 @@ npm start
 This will watch the sass directory and do the following on file change:
 * Compile scss files down to css/tachyons.css and css/tachyons.min.css
 * Run autoprefixer on css/tachyons.css (this allows you to keep vendor prefixes out of your source files)
-* Run csslint and spit the print the results to your terminal window 
-* Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change.
+* Run csslint and print the results to your terminal window 
+* Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change. It will also keep all browsers in sync with eachother i.e. they will
+all scroll simultaneously. If you fill out a form on one device all devices will be updated with that content. It's a huge help if you are testing multiple browsers or devices.
+
 
 ## Built with Tachyons
+
 [http://mrmrs.io/btns/]
 [http://clrs.cc]
 [http://pesticide.io]
@@ -44,9 +57,7 @@ This will watch the sass directory and do the following on file change:
 [http://☠☣.ws]
 
 
-## Perf Stats
 
-Coming eventually...
 
 ## License
 
