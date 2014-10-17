@@ -17,7 +17,6 @@
 .near-white {   color: $near-white!important; }
 .white {        color: $white!important; }
 
-
 /* Text colors */
 
 .aqua {    color: $aqua!important; }
@@ -32,8 +31,65 @@
 .red {     color: $red!important; }
 .fuchsia { color: $fuchsia!important; }
 .purple {  color: $purple!important; }
+
+/* Background colors */
+
+.bg-black {         background-color: $near-black; }
+.bg-dark-gray {     background-color: $dark-gray; }
+.bg-mid-gray {      background-color: $mid-gray; }
+.bg-gray {          background-color: $gray; }
+.bg-silver  {       background-color: $silver; }
+.bg-light-silver {  background-color: $light-silver; }
+.bg-light-gray {    background-color: $light-gray; }
+.bg-near-white {    background-color: $near-white; }
+.bg-white {         background-color: $white; }
+
+.bg-aqua {    background-color: $aqua; }
+.bg-blue {    background-color: $blue; }
+.bg-navy {    background-color: $navy; }
+.bg-teal {    background-color: $teal; }
+.bg-green {   background-color: $green; }
+.bg-olive {   background-color: $olive; }
+.bg-lime {    background-color: $lime; }
+.bg-yellow {  background-color: $yellow; }
+.bg-orange {  background-color: $orange; }
+.bg-red {     background-color: $red; }
+.bg-fuchsia { background-color: $fuchsia; }
+.bg-purple {  background-color: $purple; }
+.bg-maroon {  background-color: $maroon; }
 .maroon {  color: $maroon!important; }
 
+// SVG Skins
+
+.fill-aqua {    fill: $aqua; }
+.fill-blue {    fill: $blue; }
+.fill-navy {    fill: $navy; }
+.fill-teal {    fill: $teal; }
+.fill-green {   fill: $green; }
+.fill-olive {   fill: $olive; }
+.fill-lime {    fill: $lime; }
+.fill-yellow {  fill: $yellow; }
+.fill-orange {  fill: $orange; }
+.fill-red {     fill: $red; }
+.fill-fuchsia { fill: $fuchsia; }
+.fill-purple {  fill: $purple; }
+.fill-maroon {  fill: $maroon; }
+
+.stroke-aqua {    stroke: $aqua; }
+.stroke-blue {    stroke: $blue; }
+.stroke-navy {    stroke: $navy; }
+.stroke-teal {    stroke: $teal; }
+.stroke-green {   stroke: $green; }
+.stroke-olive {   stroke: $olive; }
+.stroke-lime {    stroke: $lime; }
+.stroke-yellow {  stroke: $yellow; }
+.stroke-orange {  stroke: $orange; }
+.stroke-red {     stroke: $red; }
+.stroke-fuchsia { stroke: $fuchsia; }
+.stroke-purple {  stroke: $purple; }
+.stroke-maroon {  stroke: $maroon; }
+
+// Skins for specific pseudoclasses
 .aqua-focus:focus {    color: $aqua!important; }
 .blue-focus:focus {    color: $blue!important; }
 .navy-focus:focus {    color: $navy!important; }
@@ -95,28 +151,3 @@
 .dim:active,
 .dim:focus { border-color: rgba(255,255,255,.8); transition: border-color .1s ease-out; }
 
-/* Background colors */
-
-.bg-black {      background-color: $near-black; }
-.bg-dark-gray {    background-color: $dark-gray; }
-.bg-mid-gray {    background-color: $mid-gray; }
-.bg-gray {       background-color: $gray; }
-.bg-silver  {    background-color: $silver; }
-.bg-light-silver {  background-color: $light-silver; }
-.bg-light-gray {    background-color: $light-gray; }
-.bg-near-white { background-color: $near-white; }
-.bg-white {      background-color: $white; }
-
-.bg-aqua {    background-color: $aqua; }
-.bg-blue {    background-color: $blue; }
-.bg-navy {    background-color: $navy; }
-.bg-teal {    background-color: $teal; }
-.bg-green {   background-color: $green; }
-.bg-olive {   background-color: $olive; }
-.bg-lime {    background-color: $lime; }
-.bg-yellow {  background-color: $yellow; }
-.bg-orange {  background-color: $orange; }
-.bg-red {     background-color: $red; }
-.bg-fuchsia { background-color: $fuchsia; }
-.bg-purple {  background-color: $purple; }
-.bg-maroon {  background-color: $maroon; }
