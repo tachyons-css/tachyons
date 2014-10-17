@@ -14,8 +14,27 @@ Build responsive, performant, and easy to maintain interfaces faster.
 * It should be easy to change an interface without breaking any existing interfaces
 * Doing one thing extremely well promotes reusability and reduces repetition 
 
+## Features
+
+* Mobile-first css 
+* Single-purpose class architecture
+* Optimized for maximum gzip compression
+* Less than 10kb when minified and gzipped
+* Usable across projects
+* Currently built on sass. Will eventually move the main build to rework, but will offer ports for less, sass, stylus, and vanilla css.
+
 ## Getting started
 
+The easiest way to use tachyons is to include the minified file in the head. 
+You can include the latest, minified version of tachyons by including this in the head of your html file
+### Include it in a project
+```
+<link rel="http://tachyons.io/css/tachyons.min.css">
+```
+
+I will add version controlled cdn hosted options soon.
+
+### Modify the source
 Set up the project by cloning the repo, navigating into it, and installing the necessary dependencies by running the following commands:
 
 ```
@@ -33,7 +52,6 @@ You can alternatively fork the repo and clone your own version of it.
 ```
 npm start
 ```
-
 This will watch the sass directory and do the following on file change:
 * Compile scss files down to css/tachyons.css and css/tachyons.min.css
 * Run autoprefixer on css/tachyons.css (this allows you to keep vendor prefixes out of your source files)
