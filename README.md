@@ -13,7 +13,6 @@ Build responsive, performant, and easy to maintain interfaces faster.
 * Designing in the browser should be easy
 * It should be easy to change an interface without breaking any existing interfaces
 * Doing one thing extremely well promotes reusability and reduces repetition 
-* CSS is for users. Not developers.
 
 ## Getting started
 
