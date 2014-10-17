@@ -3758,10 +3758,8 @@ img {
   .f3-ns {
     font-size: 1.25em; }
   .f4-ns {
-    font-size: 1.25rem; }
-  .f5-ns {
     font-size: 1rem; }
-  .f6-ns {
+  .f5-ns {
     font-size: 0.85rem; } }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
