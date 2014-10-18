@@ -21,12 +21,16 @@ Build responsive, performant, and easy to maintain interfaces faster.
 * Optimized for maximum gzip compression
 * Less than 10kb when minified and gzipped
 * Usable across projects
-* Currently built on sass. Will eventually move the main build to rework, but will offer ports for less, sass, stylus, and vanilla css.
+* Infinitely nestable responsive grid system
+* Nice default color palettes
+* Currently built on sass. Will eventually move the main build to rework, 
+but will offer ports for less, sass, stylus, and vanilla css.
 
 ## Getting started
 
 The easiest way to use tachyons is to include the minified file in the head. 
 You can include the latest, minified version of tachyons by including this in the head of your html file
+
 ### Include it in a project
 ```
 <link rel="http://tachyons.io/css/tachyons.min.css">
@@ -55,7 +59,7 @@ npm start
 This will watch the sass directory and do the following on file change:
 * Compile scss files down to css/tachyons.css and css/tachyons.min.css
 * Run autoprefixer on css/tachyons.css (this allows you to keep vendor prefixes out of your source files)
-* Run csslint and print the results to your terminal window 
+* Run csslint and print the results to your terminal window. 
 * Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change. It will also keep all browsers in sync with eachother i.e. they will
 all scroll simultaneously. If you fill out a form on one device all devices will be updated with that content. It's a huge help if you are testing multiple browsers or devices.
 
