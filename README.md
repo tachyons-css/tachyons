@@ -59,7 +59,6 @@ This will watch the sass directory and do the following on file change:
 * Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change. It will also keep all browsers in sync with eachother i.e. they will
 all scroll simultaneously. If you fill out a form on one device all devices will be updated with that content. It's a huge help if you are testing multiple browsers or devices.
 
-
 ## Built with Tachyons
 
 * http://clrs.cc
@@ -72,6 +71,23 @@ all scroll simultaneously. If you fill out a form on one device all devices will
 * http://mrmrs.io/beats/
 * http://designbytyping.com
 * http://☠☣.ws
+
+## Tachyons is built with
+
+* https://github.com/gulpjs/gulp
+* https://github.com/shakyShane/browser-sync
+* https://github.com/dlmanning/gulp-sass
+* https://github.com/postcss/autoprefixer
+* https://github.com/jonathanepollack/gulp-minify-css
+* https://github.com/hparra/gulp-rename
+* https://github.com/sun-zheng-an/gulp-shell
+* https://github.com/sindresorhus/gulp-size
+* https://github.com/CSSLint/csslint
+* https://github.com/coderhaoxin/gulp-file-include
+* https://github.com/t32k/stylestats
+* https://github.com/giakki/uncss
+* https://github.com/gulpjs/gulp-util
+* https://github.com/floatdrop/gulp-watch
 
 ## License
 
