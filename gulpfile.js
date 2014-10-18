@@ -71,6 +71,7 @@ gulp.task('pre-process', function(){
           .pipe(minifyCSS())
           .pipe(rename('tachyons.min.css'))
           .pipe(gulp.dest('./css/'))
+          .pipe(size({gzip: false, showFiles: true, title:'minified css'}))
           .pipe(size({gzip: true, showFiles: true, title:'minified css'}))
           .pipe(browserSync.reload({stream:true}));
       }));
@@ -83,6 +84,7 @@ gulp.task('minify-css', function(){
     .pipe(minifyCSS())
     .pipe(rename('tachyons.min.css'))
     .pipe(gulp.dest('./css/'))
+    .pipe(size({gzip: false, showFiles: true, title:'minified css'}))
     .pipe(size({gzip: true, showFiles: true, title:'minified css'}));
 });
 
