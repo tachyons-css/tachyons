@@ -2,6 +2,7 @@
 
 // Load plugins 
 var gulp = require('gulp'),
+    fs = require('fs'),
     gutil = require('gulp-util'),
     watch = require('gulp-watch'),
     prefix = require('gulp-autoprefixer'),
@@ -11,6 +12,7 @@ var gulp = require('gulp'),
     size = require('gulp-size'),
     rename = require('gulp-rename'),
     csslint = require('gulp-csslint'),
+    css = require('css'),
     fileinclude = require('gulp-file-include'),
     browserSync = require('browser-sync'),
     browserReload = browserSync.reload,
@@ -23,6 +25,23 @@ gulp.task('fileinclude', function() {
       basepath: '@views'
     }))
     .pipe(gulp.dest('./'));
+});
+
+
+gulp.task('generateDocs', function() {
+
+  var content;
+  // First I want to read the file
+  fs.readFile('./css/tachyons.css', function read(err, data) {
+      if (err) {
+          throw err;
+      }
+      content = data;
+      var ast = css.parse(content, {source: 'css/tachyons.css'});
+      console.log(ast.stylesheet);
+
+  });
+
 });
 
 // Use csslint without box-sizing or compatible vendor prefixes (these
@@ -49,6 +68,10 @@ gulp.task('pre-process', function(){
           .pipe(size({gzip: false, showFiles: true, title:'prefixed css'}))
           .pipe(size({gzip: true, showFiles: true, title:'prefixed css'}))
           .pipe(gulp.dest('css'))
+          .pipe(minifyCSS())
+          .pipe(rename('tachyons.min.css'))
+          .pipe(gulp.dest('./css/'))
+          .pipe(size({gzip: true, showFiles: true, title:'minified css'}))
           .pipe(browserSync.reload({stream:true}));
       }));
 });
