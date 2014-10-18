@@ -1,7 +1,7 @@
 # TACHYONS
 
 WIP (heavily in flux).
-More documetation and examples will be coming soon.
+More documentation and examples will be coming soon.
 
 Build responsive, performant, and easy to maintain interfaces faster.
 
@@ -19,7 +19,7 @@ Build responsive, performant, and easy to maintain interfaces faster.
 * Mobile-first css 
 * Single-purpose class architecture
 * Optimized for maximum gzip compression
-* Less than 10kb when minified and gzipped
+* 8.57kB when minified and gzipped
 * Usable across projects
 * Currently built on sass. Will eventually move the main build to rework, but will offer ports for less, sass, stylus, and vanilla css.
 
@@ -29,7 +29,7 @@ The easiest way to use tachyons is to include the minified file in the head.
 You can include the latest, minified version of tachyons by including this in the head of your html file
 ### Include it in a project
 ```
-<link rel="http://tachyons.io/css/tachyons.min.css">
+<link rel="stylesheet" src="http://tachyons.io/css/tachyons.min.css">
 ```
 
 I will add version controlled cdn hosted options soon.
@@ -89,6 +89,13 @@ all scroll simultaneously. If you fill out a form on one device all devices will
 * https://github.com/gulpjs/gulp-util
 * https://github.com/floatdrop/gulp-watch
 
+## File Sizes
+
+|         Name         |                |    gzipped     |
+|----------------------|----------------|----------------|
+|   tachyons.css       |    74.43 kB    |    13.03 kB    | 
+|   tachyons.min.css   |    47.43 kB    |     8.57 kB    |
+ 
 ## License
 
 The MIT License (MIT)
