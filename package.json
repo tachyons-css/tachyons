@@ -20,6 +20,9 @@
   },
   "devDependencies": {
     "browser-sync": "^1.1.1",
+    "css": "^2.1.0",
+    "css-parse": "^2.0.0",
+    "fs": "0.0.2",
     "gulp": "^3.8.2",
     "gulp-autoprefixer": "0.0.7",
     "gulp-csslint": "^0.1.4",
@@ -36,6 +39,7 @@
   },
   "scripts": {
     "start": "gulp",
-    "test": "gulp fileinclude"
+    "test": "gulp fileinclude",
+    "ast": "gulp generateDocs"
   }
 }
