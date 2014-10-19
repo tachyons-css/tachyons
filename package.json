@@ -39,6 +39,7 @@
   },
   "scripts": {
     "start": "gulp",
+    "stats": "gulp stylestats",
     "test": "gulp fileinclude",
     "ast": "gulp generateDocs"
   }
