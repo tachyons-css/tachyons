@@ -37,6 +37,12 @@
     "gulp-util": "^2.2.18",
     "gulp-watch": "^0.6.8"
   },
+  "contributors": [
+    { "name": "adam morse", "email": "hi@mrmrs.cc" },
+    { "name": "robert forloine", "url": "http://www.sndsgn.com"},
+    { "name": "david potsiadlo", "url": "http://www.davidpots.com/"},
+    { "name": "tyler benziger", "url": "http://tybenz.com"}
+  ],
   "scripts": {
     "start": "gulp",
     "test": "gulp fileinclude",
