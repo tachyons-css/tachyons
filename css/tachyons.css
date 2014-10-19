@@ -388,6 +388,23 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
     -webkit-background-size: auto;
     background-size: auto; } }
 
+@-webkit-keyframes pulsate {
+  0% {
+    background: #0074D9;
+    color: #7FDBFF; }
+
+  50% {
+    background: #0085f3;
+    color: #7ddeff; }
+
+  100% {
+    background: #0074D9;
+    color: #7FDBFF; } }
+
+.bg-pulsate {
+  -webkit-animation: pulsate 4s linear infinite;
+  animation: pulsate 4s linear infinite; }
+
 /*
 
    BORDER BASE

@@ -1,0 +1,23 @@
+@-webkit-keyframes pulsate {
+    0% {
+      background: $blue;
+      color: $aqua;
+    }
+
+
+    50% {
+      background: lighten($blue, 5%);
+      color: saturate($aqua, 3%);
+    }
+
+    100% {
+      background: $blue;
+      color: $aqua;
+    }
+}
+
+.bg-pulsate {
+    -webkit-animation: pulsate 4s linear infinite;
+    animation: pulsate 4s linear infinite
+}
+
