@@ -1362,32 +1362,17 @@ img {
 .list {
   list-style-type: none; }
 
-.list--h {
-  list-style-type: none; }
-  .list--h .list--h-item {
-    display: inline-block; }
-
 @media screen and (min-width: 48em) {
-  .list--h-ns {
-    list-style-type: none; }
-    .list--h-ns .list--h-item-ns {
-      display: inline-block; } }
+  .list-ns {
+    list-style-type: none; } }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
   .list-m {
-    list-style: none; }
-  .list--h-m {
-    list-style-type: none; }
-    .list--h-m .list--h-item {
-      display: inline-block; } }
+    list-style: none; } }
 
 @media screen and (min-width: 64em) {
   .list-l {
-    list-style-type: none; }
-  .list--h-l {
-    list-style-type: none; }
-    .list--h-l .list--h-item {
-      display: inline-block; } }
+    list-style-type: none; } }
 
 /*
 
