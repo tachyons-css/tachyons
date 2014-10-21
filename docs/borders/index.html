@@ -4,21 +4,118 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>
-      TACHYONS - Form follows function
+      Borders / Docs / TACHYONS
     </title>
     <meta name="author" content="@mrmrs">
-    <meta name="description" content="">
+    <meta name="description" content="CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="/css/tachyons.min.css">
+    <link rel="stylesheet" href="/css/tachyons.css">
   </head>
-  <body class="dt wi-100">
-    <header class="bg-blue tc h-100 pvx dtc wi-100 v-mid">
-      <div class="tc mbl mbn-ns">
-        <h1 class="aqua f5 mega-ns dib db-ns b mrs mrn-ns mbn ttu mtn">Tachyons </h1>
-        <h2 class="aqua f5 f4-ns dib db-ns fw1 mbm mbx-ns">Performance-first CSS</h2>
-      </div>
-      <a title="Tachyons" href="http://github.com/mrmrs/tachyons/" class="small link aqua ba b--aqua tc br2 pas pam-ns">View on Github ▸</a>
+  <body class="wi-100">
+    <header class="phm phl-ns bb b--light-gray">
+      <h1 class="f3 fw4"><a class="link" href="/" title="home">Tachyons</a></h1>
     </header>
+    <main class="center mw8 phm phl-ns pbxl">
+      <h1 class="ttu f3 mtx">Borders</h1>
+      <p>Seperate utilities for border: colors, styles, widths, side(s). Mix and match for a wide variety of border styles.</p>
+<h2 class="f3 ttu fw4 mbl mtx">Border Colors</h2>
+<article class="phm pts pbm brs ba b--light-gray">
+<h3 class="f4 fw4 bb b--light-gray pbm mbl">Black, white, and some things in between</h3>
+<div class="cf wi-100">
+  <div class="wi-50-ns fl-ns">
+      <div class="mbs pas dib bw1 ba b--black">        $black; </div>
+      <div class="mbs pas dib bw1 ba b--near-black">   $near-black; </div>
+      <div class="mbs pas dib bw1 ba b--dark-gray">    $dark-gray; </div>
+      <div class="mbs pas dib bw1 ba b--mid-gray">     $mid-gray; </div>
+      <div class="mbs pas dib bw1 ba b--gray">         $gray; </div>
+      <div class="mbs pas dib bw1 ba b--silver">       $silver; </div>
+      <div class="mbs pas dib bw1 ba b--light-silver"> $light-silver; </div>
+      <div class="mbs pas dib bw1 ba b--light-gray">   $light-gray; </div>
+      <div class="mbs pas dib bw1 ba b--near-white">   $near-white; </div>
+      <div class="bg-black paxs white dib">
+        <div class="mbs pas dib bw1 ba b--white">        $white; </div>
+      </div>
+  </div>
+<div class="wi-50-ns fl-ns pll-ns">
+<h1 class="f4 fw4 mtl mtn-ns">The code</h1>
+<pre class="ofx-auto mtn"> <code class="mtn" style="font-size: 12px">
+.b--black {        border-color: $black; }
+.b--near-black {   border-color: $near-black; }
+.b--dark-gray {    border-color: $dark-gray; }
+.b--mid-gray {     border-color: $mid-gray; }
+.b--gray {         border-color: $gray; }
+.b--silver {       border-color: $silver; }
+.b--light-silver { border-color: $light-silver; }
+.b--light-gray {   border-color: $light-gray; }
+.b--near-white {   border-color: $near-white; }
+.b--white {        border-color: $white; }
+</code>
+</pre>
+</div>
+</div>
+</article>
+<article class="ba mtl brs b--light-gray pam">
+<h3 class="f4 fw4 bb b--light-gray pbm mbl">Standard color strings</h3>
+  <div class="cf">
+    <div class="wi-50-ns fl-ns">
+      <div class="dib mbs pas ba b--aqua ">         $aqua; </div>
+    <div class="dib mbs pas ba b--blue ">          $blue; ; </div>
+    <div class="dib mbs pas ba b--navy ">          $navy; ; </div>
+    <div class="dib mbs pas ba b--teal ">          $teal; ; </div>
+    <div class="dib mbs pas ba b--green ">         $green; ; </div>
+    <div class="dib mbs pas ba b--olive ">         $olive; ; </div>
+    <div class="dib mbs pas ba b--lime ">          $lime; ; </div>
+    <div class="dib mbs pas ba b--yellow ">        $yellow; ; </div>
+    <div class="dib mbs pas ba b--orange ">        $orange; ; </div>
+    <div class="dib mbs pas ba b--red ">           $red; ; </div>
+    <div class="dib mbs pas ba b--fuchsia ">       $fuchsia; ; </div>
+    <div class="dib mbs pas ba b--purple ">        $purple; ; </div>
+    <div class="dib mbs pas ba b--maroon ">        $maroon; ; </div>
+
+  </div>
+    <div class="wi-50-ns fl-ns pll-ns">
+
+<h1 class="f4 fw4 mtl mtn-ns">The code</h1>
+<pre>
+<code class="small">
+.b--aqua {         border-color: $aqua; }
+.b--blue {         border-color: $blue; }
+.b--navy {         border-color: $navy; }
+.b--teal {         border-color: $teal; }
+.b--green {        border-color: $green; }
+.b--olive {        border-color: $olive; }
+.b--lime {         border-color: $lime; }
+.b--yellow {       border-color: $yellow; }
+.b--orange {       border-color: $orange; }
+.b--red {          border-color: $red; }
+.b--fuchsia {      border-color: $fuchsia; }
+.b--purple {       border-color: $purple; }
+.b--maroon {       border-color: $maroon; }
+</code>
+</pre>
+  </div>
+</div>
+  </article>
+    </main>
+    <footer class="bg-white gray pvx pvxl-ns phm bt b--light-gray h-50 h-75-ns">
+      <small class="f5 mw7 db center lh-copy">
+        A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
+        that always moves faster than light. 
+        <br class="dn db-ns">
+        The word comes from the Greek:
+        ταχύς or tachys, meaning "swift, quick, fast, rapid"
+      </small>
+    </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
   </body>
 </html>

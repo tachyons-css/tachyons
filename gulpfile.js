@@ -19,7 +19,7 @@ var gulp = require('gulp'),
     stylestats = require('gulp-stylestats');
 
 gulp.task('fileinclude', function() {
-  gulp.src(['test.html'])
+  gulp.src(['docs/*/index.html'])
     .pipe(fileinclude({
       prefix: '@@',
       basepath: '@views'
