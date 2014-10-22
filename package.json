@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Performance-first css framework built with sass.",
   "main": "index.html",
   "repository": {
