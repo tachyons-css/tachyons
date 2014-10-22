@@ -333,7 +333,7 @@ html, body {
 /*
   Box Sizing
 */
-div, article, section, main, footer, header, form, fieldset, input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
+div, article, section, main, footer, header, form, fieldset, pre, code, input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -418,7 +418,7 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
    l = left
 
 */
-.bn {
+.bn.bn {
   border-style: solid;
   border-width: 0; }
 
@@ -442,6 +442,26 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
   border-left-style: solid;
   border-left-width: 1px; }
 
+.bda {
+  border-style: dotted;
+  border-width: 1px; }
+
+.bdt {
+  border-top-style: dotted;
+  border-top-width: 1px; }
+
+.bdr {
+  border-right-style: dotted;
+  border-right-width: 1px; }
+
+.bdb {
+  border-bottom-style: dotted;
+  border-bottom-width: 1px; }
+
+.bdl {
+  border-left-style: dotted;
+  border-left-width: 1px; }
+
 @media screen and (min-width: 48em) {
   .bn-ns {
     border-style: solid;
@@ -460,6 +480,21 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
     border-bottom-width: 1px; }
   .bl-ns {
     border-left-style: solid;
+    border-left-width: 1px; }
+  .bda-ns {
+    border-style: dotted;
+    border-width: 1px; }
+  .bdt-ns {
+    border-top-style: dotted;
+    border-top-width: 1px; }
+  .bdr-ns {
+    border-right-style: dotted;
+    border-right-width: 1px; }
+  .bdb-ns {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px; }
+  .bdl-ns {
+    border-left-style: dotted;
     border-left-width: 1px; } }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
@@ -480,6 +515,21 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
     border-bottom-width: 1px; }
   .bl-m {
     border-left-style: solid;
+    border-left-width: 1px; }
+  .bda-m {
+    border-style: dotted;
+    border-width: 1px; }
+  .bdt-m {
+    border-top-style: dotted;
+    border-top-width: 1px; }
+  .bdr-m {
+    border-right-style: dotted;
+    border-right-width: 1px; }
+  .bdb-m {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px; }
+  .bdl-m {
+    border-left-style: dotted;
     border-left-width: 1px; } }
 
 @media screen and (min-width: 64em) {
@@ -500,6 +550,21 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
     border-bottom-width: 1px; }
   .bl-l {
     border-left-style: solid;
+    border-left-width: 1px; }
+  .bda-l {
+    border-style: dotted;
+    border-width: 1px; }
+  .bdt-l {
+    border-top-style: dotted;
+    border-top-width: 1px; }
+  .bdr-l {
+    border-right-style: dotted;
+    border-right-width: 1px; }
+  .bdb-l {
+    border-bottom-style: dotted;
+    border-bottom-width: 1px; }
+  .bdl-l {
+    border-left-style: dotted;
     border-left-width: 1px; } }
 
 /*
@@ -537,17 +602,29 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
 .b--white {
   border-color: #fff; }
 
+.b--white-10 {
+  border-color: rgba(255, 255, 255, 0.1); }
+
 .b--white-25 {
   border-color: rgba(255, 255, 255, 0.25); }
-
-.b--black-25 {
-  border-color: rgba(0, 0, 0, 0.25); }
 
 .b--white-50 {
   border-color: rgba(255, 255, 255, 0.5); }
 
+.b--white-75 {
+  border-color: rgba(255, 255, 255, 0.75); }
+
+.b--black-10 {
+  border-color: rgba(0, 0, 0, 0.1); }
+
+.b--black-25 {
+  border-color: rgba(0, 0, 0, 0.25); }
+
 .b--black-50 {
   border-color: rgba(0, 0, 0, 0.5); }
+
+.b--black-75 {
+  border-color: rgba(0, 0, 0, 0.75); }
 
 .b--aqua {
   border-color: #7FDBFF; }
@@ -921,6 +998,15 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
   .btn--full {
     max-width: 16em !important; } }
 
+/* Code */
+.pre {
+  overflow-x: auto;
+  overflow-y: hidden;
+  overflow: scroll; }
+
+.code {
+  white-space: pre; }
+
 /*
 
    CLEARS
@@ -1136,7 +1222,7 @@ div, article, section, main, footer, header, form, fieldset, input[type="text"],
 
 */
 body, .sans-serif {
-  font-family: avenir, 'avenir next', helvetica, 'helvetica neue', arial, sans-serif; }
+  font-family: 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif; }
 
 .open-sans {
   font-family: "Open sans", sans-serif; }
