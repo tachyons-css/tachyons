@@ -351,20 +351,13 @@ div, article, section, main, footer, header, form, fieldset, pre, code, input[ty
   -webkit-background-size: contain;
   background-size: contain; }
 
-.bg-auto {
-  -webkit-background-size: auto;
-  background-size: auto; }
-
 @media screen and (min-width: 48em) {
   .bg-cv-ns {
     -webkit-background-size: cover;
     background-size: cover; }
   .bg-cn-ns {
     -webkit-background-size: contain;
-    background-size: contain; }
-  .bg-auto-ns {
-    -webkit-background-size: auto;
-    background-size: auto; } }
+    background-size: contain; } }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
   .bg-cv-m {
@@ -372,10 +365,7 @@ div, article, section, main, footer, header, form, fieldset, pre, code, input[ty
     background-size: cover; }
   .bg-cn-m {
     -webkit-background-size: contain;
-    background-size: contain; }
-  .bg-auto-m {
-    -webkit-background-size: auto;
-    background-size: auto; } }
+    background-size: contain; } }
 
 @media screen and (min-width: 64em) {
   .bg-cv-l {
@@ -383,10 +373,7 @@ div, article, section, main, footer, header, form, fieldset, pre, code, input[ty
     background-size: cover; }
   .bg-cn-l {
     -webkit-background-size: contain;
-    background-size: contain; }
-  .bg-auto-l {
-    -webkit-background-size: auto;
-    background-size: auto; } }
+    background-size: contain; } }
 
 @-webkit-keyframes pulsate {
   0% {
@@ -597,7 +584,7 @@ div, article, section, main, footer, header, form, fieldset, pre, code, input[ty
   border-color: #ccc; }
 
 .b--near-white {
-  border-color: #eee; }
+  border-color: #f3f3f3; }
 
 .b--white {
   border-color: #fff; }
@@ -2192,7 +2179,7 @@ img {
   color: #ccc !important; }
 
 .near-white {
-  color: #eee !important; }
+  color: #f3f3f3 !important; }
 
 .white {
   color: #fff !important; }
@@ -2257,7 +2244,7 @@ img {
   background-color: #ccc; }
 
 .bg-near-white {
-  background-color: #eee; }
+  background-color: #f3f3f3; }
 
 .bg-white {
   background-color: #fff; }
