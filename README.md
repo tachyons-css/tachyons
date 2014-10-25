@@ -112,14 +112,6 @@ feedback on things they like and things they don't like. Once Tachyons is a litt
 will be generating different 'flavors' of the framework. One version being a more verbose class naming system
 that seems to be what many people prefer. 
 
-Some slight notes on current naming systems:
-Each mobile-first base class, has corresponding classes that are only triggered at certain breakpoints.
-This allows you to arbitralily change any property on an element across different screensizes. 
-
-For example
-```
-.b { font-weight: bold; }
-```
  
 ## License
 
