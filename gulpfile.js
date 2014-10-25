@@ -123,6 +123,6 @@ gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync'],
   gulp.start('pre-process', 'csslint');
   gulp.watch('sass/*.scss', ['pre-process']);
   gulp.watch('css/tachyons.css', ['bs-reload']);
-  gulp.watch('*.html', ['bs-reload']);
+  gulp.watch(['*.html', 'docs/*/*.html'], ['bs-reload']);
 });
 
