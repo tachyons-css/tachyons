@@ -100,6 +100,26 @@ all scroll simultaneously. If you fill out a form on one device all devices will
 |----------------------|----------------|----------------|
 |   tachyons.css       |    74.43 kB    |    13.03 kB    | 
 |   tachyons.min.css   |    47.43 kB    |     8.57 kB    |
+
+## Class Names
+
+As tachyons started out as an experiment in css performance - many of the names
+were programmatically generated using vim macros based on the content of the properties and values 
+they represent. As I have begun to work on tachyons more and use it in the wild, 
+I've begun to codify common classes to things that my brain naturally leans towards remembering. 
+That being said I think the naming in Tachyons needs a lot of work and I am open to hearing peoples
+feedback on things they like and things they don't like. Once Tachyons is a little more finished I
+will be generating different 'flavors' of the framework. One version being a more verbose class naming system
+that seems to be what many people prefer. 
+
+Some slight notes on current naming systems:
+Each mobile-first base class, has corresponding classes that are only triggered at certain breakpoints.
+This allows you to arbitralily change any property on an element across different screensizes. 
+
+For example
+```
+.b { font-weight: bold; }
+```
  
 ## License
 
