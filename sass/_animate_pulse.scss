@@ -1,17 +1,17 @@
 @-webkit-keyframes pulsate {
     0% {
       background: $blue;
-      color: $aqua;
+      color: $light-blue;
     }
 
     50% {
       background: lighten($blue, 9%);
-      color: saturate($aqua, 7%);
+      color: saturate($light-blue, 7%);
     }
 
     100% {
       background: $blue;
-      color: $aqua;
+      color: $light-blue;
     }
 }
 

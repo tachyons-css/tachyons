@@ -6,13 +6,14 @@
 
 .link {
   text-decoration: none;
-  transition: all .4s;
+  transition: color .175s ease-in;
 }
 
-.link:link    { color: #30BBDB; }
+.link:link,
 .link:visited { color: #2D243B; }
-.link:hover   { color: #004EAB; }
+.link:hover   { color: #999999; }
 .link:active  { color: #C4E3E0; }
+.link:focus   { color: #2D243B; }
 
-.underline { text-decoration: underline; }
+.underline             { text-decoration: underline; }
 .underline-hover:hover { text-decoration: underline; }

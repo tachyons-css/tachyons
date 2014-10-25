@@ -4,32 +4,32 @@
 
 */
 
-.fwn { font-weight: normal; }
-.b   { font-weight: bold; }
-.fw1 { font-weight: 100; }
-.fw4 { font-weight: 400; }
-.fw9 { font-weight: 900; }
+.normal { font-weight: normal; }
+.b      { font-weight: bold; }
+.thin   { font-weight: 100; }
+.book   { font-weight: 400; }
+.heavy  { font-weight: 900; }
 
 @include break(not-small) {
-  .fwn-ns { font-weight: normal; }
-  .b-ns   { font-weight: bold; }
-  .fw1-ns { font-weight: 100; }
-  .fw4-ns { font-weight: 400; }
-  .fw9-ns { font-weight: 900; }
+  .normal-ns { font-weight: normal; }
+  .b-ns      { font-weight: bold; }
+  .thin-ns   { font-weight: 100; }
+  .book-ns   { font-weight: 400; }
+  .heavy-ns  { font-weight: 900; }
 }
 
 @include break(medium) {
-  .fwn-m { font-weight: normal; }
-  .b-m   { font-weight: bold; }
-  .fw1-m { font-weight: 100; }
-  .fw4-m { font-weight: 400; }
-  .fw9-m { font-weight: 900; }
+  .normal-m { font-weight: normal; }
+  .b-m      { font-weight: bold; }
+  .thin-m   { font-weight: 100; }
+  .book-m   { font-weight: 400; }
+  .heavy-m  { font-weight: 900; }
 }
 
 @include break(large) {
-  .fwn-l { font-weight: normal; }
-  .b-l   { font-weight: bold; }
-  .fw1-l { font-weight: 100; }
-  .fw4-l { font-weight: 400; }
-  .fw9-l { font-weight: 900; }
+  .normal-l { font-weight: normal; }
+  .b-l      { font-weight: bold; }
+  .thin-l   { font-weight: 100; }
+  .book-l   { font-weight: 400; }
+  .heavy-l  { font-weight: 900; }
 }
