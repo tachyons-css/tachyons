@@ -13,23 +13,110 @@
     <link rel="stylesheet" href="/css/tachyons.css">
   </head>
   <body class="wi-100">
-    <header class="phm phl-ns bb b--light-gray">
-      <h1 class="f3 fw4"><a class="link" href="/" title="home">Tachyons</a></h1>
+    <header class="bb b--light-gray">
+      <div class="mw8 center phm phl-ns">
+        <h1 class="f3 book dib prm"><a class="link" href="/" title="home">Tachyons</a></h1>
+        <h2 class="f4 book ttu orange dib">Type</h2>
+      </div>
     </header>
-    <main class="center mw8 phm phl-ns pbxl">
-      <h1 class="f1ttu fw4 mtx mbl ttu">Type</h1>
+    <main class="center mw8 phm phl-ns ptl pbxl">
       <section>
-        <h1 class="f4 ttu fw4 bb pbs b--near-white mbm">Utilities</h1>
-        <span class="f4 f1-ns b prl">bold</span>
-        <span class="f4 f1-ns ttu prl">title</span>
-        <span class="f4 f1-ns b ttu prl">bold title</span>
-        <h1 class="f4 ttu fw4 bb pbs b--near-white mbm mtx">Type Scale</h1>
-        <span class="mega ttu b prl db">mega</span>
-        <span class="f1 ttu b prl">f1</span>
-        <span class="f2 ttu b prl">f2</span>
-        <span class="f3 ttu b prl">f3</span>
-        <span class="f4 ttu b prl">f4</span>
-        <span class="f5 ttu b prl">f5</span>
+        <h1 class="f4 ttu book bb pbs b--near-white mbm">Common Utilities</h1>
+        <div class="dib prm mbm">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
+            .b 
+          </code>
+          <span class="b">bold text</span>
+        </div>
+        <div class="dib prm mbm">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
+            .ttu
+          </code>
+          <span class="ttu">title text</span>
+        </div>
+        <br>
+        <div class="dib prm">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
+            .serif 
+          </code>
+          <span class="serif">serif</span>
+        </div>
+        <div class="dib prm">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
+            .sans-serif 
+          </code>
+          <span class="sans-serif">sans-serif</span>
+        </div>
+      <p class="lh-copy mtx">Combine the classes b and ttu on one element for bold titles</p>
+      <code class="dib phm pvs mbs ba b--light-gray bg-near-white f5">
+        &lt;p class="b ttu"&gt;bold title&lt;/p&gt;
+      </code>
+      <span class="b ttu ws-nowrap">bold title</span>
+      <article class="mtx">
+        <h1 class="f4 ttu book bb pbs b--near-white mbm">Type Scale</h1>
+        <article class="mbl">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
+            .mega</code>
+          <p class="mega mvn lh-title b">
+            A B C D<span class="dn di-ns"> E F G H I J K L M N O P Q R S T U V W X Y Z</span>
+          </p>
+          <p class="mega mvn lh-title">
+            a b c d e<span class="dn di-ns"> f g h i j k l m n o p q r s t u v w x y z </span>
+          </p>
+        </article>
+        <article class="mbl">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">.f1</code>
+          <p class="f1 mvn lh-title b">
+            A B C D E <span class="dn di-ns"> F G H I J K L M N O P Q R S T U V W X Y Z</span>
+          </p>
+          <p class="f1 mvn lh-title">
+            a b c d e f
+            <span class="dn di-ns">  g h i j k l m n o p q r s t u v w x y z </span>
+          </p>
+        </article>
+        <article class="mbl">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
+            .f2</code>
+          <p class="f2 mvn lh b">
+            A B C D E F
+            <span class="dn di-ns"> G H I J K L M N O P Q R S T U V W X Y Z</span>
+          </p>
+          <p class="f2 mvn lh">
+            a b c d e f g
+            <span class="dn dib-ns"> h i j k l m n o p q r s t u v w x y z </span>
+          </p>
+        </article>
+        <article class="mbl">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
+          .f3</code>
+          <p class="f3 mvn lh-title b">
+            A B C D<span class="dn di-ns"> E F G H I J K L M N O P Q R S T U V W X Y Z</span>
+          </p>
+          <p class="f3 mvn lh-title">
+            a b c d e<span class="dn di-ns"> f g h i j k l m n o p q r s t u v w x y z </span>
+          </p>
+        </article>
+        <article class="mbl">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
+          .f4</code>
+          <p class="f4 mvn lh-title b">
+            A B C D<span class="dn di-ns"> E F G H I J K L M N O P Q R S T U V W X Y Z</span>
+          </p>
+          <p class="f4 mvn lh-title">
+            a b c d e<span class="dn di-ns"> f g h i j k l m n o p q r s t u v w x y z </span>
+          </p>
+        </article>
+        <article class="mbl">
+          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
+          .f5</code>
+          <p class="f5 mvn lh-title b">
+            A B C D<span class="dn di-ns"> E F G H I J K L M N O P Q R S T U V W X Y Z</span>
+          </p>
+          <p class="f5 mvn lh-title">
+            a b c d e<span class="dn di-ns"> f g h i j k l m n o p q r s t u v w x y z </span>
+          </p>
+        </article>
+      </article>
       </section>
     </main>
     <footer class="bg-white gray pvx pvxl-ns phm bt b--light-gray h-50 h-75-ns">
