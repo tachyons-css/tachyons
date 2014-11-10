@@ -388,6 +388,19 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
     background: #0074D9;
     color: #64a8ff; } }
 
+@keyframes pulsate {
+  0% {
+    background: #0074D9;
+    color: #64a8ff; }
+
+  50% {
+    background: #0890ff;
+    color: #5fa9ff; }
+
+  100% {
+    background: #0074D9;
+    color: #64a8ff; } }
+
 .bg-pulsate {
   -webkit-animation: pulsate 4s linear infinite;
   animation: pulsate 4s linear infinite; }
