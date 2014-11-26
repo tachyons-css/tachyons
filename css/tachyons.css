@@ -741,7 +741,7 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
 .brn {
   border-radius: 0; }
 
-.br {
+.br1 {
   border-radius: 0.125rem; }
 
 .br2 {
@@ -765,7 +765,7 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
 @media screen and (min-width: 48em) {
   .brn-ns {
     border-radius: 0; }
-  .br-ns {
+  .br1-ns {
     border-radius: 0.125rem; }
   .br2-ns {
     border-radius: 0.25rem; }
@@ -783,7 +783,7 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
 @media screen and (min-width: 48em) and (max-width: 64em) {
   .brn-m {
     border-radius: 0; }
-  .br-m {
+  .br1-m {
     border-radius: 0.125rem; }
   .br2-m {
     border-radius: 0.25rem; }
@@ -801,7 +801,7 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
 @media screen and (min-width: 64em) {
   .brn-l {
     border-radius: 0; }
-  .br-l {
+  .br1-l {
     border-radius: 0.125rem; }
   .br2-l {
     border-radius: 0.25rem; }
