@@ -36,7 +36,7 @@ gulp.task('generateDocs', function() {
       if (err) {
           throw err;
       }
-      content = data;
+      content = data.toString();
       var ast = css.parse(content, {source: 'css/tachyons.css'});
       console.log(ast.stylesheet);
 
