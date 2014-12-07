@@ -12,6 +12,8 @@
 
 */
 
+/* The extra `.bn` is required to boost the specificity, which is needed
+ * sometimes if you are setting the border to 0. */
   .bn.bn { border-style: solid; border-width: 0; }
   .ba { border-style: solid; border-width: 1px; }
   .bt { border-top-style: solid; border-top-width: 1px; }
