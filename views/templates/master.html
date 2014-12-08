@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>
-      <%= module_name %> / Docs / TACHYONS
+      <%= moduleName %> / Docs / TACHYONS
     </title>
     <meta name="author" content="@mrmrs">
     <meta name="description" content="CSS">
@@ -16,24 +16,22 @@
     <header class="bb b--light-gray pvm">
       <div class="center mw8 phm phl-ns">
         <h1 class="f3 book dib prm"><a class="link" href="/" title="home">Tachyons</a></h1>
-        <h2 class="f4 book ttu orange dib"><%= module_name %></h2>
+        <h2 class="f4 book ttu orange dib"><%= moduleName %></h2>
       </div>
     </header>
     <main class="center mw8 phm phl-ns ptl pbxl">
       <p class="lh-copy"></p>
 
-      <h2 class="f4 ttu book mbl mtx">Border Widths</h2>
+<% _.forEach(subModules, function (subModule) { %>
+      <h2 class="f4 ttu book mbl mtx"><%= subModule.name %></h2>
       <article class="pam brs ba b--light-gray">
-        <header class="pbm mbm bb b--light-gray">
-          <h3 class="f4 book pbm mvn">Width Utilities</h3>
-          <code class="bg-yellow mvn f5">/sass/_border_widths.scss</code>
-        </header>
         <div class="cf wi-100">
-<% _.forEach(examples, function(example) { %>
+<% _.forEach(subModule.examples, function (example) { %>
   <%= example %>
 <% }); %>
         </div>
       </article>
+<% }); %>
     </main>
     <footer class="bg-white gray pvx pvxl-ns phm bt b--light-gray h-50 h-75-ns">
       <small class="f5 mw7 db center lh-copy">
