@@ -22,7 +22,6 @@
     "browser-sync": "^1.1.1",
     "css": "^2.1.0",
     "css-parse": "^2.0.0",
-    "fs": "0.0.2",
     "gulp": "^3.8.2",
     "gulp-autoprefixer": "0.0.7",
     "gulp-csslint": "^0.1.4",
@@ -35,7 +34,9 @@
     "gulp-stylestats": "^0.2.8",
     "gulp-uncss": "^0.4.4",
     "gulp-util": "^2.2.18",
-    "gulp-watch": "^0.6.8"
+    "gulp-watch": "^0.6.8",
+    "lodash": "^2.4.1",
+    "node-sass": "^0.9"
   },
   "contributors": [
     { "name": "adam morse", "email": "hi@mrmrs.cc" },

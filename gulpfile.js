@@ -28,21 +28,7 @@ gulp.task('fileinclude', function() {
 });
 
 
-gulp.task('generateDocs', function() {
-
-  var content;
-  // First I want to read the file
-  fs.readFile('./css/tachyons.css', function read(err, data) {
-      if (err) {
-          throw err;
-      }
-      content = data;
-      var ast = css.parse(content, {source: 'css/tachyons.css'});
-      console.log(ast.stylesheet);
-
-  });
-
-});
+gulp.task('generateDocs', require('./tasks/generateDocs'));
 
 // Use csslint without box-sizing or compatible vendor prefixes (these
 // don't seem to be kept up to date on what to yell about)
