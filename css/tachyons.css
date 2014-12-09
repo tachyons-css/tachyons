@@ -1730,20 +1730,28 @@ img {
 */
 .link {
   text-decoration: none;
-  -webkit-transition: color 0.175s ease-in;
-  transition: color 0.175s ease-in; }
+  -webkit-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in; }
 
 .link:link, .link:visited {
-  color: #2D243B; }
+  color: #2D243B;
+  -webkit-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in; }
 
 .link:hover {
-  color: #999999; }
+  color: #999999;
+  -webkit-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in; }
 
 .link:active {
-  color: #C4E3E0; }
+  color: #C4E3E0;
+  -webkit-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in; }
 
 .link:focus {
-  color: #2D243B; }
+  color: #2D243B;
+  -webkit-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in; }
 
 .underline {
   text-decoration: underline; }
