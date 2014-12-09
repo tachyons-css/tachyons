@@ -405,6 +405,8 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
    l = left
 
 */
+/* The extra `.bn` is required to boost the specificity, which is needed
+ * sometimes if you are setting the border to 0. */
 .bn.bn {
   border-style: solid;
   border-width: 0; }
