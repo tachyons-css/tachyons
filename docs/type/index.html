@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>
-      TYPE / Docs / TACHYONS
+      type / Docs / TACHYONS
     </title>
     <meta name="author" content="@mrmrs">
     <meta name="description" content="CSS">
@@ -13,116 +13,333 @@
     <link rel="stylesheet" href="/css/tachyons.css">
   </head>
   <body class="wi-100">
-    <header class="bb b--light-gray">
-      <div class="mw8 center phm phl-ns">
+    <header class="bb b--light-gray pvm">
+      <div class="center mw8 phm phl-ns">
         <h1 class="f3 book dib prm"><a class="link" href="/" title="home">Tachyons</a></h1>
-        <h2 class="f4 book ttu orange dib">Type</h2>
+        <h2 class="f4 book ttu orange dib">type</h2>
       </div>
     </header>
     <main class="center mw8 phm phl-ns ptl pbxl">
-      <section>
-        <h1 class="f4 ttu book bb pbs b--near-white mbm">Common Utilities</h1>
-        <div class="dib prm mbm">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
-            .b 
-          </code>
-          <span class="b">bold text</span>
+      <p class="lh-copy"></p>
+
+
+      <h2 class="f4 ttu book mbl mtx">type scale</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black b mega">
+    The quick brown fox
+  </div>
+  <code>.mega { font-size: 4rem }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black b f1">
+    The quick brown fox
+  </div>
+  <code>.f1 { font-size: 3rem }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black b f2">
+    The quick brown fox
+  </div>
+  <code>.f2 { font-size: 2rem }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black b f3">
+    The quick brown fox
+  </div>
+  <code>.f3 { font-size: 1.5rem }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black b f4">
+    The quick brown fox
+  </div>
+  <code>.f4 { font-size: 1rem }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black b f5 small">
+    The quick brown fox
+  </div>
+  <code>.f5, .small { font-size: 0.85rem }</code>
+</div>
+
+
         </div>
-        <div class="dib prm mbm">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
-            .ttu
-          </code>
-          <span class="ttu">title text</span>
-        </div>
-        <br>
-        <div class="dib prm">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
-            .serif 
-          </code>
-          <span class="serif">serif</span>
-        </div>
-        <div class="dib prm">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
-            .sans-serif 
-          </code>
-          <span class="sans-serif">sans-serif</span>
-        </div>
-      <p class="lh-copy mtx">Combine the classes b and ttu on one element for bold titles</p>
-      <code class="dib phm pvs mbs ba b--light-gray bg-near-white f5">
-        &lt;p class="b ttu"&gt;bold title&lt;/p&gt;
-      </code>
-      <span class="b ttu ws-nowrap">bold title</span>
-      <article class="mtx">
-        <h1 class="f4 ttu book bb pbs b--near-white mbm">Type Scale</h1>
-        <article class="mbl">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
-            .mega</code>
-          <p class="mega mvn lh-title b">
-            A B C D<span class="dn di-ns"> E F G H I J K L M N O P Q R S T U V W X Y Z</span>
-          </p>
-          <p class="mega mvn lh-title">
-            a b c d e<span class="dn di-ns"> f g h i j k l m n o p q r s t u v w x y z </span>
-          </p>
-        </article>
-        <article class="mbl">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">.f1</code>
-          <p class="f1 mvn lh-title b">
-            A B C D E <span class="dn di-ns"> F G H I J K L M N O P Q R S T U V W X Y Z</span>
-          </p>
-          <p class="f1 mvn lh-title">
-            a b c d e f
-            <span class="dn di-ns">  g h i j k l m n o p q r s t u v w x y z </span>
-          </p>
-        </article>
-        <article class="mbl">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
-            .f2</code>
-          <p class="f2 mvn lh b">
-            A B C D E F
-            <span class="dn di-ns"> G H I J K L M N O P Q R S T U V W X Y Z</span>
-          </p>
-          <p class="f2 mvn lh">
-            a b c d e f g
-            <span class="dn dib-ns"> h i j k l m n o p q r s t u v w x y z </span>
-          </p>
-        </article>
-        <article class="mbl">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
-          .f3</code>
-          <p class="f3 mvn lh-title b">
-            A B C D<span class="dn di-ns"> E F G H I J K L M N O P Q R S T U V W X Y Z</span>
-          </p>
-          <p class="f3 mvn lh-title">
-            a b c d e<span class="dn di-ns"> f g h i j k l m n o p q r s t u v w x y z </span>
-          </p>
-        </article>
-        <article class="mbl">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
-          .f4</code>
-          <p class="f4 mvn lh-title b">
-            A B C D<span class="dn di-ns"> E F G H I J K L M N O P Q R S T U V W X Y Z</span>
-          </p>
-          <p class="f4 mvn lh-title">
-            a b c d e<span class="dn di-ns"> f g h i j k l m n o p q r s t u v w x y z </span>
-          </p>
-        </article>
-        <article class="mbl">
-          <code class="dib phm pvs ba b--light-gray bg-near-white f5">
-          .f5</code>
-          <p class="f5 mvn lh-title b">
-            A B C D<span class="dn di-ns"> E F G H I J K L M N O P Q R S T U V W X Y Z</span>
-          </p>
-          <p class="f5 mvn lh-title">
-            a b c d e<span class="dn di-ns"> f g h i j k l m n o p q r s t u v w x y z </span>
-          </p>
-        </article>
       </article>
-      </section>
+
+      <h2 class="f4 ttu book mbl mtx">text transform</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black ttc">
+    The quick brown fox
+  </div>
+  <code>.ttc { text-transform: capitalize }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black ttu">
+    The quick brown fox
+  </div>
+  <code>.ttu { text-transform: uppercase; letter-spacing: 0.2em }</code>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">text align</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black bg-yellow pas tl">
+    The quick brown fox
+  </div>
+  <code>.tl { text-align: left }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black bg-yellow pas tr">
+    The quick brown fox
+  </div>
+  <code>.tr { text-align: right }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black bg-yellow pas tc">
+    The quick brown fox
+  </div>
+  <code>.tc { text-align: center }</code>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">text decoration</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black under">
+    The quick brown fox
+  </div>
+  <code>.under { text-decoration: underline }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black none">
+    The quick brown fox
+  </div>
+  <code>.none { text-decoration: none }</code>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">leading</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black lh">
+    The quick brown fox
+  </div>
+  <code>.lh { line-height: 1 }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black lh-title">
+    The quick brown fox
+  </div>
+  <code>.lh-title { line-height: 1.3 }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black lh-copy">
+    The quick brown fox
+  </div>
+  <code>.lh-copy { line-height: 1.6 }</code>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">font weight</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black normal">
+    The quick brown fox
+  </div>
+  <code>.normal { font-weight: normal }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black b">
+    The quick brown fox
+  </div>
+  <code>.b { font-weight: bold }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black thin">
+    The quick brown fox
+  </div>
+  <code>.thin { font-weight: 100 }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black book">
+    The quick brown fox
+  </div>
+  <code>.book { font-weight: 400 }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black bold">
+    The quick brown fox
+  </div>
+  <code>.bold { font-weight: 700 }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black heavy">
+    The quick brown fox
+  </div>
+  <code>.heavy { font-weight: 900 }</code>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">font style</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black fsn">
+    The quick brown fox
+  </div>
+  <code>.fsn { font-style: normal }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black i">
+    The quick brown fox
+  </div>
+  <code>.i { font-style: italic }</code>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">font family</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black ody sans-serif">
+    The quick brown fox
+  </div>
+  <code>body, .sans-serif { font-family: 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black open-sans">
+    The quick brown fox
+  </div>
+  <code>.open-sans { font-family: "Open sans", sans-serif }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black serif">
+    The quick brown fox
+  </div>
+  <code>.serif { font-family: "Calisto MT", georgia, serif }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black code ode">
+    The quick brown fox
+  </div>
+  <code>.code, code { font-family: Consolas, monaco, monospace }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black serif-bodini">
+    The quick brown fox
+  </div>
+  <code>.serif-bodini { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black serif-calisto">
+    The quick brown fox
+  </div>
+  <code>.serif-calisto { font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black serif-garamond">
+    The quick brown fox
+  </div>
+  <code>.serif-garamond { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif }</code>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas black serif-times">
+    The quick brown fox
+  </div>
+  <code>.serif-times { font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif }</code>
+</div>
+
+
+        </div>
+      </article>
+
     </main>
     <footer class="bg-white gray pvx pvxl-ns phm bt b--light-gray h-50 h-75-ns">
       <small class="f5 mw7 db center lh-copy">
         A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
-        that always moves faster than light. 
+        that always moves faster than light.
         <br class="dn db-ns">
         The word comes from the Greek:
         ταχύς or tachys, meaning "swift, quick, fast, rapid"

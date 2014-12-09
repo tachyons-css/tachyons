@@ -12,7 +12,8 @@ var paths = {
   docs: path.join(__dirname, '../docs/')
 };
 var scssDependencies = [ 'queries', 'colors' ];
-var docModules = [{
+var docModules = [
+{
   name: 'borders',
   subModules: [{
     name: 'borders',
@@ -36,6 +37,86 @@ var docModules = [{
     resetSelectors: 'ba b--black'
   }],
   template: 'borders'
+},
+{
+  name: 'type',
+  subModules: [{
+    name: 'type scale',
+    files: [ 'type_scale'],
+    resetSelectors: 'black b'
+  }, {
+    name: 'text transform',
+    files: [ 'text_transform' ],
+    resetSelectors: 'black'
+  }, {
+    name: 'text align',
+    files: [ 'text_align' ],
+    resetSelectors: 'black bg-yellow pas'
+  }, {
+    name: 'text decoration',
+    files: [ 'text_decoration' ],
+    resetSelectors: 'black'
+  }, {
+    name: 'leading',
+    files: [ 'line_height' ],
+    resetSelectors: 'black'
+  }, {
+    name: 'font weight',
+    files: [ 'font_weight' ],
+    resetSelectors: 'black'
+  }, {
+    name: 'font style',
+    files: [ 'font_style' ],
+    resetSelectors: 'black'
+  }, {
+    name: 'font family',
+    files: [ 'font_family' ],
+    resetSelectors: 'black'
+  }],
+  template: 'type'
+},
+{
+  name: 'svg',
+  subModules: [{
+    name: 'svg fills',
+    files: [ 'svg_fills'],
+    resetSelectors: 'fill-black'
+  },
+  {
+    name: 'svg strokes',
+    files: [ 'svg_strokes'],
+    resetSelectors: 'fill-white sw-4'
+  }],
+  template: 'svg'
+},
+{
+  name: 'dimensions',
+  subModules: [{
+    name: 'widths',
+    files: [ 'widths'],
+    resetSelectors: 'bg-black white'
+  },
+  {
+    name: 'max widths',
+    files: [ 'max_widths'],
+    resetSelectors: 'bg-black white'
+  },
+  {
+    name: 'heights',
+    files: [ 'heights'],
+    resetSelectors: 'bg-black white'
+  }
+  ],
+  template: 'dimensions'
+},
+{
+  name: 'skins',
+  subModules: [{
+    name: 'skins',
+    files: [ 'skins' ],
+    resetSelectors: 'bg-white'
+  }],
+  template: 'skins'
 }];
 
 var masterTemplate = fs.readFileSync(paths.masterTemplate).toString();
