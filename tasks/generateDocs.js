@@ -14,6 +14,65 @@ var paths = {
 var scssDependencies = [ 'queries', 'colors' ];
 var docModules = [
 {
+  name: 'styles',
+  subModules: [{
+    name: 'all styles',
+    files: [
+      'background_size',
+      'base',
+      'border_colors',
+      'border_radius',
+      'border_style',
+      'border_widths',
+      'borders',
+      'box_sizing',
+      'button-skins',
+      'buttons',
+      'clears',
+      'code',
+      'colors',
+      'debug',
+      'dimension_utilities',
+      'display',
+      'floats',
+      'font_family',
+      'font_style',
+      'font_weight',
+      'forms',
+      'grid',
+      'heights',
+      'images',
+      'letter_spacing',
+      'line_height',
+      'links',
+      'lists',
+      'max_widths',
+      'normalize',
+      'overflow',
+      'position',
+      'queries',
+      'skins',
+      'spacing',
+      'states',
+      'styles',
+      'svg_fills',
+      'svg_strokes',
+      'text_align',
+      'text_decoration',
+      'text_transform',
+      'type_scale',
+      'utilities',
+      'vertical_align',
+      'visibility',
+      'white_space',
+      'widths',
+      'word_spacing'
+    ],
+    resetSelectors: 'b--black bg-near-white'
+  }],
+  template: 'styles'
+},
+{
   name: 'borders',
   subModules: [{
     name: 'borders',
@@ -63,7 +122,7 @@ var docModules = [
   }, {
     name: 'font weight',
     files: [ 'font_weight' ],
-    resetSelectors: 'black'
+    resetSelectors: 'black f3'
   }, {
     name: 'font style',
     files: [ 'font_style' ],
