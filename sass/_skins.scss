@@ -5,71 +5,60 @@
 */
 
 
-/* Grays */
 
-.black {        color: $near-black!important; }
-.dark-gray {    color: $dark-gray!important; }
-.mid-gray {     color: $mid-gray!important; }
-.gray {         color: $gray!important; }
-.silver  {      color: $silver!important; }
-.light-silver { color: $light-silver!important; }
-.light-gray {   color: $light-gray!important; }
-.near-white {   color: $near-white!important; }
-.white {        color: $white!important; }
 
 /* Text colors */
 
-.black { color: #000; }
-.near-black { color: #111; }
-.dark-gray { color:#333; }
-.mid-gray { color:#555; }
-.gray { color: #777; }
-.silver { color: #999; }
-.light-silver { color: #aaa; }
-.moon-gray { color: #ccc; }
-.light-gray { color: #eee; }
-.near-white { color: #f4f4f4; }
-.white { color: #fff; }
-.blue { color: #0074D9; }
-.light-blue { color: #64a8ff; }
-.lightest-blue { color: #a2dfff; }
-.dark-blue { color: #0045a1; }
-.darkest-blue { color: #002f86; }
-.yellow { color: #fff93c; }
-.light-yellow { color: #fffa60; }
-.lightest-yellow { color: #fffca6; }
-.dark-yellow { color: #e2c100; }
-.darkest-yellow { color: #c4a600; }
-.orange { color: #FF851B; }
-.light-orange { color: #ffa942; }
-.lightest-orange { color: #ffc55d; }
-.dark-orange { color: #d05e00; }
-.darkest-orange { color: #b14400; }
-.red { color: #d82c2c; }
-.light-red { color: #f94f44; }
-.lightest-red { color: #ff6c5c; }
-.dark-red { color: #bd001a; }
-.darkest-red { color: #9d0003; }
-.teal { color: #27bfa8; }
-.light-teal { color: #4eddc5; }
-.lightest-teal { color: #6ffae0; }
-.dark-teal { color: #25a28f; }
-.darkest-teal { color: #008876; }
-.green { color: #3D9970; }
-.light-green { color: #5ab48a; }
-.lightest-green { color: #75d0a4; }
-.dark-green { color: #1e7f58; }
-.darkest-green { color: #006540; }
-.pink { color: #F012BE; }
-.light-pink { color: #ff57e8; }
-.lightest-pink { color: #ff81ff; }
-.dark-pink { color: #d100a3; }
-.darkest-pink { color: #b20088; }
-.purple { color: #980bc6; }
-.light-purple { color: #b536e2; }
-.lightest-purple { color: #d355ff; }
-.dark-purple { color: #7b00a9; }
-.darkest-purple { color: #5f008e; }
+.black {         color: $near-black; }
+.dark-gray {     color: $dark-gray; }
+.mid-gray {      color: $mid-gray; }
+.gray {          color: $gray; }
+.silver  {       color: $silver; }
+.light-silver {  color: $light-silver; }
+.light-gray {    color: $light-gray; }
+.near-white {    color: $near-white; }
+.white {         color: $white; }
+
+.blue { color: $blue; }
+.light-blue { color: $light-blue; }
+.lightest-blue { color: $lightest-blue; }
+.dark-blue { color: $dark-blue; }
+.darkest-blue { color: $darkest-blue; }
+.yellow { color: $yellow; }
+.light-yellow { color: $light-yellow; }
+.lightest-yellow { color: $lightest-yellow; }
+.dark-yellow { color: $dark-yellow; }
+.darkest-yellow { color: $darkest-yellow; }
+.orange { color: $orange; }
+.light-orange { color: $light-orange; }
+.lightest-orange { color: $lightest-orange; }
+.dark-orange { color: $dark-orange; }
+.darkest-orange { color: $darkest-orange; }
+.red { color: $red; }
+.light-red { color: $light-red; }
+.lightest-red { color: $lightest-red; }
+.dark-red { color: $dark-red; }
+.darkest-red { color: $darkest-red; }
+.teal { color: $teal; }
+.light-teal { color: $light-teal; }
+.lightest-teal { color: $lightest-teal; }
+.dark-teal { color: $dark-teal; }
+.darkest-teal { color: $darkest-teal; }
+.green { color: $green; }
+.light-green { color: $light-green; }
+.lightest-green { color: $lightest-green; }
+.dark-green { color: $dark-green; }
+.darkest-green { color: $darkest-green; }
+.pink { color: $pink; }
+.light-pink { color: $light-pink; }
+.lightest-pink { color: $lightest-pink; }
+.dark-pink { color: $dark-pink; }
+.darkest-pink { color: $darkest-pink; }
+.purple { color: $purple; }
+.light-purple { color: $light-purple; }
+.lightest-purple { color: $lightest-purple; }
+.dark-purple { color: $dark-purple; }
+.darkest-purple { color: $darkest-purple; }
 
 /* Background colors */
 
@@ -126,57 +115,6 @@
 
 // SVG Skins
 
-.fill-black { fill: $black; }
-.fill-near-black { fill: $near-black; }
-.fill-dark-gray { fill: $dark-gray; }
-.fill-mid-gray { fill: $mid-gray; }
-.fill-gray { fill: $gray; }
-.fill-silver { fill: $silver; }
-.fill-light-silver { fill: $light-silver; }
-.fill-moon-gray { fill: $moon-gray; }
-.fill-light-gray { fill: $light-gray; }
-.fill-near-white { fill: $near-white; }
-.fill-white { fill: $white; }
-.fill-blue { fill: $blue; }
-.fill-light-blue { fill: $light-blue; }
-.fill-lightest-blue { fill: $lightest-blue; }
-.fill-dark-blue { fill: $dark-blue; }
-.fill-darkest-blue { fill: $darkest-blue; }
-.fill-yellow { fill: $yellow; }
-.fill-light-yellow { fill: $light-yellow; }
-.fill-lightest-yellow { fill: $lightest-yellow; }
-.fill-dark-yellow { fill: $dark-yellow; }
-.fill-darkest-yellow { fill: $darkest-yellow; }
-.fill-orange { fill: $orange; }
-.fill-light-orange { fill: $light-orange; }
-.fill-lightest-orange { fill: $lightest-orange; }
-.fill-dark-orange { fill: $dark-orange; }
-.fill-darkest-orange { fill: $darkest-orange; }
-.fill-red { fill: $red; }
-.fill-light-red { fill: $light-red; }
-.fill-lightest-red { fill: $lightest-red; }
-.fill-dark-red { fill: $dark-red; }
-.fill-darkest-red { fill: $darkest-red; }
-.fill-teal { fill: $teal; }
-.fill-light-teal { fill: $light-teal; }
-.fill-lightest-teal { fill: $lightest-teal; }
-.fill-dark-teal { fill: $dark-teal; }
-.fill-darkest-teal { fill: $darkest-teal; }
-.fill-green { fill: $green; }
-.fill-light-green { fill: $light-green; }
-.fill-lightest-green { fill: $lightest-green; }
-.fill-dark-green { fill: $dark-green; }
-.fill-darkest-green { fill: $darkest-green; }
-.fill-pink { fill: $pink; }
-.fill-light-pink { fill: $light-pink; }
-.fill-lightest-pink { fill: $lightest-pink; }
-.fill-dark-pink { fill: $dark-pink; }
-.fill-darkest-pink { fill: $darkest-pink; }
-.fill-purple { fill: $purple; }
-.fill-light-purple { fill: $light-purple; }
-.fill-lightest-purple { fill: $lightest-purple; }
-.fill-dark-purple { fill: $dark-purple; }
-.fill-darkest-purple { fill: $darkest-purple; }
 
 .stroke-black { stroke: $black; }
 .stroke-near-black { stroke: $near-black; }

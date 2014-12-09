@@ -36,8 +36,7 @@
 .top-auto { top: auto; }
 .top-i { top: inherit; ;}
 
-.center { margin: 0 auto; }
-.centered { margin: 0 auto; }
+.center { margin-right: auto; margin-left: auto; }
 
 @include break(not-small) {
   .pos-stat-ns { position: static; }
@@ -62,7 +61,7 @@
   .bottom-4-ns { bottom: 4rem; }
   .top-auto-ns { top: auto; }
   .top-i-ns { top: inherit; ;}
-  .center-ns { margin: 0 auto; }
+  .center-ns { margin-right: auto; margin-left: auto; }
 }
 
 @include break(medium) {
@@ -88,7 +87,7 @@
   .bottom-4-m { bottom: 4rem; }
   .top-auto-m { top: auto; }
   .top-i-m { top: inherit; ;}
-  .center-m { margin: 0 auto; }
+  .center-m { margin-right: auto; margin-left: auto; }
 }
 
 @include break(large) {
@@ -114,5 +113,5 @@
   .bottom-4-l { bottom: 4rem; }
   .top-auto-l { top: auto; }
   .top-i-l { top: inherit; ;}
-  .center-l { margin: 0 auto; }
+  .center-l { margin-right: auto; margin-left: auto; }
 }

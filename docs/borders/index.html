@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>
-      Borders / Docs / TACHYONS
+      borders / Docs / TACHYONS
     </title>
     <meta name="author" content="@mrmrs">
     <meta name="description" content="CSS">
@@ -15,246 +15,656 @@
   <body class="wi-100">
     <header class="bb b--light-gray pvm">
       <div class="center mw8 phm phl-ns">
-        <h1 class="f3 book dib prm"><a class="link" href="/" title="home">Tachyons</a></h1> 
-        <h2 class="f4 book ttu orange dib">Borders</h2>
+        <h1 class="f3 book dib prm"><a class="link" href="/" title="home">Tachyons</a></h1>
+        <h2 class="f4 book ttu orange dib">borders</h2>
       </div>
     </header>
     <main class="center mw8 phm phl-ns ptl pbxl">
-        <p class="lh-copy">Seperate utilities for border: colors, styles, widths, side(s). Mix and match for a wide variety of border styles.</p>
-<h2 class="f4 ttu book mbl mtx">Border Widths</h2>
-<article class="pam brs ba b--light-gray">
-<header class="pbm mbm bb b--light-gray"> 
-  <h3 class="f4 book pbm mvn">Width Utilities</h3>
-  <code class="bg-yellow mvn f5">/sass/_border_widths.scss</code>
-</header>
-<div class="cf wi-100">
-  <div class="wi-50-ns fl-ns cf">
-      <div class="fl wi-100 mbs"><div class="pas bw0 ba b--black">No border</div></div>
-      <div class="fl wi-100 mbs"><div class="pas bw1 ba b--black">.125rem</div></div>
-      <div class="fl wi-100 mbs"><div class="pas bw2 ba b--black">.25rem</div></div>
-      <div class="fl wi-100 mbs"><div class="pas bw3 ba b--black">.5rem</div></div>
-      <div class="fl wi-100 mbs"><div class="pas bw4 ba b--black">.75rem</div></div>
-      <div class="fl wi-100 mbs"><div class="pas bw5 ba b--black">1rem</div></div>
-      <div class="fl wi-100">
-        <div class="paxs mbs bg-black white"> 
-          <div class="pas bw1 ba b--white">
-            #FFFFFF
-          </div> 
-        </div>
-      </div>
-  </div>
-<div class="wi-50-ns fl-ns pll-ns">
-<h1 class="f4 book mtl mtn-ns">The code</h1>
-<pre class="mtn pre"><code class="mtn code small">
-.bw0 { border-width: 0; }
-.bw1 { border-width: .125rem; }
-.bw2 { border-width: .25rem; }
-.bw3 { border-width: .5rem; }
-.bw4 { border-width: .75rem; }
-.bw5 { border-width: 1rem; }
-</code></pre>
-</div>
-</div>
-</article>
-<article class="pam brs ba b--light-gray">
-<header class="pbm mbm bb b--light-gray"> 
-  <h3 class="f4 book pbm mvn">Border styles and sides</h3>
-  <code class="bg-yellow mvn f5">/sass/_border_colors.scss</code>
-</header>
-<div class="cf wi-100">
-  <div class="wi-50-ns fl-ns cf tc">
-      <div class="pas mbm wi-50 fl"><div class="phs bg-near-white pvm  bn b--black">No border</div></div>
-      <div class="pas mbm wi-50 fl"><div class="phs bg-near-white pvm  ba b--black">All Sides</div></div>
-      <div class="pas mbm wi-50 fl"><div class="phs bg-near-white pvm  bt b--black">Top</div></div>
-      <div class="pas mbm wi-50 fr"><div class="phs bg-near-white pvm  bb b--black">Bottom</div></div>
-      <div class="pas mbm wi-50 fl"><div class="phs bg-near-white pvm  br b--black">Right</div></div>
-      <div class="pas mbm wi-50 fr"><div class="phs bg-near-white pvm  bl b--black">Left</div></div>
-      <div class="pas mbm wi-50 fl"><div class="phs bg-near-white pvm  bda b--black">All Sides</div></div>
-      <div class="pas mbm wi-50 fl"><div class="phs bg-near-white pvm  bdt b--black">Top</div></div>
-      <div class="pas mbm wi-50 fr"><div class="phs bg-near-white pvm  bdb b--black">Bottom</div></div>
-      <div class="pas mbm wi-50 fl"><div class="phs bg-near-white pvm  bdr b--black">Right</div></div>
-      <div class="pas mbm wi-50 fr"><div class="phs bg-near-white pvm  bdl b--black">Left</div></div>
-  </div>
-<div class="wi-50-ns fl-ns pll-ns">
-<h1 class="f4 book mtl mtn-ns">The code</h1>
-<pre class="mtn pre"><code class="mtn code small">
-/* Solid Styles */
-.bn { border-style: solid; border-width: 0; }
-.ba { border-style: solid; border-width: 1px; }
-.bt { border-top-style: solid; border-top-width: 1px; }
-.br { border-right-style: solid; border-right-width: 1px; }
-.bb { border-bottom-style: solid; border-bottom-width: 1px; }
-.bl { border-left-style: solid; border-left-width: 1px; }
+      <p class="lh-copy"></p>
 
-/* Dotted Styles */
-.bda { border-style: dotted; border-width: 1px; }
-.bdt { border-top-style: dotted; border-top-width: 1px; }
-.bdr { border-right-style: dotted; border-right-width: 1px; }
-.bdb { border-bottom-style: dotted; border-bottom-width: 1px; }
-.bdl { border-left-style: dotted; border-left-width: 1px; }
-</code></pre>
-</div>
-</div>
-</article>
-<h2 class="f4 ttu book mbl mtx">Border Colors</h2>
-<article class="pam brs ba b--light-gray">
-  <header class="pbm mbm bb b--light-gray"> 
-    <h3 class="f4 book pbm mvn">Black, white, and some bookgs in between</h3>
-    <code class="bg-yellow mvn f5">/sass/_border_colors.scss</code>
-  </header>
-  <div class="cf wi-100">
-    <div class="wi-50-ns fl-ns cf">
-        <div class="fl wi-50 prxs mbs"><div class="pas bw1 ba b--black">        #000000 </div></div>
-        <div class="fl wi-50 plxs mbs"><div class="pas bw1 ba b--near-black">   #111111 </div></div>
-        <div class="fl wi-50 prxs mbs"><div class="pas bw1 ba b--dark-gray">    #333333 </div></div>
-        <div class="fl wi-50 plxs mbs"><div class="pas bw1 ba b--mid-gray">     #555555 </div></div>
-        <div class="fl wi-50 prxs mbs"><div class="pas bw1 ba b--gray">         #777777</div></div>
-        <div class="fl wi-50 plxs mbs"><div class="pas bw1 ba b--silver">       #999999 </div></div>
-        <div class="fl wi-50 prxs mbs"><div class="pas bw1 ba b--light-silver"> #AAAAAA </div></div>
-        <div class="fl wi-50 plxs mbs"><div class="pas bw1 ba b--light-gray">   #CCCCCC </div></div>
-        <div class="fl wi-50 prxs mbs"><div class="pas bw1 ba b--near-white">   #EEEEEE </div></div>
-        <div class="fl wi-50">
-          <div class="paxs mbs bg-black white"> 
-            <div class="pas bw1 ba b--white">
-              #FFFFFF
-            </div> 
-          </div>
-        </div>
-    </div>
-    <div class="wi-50-ns fl-ns pll-ns">
-      <h1 class="f4 book mtl mtn-ns">The code</h1>
-<pre class="mtn pre"><code class="mtn code small">
-.b--black {        border-color: #000; }
-.b--near-black {   border-color: #111; }
-.b--dark-gray {    border-color: #333; }
-.b--mid-gray {     border-color: #555; }
-.b--gray {         border-color: #777; }
-.b--silver {       border-color: #999; }
-.b--light-silver { border-color: #AAA; }
-.b--light-gray {   border-color: #CCC; }
-.b--near-white {   border-color: #EEE; }
-.b--white {        border-color: #FFF; }
-</code></pre>
-      </div>
-    </div>
-</article>
-<article class="ba mtl brs b--light-gray pam">
-  <header class="pbm mbm bb b--light-gray"> 
-    <h3 class="f4 book pbm mvn">Colors</h3>
-    <code class="bg-yellow mvn f5">/sass/_border_colors.scss</code>
-  </header>
-  <div class="cf">
-    <div class="wi-50-ns fl-ns cf">
-<div class="wi-50 fl prxs mbs"><div class="pas ba bw1 b--aqua ">          #7FDBFF;  </div></div>
-<div class="wi-50 fl plxs mbs"><div class="pas ba bw1 b--blue ">          #0074D9;  </div></div>
-<div class="wi-50 fl prxs mbs"><div class="pas ba bw1 b--navy ">          #001F3F;  </div></div>
-<div class="wi-50 fl plxs mbs"><div class="pas ba bw1 b--teal ">          #39CCCC;  </div></div>
-<div class="wi-50 fl prxs mbs"><div class="pas ba bw1 b--green ">         #2ECC40;  </div></div>
-<div class="wi-50 fl plxs mbs"><div class="pas ba bw1 b--olive ">         #3D9970;   </div></div>
-<div class="wi-50 fl prxs mbs"><div class="pas ba bw1 b--lime ">          #01FF70;    </div></div>
-<div class="wi-50 fl plxs mbs"><div class="pas ba bw1 b--yellow ">        #FFDC00;  </div></div>
-<div class="wi-50 fl prxs mbs"><div class="pas ba bw1 b--orange ">        #FF851B;  </div></div>
-<div class="wi-50 fl plxs mbs"><div class="pas ba bw1 b--red ">           #FF4136;     </div></div>
-<div class="wi-50 fl prxs mbs"><div class="pas ba bw1 b--fuchsia ">       #F012BE; </div></div>
-<div class="wi-50 fl plxs mbs"><div class="pas ba bw1 b--purple ">        #B10DC9;  </div></div>
-<div class="wi-50 fl prxs mbs"><div class="pas ba bw1 b--maroon ">        #85144B;  </div></div>
-  </div>
-    <div class="wi-50-ns fl-ns pll-ns">
 
-<h1 class="f4 book mtl mtn-ns">The code</h1>
-<pre class="mtn pre"><code class="code small mtn">
-.b--aqua {         border-color: #7FDBFF; }
-.b--blue {         border-color: #0074D9; }
-.b--navy {         border-color: #001F3F; }
-.b--teal {         border-color: #39CCCC; }
-.b--green {        border-color: #2ECC40; }
-.b--olive {        border-color: #3D9970; }
-.b--lime {         border-color: #01FF70; }
-.b--yellow {       border-color: #FFDC00; }
-.b--orange {       border-color: #FF851B; }
-.b--red {          border-color: #FF4136; }
-.b--fuchsia {      border-color: #F012BE; }
-.b--purple {       border-color: #B10DC9; }
-.b--maroon {       border-color: #85144B; }
-</code>
-</pre>
+      <h2 class="f4 ttu book mbl mtx">borders</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white bn.bn">
+    .bn.bn { border-style: solid; border-width: 0 }
   </div>
 </div>
-  </article>
-  <article class="ba mtl brs b--light-gray pam">
-  <header class="cf pbs bb b--light-gray mbm">
-    <h3 class="f4 book">Opacity</h3>
-    <code class="bg-yellow mvn f5">/sass/_border_colors.scss</code>
-    <p class="lh-copy">These borders can be useful ontop of images or background colors.</p>
-  </header>
-    <div class="cf">
-      <div class="wi-50-ns fl-ns pvl phm" style="background:url(../img/1.JPG) no-repeat bottom center; background-size: 300%;">
-        <div class="tc ba bw1 b--black-75 pvm mbs" style="color: hsla(0, 100%, 0%, .75)">hsla(0, 0%, 0%, .75)</div>
-        <div class="tc ba bw1 b--black-50 pvm mbs" style="color: hsla(0, 100%, 0%, .5)">hsla(0, 0%, 0%, .5)</div>
-        <div class="tc ba bw1 b--black-25 pvm mbs" style="color: hsla(0, 100%, 0%, .5)">hsla(0, 0%, 0%, .25)</div>
-        <div class="tc ba bw1 b--black-10 pvm mbs" style="color: hsla(0, 100%, 0%, .5)">hsla(0, 0%, 0%, .1)</div>
-        <div class="tc ba bw1 b--white-10 pvm mbs" style="color: hsla(0, 0%, 100%, .5)">hsla(0, 0%, 100%, .1)</div>
-        <div class="tc ba bw1 b--white-25 pvm mbs" style="color: hsla(0, 0%, 100%, .5)">hsla(0, 0%, 100%, .25)</div>
-        <div class="tc ba bw1 b--white-50 pvm mbs" style="color: hsla(0, 0%, 100%, .5)">hsla(0, 0%, 100%, .5)</div>
-        <div class="tc ba bw1 b--white-75 pvm mbs" style="color: hsla(0, 0%, 100%, .75)">hsla(0, 0%, 100%, .75)</div>
-      </div>
-      <div class="wi-50-ns fl-ns pll-ns">
-        <h1 class="f4 book mtl mtn-ns">The code</h1>
-<pre class="pre mtn">
-<code class="small code">
-.b--white-10 { border-color: hsla(0,0%,100%,.1); }
-.b--white-25 { border-color: hsla(0,0%,100%,.25); }
-.b--white-50 { border-color: hsla(0,0%,100%,.5); }
-.b--white-75 { border-color: hsla(0,0%,100%,.75); }
-.b--black-10 { border-color: hsla(0,0%,0%,.1); }
-.b--black-25 { border-color: hsla(0,0%,0%,.25); }
-.b--black-50 { border-color: hsla(0,0%,0%,.5); }
-.b--black-75 { border-color: hsla(0,0%,0%,.75); }
-</code>
-</pre>
-      </div>
-    </div>
-  </article>
-  <article class="ba mtl brs b--light-gray pam">
-<header class="cf pbs bb b--light-gray mbm">
-    <h3 class="f4 book mvn">Border Radius</h3>
-    <code class="bg-yellow mvn f5">/sass/_border_radius.scss</code>
-</header>
-    <div class="cf">
-      <div class="wi-50-ns fl-ns phm">
-        <div class="tc ba b--black pvm mbs brn" ></div>
-        <div class="tc ba b--black pvm mbs br" ></div>
-        <div class="tc ba b--black pvm mbs br2" ></div>
-        <div class="tc ba b--black pvm mbs br3" ></div>
-        <div class="tc ba b--black pvm mbs br4" ></div>
-        <div class="tc ba b--black pvm mbs br5" ></div>
-        <div class="tc ba b--black pvm mbs br-circ"></div>
-        <div class="tc ba b--black pvm mbs br-100"></div>
-        <div class="tc ba b--black pvm mbs br-circ" style="width: 48px; height: 48px;"></div>
-        <div class="tc ba b--black pvm mbs br-100" style="width: 48px; height: 48px;"></div>
-      </div>
-      <div class="wi-50-ns fl-ns pll-ns">
-        <h1 class="f4 book mtl mtn-ns">The code</h1>
-<pre class="pre mtn">
-<code class="small code">
-.brn {     border-radius: 0; }
-.br {      border-radius: .125rem; }
-.br2 {     border-radius: .25rem; }
-.br3 {     border-radius: .5rem; }
-.br4 {     border-radius: 1rem; }
-.br5 {     border-radius: 2rem; }
-.br-circ { border-radius: 9999px; }
-.br-100 {  border-radius: 100%; }
-</code>
-</pre>
-      </div>
-    </div>
-  </article>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white ba">
+    .ba { border-style: solid; border-width: 1px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white bt">
+    .bt { border-top-style: solid; border-top-width: 1px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white br">
+    .br { border-right-style: solid; border-right-width: 1px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white bb">
+    .bb { border-bottom-style: solid; border-bottom-width: 1px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white bl">
+    .bl { border-left-style: solid; border-left-width: 1px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white bda">
+    .bda { border-style: dotted; border-width: 1px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white bdt">
+    .bdt { border-top-style: dotted; border-top-width: 1px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white bdr">
+    .bdr { border-right-style: dotted; border-right-width: 1px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white bdb">
+    .bdb { border-bottom-style: dotted; border-bottom-width: 1px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas b--black bg-near-white bdl">
+    .bdl { border-left-style: dotted; border-left-width: 1px }
+  </div>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">border colors</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--black">
+    .b--black { border-color: #000 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--near-black">
+    .b--near-black { border-color: #111 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--dark-gray">
+    .b--dark-gray { border-color: #333 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--mid-gray">
+    .b--mid-gray { border-color: #555 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--gray">
+    .b--gray { border-color: #777 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--silver">
+    .b--silver { border-color: #999 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-silver">
+    .b--light-silver { border-color: #aaa }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-gray">
+    .b--light-gray { border-color: #eee }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--near-white">
+    .b--near-white { border-color: #f4f4f4 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--white">
+    .b--white { border-color: #fff }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--white-10">
+    .b--white-10 { border-color: rgba(255, 255, 255, 0.1) }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--white-25">
+    .b--white-25 { border-color: rgba(255, 255, 255, 0.25) }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--white-50">
+    .b--white-50 { border-color: rgba(255, 255, 255, 0.5) }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--white-75">
+    .b--white-75 { border-color: rgba(255, 255, 255, 0.75) }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--black-10">
+    .b--black-10 { border-color: rgba(0, 0, 0, 0.1) }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--black-25">
+    .b--black-25 { border-color: rgba(0, 0, 0, 0.25) }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--black-50">
+    .b--black-50 { border-color: rgba(0, 0, 0, 0.5) }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--black-75">
+    .b--black-75 { border-color: rgba(0, 0, 0, 0.75) }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--blue">
+    .b--blue { border-color: #0074D9 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-blue">
+    .b--light-blue { border-color: #64a8ff }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--lightest-blue">
+    .b--lightest-blue { border-color: #a2dfff }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--dark-blue">
+    .b--dark-blue { border-color: #0045a1 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--darkest-blue">
+    .b--darkest-blue { border-color: #002f86 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--yellow">
+    .b--yellow { border-color: #fff93c }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-yellow">
+    .b--light-yellow { border-color: #fffa60 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--lightest-yellow">
+    .b--lightest-yellow { border-color: #fffca6 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--dark-yellow">
+    .b--dark-yellow { border-color: #e2c100 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--darkest-yellow">
+    .b--darkest-yellow { border-color: #c4a600 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--orange">
+    .b--orange { border-color: #FF851B }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-orange">
+    .b--light-orange { border-color: #ffa942 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--lightest-orange">
+    .b--lightest-orange { border-color: #ffc55d }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--dark-orange">
+    .b--dark-orange { border-color: #d05e00 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--darkest-orange">
+    .b--darkest-orange { border-color: #b14400 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--red">
+    .b--red { border-color: #d82c2c }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-red">
+    .b--light-red { border-color: #f94f44 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--lightest-red">
+    .b--lightest-red { border-color: #ff6c5c }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--dark-red">
+    .b--dark-red { border-color: #bd001a }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--darkest-red">
+    .b--darkest-red { border-color: #9d0003 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--teal">
+    .b--teal { border-color: #27bfa8 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-teal">
+    .b--light-teal { border-color: #4eddc5 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--lightest-teal">
+    .b--lightest-teal { border-color: #6ffae0 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--dark-teal">
+    .b--dark-teal { border-color: #25a28f }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--darkest-teal">
+    .b--darkest-teal { border-color: #008876 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--green">
+    .b--green { border-color: #3D9970 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-green">
+    .b--light-green { border-color: #5ab48a }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--lightest-green">
+    .b--lightest-green { border-color: #75d0a4 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--dark-green">
+    .b--dark-green { border-color: #1e7f58 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--darkest-green">
+    .b--darkest-green { border-color: #006540 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--pink">
+    .b--pink { border-color: #F012BE }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-pink">
+    .b--light-pink { border-color: #ff57e8 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--lightest-pink">
+    .b--lightest-pink { border-color: #ff81ff }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--dark-pink">
+    .b--dark-pink { border-color: #d100a3 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--darkest-pink">
+    .b--darkest-pink { border-color: #b20088 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--purple">
+    .b--purple { border-color: #980bc6 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--light-purple">
+    .b--light-purple { border-color: #b536e2 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--lightest-purple">
+    .b--lightest-purple { border-color: #d355ff }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--dark-purple">
+    .b--dark-purple { border-color: #7b00a9 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba bw1 b--darkest-purple">
+    .b--darkest-purple { border-color: #5f008e }
+  </div>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">border radius</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black brn">
+    .brn { border-radius: 0 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black br1">
+    .br1 { border-radius: 0.125rem }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black br2">
+    .br2 { border-radius: 0.25rem }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black br3">
+    .br3 { border-radius: 0.5rem }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black br4">
+    .br4 { border-radius: 1rem }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black br5">
+    .br5 { border-radius: 2rem }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black br-circ">
+    .br-circ { border-radius: 9999px }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black br-100">
+    .br-100 { border-radius: 100% }
+  </div>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">border style</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black bg-near-white bs-none">
+    .bs-none { border-style: none }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black bg-near-white bs-dotted">
+    .bs-dotted { border-style: dotted }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black bg-near-white bs-solid">
+    .bs-solid { border-style: solid }
+  </div>
+</div>
+
+
+        </div>
+      </article>
+
+      <h2 class="f4 ttu book mbl mtx">border widths</h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black bw0">
+    .bw0 { border-width: 0 }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black bw1">
+    .bw1 { border-width: 0.125rem }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black bw2">
+    .bw2 { border-width: 0.25rem }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black bw3">
+    .bw3 { border-width: 0.5rem }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black bw4">
+    .bw4 { border-width: 0.75rem }
+  </div>
+</div>
+
+
+  <div class="fl wi-100 mbs">
+  <div class="pas ba b--black bw5">
+    .bw5 { border-width: 1rem }
+  </div>
+</div>
+
+
+        </div>
+      </article>
+
     </main>
     <footer class="bg-white gray pvx pvxl-ns phm bt b--light-gray h-50 h-75-ns">
       <small class="f5 mw7 db center lh-copy">
         A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
-        that always moves faster than light. 
+        that always moves faster than light.
         <br class="dn db-ns">
         The word comes from the Greek:
         ταχύς or tachys, meaning "swift, quick, fast, rapid"

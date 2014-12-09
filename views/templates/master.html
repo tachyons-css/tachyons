@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      <%= moduleName %> / Docs / TACHYONS
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/css/tachyons.css">
+  </head>
+  <body class="wi-100">
+    <header class="bb b--light-gray pvm">
+      <div class="center mw8 phm phl-ns">
+        <h1 class="f3 book dib prm"><a class="link" href="/" title="home">Tachyons</a></h1>
+        <h2 class="f4 book ttu orange dib"><%= moduleName %></h2>
+      </div>
+    </header>
+    <main class="center mw8 phm phl-ns ptl pbxl">
+      <p class="lh-copy"></p>
+
+<% _.forEach(subModules, function (subModule) { %>
+      <h2 class="f4 ttu book mbl mtx"><%= subModule.name %></h2>
+      <article class="pam brs ba b--light-gray">
+        <div class="cf wi-100">
+<% _.forEach(subModule.examples, function (example) { %>
+  <%= example %>
+<% }); %>
+        </div>
+      </article>
+<% }); %>
+    </main>
+    <footer class="bg-white gray pvx pvxl-ns phm bt b--light-gray h-50 h-75-ns">
+      <small class="f5 mw7 db center lh-copy">
+        A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
+        that always moves faster than light.
+        <br class="dn db-ns">
+        The word comes from the Greek:
+        ταχύς or tachys, meaning "swift, quick, fast, rapid"
+      </small>
+    </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
