@@ -251,7 +251,7 @@ function generateDocs(done) {
       moduleName: docModule.name,
       subModules: subModuleData
     });
-    console.log(subModuleData);
+    //console.log(subModuleData);
     // TODO: go async
     fs.writeFileSync(path.join(paths.docs, docModule.name, 'index.html'),
         moduleTemplate);

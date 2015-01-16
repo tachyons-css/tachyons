@@ -24,7 +24,7 @@
 @include break(not-small) {
   .fl-ns { float: left; display: inline; }
   .fr-ns { float: right;display: inline; }
-  .fn-ns { float: none; }
+  .fn-ns { float: none!important; }
 }
 
 @include break(medium) {
