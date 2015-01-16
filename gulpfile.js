@@ -1,6 +1,5 @@
 // Gulp tasks for Tachyons
-
-// Load plugins 
+// Load plugins
 var gulp = require('gulp'),
     fs = require('fs'),
     gutil = require('gulp-util'),
@@ -16,17 +15,8 @@ var gulp = require('gulp'),
     fileinclude = require('gulp-file-include'),
     browserSync = require('browser-sync'),
     browserReload = browserSync.reload,
+    gendocss = require('./tasks/generateDocs'),
     stylestats = require('gulp-stylestats');
-
-gulp.task('fileinclude', function() {
-  gulp.src(['docs/*/index.html'])
-    .pipe(fileinclude({
-      prefix: '@@',
-      basepath: '@views'
-    }))
-    .pipe(gulp.dest('./'));
-});
-
 
 gulp.task('generateDocs', require('./tasks/generateDocs'));
 
@@ -74,7 +64,7 @@ gulp.task('minify-css', function(){
     .pipe(size({gzip: true, showFiles: true, title:'minified css'}));
 });
 
-// Initialize browser-sync which starts a static server also allows for 
+// Initialize browser-sync which starts a static server also allows for
 // browsers to reload on filesave
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
@@ -84,13 +74,10 @@ gulp.task('browser-sync', function() {
     });
 });
 
-
-
 gulp.task('stylestats', function () {
   gulp.src('./css/tachyons.css')
     .pipe(stylestats());
 });
-
 
 // Function to call for reloading browsers
 gulp.task('bs-reload', function () {
@@ -105,10 +92,11 @@ gulp.task('bs-reload', function () {
  • Reloads browsers when you change html or sass files
 
 */
-gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync'], function(){
+gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync', 'generateDocs'], function(){
   gulp.start('pre-process', 'csslint');
   gulp.watch('sass/*.scss', ['pre-process']);
   gulp.watch('css/tachyons.css', ['bs-reload']);
+  //gulp.watch('views/**', ['generateDocs']);
   gulp.watch(['*.html', 'docs/*/*.html'], ['bs-reload']);
 });
 
