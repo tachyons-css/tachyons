@@ -1,6 +1,6 @@
-// SVG Strokes
+/* SVG Strokes */
 
-.sw-4 { stroke-width: 4); }
+.sw-4 { stroke-width: 4; }
 
 .stroke-black { stroke: var(--black); }
 .stroke-near-black { stroke: var(--near-black); }
