@@ -1,0 +1,23 @@
+/*
+
+   BACKGROUND SIZE
+
+*/
+
+  .bg-cv  {               background-size: cover; }
+  .bg-cn  {               background-size: contain; }
+
+@media (--breakpoint-not-small) {
+  .bg-cv-ns {             background-size: cover; }
+  .bg-cn-ns {             background-size: contain; }
+}
+
+@media (--breakpoint-medium) {
+  .bg-cv-m {              background-size: cover; }
+  .bg-cn-m {              background-size: contain; }
+}
+
+@media (--breakpoint-large) {
+  .bg-cv-l {              background-size: cover; }
+  .bg-cn-l {              background-size: contain; }
+}

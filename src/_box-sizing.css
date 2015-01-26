@@ -1,0 +1,22 @@
+/*
+  Box Sizing
+*/
+
+div,
+article,
+section,
+main,
+footer,
+header,
+form,
+fieldset,
+pre,
+code,
+p,
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+  box-sizing: border-box;
+}
+

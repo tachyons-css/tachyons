@@ -1,0 +1,13 @@
+/* Forms */
+
+
+.input-text {
+   outline: 0;
+   border: 1px solid $silver;
+}
+
+.input-invisible {
+  outline: 0;
+  border: 0;
+}
+

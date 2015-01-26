@@ -1,0 +1,32 @@
+/*
+
+   LINKS
+
+*/
+
+.link {
+  text-decoration: none;
+  transition: color .15s ease-in;
+}
+
+.link:link,
+.link:visited {
+  color: #2D243B;
+  transition: color .15s ease-in;
+}
+.link:hover   {
+  color: #999999;
+  transition: color .15s ease-in;
+}
+.link:active  {
+  color: #C4E3E0;
+  transition: color .15s ease-in;
+}
+.link:focus   {
+  color: #2D243B;
+  transition: color .15s ease-in;
+}
+
+.underline             { text-decoration: underline; }
+.underline-hover:hover { text-decoration: underline; }
+

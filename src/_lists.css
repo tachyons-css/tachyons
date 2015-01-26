@@ -1,0 +1,19 @@
+/*
+
+   LISTS
+
+*/
+
+.list {       list-style-type: none; }
+
+@media (--breakpoint-not-small) {
+  .list-ns {  list-style-type: none; }
+}
+
+@media (--breakpoint-medium) {
+  .list-m {   list-style: none; }
+}
+
+@media (--breakpoint-large) {
+  .list-l {   list-style-type: none; }
+}

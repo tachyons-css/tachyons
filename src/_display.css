@@ -1,0 +1,56 @@
+/*
+
+   DISPLAY
+
+   - Mobile First
+   - Breakpoint: not-small
+   - Breakpoint: medium
+   - Breakpoint: large
+
+*/
+
+.dn {     display: none; }
+.di {     display: inline; }
+.db {     display: block; }
+.dib {    display: inline-block; }
+.dit {    display: inline-table; }
+.dt {     display: table; table-layout: fixed; width: 100%; }
+.dtc {    display: table-cell; }
+.dtcol {  display: table-column; }
+.dtcolg { display: table-column-group; }
+
+@media (--breakpoint-not-small) {
+  .dn-ns {     display: none; }
+  .di-ns {     display: inline; }
+  .db-ns {     display: block; }
+  .dib-ns {    display: inline-block; }
+  .dit-ns {    display: inline-table; }
+  .dt-ns {     display: table; table-layout: fixed; width: 100%; }
+  .dtc-ns {    display: table-cell; }
+  .dtcol-ns {  display: table-column; }
+  .dtcolg-ns { display: table-column-group; }
+}
+
+@media (--breakpoint-medium) {
+  .dn-m {     display: none; }
+  .di-m {     display: inline; }
+  .db-m {     display: block; }
+  .dib-m {    display: inline-block; }
+  .dit-m {    display: inline-table; }
+  .dt-m {     display: table; table-layout: fixed; width: 100%; }
+  .dtc-m {    display: table-cell; }
+  .dtcol-m {  display: table-column; }
+  .dtcolg-m { display: table-column-group; }
+}
+
+@media (--breakpoint-large) {
+  .dn-l {     display: none; }
+  .di-l {     display: inline; }
+  .db-l {     display: block; }
+  .dib-l {    display: inline-block; }
+  .dit-l {    display: inline-table; }
+  .dt-l {     display: table; table-layout: fixed; width: 100%; }
+  .dtc-l {    display: table-cell; }
+  .dtcol-l {  display: table-column; }
+  .dtcolg-l { display: table-column-group; }
+}
