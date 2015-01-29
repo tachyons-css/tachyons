@@ -480,7 +480,7 @@ input[type="password"] {
   background-size: contain;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .bg-cv-ns {
     background-size: cover;
   }
@@ -490,7 +490,7 @@ input[type="password"] {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .bg-cv-m {
     background-size: cover;
   }
@@ -582,7 +582,7 @@ input[type="password"] {
   border-left-width: 1px;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .bn-ns {
     border-style: solid;
     border-width: 0;
@@ -639,7 +639,7 @@ input[type="password"] {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .bn-m {
     border-style: solid;
     border-width: 0;
@@ -1029,7 +1029,7 @@ input[type="password"] {
   border-radius: 100%;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .brn-ns {
     border-radius: 0;
   }
@@ -1063,7 +1063,7 @@ input[type="password"] {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .brn-m {
     border-radius: 0;
   }
@@ -1149,7 +1149,7 @@ input[type="password"] {
   border-style: solid;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .bs-none-ns {
     border-style: none;
   }
@@ -1163,7 +1163,7 @@ input[type="password"] {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .bs-none-m {
     border-style: none;
   }
@@ -1444,6 +1444,22 @@ input[type="password"] {
   border-color: #001F3F;
 }
 
+.btn--animated {
+  background: #f9f9f9;
+  color: #444;
+  border: 4px solid #f1f1f1;
+  padding: .5rem;
+  transition: padding .4s ease-out;
+  transition-delay: .1s;
+}
+
+.btn--animated:hover {
+  background: #f9f9f9;
+  border: 4px solid #f1f1f1;
+  padding: .75rem;
+  transition: padding .2s ease-in;
+}
+
 /* Keep it mobile-first and responsive */
 
 @media screen and (min-width: 32em) {
@@ -1570,7 +1586,7 @@ input[type="password"] {
   display: table-column-group;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .dn-ns {
     display: none;
   }
@@ -1610,7 +1626,7 @@ input[type="password"] {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .dn-m {
     display: none;
   }
@@ -1721,7 +1737,7 @@ input[type="password"] {
   float: none;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .fl-ns {
     float: left;
     display: inline;
@@ -1737,7 +1753,7 @@ input[type="password"] {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .fl-m {
     float: left;
     display: inline;
@@ -1788,7 +1804,8 @@ body,
   font-family: "Calisto MT", georgia, serif;
 }
 
-// From http://cssfontstack.com
+/* From http://cssfontstack.com */
+
 .code,
 code {
   font-family: Consolas, monaco, monospace;
@@ -1854,7 +1871,7 @@ code {
   font-weight: 900;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .normal-ns {
     font-weight: normal;
   }
@@ -1880,7 +1897,7 @@ code {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .normal-m {
     font-weight: normal;
   }
@@ -1944,11 +1961,11 @@ code {
   border: 0;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
 
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
 
 }
 
@@ -2060,7 +2077,7 @@ code {
   height: inherit;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .h-1-ns {
     height: 1rem;
   }
@@ -2156,7 +2173,7 @@ code {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .h1-m {
     height: 1rem;
   }
@@ -2378,7 +2395,7 @@ img {
   letter-spacing: .3em;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .tracked-ns {
     letter-spacing: .16em;
   }
@@ -2392,7 +2409,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .tracked-m {
     letter-spacing: .16em;
   }
@@ -2438,7 +2455,7 @@ img {
   line-height: 1.6;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .lh-ns {
     line-height: 1;
   }
@@ -2452,7 +2469,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .lh-m {
     line-height: 1;
   }
@@ -2530,13 +2547,13 @@ img {
   list-style-type: none;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .list-ns {
     list-style-type: none;
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .list-m {
     list-style: none;
   }
@@ -2638,7 +2655,7 @@ img {
   max-width: fill-available;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .mw-100-ns {
     max-width: 100%;
   }
@@ -2724,7 +2741,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .mw-100-m {
     max-width: 100%;
   }
@@ -2964,7 +2981,7 @@ img {
   width: auto;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .wi1-ns {
     width: 1rem;
   }
@@ -3026,7 +3043,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .wi1-m {
     width: 1rem;
   }
@@ -3204,7 +3221,7 @@ img {
   overflow-y: auto;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .of-vis-ns {
     overflow: visible;
   }
@@ -3254,7 +3271,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .of-vis-m {
     overflow: visible;
   }
@@ -3457,7 +3474,7 @@ img {
   margin-left: auto;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .pos-stat-ns {
     position: static;
   }
@@ -3552,7 +3569,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .pos-stat-m {
     position: static;
   }
@@ -3751,1426 +3768,1220 @@ img {
 /* Text colors */
 
 .black {
-  color: $near-black;
+  color: #111;
 }
 
 .dark-gray {
-  color: $dark-gray;
+  color: #333;
 }
 
 .mid-gray {
-  color: $mid-gray;
+  color: #555;
 }
 
 .gray {
-  color: $gray;
+  color: #777;
 }
 
 .silver {
-  color: $silver;
+  color: #999;
 }
 
 .light-silver {
-  color: $light-silver;
+  color: #aaa;
 }
 
 .light-gray {
-  color: $light-gray;
+  color: #eee;
 }
 
 .near-white {
-  color: $near-white;
+  color: #f4f4f4;
 }
 
 .white {
-  color: $white;
+  color: #fff;
 }
 
 .blue {
-  color: $blue;
+  color: #0074D9;
 }
 
 .light-blue {
-  color: $light-blue;
+  color: #64a8ff;
 }
 
 .lightest-blue {
-  color: $lightest-blue;
+  color: #a2dfff;
 }
 
 .dark-blue {
-  color: $dark-blue;
+  color: #0045a1;
 }
 
 .darkest-blue {
-  color: $darkest-blue;
+  color: #002f86;
 }
 
 .yellow {
-  color: $yellow;
+  color: #fff93c;
 }
 
 .light-yellow {
-  color: $light-yellow;
+  color: #fffa60;
 }
 
 .lightest-yellow {
-  color: $lightest-yellow;
+  color: #fffca6;
 }
 
 .dark-yellow {
-  color: $dark-yellow;
+  color: #e2c100;
 }
 
 .darkest-yellow {
-  color: $darkest-yellow;
+  color: #c4a600;
 }
 
 .orange {
-  color: $orange;
+  color: #FF851B;
 }
 
 .light-orange {
-  color: $light-orange;
+  color: #ffa942;
 }
 
 .lightest-orange {
-  color: $lightest-orange;
+  color: #ffc55d;
 }
 
 .dark-orange {
-  color: $dark-orange;
+  color: #d05e00;
 }
 
 .darkest-orange {
-  color: $darkest-orange;
+  color: #b14400;
 }
 
 .red {
-  color: $red;
+  color: #d82c2c;
 }
 
 .light-red {
-  color: $light-red;
+  color: #f94f44;
 }
 
 .lightest-red {
-  color: $lightest-red;
+  color: #ff6c5c;
 }
 
 .dark-red {
-  color: $dark-red;
+  color: #bd001a;
 }
 
 .darkest-red {
-  color: $darkest-red;
+  color: #9d0003;
 }
 
 .teal {
-  color: $teal;
+  color: #27bfa8;
 }
 
 .light-teal {
-  color: $light-teal;
+  color: #4eddc5;
 }
 
 .lightest-teal {
-  color: $lightest-teal;
+  color: #6ffae0;
 }
 
 .dark-teal {
-  color: $dark-teal;
+  color: #25a28f;
 }
 
 .darkest-teal {
-  color: $darkest-teal;
+  color: #008876;
 }
 
 .green {
-  color: $green;
+  color: #3D9970;
 }
 
 .light-green {
-  color: $light-green;
+  color: #5ab48a;
 }
 
 .lightest-green {
-  color: $lightest-green;
+  color: #75d0a4;
 }
 
 .dark-green {
-  color: $dark-green;
+  color: #1e7f58;
 }
 
 .darkest-green {
-  color: $darkest-green;
+  color: #006540;
 }
 
 .pink {
-  color: $pink;
+  color: #F012BE;
 }
 
 .light-pink {
-  color: $light-pink;
+  color: #ff57e8;
 }
 
 .lightest-pink {
-  color: $lightest-pink;
+  color: #ff81ff;
 }
 
 .dark-pink {
-  color: $dark-pink;
+  color: #d100a3;
 }
 
 .darkest-pink {
-  color: $darkest-pink;
+  color: #b20088;
 }
 
 .purple {
-  color: $purple;
+  color: #980bc6;
 }
 
 .light-purple {
-  color: $light-purple;
+  color: #b536e2;
 }
 
 .lightest-purple {
-  color: $lightest-purple;
+  color: #d355ff;
 }
 
 .dark-purple {
-  color: $dark-purple;
+  color: #7b00a9;
 }
 
 .darkest-purple {
-  color: $darkest-purple;
+  color: #5f008e;
 }
 
 /* Background colors */
 
 .bg-black {
-  background-color: $near-black;
+  background-color: #111;
 }
 
 .bg-dark-gray {
-  background-color: $dark-gray;
+  background-color: #333;
 }
 
 .bg-mid-gray {
-  background-color: $mid-gray;
+  background-color: #555;
 }
 
 .bg-gray {
-  background-color: $gray;
+  background-color: #777;
 }
 
 .bg-silver {
-  background-color: $silver;
+  background-color: #999;
 }
 
 .bg-light-silver {
-  background-color: $light-silver;
+  background-color: #aaa;
 }
 
 .bg-light-gray {
-  background-color: $light-gray;
+  background-color: #eee;
 }
 
 .bg-near-white {
-  background-color: $near-white;
+  background-color: #f4f4f4;
 }
 
 .bg-white {
-  background-color: $white;
+  background-color: #fff;
 }
 
 .bg-blue {
-  background-color: $blue;
+  background-color: #0074D9;
 }
 
 .bg-light-blue {
-  background-color: $light-blue;
+  background-color: #64a8ff;
 }
 
 .bg-lightest-blue {
-  background-color: $lightest-blue;
+  background-color: #a2dfff;
 }
 
 .bg-dark-blue {
-  background-color: $dark-blue;
+  background-color: #0045a1;
 }
 
 .bg-darkest-blue {
-  background-color: $darkest-blue;
+  background-color: #002f86;
 }
 
 .bg-yellow {
-  background-color: $yellow;
+  background-color: #fff93c;
 }
 
 .bg-light-yellow {
-  background-color: $light-yellow;
+  background-color: #fffa60;
 }
 
 .bg-lightest-yellow {
-  background-color: $lightest-yellow;
+  background-color: #fffca6;
 }
 
 .bg-dark-yellow {
-  background-color: $dark-yellow;
+  background-color: #e2c100;
 }
 
 .bg-darkest-yellow {
-  background-color: $darkest-yellow;
+  background-color: #c4a600;
 }
 
 .bg-orange {
-  background-color: $orange;
+  background-color: #FF851B;
 }
 
 .bg-light-orange {
-  background-color: $light-orange;
+  background-color: #ffa942;
 }
 
 .bg-lightest-orange {
-  background-color: $lightest-orange;
+  background-color: #ffc55d;
 }
 
 .bg-dark-orange {
-  background-color: $dark-orange;
+  background-color: #d05e00;
 }
 
 .bg-darkest-orange {
-  background-color: $darkest-orange;
+  background-color: #b14400;
 }
 
 .bg-red {
-  background-color: $red;
+  background-color: #d82c2c;
 }
 
 .bg-light-red {
-  background-color: $light-red;
+  background-color: #f94f44;
 }
 
 .bg-lightest-red {
-  background-color: $lightest-red;
+  background-color: #ff6c5c;
 }
 
 .bg-dark-red {
-  background-color: $dark-red;
+  background-color: #bd001a;
 }
 
 .bg-darkest-red {
-  background-color: $darkest-red;
+  background-color: #9d0003;
 }
 
 .bg-teal {
-  background-color: $teal;
+  background-color: #27bfa8;
 }
 
 .bg-light-teal {
-  background-color: $light-teal;
+  background-color: #4eddc5;
 }
 
 .bg-lightest-teal {
-  background-color: $lightest-teal;
+  background-color: #6ffae0;
 }
 
 .bg-dark-teal {
-  background-color: $dark-teal;
+  background-color: #25a28f;
 }
 
 .bg-darkest-teal {
-  background-color: $darkest-teal;
+  background-color: #008876;
 }
 
 .bg-green {
-  background-color: $green;
+  background-color: #3D9970;
 }
 
 .bg-light-green {
-  background-color: $light-green;
+  background-color: #5ab48a;
 }
 
 .bg-lightest-green {
-  background-color: $lightest-green;
+  background-color: #75d0a4;
 }
 
 .bg-dark-green {
-  background-color: $dark-green;
+  background-color: #1e7f58;
 }
 
 .bg-darkest-green {
-  background-color: $darkest-green;
+  background-color: #006540;
 }
 
 .bg-pink {
-  background-color: $pink;
+  background-color: #F012BE;
 }
 
 .bg-light-pink {
-  background-color: $light-pink;
+  background-color: #ff57e8;
 }
 
 .bg-lightest-pink {
-  background-color: $lightest-pink;
+  background-color: #ff81ff;
 }
 
 .bg-dark-pink {
-  background-color: $dark-pink;
+  background-color: #d100a3;
 }
 
 .bg-darkest-pink {
-  background-color: $darkest-pink;
+  background-color: #b20088;
 }
 
 .bg-purple {
-  background-color: $purple;
+  background-color: #980bc6;
 }
 
 .bg-light-purple {
-  background-color: $light-purple;
+  background-color: #b536e2;
 }
 
 .bg-lightest-purple {
-  background-color: $lightest-purple;
+  background-color: #d355ff;
 }
 
 .bg-dark-purple {
-  background-color: $dark-purple;
+  background-color: #7b00a9;
 }
 
 .bg-darkest-purple {
-  background-color: $darkest-purple;
+  background-color: #5f008e;
 }
 
-// SVG Skins
+/* Skins for specific pseudoclasses */
 
-
-.stroke-black {
-  stroke: $black;
-}
-
-.stroke-near-black {
-  stroke: $near-black;
-}
-
-.stroke-dark-gray {
-  stroke: $dark-gray;
-}
-
-.stroke-mid-gray {
-  stroke: $mid-gray;
-}
-
-.stroke-gray {
-  stroke: $gray;
-}
-
-.stroke-silver {
-  stroke: $silver;
-}
-
-.stroke-light-silver {
-  stroke: $light-silver;
-}
-
-.stroke-moon-gray {
-  stroke: $moon-gray;
-}
-
-.stroke-light-gray {
-  stroke: $light-gray;
-}
-
-.stroke-near-white {
-  stroke: $near-white;
-}
-
-.stroke-white {
-  stroke: $white;
-}
-
-.stroke-blue {
-  stroke: $blue;
-}
-
-.stroke-light-blue {
-  stroke: $light-blue;
-}
-
-.stroke-lightest-blue {
-  stroke: $lightest-blue;
-}
-
-.stroke-dark-blue {
-  stroke: $dark-blue;
-}
-
-.stroke-darkest-blue {
-  stroke: $darkest-blue;
-}
-
-.stroke-yellow {
-  stroke: $yellow;
-}
-
-.stroke-light-yellow {
-  stroke: $light-yellow;
-}
-
-.stroke-lightest-yellow {
-  stroke: $lightest-yellow;
-}
-
-.stroke-dark-yellow {
-  stroke: $dark-yellow;
-}
-
-.stroke-darkest-yellow {
-  stroke: $darkest-yellow;
-}
-
-.stroke-orange {
-  stroke: $orange;
-}
-
-.stroke-light-orange {
-  stroke: $light-orange;
-}
-
-.stroke-lightest-orange {
-  stroke: $lightest-orange;
-}
-
-.stroke-dark-orange {
-  stroke: $dark-orange;
-}
-
-.stroke-darkest-orange {
-  stroke: $darkest-orange;
-}
-
-.stroke-red {
-  stroke: $red;
-}
-
-.stroke-light-red {
-  stroke: $light-red;
-}
-
-.stroke-lightest-red {
-  stroke: $lightest-red;
-}
-
-.stroke-dark-red {
-  stroke: $dark-red;
-}
-
-.stroke-darkest-red {
-  stroke: $darkest-red;
-}
-
-.stroke-teal {
-  stroke: $teal;
-}
-
-.stroke-light-teal {
-  stroke: $light-teal;
-}
-
-.stroke-lightest-teal {
-  stroke: $lightest-teal;
-}
-
-.stroke-dark-teal {
-  stroke: $dark-teal;
-}
-
-.stroke-darkest-teal {
-  stroke: $darkest-teal;
-}
-
-.stroke-green {
-  stroke: $green;
-}
-
-.stroke-light-green {
-  stroke: $light-green;
-}
-
-.stroke-lightest-green {
-  stroke: $lightest-green;
-}
-
-.stroke-dark-green {
-  stroke: $dark-green;
-}
-
-.stroke-darkest-green {
-  stroke: $darkest-green;
-}
-
-.stroke-pink {
-  stroke: $pink;
-}
-
-.stroke-light-pink {
-  stroke: $light-pink;
-}
-
-.stroke-lightest-pink {
-  stroke: $lightest-pink;
-}
-
-.stroke-dark-pink {
-  stroke: $dark-pink;
-}
-
-.stroke-darkest-pink {
-  stroke: $darkest-pink;
-}
-
-.stroke-purple {
-  stroke: $purple;
-}
-
-.stroke-light-purple {
-  stroke: $light-purple;
-}
-
-.stroke-lightest-purple {
-  stroke: $lightest-purple;
-}
-
-.stroke-dark-purple {
-  stroke: $dark-purple;
-}
-
-.stroke-darkest-purple {
-  stroke: $darkest-purple;
-}
-
-// Skins for specific pseudoclasses
 .focus-black:focus {
-  color: $black;
+  color: #000;
 }
 
 .focus-near-black:focus {
-  color: $near-black;
+  color: #111;
 }
 
 .focus-dark-gray:focus {
-  color: $dark-gray;
+  color: #333;
 }
 
 .focus-mid-gray:focus {
-  color: $mid-gray;
+  color: #555;
 }
 
 .focus-gray:focus {
-  color: $gray;
+  color: #777;
 }
 
 .focus-silver:focus {
-  color: $silver;
+  color: #999;
 }
 
 .focus-light-silver:focus {
-  color: $light-silver;
+  color: #aaa;
 }
 
 .focus-moon-gray:focus {
-  color: $moon-gray;
+  color: #ccc;
 }
 
 .focus-light-gray:focus {
-  color: $light-gray;
+  color: #eee;
 }
 
 .focus-near-white:focus {
-  color: $near-white;
+  color: #f4f4f4;
 }
 
 .focus-white:focus {
-  color: $white;
+  color: #fff;
 }
 
 .focus-blue:focus {
-  color: $blue;
+  color: #0074D9;
 }
 
 .focus-light-blue:focus {
-  color: $light-blue;
+  color: #64a8ff;
 }
 
 .focus-lightest-blue:focus {
-  color: $lightest-blue;
+  color: #a2dfff;
 }
 
 .focus-dark-blue:focus {
-  color: $dark-blue;
+  color: #0045a1;
 }
 
 .focus-darkest-blue:focus {
-  color: $darkest-blue;
+  color: #002f86;
 }
 
 .focus-yellow:focus {
-  color: $yellow;
+  color: #fff93c;
 }
 
 .focus-light-yellow:focus {
-  color: $light-yellow;
+  color: #fffa60;
 }
 
 .focus-lightest-yellow:focus {
-  color: $lightest-yellow;
+  color: #fffca6;
 }
 
 .focus-dark-yellow:focus {
-  color: $dark-yellow;
+  color: #e2c100;
 }
 
 .focus-darkest-yellow:focus {
-  color: $darkest-yellow;
+  color: #c4a600;
 }
 
 .focus-orange:focus {
-  color: $orange;
+  color: #FF851B;
 }
 
 .focus-light-orange:focus {
-  color: $light-orange;
+  color: #ffa942;
 }
 
 .focus-lightest-orange:focus {
-  color: $lightest-orange;
+  color: #ffc55d;
 }
 
 .focus-dark-orange:focus {
-  color: $dark-orange;
+  color: #d05e00;
 }
 
 .focus-darkest-orange:focus {
-  color: $darkest-orange;
+  color: #b14400;
 }
 
 .focus-red:focus {
-  color: $red;
+  color: #d82c2c;
 }
 
 .focus-light-red:focus {
-  color: $light-red;
+  color: #f94f44;
 }
 
 .focus-lightest-red:focus {
-  color: $lightest-red;
+  color: #ff6c5c;
 }
 
 .focus-dark-red:focus {
-  color: $dark-red;
+  color: #bd001a;
 }
 
 .focus-darkest-red:focus {
-  color: $darkest-red;
+  color: #9d0003;
 }
 
 .focus-teal:focus {
-  color: $teal;
+  color: #27bfa8;
 }
 
 .focus-light-teal:focus {
-  color: $light-teal;
+  color: #4eddc5;
 }
 
 .focus-lightest-teal:focus {
-  color: $lightest-teal;
+  color: #6ffae0;
 }
 
 .focus-dark-teal:focus {
-  color: $dark-teal;
+  color: #25a28f;
 }
 
 .focus-darkest-teal:focus {
-  color: $darkest-teal;
+  color: #008876;
 }
 
 .focus-green:focus {
-  color: $green;
+  color: #3D9970;
 }
 
 .focus-light-green:focus {
-  color: $light-green;
+  color: #5ab48a;
 }
 
 .focus-lightest-green:focus {
-  color: $lightest-green;
+  color: #75d0a4;
 }
 
 .focus-dark-green:focus {
-  color: $dark-green;
+  color: #1e7f58;
 }
 
 .focus-darkest-green:focus {
-  color: $darkest-green;
+  color: #006540;
 }
 
 .focus-pink:focus {
-  color: $pink;
+  color: #F012BE;
 }
 
 .focus-light-pink:focus {
-  color: $light-pink;
+  color: #ff57e8;
 }
 
 .focus-lightest-pink:focus {
-  color: $lightest-pink;
+  color: #ff81ff;
 }
 
 .focus-dark-pink:focus {
-  color: $dark-pink;
+  color: #d100a3;
 }
 
 .focus-darkest-pink:focus {
-  color: $darkest-pink;
+  color: #b20088;
 }
 
 .focus-purple:focus {
-  color: $purple;
+  color: #980bc6;
 }
 
 .focus-light-purple:focus {
-  color: $light-purple;
+  color: #b536e2;
 }
 
 .focus-lightest-purple:focus {
-  color: $lightest-purple;
+  color: #d355ff;
 }
 
 .focus-dark-purple:focus {
-  color: $dark-purple;
+  color: #7b00a9;
 }
 
 .focus-darkest-purple:focus {
-  color: $darkest-purple;
+  color: #5f008e;
 }
 
 .bg-focus-black:focus {
-  background-color: $black;
+  background-color: #000;
 }
 
 .bg-focus-near-black:focus {
-  background-color: $near-black;
+  background-color: #111;
 }
 
 .bg-focus-dark-gray:focus {
-  background-color: $dark-gray;
+  background-color: #333;
 }
 
 .bg-focus-mid-gray:focus {
-  background-color: $mid-gray;
+  background-color: #555;
 }
 
 .bg-focus-gray:focus {
-  background-color: $gray;
+  background-color: #777;
 }
 
 .bg-focus-silver:focus {
-  background-color: $silver;
+  background-color: #999;
 }
 
 .bg-focus-light-silver:focus {
-  background-color: $light-silver;
+  background-color: #aaa;
 }
 
 .bg-focus-moon-gray:focus {
-  background-color: $moon-gray;
+  background-color: #ccc;
 }
 
 .bg-focus-light-gray:focus {
-  background-color: $light-gray;
+  background-color: #eee;
 }
 
 .bg-focus-near-white:focus {
-  background-color: $near-white;
+  background-color: #f4f4f4;
 }
 
 .bg-focus-white:focus {
-  background-color: $white;
+  background-color: #fff;
 }
 
 .bg-focus-blue:focus {
-  background-color: $blue;
+  background-color: #0074D9;
 }
 
 .bg-focus-light-blue:focus {
-  background-color: $light-blue;
+  background-color: #64a8ff;
 }
 
 .bg-focus-lightest-blue:focus {
-  background-color: $lightest-blue;
+  background-color: #a2dfff;
 }
 
 .bg-focus-dark-blue:focus {
-  background-color: $dark-blue;
+  background-color: #0045a1;
 }
 
 .bg-focus-darkest-blue:focus {
-  background-color: $darkest-blue;
+  background-color: #002f86;
 }
 
 .bg-focus-yellow:focus {
-  background-color: $yellow;
+  background-color: #fff93c;
 }
 
 .bg-focus-light-yellow:focus {
-  background-color: $light-yellow;
+  background-color: #fffa60;
 }
 
 .bg-focus-lightest-yellow:focus {
-  background-color: $lightest-yellow;
+  background-color: #fffca6;
 }
 
 .bg-focus-dark-yellow:focus {
-  background-color: $dark-yellow;
+  background-color: #e2c100;
 }
 
 .bg-focus-darkest-yellow:focus {
-  background-color: $darkest-yellow;
+  background-color: #c4a600;
 }
 
 .bg-focus-orange:focus {
-  background-color: $orange;
+  background-color: #FF851B;
 }
 
 .bg-focus-light-orange:focus {
-  background-color: $light-orange;
+  background-color: #ffa942;
 }
 
 .bg-focus-lightest-orange:focus {
-  background-color: $lightest-orange;
+  background-color: #ffc55d;
 }
 
 .bg-focus-dark-orange:focus {
-  background-color: $dark-orange;
+  background-color: #d05e00;
 }
 
 .bg-focus-darkest-orange:focus {
-  background-color: $darkest-orange;
+  background-color: #b14400;
 }
 
 .bg-focus-red:focus {
-  background-color: $red;
+  background-color: #d82c2c;
 }
 
 .bg-focus-light-red:focus {
-  background-color: $light-red;
+  background-color: #f94f44;
 }
 
 .bg-focus-lightest-red:focus {
-  background-color: $lightest-red;
+  background-color: #ff6c5c;
 }
 
 .bg-focus-dark-red:focus {
-  background-color: $dark-red;
+  background-color: #bd001a;
 }
 
 .bg-focus-darkest-red:focus {
-  background-color: $darkest-red;
+  background-color: #9d0003;
 }
 
 .bg-focus-teal:focus {
-  background-color: $teal;
+  background-color: #27bfa8;
 }
 
 .bg-focus-light-teal:focus {
-  background-color: $light-teal;
+  background-color: #4eddc5;
 }
 
 .bg-focus-lightest-teal:focus {
-  background-color: $lightest-teal;
+  background-color: #6ffae0;
 }
 
 .bg-focus-dark-teal:focus {
-  background-color: $dark-teal;
+  background-color: #25a28f;
 }
 
 .bg-focus-darkest-teal:focus {
-  background-color: $darkest-teal;
+  background-color: #008876;
 }
 
 .bg-focus-green:focus {
-  background-color: $green;
+  background-color: #3D9970;
 }
 
 .bg-focus-light-green:focus {
-  background-color: $light-green;
+  background-color: #5ab48a;
 }
 
 .bg-focus-lightest-green:focus {
-  background-color: $lightest-green;
+  background-color: #75d0a4;
 }
 
 .bg-focus-dark-green:focus {
-  background-color: $dark-green;
+  background-color: #1e7f58;
 }
 
 .bg-focus-darkest-green:focus {
-  background-color: $darkest-green;
+  background-color: #006540;
 }
 
 .bg-focus-pink:focus {
-  background-color: $pink;
+  background-color: #F012BE;
 }
 
 .bg-focus-light-pink:focus {
-  background-color: $light-pink;
+  background-color: #ff57e8;
 }
 
 .bg-focus-lightest-pink:focus {
-  background-color: $lightest-pink;
+  background-color: #ff81ff;
 }
 
 .bg-focus-dark-pink:focus {
-  background-color: $dark-pink;
+  background-color: #d100a3;
 }
 
 .bg-focus-darkest-pink:focus {
-  background-color: $darkest-pink;
+  background-color: #b20088;
 }
 
 .bg-focus-purple:focus {
-  background-color: $purple;
+  background-color: #980bc6;
 }
 
 .bg-focus-light-purple:focus {
-  background-color: $light-purple;
+  background-color: #b536e2;
 }
 
 .bg-focus-lightest-purple:focus {
-  background-color: $lightest-purple;
+  background-color: #d355ff;
 }
 
 .bg-focus-dark-purple:focus {
-  background-color: $dark-purple;
+  background-color: #7b00a9;
 }
 
 .bg-focus-darkest-purple:focus {
-  background-color: $darkest-purple;
+  background-color: #5f008e;
 }
 
 .hover-black:hover {
-  color: $black;
+  color: #000;
 }
 
 .hover-near-black:hover {
-  color: $near-black;
+  color: #111;
 }
 
 .hover-dark-gray:hover {
-  color: $dark-gray;
+  color: #333;
 }
 
 .hover-mid-gray:hover {
-  color: $mid-gray;
+  color: #555;
 }
 
 .hover-gray:hover {
-  color: $gray;
+  color: #777;
 }
 
 .hover-silver:hover {
-  color: $silver;
+  color: #999;
 }
 
 .hover-light-silver:hover {
-  color: $light-silver;
+  color: #aaa;
 }
 
 .hover-moon-gray:hover {
-  color: $moon-gray;
+  color: #ccc;
 }
 
 .hover-light-gray:hover {
-  color: $light-gray;
+  color: #eee;
 }
 
 .hover-near-white:hover {
-  color: $near-white;
+  color: #f4f4f4;
 }
 
 .hover-white:hover {
-  color: $white;
+  color: #fff;
 }
 
 .hover-blue:hover {
-  color: $blue;
+  color: #0074D9;
 }
 
 .hover-light-blue:hover {
-  color: $light-blue;
+  color: #64a8ff;
 }
 
 .hover-lightest-blue:hover {
-  color: $lightest-blue;
+  color: #a2dfff;
 }
 
 .hover-dark-blue:hover {
-  color: $dark-blue;
+  color: #0045a1;
 }
 
 .hover-darkest-blue:hover {
-  color: $darkest-blue;
+  color: #002f86;
 }
 
 .hover-yellow:hover {
-  color: $yellow;
+  color: #fff93c;
 }
 
 .hover-light-yellow:hover {
-  color: $light-yellow;
+  color: #fffa60;
 }
 
 .hover-lightest-yellow:hover {
-  color: $lightest-yellow;
+  color: #fffca6;
 }
 
 .hover-dark-yellow:hover {
-  color: $dark-yellow;
+  color: #e2c100;
 }
 
 .hover-darkest-yellow:hover {
-  color: $darkest-yellow;
+  color: #c4a600;
 }
 
 .hover-orange:hover {
-  color: $orange;
+  color: #FF851B;
 }
 
 .hover-light-orange:hover {
-  color: $light-orange;
+  color: #ffa942;
 }
 
 .hover-lightest-orange:hover {
-  color: $lightest-orange;
+  color: #ffc55d;
 }
 
 .hover-dark-orange:hover {
-  color: $dark-orange;
+  color: #d05e00;
 }
 
 .hover-darkest-orange:hover {
-  color: $darkest-orange;
+  color: #b14400;
 }
 
 .hover-red:hover {
-  color: $red;
+  color: #d82c2c;
 }
 
 .hover-light-red:hover {
-  color: $light-red;
+  color: #f94f44;
 }
 
 .hover-lightest-red:hover {
-  color: $lightest-red;
+  color: #ff6c5c;
 }
 
 .hover-dark-red:hover {
-  color: $dark-red;
+  color: #bd001a;
 }
 
 .hover-darkest-red:hover {
-  color: $darkest-red;
+  color: #9d0003;
 }
 
 .hover-teal:hover {
-  color: $teal;
+  color: #27bfa8;
 }
 
 .hover-light-teal:hover {
-  color: $light-teal;
+  color: #4eddc5;
 }
 
 .hover-lightest-teal:hover {
-  color: $lightest-teal;
+  color: #6ffae0;
 }
 
 .hover-dark-teal:hover {
-  color: $dark-teal;
+  color: #25a28f;
 }
 
 .hover-darkest-teal:hover {
-  color: $darkest-teal;
+  color: #008876;
 }
 
 .hover-green:hover {
-  color: $green;
+  color: #3D9970;
 }
 
 .hover-light-green:hover {
-  color: $light-green;
+  color: #5ab48a;
 }
 
 .hover-lightest-green:hover {
-  color: $lightest-green;
+  color: #75d0a4;
 }
 
 .hover-dark-green:hover {
-  color: $dark-green;
+  color: #1e7f58;
 }
 
 .hover-darkest-green:hover {
-  color: $darkest-green;
+  color: #006540;
 }
 
 .hover-pink:hover {
-  color: $pink;
+  color: #F012BE;
 }
 
 .hover-light-pink:hover {
-  color: $light-pink;
+  color: #ff57e8;
 }
 
 .hover-lightest-pink:hover {
-  color: $lightest-pink;
+  color: #ff81ff;
 }
 
 .hover-dark-pink:hover {
-  color: $dark-pink;
+  color: #d100a3;
 }
 
 .hover-darkest-pink:hover {
-  color: $darkest-pink;
+  color: #b20088;
 }
 
 .hover-purple:hover {
-  color: $purple;
+  color: #980bc6;
 }
 
 .hover-light-purple:hover {
-  color: $light-purple;
+  color: #b536e2;
 }
 
 .hover-lightest-purple:hover {
-  color: $lightest-purple;
+  color: #d355ff;
 }
 
 .hover-dark-purple:hover {
-  color: $dark-purple;
+  color: #7b00a9;
 }
 
 .hover-darkest-purple:hover {
-  color: $darkest-purple;
+  color: #5f008e;
 }
 
 .bg-hover-black:hover {
-  background-color: $black;
+  background-color: #000;
 }
 
 .bg-hover-near-black:hover {
-  background-color: $near-black;
+  background-color: #111;
 }
 
 .bg-hover-dark-gray:hover {
-  background-color: $dark-gray;
+  background-color: #333;
 }
 
 .bg-hover-mid-gray:hover {
-  background-color: $mid-gray;
+  background-color: #555;
 }
 
 .bg-hover-gray:hover {
-  background-color: $gray;
+  background-color: #777;
 }
 
 .bg-hover-silver:hover {
-  background-color: $silver;
+  background-color: #999;
 }
 
 .bg-hover-light-silver:hover {
-  background-color: $light-silver;
+  background-color: #aaa;
 }
 
 .bg-hover-moon-gray:hover {
-  background-color: $moon-gray;
+  background-color: #ccc;
 }
 
 .bg-hover-light-gray:hover {
-  background-color: $light-gray;
+  background-color: #eee;
 }
 
 .bg-hover-near-white:hover {
-  background-color: $near-white;
+  background-color: #f4f4f4;
 }
 
 .bg-hover-white:hover {
-  background-color: $white;
+  background-color: #fff;
 }
 
 .bg-hover-blue:hover {
-  background-color: $blue;
+  background-color: #0074D9;
 }
 
 .bg-hover-light-blue:hover {
-  background-color: $light-blue;
+  background-color: #64a8ff;
 }
 
 .bg-hover-lightest-blue:hover {
-  background-color: $lightest-blue;
+  background-color: #a2dfff;
 }
 
 .bg-hover-dark-blue:hover {
-  background-color: $dark-blue;
+  background-color: #0045a1;
 }
 
 .bg-hover-darkest-blue:hover {
-  background-color: $darkest-blue;
+  background-color: #002f86;
 }
 
 .bg-hover-yellow:hover {
-  background-color: $yellow;
+  background-color: #fff93c;
 }
 
 .bg-hover-light-yellow:hover {
-  background-color: $light-yellow;
+  background-color: #fffa60;
 }
 
 .bg-hover-lightest-yellow:hover {
-  background-color: $lightest-yellow;
+  background-color: #fffca6;
 }
 
 .bg-hover-dark-yellow:hover {
-  background-color: $dark-yellow;
+  background-color: #e2c100;
 }
 
 .bg-hover-darkest-yellow:hover {
-  background-color: $darkest-yellow;
+  background-color: #c4a600;
 }
 
 .bg-hover-orange:hover {
-  background-color: $orange;
+  background-color: #FF851B;
 }
 
 .bg-hover-light-orange:hover {
-  background-color: $light-orange;
+  background-color: #ffa942;
 }
 
 .bg-hover-lightest-orange:hover {
-  background-color: $lightest-orange;
+  background-color: #ffc55d;
 }
 
 .bg-hover-dark-orange:hover {
-  background-color: $dark-orange;
+  background-color: #d05e00;
 }
 
 .bg-hover-darkest-orange:hover {
-  background-color: $darkest-orange;
+  background-color: #b14400;
 }
 
 .bg-hover-red:hover {
-  background-color: $red;
+  background-color: #d82c2c;
 }
 
 .bg-hover-light-red:hover {
-  background-color: $light-red;
+  background-color: #f94f44;
 }
 
 .bg-hover-lightest-red:hover {
-  background-color: $lightest-red;
+  background-color: #ff6c5c;
 }
 
 .bg-hover-dark-red:hover {
-  background-color: $dark-red;
+  background-color: #bd001a;
 }
 
 .bg-hover-darkest-red:hover {
-  background-color: $darkest-red;
+  background-color: #9d0003;
 }
 
 .bg-hover-teal:hover {
-  background-color: $teal;
+  background-color: #27bfa8;
 }
 
 .bg-hover-light-teal:hover {
-  background-color: $light-teal;
+  background-color: #4eddc5;
 }
 
 .bg-hover-lightest-teal:hover {
-  background-color: $lightest-teal;
+  background-color: #6ffae0;
 }
 
 .bg-hover-dark-teal:hover {
-  background-color: $dark-teal;
+  background-color: #25a28f;
 }
 
 .bg-hover-darkest-teal:hover {
-  background-color: $darkest-teal;
+  background-color: #008876;
 }
 
 .bg-hover-green:hover {
-  background-color: $green;
+  background-color: #3D9970;
 }
 
 .bg-hover-light-green:hover {
-  background-color: $light-green;
+  background-color: #5ab48a;
 }
 
 .bg-hover-lightest-green:hover {
-  background-color: $lightest-green;
+  background-color: #75d0a4;
 }
 
 .bg-hover-dark-green:hover {
-  background-color: $dark-green;
+  background-color: #1e7f58;
 }
 
 .bg-hover-darkest-green:hover {
-  background-color: $darkest-green;
+  background-color: #006540;
 }
 
 .bg-hover-pink:hover {
-  background-color: $pink;
+  background-color: #F012BE;
 }
 
 .bg-hover-light-pink:hover {
-  background-color: $light-pink;
+  background-color: #ff57e8;
 }
 
 .bg-hover-lightest-pink:hover {
-  background-color: $lightest-pink;
+  background-color: #ff81ff;
 }
 
 .bg-hover-dark-pink:hover {
-  background-color: $dark-pink;
+  background-color: #d100a3;
 }
 
 .bg-hover-darkest-pink:hover {
-  background-color: $darkest-pink;
+  background-color: #b20088;
 }
 
 .bg-hover-purple:hover {
-  background-color: $purple;
+  background-color: #980bc6;
 }
 
 .bg-hover-light-purple:hover {
-  background-color: $light-purple;
+  background-color: #b536e2;
 }
 
 .bg-hover-lightest-purple:hover {
-  background-color: $lightest-purple;
+  background-color: #d355ff;
 }
 
 .bg-hover-dark-purple:hover {
-  background-color: $dark-purple;
+  background-color: #7b00a9;
 }
 
 .bg-hover-darkest-purple:hover {
-  background-color: $darkest-purple;
+  background-color: #5f008e;
 }
 
 .dim {
   opacity: 1;
-  transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in;
 }
 
 .dim:hover {
@@ -5184,420 +4995,420 @@ img {
   transition: opacity .15s ease-out;
 }
 
-// SVG Fill
+/* SVG Fills */
 
 .fill-black {
-  fill: $black;
+  fill: #000;
 }
 
 .fill-near-black {
-  fill: $near-black;
+  fill: #111;
 }
 
 .fill-dark-gray {
-  fill: $dark-gray;
+  fill: #333;
 }
 
 .fill-mid-gray {
-  fill: $mid-gray;
+  fill: #555;
 }
 
 .fill-gray {
-  fill: $gray;
+  fill: #777;
 }
 
 .fill-silver {
-  fill: $silver;
+  fill: #999;
 }
 
 .fill-light-silver {
-  fill: $light-silver;
+  fill: #aaa;
 }
 
 .fill-moon-gray {
-  fill: $moon-gray;
+  fill: #ccc;
 }
 
 .fill-light-gray {
-  fill: $light-gray;
+  fill: #eee;
 }
 
 .fill-near-white {
-  fill: $near-white;
+  fill: #f4f4f4;
 }
 
 .fill-white {
-  fill: $white;
+  fill: #fff;
 }
 
 .fill-blue {
-  fill: $blue;
+  fill: #0074D9;
 }
 
 .fill-light-blue {
-  fill: $light-blue;
+  fill: #64a8ff;
 }
 
 .fill-lightest-blue {
-  fill: $lightest-blue;
+  fill: #a2dfff;
 }
 
 .fill-dark-blue {
-  fill: $dark-blue;
+  fill: #0045a1;
 }
 
 .fill-darkest-blue {
-  fill: $darkest-blue;
+  fill: #002f86;
 }
 
 .fill-yellow {
-  fill: $yellow;
+  fill: #fff93c;
 }
 
 .fill-light-yellow {
-  fill: $light-yellow;
+  fill: #fffa60;
 }
 
 .fill-lightest-yellow {
-  fill: $lightest-yellow;
+  fill: #fffca6;
 }
 
 .fill-dark-yellow {
-  fill: $dark-yellow;
+  fill: #e2c100;
 }
 
 .fill-darkest-yellow {
-  fill: $darkest-yellow;
+  fill: #c4a600;
 }
 
 .fill-orange {
-  fill: $orange;
+  fill: #FF851B;
 }
 
 .fill-light-orange {
-  fill: $light-orange;
+  fill: #ffa942;
 }
 
 .fill-lightest-orange {
-  fill: $lightest-orange;
+  fill: #ffc55d;
 }
 
 .fill-dark-orange {
-  fill: $dark-orange;
+  fill: #d05e00;
 }
 
 .fill-darkest-orange {
-  fill: $darkest-orange;
+  fill: #b14400;
 }
 
 .fill-red {
-  fill: $red;
+  fill: #d82c2c;
 }
 
 .fill-light-red {
-  fill: $light-red;
+  fill: #f94f44;
 }
 
 .fill-lightest-red {
-  fill: $lightest-red;
+  fill: #ff6c5c;
 }
 
 .fill-dark-red {
-  fill: $dark-red;
+  fill: #bd001a;
 }
 
 .fill-darkest-red {
-  fill: $darkest-red;
+  fill: #9d0003;
 }
 
 .fill-teal {
-  fill: $teal;
+  fill: #27bfa8;
 }
 
 .fill-light-teal {
-  fill: $light-teal;
+  fill: #4eddc5;
 }
 
 .fill-lightest-teal {
-  fill: $lightest-teal;
+  fill: #6ffae0;
 }
 
 .fill-dark-teal {
-  fill: $dark-teal;
+  fill: #25a28f;
 }
 
 .fill-darkest-teal {
-  fill: $darkest-teal;
+  fill: #008876;
 }
 
 .fill-green {
-  fill: $green;
+  fill: #3D9970;
 }
 
 .fill-light-green {
-  fill: $light-green;
+  fill: #5ab48a;
 }
 
 .fill-lightest-green {
-  fill: $lightest-green;
+  fill: #75d0a4;
 }
 
 .fill-dark-green {
-  fill: $dark-green;
+  fill: #1e7f58;
 }
 
 .fill-darkest-green {
-  fill: $darkest-green;
+  fill: #006540;
 }
 
 .fill-pink {
-  fill: $pink;
+  fill: #F012BE;
 }
 
 .fill-light-pink {
-  fill: $light-pink;
+  fill: #ff57e8;
 }
 
 .fill-lightest-pink {
-  fill: $lightest-pink;
+  fill: #ff81ff;
 }
 
 .fill-dark-pink {
-  fill: $dark-pink;
+  fill: #d100a3;
 }
 
 .fill-darkest-pink {
-  fill: $darkest-pink;
+  fill: #b20088;
 }
 
 .fill-purple {
-  fill: $purple;
+  fill: #980bc6;
 }
 
 .fill-light-purple {
-  fill: $light-purple;
+  fill: #b536e2;
 }
 
 .fill-lightest-purple {
-  fill: $lightest-purple;
+  fill: #d355ff;
 }
 
 .fill-dark-purple {
-  fill: $dark-purple;
+  fill: #7b00a9;
 }
 
 .fill-darkest-purple {
-  fill: $darkest-purple;
+  fill: #5f008e;
 }
 
-// SVG Strokes
+/* SVG Strokes */
 
 .sw-4 {
   stroke-width: 4;
 }
 
 .stroke-black {
-  stroke: $black;
+  stroke: #000;
 }
 
 .stroke-near-black {
-  stroke: $near-black;
+  stroke: #111;
 }
 
 .stroke-dark-gray {
-  stroke: $dark-gray;
+  stroke: #333;
 }
 
 .stroke-mid-gray {
-  stroke: $mid-gray;
+  stroke: #555;
 }
 
 .stroke-gray {
-  stroke: $gray;
+  stroke: #777;
 }
 
 .stroke-silver {
-  stroke: $silver;
+  stroke: #999;
 }
 
 .stroke-light-silver {
-  stroke: $light-silver;
+  stroke: #aaa;
 }
 
 .stroke-moon-gray {
-  stroke: $moon-gray;
+  stroke: #ccc;
 }
 
 .stroke-light-gray {
-  stroke: $light-gray;
+  stroke: #eee;
 }
 
 .stroke-near-white {
-  stroke: $near-white;
+  stroke: #f4f4f4;
 }
 
 .stroke-white {
-  stroke: $white;
+  stroke: #fff;
 }
 
 .stroke-blue {
-  stroke: $blue;
+  stroke: #0074D9;
 }
 
 .stroke-light-blue {
-  stroke: $light-blue;
+  stroke: #64a8ff;
 }
 
 .stroke-lightest-blue {
-  stroke: $lightest-blue;
+  stroke: #a2dfff;
 }
 
 .stroke-dark-blue {
-  stroke: $dark-blue;
+  stroke: #0045a1;
 }
 
 .stroke-darkest-blue {
-  stroke: $darkest-blue;
+  stroke: #002f86;
 }
 
 .stroke-yellow {
-  stroke: $yellow;
+  stroke: #fff93c;
 }
 
 .stroke-light-yellow {
-  stroke: $light-yellow;
+  stroke: #fffa60;
 }
 
 .stroke-lightest-yellow {
-  stroke: $lightest-yellow;
+  stroke: #fffca6;
 }
 
 .stroke-dark-yellow {
-  stroke: $dark-yellow;
+  stroke: #e2c100;
 }
 
 .stroke-darkest-yellow {
-  stroke: $darkest-yellow;
+  stroke: #c4a600;
 }
 
 .stroke-orange {
-  stroke: $orange;
+  stroke: #FF851B;
 }
 
 .stroke-light-orange {
-  stroke: $light-orange;
+  stroke: #ffa942;
 }
 
 .stroke-lightest-orange {
-  stroke: $lightest-orange;
+  stroke: #ffc55d;
 }
 
 .stroke-dark-orange {
-  stroke: $dark-orange;
+  stroke: #d05e00;
 }
 
 .stroke-darkest-orange {
-  stroke: $darkest-orange;
+  stroke: #b14400;
 }
 
 .stroke-red {
-  stroke: $red;
+  stroke: #d82c2c;
 }
 
 .stroke-light-red {
-  stroke: $light-red;
+  stroke: #f94f44;
 }
 
 .stroke-lightest-red {
-  stroke: $lightest-red;
+  stroke: #ff6c5c;
 }
 
 .stroke-dark-red {
-  stroke: $dark-red;
+  stroke: #bd001a;
 }
 
 .stroke-darkest-red {
-  stroke: $darkest-red;
+  stroke: #9d0003;
 }
 
 .stroke-teal {
-  stroke: $teal;
+  stroke: #27bfa8;
 }
 
 .stroke-light-teal {
-  stroke: $light-teal;
+  stroke: #4eddc5;
 }
 
 .stroke-lightest-teal {
-  stroke: $lightest-teal;
+  stroke: #6ffae0;
 }
 
 .stroke-dark-teal {
-  stroke: $dark-teal;
+  stroke: #25a28f;
 }
 
 .stroke-darkest-teal {
-  stroke: $darkest-teal;
+  stroke: #008876;
 }
 
 .stroke-green {
-  stroke: $green;
+  stroke: #3D9970;
 }
 
 .stroke-light-green {
-  stroke: $light-green;
+  stroke: #5ab48a;
 }
 
 .stroke-lightest-green {
-  stroke: $lightest-green;
+  stroke: #75d0a4;
 }
 
 .stroke-dark-green {
-  stroke: $dark-green;
+  stroke: #1e7f58;
 }
 
 .stroke-darkest-green {
-  stroke: $darkest-green;
+  stroke: #006540;
 }
 
 .stroke-pink {
-  stroke: $pink;
+  stroke: #F012BE;
 }
 
 .stroke-light-pink {
-  stroke: $light-pink;
+  stroke: #ff57e8;
 }
 
 .stroke-lightest-pink {
-  stroke: $lightest-pink;
+  stroke: #ff81ff;
 }
 
 .stroke-dark-pink {
-  stroke: $dark-pink;
+  stroke: #d100a3;
 }
 
 .stroke-darkest-pink {
-  stroke: $darkest-pink;
+  stroke: #b20088;
 }
 
 .stroke-purple {
-  stroke: $purple;
+  stroke: #980bc6;
 }
 
 .stroke-light-purple {
-  stroke: $light-purple;
+  stroke: #b536e2;
 }
 
 .stroke-lightest-purple {
-  stroke: $lightest-purple;
+  stroke: #d355ff;
 }
 
 .stroke-dark-purple {
-  stroke: $dark-purple;
+  stroke: #7b00a9;
 }
 
 .stroke-darkest-purple {
-  stroke: $darkest-purple;
+  stroke: #5f008e;
 }
 
 /*
@@ -6104,7 +5915,7 @@ img {
   margin-right: 16rem;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .pan-ns {
     padding: 0;
   }
@@ -6581,7 +6392,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .pan-m {
     padding: 0;
   }
@@ -7559,7 +7370,7 @@ img {
   text-decoration: none;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .under-ns {
     text-decoration: underline;
   }
@@ -7569,7 +7380,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .under-m {
     text-decoration: underline;
   }
@@ -7607,7 +7418,7 @@ img {
   text-align: center;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .tl-ns {
     text-align: left;
   }
@@ -7621,7 +7432,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .tl-m {
     text-align: left;
   }
@@ -7664,7 +7475,7 @@ img {
   letter-spacing: .2em;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .ttc-ns {
     text-transform: capitalize;
   }
@@ -7675,7 +7486,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .ttc-m {
     text-transform: capitalize;
   }
@@ -7726,7 +7537,7 @@ img {
   font-size: .85rem;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .mega-ns {
     font-size: 4rem;
   }
@@ -7752,7 +7563,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .mega-m {
     font-size: 4rem;
   }
@@ -7850,7 +7661,7 @@ img {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .clip-ns {
     position: fixed !important;
     _position: absolute !important;
@@ -7860,7 +7671,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .clip-m {
     position: fixed !important;
     _position: absolute !important;
@@ -7898,7 +7709,7 @@ img {
   white-space: pre;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .ws-norm-ns {
     white-space: normal;
   }
@@ -7912,7 +7723,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .ws-norm-m {
     white-space: normal;
   }
@@ -7984,7 +7795,7 @@ img {
   vertical-align: bottom;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 42em) {
   .v-base-ns {
     vertical-align: baseline;
   }
@@ -8018,7 +7829,7 @@ img {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .v-base-m {
     vertical-align: baseline;
   }

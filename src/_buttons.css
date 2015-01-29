@@ -208,6 +208,24 @@
   border-color: #001F3F;
 }
 
+.btn--animated {
+  background: #f9f9f9;
+  color: #444;
+  border: 4px solid #f1f1f1;
+  padding: .5rem;
+  transition: padding .4s ease-out;
+  transition-delay: .1s;
+}
+
+.btn--animated:hover {
+  background: #f9f9f9;
+  border: 4px solid #f1f1f1;
+  padding: .75rem;
+  transition: padding .2s ease-in;
+}
+
+
+
 /* Keep it mobile-first and responsive */
 
 @media screen and (min-width: 32em) {

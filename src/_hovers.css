@@ -1,0 +1,22 @@
+/*
+  Hover Effects
+
+  Put the hide-child class on a parent element and any nested element with the
+  child class will be hidden and displayed on hover or focus.
+
+  <div class="hide-child">
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+  </div>
+*/
+.hide-child .child {
+  display: none;
+}
+
+.hide-child:hover .child,
+.hide-child:focus  .child,
+.hide-child:active  .child, {
+  display: block;
+}
