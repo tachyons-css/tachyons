@@ -1,0 +1,68 @@
+/*
+
+   COLORS
+
+*/
+
+/* variables */
+:root {
+  --black: #000;
+  --near-black: #111;
+  --dark-gray:#333;
+  --mid-gray:#555;
+  --gray: #777;
+  --silver: #999;
+  --light-silver: #aaa;
+  --moon-gray: #ccc;
+  --light-gray: #eee;
+  --near-white: #f4f4f4;
+  --white: #fff;
+
+  --blue: #0074D9;
+  --light-blue: #64a8ff;
+  --lightest-blue: #a2dfff;
+  --dark-blue: #0045a1;
+  --darkest-blue: #002f86;
+
+  --yellow: #fff93c;
+  --light-yellow: #fffa60;
+  --lightest-yellow: #fffca6;
+  --dark-yellow: #e2c100;
+  --darkest-yellow: #c4a600;
+
+  --orange: #FF851B;
+  --light-orange: #ffa942;
+  --lightest-orange: #ffc55d;
+  --dark-orange: #d05e00;
+  --darkest-orange: #b14400;
+
+  --red: #d82c2c;
+  --light-red: #f94f44;
+  --lightest-red: #ff6c5c;
+  --dark-red: #bd001a;
+  --darkest-red: #9d0003;
+
+  --teal: #27bfa8;
+  --light-teal: #4eddc5;
+  --lightest-teal: #6ffae0;
+  --dark-teal: #25a28f;
+  --darkest-teal: #008876;
+
+  --green: #3D9970;
+  --light-green: #5ab48a;
+  --lightest-green: #75d0a4;
+  --dark-green: #1e7f58;
+  --darkest-green: #006540;
+
+  --pink: #F012BE;
+  --light-pink: #ff57e8;
+  --lightest-pink: #ff81ff;
+  --dark-pink: #d100a3;
+  --darkest-pink: #b20088;
+
+  --purple: #980bc6;
+  --light-purple: #b536e2;
+  --lightest-purple: #d355ff;
+  --dark-purple: #7b00a9;
+  --darkest-purple: #5f008e;
+}

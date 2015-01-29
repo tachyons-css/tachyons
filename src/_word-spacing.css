@@ -1,0 +1,30 @@
+/*
+
+   WORD SPACING
+
+*/
+
+.wsn { word-spacing: normal; }
+.wsib { word-spacing: -0.43em; } /* For eliminating space between inline-block elements */
+
+@media (--breakpoint-not-small) {
+  .wsn-ns { word-spacing: normal; }
+  .wsib-ns { word-spacing: -0.43em; }
+}
+
+@media (--breakpoint-medium) {
+  .wsn-m { word-spacing: normal; }
+  .wsib-m { word-spacing: -0.43em; }
+}
+
+@media (--breakpoint-large) {
+  .wsn-l { word-spacing: normal; }
+  .wsib-l { word-spacing: -0.43em; }
+}
+
+
+
+
+
+
+

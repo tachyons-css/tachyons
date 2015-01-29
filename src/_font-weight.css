@@ -1,0 +1,39 @@
+/*
+
+   FONT WEIGHT
+
+*/
+
+.normal { font-weight: normal; }
+.b      { font-weight: bold; }
+.thin   { font-weight: 100; }
+.book   { font-weight: 400; }
+.bold  { font-weight: 700; }
+.heavy  { font-weight: 900; }
+
+@media (--breakpoint-not-small) {
+  .normal-ns { font-weight: normal; }
+  .b-ns      { font-weight: bold; }
+  .thin-ns   { font-weight: 100; }
+  .book-ns   { font-weight: 400; }
+  .bold-ns   { font-weight: 700; }
+  .heavy-ns  { font-weight: 900; }
+}
+
+@media (--breakpoint-medium) {
+  .normal-m { font-weight: normal; }
+  .b-m      { font-weight: bold; }
+  .thin-m   { font-weight: 100; }
+  .book-m   { font-weight: 400; }
+  .bold-m   { font-weight: 700; }
+  .heavy-m  { font-weight: 900; }
+}
+
+@media (--breakpoint-large) {
+  .normal-l { font-weight: normal; }
+  .b-l      { font-weight: bold; }
+  .thin-l   { font-weight: 100; }
+  .book-l   { font-weight: 400; }
+  .bold-l   { font-weight: 700; }
+  .heavy-l  { font-weight: 900; }
+}

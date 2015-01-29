@@ -1,18 +1,17 @@
 // Gulp tasks for Tachyons
 // Load plugins
 var gulp = require('gulp'),
-    fs = require('fs'),
     gutil = require('gulp-util'),
+    basswork = require('gulp-basswork'),
     watch = require('gulp-watch'),
     prefix = require('gulp-autoprefixer'),
-    uncss = require('gulp-uncss'),
+    //uncss = require('gulp-uncss'),
     minifyCSS = require('gulp-minify-css'),
-    sass = require('gulp-sass'),
+    //sass = require('gulp-sass'),
     size = require('gulp-size'),
     rename = require('gulp-rename'),
     csslint = require('gulp-csslint'),
     css = require('css'),
-    fileinclude = require('gulp-file-include'),
     browserSync = require('browser-sync'),
     browserReload = browserSync.reload,
     gendocss = require('./tasks/generateDocs'),
@@ -53,19 +52,22 @@ gulp.task('pre-process', function(){
       }));
 });
 
-// Minify all css files in the css directory
-// Run this in the root directory of the project with `gulp minify-css `
-gulp.task('minify-css', function(){
-  gulp.src('./css/tachyons.css')
+
+gulp.task('css', function() {
+  gulp.src('./src/tachyons.css')
+    .pipe(basswork())
+    .pipe(size({gzip: false, showFiles: true, title:'basswork css'}))
+    .pipe(size({gzip: true, showFiles: true, title:'basswork gzipped css'}))
+    .pipe(gulp.dest('./css'))
     .pipe(minifyCSS())
-    .pipe(rename('tachyons.min.css'))
-    .pipe(gulp.dest('./css/'))
-    .pipe(size({gzip: false, showFiles: true, title:'minified css'}))
-    .pipe(size({gzip: true, showFiles: true, title:'minified css'}));
+    .pipe(rename({ extname: '.min.css' }))
+    .pipe(size({gzip: false, showFiles: true, title:'basswork minified'}))
+    .pipe(size({gzip: true, showFiles: true, title:'basswork minified'}))
+    .pipe(gulp.dest('./css'));
 });
 
-// Initialize browser-sync which starts a static server also allows for
-// browsers to reload on filesave
+gulp.task('generateDocs', require('./tasks/generateDocs'));
+
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
         server: {
@@ -92,11 +94,9 @@ gulp.task('bs-reload', function () {
  • Reloads browsers when you change html or sass files
 
 */
-gulp.task('default', ['pre-process', 'minify-css', 'bs-reload', 'browser-sync', 'generateDocs'], function(){
-  gulp.start('pre-process', 'csslint');
-  gulp.watch('sass/*.scss', ['pre-process']);
-  gulp.watch('css/tachyons.css', ['bs-reload']);
-  //gulp.watch('views/**', ['generateDocs']);
-  gulp.watch(['*.html', 'docs/*/*.html'], ['bs-reload']);
+gulp.task('default', ['css', 'bs-reload', 'browser-sync'], function(){
+  gulp.start(['css', 'bs-reload']);
+  gulp.watch('src/*', ['css']);
+  gulp.watch(['*.html', './**/*.html'], ['bs-reload']);
 });
 

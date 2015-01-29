@@ -24,6 +24,7 @@
     "css-parse": "^2.0.0",
     "gulp": "^3.8.2",
     "gulp-autoprefixer": "0.0.7",
+    "gulp-basswork": "0.0.11",
     "gulp-csslint": "^0.1.4",
     "gulp-file-include": "^0.5.1",
     "gulp-minify-css": "^0.3.5",
@@ -31,7 +32,6 @@
     "gulp-sass": "^0.7.2",
     "gulp-shell": "^0.2.8",
     "gulp-size": "^0.4.0",
-    "gulp-stylestats": "^0.2.8",
     "gulp-uncss": "^0.4.4",
     "gulp-util": "^2.2.18",
     "gulp-watch": "^0.6.8",
@@ -39,15 +39,25 @@
     "node-sass": "^0.9"
   },
   "contributors": [
-    { "name": "adam morse", "email": "hi@mrmrs.cc" },
-    { "name": "robert forloine", "url": "http://www.sndsgn.com"},
-    { "name": "david potsiadlo", "url": "http://www.davidpots.com/"},
-    { "name": "tyler benziger", "url": "http://tybenz.com"}
+    {
+      "name": "adam morse",
+      "email": "hi@mrmrs.cc"
+    },
+    {
+      "name": "robert forloine",
+      "url": "http://www.sndsgn.com"
+    },
+    {
+      "name": "david potsiadlo",
+      "url": "http://www.davidpots.com/"
+    },
+    {
+      "name": "tyler benziger",
+      "url": "http://tybenz.com"
+    }
   ],
   "scripts": {
     "start": "gulp",
-    "stats": "gulp stylestats",
-    "test": "gulp fileinclude",
     "ast": "gulp generateDocs"
   }
 }

@@ -1,0 +1,27 @@
+/*
+
+   BORDER STYLES
+
+ */
+
+.bs-none {   border-style: none; }
+.bs-dotted { border-style: dotted; }
+.bs-solid {  border-style: solid; }
+
+@media (--breakpoint-not-small) {
+  .bs-none-ns {   border-style: none; }
+  .bs-dotted-ns { border-style: dotted; }
+  .bs-solid-ns {  border-style: solid; }
+}
+
+@media (--breakpoint-medium) {
+  .bs-none-m {   border-style: none; }
+  .bs-dotted-m { border-style: dotted; }
+  .bs-solid-m {  border-style: solid; }
+}
+
+@media (--breakpoint-large) {
+  .bs-none-l {   border-style: none; }
+  .bs-dotted-l { border-style: dotted; }
+  .bs-solid-l {  border-style: solid; }
+}

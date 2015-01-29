@@ -1,0 +1,24 @@
+/*
+
+   TEXT DECORATION
+
+*/
+
+.under  { text-decoration: underline; }
+.none   { text-decoration: none; }
+
+
+@media (--breakpoint-not-small) {
+  .under-ns  { text-decoration: underline; }
+  .none-ns   { text-decoration: none; }
+}
+
+@media (--breakpoint-medium) {
+  .under-m  { text-decoration: underline; }
+  .none-m   { text-decoration: none; }
+}
+
+@media (--breakpoint-large) {
+  .under-l  { text-decoration: underline; }
+  .none-l   { text-decoration: none; }
+}

@@ -1,0 +1,23 @@
+/*
+
+   TEXT TRANSFORM
+
+*/
+
+.ttc { text-transform: capitalize; }
+.ttu { text-transform: uppercase; letter-spacing: .2em; }
+
+@media (--breakpoint-not-small) {
+  .ttc-ns { text-transform: capitalize; }
+  .ttu-ns { text-transform: uppercase; letter-spacing: .2em; }
+}
+
+@media (--breakpoint-medium) {
+  .ttc-m { text-transform: capitalize; }
+  .ttu-m { text-transform: uppercase; letter-spacing: .2em; }
+}
+
+@media (--breakpoint-large) {
+  .ttc-l { text-transform: capitalize; }
+  .ttu-l { text-transform: uppercase; letter-spacing: .2em; }
+}

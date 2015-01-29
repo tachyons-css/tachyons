@@ -1,0 +1,70 @@
+/*
+
+   BORDER BASE
+
+   Legend
+
+   a = all
+   t = top
+   r = right
+   b = bottom
+   l = left
+
+*/
+
+/* The extra `.bn` is required to boost the specificity, which is needed
+ * sometimes if you are setting the border to 0. */
+  .bn.bn { border-style: solid; border-width: 0; }
+  .ba { border-style: solid; border-width: 1px; }
+  .bt { border-top-style: solid; border-top-width: 1px; }
+  .br { border-right-style: solid; border-right-width: 1px; }
+  .bb { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl { border-left-style: solid; border-left-width: 1px; }
+
+  .bda { border-style: dotted; border-width: 1px; }
+  .bdt { border-top-style: dotted; border-top-width: 1px; }
+  .bdr { border-right-style: dotted; border-right-width: 1px; }
+  .bdb { border-bottom-style: dotted; border-bottom-width: 1px; }
+  .bdl { border-left-style: dotted; border-left-width: 1px; }
+
+@media (--breakpoint-not-small) {
+  .bn-ns { border-style: solid; border-width: 0; }
+  .ba-ns { border-style: solid; border-width: 1px; }
+  .bt-ns { border-top-style: solid; border-top-width: 1px; }
+  .br-ns { border-right-style: solid; border-right-width: 1px; }
+  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-ns { border-left-style: solid; border-left-width: 1px; }
+  .bda-ns { border-style: dotted; border-width: 1px; }
+  .bdt-ns { border-top-style: dotted; border-top-width: 1px; }
+  .bdr-ns { border-right-style: dotted; border-right-width: 1px; }
+  .bdb-ns { border-bottom-style: dotted; border-bottom-width: 1px; }
+  .bdl-ns { border-left-style: dotted; border-left-width: 1px; }
+}
+
+@media (--breakpoint-medium) {
+  .bn-m { border-style: solid; border-width: 0; }
+  .ba-m { border-style: solid; border-width: 1px; }
+  .bt-m { border-top-style: solid; border-top-width: 1px; }
+  .br-m { border-right-style: solid; border-right-width: 1px; }
+  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-m { border-left-style: solid; border-left-width: 1px; }
+  .bda-m { border-style: dotted; border-width: 1px; }
+  .bdt-m { border-top-style: dotted; border-top-width: 1px; }
+  .bdr-m { border-right-style: dotted; border-right-width: 1px; }
+  .bdb-m { border-bottom-style: dotted; border-bottom-width: 1px; }
+  .bdl-m { border-left-style: dotted; border-left-width: 1px; }
+}
+
+@media (--breakpoint-large) {
+  .bn-l { border-style: solid; border-width: 0; }
+  .ba-l { border-style: solid; border-width: 1px; }
+  .bt-l { border-top-style: solid; border-top-width: 1px; }
+  .br-l { border-right-style: solid; border-right-width: 1px; }
+  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-l { border-left-style: solid; border-left-width: 1px; }
+  .bda-l { border-style: dotted; border-width: 1px; }
+  .bdt-l { border-top-style: dotted; border-top-width: 1px; }
+  .bdr-l { border-right-style: dotted; border-right-width: 1px; }
+  .bdb-l { border-bottom-style: dotted; border-bottom-width: 1px; }
+  .bdl-l { border-left-style: dotted; border-left-width: 1px; }
+}
