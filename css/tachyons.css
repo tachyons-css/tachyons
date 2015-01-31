@@ -1953,7 +1953,7 @@ code {
 
 .input-text {
   outline: 0;
-  border: 1px solid $silver;
+  border: 1px solid #999;
 }
 
 .input-invisible {
