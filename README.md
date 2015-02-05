@@ -31,7 +31,6 @@ but will offer ports for less, sass, stylus, and vanilla css.
 The easiest way to use tachyons is to include the minified file in the head.
 You can include the latest, minified version of tachyons by including this in the head of your html file
 
-
 I will add version controlled cdn hosted options soon.
 
 ### Modify the source
@@ -90,7 +89,7 @@ that seems to be inline what many people prefer.
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
