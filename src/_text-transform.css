@@ -5,19 +5,43 @@
 */
 
 .ttc { text-transform: capitalize; }
-.ttu { text-transform: uppercase; letter-spacing: .2em; }
+.ttl { text-transform: lowercase; }
+.ttn { text-transform: none; }
+.ttu,
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
 
 @media (--breakpoint-not-small) {
   .ttc-ns { text-transform: capitalize; }
-  .ttu-ns { text-transform: uppercase; letter-spacing: .2em; }
+  .ttl-ns { text-transform: lowercase; }
+  .ttn-ns { text-transform: none; }
+  .ttu-ns,
+  .caps-ns {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
 }
 
 @media (--breakpoint-medium) {
   .ttc-m { text-transform: capitalize; }
-  .ttu-m { text-transform: uppercase; letter-spacing: .2em; }
+  .ttl-m { text-transform: lowercase; }
+  .ttn-m { text-transform: none; }
+  .ttu-m,
+  .caps-m {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
 }
 
 @media (--breakpoint-large) {
   .ttc-l { text-transform: capitalize; }
-  .ttu-l { text-transform: uppercase; letter-spacing: .2em; }
+  .ttl-l { text-transform: lowercase; }
+  .ttn-l { text-transform: none; }
+  .ttu-l,
+  .caps-l {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
 }
