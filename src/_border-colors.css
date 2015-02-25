@@ -16,14 +16,28 @@
 .b--white {        border-color: var(--white); }
 
 .b--white-10 {   border-color: hsla(0, 0, 100%, .1); }
+.b--white-20 {   border-color: hsla(0, 0, 100%, .2); }
 .b--white-25 {   border-color: hsla(0, 0, 100%, .25); }
+.b--white-30 {   border-color: hsla(0, 0, 100%, .3); }
+.b--white-40 {   border-color: hsla(0, 0, 100%, .4); }
 .b--white-50 {   border-color: hsla(0, 0, 100%, .5); }
+.b--white-60 {   border-color: hsla(0, 0, 100%, .6); }
+.b--white-70 {   border-color: hsla(0, 0, 100%, .7); }
 .b--white-75 {   border-color: hsla(0, 0, 100%, .75); }
-.b--black-10 {   border-color: hsla(0, 0, 0,    .1); }
-.b--black-25 {   border-color: hsla(0, 0, 0,    .25); }
-.b--black-50 {   border-color: hsla(0, 0, 0,    .5); }
-.b--black-75 {   border-color: hsla(0, 0, 0,    .75); }
+.b--white-80 {   border-color: hsla(0, 0, 100%, .8); }
+.b--white-90 {   border-color: hsla(0, 0, 100%, .9); }
 
+.b--black-10 {   border-color: hsla(0, 0, 0,    .1); }
+.b--black-20 {   border-color: hsla(0, 0, 0,    .2); }
+.b--black-25 {   border-color: hsla(0, 0, 0,    .25); }
+.b--black-30 {   border-color: hsla(0, 0, 0,    .3); }
+.b--black-40 {   border-color: hsla(0, 0, 0,    .4); }
+.b--black-50 {   border-color: hsla(0, 0, 0,    .5); }
+.b--black-60 {   border-color: hsla(0, 0, 0,    .6); }
+.b--black-70 {   border-color: hsla(0, 0, 0,    .7); }
+.b--black-75 {   border-color: hsla(0, 0, 0,    .75); }
+.b--black-80 {   border-color: hsla(0, 0, 0,    .8); }
+.b--black-90 {   border-color: hsla(0, 0, 0,    .9); }
 
 .b--blue { border-color: var(--blue); }
 .b--light-blue { border-color: var(--light-blue); }
