@@ -9,6 +9,26 @@
 
 /* Text colors */
 
+.black-90 {         color: var(--black-90); }
+.black-80 {         color: var(--black-80); }
+.black-70 {         color: var(--black-70); }
+.black-60 {         color: var(--black-60); }
+.black-50 {         color: var(--black-50); }
+.black-40 {         color: var(--black-40); }
+.black-30 {         color: var(--black-30); }
+.black-20 {         color: var(--black-20); }
+.black-10 {         color: var(--black-10); }
+
+.white-90 {         color: var(--white-90); }
+.white-80 {         color: var(--white-80); }
+.white-70 {         color: var(--white-70); }
+.white-60 {         color: var(--white-60); }
+.white-50 {         color: var(--white-50); }
+.white-40 {         color: var(--white-40); }
+.white-30 {         color: var(--white-30); }
+.white-20 {         color: var(--white-20); }
+.white-10 {         color: var(--white-10); }
+
 .black {         color: var(--near-black); }
 .dark-gray {     color: var(--dark-gray); }
 .mid-gray {      color: var(--mid-gray); }
