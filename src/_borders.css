@@ -2,13 +2,31 @@
 
    BORDER BASE
 
-   Legend
+   Use border-base in combination with setting text color
+   or by using extensions from border-color module.
 
-   a = all
-   t = top
-   r = right
-   b = bottom
-   l = left
+   Examples:
+   To set a border of blue on all sides:
+   <div class="ba b--blue"></div>
+
+   To set a border on top of orange
+   <div class="bt b--orange"></div>
+
+   Base:
+    b = border
+
+   Modifiers:
+     n = none, no border-style or border-width
+     a = all
+     t = top
+     r = right
+     b = bottom
+     l = left
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 

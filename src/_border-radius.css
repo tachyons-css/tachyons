@@ -2,6 +2,24 @@
 
    BORDER RADIUS
 
+   Base:
+     br   = border-radius
+
+   Modifiers:
+     n    = none
+     1    = 1st step in scale
+     2    = 2nd step in scale
+     3    = 3rd step in scale
+     4    = 4th step in scale
+     5    = 5th step in scale
+     circ = circle
+     -100 = 100%
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 
   .brn {        border-radius: 0; }

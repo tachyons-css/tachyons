@@ -1,5 +1,12 @@
 /*
-  Box Sizing
+
+  BOX SIZING
+
+  A saner box-model.
+  Only applied to unqualified elements where this model makes sense.
+
+  Apply .border-box where needed.
+
 */
 
 nav,

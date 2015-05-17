@@ -1,12 +1,21 @@
 /*
    BORDER WIDTHS
 
-   LEGEND
+   Base:
+     bw = border-width
 
-   b = border
-   w = width
+   Modifiers:
+     0 = 0 width border
+     1 = 1st step in border-width scale
+     2 = 2nd step in border-width scale
+     3 = 3rd step in border-width scale
+     4 = 4th step in border-width scale
+     5 = 5th step in border-width scale
 
-   0-5 = step in sizing scale
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
