@@ -8,7 +8,6 @@ var gulp = require('gulp'),
     prefix = require('gulp-autoprefixer'),
     //uncss = require('gulp-uncss'),
     minifyCSS = require('gulp-minify-css'),
-    //sass = require('gulp-sass'),
     size = require('gulp-size'),
     rename = require('gulp-rename'),
     csslint = require('gulp-csslint'),
@@ -29,8 +28,6 @@ gulp.task('css', function() {
     .pipe(gulp.dest('./css'));
 });
 
-gulp.task('generateDocs', require('./tasks/generateDocs'));
-
 // Initialize browser-sync which starts a static server also allows for
 // browsers to reload on filesave
 gulp.task('browser-sync', function() {
@@ -49,7 +46,7 @@ gulp.task('bs-reload', function () {
 /*
    DEFAULT TASK
 
- • Process sass then auto-prefixes and lints outputted css
+ • Process css then auto-prefixes and lints outputted css
  • Starts a server on port 3000
  • Reloads browsers when you change html or sass files
 
