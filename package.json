@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Performance-first css framework built ontop of rework",
   "main": "index.html",
   "repository": {
