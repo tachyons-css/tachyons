@@ -431,7 +431,10 @@ table {
 
 /*
 
-   COLORS
+   COLOR VARIABLES
+
+   Variables to set colors for
+   color, background-color, and border-color
 
 */
 
@@ -445,7 +448,14 @@ body {
 }
 
 /*
-  Box Sizing
+
+  BOX SIZING
+
+  A saner box-model.
+  Only applied to unqualified elements where this model makes sense.
+
+  Apply .border-box where needed.
+
 */
 
 nav,
@@ -562,13 +572,31 @@ input[type="password"]:after,
 
    BORDER BASE
 
-   Legend
+   Use border-base in combination with setting text color
+   or by using extensions from border-color module.
 
-   a = all
-   t = top
-   r = right
-   b = bottom
-   l = left
+   Examples:
+   To set a border of blue on all sides:
+   <div class="ba b--blue"></div>
+
+   To set a border on top of orange
+   <div class="bt b--orange"></div>
+
+   Base:
+    b = border
+
+   Modifiers:
+     n = none, no border-style or border-width
+     a = all
+     t = top
+     r = right
+     b = bottom
+     l = left
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
@@ -1099,6 +1127,24 @@ input[type="password"]:after,
 
    BORDER RADIUS
 
+   Base:
+     br   = border-radius
+
+   Modifiers:
+     n    = none
+     1    = 1st step in scale
+     2    = 2nd step in scale
+     3    = 3rd step in scale
+     4    = 4th step in scale
+     5    = 5th step in scale
+     circ = circle
+     -100 = 100%
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 
 .brn {
@@ -1239,6 +1285,19 @@ input[type="password"]:after,
 
    BORDER STYLES
 
+   Base:
+     bs = border-style
+
+   Modifiers:
+     none   = none
+     dotted = dotted
+     solid  = solid
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
  */
 
 .bs-none {
@@ -1298,12 +1357,21 @@ input[type="password"]:after,
 /*
    BORDER WIDTHS
 
-   LEGEND
+   Base:
+     bw = border-width
 
-   b = border
-   w = width
+   Modifiers:
+     0 = 0 width border
+     1 = 1st step in border-width scale
+     2 = 2nd step in border-width scale
+     3 = 3rd step in border-width scale
+     4 = 4th step in border-width scale
+     5 = 5th step in border-width scale
 
-   0-5 = step in sizing scale
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
@@ -1572,7 +1640,11 @@ input[type="password"]:after,
   }
 }
 
-/* Code */
+/*
+
+   CODE
+
+*/
 
 .pre {
   overflow-x: auto;
@@ -1645,10 +1717,24 @@ input[type="password"]:after,
 
    DISPLAY
 
-   - Mobile First
-   - Breakpoint: not-small
-   - Breakpoint: medium
-   - Breakpoint: large
+   Base:
+    d = display
+
+   Modifiers:
+    n     = none
+    b     = block
+    ib    = inline-block
+    it    = inline-table
+    t     = table
+    tc    = table-cell
+    tr    = table-row
+    tcol  = table-column
+    tcolg = table-column-group
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
@@ -1676,6 +1762,10 @@ input[type="password"]:after,
   display: table;
   table-layout: fixed;
   width: 100%;
+}
+
+.dtr {
+  display: table-row;
 }
 
 .dtc {
@@ -1715,6 +1805,10 @@ input[type="password"]:after,
     display: table;
     table-layout: fixed;
     width: 100%;
+  }
+
+  .dtr-ns {
+    display: table-row;
   }
 
   .dtc-ns {
@@ -1757,6 +1851,10 @@ input[type="password"]:after,
     width: 100%;
   }
 
+  .dtr-m {
+    display: table-row;
+  }
+
   .dtc-m {
     display: table-cell;
   }
@@ -1797,6 +1895,10 @@ input[type="password"]:after,
     width: 100%;
   }
 
+  .dtr-l {
+    display: table-row;
+  }
+
   .dtc-l {
     display: table-cell;
   }
@@ -1818,12 +1920,20 @@ input[type="password"]:after,
       Setting floats to display inline will fix the double margin bug in
       ie6. You know... just in case.
 
-   Legend
+   2. Don't forget to clearfix your floats with .cf
 
-   f = float
-   l = left
-   r = right
-   n = none
+   Base:
+     f = float
+
+   Modifiers:
+     l = left
+     r = right
+     n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
