@@ -22,6 +22,7 @@
     "browser-sync": "^1.1.1",
     "css": "^2.1.0",
     "css-parse": "^2.0.0",
+    "css-statistics": "^0.1.0",
     "gulp": "^3.8.2",
     "gulp-autoprefixer": "0.0.7",
     "gulp-basswork": "0.0.11",
