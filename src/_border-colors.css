@@ -2,6 +2,16 @@
 
    BORDER COLORS
 
+   Use in cobmination with the _borders.css module
+   Or for more flexibility the _border-styles.css and _border-widths.css modules
+
+   Base:
+     b-- = border
+
+   Modifiers:
+     Add a border color. There is a one to one mapping of color values
+     in the _colors.css module.
+
  */
 
 .b--black {        border-color: var(--black); }

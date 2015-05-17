@@ -2,6 +2,18 @@
 
    BACKGROUND SIZE
 
+   Base:
+    bg = background-size
+
+   Modifiers:
+    cv = cover
+    cn = contain
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 
   .bg-cv  {               background-size: cover; }
