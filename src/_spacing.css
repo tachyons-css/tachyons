@@ -270,13 +270,13 @@
   .mvxl-ns  {  margin-top: 8rem;   margin-bottom: 8rem; }
   .mvxxl-ns  { margin-top: 16rem;  margin-bottom: 16rem; }
 
-   .mhn-ns   {  margin-left: 0;     margin-right: 0; }
-   .mhs-ns   {  margin-left: .5rem; margin-right: .5rem; }
-   .mhm-ns   {  margin-left: 1rem;  margin-right: 1rem; }
-   .mhl-ns   {  margin-left: 2rem;  margin-right: 2rem; }
-   .mhx-ns   {  margin-left: 4rem;  margin-right: 4rem; }
-   .mhxl-ns  {  margin-left: 8rem;  margin-right: 8rem; }
-   .mhxxl-ns  { margin-left: 16rem; margin-right: 16rem; }
+  .mhn-ns   {  margin-left: 0;     margin-right: 0; }
+  .mhs-ns   {  margin-left: .5rem; margin-right: .5rem; }
+  .mhm-ns   {  margin-left: 1rem;  margin-right: 1rem; }
+  .mhl-ns   {  margin-left: 2rem;  margin-right: 2rem; }
+  .mhx-ns   {  margin-left: 4rem;  margin-right: 4rem; }
+  .mhxl-ns  {  margin-left: 8rem;  margin-right: 8rem; }
+  .mhxxl-ns  { margin-left: 16rem; margin-right: 16rem; }
 
 }
 
@@ -404,8 +404,8 @@
   .mhm-m {  margin-left: 1rem;   margin-right: 1rem; }
   .mhl-m {  margin-left: 2rem;   margin-right: 2rem; }
   .mhx-m {  margin-left: 4rem;   margin-right: 4rem; }
-  .mhxl {   margin-left: 8rem;   margin-right: 8rem; }
-  .mhxxl {  margin-left: 16rem;  margin-right: 16rem; }
+  .mhxl-m {   margin-left: 8rem;   margin-right: 8rem; }
+  .mhxxl-m {  margin-left: 16rem;  margin-right: 16rem; }
 
 }
 
