@@ -58,7 +58,6 @@
     }
   ],
   "scripts": {
-    "start": "gulp",
-    "ast": "gulp generateDocs"
+    "start": "gulp"
   }
 }
