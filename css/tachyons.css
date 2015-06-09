@@ -442,6 +442,12 @@ table {
 
 
 
+/*
+
+  BASE
+
+*/
+
 html,
 body {
   height: 100%;
@@ -528,6 +534,18 @@ input[type="password"]:after,
 
    BACKGROUND SIZE
 
+   Base:
+    bg = background-size
+
+   Modifiers:
+    cv = cover
+    cn = contain
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 
 .bg-cv {
@@ -603,7 +621,7 @@ input[type="password"]:after,
 /* The extra `.bn` is required to boost the specificity, which is needed
  * sometimes if you are setting the border to 0. */
 
-.bn.bn {
+.bn {
   border-style: solid;
   border-width: 0;
 }
@@ -832,6 +850,16 @@ input[type="password"]:after,
 /*
 
    BORDER COLORS
+
+   Use in cobmination with the _borders.css module
+   Or for more flexibility the _border-styles.css and _border-widths.css modules
+
+   Base:
+     b-- = border
+
+   Modifiers:
+     Add a border color. There is a one to one mapping of color values
+     in the _colors.css module.
 
  */
 
@@ -1355,6 +1383,7 @@ input[type="password"]:after,
 }
 
 /*
+
    BORDER WIDTHS
 
    Base:
@@ -1397,6 +1426,84 @@ input[type="password"]:after,
 
 .bw5 {
   border-width: 1rem;
+}
+
+@media screen and (min-width: 42em) {
+  .bw0-ns {
+    border-width: 0;
+  }
+
+  .bw1-ns {
+    border-width: .125rem;
+  }
+
+  .bw2-ns {
+    border-width: .25rem;
+  }
+
+  .bw3-ns {
+    border-width: .5rem;
+  }
+
+  .bw4-ns {
+    border-width: .75rem;
+  }
+
+  .bw5-ns {
+    border-width: 1rem;
+  }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .bw0-m {
+    border-width: 0;
+  }
+
+  .bw1-m {
+    border-width: .125rem;
+  }
+
+  .bw2-m {
+    border-width: .25rem;
+  }
+
+  .bw3-m {
+    border-width: .5rem;
+  }
+
+  .bw4-m {
+    border-width: .75rem;
+  }
+
+  .bw5-m {
+    border-width: 1rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .bw0-l {
+    border-width: 0;
+  }
+
+  .bw1-l {
+    border-width: .125rem;
+  }
+
+  .bw2-l {
+    border-width: .25rem;
+  }
+
+  .bw3-l {
+    border-width: .5rem;
+  }
+
+  .bw4-l {
+    border-width: .75rem;
+  }
+
+  .bw5-l {
+    border-width: 1rem;
+  }
 }
 
 /*
@@ -2005,40 +2112,62 @@ input[type="password"]:after,
 
 */
 
-body,
 .sans-serif {
-  font-family: 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif;
-}
-
-.open-sans {
-  font-family: "Open sans", sans-serif;
+  font-family: 'avenir next', avenir,
+                helvetica, 'helvetica neue',
+                arial,
+                sans-serif;
 }
 
 .serif {
-  font-family: "Calisto MT", georgia, serif;
+  font-family: TimesNewRoman, "Times New Roman", times,
+               georgia,
+               serif;
 }
 
 /* From http://cssfontstack.com */
 
-.code,
-code {
-  font-family: Consolas, monaco, monospace;
+code,
+.code {
+  font-family: Consolas,
+               monaco,
+               monospace;
 }
 
 .serif-bodini {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-family: "Bodini MT",
+                Didot,
+               "Didot LT STD",
+               "Hoefler Text",
+                Garamond,
+               "Times New Roman",
+                serif;
 }
 
 .serif-calisto {
-  font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+  font-family: "Calisto MT",
+               "Bookman Old Style", Bookman,
+               "Goudy Old Style",
+                Garamond,
+               "Hoefler Text",
+               "Bitstream Charter",
+                Georgia,
+                serif;
 }
 
 .serif-garamond {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-family: Garamond,
+               Baskerville, "Baskerville Old Face",
+              "Hoefler Text",
+              "Times New Roman",
+               serif;
 }
 
 .serif-times {
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-family: TimesNewRoman, "Times New Roman", Times,
+               Baskerville,
+               Georgia,
+               serif;
 }
 
 /*
@@ -2053,6 +2182,36 @@ code {
 
 .i {
   font-style: italic;
+}
+
+@media screen and (min-width: 42em) {
+  .fsn-ns {
+    font-style: normal;
+  }
+
+  .i-ns {
+    font-style: italic;
+  }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .fsn-m {
+    font-style: normal;
+  }
+
+  .i-m {
+    font-style: italic;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .fsn-l {
+    font-style: normal;
+  }
+
+  .i-l {
+    font-style: italic;
+  }
 }
 
 /*
@@ -2174,6 +2333,13 @@ code {
   outline: 0;
   border: 0;
 }
+
+/* Media Queries */
+
+/*
+ Use this scaffolding to create or extend your own modules with tachyons
+ style architecture.
+*/
 
 @media screen and (min-width: 42em) {
 
@@ -2657,7 +2823,7 @@ img {
 
 */
 
-.lh {
+.lh-solid {
   line-height: 1;
 }
 
@@ -2670,7 +2836,7 @@ img {
 }
 
 @media screen and (min-width: 42em) {
-  .lh-ns {
+  .lh-solid-ns {
     line-height: 1;
   }
 
@@ -2684,7 +2850,7 @@ img {
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .lh-m {
+  .lh-solid-m {
     line-height: 1;
   }
 
@@ -2698,7 +2864,7 @@ img {
 }
 
 @media screen and (min-width: 64em) {
-  .lh-l {
+  .lh-solid-l {
     line-height: 1;
   }
 
@@ -3130,6 +3296,34 @@ img {
 /*
 
    WIDTHS
+
+   Base:
+     w = width
+
+   Modifiers
+     1 = 1st step in width scale
+     2 = 2nd step in width scale
+     3 = 3rd step in width scale
+     4 = 4th step in width scale
+     5 = 5th step in width scale
+
+     -10  = literal value 10%
+     -20  = literal value 20%
+     -25  = literal value 25%
+     -33  = literal value 33%
+     -34  = literal value 34%
+     -40  = literal value 40%
+     -50  = literal value 50%
+     -60  = literal value 60%
+     -75  = literal value 75%
+     -80  = literal value 80%
+     -100 = literal value 100%
+
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
@@ -7181,12 +7375,12 @@ img {
     margin-right: 4rem;
   }
 
-  .mhxl {
+  .mhxl-m {
     margin-left: 8rem;
     margin-right: 8rem;
   }
 
-  .mhxxl {
+  .mhxxl-m {
     margin-left: 16rem;
     margin-right: 16rem;
   }
