@@ -47,6 +47,7 @@
   background-color: #000;
 }
 
+.btn--gray,
 .btn--gray:link,
 .btn--gray:visited, {
   background-color: #f0f0f0;
@@ -66,6 +67,7 @@
   color: #444;
 }
 
+.btn--gray-border,
 .btn--gray-border:link,
 .btn--gray-border:visited, {
   background-color: #fff;
@@ -86,6 +88,7 @@
   color: #444;
 }
 
+.btn--gray-dark,
 .btn--gray-dark:link,
 .btn--gray-dark:visited {
   background-color: #555;
@@ -107,6 +110,7 @@
 
 /* BLUES */
 
+.btn--blue,
 .btn--blue:link,
 .btn--blue:visited {
   color: #fff;
