@@ -1,13 +1,41 @@
 /*
+ *
   Custom Media Queries
-  These custom media queries can be referenced like so:
+
+  Media query values can be changed to fit your own content.
+  There are no magic bullets when it comes to media query width values.
+  They should be declared in em units - and they should be set to meet
+  the needs of your content.
+
+  These media queries can be referenced like so:
+
+  @media (--breakpoint-not-small) {
+    .medium-and-larger-specific-style {
+      background-color: red;
+    }
+  }
 
   @media (--breakpoint-medium) {
-    .bg-red { background-color: red; }
+    .medium-screen-specific-style {
+      background-color: red;
+    }
+  }
+
+  @media (--breakpoint-large) {
+    .large-screen-specific-style {
+      background-color: red;
+    }
+  }
+
+  @media (--breakpoint-extra-large) {
+    .extra-large-screen-specific-style {
+      background-color: red;
+    }
   }
 
 */
 
-@custom-media --breakpoint-not-small screen and (min-width: 42em);
-@custom-media --breakpoint-medium screen and (min-width: 42em) and (max-width: 64em);
-@custom-media --breakpoint-large screen and (min-width: 64em);
+@custom-media --breakpoint-not-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+@custom-media --breakpoint-extra-large screen and (min-width: 120em);
