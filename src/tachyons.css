@@ -4,6 +4,10 @@
 @import './_media-queries';
 @import './_colors';
 
+/* Fallbacks */
+
+@import './_spacing_fallback';
+
 @import './_base';
 @import './_box-sizing';
 @import './_background-size';
