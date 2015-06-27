@@ -1,12 +1,22 @@
 /*
+
    BORDER WIDTHS
 
-   LEGEND
+   Base:
+     bw = border-width
 
-   b = border
-   w = width
+   Modifiers:
+     0 = 0 width border
+     1 = 1st step in border-width scale
+     2 = 2nd step in border-width scale
+     3 = 3rd step in border-width scale
+     4 = 4th step in border-width scale
+     5 = 5th step in border-width scale
 
-   0-5 = step in sizing scale
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
@@ -17,3 +27,29 @@
 .bw4 { border-width: .75rem; }
 .bw5 { border-width: 1rem; }
 
+@media (--breakpoint-not-small) {
+  .bw0-ns { border-width: 0; }
+  .bw1-ns { border-width: .125rem; }
+  .bw2-ns { border-width: .25rem; }
+  .bw3-ns { border-width: .5rem; }
+  .bw4-ns { border-width: .75rem; }
+  .bw5-ns { border-width: 1rem; }
+}
+
+@media (--breakpoint-medium) {
+  .bw0-m { border-width: 0; }
+  .bw1-m { border-width: .125rem; }
+  .bw2-m { border-width: .25rem; }
+  .bw3-m { border-width: .5rem; }
+  .bw4-m { border-width: .75rem; }
+  .bw5-m { border-width: 1rem; }
+}
+
+@media (--breakpoint-large) {
+  .bw0-l { border-width: 0; }
+  .bw1-l { border-width: .125rem; }
+  .bw2-l { border-width: .25rem; }
+  .bw3-l { border-width: .5rem; }
+  .bw4-l { border-width: .75rem; }
+  .bw5-l { border-width: 1rem; }
+}

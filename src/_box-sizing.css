@@ -1,22 +1,76 @@
 /*
-  Box Sizing
+
+  BOX SIZING
+
+  A saner box-model.
+  Only applied to unqualified elements where this model makes sense.
+
+  Apply .border-box where needed.
+
 */
 
-div,
-article,
-section,
+nav,
 main,
-footer,
+section,
+article,
+aside,
 header,
+footer,
+div,
+details,
+summary,
 form,
 fieldset,
-pre,
-code,
-p,
+textarea,
 input[type="text"],
 input[type="tel"],
+input[type="url"],
 input[type="email"],
-input[type="password"] {
+input[type="search"],
+input[type="number"],
+input[type="password"],
+nav:before,
+main:before,
+section:before,
+article:before,
+aside:before,
+header:before,
+footer:before,
+div:before,
+details:before,
+summary:before,
+form:before,
+fieldset:before,
+textarea:before,
+input[type="text"]:before,
+input[type="tel"]:before,
+input[type="url"]:before,
+input[type="email"]:before,
+input[type="search"]:before,
+input[type="number"]:before,
+input[type="password"]:before,
+nav:after,
+main:after,
+section:after,
+article:after,
+aside:after,
+header:after,
+footer:after,
+div:after,
+details:after,
+summary:after,
+form:after,
+fieldset:after,
+textarea:after,
+input[type="text"]:after,
+input[type="tel"]:after,
+input[type="url"]:after,
+input[type="email"]:after,
+input[type="search"]:after,
+input[type="number"]:after,
+input[type="password"]:after,
+.border-box,
+.border-box:before,
+.border-box:after {
   box-sizing: border-box;
 }
-

@@ -1,9 +1,8 @@
 /* Forms */
 
-
 .input-text {
-   outline: 0;
-   border: 1px solid $silver;
+  outline: 0;
+  border: 1px solid var(--silver);
 }
 
 .input-invisible {

@@ -6,3 +6,18 @@
 
 .fsn     { font-style: normal; }
 .i       { font-style: italic; }
+
+@media (--breakpoint-not-small) {
+  .fsn-ns     { font-style: normal; }
+  .i-ns       { font-style: italic; }
+}
+
+@media (--breakpoint-medium) {
+  .fsn-m     { font-style: normal; }
+  .i-m       { font-style: italic; }
+}
+
+@media (--breakpoint-large) {
+  .fsn-l     { font-style: normal; }
+  .i-l       { font-style: italic; }
+}
