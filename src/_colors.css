@@ -10,6 +10,7 @@
 /* variables */
 :root {
 
+  --black-100: rgba(0,0,0,1);
   --black-90: rgba(0,0,0,.9);
   --black-80: rgba(0,0,0,.8);
   --black-70: rgba(0,0,0,.7);
@@ -19,7 +20,9 @@
   --black-30: rgba(0,0,0,.3);
   --black-20: rgba(0,0,0,.2);
   --black-10: rgba(0,0,0,.1);
+  --black-05: rgba(0,0,0,.05);
 
+  --white-100: rgba(255,255,255,1);
   --white-90: rgba(255,255,255,.9);
   --white-80: rgba(255,255,255,.8);
   --white-70: rgba(255,255,255,.7);
