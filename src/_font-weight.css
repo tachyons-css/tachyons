@@ -8,16 +8,20 @@
 .b      { font-weight: bold; }
 .thin   { font-weight: 100; }
 .book   { font-weight: 400; }
-.bold  { font-weight: 700; }
-.heavy  { font-weight: 900; }
+.semibold   { font-weight: 500; }
+.bold   { font-weight: 600; }
+.heavy  { font-weight: 700; }
+.black  { font-weight: 900; }
 
 @media (--breakpoint-not-small) {
   .normal-ns { font-weight: normal; }
   .b-ns      { font-weight: bold; }
   .thin-ns   { font-weight: 100; }
   .book-ns   { font-weight: 400; }
-  .bold-ns   { font-weight: 700; }
-  .heavy-ns  { font-weight: 900; }
+  .semibold-ns   { font-weight: 500; }
+  .bold-ns   { font-weight: 600; }
+  .heavy-ns   { font-weight: 700; }
+  .black-ns  { font-weight: 900; }
 }
 
 @media (--breakpoint-medium) {
@@ -25,8 +29,10 @@
   .b-m      { font-weight: bold; }
   .thin-m   { font-weight: 100; }
   .book-m   { font-weight: 400; }
-  .bold-m   { font-weight: 700; }
-  .heavy-m  { font-weight: 900; }
+  .semibold-m   { font-weight: 500; }
+  .bold-m   { font-weight: 600; }
+  .heavy-m  { font-weight: 700; }
+  .black-m  { font-weight: 900; }
 }
 
 @media (--breakpoint-large) {
@@ -34,6 +40,8 @@
   .b-l      { font-weight: bold; }
   .thin-l   { font-weight: 100; }
   .book-l   { font-weight: 400; }
-  .bold-l   { font-weight: 700; }
-  .heavy-l  { font-weight: 900; }
+  .semibold-l   { font-weight: 500; }
+  .bold-l   { font-weight: 600; }
+  .heavy-l  { font-weight: 700; }
+  .black-l  { font-weight: 900; }
 }
