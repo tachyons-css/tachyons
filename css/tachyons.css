@@ -4232,8 +4232,14 @@ code,
                monospace;
 }
 
-.bodini {
-  font-family: "Bodini MT",
+.helvetica {
+  font-family: helvetica, 'helvetica neue',
+                arial,
+                sans-serif;
+}
+
+.bodoni {
+  font-family: "Bodoni MT",
                 Didot,
                "Didot LT STD",
                "Hoefler Text",
@@ -4347,7 +4353,7 @@ code,
   font-weight: 700;
 }
 
-.black {
+.ultrabold {
   font-weight: 900;
 }
 
@@ -4380,7 +4386,7 @@ code,
     font-weight: 700;
   }
 
-  .black-ns {
+  .ultrabold-ns {
     font-weight: 900;
   }
 }
@@ -4414,7 +4420,7 @@ code,
     font-weight: 700;
   }
 
-  .black-m {
+  .ultrabold-m {
     font-weight: 900;
   }
 }
@@ -4448,7 +4454,7 @@ code,
     font-weight: 700;
   }
 
-  .black-l {
+  .ultrabold-l {
     font-weight: 900;
   }
 }
