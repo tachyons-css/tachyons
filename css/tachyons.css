@@ -1,4 +1,10 @@
-/* Tachyons */
+/*
+
+  TACHYONS
+
+*/
+
+/* Variables */
 
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 
@@ -420,8 +426,8 @@ table {
 }
 
 /*
- *
-  Custom Media Queries
+
+  CUSTOM MEDIA QUERIES
 
   Media query values can be changed to fit your own content.
   There are no magic bullets when it comes to media query width values.
@@ -2394,6 +2400,8 @@ table {
   }
 }
 
+/* Modules */
+
 /*
 
   BASE
@@ -3590,6 +3598,270 @@ input[type="password"]:after,
   font-size: 14px;
 }
 
+/* COORDINATES */
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.top-1 {
+  top: 1rem;
+}
+
+.left-1 {
+  left: 1rem;
+}
+
+.right-1 {
+  right: 1rem;
+}
+
+.bottom-1 {
+  bottom: 1rem;
+}
+
+.top-2 {
+  top: 2rem;
+}
+
+.left-2 {
+  left: 2rem;
+}
+
+.right-2 {
+  right: 2rem;
+}
+
+.bottom-2 {
+  bottom: 2rem;
+}
+
+.top-4 {
+  top: 4rem;
+}
+
+.left-4 {
+  left: 4rem;
+}
+
+.right-4 {
+  right: 4rem;
+}
+
+.bottom-4 {
+  bottom: 4rem;
+}
+
+@media screen and (min-width: 30em) {
+  .top-0-ns {
+    top: 0;
+  }
+
+  .left-0-ns {
+    left: 0;
+  }
+
+  .right-0-ns {
+    right: 0;
+  }
+
+  .bottom-0-ns {
+    bottom: 0;
+  }
+
+  .top-1-ns {
+    top: 1rem;
+  }
+
+  .left-1-ns {
+    left: 1rem;
+  }
+
+  .right-1-ns {
+    right: 1rem;
+  }
+
+  .bottom-1-ns {
+    bottom: 1rem;
+  }
+
+  .top-2-ns {
+    top: 2rem;
+  }
+
+  .left-2-ns {
+    left: 2rem;
+  }
+
+  .right-2-ns {
+    right: 2rem;
+  }
+
+  .bottom-2-ns {
+    bottom: 2rem;
+  }
+
+  .top-4-ns {
+    top: 4rem;
+  }
+
+  .left-4-ns {
+    left: 4rem;
+  }
+
+  .right-4-ns {
+    right: 4rem;
+  }
+
+  .bottom-4-ns {
+    bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .top-0-m {
+    top: 0;
+  }
+
+  .left-0-m {
+    left: 0;
+  }
+
+  .right-0-m {
+    right: 0;
+  }
+
+  .bottom-0-m {
+    bottom: 0;
+  }
+
+  .top-1-m {
+    top: 1rem;
+  }
+
+  .left-1-m {
+    left: 1rem;
+  }
+
+  .right-1-m {
+    right: 1rem;
+  }
+
+  .bottom-1-m {
+    bottom: 1rem;
+  }
+
+  .top-2-m {
+    top: 2rem;
+  }
+
+  .left-2-m {
+    left: 2rem;
+  }
+
+  .right-2-m {
+    right: 2rem;
+  }
+
+  .bottom-2-m {
+    bottom: 2rem;
+  }
+
+  .top-4-m {
+    top: 4rem;
+  }
+
+  .left-4-m {
+    left: 4rem;
+  }
+
+  .right-4-m {
+    right: 4rem;
+  }
+
+  .bottom-4-m {
+    bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .top-0-l {
+    top: 0;
+  }
+
+  .left-0-l {
+    left: 0;
+  }
+
+  .right-0-l {
+    right: 0;
+  }
+
+  .bottom-0-l {
+    bottom: 0;
+  }
+
+  .top-1-l {
+    top: 1rem;
+  }
+
+  .left-1-l {
+    left: 1rem;
+  }
+
+  .right-1-l {
+    right: 1rem;
+  }
+
+  .bottom-1-l {
+    bottom: 1rem;
+  }
+
+  .top-2-l {
+    top: 2rem;
+  }
+
+  .left-2-l {
+    left: 2rem;
+  }
+
+  .right-2-l {
+    right: 2rem;
+  }
+
+  .bottom-2-l {
+    bottom: 2rem;
+  }
+
+  .top-4-l {
+    top: 4rem;
+  }
+
+  .left-4-l {
+    left: 4rem;
+  }
+
+  .right-4-l {
+    right: 4rem;
+  }
+
+  .bottom-4-l {
+    bottom: 4rem;
+  }
+}
+
 /*
 
    CLEARS
@@ -3934,7 +4206,7 @@ input[type="password"]:after,
 
 /*
 
-   Font Family Groups
+   FONT FAMILY GROUPS
 
 */
 
@@ -3999,7 +4271,7 @@ code,
 
 /*
 
-   Font Style
+   FONT STYLE
 
 */
 
@@ -4063,11 +4335,19 @@ code,
   font-weight: 400;
 }
 
+.semibold {
+  font-weight: 500;
+}
+
 .bold {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .heavy {
+  font-weight: 700;
+}
+
+.black {
   font-weight: 900;
 }
 
@@ -4088,11 +4368,19 @@ code,
     font-weight: 400;
   }
 
+  .semibold-ns {
+    font-weight: 500;
+  }
+
   .bold-ns {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .heavy-ns {
+    font-weight: 700;
+  }
+
+  .black-ns {
     font-weight: 900;
   }
 }
@@ -4114,11 +4402,19 @@ code,
     font-weight: 400;
   }
 
+  .semibold-m {
+    font-weight: 500;
+  }
+
   .bold-m {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .heavy-m {
+    font-weight: 700;
+  }
+
+  .black-m {
     font-weight: 900;
   }
 }
@@ -4140,16 +4436,28 @@ code,
     font-weight: 400;
   }
 
+  .semibold-l {
+    font-weight: 500;
+  }
+
   .bold-l {
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .heavy-l {
+    font-weight: 700;
+  }
+
+  .black-l {
     font-weight: 900;
   }
 }
 
-/* Forms */
+/*
+
+   FORMS
+
+*/
 
 .input-text {
   outline: 0;
@@ -4161,11 +4469,13 @@ code,
   border: 0;
 }
 
-/* Media Queries */
-
 /*
- Use this scaffolding to create or extend your own modules with tachyons
- style architecture.
+
+   MEDIA QUERIES
+
+  Use this scaffolding to create or extend your own modules with tachyons
+  style architecture.
+
 */
 
 @media screen and (min-width: 30em) {
@@ -4182,7 +4492,7 @@ code,
 
 /*
 
-   Heights
+   HEIGHTS
 
 */
 
@@ -4578,8 +4888,6 @@ code,
 
 */
 
-/* Responsive images! */
-
 img {
   max-width: 100%;
 }
@@ -4646,7 +4954,7 @@ img {
 
 /*
 
-   LINE HEIGHT
+   LINE HEIGHT / LEADING
 
 */
 
@@ -4659,7 +4967,7 @@ img {
 }
 
 .lh-copy {
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 @media screen and (min-width: 30em) {
@@ -4672,7 +4980,7 @@ img {
   }
 
   .lh-copy-ns {
-    line-height: 1.6;
+    line-height: 1.5;
   }
 }
 
@@ -4686,7 +4994,7 @@ img {
   }
 
   .lh-copy-m {
-    line-height: 1.6;
+    line-height: 1.5;
   }
 }
 
@@ -4700,7 +5008,7 @@ img {
   }
 
   .lh-copy-l {
-    line-height: 1.6;
+    line-height: 1.5;
   }
 }
 
@@ -4717,22 +5025,18 @@ img {
 
 .link:link,
 .link:visited {
-  color: #2D243B;
   transition: color .15s ease-in;
 }
 
 .link:hover {
-  color: #999999;
   transition: color .15s ease-in;
 }
 
 .link:active {
-  color: #C4E3E0;
   transition: color .15s ease-in;
 }
 
 .link:focus {
-  color: #2D243B;
   transition: color .15s ease-in;
 }
 
@@ -5662,87 +5966,6 @@ img {
   position: fixed;
 }
 
-/* Values */
-
-.top-0 {
-  top: 0;
-}
-
-.left-0 {
-  left: 0;
-}
-
-.right-0 {
-  right: 0;
-}
-
-.bottom-0 {
-  bottom: 0;
-}
-
-.top-1 {
-  top: 1rem;
-}
-
-.left-1 {
-  left: 1rem;
-}
-
-.right-1 {
-  right: 1rem;
-}
-
-.bottom-1 {
-  bottom: 1rem;
-}
-
-.top-2 {
-  top: 2rem;
-}
-
-.left-2 {
-  left: 2rem;
-}
-
-.right-2 {
-  right: 2rem;
-}
-
-.bottom-2 {
-  bottom: 2rem;
-}
-
-.top-4 {
-  top: 4rem;
-}
-
-.left-4 {
-  left: 4rem;
-}
-
-.right-4 {
-  right: 4rem;
-}
-
-.bottom-4 {
-  bottom: 4rem;
-}
-
-/* Top Percentage based scale */
-
-.top-auto {
-  top: auto;
-}
-
-.top-i {
-  top: inherit;
-}
-
-.center {
-  margin-right: auto;
-  margin-left: auto;
-}
-
 @media screen and (min-width: 30em) {
   .pos-stat-ns {
     position: static;
@@ -5758,83 +5981,6 @@ img {
 
   .pos-fix-ns {
     position: fixed;
-  }
-
-  .top-0-ns {
-    top: 0;
-  }
-
-  .left-0-ns {
-    left: 0;
-  }
-
-  .right-0-ns {
-    right: 0;
-  }
-
-  .bottom-0-ns {
-    bottom: 0;
-  }
-
-  .top-1-ns {
-    top: 1rem;
-  }
-
-  .left-1-ns {
-    left: 1rem;
-  }
-
-  .right-1-ns {
-    right: 1rem;
-  }
-
-  .bottom-1-ns {
-    bottom: 1rem;
-  }
-
-  .top-2-ns {
-    top: 2rem;
-  }
-
-  .left-2-ns {
-    left: 2rem;
-  }
-
-  .right-2-ns {
-    right: 2rem;
-  }
-
-  .bottom-2-ns {
-    bottom: 2rem;
-  }
-
-  .top-4-ns {
-    top: 4rem;
-  }
-
-  .left-4-ns {
-    left: 4rem;
-  }
-
-  .right-4-ns {
-    right: 4rem;
-  }
-
-  .bottom-4-ns {
-    bottom: 4rem;
-  }
-
-  .top-auto-ns {
-    top: auto;
-  }
-
-  .top-i-ns {
-    top: inherit;
-  }
-
-  .center-ns {
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 
@@ -5854,83 +6000,6 @@ img {
   .pos-fix-m {
     position: fixed;
   }
-
-  .top-0-m {
-    top: 0;
-  }
-
-  .left-0-m {
-    left: 0;
-  }
-
-  .right-0-m {
-    right: 0;
-  }
-
-  .bottom-0-m {
-    bottom: 0;
-  }
-
-  .top-1-m {
-    top: 1rem;
-  }
-
-  .left-1-m {
-    left: 1rem;
-  }
-
-  .right-1-m {
-    right: 1rem;
-  }
-
-  .bottom-1-m {
-    bottom: 1rem;
-  }
-
-  .top-2-m {
-    top: 2rem;
-  }
-
-  .left-2-m {
-    left: 2rem;
-  }
-
-  .right-2-m {
-    right: 2rem;
-  }
-
-  .bottom-2-m {
-    bottom: 2rem;
-  }
-
-  .top-4-m {
-    top: 4rem;
-  }
-
-  .left-4-m {
-    left: 4rem;
-  }
-
-  .right-4-m {
-    right: 4rem;
-  }
-
-  .bottom-4-m {
-    bottom: 4rem;
-  }
-
-  .top-auto-m {
-    top: auto;
-  }
-
-  .top-i-m {
-    top: inherit;
-  }
-
-  .center-m {
-    margin-right: auto;
-    margin-left: auto;
-  }
 }
 
 @media screen and (min-width: 60em) {
@@ -5948,83 +6017,6 @@ img {
 
   .pos-fix-l {
     position: fixed;
-  }
-
-  .top-0-l {
-    top: 0;
-  }
-
-  .left-0-l {
-    left: 0;
-  }
-
-  .right-0-l {
-    right: 0;
-  }
-
-  .bottom-0-l {
-    bottom: 0;
-  }
-
-  .top-1-l {
-    top: 1rem;
-  }
-
-  .left-1-l {
-    left: 1rem;
-  }
-
-  .right-1-l {
-    right: 1rem;
-  }
-
-  .bottom-1-l {
-    bottom: 1rem;
-  }
-
-  .top-2-l {
-    top: 2rem;
-  }
-
-  .left-2-l {
-    left: 2rem;
-  }
-
-  .right-2-l {
-    right: 2rem;
-  }
-
-  .bottom-2-l {
-    bottom: 2rem;
-  }
-
-  .top-4-l {
-    top: 4rem;
-  }
-
-  .left-4-l {
-    left: 4rem;
-  }
-
-  .right-4-l {
-    right: 4rem;
-  }
-
-  .bottom-4-l {
-    bottom: 4rem;
-  }
-
-  .top-auto-l {
-    top: auto;
-  }
-
-  .top-i-l {
-    top: inherit;
-  }
-
-  .center-l {
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 
@@ -6074,6 +6066,10 @@ img {
 
 .black-10 {
   color: rgba(0, 0, 0, .1);
+}
+
+.black-05 {
+  color: rgba(0, 0, 0, .05);
 }
 
 .bg-black-100 {
@@ -7428,7 +7424,11 @@ img {
   transition: opacity .15s ease-out;
 }
 
-/* SVG Fills */
+/*
+
+  SVG FILLS
+
+*/
 
 .fill-black {
   fill: #000;
@@ -7634,7 +7634,11 @@ img {
   fill: #5f008e;
 }
 
-/* SVG Strokes */
+/*
+
+  SVG STROKES
+
+*/
 
 .sw-4 {
   stroke-width: 4;
@@ -9835,7 +9839,7 @@ img {
 
 /*
 
-  Text Align
+  TEXT ALIGN
 
 */
 
@@ -9993,9 +9997,11 @@ img {
   }
 }
 
-/* ==========================================================================
+/*
+
    TYPE SCALE
-   ========================================================================== */
+
+*/
 
 .mega {
   font-size: 4rem;
@@ -10100,9 +10106,11 @@ img {
   }
 }
 
-/* ==========================================================================
-   TYOGRAPHY
-   ========================================================================== */
+/*
+
+   TYPOGRAPHY
+
+*/
 
 .measure {
   max-width: 30em;
@@ -10295,7 +10303,9 @@ img {
 */
 
 /*
+
    VERTICAL ALIGN
+
 */
 
 .v-base {
