@@ -9805,40 +9805,40 @@ img {
 
 */
 
-.under {
+.underline {
   text-decoration: underline;
 }
 
-.none {
+.no-underline {
   text-decoration: none;
 }
 
 @media screen and (min-width: 30em) {
-  .under-ns {
+  .underline-ns {
     text-decoration: underline;
   }
 
-  .none-ns {
+  .no-underline-ns {
     text-decoration: none;
   }
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
-  .under-m {
+  .underline-m {
     text-decoration: underline;
   }
 
-  .none-m {
+  .no-underline-m {
     text-decoration: none;
   }
 }
 
 @media screen and (min-width: 60em) {
-  .under-l {
+  .underline-l {
     text-decoration: underline;
   }
 
-  .none-l {
+  .no-underline-l {
     text-decoration: none;
   }
 }
