@@ -4,64 +4,70 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>
-      Docs / TACHYONS
+      TACHYONS / Docs
     </title>
     <meta name="author" content="@mrmrs">
     <meta name="description" content="CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/tachyons.css">
   </head>
-  <body class="w-100">
-    <header class="bb b--light-gray pvm">
-      <div class="center mw8 phm phl-ns">
-        <h1 class="f3 book dib prm"><a class="link" href="/" title="home">Tachyons</a></h1>
-        <h2 class="f4 book ttu orange dib">Docs</h2>
+  <body class="w-100 sans-serif">
+    <header class="bg-dark-gray white pbl">
+      <div class="bb b--mid-gray phm phl-ns pvl">
+        <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
+        <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
+      </div>
+      <div class="phm phl-ns pvm">
+        <p class="measure f3 lh-copy">
+          Tachyons was built for designing highly readable and 100% responsive interfaces with as little css as possible.
+          Each module within tachyons is available on npm as standalone css that you can include within your own project.
+          You can also consider just copy and pasting the source from here or from github.
+        </p>
+        <p class="measure f4 lh-copy">
+          Modules can be altered, extended, or changed to meet the design needs of your application.
+          The most important parts are the mobile-first architecture and single purpose class philosophy.
+          Class names and property values can be changed to fit the development needs of your team or the design needs of your application.
+        </p>
       </div>
     </header>
-
-    <main class="center mw8 phm phl-ns ptl pbxl">
-      <p class="lh-copy mw6 f4 f3-ns">
-        Note that documentation is heavily in flux at the moment.
-        Feedback is welcome.
-      </p>
-      <ul class="list pln">
-        <li>
+    <main>
+      <div class="center mw8 phm phl-ns ptl pbxl">
+        <p class="lh-copy mw6 f4">
+          Note that documentation is heavily in flux at the moment.
+          Feedback is welcome.
+        </p>
+        <section>
           <a class="link" href="styles/" title="Styles">All Styles</a>
-        </li>
-        <li>
-          <a class="link" href="measure/garamond/" title="Measure">Measure</a>
-        </li>
-        <li>
-          <a class="link" href="skins/" title="Skins">Skins</a>
-        </li>
-        <li>
-          <a class="link" href="type/" title="Type">Skins - SVG</a>
-        </li>
-        <li>
-          <a class="link" href="borders/" title="Borders">Borders</a>
-        </li>
-        <li>
-          <a class="link" href="type/" title="Type">Typography</a>
-        </li>
-        <li>
+          <h2 class="f4 semibold" id="typography">Typography</h2>
+          <a class="link db" href="/docs/typography/scale" title="Type">Type Scale</a>
+          <a class="link db" href="/docs/typography/measure/garamond/" title="Measure">Measure</a>
+          <a class="link db" href="/docs/typography/line-height" title="Line Height">Line Height / Leading</a>
+          <a class="link db" href="/docs/typography/tracking" title="Tracking">Tracking</a>
+          <a class="link db" href="/docs/typography/font-families" title="Font Weights">Font Weights</a>
+          <a class="link db" href="/docs/typography/font-families" title="Font Families">Font Families</a>
+          <h2 class="f4 semibold">Layout</h2>
           <a class="link" href="dimensions/" title="Dimensions">Dimensions</a>
-        </li>
-      </ul>
+          <h2 class="f4 semibold">Theming</h2>
+          <a class="link" href="skins/" title="Skins">Skins</a>
+          <a class="link" href="type/" title="Type">Skins - SVG</a>
+          <a class="link" href="borders/" title="Borders">Borders</a>
+        </section>
+      </div>
     </main>
-<footer class="bg-white gray pvx pvxl-ns phm bt b--light-gray h-50 h-75-ns">
-  <small class="f5 mw7 db center lh-copy">
-    A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
-    that always moves faster than light.
-    <br class="dn db-ns">
-    The word comes from the Greek:
-    ταχύς or tachys, meaning "swift, quick, fast, rapid"
-  </small>
-</footer>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <footer class="bg-white gray pvx pvxl-ns phm bt b--light-gray h-50 h-75-ns">
+      <small class="f5 mw7 db center lh-copy">
+        A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
+        that always moves faster than light.
+        <br class="dn db-ns">
+        The word comes from the Greek:
+        ταχύς or tachys, meaning "swift, quick, fast, rapid"
+      </small>
+    </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-55773803-1', 'auto');
 ga('send', 'pageview');
