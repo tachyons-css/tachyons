@@ -11,7 +11,7 @@
 .semibold   { font-weight: 500; }
 .bold   { font-weight: 600; }
 .heavy  { font-weight: 700; }
-.black  { font-weight: 900; }
+.ultrabold  { font-weight: 900; }
 
 @media (--breakpoint-not-small) {
   .normal-ns { font-weight: normal; }
@@ -21,7 +21,7 @@
   .semibold-ns   { font-weight: 500; }
   .bold-ns   { font-weight: 600; }
   .heavy-ns   { font-weight: 700; }
-  .black-ns  { font-weight: 900; }
+  .ultrabold-ns  { font-weight: 900; }
 }
 
 @media (--breakpoint-medium) {
@@ -32,7 +32,7 @@
   .semibold-m   { font-weight: 500; }
   .bold-m   { font-weight: 600; }
   .heavy-m  { font-weight: 700; }
-  .black-m  { font-weight: 900; }
+  .ultrabold-m  { font-weight: 900; }
 }
 
 @media (--breakpoint-large) {
@@ -43,5 +43,5 @@
   .semibold-l   { font-weight: 500; }
   .bold-l   { font-weight: 600; }
   .heavy-l  { font-weight: 700; }
-  .black-l  { font-weight: 900; }
+  .ultrabold-l  { font-weight: 900; }
 }
