@@ -12,10 +12,27 @@
     <link rel="stylesheet" href="/css/tachyons.min.css">
   </head>
   <body class="garamond w-100">
-    <header class="bb b--light-gray pvm">
-      <div class="sans-serif phm phl-ns">
-        <h1 class="f3 book dib prm"><a class="link" href="/" title="home">Tachyons</a></h1>
-        <h2 class="f4 book ttu dib orange">Measure / Garamond</h2>
+    <header class="bg-dark-gray white pbl sans-serif">
+      <div class="bb b--mid-gray phm phl-ns pvl">
+        <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
+        <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
+        <span class="thin white-40">/</span>
+        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#typography">Typography</a></h3>
+        <span class="thin white-40">/</span>
+        <h4 class="f4 mvn semibold dib"><a class="lightest-blue link dim" href="#">Measure</a></h4>
+        <span class="thin white-40">/</span>
+        <h5 class="f4 mvn semibold dib">Garamond</h5>
+      </div>
+      <div class="phm phl-ns pvm">
+        <p class="measure f3 lh-copy">
+          Measure is...<br>
+          Measure impacts the readability of text.
+          An appropriate line length for single column text is 45-75 characters including spaces.
+          66 characters is regarded as the most ideal line length.
+        </p>
+        <p class="measure f4 lh-copy">
+          This is Garamond (a system font) set to 30em for every type size in the tachyons code base.
+        </p>
       </div>
     </header>
     <main>
@@ -82,15 +99,59 @@
           </div>
         </div>
       </div>
+      <section class="bg-dark-gray white ptl pbxl">
+<header class="phm phl-ns ptl">
+        <kbd class="yellow">src/_typography.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+/*
+
+   TYPOGRAPHY
+
+*/
+
+.measure  {
+  max-width: 30em;
+}
+
+.indent   {
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (--breakpoint-not-small){
+  .measure-ns  {
+    max-width: 30em;
+  }
+  .indent-ns   {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (--breakpoint-medium) {
+  .measure-m  { max-width: 30em; }
+  .indent-m  {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (--breakpoint-large) {
+  .measure-l  { max-width: 30em; }
+  .indent-l  {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+</code>
+</pre>
+      </section>
     </main>
-    <footer class="bg-white gray phm pvx pvxl-ns bt b--light-gray h-50">
-      <small class="f5 mw7 db center lh-title">
-        A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
-        that always moves faster than light.
-        <br class="dn db-ns">
-        The word comes from the Greek:
-        ταχύς or tachys, meaning "swift, quick, fast, rapid"
-      </small>
-    </footer>
   </body>
 </html>
