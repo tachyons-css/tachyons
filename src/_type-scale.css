@@ -10,7 +10,6 @@
 .f5,
 .small { font-size: .85rem; }
 
-
 @media (--breakpoint-not-small){
  .mega-ns { font-size: 4rem; }
  .f1-ns {   font-size: 3rem; }
