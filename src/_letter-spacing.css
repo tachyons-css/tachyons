@@ -5,23 +5,23 @@
 */
 
 .tracked       { letter-spacing:  .16em; }
-.tracked-tight { letter-spacing: -.1em; }
-.mega-tracked  { letter-spacing:  .3em; }
+.tracked-tight { letter-spacing: -.05em; }
+.tracked-mega  { letter-spacing:  .3em; }
 
 @media (--breakpoint-not-small) {
   .tracked-ns       { letter-spacing:  .16em; }
   .tracked-tight-ns { letter-spacing: -.1em; }
-  .mega-tracked-ns  { letter-spacing:  .3em; }
+  .tracked-mega-ns  { letter-spacing:  .3em; }
 }
 
 @media (--breakpoint-medium) {
   .tracked-m       { letter-spacing:  .16em; }
   .tracked-tight-m { letter-spacing: -.1em; }
-  .mega-tracked-m  { letter-spacing:  .3em; }
+  .tracked-mega-m  { letter-spacing:  .3em; }
 }
 
 @media (--breakpoint-large) {
   .tracked-l       { letter-spacing:  .16em; }
   .tracked-tight-l { letter-spacing: -.1em; }
-  .mega-tracked-l  { letter-spacing:  .3em; }
+  .tracked-mega-l  { letter-spacing:  .3em; }
 }
