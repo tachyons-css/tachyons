@@ -4,21 +4,21 @@
 
 */
 
-.under  { text-decoration: underline; }
-.none   { text-decoration: none; }
+.underline  { text-decoration: underline; }
+.no-underline   { text-decoration: none; }
 
 
 @media (--breakpoint-not-small) {
-  .under-ns  { text-decoration: underline; }
-  .none-ns   { text-decoration: none; }
+  .underline-ns  { text-decoration: underline; }
+  .no-underline-ns   { text-decoration: none; }
 }
 
 @media (--breakpoint-medium) {
-  .under-m  { text-decoration: underline; }
-  .none-m   { text-decoration: none; }
+  .underline-m  { text-decoration: underline; }
+  .no-underline-m   { text-decoration: none; }
 }
 
 @media (--breakpoint-large) {
-  .under-l  { text-decoration: underline; }
-  .none-l   { text-decoration: none; }
+  .underline-l  { text-decoration: underline; }
+  .no-underline-l   { text-decoration: none; }
 }
