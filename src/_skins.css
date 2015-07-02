@@ -19,6 +19,7 @@
 .black-30 {         color: var(--black-30); }
 .black-20 {         color: var(--black-20); }
 .black-10 {         color: var(--black-10); }
+.black-05 {         color: var(--black-05); }
 
 .bg-black-100 {        background-color: var(--black-100); }
 .bg-black-90 {         background-color: var(--black-90); }

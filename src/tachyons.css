@@ -1,13 +1,18 @@
-/* Tachyons */
+/*
 
+  TACHYONS
+
+*/
+
+/* Variables */
 @import './_normalize';
 @import './_media-queries';
 @import './_colors';
 
 /* Fallbacks */
-
 @import './_spacing_fallback';
 
+/* Modules */
 @import './_base';
 @import './_box-sizing';
 @import './_background-size';
