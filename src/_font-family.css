@@ -25,8 +25,14 @@ code, .code {
                monospace;
 }
 
-.bodini {
-  font-family: "Bodini MT",
+.helvetica {
+  font-family:  helvetica, 'helvetica neue',
+                arial,
+                sans-serif;
+}
+
+.bodoni {
+  font-family: "Bodoni MT",
                 Didot,
                "Didot LT STD",
                "Hoefler Text",
