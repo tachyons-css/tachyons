@@ -19,12 +19,14 @@
 .dim:focus { opacity: .8; transition: opacity .15s ease-out; }
 
 .hide-child .child {
-  display: none;
+  opacity: 0;
+  transition: opacity .15s ease-in;
 }
 
 .hide-child:hover  .child,
 .hide-child:focus  .child,
 .hide-child:active .child {
-  display: block;
+  opacity: 1;
+  transition: opacity .15s ease-in;
 }
 
