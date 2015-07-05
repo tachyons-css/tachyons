@@ -3467,121 +3467,6 @@ input[type="password"]:after,
 }
 
 /*
- *
- * btns.css
- * Simple css utilities for building responsive buttons
- * Author: mrmrs
- * License: MIT
- *
- *                */
-
-/*
-
-  Base .btn class
-
-  Code:
-  <a href="#" class="btn">Default button</a>
-
-*/
-
-.btn,
-.btn:link,
-.btn:visited {
-  border-radius: .3em;
-  border-style: solid;
-  border-width: 1px;
-  color: #111;
-  display: inline-block;
-  letter-spacing: .15em;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: color .4s, background-color .4s, border .4s;
-}
-
-.btn:hover {
-  color: #7FDBFF;
-  border: 1px solid #7FDBFF;
-  transition: background-color .3s, color .3s, border .3s;
-}
-
-.btn:active {
-  color: #0074D9;
-  border: 1px solid #0074D9;
-  transition: background-color .3s, color .3s, border .3s;
-}
-
-/*
-
-  Sizes
-
-  Small  = .btn--s
-  Medium = .btn--m
-  Large  = .btn--l
-
-  Code:
-  <a href="#" class="btn btn--s">
-  <a href="#" class="btn btn--m">
-  <a href="#" class="btn btn--l">
-
-*/
-
-.btn--s {
-  font-size: 12px;
-}
-
-.btn--m {
-  font-size: 14px;
-}
-
-.btn--l {
-  font-size: 20px;
-  border-radius: .25em!important;
-}
-
-/*
-
-  Layout utility for responsive buttons
-
-  Code:
-  <a href="#" class="btn btn--full">
-
-*/
-
-.btn--full,
-.btn--full:link {
-  border-radius: .25em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 100%;
-}
-
-.btn--animated {
-  background: #f9f9f9;
-  color: #444;
-  border: 4px solid #f1f1f1;
-  padding: .5rem;
-  transition: padding .4s ease-out;
-  transition-delay: .1s;
-}
-
-.btn--animated:hover {
-  background: #f9f9f9;
-  border: 4px solid #f1f1f1;
-  padding: .75rem;
-  transition: padding .2s ease-in;
-}
-
-/* Keep it mobile-first and responsive */
-
-@media screen and (min-width: 32em) {
-  .btn--full {
-    max-width: 16em!important;
-  }
-}
-
-/*
 
    CODE
 
@@ -3899,23 +3784,6 @@ input[type="password"]:after,
 
 .cf {
   *zoom: 1;
-}
-
-/*
-
-   DIMENSION UTILITIES
-
-*/
-
-.wrap {
-  display: block;
-  width: auto !important;
-}
-
-.fill {
-  display: block;
-  overflow: hidden;
-  width: auto !important;
 }
 
 /*
@@ -4473,27 +4341,6 @@ code,
 .input-invisible {
   outline: 0;
   border: 0;
-}
-
-/*
-
-   MEDIA QUERIES
-
-  Use this scaffolding to create or extend your own modules with tachyons
-  style architecture.
-
-*/
-
-@media screen and (min-width: 30em) {
-
-}
-
-@media screen and (min-width: 30em) and (max-width: 60em) {
-
-}
-
-@media screen and (min-width: 60em) {
-
 }
 
 /*
