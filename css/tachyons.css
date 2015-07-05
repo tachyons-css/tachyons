@@ -7261,22 +7261,6 @@ img {
   background-color: #5f008e;
 }
 
-.dim {
-  opacity: 1;
-  transition: opacity .15s ease-in;
-}
-
-.dim:hover {
-  opacity: .6;
-  transition: opacity .15s ease-in;
-}
-
-.dim:active,
-.dim:focus {
-  opacity: .8;
-  transition: opacity .15s ease-out;
-}
-
 /*
 
   SVG FILLS
@@ -10305,6 +10289,57 @@ img {
   .v-btm-l {
     vertical-align: bottom;
   }
+}
+
+/*
+  HOVER EFFECTS
+
+  Put the hide-child class on a parent element and any nested element with the
+  child class will be hidden and displayed on hover or focus.
+
+  <div class="hide-child">
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+  </div>
+
+*/
+
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.dim:hover {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+
+.dim:active,
+.dim:focus {
+  opacity: .8;
+  transition: opacity .15s ease-out;
+}
+
+.hide-child .child {
+  display: none;
+}
+
+.hide-child:hover  .child,
+.hide-child:focus  .child,
+.hide-child:active .child {
+  display: block;
+}
+
+/*
+
+  DEBUG CHILDREN
+
+*/
+
+.debug * {
+  outline: 1px solid gold;
 }
 
 /* Uncomment out this line if you want to debug your layout */
