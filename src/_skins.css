@@ -368,9 +368,5 @@
 .bg-hover-dark-purple:hover { background-color: var(--dark-purple); }
 .bg-hover-darkest-purple:hover { background-color: var(--darkest-purple); }
 
-.dim { opacity: 1; transition: opacity .15s ease-in; }
-.dim:hover { opacity: .6; transition: opacity .15s ease-in; }
-.dim:active,
-.dim:focus { opacity: .8; transition: opacity .15s ease-out; }
 
 
