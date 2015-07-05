@@ -1,6 +1,4 @@
-$layout-debug: false;
 
-@if $layout-debug == true {
 
   body {        outline: 1px solid  #2980B9!important; }
   article {     outline: 1px solid  #3498DB!important; }
@@ -121,4 +119,3 @@ $layout-debug: false;
   br {          outline: 1px solid #DB687D!important; }
   wbr {         outline: 1px solid #DB175B!important; }
 
-}
