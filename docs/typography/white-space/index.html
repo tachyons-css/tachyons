@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      White Space / Docs / TACHYONS
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+  </head>
+  <body class="w-100 sans-serif">
+    <header class="bg-dark-gray white pbl">
+      <div class="bb b--mid-gray phm phl-ns pvl">
+        <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
+        <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
+        <span class="thin white-40">/</span>
+        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#typography">Typography</a></h3>
+        <span class="thin white-40">/</span>
+        <h4 class="f4 mvn semibold dib">White Space</h4>
+      </div>
+      <div class="phm phl-ns pvm">
+        <p class="measure f3 lh-copy">
+          White space in css is used to control how whitespace is rendered. Creative, I know.
+        </p>
+        <p class="measure f4 lh-copy">
+          <b>Normal</b> supresses white space characters and breaks lines based on the width of the element
+or the placement of a br tag.<br>
+          <b>Nowrap</b> will keep all text on one line - often used in conjunction with truncation or a scrollbar. This can be useful
+for displaying unix style commands where indicating everything is on one line is important for clarity.<br>
+          <b>Pre</b> will preserve all whitespace and linebreaks. This is useful for displaying code or poetry. Simulates the rendering of the pre tag.
+        </p>
+      </div>
+    </header>
+    <main class="">
+<div class="phm phl-ns ptl pbxl">
+  <h2 class="f3 bold">Examples</h2>
+<p class="f3">This text is formatted the same way in the source and printed three times, with the only difference being which white-space class is attached.</p>
+  <h3 class="f5 book ptl caps">Normal</h3>
+  <p class="ws-norm measure">
+
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+
+      tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+
+        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+
+    no sea
+      takimata
+    sanctus est
+
+              Lorem
+
+    ipsum dolor sit amet.
+
+  </p>
+  <h3 class="f5 book ptl caps">Nowrap</h3>
+  <p class="ws-nowrap measure">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+
+      tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+
+        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+
+    no sea
+      takimata
+    sanctus est
+
+              Lorem
+
+    ipsum dolor sit amet.
+
+  </p>
+  <h3 class="f5 book ptl caps">Pre</h3>
+  <p class="ws-pre measure">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+
+      tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+
+        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+
+    no sea
+      takimata
+    sanctus est
+
+              Lorem
+
+    ipsum dolor sit amet.
+
+  </p>
+</div>
+      <section class="bg-dark-gray white ptl pbxl">
+<header class="phm phl-ns ptl">
+        <kbd class="yellow">src/_white-space.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+/*
+
+   WHITE SPACE
+
+*/
+
+
+.ws-norm    { white-space: normal; }
+.ws-nowrap  { white-space: nowrap; }
+.ws-pre     { white-space: pre; }
+
+@media (--breakpoint-not-small) {
+  .ws-norm-ns    { white-space: normal; }
+  .ws-nowrap-ns  { white-space: nowrap; }
+  .ws-pre-ns     { white-space: pre; }
+}
+
+@media (--breakpoint-medium) {
+  .ws-norm-m    { white-space: normal; }
+  .ws-nowrap-m  { white-space: nowrap; }
+  .ws-pre-m     { white-space: pre; }
+}
+
+@media (--breakpoint-large) {
+  .ws-norm-l    { white-space: normal; }
+  .ws-nowrap-l  { white-space: nowrap; }
+  .ws-pre-l     { white-space: pre; }
+}
+</code>
+</pre>
+      </section>
+    </main>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
