@@ -52,41 +52,42 @@
 </div>
       <section class="bg-dark-gray white ptl pbxl">
 <header class="phm phl-ns ptl">
-        <kbd class="yellow">src/_text-align.css</kbd>
+        <kbd class="yellow">src/_hovers.css</kbd>
 </header>
 <pre class="phm phl-ns">
 <code class="small">
 /*
+  HOVER EFFECTS
 
-  TEXT ALIGN
+  Put the hide-child class on a parent element and any nested element with the
+  child class will be hidden and displayed on hover or focus.
+
+  <div class="hide-child">
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+  </div>
 
 */
 
-.tl  { text-align: left; }
-.tr  { text-align: right; }
-.tc  { text-align: center; }
-.tj  { text-align: justify; }
+.dim { opacity: 1; transition: opacity .15s ease-in; }
+.dim:hover { opacity: .5; transition: opacity .15s ease-in; }
+.dim:active,
+.dim:focus { opacity: .8; transition: opacity .15s ease-out; }
 
-@media (--breakpoint-not-small) {
-  .tl-ns  { text-align: left; }
-  .tr-ns  { text-align: right; }
-  .tc-ns  { text-align: center; }
-  .tj-ns  { text-align: justify; }
+.hide-child .child {
+  opacity: 0;
+  transition: opacity .15s ease-in;
 }
 
-@media (--breakpoint-medium) {
-  .tl-m  { text-align: left; }
-  .tr-m  { text-align: right; }
-  .tc-m  { text-align: center; }
-  .tj-m  { text-align: justify; }
+.hide-child:hover  .child,
+.hide-child:focus  .child,
+.hide-child:active .child {
+  opacity: 1;
+  transition: opacity .15s ease-in;
 }
 
-@media (--breakpoint-large) {
-  .tl-l  { text-align: left; }
-  .tr-l  { text-align: right; }
-  .tc-l  { text-align: center; }
-  .tj-l  { text-align: justify; }
-}
 </code>
 </pre>
       </section>
