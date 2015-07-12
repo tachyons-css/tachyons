@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      TACHYONS - Form follows function
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="Simple CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.min.css">
+  </head>
+  <body class="wi-100 sans-serif">
+    <div class="dt pvxl pvxxl-ns">
+      <header class="bg-pulsate tc dtc wi-100 v-mid">
+        <div class="tc mbm mbn-ns">
+          <h1 class="f3 f2-m mega-ns b db-ns mrs mrn-ns mbn ttu mtn pulse-letters">
+            Tachyons
+          </h1>
+          <p class="f5 f3-ns dib db-ns fw1 phs mbn mbx-ns aqua">
+            CSS for designing faster than the speed of light<br>
+            <small class="ws-nowrap f5 mts mtm-ns">v<%= version %></small>
+            <small class="ws-nowrap b f5 mts mtm-ns"><%= size %></small>
+          </p>
+        </div>
+        <div class="pvm mtm">
+          <a title="Tachyons" href="http://github.com/mrmrs/tachyons/"
+             class="small link black tc br2 bw1 pas pam-ns ba dim mrxs">
+            View on Github ▸
+          </a>
+          <a title="Tachyons" href="/docs/"
+             class="small link black tc br2 bw1 pas pam-ns ba dim mlxs">
+            Read the Docs ▸
+          </a>
+        </div>
+      </header>
+    </div>
+    <main>
+      <section class="bg-near-white dt h-100 navy pvxl pvxxl-ns">
+          <div class="mw7 center phm phl-ns tl tl-ns">
+            <h1 class="f4 ttu book">Principles</h1>
+            <section class="f4 f3-ns list pln lh-copy">
+              <article class="pvs">
+                <h2 class="f3">Everything should be 100% responsive</h2>
+                <p>
+                  Your website should be readable and work regardless of a users
+                  device or screensize. Don't break the functionality of HTML
+                  with CSS.
+                </p>
+              </article>
+              <article class="pvs">
+                <h2 class="f3">Everything should be readable on any device</h2>
+                <p>
+                  Just because it's readable to you on your laptop, doesn't
+                  mean it is readable by your users. Make sure your type is big.
+                  Make sure your contrast is high.
+                </p>
+              </article>
+              <article class="pvs">
+                <h2 class="f3">Everything should be as performant as possible</h2>
+                <p>
+                  Code isn't for making a developers life easier. It's for
+                  improving the lives of our users. If it's not doing that, why
+                  write it. A developer's time is not precious. A user's time is.
+                </p>
+              </article>
+              <article class="pvs">
+                <h2 class="f3">Designing in the browser should be easy</h2>
+                <p>If a computer can do it, you shouldn't have to.</p>
+              </article>
+              <article class="pvs">
+                <h2 class="f3">
+                  Doing one thing extremely well promotes reusability
+                </h2>
+                <p>
+                  Single purpose classes that are easy to grock.
+                </p>
+              </article>
+              <article class="pvs">
+                <h2 class="f3">
+                  Modules > Monoliths
+                </h2>
+                <p>
+                  Tachyons isn't a monolithic framework. It's a collection of <%= modulesCount %> self contained modules
+                  that can be mixed and matched or used independently. Pick what you want, leave the rest.
+                </p>
+              </article>
+            </section>
+            <h1 class="f4 ttu book mtx">Features</h1>
+            <section class="f4 f3-ns list pln lh-copy">
+              <article class="pvs">
+                <h2 class="f3 mvn">
+                  Built on Rework
+                </h2>
+                <p class="mvn">
+                  A flexible plugin framework for preprocessing css.
+                  <a href="https://github.com/reworkcss/rework" class="link
+                    blue dim small db">View on Github</a>
+                </p>
+                </article>
+                <article class="pvs">
+                  <h2 class="f3 mvn"> Mobile-first css architecture </h2>
+                  <p>
+                    Base classes are mobile by default. Can be overridden by
+                    namespaced classes targeting larger breakpoints.
+                  </p>
+                </article>
+                <article class="pvs">
+
+                <h2 class="f3 mvn">
+                  Default colors for rapid theming
+                </h2>
+                <p>Who cares about colors. Unless you're painting a
+                  bikeshed.</p>
+
+                </article>
+                <article class="pvs">
+                  <h2 class="f3 mvn">
+                    CSS layout debugging utilities.
+                  </h2>
+                  <p>
+                    Small css modules for debugging stacking and layout issues.
+                    Can easily be turned on or off during development.
+                  </p>
+                </article>
+              <article class="pvs">
+                Composable class names
+              </article>
+              <article class="pvs">
+                <h2 class="f3 mvn">Scale based design system</h2>
+                <p>
+                  Powers of two. Starting at .25
+                </p>
+              </article>
+              <article class="pvs">
+                <h2 class="f3">
+                  Easy to customize and extend
+                </h2>
+                <p>
+                  Take what you need. Leave the rest. The small single-purpose
+                  modules make it easy to grab only what you need without
+                  needing to figure out dependencies.
+                </p>
+                </article>
+              <article class="pvs">
+                <h2 class="f3">Responsive Grid</h2>
+                <p>
+                  Infinitely nestable. Fully fluid. Extremely light-weight.
+                </p>
+              </article>
+              <article class="pvs">
+                <h2 class="f3">Gulp based build system</h2>
+                <p>Minification, auto-prefixing,  and so much more.</p>
+
+              </article>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="bg-white dt h-100 navy pvxl pvxxl-ns" id="npm">
+          <div class="mw7 center phm phl-ns tl tl-ns">
+          <h3 class="f4 ttu book"><a href="#npm" class="link black">Tachyons on NPM</a></h3>
+        <p class="f4 lh-copy mbl">
+          Tachyons is also available as a series of modules on npm and github that you can
+          mix and match to suit your project's needs.
+        </p>
+        <code class="db mbl ba b--light-blue bg-lightest-blue small phs pvxs">npm install --save-dev tachyons-module-name</code>
+        <div class="mbm">
+          <a class="db f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-background-size">tachyons-background-size </a>
+          <small class="book gray f5">v1.0.0</small>
+          <a class="link dim dark-gray small " href="http://github.com/mrmrs/tachyons-background-size">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-base">tachyons-base</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-base">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-border-colors">tachyons-border-colors</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-border-colors">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-border-radius">tachyons-border-radius</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-border-radius">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-border-style">tachyons-border-style</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-border-style">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-border-widths">tachyons-border-widths</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-border-widths">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-borders">tachyons-borders</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-borders">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-box-sizing">tachyons-box-sizing</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-box-sizing">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-buttons">tachyons-buttons</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-buttons">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-clears">tachyons-clears</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-clears">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-colors">tachyons-colors</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-colors">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-debug">tachyons-debug</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-debug">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-display">tachyons-display</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-display">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-floats">tachyons-floats</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-floats">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-font-family">tachyons-font-family</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-font-family">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-font-style">tachyons-font-style</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-font-style">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-font-weight">tachyons-font-weight</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-font-weight">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-forms">tachyons-forms</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-forms">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-grid">tachyons-grid</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-grid">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-heights">tachyons-heights</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-heights">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-images">tachyons-images</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-images">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-letter-spacing">tachyons-letter-spacing</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-letter-spacing">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-line-height">tachyons-line-height</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-line-height">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-link dim dark-grays">tachyons-link dim dark-grays</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-link dim dark-grays">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-lists">tachyons-lists</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-lists">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-max-widths">tachyons-max-widths</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-max-widths">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-overflow">tachyons-overflow</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-overflow">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-position">tachyons-position</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-position">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-queries">tachyons-queries</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-queries">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-skins">tachyons-skins</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-skins">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-spacing">tachyons-spacing</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-spacing">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-styles">tachyons-styles</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-styles">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-text-align">tachyons-text-align</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-text-align">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-text-decoration">tachyons-text-decoration</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-text-decoration">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-text-transform">tachyons-text-transform</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-text-transform">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-type-scale">tachyons-type-scale</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-type-scale">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-utilities">tachyons-utilities</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-utilities">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-vertical-align">tachyons-vertical-align</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-vertical-align">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-visibility">tachyons-visibility</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-visibility">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-white-space">tachyons-white-space</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-white-space">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-widths">tachyons-widths</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-widths">View on GitHub</a>
+        </div>
+        <div class="mbm">
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-word-spacing">tachyons-word-spacing</a>
+          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-word-spacing">View on GitHub</a>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-white gray phm pvxl pvxxl-ns bt b--light-gray h-50">
+      <small class="f5 mw7 db center lh-copy">
+        A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
+        that always moves faster than light.
+        <br class="dn db-ns">
+        The word comes from the Greek:
+        ταχύς or tachys, meaning "swift, quick, fast, rapid"
+      </small>
+    </footer>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
