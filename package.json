@@ -23,6 +23,8 @@
     "css": "^2.1.0",
     "css-parse": "^2.0.0",
     "css-statistics": "^0.1.0",
+    "cssstats": "^1.10.0",
+    "filesize": "^3.1.2",
     "gulp": "^3.8.2",
     "gulp-autoprefixer": "0.0.7",
     "gulp-basswork": "0.0.11",
@@ -36,8 +38,9 @@
     "gulp-uncss": "^0.4.4",
     "gulp-util": "^2.2.18",
     "gulp-watch": "^0.6.8",
-    "lodash": "^2.4.1",
-    "node-sass": "^0.9"
+    "lodash": "^3.10.0",
+    "node-sass": "^0.9",
+    "postcss": "^4.1.16"
   },
   "contributors": [
     {
@@ -58,6 +61,7 @@
     }
   ],
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "node home.js"
   }
 }
