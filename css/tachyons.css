@@ -5651,7 +5651,8 @@ img {
   overflow: visible;
 }
 
-.of-hid {
+.of-hid,
+.oh {
   overflow: hidden;
 }
 
@@ -5700,7 +5701,8 @@ img {
     overflow: visible;
   }
 
-  .of-hid-ns {
+  .of-hid-ns,
+  .oh {
     overflow: hidden;
   }
 
