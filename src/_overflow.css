@@ -5,7 +5,7 @@
  */
 
 .of-vis { overflow: visible; }
-.of-hid { overflow: hidden; }
+.of-hid,.oh { overflow: hidden; }
 .of-scr { overflow: scroll; }
 .of-aut { overflow: auto; }
 
@@ -21,7 +21,7 @@
 
 @media (--breakpoint-not-small) {
   .of-vis-ns { overflow: visible; }
-  .of-hid-ns { overflow: hidden; }
+  .of-hid-ns,.oh { overflow: hidden; }
   .of-scr-ns { overflow: scroll; }
   .of-aut-ns { overflow: auto; }
 
