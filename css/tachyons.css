@@ -4383,6 +4383,10 @@ code,
   height: 25%;
 }
 
+.h-30 {
+  height: 30%;
+}
+
 .h-40 {
   height: 40%;
 }
@@ -4395,12 +4399,20 @@ code,
   height: 60%;
 }
 
+.h-70 {
+  height: 70%;
+}
+
 .h-75 {
   height: 75%;
 }
 
 .h-80 {
   height: 80%;
+}
+
+.h-90 {
+  height: 90%;
 }
 
 .h-100 {
@@ -4480,6 +4492,10 @@ code,
     height: 25%;
   }
 
+  .h-30-ns {
+    height: 30%;
+  }
+
   .h-40-ns {
     height: 40%;
   }
@@ -4492,12 +4508,20 @@ code,
     height: 60%;
   }
 
+  .h-70-ns {
+    height: 70%;
+  }
+
   .h-75-ns {
     height: 75%;
   }
 
   .h-80-ns {
     height: 80%;
+  }
+
+  .h-90-ns {
+    height: 90%;
   }
 
   .h-100-ns {
@@ -4576,6 +4600,10 @@ code,
     height: 25%;
   }
 
+  .h-30-m {
+    height: 30%;
+  }
+
   .h-40-m {
     height: 40%;
   }
@@ -4588,12 +4616,20 @@ code,
     height: 60%;
   }
 
+  .h-70-m {
+    height: 70%;
+  }
+
   .h-75-m {
     height: 75%;
   }
 
   .h-80-m {
     height: 80%;
+  }
+
+  .h-90-m {
+    height: 90%;
   }
 
   .h-100-m {
@@ -4672,6 +4708,10 @@ code,
     height: 25%;
   }
 
+  .h-30-l {
+    height: 30%;
+  }
+
   .h-40-l {
     height: 40%;
   }
@@ -4684,12 +4724,20 @@ code,
     height: 60%;
   }
 
+  .h-70-l {
+    height: 70%;
+  }
+
   .h-75-l {
     height: 75%;
   }
 
   .h-80-l {
     height: 80%;
+  }
+
+  .h-90-l {
+    height: 90%;
   }
 
   .h-100-l {
