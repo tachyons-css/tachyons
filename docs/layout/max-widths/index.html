@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+       Max Widths / Layout / Docs / TACHYONS
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+  </head>
+  <body class="w-100 sans-serif">
+    <header class="bg-dark-gray white pbl">
+      <div class="bb b--mid-gray phm phl-ns pvl">
+        <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
+        <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
+        <span class="thin white-40">/</span>
+        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#layout">Layout</a></h3>
+        <span class="thin white-40">/</span>
+        <h4 class="f4 mvn semibold dib">Max Widths</h4>
+      </div>
+      <div class="phm phl-ns pvm">
+        <p class="measure f3 lh-copy">
+          The max-widths module contains both a ten-step scale based on powers of two
+          as well as a series of percentage values that can prove useful. Max widths can be combined with widths
+          to ensure that your content doesn't get too wide on larger monitors, which are also important to consider when designing for the web.
+        </p>
+        <p class="measure f4 lh-copy">
+          Class name structure is as follows:
+<pre>
+Base:
+  mw = width
+
+Modifiers
+  1  = 1st step in width scale
+  2  = 2nd step in width scale
+  3  = 3rd step in width scale
+  4  = 4th step in width scale
+  5  = 5th step in width scale
+  6  = 6th step in width scale
+  7  = 7th step in width scale
+  8  = 8th step in width scale
+  9  = 9th step in width scale
+  10 = 10th step in width scale
+
+  -25   = literal value 10%
+  -50   = literal value 20%
+  -75   = literal value 25%
+  -100  = literal value 33%
+
+  -none  = none
+  -max   = max-content
+  -min   = min-content
+  -fit   = fit-content
+  -fill  = fill-available
+
+Media Query Extensions:
+  -ns = not-small
+  -m  = medium
+  -l  = large
+</pre>
+        </p>
+      </div>
+    </header>
+    <main class="">
+<div class="phm phl-ns ptl pbxl">
+  <h2 class="f3 bold">Examples</h2>
+  <h3 class="f5 book ptl caps">Max Width Scale</h3>
+<table border="0" cellspacing="5" cellpadding="5">
+  <tr>
+    <td>
+      <code class="code">.mw1</code>
+    </td>
+    <td>
+      <div class="mw1 bg-black-10 pvs oh">
+Lorem
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <code class="code">.mw2</code>
+    </td>
+    <td>
+      <div class="mw2 bg-black-10 pvs oh">
+        Lorem
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <code class="code">.mw3</code>
+    </td>
+    <td>
+      <div class="mw3 bg-black-10 pvs oh">
+        Lorem ipsum dolor sit amet, consetetur sadipscing
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <code class="code">.mw4</code>
+    </td>
+    <td>
+      <div class="mw4 bg-black-10 pvs oh">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <code class="code">.mw5</code>
+    </td>
+    <td>
+      <div class="mw5 bg-black-10 pvs oh">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+        no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <code class="code">.mw6</code>
+    </td>
+    <td>
+      <div class="mw6 bg-black-10 pvs oh">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+        no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </div>
+    </td>
+  </tr>
+</table>
+  <h3 class="f5 book ptl caps">Max Width Percentages</h3>
+  <div class="bg-black-10 w-100">
+    <div class="mw-25 bg-black-10 mbs">
+      <code class="code">w-25</code>
+    </div>
+    <div class="mw-50 bg-black-10 mbs">
+      <code class="code">w-50</code>
+    </div>
+    <div class="mw-75 bg-black-10 mbs">
+      <code class="code">mw-75</code>
+    </div>
+    <div class="mw-100 bg-black-10 mbs">
+      <code class="code">mw-100</code>
+    </div>
+  </div>
+</div>
+      <section class="bg-dark-gray white ptl pbxl">
+<header class="phm phl-ns ptl">
+        <kbd class="yellow">src/_max-widths.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+/*
+
+   MAX WIDTHS
+
+*/
+
+.mw-100  { max-width: 100%; }
+.mw-75   { max-width: 75%; }
+.mw-50   { max-width: 50%; }
+.mw-25   { max-width: 25%; }
+
+.mw1  {  max-width: 1rem; }
+.mw2  {  max-width: 2rem; }
+.mw3  {  max-width: 4rem; }
+.mw4  {  max-width: 8rem; }
+.mw5  {  max-width: 16rem; }
+.mw6  {  max-width: 32rem; }
+.mw7  {  max-width: 48rem; }
+.mw8  {  max-width: 64rem; }
+.mw9  {  max-width: 96rem; }
+.mw10 {  max-width: 128rem; }
+
+.mw-none { max-width: none; }
+.mw-max  { max-width: max-content; }
+.mw-min  { max-width: min-content; }
+.mw-fit  { max-width: fit-content; }
+.mw-fill { max-width: fill-available; }
+
+@media (--breakpoint-not-small) {
+  .mw-100-ns  { max-width: 100%; }
+  .mw-75-ns   { max-width: 75%; }
+  .mw-50-ns   { max-width: 50%; }
+  .mw-25-ns   { max-width: 25%; }
+
+  .mw1-ns  {  max-width: 1rem; }
+  .mw2-ns  {  max-width: 2rem; }
+  .mw3-ns  {  max-width: 4rem; }
+  .mw4-ns  {  max-width: 8rem; }
+  .mw5-ns  {  max-width: 16rem; }
+  .mw6-ns  {  max-width: 32rem; }
+  .mw7-ns  {  max-width: 48rem; }
+  .mw8-ns  {  max-width: 64rem; }
+  .mw9-ns  {  max-width: 96rem; }
+  .mw10-ns {  max-width: 128rem; }
+
+  .mw-none-ns { max-width: none; }
+  .mw-max-ns  { max-width: max-content; }
+  .mw-min-ns  { max-width: min-content; }
+  .mw-fit-ns  { max-width: fit-content; }
+  .mw-fill-ns { max-width: fill-available; }
+}
+
+@media (--breakpoint-medium) {
+  .mw-100-m  { max-width: 100%; }
+  .mw-75-m   { max-width: 75%; }
+  .mw-50-m   { max-width: 50%; }
+  .mw-25-m   { max-width: 25%; }
+
+  .mw1-m  {  max-width: 1rem; }
+  .mw2-m  {  max-width: 2rem; }
+  .mw3-m  {  max-width: 4rem; }
+  .mw4-m  {  max-width: 8rem; }
+  .mw5-m  {  max-width: 16rem; }
+  .mw6-m  {  max-width: 32rem; }
+  .mw7-m  {  max-width: 48rem; }
+  .mw8-m  {  max-width: 64rem; }
+  .mw9-m  {  max-width: 96rem; }
+  .mw10-m {  max-width: 128rem; }
+
+  .mw-none-m { max-width: none; }
+  .mw-max-m  { max-width: max-content; }
+  .mw-min-m  { max-width: min-content; }
+  .mw-fit-m  { max-width: fit-content; }
+  .mw-fill-m { max-width: fill-available; }
+}
+
+@media (--breakpoint-large) {
+  .mw-100-l  { max-width: 100%; }
+  .mw-75-l   { max-width: 75%; }
+  .mw-50-l   { max-width: 50%; }
+  .mw-25-l   { max-width: 25%; }
+
+  .mw1-l  {  max-width: 1rem; }
+  .mw2-l  {  max-width: 2rem; }
+  .mw3-l  {  max-width: 4rem; }
+  .mw4-l  {  max-width: 8rem; }
+  .mw5-l  {  max-width: 16rem; }
+  .mw6-l  {  max-width: 32rem; }
+  .mw7-l  {  max-width: 48rem; }
+  .mw8-l  {  max-width: 64rem; }
+  .mw9-l  {  max-width: 96rem; }
+  .mw10-l {  max-width: 128rem; }
+
+  .mw-none-l { max-width: none; }
+  .mw-max-l  { max-width: max-content; }
+  .mw-min-l  { max-width: min-content; }
+  .mw-fit-l  { max-width: fit-content; }
+  .mw-fill-l { max-width: fill-available; }
+}
+</code>
+</pre>
+      </section>
+    </main>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+       Heights / Layout / Docs / TACHYONS
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+  </head>
+  <body class="w-100 sans-serif">
+    <header class="bg-dark-gray white pbl">
+      <div class="bb b--mid-gray phm phl-ns pvl">
+        <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
+        <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
+        <span class="thin white-40">/</span>
+        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#layout">Layout</a></h3>
+        <span class="thin white-40">/</span>
+        <h4 class="f4 mvn semibold dib">Heights</h4>
+      </div>
+      <div class="phm phl-ns pvm">
+        <p class="measure f3 lh-copy">
+          The heights module contains both a five-step width scale based on powers of two
+          as well as a series of percentage values that can be used within elements that have a declared height.
+        </p>
+        <p class="measure f4 lh-copy">
+          Class name structure is as follows:
+<pre>
+Base:
+  h = height
+
+Modifiers
+  1 = 1st step in width scale
+  2 = 2nd step in width scale
+  3 = 3rd step in width scale
+  4 = 4th step in width scale
+  5 = 5th step in width scale
+
+  -10
+  -20
+  -25
+  -30
+  -40
+  -50
+  -60
+  -70
+  -75
+  -80
+  -90
+  -100
+
+  -auto  = string value auto
+
+Media Query Extensions:
+  -ns = not-small
+  -m  = medium
+  -l  = large
+</pre>
+        </p>
+      </div>
+    </header>
+    <main class="">
+<div class="phm phl-ns ptl pbxl">
+  <h2 class="f3 bold">Examples</h2>
+  <h3 class="f5 book ptl caps">Height Scale</h3>
+<table border="0" cellspacing="5" cellpadding="5">
+  <tr>
+    <td>
+      <code class="code">.h1</code>
+    </td>
+    <td><div class="h1 bg-black-10 phs"></div></td>
+  </tr>
+  <tr>
+    <td>
+      <code class="code">.h2</code>
+    </td>
+    <td><div class="h2 bg-black-10 phs"></div></td>
+  </tr>
+  <tr>
+    <td>
+      <code class="code">.h3</code>
+    </td>
+    <td><div class="h3 bg-black-10 phs"></div></td>
+  </tr>
+  <tr>
+    <td>
+      <code class="code">.h4</code>
+    </td>
+    <td><div class="h4 bg-black-10 phs"></div></td>
+  </tr>
+  <tr>
+    <td>
+      <code class="code">.h5</code>
+    </td>
+    <td><div class="h5 bg-black-10 phs"></div></td>
+  </tr>
+</table>
+  <h3 class="f5 book ptl caps">Height Percentages</h3>
+  <div class="bg-black-10 w-100">
+    <div class="h5">
+      <div class="h-10 bg-black-10 mbs">
+        <code class="code">h-10</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-20 bg-black-10 mbs">
+        <code class="code">h-20</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-25 bg-black-10 mbs">
+        <code class="code">h-25</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-30 bg-black-10 mbs">
+        <code class="code">h-30</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-40 bg-black-10 mbs">
+        <code class="code">h-40</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-50 bg-black-10 mbs">
+        <code class="code">h-50</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-60 bg-black-10 mbs">
+        <code class="code">h-60</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-70 bg-black-10 mbs">
+        <code class="code">h-70</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-75 bg-black-10 mbs">
+        <code class="code">h-75</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-80 bg-black-10 mbs">
+        <code class="code">h-80</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-90 bg-black-10 mbs">
+        <code class="code">h-90</code>
+      </div>
+    </div>
+    <div class="h5">
+      <div class="h-100 bg-black-10 mbs">
+        <code class="code">h-100</code>
+      </div>
+    </div>
+  </div>
+</div>
+      <section class="bg-dark-gray white ptl pbxl">
+<header class="phm phl-ns ptl">
+        <kbd class="yellow">src/_heights.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+/*
+
+   HEIGHTS
+
+*/
+
+/* Height Scale */
+
+.h1 {  height: 1rem; }
+.h2 {  height: 2rem; }
+.h3 {  height: 4rem; }
+.h4 {  height: 8rem; }
+.h5 {  height: 16rem; }
+
+.h-10 { height:  10%; }
+.h-20 { height:  20%; }
+.h-25 { height:  25%; }
+.h-30 { height:  30%; }
+.h-40 { height:  40%; }
+.h-50 { height:  50%; }
+.h-60 { height:  60%; }
+.h-70 { height:  70%; }
+.h-75 { height:  75%; }
+.h-80 { height:  80%; }
+.h-90 { height:  90%; }
+.h-100 { height: 100%; }
+
+/* String Properties */
+
+.h-bb { height: border-box; }
+.h-cb { height: content-box; }
+.h-mx { height: max-content; }
+.h-mn { height: min-content; }
+.h-av { height: available; }
+.h-fc { height: fit-content; }
+.h-at { height: auto; }
+.h-i {  height: inherit; }
+
+@media (--breakpoint-not-small) {
+  .h-1-ns {  height: 1rem; }
+  .h-2-ns {  height: 2rem; }
+  .h-3-ns {  height: 4rem; }
+  .h-4-ns {  height: 8rem; }
+  .h-5-ns {  height: 16rem; }
+  .h-10-ns  { height: 10%; }
+  .h-20-ns  { height: 20%; }
+  .h-25-ns  { height: 25%; }
+  .h-30-ns  { height: 30%; }
+  .h-40-ns  { height: 40%; }
+  .h-50-ns  { height: 50%; }
+  .h-60-ns  { height: 60%; }
+  .h-70-ns  { height: 70%; }
+  .h-75-ns  { height: 75%; }
+  .h-80-ns  { height: 80%; }
+  .h-90-ns  { height: 90%; }
+  .h-100-ns { height: 100%; }
+  .h-bb-ns { height: border-box; }
+  .h-cb-ns { height: content-box; }
+  .h-mx-ns { height: max-content; }
+  .h-mn-ns { height: min-content; }
+  .h-av-ns { height: available; }
+  .h-fc-ns { height: fit-content; }
+  .h-at-ns { height: auto; }
+  .h-i-ns {  height: inherit; }
+}
+
+@media (--breakpoint-medium) {
+  .h1-m {      height: 1rem; }
+  .h2-m {      height: 2rem; }
+  .h3-m {      height: 4rem; }
+  .h4-m {      height: 8rem; }
+  .h5-m {      height: 16rem; }
+  .h-10-m  { height: 10%; }
+  .h-20-m  { height: 20%; }
+  .h-25-m  { height: 25%; }
+  .h-30-m  { height: 30%; }
+  .h-40-m  { height: 40%; }
+  .h-50-m  { height: 50%; }
+  .h-60-m  { height: 60%; }
+  .h-70-m  { height: 70%; }
+  .h-75-m  { height: 75%; }
+  .h-80-m  { height: 80%; }
+  .h-90-m  { height: 90%; }
+  .h-100-m { height: 100%; }
+  .h-bb-m {    height: border-box; }
+  .h-cb-m {    height: content-box; }
+  .h-mx-m {    height: max-content; }
+  .h-mn-m {    height: min-content; }
+  .h-av-m {    height: available; }
+  .h-fc-m {    height: fit-content; }
+  .h-at-m {    height: auto; }
+  .h-i-m {     height: inherit; }
+}
+
+@media (--breakpoint-large) {
+  .h1-l {      height: 1rem; }
+  .h2-l {      height: 2rem; }
+  .h3-l {      height: 4rem; }
+  .h4-l {      height: 8rem; }
+  .h5-l {      height: 16rem; }
+  .h-10-l  { height: 10%; }
+  .h-20-l  { height: 20%; }
+  .h-25-l  { height: 25%; }
+  .h-30-l  { height: 30%; }
+  .h-40-l  { height: 40%; }
+  .h-50-l  { height: 50%; }
+  .h-60-l  { height: 60%; }
+  .h-70-l  { height: 70%; }
+  .h-75-l  { height: 75%; }
+  .h-80-l  { height: 80%; }
+  .h-90-l  { height: 90%; }
+  .h-100-l { height: 100%; }
+  .h-bb-l {    height: border-box; }
+  .h-cb-l {    height: content-box; }
+  .h-mx-l {    height: max-content; }
+  .h-mn-l {    height: min-content; }
+  .h-av-l {    height: available; }
+  .h-fc-l {    height: fit-content; }
+  .h-at-l {    height: auto; }
+  .h-i-l {     height: inherit; }
+}
+</code>
+</pre>
+      </section>
+    </main>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
