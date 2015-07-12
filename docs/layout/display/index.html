@@ -34,8 +34,11 @@
 <div class="phm phl-ns ptl pbxl">
   <h2 class="f3 bold">Examples</h2>
   <h3 class="f5 book ptl caps">Display Block</h3>
-  <p>Block will inherently set width to 100% of its parent element.</p>
+  <p>Block will inherently set width to 100% of its parent element. It will also cause a line break, even if the declared width doesn't take up the full width of the parent.</p>
   <div class="db bg-black-10 mbs">
+    block
+  </div>
+  <div class="db bg-black-10 mbs mw4">
     block
   </div>
 
@@ -50,11 +53,29 @@
   <div class="dib bg-black-10 mbs">
     display: inline-block
   </div>
+  <div class="dib bg-black-10 mbs">
+    display: inline-block
+  </div>
+  <div class="dib bg-black-10 mbs">
+    display: inline-block
+  </div>
+  <div class="dib bg-black-10 mbs">
+    display: inline-block
+  </div>
 
   <h3 class="f5 book ptl caps">Display Inline</h3>
   <p class="measure">
-    Set content inline. Inline doesn't respect height or width values.
+    Set content inline. Inline doesn't respect height or width values. It does not render white space between elements.
   </p>
+  <div class="di bg-black-10 mbs">
+    display: inline
+  </div>
+  <div class="di bg-black-10 mbs">
+    display: inline
+  </div>
+  <div class="di bg-black-10 mbs">
+    display: inline
+  </div>
   <div class="di bg-black-10 mbs">
     display: inline
   </div>
