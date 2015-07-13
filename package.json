@@ -1,7 +1,7 @@
 {
   "name": "tachyons",
   "version": "2.1.1",
-  "description": "Performance-first css framework built ontop of rework",
+  "description": "Performant, mobile-first, and 100% responsive modular css framework.",
   "main": "index.html",
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
     "browser-sync": "^1.1.1",
     "css": "^2.1.0",
     "css-parse": "^2.0.0",
-    "css-statistics": "^0.1.0",
     "cssstats": "^1.10.0",
     "filesize": "^3.1.2",
     "gulp": "^3.8.2",
