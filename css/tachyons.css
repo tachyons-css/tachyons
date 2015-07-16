@@ -10084,6 +10084,11 @@ img {
   overflow-y: scroll;
 }
 
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /*
 
    VISIBILITY
