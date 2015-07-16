@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- template.html -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tachyons Colors</title>
+</head>
+<body>
+  <header>
+    <h1>Color Palette Docs Demo</h1>
+  </header>
+  <ul class="list-reset flex flex-wrap flex-justify mxn2">
+    <% colors.map(renderColor) %>
+  </ul>
+  <% function renderColor(color) { %>
+    <li>
+      <div style="background-color:<%= color %>"
+        class="pvm"></div>
+      <%= color %>
+    </li>
+  <% } %>
+</body>
+</html>
