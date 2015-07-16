@@ -1,8 +1,8 @@
 var _ = require('lodash')
 var fs = require('fs')
 var filesize = require('filesize')
-var tachyons = require('../package.json')
-var srcDir = fs.readdirSync('../src/')
+var tachyons = require('./package.json')
+var srcDir = fs.readdirSync('./src/')
 
 var filesCount = srcDir.length - 3
 
@@ -23,7 +23,7 @@ var stats = JSON.stringify(obj, null, '\t')
 
 var size = filesize(obj.gzipSize)
 
-var template = fs.readFileSync('../templates/index.html', 'utf8')
+var template = fs.readFileSync('./templates/index.html', 'utf8')
 var tpl = _.template(template)
 var html = tpl({
   size: size,
@@ -31,6 +31,6 @@ var html = tpl({
   modulesCount: filesCount
 })
 
-fs.writeFileSync('../index.html', html)
+fs.writeFileSync('./index.html', html)
 
 //console.log(astObj)
