@@ -11,15 +11,15 @@ var cssstats = require('cssstats')
 //var parseColors = require('./lib/parse-colors')
 //var parseCombos = require('./lib/parse-combos')
 
-var css = fs.readFileSync('./css/tachyons.min.css', 'utf8')
+var css = fs.readFileSync('./css/tachyons.css', 'utf8')
 //var colors = parseColors(css)
 //var combos = parseCombos(colors)
 
 var ast = postcss.parse(css)
 var obj = cssstats(ast)
 
-var astObj = JSON.stringify(ast, null, '\t')
-var stats = JSON.stringify(obj, null, '\t')
+//var astObj = JSON.stringify(ast, null, '\t')
+//var stats = JSON.stringify(obj, null, '\t')
 
 var size = filesize(obj.gzipSize)
 
@@ -33,4 +33,4 @@ var html = tpl({
 
 fs.writeFileSync('./index.html', html)
 
-//console.log(astObj)
+console.log(ast)
