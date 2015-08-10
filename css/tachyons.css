@@ -3159,10 +3159,6 @@ input[type="password"]:after,
   border-radius: 2rem;
 }
 
-.br-circ {
-  border-radius: 9999px;
-}
-
 .br-100 {
   border-radius: 100%;
 }
@@ -3190,10 +3186,6 @@ input[type="password"]:after,
 
   .br5-ns {
     border-radius: 2rem;
-  }
-
-  .br-circ-ns {
-    border-radius: 9999px;
   }
 
   .br-100-ns {
@@ -3226,10 +3218,6 @@ input[type="password"]:after,
     border-radius: 2rem;
   }
 
-  .br-circ-m {
-    border-radius: 9999px;
-  }
-
   .br-100-m {
     border-radius: 100%;
   }
@@ -3258,10 +3246,6 @@ input[type="password"]:after,
 
   .br5-l {
     border-radius: 2rem;
-  }
-
-  .br-circ-l {
-    border-radius: 9999px;
   }
 
   .br-100-l {
