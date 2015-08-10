@@ -5849,10 +5849,6 @@ img {
   position: absolute;
 }
 
-.pos-fix {
-  position: fixed;
-}
-
 @media screen and (min-width: 30em) {
   .pos-stat-ns {
     position: static;
@@ -5864,10 +5860,6 @@ img {
 
   .pos-abs-ns {
     position: absolute;
-  }
-
-  .pos-fix-ns {
-    position: fixed;
   }
 }
 
@@ -5883,10 +5875,6 @@ img {
   .pos-abs-m {
     position: absolute;
   }
-
-  .pos-fix-m {
-    position: fixed;
-  }
 }
 
 @media screen and (min-width: 60em) {
@@ -5900,10 +5888,6 @@ img {
 
   .pos-abs-l {
     position: absolute;
-  }
-
-  .pos-fix-l {
-    position: fixed;
   }
 }
 
