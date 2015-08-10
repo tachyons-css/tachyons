@@ -54,9 +54,9 @@
 @import './_utilities';
 @import './_visibility';
 @import './_white-space';
-@import './_styles';
 @import './_vertical-align';
 @import './_hovers';
+@import './_styles';
 
 
 @import './_debug_children';

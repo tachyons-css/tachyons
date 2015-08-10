@@ -2581,11 +2581,6 @@ input[type="password"]:after,
 /* The extra `.bn` is required to boost the specificity, which is needed
  * sometimes if you are setting the border to 0. */
 
-.bn {
-  border-style: solid;
-  border-width: 0;
-}
-
 .ba {
   border-style: solid;
   border-width: 1px;
@@ -2609,6 +2604,11 @@ input[type="password"]:after,
 .bl {
   border-left-style: solid;
   border-left-width: 1px;
+}
+
+.bn {
+  border-style: solid;
+  border-width: 0;
 }
 
 .bda {
@@ -2637,11 +2637,6 @@ input[type="password"]:after,
 }
 
 @media screen and (min-width: 30em) {
-  .bn-ns {
-    border-style: solid;
-    border-width: 0;
-  }
-
   .ba-ns {
     border-style: solid;
     border-width: 1px;
@@ -2691,14 +2686,14 @@ input[type="password"]:after,
     border-left-style: dotted;
     border-left-width: 1px;
   }
-}
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
-  .bn-m {
+  .bn-ns {
     border-style: solid;
     border-width: 0;
   }
+}
 
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .ba-m {
     border-style: solid;
     border-width: 1px;
@@ -2748,14 +2743,14 @@ input[type="password"]:after,
     border-left-style: dotted;
     border-left-width: 1px;
   }
-}
 
-@media screen and (min-width: 60em) {
-  .bn-l {
+  .bn-m {
     border-style: solid;
     border-width: 0;
   }
+}
 
+@media screen and (min-width: 60em) {
   .ba-l {
     border-style: solid;
     border-width: 1px;
@@ -2804,6 +2799,11 @@ input[type="password"]:after,
   .bdl-l {
     border-left-style: dotted;
     border-left-width: 1px;
+  }
+
+  .bn-l {
+    border-style: solid;
+    border-width: 0;
   }
 }
 
@@ -3381,11 +3381,11 @@ input[type="password"]:after,
 }
 
 .bw4 {
-  border-width: .75rem;
+  border-width: 1rem;
 }
 
 .bw5 {
-  border-width: 1rem;
+  border-width: 2rem;
 }
 
 @media screen and (min-width: 30em) {
@@ -3406,11 +3406,11 @@ input[type="password"]:after,
   }
 
   .bw4-ns {
-    border-width: .75rem;
+    border-width: 1rem;
   }
 
   .bw5-ns {
-    border-width: 1rem;
+    border-width: 2rem;
   }
 }
 
@@ -3432,11 +3432,11 @@ input[type="password"]:after,
   }
 
   .bw4-m {
-    border-width: .75rem;
+    border-width: 1rem;
   }
 
   .bw5-m {
-    border-width: 1rem;
+    border-width: 2rem;
   }
 }
 
@@ -3458,11 +3458,11 @@ input[type="password"]:after,
   }
 
   .bw4-l {
-    border-width: .75rem;
+    border-width: 1rem;
   }
 
   .bw5-l {
-    border-width: 1rem;
+    border-width: 2rem;
   }
 }
 
@@ -10200,14 +10200,6 @@ img {
 
 /*
 
-  STYLES
-
-  Add custom styles here.
-
-*/
-
-/*
-
    VERTICAL ALIGN
 
 */
@@ -10388,6 +10380,14 @@ img {
   opacity: 1;
   transition: opacity .15s ease-in;
 }
+
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
 
 /*
 
