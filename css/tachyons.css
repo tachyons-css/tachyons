@@ -3467,7 +3467,13 @@ input[type="password"]:after,
   font-size: 14px;
 }
 
-/* COORDINATES */
+/*
+
+   COORDINATES
+
+   Use in combination with the position module.
+
+*/
 
 .top-0 {
   top: 0;
@@ -4355,6 +4361,8 @@ code,
   height: 16rem;
 }
 
+/* Height Percentages */
+
 .h-10 {
   height: 10%;
 }
@@ -4967,6 +4975,8 @@ img {
 
 */
 
+/* Max Width Percentages */
+
 .mw-100 {
   max-width: 100%;
 }
@@ -4982,6 +4992,8 @@ img {
 .mw-25 {
   max-width: 25%;
 }
+
+/* Max Width Scale */
 
 .mw1 {
   max-width: 1rem;
@@ -5022,6 +5034,8 @@ img {
 .mw10 {
   max-width: 128rem;
 }
+
+/* Max Width String Properties */
 
 .mw-none {
   max-width: none;
@@ -9989,6 +10003,14 @@ img {
   margin-bottom: 0;
 }
 
+/* Combine this class with a width to truncate text */
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media screen and (min-width: 30em) {
   .measure-ns {
     max-width: 30em;
@@ -9998,6 +10020,12 @@ img {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .truncate-ns {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
@@ -10011,6 +10039,12 @@ img {
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  .truncate-m {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 @media screen and (min-width: 60em) {
@@ -10022,6 +10056,12 @@ img {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .truncate-l {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
@@ -10307,7 +10347,37 @@ img {
 }
 
 /*
+
   HOVER EFFECTS
+
+
+*/
+
+/* 
+  
+  Dim element on hover by adding the dim class.
+
+*/
+
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.dim:hover,
+.dim:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+
+.dim:active {
+  opacity: .8;
+  transition: opacity .15s ease-out;
+}
+
+/*
+
+  Hide child on hover:
 
   Put the hide-child class on a parent element and any nested element with the
   child class will be hidden and displayed on hover or focus.
@@ -10318,24 +10388,7 @@ img {
     <div class="child"> Hidden until hover or focus </div>
     <div class="child"> Hidden until hover or focus </div>
   </div>
-
 */
-
-.dim {
-  opacity: 1;
-  transition: opacity .15s ease-in;
-}
-
-.dim:hover {
-  opacity: .5;
-  transition: opacity .15s ease-in;
-}
-
-.dim:active,
-.dim:focus {
-  opacity: .8;
-  transition: opacity .15s ease-out;
-}
 
 .hide-child .child {
   opacity: 0;
@@ -10360,6 +10413,9 @@ img {
 /*
 
   DEBUG CHILDREN
+
+  Just add the debug class to any element to see outlines on its
+  children.
 
 */
 
