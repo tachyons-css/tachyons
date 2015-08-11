@@ -39,7 +39,8 @@
     "gulp-watch": "^0.6.8",
     "lodash": "^3.10.0",
     "node-sass": "^0.9",
-    "postcss": "^4.1.16"
+    "postcss": "^4.1.16",
+    "s3": "^4.4.0"
   },
   "contributors": [
     {
@@ -61,6 +62,7 @@
   ],
   "scripts": {
     "start": "gulp",
+    "s3": "gulp aws",
     "build": "node home.js"
   }
 }
