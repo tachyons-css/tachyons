@@ -4,10 +4,14 @@
 
 */
 
+/* Max Width Percentages */
+
 .mw-100  { max-width: 100%; }
 .mw-75   { max-width: 75%; }
 .mw-50   { max-width: 50%; }
 .mw-25   { max-width: 25%; }
+
+/* Max Width Scale */
 
 .mw1  {  max-width: 1rem; }
 .mw2  {  max-width: 2rem; }
@@ -19,6 +23,8 @@
 .mw8  {  max-width: 64rem; }
 .mw9  {  max-width: 96rem; }
 .mw10 {  max-width: 128rem; }
+
+/* Max Width String Properties */
 
 .mw-none { max-width: none; }
 .mw-max  { max-width: max-content; }
