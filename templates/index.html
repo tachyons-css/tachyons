@@ -39,7 +39,7 @@
     <main>
       <section class="bg-near-white dt h-100 navy pvxl pvxxl-ns">
           <div class="mw7 center phm phl-ns tl tl-ns">
-            <h1 class="f4 ttu book">Principles</h1>
+            <h1 class="f4 ttu semibold">Principles</h1>
             <section class="f4 f3-ns list pln lh-copy">
               <article class="pvs">
                 <h2 class="f3">Everything should be 100% responsive</h2>
@@ -87,7 +87,7 @@
                 </p>
               </article>
             </section>
-            <h1 class="f4 ttu book mtx">Features</h1>
+            <h1 class="f4 ttu semibold mtx">Features</h1>
             <section class="f4 f3-ns list pln lh-copy">
               <article class="pvs">
                 <h2 class="f3 mvn">
@@ -160,180 +160,315 @@
       </section>
       <section class="bg-white dt h-100 navy pvxl pvxxl-ns" id="npm">
           <div class="mw7 center phm phl-ns tl tl-ns">
-          <h3 class="f4 ttu book"><a href="#npm" class="link black">Tachyons on NPM</a></h3>
-        <p class="f4 lh-copy mbl">
-          Tachyons is also available as a series of modules on npm and github that you can
-          mix and match to suit your project's needs.
+          <h3 class="f4 ttu semibold"><a href="#npm" class="link black">Tachyons on NPM</a></h3>
+        <p class="f4 f3-ns lh-copy mbl measure">
+          Tachyons is just a series of css modules. They are available on npm and github so that you can
+          mix and match to suit your project's needs. Since tachyons module architecture optimizes for gzip compression 
+          most of them are extremely small (well under a kilobyte) so you
+          can start using them without adding bloat to your css.
         </p>
         <code class="db mbl ba b--light-blue bg-lightest-blue small phs pvxs">npm install --save-dev tachyons-module-name</code>
         <div class="mbm">
-          <a class="db f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-background-size">tachyons-background-size </a>
-          <small class="book gray f5">v1.0.0</small>
-          <a class="link dim dark-gray small " href="http://github.com/mrmrs/tachyons-background-size">View on GitHub</a>
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-background-size">tachyons-background-size </a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-background-size">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= backgroundSizeVersion %></span>
+            <span class="dark-gray"><%= backgroundSizeSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-base">tachyons-base</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-base">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-base">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= baseVersion %></span>
+            <span class="dark-gray"><%= baseSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-border-colors">tachyons-border-colors</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-border-colors">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-border-colors">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= borderColorsVersion %></span>
+            <span class="dark-gray"><%= borderColorsSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-border-radius">tachyons-border-radius</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-border-radius">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-border-radius">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= borderRadiusVersion %></span>
+            <span class="dark-gray"><%= borderRadiusSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-border-style">tachyons-border-style</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-border-style">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-border-style">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= borderStyleVersion %></span>
+            <span class="dark-gray"><%= borderStyleSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-border-widths">tachyons-border-widths</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-border-widths">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-border-widths">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= borderWidthsVersion %></span>
+            <span class="dark-gray"><%= borderWidthsSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-borders">tachyons-borders</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-borders">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-borders">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= bordersVersion %></span>
+            <span class="dark-gray"><%= bordersSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-box-sizing">tachyons-box-sizing</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-box-sizing">View on GitHub</a>
-        </div>
-        <div class="mbm">
-          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-buttons">tachyons-buttons</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-buttons">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-box-sizing">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= boxSizingVersion %></span>
+            <span class="dark-gray"><%= boxSizingSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-clears">tachyons-clears</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-clears">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-clears">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= clearsVersion %></span>
+            <span class="dark-gray"><%= clearsSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-colors">tachyons-colors</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-colors">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-colors">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= colorsVersion %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-debug">tachyons-debug</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-debug">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-debug">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= debugVersion %></span>
+            <span class="dark-gray"><%= debugSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-display">tachyons-display</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-display">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-display">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= displayVersion %></span>
+            <span class="dark-gray"><%= displaySize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-floats">tachyons-floats</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-floats">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-floats">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= floatsVersion %></span>
+            <span class="dark-gray"><%= floatsSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-font-family">tachyons-font-family</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-font-family">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-font-family">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= fontFamilyVersion %></span>
+            <span class="dark-gray"><%= fontFamilySize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-font-style">tachyons-font-style</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-font-style">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-font-style">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= fontStyleVersion %></span>
+            <span class="dark-gray"><%= fontStyleSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-font-weight">tachyons-font-weight</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-font-weight">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-font-weight">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= fontWeightVersion %></span>
+            <span class="dark-gray"><%= fontWeightSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-forms">tachyons-forms</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-forms">View on GitHub</a>
-        </div>
-        <div class="mbm">
-          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-grid">tachyons-grid</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-grid">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-forms">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= formsVersion %></span>
+            <span class="dark-gray"><%= formsSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-heights">tachyons-heights</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-heights">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-heights">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= heightsVersion %></span>
+            <span class="dark-gray"><%= heightsSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-images">tachyons-images</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-images">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-images">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= imagesVersion %></span>
+            <span class="dark-gray"><%= imagesSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-letter-spacing">tachyons-letter-spacing</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-letter-spacing">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-letter-spacing">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= letterSpacingVersion %></span>
+            <span class="dark-gray"><%= letterSpacingSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-line-height">tachyons-line-height</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-line-height">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-line-height">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= lineHeightVersion %></span>
+            <span class="dark-gray"><%= lineHeightSize %></span>
+          </div>
         </div>
         <div class="mbm">
-          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-link dim dark-grays">tachyons-link dim dark-grays</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-link dim dark-grays">View on GitHub</a>
+          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-links">tachyons-links</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-links">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= linksVersion %></span>
+            <span class="dark-gray"><%= linksSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-lists">tachyons-lists</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-lists">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-lists">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= listsVersion %></span>
+            <span class="dark-gray"><%= listsSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-max-widths">tachyons-max-widths</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-max-widths">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-max-widths">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= maxWidthsVersion %></span>
+            <span class="dark-gray"><%= maxWidthsSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-overflow">tachyons-overflow</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-overflow">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-overflow">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= overflowVersion %></span>
+            <span class="dark-gray"><%= overflowSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-position">tachyons-position</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-position">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-position">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= positionVersion %></span>
+            <span class="dark-gray"><%= positionSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-queries">tachyons-queries</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-queries">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-queries">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= queriesVersion %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-skins">tachyons-skins</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-skins">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-skins">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= skinsVersion %></span>
+            <span class="dark-gray"><%= skinsSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-spacing">tachyons-spacing</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-spacing">View on GitHub</a>
-        </div>
-        <div class="mbm">
-          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-styles">tachyons-styles</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-styles">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-spacing">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= spacingVersion %></span>
+            <span class="dark-gray"><%= spacingSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-text-align">tachyons-text-align</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-text-align">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-text-align">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= textAlignVersion %></span>
+            <span class="dark-gray"><%= textAlignSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-text-decoration">tachyons-text-decoration</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-text-decoration">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-text-decoration">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= textDecorationVersion %></span>
+            <span class="dark-gray"><%= textDecorationSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-text-transform">tachyons-text-transform</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-text-transform">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-text-transform">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= textTransformVersion %></span>
+            <span class="dark-gray"><%= textTransformSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-type-scale">tachyons-type-scale</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-type-scale">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-type-scale">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= typeScaleVersion %></span>
+            <span class="dark-gray"><%= typeScaleSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-utilities">tachyons-utilities</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-utilities">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-utilities">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= utilitiesVersion %></span>
+            <span class="dark-gray"><%= utilitiesSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-vertical-align">tachyons-vertical-align</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-vertical-align">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-vertical-align">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= verticalAlignVersion %></span>
+            <span class="dark-gray"><%= verticalAlignSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-visibility">tachyons-visibility</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-visibility">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-visibility">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= visibilityVersion %></span>
+            <span class="dark-gray"><%= visibilitySize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-white-space">tachyons-white-space</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-white-space">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-white-space">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= whiteSpaceVersion %></span>
+            <span class="dark-gray"><%= whiteSpaceSize %></span>
+          </div>
         </div>
         <div class="mbm">
           <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-widths">tachyons-widths</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-widths">View on GitHub</a>
-        </div>
-        <div class="mbm">
-          <a class="f3 link dim dark-gray b" href="http://npmjs.com/package/tachyons-word-spacing">tachyons-word-spacing</a>
-          <a class="link dim dark-gray small db" href="http://github.com/mrmrs/tachyons-word-spacing">View on GitHub</a>
+          <a class="link dim dark-gray small" href="http://github.com/mrmrs/tachyons-widths">View on GitHub</a>
+          <div>
+            <span class="dark-gray semibold prs">v<%= widthsVersion %></span>
+            <span class="dark-gray"><%= widthsSize %></span>
+          </div>
         </div>
       </section>
     </main>
