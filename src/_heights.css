@@ -29,12 +29,6 @@
 
 /* String Properties */
 
-.h-bb { height: border-box; }
-.h-cb { height: content-box; }
-.h-mx { height: max-content; }
-.h-mn { height: min-content; }
-.h-av { height: available; }
-.h-fc { height: fit-content; }
 .h-at { height: auto; }
 .h-i {  height: inherit; }
 
@@ -56,12 +50,6 @@
   .h-80-ns  { height: 80%; }
   .h-90-ns  { height: 90%; }
   .h-100-ns { height: 100%; }
-  .h-bb-ns { height: border-box; }
-  .h-cb-ns { height: content-box; }
-  .h-mx-ns { height: max-content; }
-  .h-mn-ns { height: min-content; }
-  .h-av-ns { height: available; }
-  .h-fc-ns { height: fit-content; }
   .h-at-ns { height: auto; }
   .h-i-ns {  height: inherit; }
 }
@@ -84,12 +72,6 @@
   .h-80-m  { height: 80%; }
   .h-90-m  { height: 90%; }
   .h-100-m { height: 100%; }
-  .h-bb-m {    height: border-box; }
-  .h-cb-m {    height: content-box; }
-  .h-mx-m {    height: max-content; }
-  .h-mn-m {    height: min-content; }
-  .h-av-m {    height: available; }
-  .h-fc-m {    height: fit-content; }
   .h-at-m {    height: auto; }
   .h-i-m {     height: inherit; }
 }
@@ -112,12 +94,6 @@
   .h-80-l  { height: 80%; }
   .h-90-l  { height: 90%; }
   .h-100-l { height: 100%; }
-  .h-bb-l {    height: border-box; }
-  .h-cb-l {    height: content-box; }
-  .h-mx-l {    height: max-content; }
-  .h-mn-l {    height: min-content; }
-  .h-av-l {    height: available; }
-  .h-fc-l {    height: fit-content; }
   .h-at-l {    height: auto; }
   .h-i-l {     height: inherit; }
 }
