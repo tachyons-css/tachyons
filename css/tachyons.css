@@ -3743,22 +3743,6 @@ input[type="password"]:after,
 
 */
 
-.cn {
-  clear: none;
-}
-
-.cl {
-  clear: left;
-}
-
-.cr {
-  clear: right;
-}
-
-.cb {
-  clear: both;
-}
-
 /* Nicolas Gallaghers Clearfix solution
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 
@@ -4413,36 +4397,6 @@ code,
 
 /* String Properties */
 
-.h-bb {
-  height: border-box;
-}
-
-.h-cb {
-  height: content-box;
-}
-
-.h-mx {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
-.h-mn {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-}
-
-.h-av {
-  height: available;
-}
-
-.h-fc {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
 .h-at {
   height: auto;
 }
@@ -4518,36 +4472,6 @@ code,
 
   .h-100-ns {
     height: 100%;
-  }
-
-  .h-bb-ns {
-    height: border-box;
-  }
-
-  .h-cb-ns {
-    height: content-box;
-  }
-
-  .h-mx-ns {
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-  }
-
-  .h-mn-ns {
-    height: -webkit-min-content;
-    height: -moz-min-content;
-    height: min-content;
-  }
-
-  .h-av-ns {
-    height: available;
-  }
-
-  .h-fc-ns {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
   }
 
   .h-at-ns {
@@ -4628,36 +4552,6 @@ code,
     height: 100%;
   }
 
-  .h-bb-m {
-    height: border-box;
-  }
-
-  .h-cb-m {
-    height: content-box;
-  }
-
-  .h-mx-m {
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-  }
-
-  .h-mn-m {
-    height: -webkit-min-content;
-    height: -moz-min-content;
-    height: min-content;
-  }
-
-  .h-av-m {
-    height: available;
-  }
-
-  .h-fc-m {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
   .h-at-m {
     height: auto;
   }
@@ -4734,36 +4628,6 @@ code,
 
   .h-100-l {
     height: 100%;
-  }
-
-  .h-bb-l {
-    height: border-box;
-  }
-
-  .h-cb-l {
-    height: content-box;
-  }
-
-  .h-mx-l {
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-  }
-
-  .h-mn-l {
-    height: -webkit-min-content;
-    height: -moz-min-content;
-    height: min-content;
-  }
-
-  .h-av-l {
-    height: available;
-  }
-
-  .h-fc-l {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
   }
 
   .h-at-l {
@@ -5041,30 +4905,6 @@ img {
   max-width: none;
 }
 
-.mw-max {
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
-.mw-min {
-  max-width: -webkit-min-content;
-  max-width: -moz-min-content;
-  max-width: min-content;
-}
-
-.mw-fit {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.mw-fill {
-  max-width: -webkit-fill-available;
-  max-width: -moz-available;
-  max-width: fill-available;
-}
-
 @media screen and (min-width: 30em) {
   .mw-100-ns {
     max-width: 100%;
@@ -5124,30 +4964,6 @@ img {
 
   .mw-none-ns {
     max-width: none;
-  }
-
-  .mw-max-ns {
-    max-width: -webkit-max-content;
-    max-width: -moz-max-content;
-    max-width: max-content;
-  }
-
-  .mw-min-ns {
-    max-width: -webkit-min-content;
-    max-width: -moz-min-content;
-    max-width: min-content;
-  }
-
-  .mw-fit-ns {
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-  }
-
-  .mw-fill-ns {
-    max-width: -webkit-fill-available;
-    max-width: -moz-available;
-    max-width: fill-available;
   }
 }
 
@@ -5211,30 +5027,6 @@ img {
   .mw-none-m {
     max-width: none;
   }
-
-  .mw-max-m {
-    max-width: -webkit-max-content;
-    max-width: -moz-max-content;
-    max-width: max-content;
-  }
-
-  .mw-min-m {
-    max-width: -webkit-min-content;
-    max-width: -moz-min-content;
-    max-width: min-content;
-  }
-
-  .mw-fit-m {
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-  }
-
-  .mw-fill-m {
-    max-width: -webkit-fill-available;
-    max-width: -moz-available;
-    max-width: fill-available;
-  }
 }
 
 @media screen and (min-width: 60em) {
@@ -5296,30 +5088,6 @@ img {
 
   .mw-none-l {
     max-width: none;
-  }
-
-  .mw-max-l {
-    max-width: -webkit-max-content;
-    max-width: -moz-max-content;
-    max-width: max-content;
-  }
-
-  .mw-min-l {
-    max-width: -webkit-min-content;
-    max-width: -moz-min-content;
-    max-width: min-content;
-  }
-
-  .mw-fit-l {
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-  }
-
-  .mw-fill-l {
-    max-width: -webkit-fill-available;
-    max-width: -moz-available;
-    max-width: fill-available;
   }
 }
 
