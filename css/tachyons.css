@@ -4345,6 +4345,10 @@ code,
   height: 16rem;
 }
 
+.h6 {
+  height: 32rem;
+}
+
 /* Height Percentages */
 
 .h-10 {
@@ -4406,24 +4410,28 @@ code,
 }
 
 @media screen and (min-width: 30em) {
-  .h-1-ns {
+  .h1-ns {
     height: 1rem;
   }
 
-  .h-2-ns {
+  .h2-ns {
     height: 2rem;
   }
 
-  .h-3-ns {
+  .h3-ns {
     height: 4rem;
   }
 
-  .h-4-ns {
+  .h4-ns {
     height: 8rem;
   }
 
-  .h-5-ns {
+  .h5-ns {
     height: 16rem;
+  }
+
+  .h6-ns {
+    height: 32rem;
   }
 
   .h-10-ns {
@@ -4504,6 +4512,10 @@ code,
     height: 16rem;
   }
 
+  .h6-m {
+    height: 32rem;
+  }
+
   .h-10-m {
     height: 10%;
   }
@@ -4580,6 +4592,10 @@ code,
 
   .h5-l {
     height: 16rem;
+  }
+
+  .h6-l {
+    height: 32rem;
   }
 
   .h-10-l {
@@ -10177,6 +10193,29 @@ img {
   Add custom styles here.
 
 */
+
+/*
+
+   GRADIENTS
+
+
+*/
+
+.gradient-blue {
+  background-image: linear-gradient(#4570B0, #0081C2);
+}
+
+.gradient-blue-reversed {
+  background-image: linear-gradient(#0081C2, #4570B0);
+}
+
+.gradient-light-blue {
+  background-image: linear-gradient(#76D3FE, #008AE0);
+}
+
+.gradient-light-blue-reversed {
+  background-image: linear-gradient(#008AE0, #76D3FE);
+}
 
 /*
 
