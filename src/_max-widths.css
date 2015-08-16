@@ -27,10 +27,6 @@
 /* Max Width String Properties */
 
 .mw-none { max-width: none; }
-.mw-max  { max-width: max-content; }
-.mw-min  { max-width: min-content; }
-.mw-fit  { max-width: fit-content; }
-.mw-fill { max-width: fill-available; }
 
 @media (--breakpoint-not-small) {
   .mw-100-ns  { max-width: 100%; }
@@ -50,10 +46,6 @@
   .mw10-ns {  max-width: 128rem; }
 
   .mw-none-ns { max-width: none; }
-  .mw-max-ns  { max-width: max-content; }
-  .mw-min-ns  { max-width: min-content; }
-  .mw-fit-ns  { max-width: fit-content; }
-  .mw-fill-ns { max-width: fill-available; }
 }
 
 @media (--breakpoint-medium) {
@@ -74,10 +66,6 @@
   .mw10-m {  max-width: 128rem; }
 
   .mw-none-m { max-width: none; }
-  .mw-max-m  { max-width: max-content; }
-  .mw-min-m  { max-width: min-content; }
-  .mw-fit-m  { max-width: fit-content; }
-  .mw-fill-m { max-width: fill-available; }
 }
 
 @media (--breakpoint-large) {
@@ -98,8 +86,4 @@
   .mw10-l {  max-width: 128rem; }
 
   .mw-none-l { max-width: none; }
-  .mw-max-l  { max-width: max-content; }
-  .mw-min-l  { max-width: min-content; }
-  .mw-fit-l  { max-width: fit-content; }
-  .mw-fill-l { max-width: fill-available; }
 }
