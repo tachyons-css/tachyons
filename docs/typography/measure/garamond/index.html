@@ -22,6 +22,34 @@
         <h4 class="f4 mvn semibold dib"><a class="lightest-blue link dim" href="#">Measure</a></h4>
         <span class="thin white-40">/</span>
         <h5 class="f4 mvn semibold dib">Garamond</h5>
+        <div class="mtl">
+          <dl class="white-60 prm light dib mrm">
+            <dt class="db">Version</dt> 
+            <dd class="f2 f1-ns b db pln mln">1.0.0</dd>
+          </dl>
+          <dl class="white-60 light dib mrm">
+            <dt class="db">Filesize</dt> 
+            <dd class="f2 f1-ns b db pln mln">204 B</dd>
+          </dl>
+          <div class="cf">
+            <dl class="white-60 dib mrm mtn">
+              <dt class="db">Declarations </dt>
+              <dd class="db pln mln f2 f1-ns b">28</span></dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Selectors </dt>
+              <dd class="db pln mln f2 f1-ns b">12</dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Max. Specificity Score </dt>
+              <dd class="db pln mln f2 f1-ns b">10</dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Size of Avg. Rule </dt>
+              <dd class="db pln mln f2 f1-ns b">2.3333333333333335</dd>
+            </dl>
+          </div>
+        </div>
       </div>
       <div class="phm phl-ns pvm">
         <p class="measure f3 lh-copy">
@@ -121,6 +149,14 @@
   margin-bottom: 0;
 }
 
+/* Combine this class with a width to truncate text */
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media (--breakpoint-not-small){
   .measure-ns  {
     max-width: 30em;
@@ -129,6 +165,11 @@
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .truncate-ns {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
@@ -139,6 +180,11 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .truncate-m {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 @media (--breakpoint-large) {
@@ -148,7 +194,13 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .truncate-l {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
+
 </code>
 </pre>
       </section>
