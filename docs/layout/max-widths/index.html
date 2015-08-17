@@ -20,6 +20,34 @@
         <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#layout">Layout</a></h3>
         <span class="thin white-40">/</span>
         <h4 class="f4 mvn semibold dib">Max Widths</h4>
+        <div class="mtl">
+          <dl class="white-60 prm light dib mrm">
+            <dt class="db">Version</dt> 
+            <dd class="f2 f1-ns b db pln mln">2.0.0</dd>
+          </dl>
+          <dl class="white-60 light dib mrm">
+            <dt class="db">Filesize</dt> 
+            <dd class="f2 f1-ns b db pln mln">307 B</dd>
+          </dl>
+          <div class="cf">
+            <dl class="white-60 dib mrm mtn">
+              <dt class="db">Declarations </dt>
+              <dd class="db pln mln f2 f1-ns b">60</span></dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Selectors </dt>
+              <dd class="db pln mln f2 f1-ns b">60</dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Max. Specificity Score </dt>
+              <dd class="db pln mln f2 f1-ns b">10</dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Size of Avg. Rule </dt>
+              <dd class="db pln mln f2 f1-ns b">1</dd>
+            </dl>
+          </div>
+        </div>
       </div>
       <div class="phm phl-ns pvm">
         <p class="measure f3 lh-copy">
@@ -164,10 +192,14 @@ Lorem
 
 */
 
+/* Max Width Percentages */
+
 .mw-100  { max-width: 100%; }
 .mw-75   { max-width: 75%; }
 .mw-50   { max-width: 50%; }
 .mw-25   { max-width: 25%; }
+
+/* Max Width Scale */
 
 .mw1  {  max-width: 1rem; }
 .mw2  {  max-width: 2rem; }
@@ -180,11 +212,9 @@ Lorem
 .mw9  {  max-width: 96rem; }
 .mw10 {  max-width: 128rem; }
 
+/* Max Width String Properties */
+
 .mw-none { max-width: none; }
-.mw-max  { max-width: max-content; }
-.mw-min  { max-width: min-content; }
-.mw-fit  { max-width: fit-content; }
-.mw-fill { max-width: fill-available; }
 
 @media (--breakpoint-not-small) {
   .mw-100-ns  { max-width: 100%; }
@@ -204,10 +234,6 @@ Lorem
   .mw10-ns {  max-width: 128rem; }
 
   .mw-none-ns { max-width: none; }
-  .mw-max-ns  { max-width: max-content; }
-  .mw-min-ns  { max-width: min-content; }
-  .mw-fit-ns  { max-width: fit-content; }
-  .mw-fill-ns { max-width: fill-available; }
 }
 
 @media (--breakpoint-medium) {
@@ -228,10 +254,6 @@ Lorem
   .mw10-m {  max-width: 128rem; }
 
   .mw-none-m { max-width: none; }
-  .mw-max-m  { max-width: max-content; }
-  .mw-min-m  { max-width: min-content; }
-  .mw-fit-m  { max-width: fit-content; }
-  .mw-fill-m { max-width: fill-available; }
 }
 
 @media (--breakpoint-large) {
@@ -252,11 +274,8 @@ Lorem
   .mw10-l {  max-width: 128rem; }
 
   .mw-none-l { max-width: none; }
-  .mw-max-l  { max-width: max-content; }
-  .mw-min-l  { max-width: min-content; }
-  .mw-fit-l  { max-width: fit-content; }
-  .mw-fill-l { max-width: fill-available; }
 }
+
 </code>
 </pre>
       </section>
