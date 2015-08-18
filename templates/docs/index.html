@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      Line Height / Docs / TACHYONS
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+  </head>
+  <body class="w-100 sans-serif">
+    <header class="bg-dark-gray white pbl">
+      <div class="bb b--mid-gray phm phl-ns pvl">
+        <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
+        <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
+        <span class="thin white-40">/</span>
+        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#typography">Typography</a></h3>
+        <span class="thin white-40">/</span>
+        <h4 class="f4 mvn semibold dib">Line Height &amp; Leading</h4>
+      </div>
+      <div class="phm phl-ns pvm">
+        <p class="measure f3 lh-copy">
+          <b class="bold">line-height</b> is a css property<br><br>
+          <b class="bold">lead</b> <i>[rhyming with red]:</i> <br>
+           Originally a strip of soft metal used
+           for vertical spacing between lines of type. Now meaning the
+           vertical distance from the baseline of one line to the baseline of the next. Also
+           called <b class="bold">leading</b>.
+        </p>
+        <p class="measure f4 lh-copy">
+        </p>
+      </div>
+    </header>
+    <main class="">
+<div class="phm phl-ns ptl pbxl">
+  <h2 class="f3 bold">Examples</h2>
+  <h3 class="f5 book ptxl ttu">No applied line-height (default)</h3>
+  <p class="measure">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+    no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </p>
+  <h3 class="f5 book ptxl ttu">Prose Leading (1.6)</h3>
+  <p class="measure lh-copy">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+    no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </p>
+  <h3 class="f5 book ptxl ttu">No Applied Title Leading (Default)</h3>
+  <p class="measure ttu mega semibold mtn">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  </p>
+  <h3 class="f5 book ptxl ttu">Title Leading (1.3)</h3>
+  <p class="measure lh-title ttu mega semibold mtn">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  </p>
+  <h3 class="f5 book ptxl ttu">Solid Leading (1)</h3>
+  <p class="measure lh-solid ttu mega semibold mtn">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  </p>
+</div>
+      <section class="bg-dark-gray white ptl pbxl">
+<header class="phm phl-ns ptl">
+        <kbd class="yellow">src/_line-height.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+/*
+
+   LINE HEIGHT / LEADING
+
+*/
+
+.lh-solid       { line-height: 1; }
+.lh-title { line-height: 1.3; }
+.lh-copy  { line-height: 1.6; }
+
+@media (--breakpoint-not-small) {
+  .lh-solid-ns       { line-height: 1; }
+  .lh-title-ns { line-height: 1.3; }
+  .lh-copy-ns  { line-height: 1.6; }
+}
+
+@media (--breakpoint-medium) {
+  .lh-solid-m       { line-height: 1; }
+  .lh-title-m { line-height: 1.3; }
+  .lh-copy-m  { line-height: 1.6; }
+}
+
+@media (--breakpoint-large) {
+  .lh-solid-l       { line-height: 1; }
+  .lh-title-l { line-height: 1.3; }
+  .lh-copy-l  { line-height: 1.6; }
+}
+</code>
+</pre>
+      </section>
+    </main>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
