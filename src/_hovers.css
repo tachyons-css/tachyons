@@ -13,7 +13,7 @@
 
 */
 
-.dim { opacity: 1; transition: opacity .15s ease-in; }
+.dim { opacity: 1; transition: opacity .15s ease-in; will-change: opacity; }
 .dim:hover { opacity: .5; transition: opacity .15s ease-in; }
 .dim:active,
 .dim:focus { opacity: .8; transition: opacity .15s ease-out; }
@@ -21,6 +21,7 @@
 .hide-child .child {
   opacity: 0;
   transition: opacity .15s ease-in;
+  will-change: opacity; 
 }
 
 .hide-child:hover  .child,
@@ -29,4 +30,3 @@
   opacity: 1;
   transition: opacity .15s ease-in;
 }
-

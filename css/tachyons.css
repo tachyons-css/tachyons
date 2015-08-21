@@ -10364,6 +10364,7 @@ img {
 .dim {
   opacity: 1;
   transition: opacity .15s ease-in;
+  will-change: opacity;
 }
 
 .dim:hover {
@@ -10380,6 +10381,7 @@ img {
 .hide-child .child {
   opacity: 0;
   transition: opacity .15s ease-in;
+  will-change: opacity;
 }
 
 .hide-child:hover  .child,
