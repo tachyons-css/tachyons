@@ -6,7 +6,10 @@
 
 .input-text {
   outline: 0;
-  border: 1px solid var(--silver);
+}
+.input-text:focus,
+.input-text:hover {
+  outline: 0;
 }
 
 .input-invisible {
