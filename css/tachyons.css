@@ -2636,6 +2636,16 @@ input[type="password"]:after,
   border-left-width: 1px;
 }
 
+.bhn {
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+.bvn {
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
 @media screen and (min-width: 30em) {
   .ba-ns {
     border-style: solid;
@@ -2690,6 +2700,11 @@ input[type="password"]:after,
   .bn-ns {
     border-style: solid;
     border-width: 0;
+  }
+
+  .bhn-ns {
+    border-right-width: 0;
+    border-left-width: 0;
   }
 }
 
@@ -4309,7 +4324,11 @@ code,
 
 .input-text {
   outline: 0;
-  border: 1px solid #999;
+}
+
+.input-text:focus,
+.input-text:hover {
+  outline: 0;
 }
 
 .input-invisible {
@@ -5785,43 +5804,267 @@ img {
   background-color: rgba(0, 0, 0, .05);
 }
 
-.white-100 {
+.bg-black-025 {
+  background-color: rgba(0, 0, 0, .025);
+}
+
+.bg-black-100-focus:hover,
+.bg-black-100-focus:focus {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.bg-black-90-focus:hover,
+.bg-black-90-focus:focus {
+  background-color: rgba(0, 0, 0, .9);
+}
+
+.bg-black-80-focus:hover,
+.bg-black-80-focus:focus {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.bg-black-70-focus:hover,
+.bg-black-70-focus:focus {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.bg-black-60-focus:hover,
+.bg-black-60-focus:focus {
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.bg-black-50-focus:hover,
+.bg-black-50-focus:focus {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.bg-black-40-focus:hover,
+.bg-black-40-focus:focus {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.bg-black-30-focus:hover,
+.bg-black-30-focus:focus {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.bg-black-20-focus:hover,
+.bg-black-20-focus:focus {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.bg-black-10-focus:hover,
+.bg-black-10-focus:focus {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.bg-black-05-focus:hover,
+.bg-black-05-focus:focus {
+  background-color: rgba(0, 0, 0, .05);
+}
+
+.bg-black-025-focus:hover,
+.bg-black-025-focus:focus {
+  background-color: rgba(0, 0, 0, .025);
+}
+
+.white-100,
+.white-100::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 1);
 }
 
-.white-90 {
+.white-100,
+.white-100::-moz-placeholder {
+  color: rgba(255, 255, 255, 1);
+}
+
+.white-100,
+.white-100:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 1);
+}
+
+.white-100,
+.white-100::placeholder {
+  color: rgba(255, 255, 255, 1);
+}
+
+.white-90,
+.white-90::-webkit-input-placeholder {
   color: rgba(255, 255, 255, .9);
 }
 
-.white-80 {
+.white-90,
+.white-90::-moz-placeholder {
+  color: rgba(255, 255, 255, .9);
+}
+
+.white-90,
+.white-90:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .9);
+}
+
+.white-90,
+.white-90::placeholder {
+  color: rgba(255, 255, 255, .9);
+}
+
+.white-80,
+.white-80::-webkit-input-placeholder {
   color: rgba(255, 255, 255, .8);
 }
 
-.white-70 {
+.white-80,
+.white-80::-moz-placeholder {
+  color: rgba(255, 255, 255, .8);
+}
+
+.white-80,
+.white-80:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .8);
+}
+
+.white-80,
+.white-80::placeholder {
+  color: rgba(255, 255, 255, .8);
+}
+
+.white-70,
+.white-70::-webkit-input-placeholder {
   color: rgba(255, 255, 255, .7);
 }
 
-.white-60 {
+.white-70,
+.white-70::-moz-placeholder {
+  color: rgba(255, 255, 255, .7);
+}
+
+.white-70,
+.white-70:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .7);
+}
+
+.white-70,
+.white-70::placeholder {
+  color: rgba(255, 255, 255, .7);
+}
+
+.white-60,
+.white-60::-webkit-input-placeholder {
   color: rgba(255, 255, 255, .6);
 }
 
-.white-50 {
+.white-60,
+.white-60::-moz-placeholder {
+  color: rgba(255, 255, 255, .6);
+}
+
+.white-60,
+.white-60:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .6);
+}
+
+.white-60,
+.white-60::placeholder {
+  color: rgba(255, 255, 255, .6);
+}
+
+.white-50,
+.white-50::-webkit-input-placeholder {
   color: rgba(255, 255, 255, .5);
 }
 
-.white-40 {
+.white-50,
+.white-50::-moz-placeholder {
+  color: rgba(255, 255, 255, .5);
+}
+
+.white-50,
+.white-50:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .5);
+}
+
+.white-50,
+.white-50::placeholder {
+  color: rgba(255, 255, 255, .5);
+}
+
+.white-40,
+.white-40::-webkit-input-placeholder {
   color: rgba(255, 255, 255, .4);
 }
 
-.white-30 {
+.white-40,
+.white-40::-moz-placeholder {
+  color: rgba(255, 255, 255, .4);
+}
+
+.white-40,
+.white-40:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .4);
+}
+
+.white-40,
+.white-40::placeholder {
+  color: rgba(255, 255, 255, .4);
+}
+
+.white-30,
+.white-30::-webkit-input-placeholder {
   color: rgba(255, 255, 255, .3);
 }
 
-.white-20 {
+.white-30,
+.white-30::-moz-placeholder {
+  color: rgba(255, 255, 255, .3);
+}
+
+.white-30,
+.white-30:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .3);
+}
+
+.white-30,
+.white-30::placeholder {
+  color: rgba(255, 255, 255, .3);
+}
+
+.white-20,
+.white-20::-webkit-input-placeholder {
   color: rgba(255, 255, 255, .2);
 }
 
-.white-10 {
+.white-20,
+.white-20::-moz-placeholder {
+  color: rgba(255, 255, 255, .2);
+}
+
+.white-20,
+.white-20:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .2);
+}
+
+.white-20,
+.white-20::placeholder {
+  color: rgba(255, 255, 255, .2);
+}
+
+.white-10,
+.white-10::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, .1);
+}
+
+.white-10,
+.white-10::-moz-placeholder {
+  color: rgba(255, 255, 255, .1);
+}
+
+.white-10,
+.white-10:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .1);
+}
+
+.white-10,
+.white-10::placeholder {
   color: rgba(255, 255, 255, .1);
 }
 
@@ -5862,6 +6105,64 @@ img {
 }
 
 .bg-white-10 {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.bg-white-05 {
+  background-color: rgba(255, 255, 255, .05);
+}
+
+.bg-white-025 {
+  background-color: rgba(255, 255, 255, .025);
+}
+
+.bg-white-100-focus:hover,
+.bg-white-100-focus:focus {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.bg-white-90-focus:hover,
+.bg-white-90-focus:focus {
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.bg-white-80-focus:hover,
+.bg-white-80-focus:focus {
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.bg-white-70-focus:hover,
+.bg-white-70-focus:focus {
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.bg-white-60-focus:hover,
+.bg-white-60-focus:focus {
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.bg-white-50-focus:hover,
+.bg-white-50-focus:focus {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.bg-white-40-focus:hover,
+.bg-white-40-focus:focus {
+  background-color: rgba(255, 255, 255, .4);
+}
+
+.bg-white-30-focus:hover,
+.bg-white-30-focus:focus {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.bg-white-20-focus:hover,
+.bg-white-20-focus:focus {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.bg-white-10-focus:hover,
+.bg-white-10-focus:focus {
   background-color: rgba(255, 255, 255, .1);
 }
 
