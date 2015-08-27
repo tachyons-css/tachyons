@@ -37,6 +37,9 @@
 .b--white-80 {   border-color: hsla(0, 0, 100%, .8); }
 .b--white-90 {   border-color: hsla(0, 0, 100%, .9); }
 
+.b--black-0125 {   border-color: hsla(0, 0, 0,  .0125); }
+.b--black-025 {   border-color: hsla(0, 0, 0,   .025); }
+.b--black-05 {   border-color: hsla(0, 0, 0,    .05); }
 .b--black-10 {   border-color: hsla(0, 0, 0,    .1); }
 .b--black-20 {   border-color: hsla(0, 0, 0,    .2); }
 .b--black-25 {   border-color: hsla(0, 0, 0,    .25); }
