@@ -33,6 +33,7 @@
 .bg-black-10 {         background-color: var(--black-10); }
 .bg-black-05 {         background-color: var(--black-05); }
 .bg-black-025 {         background-color: var(--black-025); }
+.bg-black-0125 {         background-color: var(--black-0125); }
 
 .bg-black-100-focus:hover,
 .bg-black-100-focus:focus {        background-color: var(--black-100); }
