@@ -2922,6 +2922,18 @@ input[type="password"]:after,
   border-color: hsla(0, 0, 100%, .9);
 }
 
+.b--black-0125 {
+  border-color: hsla(0, 0, 0,  .0125);
+}
+
+.b--black-025 {
+  border-color: hsla(0, 0, 0,   .025);
+}
+
+.b--black-05 {
+  border-color: hsla(0, 0, 0,    .05);
+}
+
 .b--black-10 {
   border-color: hsla(0, 0, 0,    .1);
 }
@@ -4324,6 +4336,9 @@ code,
 
 .input-text {
   outline: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .input-text:focus,
@@ -5806,6 +5821,10 @@ img {
 
 .bg-black-025 {
   background-color: rgba(0, 0, 0, .025);
+}
+
+.bg-black-0125 {
+  background-color: rgba(0, 0, 0, .0125);
 }
 
 .bg-black-100-focus:hover,
@@ -10182,6 +10201,44 @@ img {
   margin-left: auto;
 }
 
+.square-25 {
+  padding-top: 25%;
+}
+
+.square-50 {
+  padding-top: 50%;
+}
+
+@media screen and (min-width: 30em) {
+  .square-25-ns {
+    padding-top: 25%;
+  }
+
+  .square-50-ns {
+    padding-top: 50%;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .square-25-m {
+    padding-top: 25%;
+  }
+
+  .square-50-m {
+    padding-top: 50%;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .square-25-l {
+    padding-top: 25%;
+  }
+
+  .square-50-l {
+    padding-top: 50%;
+  }
+}
+
 /*
 
    VISIBILITY
@@ -10438,8 +10495,8 @@ img {
 
 */
 
-/* 
-  
+/*
+
   Dim element on hover by adding the dim class.
 
 */
@@ -10478,6 +10535,10 @@ img {
 .hide-child .child {
   opacity: 0;
   transition: opacity .15s ease-in;
+}
+
+.hide-child:hover  .child {
+  cursor: pointer;
 }
 
 .hide-child:hover  .child,
