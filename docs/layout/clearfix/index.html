@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>
-      Floats / Layout / Docs / TACHYONS
+      Clearfix / Layout / Docs / TACHYONS
     </title>
     <meta name="author" content="@mrmrs">
     <meta name="description" content="CSS">
@@ -19,7 +19,7 @@
         <span class="thin white-40">/</span>
         <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#layout">Layout</a></h3>
         <span class="thin white-40">/</span>
-        <h4 class="f4 mvn semibold dib">Floats</h4>
+        <h4 class="f4 mvn semibold dib">Clearfix</h4>
         <div class="mtl">
           <dl class="white-60 prm light dib mrm">
             <dt class="db">Version</dt>
@@ -27,131 +27,90 @@
           </dl>
           <dl class="white-60 light dib mrm">
             <dt class="db">Filesize</dt>
-            <dd class="f2 f1-ns b db pln mln">162 B</dd>
+            <dd class="f2 f1-ns b db pln mln">87 B</dd>
           </dl>
           <div class="cf">
             <dl class="white-60 dib mrm mtn">
               <dt class="db">Declarations </dt>
-              <dd class="db pln mln f2 f1-ns b">20</span></dd>
+              <dd class="db pln mln f2 f1-ns b">4</span></dd>
             </dl>
             <dl class="white-60 dib mrm">
               <dt class="db prs">Selectors </dt>
-              <dd class="db pln mln f2 f1-ns b">12</dd>
+              <dd class="db pln mln f2 f1-ns b">4</dd>
             </dl>
             <dl class="white-60 dib mrm">
               <dt class="db prs">Max. Specificity Score </dt>
-              <dd class="db pln mln f2 f1-ns b">10</dd>
+              <dd class="db pln mln f2 f1-ns b">11</dd>
             </dl>
             <dl class="white-60 dib mrm">
               <dt class="db prs">Size of Avg. Rule </dt>
-              <dd class="db pln mln f2 f1-ns b">1.6666666666666667</dd>
+              <dd class="db pln mln f2 f1-ns b">1.3333333333333333</dd>
             </dl>
           </div>
         </div>
       </div>
       <div class="phm phl-ns pvm">
         <p class="measure f3 lh-copy">
-          There are only three values that can be declared for floats.
-          These three base classes are very easy to memorize and use as often as you want.
-        </p>
-        <p class="measure f4 lh-copy">
-
+          When floats are used for layouts - they need a clearfix solution. This helps prevent
+          layout problems caused by the elements being removed from the block context of the
+          surrounding elements.
         </p>
       </div>
     </header>
     <main class="">
 <div class="phm phl-ns ptl pbxl">
   <h2 class="f3 bold">Examples</h2>
-  <h3 class="f5 book ptl caps">Float Left</h3>
-  <div class="cf">
-    <div class="fl bg-black-05">Float Left</div>
+  <h3 class="f4">Cleared Floats</h3>
+  <p>
+    This example shows two floated elements wrapped in an element with a 4px solid red border.
+    In the top version where the floats are cleared, the red element wraps around the elements.
+    In the second example - the parent element is collapsed and the two floated elements sit outside of it.
+    It should be noted you don't have to clear floated elements that are inside another floated element.
+  </p>
+  <div class="cf" style="outline: 8px solid red;">
+    <div class="fl w-50 pvl" style="background: rgba(0,20,120,.6)"></div>
+    <div class="fl w-50 pvl" style="background: rgba(0,50,80,.6)"></div>
   </div>
-  <h3 class="f5 book ptl caps">Float Right</h3>
-  <div class="cf">
-    <div class="fr bg-black-05">Float Right</div>
+  <h3 class="f4">UnCleared Floats</h3>
+  <div style="outline: 8px solid red;">
+    <div class="fl w-50 pvl" style="background: rgba(0,20,120,.6)"></div>
+    <div class="fl w-50 pvl" style="background: rgba(0,50,80,.6)"></div>
   </div>
-  <h3 class="f5 book ptl caps">Float None</h3>
-  <div class="fn bg-black-05">Float None</div>
-  <h3 class="f5 book ptl caps">Float With Images</h3>
-  <p class="f3">Originally floats were used to wrap text around images as in the example below.</p>
-  <div class="cf">
-    <img src="/img/example-1.jpg" class="fl w4 mrm">
-    <p class="measure mtn">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-      vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-      no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
-  </div>
+
   <div class="mtxl cf">
     <div class="dib mrl">
       <h1 class="f4 ttu tracked semibold">Previous</h1>
-      <a href="/docs/layout/spacing/" class="link semibold blue dim">Spacing</a>
+      <a href="/docs/layout/floats/" class="link semibold blue dim">Floats</a>
     </div>
     <div class="dib">
       <h1 class="f4 ttu tracked semibold">Next</h1>
-      <a href="/docs/layout/clearfix/" class="link semibold blue dim">Clearfix</a>
+      <a href="/docs/layout/display/" class="link semibold blue dim">Display</a>
     </div>
   </div>
   <div class="mtxl">
     <h1 class="f4 ttu tracked semibold">Reference</h1>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/floats" class="link semibold blue dim">MDN - Floats</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clears" class="link semibold blue dim">MDN - Clears</a>
   </div>
 </div>
       <section class="bg-dark-gray white ptl pbxl">
 <header class="phm phl-ns ptl">
-        <kbd class="yellow">src/_floats.css</kbd>
+        <kbd class="yellow">src/_clearfix.css</kbd>
 </header>
 <pre class="phm phl-ns">
 <code class="small">
 /*
 
-   FLOATS
-
-   1. Floated elements are automatically rendered as block level elements.
-      Setting floats to display inline will fix the double margin bug in
-      ie6. You know... just in case.
-
-   2. Don't forget to clearfix your floats with .cf
-
-   Base:
-     f = float
-
-   Modifiers:
-     l = left
-     r = right
-     n = none
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+   CLEARS
 
 */
 
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 
-
-.fl { float: left;  display: inline; }
-.fr { float: right; display: inline; }
-.fn { float: none; }
-
-@media (--breakpoint-not-small) {
-  .fl-ns { float: left; display: inline; }
-  .fr-ns { float: right;display: inline; }
-  .fn-ns { float: none!important; }
-}
-
-@media (--breakpoint-medium) {
-  .fl-m { float: left; display: inline; }
-  .fr-m { float: right;  display: inline; }
-  .fn-m { float: none; }
-}
-
-@media (--breakpoint-large) {
-  .fl-l { float: left; display: inline; }
-  .fr-l { float: right;  display: inline; }
-  .fn-l { float: none; }
-}
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
 
 </code>
 </pre>
