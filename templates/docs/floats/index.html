@@ -23,28 +23,28 @@
         <div class="mtl">
           <dl class="white-60 prm light dib mrm">
             <dt class="db">Version</dt>
-            <dd class="f2 f1-ns b db pln mln"><%= floatsVersion %></dd>
+            <dd class="f2 f1-ns b db pln mln"><%= moduleVersion %></dd>
           </dl>
           <dl class="white-60 light dib mrm">
             <dt class="db">Filesize</dt>
-            <dd class="f2 f1-ns b db pln mln"><%= floatsSize %></dd>
+            <dd class="f2 f1-ns b db pln mln"><%= moduleSize %></dd>
           </dl>
           <div class="cf">
             <dl class="white-60 dib mrm mtn">
               <dt class="db">Declarations </dt>
-              <dd class="db pln mln f2 f1-ns b"><%= floatsObj.declarations.total %></span></dd>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.declarations.total %></span></dd>
             </dl>
             <dl class="white-60 dib mrm">
               <dt class="db prs">Selectors </dt>
-              <dd class="db pln mln f2 f1-ns b"><%= floatsObj.selectors.total %></dd>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.selectors.total %></dd>
             </dl>
             <dl class="white-60 dib mrm">
               <dt class="db prs">Max. Specificity Score </dt>
-              <dd class="db pln mln f2 f1-ns b"><%= floatsObj.selectors.specificity.max %></dd>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.selectors.specificity.max %></dd>
             </dl>
             <dl class="white-60 dib mrm">
               <dt class="db prs">Size of Avg. Rule </dt>
-              <dd class="db pln mln f2 f1-ns b"><%= floatsObj.rules.size.average %></dd>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.rules.size.average %></dd>
             </dl>
           </div>
         </div>
@@ -111,6 +111,7 @@
       <%= navDocs %>
     </main>
 
+      <%= siteFooter %>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
