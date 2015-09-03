@@ -23,28 +23,28 @@
         <div class="mtl">
           <dl class="white-60 prm light dib mrm">
             <dt class="db">Version</dt>
-            <dd class="f2 f1-ns b db pln mln"><%= displayVersion %></dd>
+            <dd class="f2 f1-ns b db pln mln"><%= moduleVersion %></dd>
           </dl>
           <dl class="white-60 light dib mrm">
             <dt class="db">Filesize</dt>
-            <dd class="f2 f1-ns b db pln mln"><%= displaySize %></dd>
+            <dd class="f2 f1-ns b db pln mln"><%= moduleSize %></dd>
           </dl>
           <div class="cf">
             <dl class="white-60 dib mrm mtn">
               <dt class="db">Declarations </dt>
-              <dd class="db pln mln f2 f1-ns b"><%= displayObj.declarations.total %></span></dd>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.declarations.total %></span></dd>
             </dl>
             <dl class="white-60 dib mrm">
               <dt class="db prs">Selectors </dt>
-              <dd class="db pln mln f2 f1-ns b"><%= displayObj.selectors.total %></dd>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.selectors.total %></dd>
             </dl>
             <dl class="white-60 dib mrm">
               <dt class="db prs">Max. Specificity Score </dt>
-              <dd class="db pln mln f2 f1-ns b"><%= displayObj.selectors.specificity.max %></dd>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.selectors.specificity.max %></dd>
             </dl>
             <dl class="white-60 dib mrm">
               <dt class="db prs">Size of Avg. Rule </dt>
-              <dd class="db pln mln f2 f1-ns b"><%= displayObj.rules.size.average %></dd>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.rules.size.average %></dd>
             </dl>
           </div>
         </div>
@@ -152,6 +152,7 @@
       </section>
       <%= navDocs %>
     </main>
+      <%= siteFooter %>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
