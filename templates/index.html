@@ -12,147 +12,157 @@
     <link rel="stylesheet" href="/css/tachyons.min.css">
   </head>
   <body class="wi-100 sans-serif">
-    <div class="dt pvxl pvxxl-ns">
-      <header class="bg-pulsate tc dtc wi-100 v-mid">
+    <div class="dt pvxl pvxxl-ns gradient-blue white-80">
+      <header class="tc dtc wi-100 v-mid">
         <div class="tc mbm mbn-ns">
-          <h1 class="f3 f2-m mega-ns b db-ns mrs mrn-ns mbn ttu mtn pulse-letters">
+          <h1 class="f3 f2-m mega-ns b db-ns mrs mrn-ns mbn ttu tracked mtn">
             Tachyons
           </h1>
-          <p class="f5 f3-ns dib db-ns fw1 phs mbn mbx-ns aqua">
+          <p class="f5 f3-ns dib db-ns fw1 phs mtn mbn mbl-ns aqua">
             CSS for designing faster than the speed of light<br>
-            <small class="ws-nowrap f5 mts mtm-ns">v<%= version %></small>
-            <small class="ws-nowrap b f5 mts mtm-ns"><%= size %></small>
+          </p>
+          <p>
+            <small class="ws-nowrap f5 f4-ns mts mtm-ns prs">v<%= version %></small>
+            <small class="ws-nowrap b f5 f4-ns mts mtm-ns pls"><%= size %></small>
           </p>
         </div>
-        <div class="pvm mtm">
+        <div class="pvm mtl">
           <a title="Tachyons" href="http://github.com/mrmrs/tachyons/"
-             class="small link black tc br2 bw1 pas pam-ns ba dim mrxs">
+             class="f4 link white-70 b--white-30 tc br2 bw1 pas pam-ns ba dim mrxs">
             View on Github ▸
           </a>
           <a title="Tachyons" href="/docs/"
-             class="small link black tc br2 bw1 pas pam-ns ba dim mlxs">
+             class="f4 link white-70 b--white-30 tc br2 bw1 pas pam-ns ba dim mlxs">
+
             Read the Docs ▸
           </a>
         </div>
       </header>
     </div>
     <main>
-      <section class="bg-near-white dt h-100 navy pvxl pvxxl-ns">
+      <section class="bt b--black-10 bg-black-0125 dt h-100 navy pvxl pvxxl-ns">
           <div class="mw7 center phm phl-ns tl tl-ns">
-            <h1 class="f4 ttu semibold">Principles</h1>
-            <section class="f4 f3-ns list pln lh-copy">
+            <h1 class="f4 ttu tracked semibold">Principles</h1>
+            <section class="list pln lh-copy mtn">
               <article class="pvs">
-                <h2 class="f3">Everything should be 100% responsive</h2>
-                <p>
-                  Your website should be readable and work regardless of a users
+                <h2 class="f3 semibold mbn">Everything should be 100% responsive</h2>
+                <p class="f4 f3-ns measure lh-copy mtn mtn">
+                  Your website should work regardless of a users
                   device or screensize. Don't break the functionality of HTML
                   with CSS.
                 </p>
               </article>
               <article class="pvs">
-                <h2 class="f3">Everything should be readable on any device</h2>
-                <p>
+                <h2 class="f3 semibold mbn">Everything should be readable on any device</h2>
+                <p class="f4 f3-ns measure lh-copy mtn mtn">
                   Just because it's readable to you on your laptop, doesn't
-                  mean it is readable by your users. Make sure your type is big.
+                  mean it is readable by your users on their device. Make sure your type is big.
                   Make sure your contrast is high.
                 </p>
               </article>
               <article class="pvs">
-                <h2 class="f3">Everything should be as performant as possible</h2>
-                <p>
+                <h2 class="f3 semibold mbn">Everything should be as performant as possible</h2>
+                <p class="f4 f3-ns measure lh-copy mtn">
                   Code isn't for making a developers life easier. It's for
                   improving the lives of our users. If it's not doing that, why
                   write it. A developer's time is not precious. A user's time is.
                 </p>
               </article>
               <article class="pvs">
-                <h2 class="f3">Designing in the browser should be easy</h2>
-                <p>If a computer can do it, you shouldn't have to.</p>
+                <h2 class="f3 semibold mbn">Designing in the browser should be easy</h2>
+                <p class="f4 f3-ns measure lh-copy mtn">
+                If a computer can do it, you shouldn't have to.</p>
               </article>
               <article class="pvs">
-                <h2 class="f3">
+                <h2 class="f3 semibold mbn">
                   Doing one thing extremely well promotes reusability
                 </h2>
-                <p>
+                <p class="f4 f3-ns measure lh-copy mtn">
                   Single purpose classes that are easy to grock.
                 </p>
               </article>
               <article class="pvs">
-                <h2 class="f3">
+                <h2 class="f3 semibold mbn">
                   Modules > Monoliths
                 </h2>
-                <p>
+                <p class="f4 f3-ns measure lh-copy mtn">
                   Tachyons isn't a monolithic framework. It's a collection of <%= modulesCount %> self contained modules
                   that can be mixed and matched or used independently. Pick what you want, leave the rest.
                 </p>
               </article>
             </section>
-            <h1 class="f4 ttu semibold mtx">Features</h1>
-            <section class="f4 f3-ns list pln lh-copy">
+            <h1 class="f4 ttu semibold mtx tracked">Features</h1>
+            <section class="list pln lh-copy mtn">
               <article class="pvs">
-                <h2 class="f3 mvn">
+                <h2 class="f3 semibold mbn mvn">
                   Built on Rework
                 </h2>
-                <p class="mvn">
+                <p class="mvn f4 f3-ns lh-copy measure">
                   A flexible plugin framework for preprocessing css.
                   <a href="https://github.com/reworkcss/rework" class="link
                     blue dim small db">View on Github</a>
                 </p>
                 </article>
                 <article class="pvs">
-                  <h2 class="f3 mvn"> Mobile-first css architecture </h2>
-                  <p>
+                  <h2 class="f3 semibold mbn">Mobile-first css architecture </h2>
+                  <p class="f4 f3-ns measure lh-copy mtn">
                     Base classes are mobile by default. Can be overridden by
                     namespaced classes targeting larger breakpoints.
                   </p>
                 </article>
                 <article class="pvs">
 
-                <h2 class="f3 mvn">
+                <h2 class="f3 semibold mbn mvn">
                   Default colors for rapid theming
                 </h2>
-                <p>Who cares about colors. Unless you're painting a
-                  bikeshed.</p>
+                <p class="f4 f3-ns measure lh-copy mtn">
+                  Who cares about colors. Unless you're painting a bikeshed.
+                </p>
 
                 </article>
                 <article class="pvs">
-                  <h2 class="f3 mvn">
+                  <h2 class="f3 semibold mbn">
                     CSS layout debugging utilities.
                   </h2>
-                  <p>
+                  <p class="f4 f3-ns measure lh-copy mtn">
                     Small css modules for debugging stacking and layout issues.
                     Can easily be turned on or off during development.
                   </p>
                 </article>
               <article class="pvs">
-                Composable class names
+                <h2 class="f3 semibold mbn">
+                  Composable classes
+                </h2>
+                <p class="f4 f3-ns measure lh-copy mtn">
+                  Construct anything from complex layouts to responsive components with a series of
+                  single purpose classes.
+                </p>
               </article>
               <article class="pvs">
-                <h2 class="f3 mvn">Scale based design system</h2>
-                <p>
+                <h2 class="f3 semibold mbn mvn">Ratio-based scale design systems</h2>
+                <p class="f4 f3-ns measure lh-copy mtn">
                   Powers of two. Starting at .25
                 </p>
               </article>
               <article class="pvs">
-                <h2 class="f3">
+                <h2 class="f3 semibold mbn">
                   Easy to customize and extend
                 </h2>
-                <p>
-                  Take what you need. Leave the rest. The small single-purpose
+                <p class="f4 f3-ns measure lh-copy mtn">
+                  Take what you need. Leave the rest. Small and flat css
                   modules make it easy to grab only what you need without
                   needing to figure out dependencies.
                 </p>
                 </article>
               <article class="pvs">
-                <h2 class="f3">Responsive Grid</h2>
-                <p>
+                <h2 class="f3 semibold mbn">Responsive Grid</h2>
+                <p class="f4 f3-ns measure lh-copy mtn">
                   Infinitely nestable. Fully fluid. Extremely light-weight.
                 </p>
               </article>
               <article class="pvs">
-                <h2 class="f3">Gulp based build system</h2>
-                <p>Minification, auto-prefixing,  and so much more.</p>
-
+                <h2 class="f3 semibold mbn">Gulp based build system</h2>
+                <p class="f4 f3-ns measure lh-copy mtn">Minification, auto-prefixing,  and so much more.</p>
               </article>
             </section>
           </div>
@@ -161,9 +171,9 @@
       <section class="bg-white dt h-100 navy pvxl pvxxl-ns" id="npm">
           <div class="mw7 center phm phl-ns tl tl-ns">
           <h3 class="f4 ttu semibold"><a href="#npm" class="link black">Tachyons on NPM</a></h3>
-        <p class="f4 f3-ns lh-copy mbl measure">
+        <p class="f4 f3-ns lh-copy mtn mbl measure">
           Tachyons is just a series of css modules. They are available on npm and github so that you can
-          mix and match to suit your project's needs. Since tachyons module architecture optimizes for gzip compression 
+          mix and match to suit your project's needs. Since tachyons module architecture optimizes for gzip compression
           most of them are extremely small (well under a kilobyte) so you
           can start using them without adding bloat to your css.
         </p>
