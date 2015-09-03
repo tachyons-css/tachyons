@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>
-      Hovers / Themes / Docs / TACHYONS
+      Clearfix / Layout / Docs / TACHYONS
     </title>
     <meta name="author" content="@mrmrs">
     <meta name="description" content="CSS">
@@ -17,9 +17,9 @@
         <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
         <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
         <span class="thin white-40">/</span>
-        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#themes">Themes</a></h3>
+        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#layout">Layout</a></h3>
         <span class="thin white-40">/</span>
-        <h4 class="f4 mvn semibold dib">Hover &amp; Focus</h4>
+        <h4 class="f4 mvn semibold dib">Clearfix</h4>
         <div class="mtl">
           <dl class="white-60 prm light dib mrm">
             <dt class="db">Version</dt>
@@ -51,52 +51,50 @@
       </div>
       <div class="phm phl-ns pvm">
         <p class="measure f3 lh-copy">
-          There are two classes for adding hover effects to elements. One dims an element on hover, the other will hide children within an element on hover. The dim class can be used on links of any color to give visual affordance to users
+          When floats are used for layouts - they need a clearfix solution. This helps prevent
+          layout problems caused by the elements being removed from the block context of the
+          surrounding elements.
         </p>
-
       </div>
     </header>
     <main class="">
 <div class="phm phl-ns ptl pbxl">
   <h2 class="f3 bold">Examples</h2>
-  <h3 class="f5 book ptl caps">Dim Text</h3>
+  <h3 class="f4">Cleared Floats</h3>
   <p>
-    <a href="#" class="f3 b db dim link pvxs black">This link will dim on hover</a>
-    <a href="#" class="f3 b db dim link pvxs gray">This link will dim on hover</a>
-    <a href="#" class="f3 b db dim link pvxs blue">This link will dim on hover</a>
-    <a href="#" class="f3 b db dim link pvxs dark-blue">This link will dim on hover</a>
-    <a href="#" class="f3 b db dim link pvxs darkest-blue">This link will dim on hover</a>
+    This example shows two floated elements wrapped in an element with a 4px solid red border.
+    In the top version where the floats are cleared, the red element wraps around the elements.
+    In the second example - the parent element is collapsed and the two floated elements sit outside of it.
+    It should be noted you don't have to clear floated elements that are inside another floated element.
   </p>
-  <h3 class="f5 book ptl caps">Dim Card</h3>
-  <p>
-    <a href="#" class="link black mw5 db dim pas ba b--gray br2">
-      <img src="http://placekitten.com/g/600/300" alt="KITTTTTTTY" class="db mbxs" />
-      <span class="db">Dim any element and its children</span>
-    </a>
-  </p>
-  <h3 class="f5 book ptl caps">Reveal Children on Hover</h3>
-    <a href="#" class="link black mw5 dt hide-child ba b--gray br2" style="background-size: cover; background: transparent url(http://placekitten.com/g/700/300) no-repeat;">
-      <span class="white b dtc v-mid child bg-black-40 phl pvxl">Reveal children elements on hover</span>
-    </a>
+  <div class="cf" style="outline: 8px solid red;">
+    <div class="fl w-50 pvl" style="background: rgba(0,20,120,.6)"></div>
+    <div class="fl w-50 pvl" style="background: rgba(0,50,80,.6)"></div>
+  </div>
+  <h3 class="f4">UnCleared Floats</h3>
+  <div style="outline: 8px solid red;">
+    <div class="fl w-50 pvl" style="background: rgba(0,20,120,.6)"></div>
+    <div class="fl w-50 pvl" style="background: rgba(0,50,80,.6)"></div>
+  </div>
+
   <div class="mtxl cf">
     <div class="dib mrl">
       <h1 class="f4 ttu tracked semibold">Previous</h1>
-      <a href="/docs/layout/position/" class="link semibold blue dim">Position</a>
+      <a href="/docs/layout/floats/" class="link semibold blue dim">Floats</a>
     </div>
     <div class="dib">
       <h1 class="f4 ttu tracked semibold">Next</h1>
-      <a href="/docs/themes/background-size/" class="link semibold blue dim">Background Size</a>
+      <a href="/docs/layout/display/" class="link semibold blue dim">Display</a>
     </div>
   </div>
   <div class="mtxl">
     <h1 class="f4 ttu tracked semibold">Reference</h1>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/%3Ahover" class="link db semibold blue dim">MDN - Hover</a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/%3Afocus" class="link db semibold blue dim">MDN - Focus</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clears" class="link semibold blue dim">MDN - Clears</a>
   </div>
 </div>
       <section class="bg-dark-gray white ptl pbxl">
 <header class="phm phl-ns ptl">
-        <kbd class="yellow">src/_hovers.css</kbd>
+        <kbd class="yellow">src/_clearfix.css</kbd>
 </header>
 <pre class="phm phl-ns">
 <code class="small">
