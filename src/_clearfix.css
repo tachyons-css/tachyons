@@ -4,11 +4,6 @@
 
 */
 
-.cn { clear: none; }
-.cl { clear: left; }
-.cr { clear: right; }
-.cb { clear: both; }
-
 /* Nicolas Gallaghers Clearfix solution
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 

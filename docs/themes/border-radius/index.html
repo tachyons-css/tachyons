@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      Border Radius / Themes / Docs / TACHYONS
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+  </head>
+  <body class="w-100 sans-serif">
+    <header class="bg-dark-gray white pbl">
+      <div class="bb b--mid-gray phm phl-ns pvl">
+        <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
+        <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
+        <span class="thin white-40">/</span>
+        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#themes">Themes</a></h3>
+        <span class="thin white-40">/</span>
+        <h4 class="f4 mvn semibold dib">Border Radius</h4>
+        <div class="mtl">
+          <dl class="white-60 prm light dib mrm">
+            <dt class="db">Version</dt>
+            <dd class="f2 f1-ns b db pln mln">2.1.0</dd>
+          </dl>
+          <dl class="white-60 light dib mrm">
+            <dt class="db">Filesize</dt>
+            <dd class="f2 f1-ns b db pln mln">206 B</dd>
+          </dl>
+          <div class="cf">
+            <dl class="white-60 dib mrm mtn">
+              <dt class="db">Declarations </dt>
+              <dd class="db pln mln f2 f1-ns b">28</span></dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Selectors </dt>
+              <dd class="db pln mln f2 f1-ns b">28</dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Max. Specificity Score </dt>
+              <dd class="db pln mln f2 f1-ns b">10</dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Size of Avg. Rule </dt>
+              <dd class="db pln mln f2 f1-ns b">1</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="phm phl-ns pvm">
+        <p class="measure f3 lh-copy">
+          There is a five step scale for border radius in addition to a utility
+          that sets border radius to 100%, which when combined with an explicit
+          height and width will produce a circle.
+        </p>
+
+      </div>
+    </header>
+    <main class="">
+<div class="phm phl-ns ptl pbxl">
+  <h2 class="f3 bold">Examples</h2>
+  <h3 class="f5 book ptl caps">Border Radius</h3>
+  <div class="mbm phs pvl white bg-dark-gray br1">
+    1st step in border-radius scale
+  </div>
+  <div class="mbm phs pvl white bg-dark-gray br2">
+    2nd step in border-radius scale
+  </div>
+  <div class="mbm phs pvl white bg-dark-gray br3">
+    3rd step in border-radius scale
+  </div>
+  <div class="mbm phs pvxl white bg-dark-gray br4">
+    4th step in border-radius scale
+  </div>
+  <div class="mbm phs pvxl white bg-dark-gray br5">
+    5th step in border-radius scale
+  </div>
+  <div class="dt w5">
+    <div class="white bg-dark-gray br-100 tc dtc h5 v-mid">
+      circle with fixed height &amp; width
+    </div>
+  </div>
+  <div class="mtxl cf">
+    <div class="dib mrl">
+      <h1 class="f4 ttu tracked semibold">Previous</h1>
+      <a href="/docs/themes/borders/" class="link semibold blue dim">Borders</a>
+    </div>
+    <div class="dib">
+      <h1 class="f4 ttu tracked semibold">Next</h1>
+      <a href="/docs/general/debug/" class="link semibold blue dim">Debugging</a>
+    </div>
+  </div>
+  <div class="mtxl">
+    <h1 class="f4 ttu tracked semibold">Reference</h1>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" class="link semibold blue dim">MDN - Border Radius</a>
+  </div>
+</div>
+      <section class="bg-dark-gray white ptl pbxl">
+<header class="phm phl-ns ptl">
+        <kbd class="yellow">src/_border-radius.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+/*
+
+   BORDER RADIUS
+
+   Base:
+     br   = border-radius
+
+   Modifiers:
+     n    = none
+     1    = 1st step in scale
+     2    = 2nd step in scale
+     3    = 3rd step in scale
+     4    = 4th step in scale
+     5    = 5th step in scale
+     circ = circle
+     -100 = 100%
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+  .brn {        border-radius: 0; }
+  .br1 {        border-radius: .125rem; }
+  .br2 {        border-radius: .25rem; }
+  .br3 {        border-radius: .5rem; }
+  .br4 {        border-radius: 1rem; }
+  .br5 {        border-radius: 2rem; }
+  .br-100 {     border-radius: 100%; }
+
+@media (--breakpoint-not-small) {
+  .brn-ns {     border-radius: 0; }
+  .br1-ns {     border-radius: .125rem; }
+  .br2-ns {     border-radius: .25rem; }
+  .br3-ns {     border-radius: .5rem; }
+  .br4-ns {     border-radius: 1rem; }
+  .br5-ns {     border-radius: 2rem; }
+  .br-100-ns {  border-radius: 100%; }
+}
+
+@media (--breakpoint-medium) {
+  .brn-m {     border-radius: 0; }
+  .br1-m {     border-radius: .125rem; }
+  .br2-m {     border-radius: .25rem; }
+  .br3-m {     border-radius: .5rem; }
+  .br4-m {     border-radius: 1rem; }
+  .br5-m {     border-radius: 2rem; }
+  .br-100-m {  border-radius: 100%; }
+}
+
+@media (--breakpoint-large) {
+  .brn-l {     border-radius: 0; }
+  .br1-l {     border-radius: .125rem; }
+  .br2-l {     border-radius: .25rem; }
+  .br3-l {     border-radius: .5rem; }
+  .br4-l {     border-radius: 1rem; }
+  .br5-l {     border-radius: 2rem; }
+  .br-100-l {  border-radius: 100%; }
+}
+
+</code>
+</pre>
+      </section>
+      <div class="phm phl-ns ptl pbxl">
+  <h1 class="bold f2 ttu tracked">Docs</h1>
+  <section>
+    <h2 class="f3 semibold ttu tracked-mega">General</h2>
+    <a class="f3 bold dim link db blue pvxs" href="debug/" title="Debugging">Debugging</a>
+    <a class="f3 bold dim link db blue pvxs" href="general/images/" title="Images">Images</a>
+    <section class="cf w-100 mtm">
+      <article class="fn fl-ns w-100 w-25-l">
+        <h2 class="f3 semibold ttu tracked-mega" id="typography">Typography</h2>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/scale" title="Type">Type Scale</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/measure/garamond/" title="Measure">Measure</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/line-height" title="Line Height">Line Height / Leading</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/tracking" title="Tracking">Tracking</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/font-weight" title="Font Weights">Font Weights</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/font-family" title="Font Families">Font Families</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/vertical-align" title="Font Families">Vertical Align</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/text-align" title="Text Align">Text Align</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/text-transform" title="Text Transform">Text Transform</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/text-decoration" title="Text Decoration">Text Decoration</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/typography/white-space" title="White Space">White Space</a>
+      </article>
+      <article class="fn fl-ns w-100 w-25-l">
+        <h2 class="f3 semibold ttu tracked-mega" id="layout">Layout</h2>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/layout/box-sizing" title="Box Sizing">Box Sizing</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/layout/spacing" title="Spacing">Spacing</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/layout/floats" title="Floats">Floats</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/layout/clearfix" title="Clears">Clearfix</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/layout/display" title="Display">Display</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/layout/widths" title="Widths">Widths</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/layout/max-widths" title="Max Widths">Max Widths</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/layout/heights" title="Heights">Heights</a>
+        <a class="f3 bold dim link db blue pvxs" href="/docs/layout/position" title="Position">Position</a>
+      </article>
+      <article class="fn fl-ns w-100 w-25-l">
+        <h2 class="f3 semibold ttu tracked-mega">Theming</h2>
+        <a class="f3 bold dim link db blue pvxs" href="themes/hovers/" title="Hovers">Hovers</a>
+        <a class="f3 bold dim link db blue pvxs" href="themes/background-size/" title="Background Size">Background Size</a>
+        <a class="f3 bold dim link db blue pvxs" href="themes/borders/" title="Borders">Borders</a>
+        <a class="f3 bold dim link db blue pvxs" href="themes/border-radius/" title="Border Radius">Border Radius</a>
+      </article>
+    </section>
+  </section>
+</div>
+
+    </main>
+      <footer class="bg-white gray phm pvxl pvxxl-ns bt b--light-gray h-50">
+  <small class="f5 mw7 db center lh-copy">
+    A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
+    that always moves faster than light.
+    <br class="dn db-ns">
+    The word comes from the Greek:
+    ταχύς or tachys, meaning "swift, quick, fast, rapid"
+  </small>
+</footer>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

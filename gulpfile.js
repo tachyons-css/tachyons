@@ -15,6 +15,10 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync'),
     browserReload = browserSync.reload;
 
+var path = require('path')
+var s3 = require('s3')
+var version = require('./package.json').version
+
 gulp.task('css', function() {
   gulp.src('./src/tachyons.css')
     .pipe(basswork())
@@ -43,6 +47,42 @@ gulp.task('bs-reload', function () {
     browserSync.reload();
 });
 
+gulp.task('aws', function() {
+  function upload() {
+    var options = require('./aws.json')
+    var params = {
+      localFile: path.join(__dirname, './css/tachyons.min.css'),
+      s3Params: {
+        Bucket: options.bucket, 
+        Key: version + '/tachyons.min.css',
+        ACL: 'public-read',
+      }
+    }
+
+    var client = s3.createClient({
+      s3Options: {
+        accessKeyId: options.key,
+        secretAccessKey: options.secret,
+      }
+    })
+
+    var uploader = client.uploadFile(params)
+    uploader.on('error', function(err) {
+      console.error("unable to upload:", err.stack)
+    })
+    uploader.on('progress', function() {
+      console.log("progress", uploader.progressMd5Amount, uploader.progressAmount, uploader.progressTotal)
+    })
+    uploader.on('end', function() {
+      console.log("done uploading")
+    })
+
+  }
+
+  upload()
+
+});
+
 /*
    DEFAULT TASK
 
@@ -56,4 +96,6 @@ gulp.task('default', ['css', 'bs-reload', 'browser-sync'], function(){
   gulp.watch('src/*', ['css']);
   gulp.watch(['*.html', './**/*.html'], ['bs-reload']);
 });
+
+
 

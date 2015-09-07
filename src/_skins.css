@@ -9,7 +9,7 @@
 
 /* Text colors */
 
-.black-100 {         color: var(--black-100); }
+.black-100 {        color: var(--black-100); }
 .black-90 {         color: var(--black-90); }
 .black-80 {         color: var(--black-80); }
 .black-70 {         color: var(--black-70); }
@@ -32,28 +32,88 @@
 .bg-black-20 {         background-color: var(--black-20); }
 .bg-black-10 {         background-color: var(--black-10); }
 .bg-black-05 {         background-color: var(--black-05); }
+.bg-black-025 {         background-color: var(--black-025); }
+.bg-black-0125 {         background-color: var(--black-0125); }
 
-.white-100 {         color: var(--white-100); }
-.white-90 {         color: var(--white-90); }
-.white-80 {         color: var(--white-80); }
-.white-70 {         color: var(--white-70); }
-.white-60 {         color: var(--white-60); }
-.white-50 {         color: var(--white-50); }
-.white-40 {         color: var(--white-40); }
-.white-30 {         color: var(--white-30); }
-.white-20 {         color: var(--white-20); }
-.white-10 {         color: var(--white-10); }
+.bg-black-100-focus:hover,
+.bg-black-100-focus:focus {        background-color: var(--black-100); }
+.bg-black-90-focus:hover,
+.bg-black-90-focus:focus {         background-color: var(--black-90); }
+.bg-black-80-focus:hover,
+.bg-black-80-focus:focus {         background-color: var(--black-80); }
+.bg-black-70-focus:hover,
+.bg-black-70-focus:focus {         background-color: var(--black-70); }
+.bg-black-60-focus:hover,
+.bg-black-60-focus:focus {         background-color: var(--black-60); }
+.bg-black-50-focus:hover,
+.bg-black-50-focus:focus {         background-color: var(--black-50); }
+.bg-black-40-focus:hover,
+.bg-black-40-focus:focus {         background-color: var(--black-40); }
+.bg-black-30-focus:hover,
+.bg-black-30-focus:focus {         background-color: var(--black-30); }
+.bg-black-20-focus:hover,
+.bg-black-20-focus:focus {         background-color: var(--black-20); }
+.bg-black-10-focus:hover,
+.bg-black-10-focus:focus {         background-color: var(--black-10); }
+.bg-black-05-focus:hover,
+.bg-black-05-focus:focus {         background-color: var(--black-05); }
+.bg-black-025-focus:hover,
+.bg-black-025-focus:focus {         background-color: var(--black-025); }
+
+.white-100,
+.white-100::placeholder {         color: var(--white-100); }
+.white-90,
+.white-90::placeholder {         color: var(--white-90); }
+.white-80,
+.white-80::placeholder {         color: var(--white-80); }
+.white-70,
+.white-70::placeholder {         color: var(--white-70); }
+.white-60,
+.white-60::placeholder {         color: var(--white-60); }
+.white-50,
+.white-50::placeholder {         color: var(--white-50); }
+.white-40,
+.white-40::placeholder {         color: var(--white-40); }
+.white-30,
+.white-30::placeholder {         color: var(--white-30); }
+.white-20,
+.white-20::placeholder {         color: var(--white-20); }
+.white-10,
+.white-10::placeholder {         color: var(--white-10); }
 
 .bg-white-100 {       background-color: var(--white-100); }
-.bg-white-90 {        background-color: var(--white-90); }
-.bg-white-80 {        background-color: var(--white-80); }
-.bg-white-70 {        background-color: var(--white-70); }
-.bg-white-60 {        background-color: var(--white-60); }
-.bg-white-50 {        background-color: var(--white-50); }
-.bg-white-40 {        background-color: var(--white-40); }
-.bg-white-30 {        background-color: var(--white-30); }
-.bg-white-20 {        background-color: var(--white-20); }
-.bg-white-10 {        background-color: var(--white-10); }
+.bg-white-90  {        background-color: var(--white-90); }
+.bg-white-80  {        background-color: var(--white-80); }
+.bg-white-70  {        background-color: var(--white-70); }
+.bg-white-60  {        background-color: var(--white-60); }
+.bg-white-50  {        background-color: var(--white-50); }
+.bg-white-40  {        background-color: var(--white-40); }
+.bg-white-30  {        background-color: var(--white-30); }
+.bg-white-20  {        background-color: var(--white-20); }
+.bg-white-10  {        background-color: var(--white-10); }
+.bg-white-05  {        background-color: var(--white-05); }
+.bg-white-025  {        background-color: var(--white-025); }
+
+.bg-white-100-focus:hover,
+.bg-white-100-focus:focus {       background-color: var(--white-100); }
+.bg-white-90-focus:hover,
+.bg-white-90-focus:focus {        background-color: var(--white-90); }
+.bg-white-80-focus:hover,
+.bg-white-80-focus:focus {        background-color: var(--white-80); }
+.bg-white-70-focus:hover,
+.bg-white-70-focus:focus {        background-color: var(--white-70); }
+.bg-white-60-focus:hover,
+.bg-white-60-focus:focus {        background-color: var(--white-60); }
+.bg-white-50-focus:hover,
+.bg-white-50-focus:focus {        background-color: var(--white-50); }
+.bg-white-40-focus:hover,
+.bg-white-40-focus:focus {        background-color: var(--white-40); }
+.bg-white-30-focus:hover,
+.bg-white-30-focus:focus {        background-color: var(--white-30); }
+.bg-white-20-focus:hover,
+.bg-white-20-focus:focus {        background-color: var(--white-20); }
+.bg-white-10-focus:hover,
+.bg-white-10-focus:focus {        background-color: var(--white-10); }
 
 .black {         color: var(--near-black); }
 .dark-gray {     color: var(--dark-gray); }

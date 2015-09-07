@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      Borders / Themes / Docs / TACHYONS
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+  </head>
+  <body class="w-100 sans-serif">
+    <header class="bg-dark-gray white pbl">
+      <div class="bb b--mid-gray phm phl-ns pvl">
+        <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
+        <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
+        <span class="thin white-40">/</span>
+        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#themes">Themes</a></h3>
+        <span class="thin white-40">/</span>
+        <h4 class="f4 mvn semibold dib">Borders</h4>
+        <div class="mtl">
+          <dl class="white-60 prm light dib mrm">
+            <dt class="db">Version</dt>
+            <dd class="f2 f1-ns b db pln mln"><%= moduleVersion %></dd>
+          </dl>
+          <dl class="white-60 light dib mrm">
+            <dt class="db">Filesize</dt>
+            <dd class="f2 f1-ns b db pln mln"><%= moduleSize %></dd>
+          </dl>
+          <div class="cf">
+            <dl class="white-60 dib mrm mtn">
+              <dt class="db">Declarations </dt>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.declarations.total %></span></dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Selectors </dt>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.selectors.total %></dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Max. Specificity Score </dt>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.selectors.specificity.max %></dd>
+            </dl>
+            <dl class="white-60 dib mrm">
+              <dt class="db prs">Size of Avg. Rule </dt>
+              <dd class="db pln mln f2 f1-ns b"><%= moduleObj.rules.size.average %></dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="phm phl-ns pvm">
+        <p class="measure f3 lh-copy">
+          There is a base border module that can be extended with the
+          border-width, border-color, border-style modules. By default you
+          don't need to set a border color. It will just inherit whatever the
+          text color is for that dom node. You can target any side to put a border
+          on ie. top, right, bottom, left.
+        </p>
+      </div>
+    </header>
+    <main class="">
+<div class="phm phl-ns ptl pbxl">
+  <h2 class="f3 bold">Examples</h2>
+  <div>
+    <h3 class="f5 book ptl caps">Border Base</h3>
+    <code class="ba pas f5 nowrap bg-near-white db mbs">
+      1px solid border on all sides
+    </code>
+    <code class="bt pas f5 nowrap bg-near-white db mbs">
+      1px solid border on top
+    </code>
+    <code class="br pas f5 nowrap bg-near-white db mbs">
+      1px solid border on the right
+    </code>
+    <code class="bb pas f5 nowrap bg-near-white db mbs">
+      1px solid border on the bottom
+    </code>
+    <code class="bl pas f5 nowrap bg-near-white db mbs">
+      1px solid border on the bottom
+    </code>
+  </div>
+  <div>
+    <h3 class="f5 book ptl caps">Border Styles</h3>
+    <code class="ba bs-dotted pas f5 nowrap bg-near-white db mbs">
+      Dotted
+    </code>
+    <code class="ba pas f5 nowrap bg-near-white db mbs">
+      Solid
+    </code>
+  </div>
+  <div>
+    <h3 class="f5 book ptl caps">Border Widths - Solid</h3>
+    <code class="ba bw1 pas f5 nowrap bg-near-white db mbs">
+      border-width: .125rem
+    </code>
+    <code class="ba bw2 pas f5 nowrap bg-near-white db mbs">
+      border-width: .25rem
+    </code>
+    <code class="ba bw3 pas f5 nowrap bg-near-white db mbs">
+      border-width: .5rem
+    </code>
+    <code class="ba bw4 pas f5 nowrap bg-near-white db mbs">
+      border-width: 1rem
+    </code>
+    <code class="ba bw5 pas f5 nowrap bg-near-white db mbs">
+      border-width: 2rem
+    </code>
+    <h3 class="f5 book ptl caps">Border Widths - Dotted</h3>
+    <code class="ba bs-dotted bw1 pas f5 nowrap bg-near-white db mbs">
+      border-width: .125rem
+    </code>
+    <code class="ba bs-dotted bw2 pas f5 nowrap bg-near-white db mbm">
+      border-width: .25rem
+    </code>
+    <code class="ba bs-dotted bw3 phs pvm f5 nowrap bg-near-white db mbm">
+      border-width: .5rem
+    </code>
+    <code class="ba bs-dotted bw4 phs pvl f5 nowrap bg-near-white db mbl">
+      border-width: 1rem
+    </code>
+    <code class="ba bs-dotted bw5 phs pvl f5 nowrap bg-near-white db mbl">
+      border-width: 2rem
+    </code>
+  </div>
+  <div class="mtxl cf">
+    <div class="dib mrl">
+      <h1 class="f4 ttu tracked semibold">Previous</h1>
+      <a href="/docs/themes/background-size/" class="link semibold blue dim">Background Size</a>
+    </div>
+    <div class="dib">
+      <h1 class="f4 ttu tracked semibold">Next</h1>
+      <a href="/docs/themes/Border-radius/" class="link semibold blue dim">Border Radius</a>
+    </div>
+  </div>
+  <div class="mtxl">
+    <h1 class="f4 ttu tracked semibold">Reference</h1>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" class="link db semibold blue dim">MDN - Border</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style" class="link db semibold blue dim">MDN - Border Style</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-width" class="link db semibold blue dim">MDN - Border Width</a>
+  </div>
+</div>
+<section class="bg-dark-gray white ptl pbxl">
+<header class="phm phl-ns ptl">
+        <kbd class="yellow">src/_borders.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+/*
+
+   BORDER BASE
+
+   Use border-base in combination with setting text color
+   or by using extensions from border-color module.
+
+   Examples:
+   To set a border of blue on all sides:
+   <div class="ba b--blue">Element Content</div>
+
+   To set a border on top of orange
+   <div class="bt b--orange">Element Content</div>
+
+   Base:
+    b = border
+
+   Modifiers:
+     n = none, no border-style or border-width
+     a = all
+     t = top
+     r = right
+     b = bottom
+     l = left
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+/* The extra `.bn` is required to boost the specificity, which is needed
+ * sometimes if you are setting the border to 0. */
+  .ba { border-style: solid; border-width: 1px; }
+  .bt { border-top-style: solid; border-top-width: 1px; }
+  .br { border-right-style: solid; border-right-width: 1px; }
+  .bb { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl { border-left-style: solid; border-left-width: 1px; }
+  .bn { border-style: solid; border-width: 0; }
+
+  .bda { border-style: dotted; border-width: 1px; }
+  .bdt { border-top-style: dotted; border-top-width: 1px; }
+  .bdr { border-right-style: dotted; border-right-width: 1px; }
+  .bdb { border-bottom-style: dotted; border-bottom-width: 1px; }
+  .bdl { border-left-style: dotted; border-left-width: 1px; }
+
+@media (--breakpoint-not-small) {
+  .bn-ns { border-style: solid; border-width: 0; }
+  .ba-ns { border-style: solid; border-width: 1px; }
+  .bt-ns { border-top-style: solid; border-top-width: 1px; }
+  .br-ns { border-right-style: solid; border-right-width: 1px; }
+  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-ns { border-left-style: solid; border-left-width: 1px; }
+  .bda-ns { border-style: dotted; border-width: 1px; }
+  .bdt-ns { border-top-style: dotted; border-top-width: 1px; }
+  .bdr-ns { border-right-style: dotted; border-right-width: 1px; }
+  .bdb-ns { border-bottom-style: dotted; border-bottom-width: 1px; }
+  .bdl-ns { border-left-style: dotted; border-left-width: 1px; }
+}
+
+@media (--breakpoint-medium) {
+  .bn-m { border-style: solid; border-width: 0; }
+  .ba-m { border-style: solid; border-width: 1px; }
+  .bt-m { border-top-style: solid; border-top-width: 1px; }
+  .br-m { border-right-style: solid; border-right-width: 1px; }
+  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-m { border-left-style: solid; border-left-width: 1px; }
+  .bda-m { border-style: dotted; border-width: 1px; }
+  .bdt-m { border-top-style: dotted; border-top-width: 1px; }
+  .bdr-m { border-right-style: dotted; border-right-width: 1px; }
+  .bdb-m { border-bottom-style: dotted; border-bottom-width: 1px; }
+  .bdl-m { border-left-style: dotted; border-left-width: 1px; }
+}
+
+@media (--breakpoint-large) {
+  .bn-l { border-style: solid; border-width: 0; }
+  .ba-l { border-style: solid; border-width: 1px; }
+  .bt-l { border-top-style: solid; border-top-width: 1px; }
+  .br-l { border-right-style: solid; border-right-width: 1px; }
+  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-l { border-left-style: solid; border-left-width: 1px; }
+  .bda-l { border-style: dotted; border-width: 1px; }
+  .bdt-l { border-top-style: dotted; border-top-width: 1px; }
+  .bdr-l { border-right-style: dotted; border-right-width: 1px; }
+  .bdb-l { border-bottom-style: dotted; border-bottom-width: 1px; }
+  .bdl-l { border-left-style: dotted; border-left-width: 1px; }
+}
+</code>
+</pre>
+<header class="phm phl-ns ptl">
+  <kbd class="yellow">src/_border-style.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+
+/*
+
+   BORDER STYLES
+
+   Base:
+     bs = border-style
+
+   Modifiers:
+     none   = none
+     dotted = dotted
+     solid  = solid
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+ */
+
+.bs-none {   border-style: none; }
+.bs-dotted { border-style: dotted; }
+.bs-solid {  border-style: solid; }
+
+@media (--breakpoint-not-small) {
+  .bs-none-ns {   border-style: none; }
+  .bs-dotted-ns { border-style: dotted; }
+  .bs-solid-ns {  border-style: solid; }
+}
+
+@media (--breakpoint-medium) {
+  .bs-none-m {   border-style: none; }
+  .bs-dotted-m { border-style: dotted; }
+  .bs-solid-m {  border-style: solid; }
+}
+
+@media (--breakpoint-large) {
+  .bs-none-l {   border-style: none; }
+  .bs-dotted-l { border-style: dotted; }
+  .bs-solid-l {  border-style: solid; }
+}
+</code>
+</pre>
+<header class="phm phl-ns ptl">
+        <kbd class="yellow">src/_border-widths.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+<%= srcCSS  %>
+</code>
+</pre>
+      </section>
+      <%= navDocs %>
+    </main>
+      <%= siteFooter %>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

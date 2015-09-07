@@ -11,6 +11,9 @@
 .h3 {  height: 4rem; }
 .h4 {  height: 8rem; }
 .h5 {  height: 16rem; }
+.h6 {  height: 32rem; }
+
+/* Height Percentages */
 
 .h-10 { height:  10%; }
 .h-20 { height:  20%; }
@@ -27,21 +30,16 @@
 
 /* String Properties */
 
-.h-bb { height: border-box; }
-.h-cb { height: content-box; }
-.h-mx { height: max-content; }
-.h-mn { height: min-content; }
-.h-av { height: available; }
-.h-fc { height: fit-content; }
 .h-at { height: auto; }
 .h-i {  height: inherit; }
 
 @media (--breakpoint-not-small) {
-  .h-1-ns {  height: 1rem; }
-  .h-2-ns {  height: 2rem; }
-  .h-3-ns {  height: 4rem; }
-  .h-4-ns {  height: 8rem; }
-  .h-5-ns {  height: 16rem; }
+  .h1-ns {  height: 1rem; }
+  .h2-ns {  height: 2rem; }
+  .h3-ns {  height: 4rem; }
+  .h4-ns {  height: 8rem; }
+  .h5-ns {  height: 16rem; }
+  .h6-ns {  height: 32rem; }
   .h-10-ns  { height: 10%; }
   .h-20-ns  { height: 20%; }
   .h-25-ns  { height: 25%; }
@@ -54,12 +52,6 @@
   .h-80-ns  { height: 80%; }
   .h-90-ns  { height: 90%; }
   .h-100-ns { height: 100%; }
-  .h-bb-ns { height: border-box; }
-  .h-cb-ns { height: content-box; }
-  .h-mx-ns { height: max-content; }
-  .h-mn-ns { height: min-content; }
-  .h-av-ns { height: available; }
-  .h-fc-ns { height: fit-content; }
   .h-at-ns { height: auto; }
   .h-i-ns {  height: inherit; }
 }
@@ -70,6 +62,7 @@
   .h3-m {      height: 4rem; }
   .h4-m {      height: 8rem; }
   .h5-m {      height: 16rem; }
+  .h6-m {      height: 32rem; }
   .h-10-m  { height: 10%; }
   .h-20-m  { height: 20%; }
   .h-25-m  { height: 25%; }
@@ -82,12 +75,6 @@
   .h-80-m  { height: 80%; }
   .h-90-m  { height: 90%; }
   .h-100-m { height: 100%; }
-  .h-bb-m {    height: border-box; }
-  .h-cb-m {    height: content-box; }
-  .h-mx-m {    height: max-content; }
-  .h-mn-m {    height: min-content; }
-  .h-av-m {    height: available; }
-  .h-fc-m {    height: fit-content; }
   .h-at-m {    height: auto; }
   .h-i-m {     height: inherit; }
 }
@@ -98,6 +85,7 @@
   .h3-l {      height: 4rem; }
   .h4-l {      height: 8rem; }
   .h5-l {      height: 16rem; }
+  .h6-l {      height: 32rem; }
   .h-10-l  { height: 10%; }
   .h-20-l  { height: 20%; }
   .h-25-l  { height: 25%; }
@@ -110,12 +98,6 @@
   .h-80-l  { height: 80%; }
   .h-90-l  { height: 90%; }
   .h-100-l { height: 100%; }
-  .h-bb-l {    height: border-box; }
-  .h-cb-l {    height: content-box; }
-  .h-mx-l {    height: max-content; }
-  .h-mn-l {    height: min-content; }
-  .h-av-l {    height: available; }
-  .h-fc-l {    height: fit-content; }
   .h-at-l {    height: auto; }
   .h-i-l {     height: inherit; }
 }

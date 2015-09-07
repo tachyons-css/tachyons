@@ -14,6 +14,14 @@
   margin-bottom: 0;
 }
 
+/* Combine this class with a width to truncate text */
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media (--breakpoint-not-small){
   .measure-ns  {
     max-width: 30em;
@@ -22,6 +30,11 @@
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .truncate-ns {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
@@ -32,6 +45,11 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .truncate-m {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 @media (--breakpoint-large) {
@@ -40,5 +58,10 @@
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .truncate-l {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
