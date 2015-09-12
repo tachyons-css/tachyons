@@ -40,7 +40,7 @@ The easiest way to use tachyons is to include the minified file in the head.
 If you want to reduce the size of the library greatly on production I suggest
 using [uncss](https://github.com/giakki/uncss) to remove styles you aren't referencing.
 
-Alternatively, you can use the version [https://cdnjs.com/libraries/tachyons](hosted on cdnjs), but be advised
+Alternatively, you can use the version [hosted on cdnjs](https://cdnjs.com/libraries/tachyons), but be advised
 that you will be serving all styles, even those you don't use. Just drop this
 tag into your `index.html`:
 
