@@ -40,6 +40,14 @@ The easiest way to use tachyons is to include the minified file in the head.
 If you want to reduce the size of the library greatly on production I suggest
 using [uncss](https://github.com/giakki/uncss) to remove styles you aren't referencing.
 
+Alternatively, you can use the version [hosted on cdnjs](https://cdnjs.com/libraries/tachyons), but be advised
+that you will be serving all styles, even those you don't use. Just drop this
+tag into your `index.html`:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tachyons/3.0.1/tachyons.min.css"></script>
+```
+
 ### Modify the source
 Set up the project by cloning the repo, navigating into it, and installing the necessary dependencies by running the following commands:
 
