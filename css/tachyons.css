@@ -1167,7 +1167,7 @@ input[type="password"]:after,
 
 .sans-serif {
   font-family: 'avenir next', avenir,
-                helvetica, 'helvetica neue light',
+                helvetica, 'helvetica neue',
                 arial,
                 sans-serif;
 }
@@ -1176,13 +1176,6 @@ input[type="password"]:after,
   font-family: times, TimesNewRoman, "Times New Roman",
                georgia,
                serif;
-}
-
-.ios-type {
-  font-family:  'Helvetica Neue',
-                'avenir next', avenir,
-                arial,
-                sans-serif;
 }
 
 /* From http://cssfontstack.com */
@@ -1314,6 +1307,8 @@ code, .code {
 .input-text {
   outline: 0;
   appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .input-text:focus,
@@ -2402,63 +2397,6 @@ img { max-width: 100%; }
 .bg-hover-darkest-purple:hover { background-color: #5f008e; }
 /*
 
-  SVG FILLS
-
-*/
-
-.fill-black { fill: #000; }
-.fill-near-black { fill: #111; }
-.fill-dark-gray { fill: #333; }
-.fill-mid-gray { fill: #555; }
-.fill-gray { fill: #777; }
-.fill-silver { fill: #999; }
-.fill-light-silver { fill: #aaa; }
-.fill-moon-gray { fill: #ccc; }
-.fill-light-gray { fill: #eee; }
-.fill-near-white { fill: #f4f4f4; }
-.fill-white { fill: #fff; }
-.fill-blue { fill: #0074D9; }
-.fill-light-blue { fill: #64a8ff; }
-.fill-lightest-blue { fill: #a2dfff; }
-.fill-dark-blue { fill: #0045a1; }
-.fill-darkest-blue { fill: #002f86; }
-.fill-yellow { fill: #fff93c; }
-.fill-light-yellow { fill: #fffa60; }
-.fill-lightest-yellow { fill: #fffca6; }
-.fill-dark-yellow { fill: #e2c100; }
-.fill-darkest-yellow { fill: #c4a600; }
-.fill-orange { fill: #FF851B; }
-.fill-light-orange { fill: #ffa942; }
-.fill-lightest-orange { fill: #ffc55d; }
-.fill-dark-orange { fill: #d05e00; }
-.fill-darkest-orange { fill: #b14400; }
-.fill-red { fill: #d82c2c; }
-.fill-light-red { fill: #f94f44; }
-.fill-lightest-red { fill: #ff6c5c; }
-.fill-dark-red { fill: #bd001a; }
-.fill-darkest-red { fill: #9d0003; }
-.fill-teal { fill: #27bfa8; }
-.fill-light-teal { fill: #4eddc5; }
-.fill-lightest-teal { fill: #6ffae0; }
-.fill-dark-teal { fill: #25a28f; }
-.fill-darkest-teal { fill: #008876; }
-.fill-green { fill: #3D9970; }
-.fill-light-green { fill: #5ab48a; }
-.fill-lightest-green { fill: #75d0a4; }
-.fill-dark-green { fill: #1e7f58; }
-.fill-darkest-green { fill: #006540; }
-.fill-pink { fill: #F012BE; }
-.fill-light-pink { fill: #ff57e8; }
-.fill-lightest-pink { fill: #ff81ff; }
-.fill-dark-pink { fill: #d100a3; }
-.fill-darkest-pink { fill: #b20088; }
-.fill-purple { fill: #980bc6; }
-.fill-light-purple { fill: #b536e2; }
-.fill-lightest-purple { fill: #d355ff; }
-.fill-dark-purple { fill: #7b00a9; }
-.fill-darkest-purple { fill: #5f008e; }
-/*
-
   SVG STROKES
 
 */
@@ -3503,19 +3441,19 @@ img { max-width: 100%; }
 
 */
 
-.gradient-blue {
+.gradient-blue { 
   background-image: linear-gradient(#4570B0, #0081C2);
 }
 
-.gradient-blue-reversed {
+.gradient-blue-reversed { 
   background-image: linear-gradient(#0081C2, #4570B0);
 }
 
-.gradient-light-blue {
+.gradient-light-blue { 
   background-image: linear-gradient(#76D3FE, #008AE0);
 }
 
-.gradient-light-blue-reversed {
+.gradient-light-blue-reversed { 
   background-image: linear-gradient(#008AE0, #76D3FE);
 }
 
