@@ -117,8 +117,6 @@
     }
   ],
   "scripts": {
-    "start": "gulp",
-    "s3": "gulp aws",
-    "build": "watch 'node build.js' ./src"
+    "start": "watch 'node build.js' ./src"
   }
 }
