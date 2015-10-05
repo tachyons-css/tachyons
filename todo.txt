@@ -1,0 +1,54 @@
+###
+COLORS
+Decide on which color strings to support.
+
+Red
+Orange
+Yellow
+Green
+Blue
+Indigo
+Violet
+
+***
+
+- Document all color combos
+- Generate gradients from some color combos, or customize gradients per color?
+
+
+###
+GRADIENTS
+Choose gradients
+Document gradients
+
+
+###
+README
+- Autogenerate README Stats
+
+###
+STATS
+- Add basic css stats for tachyons
+- Add comparative view to
+  - bootstrap
+  - basscss
+  - foundation
+  - pure
+
+- Visualize changes over time
+
+
+###
+Other considerations
+Animations / Interaction patterns
+Hovers
+Icons
+A11y testing and documentation
+Automating component documentation
+  - Show markup block
+  - Run uncss / purify and only show necessary css
+  - Show which modules that css came from
+Port tachyons to other preprocessors? Debating between
+supporting all the flavors or pushing forward what the future should be...
+
+
