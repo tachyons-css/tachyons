@@ -9,6 +9,8 @@ and modular architecture.
 More documentation and examples will be coming. For now - reading the source files
 in the src directory are a great way to get up to speed. I promise they are not complicated.
 
+There is now a [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com). Submit your email to be automatically invited.
+
 ## TLDR;
 
 Build responsive, performant, and easy to maintain interfaces faster than the speed of light.
