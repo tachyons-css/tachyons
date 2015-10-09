@@ -1,64 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>
-      TACHYONS
-    </title>
-    <meta name="author" content="@mrmrs">
-    <meta name="description" content="Sign In Component">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/tachyons.min.css">
-  </head>
-  <body class="wi-100 sans-serif bg-dark-purple">
-    <main class="lightest-purple">
-      <form action="index_submit" method="get" accept-charset="utf-8" class="pvl mvxl">
-        <fieldset class="center mw6-ns phm phl-ns bn">
-          <legend class="bold ttu tracked-mega plm pln-ns pvm f3-ns lightest-purple dn">Sign In</legend>
-          <div class="mtm">
-            <label class="small mbs plm pln-ns ttu tracked-mega db" for="Username">Username</label>
-            <input class="f3 semibold input-text plm pvm db ba white-80 b--white-20 w-100 bg-white-05 bg-white-10-focus" type="text" name="Username" value="" id="Username" >
-          </div>
-          <div class="mtl">
-            <label class="small mbs plm pln-ns ttu tracked-mega db" for="Username">Password</label>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>TACHYONS - Forms Sign In 1</title>
+<meta name="author" content="@mrmrs">
+<meta name="description" content="Sign In Component">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/tachyons.min.css">
+</head>
+<body class="wi-100 sans-serif bg-light-gray">
+<main>
+  <form action="index_submit" method="get" accept-charset="utf-8" class="pvl mvxl">
+  <fieldset class="center mw6-ns phm phl-ns bn">
+    <legend class="bold ttu tracked-mega plm pln-ns pvm f3-ns lightest-purple dn">Sign In</legend>
+    <div class="mtm">
+      <label class="small mbs plm pln-ns ttu tracked-mega db" for="Username">Username</label>
+      <input class="f3 semibold input-text plm pvm db ba white-80 b--white-20 w-100 bg-white-05 bg-white-10-focus" type="text" name="Username" value="" id="Username" >
+    </div>
+    <div class="mtl">
+      <label class="small mbs plm pln-ns ttu tracked-mega db" for="Username">Password</label>
+      <input class="f3 semibold input-text plm pvm db ba b--white-20 w-100 white-60 bg-white-05 bg-white-10-focus" type="password" name="password" value="" id="password" >
+    </div>
+    <div class="mtl dt">
+      <div class="dtc w-50 wi-25-ns v-mid">
+        <input class="input-text bg-white-05 lightest-purple pam brs semibold ba b--white-20 ttu tracked-mega bg-white-10-focus" type="submit" value="Sign In">
+      </div>
+      <div class="dtc w-50 wi-75-ns v-mid">
+          <a class="link dim db lightest-purple pvxs" href="#">Sign Up</a>
+          <a class="link dim db lightest-purple pvxs" href="#">Forgot Password?</a>
+      </div>
 
-            <input class="f3 semibold input-text plm pvm db ba b--white-20 w-100 white-60 bg-white-05 bg-white-10-focus" type="password" name="password" value="" id="password" >
-          </div>
-          <div class="mtl dt">
-            <div class="dtc w-50 wi-25-ns v-mid">
-              <input class="input-text bg-white-05 lightest-purple pam brs semibold ba b--white-20 ttu tracked-mega bg-white-10-focus" type="submit" value="Sign In">
-            </div>
-            <div class="dtc w-50 wi-75-ns v-mid">
-                <a class="link dim db lightest-purple pvxs" href="#">Sign Up</a>
-                <a class="link dim db lightest-purple pvxs" href="#">Forgot Password?</a>
-            </div>
+    </div>
+  </fieldset>
+</form>
 
-          </div>
-        </fieldset>
-      </form>
-    </main>
-    <footer class="bg-white gray phm pvxl pvxxl-ns bt b--light-gray h-50">
-      <small class="f5 mw7 db center lh-copy">
-        A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
-        that always moves faster than light.
-        <br class="dn db-ns">
-        The word comes from the Greek:
-        ταχύς or tachys, meaning "swift, quick, fast, rapid"
-      </small>
-    </footer>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
+</main>
+<footer class="bg-white gray phm pvxl pvxxl-ns bt b--light-gray h-50">
+  <small class="f5 mw7 db center lh-copy">
+    A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
+    that always moves faster than light.
+    <br class="dn db-ns">
+    The word comes from the Greek:
+    ταχύς or tachys, meaning "swift, quick, fast, rapid"
+  </small>
+</footer>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-55773803-1', 'auto');
 ga('send', 'pageview');
-
-    </script>
-  </body>
+</script>
+</body>
 </html>
 
 
