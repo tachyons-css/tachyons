@@ -2921,7 +2921,7 @@ img { max-width: 100%; }
   .pvxxxl-l { padding-top: 16rem;   padding-bottom: 16rem; }
 
   .phn-l {    padding-left: 0;      padding-right: 0; }
-  .pvxs-l {   padding-left: .25rem; padding-right: .25rem; }
+  .phxs-l {   padding-left: .25rem; padding-right: .25rem; }
   .phs-l {    padding-left: .5rem;  padding-right: .5rem; }
   .phm-l {    padding-left: 1rem;   padding-right: 1rem; }
   .phl-l {    padding-left: 2rem;   padding-right: 2rem; }
@@ -3106,7 +3106,7 @@ img { max-width: 100%; }
 .f3    { font-size: 1.25rem; }
 .f4    { font-size: 1rem; }
 .f5,
-.small { font-size: .85rem; }
+.small { font-size: .875rem; }
 
 @media screen and (min-width: 30em){
  .mega-ns { font-size: 4rem; }
@@ -3114,7 +3114,7 @@ img { max-width: 100%; }
  .f2-ns {   font-size: 1.5rem; }
  .f3-ns {   font-size: 1.25em; }
  .f4-ns {   font-size: 1rem; }
- .f5-ns {   font-size: .85rem; }
+ .f5-ns {   font-size: .875rem; }
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
@@ -3123,7 +3123,7 @@ img { max-width: 100%; }
  .f2-m {   font-size: 1.5rem; }
  .f3-m {   font-size: 1.25rem; }
  .f4-m {   font-size: 1rem; }
- .f5-m {   font-size: .85rem; }
+ .f5-m {   font-size: .875rem; }
 }
 
 @media screen and (min-width: 60em) {
@@ -3132,7 +3132,7 @@ img { max-width: 100%; }
  .f2-l   { font-size: 1.5rem; }
  .f3-l   { font-size: 1.25rem; }
  .f4-l   { font-size: 1rem; }
- .f5-l   { font-size: .85rem; }
+ .f5-l   { font-size: .875rem; }
 }
 /*
 
