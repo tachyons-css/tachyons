@@ -5,6 +5,7 @@ var glob = require('glob')
 var titleize = require('titleize')
 var fm = require('json-front-matter')
 var rmHtmlExt = require('remove-html-extension')
+var getClasses = require('get-classes-from-html')
 
 glob('examples/components/src/**/*.html', {}, function (err, components) {
   if (err) {
@@ -21,9 +22,11 @@ glob('examples/components/src/**/*.html', {}, function (err, components) {
     var fmParsed = fm.parse(componentHtml)
     var frontMatter = fmParsed.attributes || {}
     frontMatter.title = frontMatter.title || getTitle(component)
+    frontMatter.classes = getClasses(fmParsed.body)
+    frontMatter.componentHtml = componentHtml
     frontMatter.content = fmParsed.body
-
     var compiledPage = _.template(template)(frontMatter)
+
     fs.writeFileSync(newDir, compiledPage)
   })
 })

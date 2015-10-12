@@ -12,7 +12,15 @@
 <body class="wi-100 sans-serif <%= bodyClass %>">
 <main>
   <%= content %>
+  <ul>
+    <% classes.map(renderClass) %>
+  </ul>
 </main>
+
+<% function renderClass(klass) { %>
+  <li><%= klass %></li>
+<% } %>
+
 <footer class="bg-white gray phm pvxl pvxxl-ns bt b--light-gray h-50">
   <small class="f5 mw7 db center lh-copy">
     A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
