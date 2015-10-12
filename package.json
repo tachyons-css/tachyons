@@ -31,6 +31,7 @@
     "glob": "^5.0.15",
     "gzip-size": "^3.0.0",
     "immutable-css": "^0.1.0",
+    "json-front-matter": "^1.0.0",
     "lodash": "^3.10.0",
     "node-minify": "^1.2.0",
     "node-sass": "^0.9",

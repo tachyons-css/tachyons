@@ -3,6 +3,7 @@ var _ = require('lodash')
 var path = require('path')
 var glob = require('glob')
 var titleize = require('titleize')
+var fm = require('json-front-matter')
 var rmHtmlExt = require('remove-html-extension')
 
 glob('examples/components/src/**/*.html', {}, function (err, components) {
@@ -14,14 +15,15 @@ glob('examples/components/src/**/*.html', {}, function (err, components) {
   var template = fs.readFileSync('examples/components/component-template.html', 'utf8')
 
   components.forEach(function (component) {
-    var title = getTitle(component)
     var newDir = rmHtmlExt(component.replace('/src', '')) + '/index.html'
-    var componentHtml = fs.readFileSync(component)
+    var componentHtml = fs.readFileSync(component, 'utf8')
 
-    console.log(newDir)
-    console.log(title)
+    var fmParsed = fm.parse(componentHtml)
+    var frontMatter = fmParsed.attributes || {}
+    frontMatter.title = frontMatter.title || getTitle(component)
+    frontMatter.content = fmParsed.body
 
-    var compiledPage = _.template(template)({ title: title, content: componentHtml })
+    var compiledPage = _.template(template)(frontMatter)
     fs.writeFileSync(newDir, compiledPage)
   })
 })
