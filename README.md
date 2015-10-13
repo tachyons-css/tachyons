@@ -48,7 +48,7 @@ Set up the project by cloning the repo, navigating into it, and installing the n
  cd yourProject
  rm -rf .git
  git init
- git add remote git@github.com/yourUserName/yourProject.git
+ git add remote git@github.com:yourUserName/yourProject.git
  npm install . && npm start
 ```
 
