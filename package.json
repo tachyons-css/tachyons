@@ -44,6 +44,7 @@
     "postcss-custom-media": "^4.1.0",
     "postcss-custom-properties": "^5.0.0",
     "postcss-import": "^6.2.0",
+    "postcss-select": "^0.1.0",
     "remove-html-extension": "0.0.1",
     "s3": "^4.4.0",
     "tachyons-background-size": "^2.0.0",
