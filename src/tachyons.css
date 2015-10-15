@@ -7,57 +7,57 @@
 
 /* Variables */
 
-@import './_normalize';
-@import './_media-queries';
-@import './_colors';
+@import './src/_normalize';
+@import './src/_media-queries';
+@import './src/_colors';
 
 /* Modules */
 
-@import './_base';
-@import './_box-sizing';
-@import './_background-size';
-@import './_borders';
-@import './_border-colors';
-@import './_border-radius';
-@import './_border-style';
-@import './_border-widths';
-@import './_code';
-@import './_coordinates';
-@import './_clearfix';
-@import './_display';
-@import './_floats';
-@import './_font-family';
-@import './_font-style';
-@import './_font-weight';
-@import './_forms';
-@import './_heights';
-@import './_images';
-@import './_letter-spacing';
-@import './_line-height';
-@import './_links';
-@import './_lists';
-@import './_max-widths';
-@import './_widths';
-@import './_overflow';
-@import './_position';
-@import './_skins';
-@import './_svg-strokes';
-@import './_spacing';
-@import './_text-decoration';
-@import './_text-align';
-@import './_text-transform';
-@import './_type-scale';
-@import './_typography';
-@import './_utilities';
-@import './_visibility';
-@import './_white-space';
-@import './_vertical-align';
-@import './_hovers';
-@import './_styles';
-@import './_gradients';
+@import './src/_base';
+@import './src/_box-sizing';
+@import './src/_background-size';
+@import './src/_borders';
+@import './src/_border-colors';
+@import './src/_border-radius';
+@import './src/_border-style';
+@import './src/_border-widths';
+@import './src/_code';
+@import './src/_coordinates';
+@import './src/_clearfix';
+@import './src/_display';
+@import './src/_floats';
+@import './src/_font-family';
+@import './src/_font-style';
+@import './src/_font-weight';
+@import './src/_forms';
+@import './src/_heights';
+@import './src/_images';
+@import './src/_letter-spacing';
+@import './src/_line-height';
+@import './src/_links';
+@import './src/_lists';
+@import './src/_max-widths';
+@import './src/_widths';
+@import './src/_overflow';
+@import './src/_position';
+@import './src/_skins';
+@import './src/_svg-strokes';
+@import './src/_spacing';
+@import './src/_text-decoration';
+@import './src/_text-align';
+@import './src/_text-transform';
+@import './src/_type-scale';
+@import './src/_typography';
+@import './src/_utilities';
+@import './src/_visibility';
+@import './src/_white-space';
+@import './src/_vertical-align';
+@import './src/_hovers';
+@import './src/_styles';
+@import './src/_gradients';
 
 
-@import './_debug_children';
+@import './src/_debug_children';
 
 /* Uncomment out this line if you want to debug your layout */
-/* @import './_debug'; */
+/* @import './src/_debug'; */
