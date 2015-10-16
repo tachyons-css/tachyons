@@ -37,11 +37,27 @@ glob('examples/components/src/**/*.html', {}, function (err, components) {
     })
     frontMatter.componentHtml = componentHtml
     frontMatter.content = fmParsed.body
-    var compiledPage = _.template(template)(frontMatter)
+
+    var moduleSrcs = {}
+    var getModules = postcss.plugin('get-modules', function () {
+      return function (css, result) {
+        css.walkRules(function (rule) {
+          moduleSrcs[rule.source.input.from] = true
+        })
+      }
+    })
+
     frontMatter.componentCss = postcss([
-      atImport(), cssVariables(), conditionals(), customMedia(), select(frontMatter.classes), removeComments(), mqPacker()
+      atImport(), cssVariables(), conditionals(), customMedia(), select(frontMatter.classes),
+      removeComments(), mqPacker(), getModules()
     ]).process(tachyonsCss).css
 
+    // TODO: Update me once src/ uses the npm modules
+    frontMatter.modules = Object.keys(moduleSrcs).map(function (module) {
+      return 'tachyons-' + module.split('/_')[1].replace('.css', '')
+    })
+
+    var compiledPage = _.template(template)(frontMatter)
     fs.writeFileSync(newDir, compiledPage)
   })
 })

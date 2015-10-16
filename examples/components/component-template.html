@@ -15,11 +15,20 @@
   <ul>
     <% classes.map(renderClass) %>
   </ul>
+
+  <ul>
+    <% modules.map(renderModule) %>
+  </ul>
 </main>
 
 <% function renderClass(klass) { %>
   <li><%= klass %></li>
 <% } %>
+
+<% function renderModule(module) { %>
+  <li><%= module %></li>
+<% } %>
+
 
 <footer class="bg-white gray phm pvxl pvxxl-ns bt b--light-gray h-50">
   <small class="f5 mw7 db center lh-copy">
