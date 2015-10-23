@@ -20,34 +20,6 @@
     "url": "https://github.com/mrmrs/tachyons/issues"
   },
   "devDependencies": {
-    "autoprefixer": "^6.0.3",
-    "browser-sync": "^2.9.11",
-    "css": "^2.1.0",
-    "css-mqpacker": "^4.0.0",
-    "css-parse": "^2.0.0",
-    "cssnano": "^3.3.1",
-    "cssstats": "^2.0.1",
-    "filesize": "^3.1.3",
-    "get-classes-from-html": "^0.1.0",
-    "glob": "^5.0.15",
-    "gzip-size": "^3.0.0",
-    "immutable-css": "^0.1.0",
-    "json-front-matter": "^1.0.0",
-    "lodash": "^3.10.0",
-    "node-minify": "^1.2.0",
-    "perfectionist": "^2.1.2",
-    "pixrem": "^3.0.0",
-    "postcss": "^5.0.0",
-    "postcss-browser-reporter": "^0.4.0",
-    "postcss-conditionals": "^2.0.0",
-    "postcss-css-variables": "^0.5.0",
-    "postcss-custom-media": "^5.0.0",
-    "postcss-custom-properties": "^5.0.0",
-    "postcss-discard-comments": "^2.0.1",
-    "postcss-import": "^7.0.0",
-    "postcss-select": "^0.1.0",
-    "remove-html-extension": "0.0.1",
-    "s3": "^4.4.0",
     "tachyons-background-size": "^2.0.0",
     "tachyons-base": "^1.1.0",
     "tachyons-border-colors": "^2.1.3",
@@ -57,6 +29,7 @@
     "tachyons-borders": "^1.0.2",
     "tachyons-box-sizing": "^2.0.0",
     "tachyons-clears": "^1.0.2",
+    "tachyons-cli": "^0.1.1",
     "tachyons-colors": "^3.0.3",
     "tachyons-debug": "^1.0.0",
     "tachyons-display": "^2.0.1",
@@ -87,9 +60,7 @@
     "tachyons-vertical-align": "^1.0.3",
     "tachyons-visibility": "^0.4.0",
     "tachyons-white-space": "^1.0.2",
-    "tachyons-widths": "^3.0.2",
-    "titleize": "^1.0.0",
-    "watch": "^0.16.0"
+    "tachyons-widths": "^3.0.2"
   },
   "contributors": [
     {
@@ -110,7 +81,7 @@
     }
   ],
   "scripts": {
-    "start": "watch 'node build.js' ./src"
+    "start": "tachyons src/tachyons.css > css/tachyons.css && tachyons -m src/tachyons.css > css/tachyons.min.css"
   },
   "dependencies": {}
 }
