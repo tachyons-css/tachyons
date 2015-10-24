@@ -1,5 +1,9 @@
 # TACHYONS
 
+CSS for designing faster than the speed of light.
+
+For the full set of documentation, please see [tachyons.io](http://tachyons.io).
+
 ## About
 
 Tachyons is a work in progress and still heavily in flux.
