@@ -10,7 +10,6 @@
   position: relative;
 }
 
-
 .aspect-ratio--object {
     bottom: 0;
     height: 100%;
@@ -32,20 +31,3 @@
 }
 
 
-.square-25 { padding-top: 25%; }
-.square-50 { padding-top: 50%; }
-
-@media (--breakpoint-not-small){
-.square-25-ns { padding-top: 25%; }
-.square-50-ns { padding-top: 50%; }
-}
-
-@media (--breakpoint-medium){
-.square-25-m { padding-top: 25%; }
-.square-50-m { padding-top: 50%; }
-}
-
-@media (--breakpoint-large){
-.square-25-l { padding-top: 25%; }
-.square-50-l { padding-top: 50%; }
-}

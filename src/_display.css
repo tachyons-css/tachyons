@@ -1,3 +1,7 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
 /*
 
    DISPLAY
@@ -28,8 +32,7 @@
 .db {     display: block; }
 .dib {    display: inline-block; }
 .dit {    display: inline-table; }
-.dt {     display: table; table-layout: fixed; width: 100%; }
-.dtr {    display: table-row; }
+.dt {     display: table; }
 .dtc {    display: table-cell; }
 .dtcol {  display: table-column; }
 .dtcolg { display: table-column-group; }
@@ -40,8 +43,7 @@
   .db-ns {     display: block; }
   .dib-ns {    display: inline-block; }
   .dit-ns {    display: inline-table; }
-  .dt-ns {     display: table; table-layout: fixed; width: 100%; }
-  .dtr-ns {    display: table-row; }
+  .dt-ns {     display: table; }
   .dtc-ns {    display: table-cell; }
   .dtcol-ns {  display: table-column; }
   .dtcolg-ns { display: table-column-group; }
@@ -53,8 +55,7 @@
   .db-m {     display: block; }
   .dib-m {    display: inline-block; }
   .dit-m {    display: inline-table; }
-  .dt-m {     display: table; table-layout: fixed; width: 100%; }
-  .dtr-m {      display: table-row; }
+  .dt-m {     display: table; }
   .dtc-m {    display: table-cell; }
   .dtcol-m {  display: table-column; }
   .dtcolg-m { display: table-column-group; }
@@ -66,9 +67,9 @@
   .db-l {     display: block; }
   .dib-l {    display: inline-block; }
   .dit-l {    display: inline-table; }
-  .dt-l {     display: table; table-layout: fixed; width: 100%; }
-  .dtr-l {    display: table-row; }
+  .dt-l {     display: table; }
   .dtc-l {    display: table-cell; }
   .dtcol-l {  display: table-column; }
   .dtcolg-l { display: table-column-group; }
 }
+

@@ -1,3 +1,7 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
 /*
 
    WIDTHS
@@ -36,22 +40,22 @@
 
 /* Width Scale */
 
-.w1 {  width: 1rem; }
-.w2 {  width: 2rem; }
-.w3 {  width: 4rem; }
-.w4 {  width: 8rem; }
-.w5 {  width: 16rem; }
+.w1 {    width: 1rem; }
+.w2 {    width: 2rem; }
+.w3 {    width: 4rem; }
+.w4 {    width: 8rem; }
+.w5 {    width: 16rem; }
 
-.w-10 { width:  10%; }
-.w-20 { width:  20%; }
-.w-25 { width:  25%; }
-.w-33 { width:  33%; }
-.w-34 { width:  34%; }
-.w-40 { width:  40%; }
-.w-50 { width:  50%; }
-.w-60 { width:  60%; }
-.w-75 { width:  75%; }
-.w-80 { width:  80%; }
+.w-10 {  width:  10%; }
+.w-20 {  width:  20%; }
+.w-25 {  width:  25%; }
+.w-33 {  width:  33%; }
+.w-34 {  width:  34%; }
+.w-40 {  width:  40%; }
+.w-50 {  width:  50%; }
+.w-60 {  width:  60%; }
+.w-75 {  width:  75%; }
+.w-80 {  width:  80%; }
 .w-100 { width: 100%; }
 
 .w-auto { width: auto; }

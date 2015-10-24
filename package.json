@@ -23,6 +23,8 @@
     "url": "https://github.com/tachyons-css/tachyons/issues"
   },
   "devDependencies": {
+    "copy-files": "^0.1.0",
+    "normalize.css": "^3.0.3",
     "tachyons-background-size": "^2.0.0",
     "tachyons-base": "^1.1.0",
     "tachyons-border-colors": "^2.1.3",

@@ -1,5 +1,102 @@
 /*
 
+   COLOR VARIABLES
+
+   Variables to set colors for
+   color, background-color, and border-color
+
+*/
+
+/* variables */
+:root {
+
+  --black-100: rgba(0,0,0,1);
+  --black-90: rgba(0,0,0,.9);
+  --black-80: rgba(0,0,0,.8);
+  --black-70: rgba(0,0,0,.7);
+  --black-60: rgba(0,0,0,.6);
+  --black-50: rgba(0,0,0,.5);
+  --black-40: rgba(0,0,0,.4);
+  --black-30: rgba(0,0,0,.3);
+  --black-20: rgba(0,0,0,.2);
+  --black-10: rgba(0,0,0,.1);
+  --black-05: rgba(0,0,0,.05);
+
+  --white-100: rgba(255,255,255,1);
+  --white-90: rgba(255,255,255,.9);
+  --white-80: rgba(255,255,255,.8);
+  --white-70: rgba(255,255,255,.7);
+  --white-60: rgba(255,255,255,.6);
+  --white-50: rgba(255,255,255,.5);
+  --white-40: rgba(255,255,255,.4);
+  --white-30: rgba(255,255,255,.3);
+  --white-20: rgba(255,255,255,.2);
+  --white-10: rgba(255,255,255,.1);
+
+  --black: #000;
+  --near-black: #111;
+  --dark-gray:#333;
+  --mid-gray:#555;
+  --gray: #777;
+  --silver: #999;
+  --light-silver: #aaa;
+  --moon-gray: #ccc;
+  --light-gray: #eee;
+  --near-white: #f4f4f4;
+  --white: #fff;
+
+  --blue: #0074D9;
+  --light-blue: #64a8ff;
+  --lightest-blue: #a2dfff;
+  --dark-blue: #0045a1;
+  --darkest-blue: #002f86;
+
+  --yellow: #fff93c;
+  --light-yellow: #fffa60;
+  --lightest-yellow: #fffca6;
+  --dark-yellow: #e2c100;
+  --darkest-yellow: #c4a600;
+
+  --orange: #FF851B;
+  --light-orange: #ffa942;
+  --lightest-orange: #ffc55d;
+  --dark-orange: #d05e00;
+  --darkest-orange: #b14400;
+
+  --red: #d82c2c;
+  --light-red: #f94f44;
+  --lightest-red: #ff6c5c;
+  --dark-red: #bd001a;
+  --darkest-red: #9d0003;
+
+  --teal: #27bfa8;
+  --light-teal: #4eddc5;
+  --lightest-teal: #6ffae0;
+  --dark-teal: #25a28f;
+  --darkest-teal: #008876;
+
+  --green: #3D9970;
+  --light-green: #5ab48a;
+  --lightest-green: #75d0a4;
+  --dark-green: #1e7f58;
+  --darkest-green: #006540;
+
+  --pink: #F012BE;
+  --light-pink: #ff57e8;
+  --lightest-pink: #ff81ff;
+  --dark-pink: #d100a3;
+  --darkest-pink: #b20088;
+
+  --purple: #980bc6;
+  --light-purple: #b536e2;
+  --lightest-purple: #d355ff;
+  --dark-purple: #7b00a9;
+  --darkest-purple: #5f008e;
+}
+
+
+/*
+
    SKINS
 
 */
@@ -32,88 +129,28 @@
 .bg-black-20 {         background-color: var(--black-20); }
 .bg-black-10 {         background-color: var(--black-10); }
 .bg-black-05 {         background-color: var(--black-05); }
-.bg-black-025 {         background-color: var(--black-025); }
-.bg-black-0125 {         background-color: var(--black-0125); }
 
-.bg-black-100-focus:hover,
-.bg-black-100-focus:focus {        background-color: var(--black-100); }
-.bg-black-90-focus:hover,
-.bg-black-90-focus:focus {         background-color: var(--black-90); }
-.bg-black-80-focus:hover,
-.bg-black-80-focus:focus {         background-color: var(--black-80); }
-.bg-black-70-focus:hover,
-.bg-black-70-focus:focus {         background-color: var(--black-70); }
-.bg-black-60-focus:hover,
-.bg-black-60-focus:focus {         background-color: var(--black-60); }
-.bg-black-50-focus:hover,
-.bg-black-50-focus:focus {         background-color: var(--black-50); }
-.bg-black-40-focus:hover,
-.bg-black-40-focus:focus {         background-color: var(--black-40); }
-.bg-black-30-focus:hover,
-.bg-black-30-focus:focus {         background-color: var(--black-30); }
-.bg-black-20-focus:hover,
-.bg-black-20-focus:focus {         background-color: var(--black-20); }
-.bg-black-10-focus:hover,
-.bg-black-10-focus:focus {         background-color: var(--black-10); }
-.bg-black-05-focus:hover,
-.bg-black-05-focus:focus {         background-color: var(--black-05); }
-.bg-black-025-focus:hover,
-.bg-black-025-focus:focus {         background-color: var(--black-025); }
-
-.white-100,
-.white-100::placeholder {         color: var(--white-100); }
-.white-90,
-.white-90::placeholder {         color: var(--white-90); }
-.white-80,
-.white-80::placeholder {         color: var(--white-80); }
-.white-70,
-.white-70::placeholder {         color: var(--white-70); }
-.white-60,
-.white-60::placeholder {         color: var(--white-60); }
-.white-50,
-.white-50::placeholder {         color: var(--white-50); }
-.white-40,
-.white-40::placeholder {         color: var(--white-40); }
-.white-30,
-.white-30::placeholder {         color: var(--white-30); }
-.white-20,
-.white-20::placeholder {         color: var(--white-20); }
-.white-10,
-.white-10::placeholder {         color: var(--white-10); }
+.white-100 {         color: var(--white-100); }
+.white-90 {         color: var(--white-90); }
+.white-80 {         color: var(--white-80); }
+.white-70 {         color: var(--white-70); }
+.white-60 {         color: var(--white-60); }
+.white-50 {         color: var(--white-50); }
+.white-40 {         color: var(--white-40); }
+.white-30 {         color: var(--white-30); }
+.white-20 {         color: var(--white-20); }
+.white-10 {         color: var(--white-10); }
 
 .bg-white-100 {       background-color: var(--white-100); }
-.bg-white-90  {        background-color: var(--white-90); }
-.bg-white-80  {        background-color: var(--white-80); }
-.bg-white-70  {        background-color: var(--white-70); }
-.bg-white-60  {        background-color: var(--white-60); }
-.bg-white-50  {        background-color: var(--white-50); }
-.bg-white-40  {        background-color: var(--white-40); }
-.bg-white-30  {        background-color: var(--white-30); }
-.bg-white-20  {        background-color: var(--white-20); }
-.bg-white-10  {        background-color: var(--white-10); }
-.bg-white-05  {        background-color: var(--white-05); }
-.bg-white-025  {        background-color: var(--white-025); }
-
-.bg-white-100-focus:hover,
-.bg-white-100-focus:focus {       background-color: var(--white-100); }
-.bg-white-90-focus:hover,
-.bg-white-90-focus:focus {        background-color: var(--white-90); }
-.bg-white-80-focus:hover,
-.bg-white-80-focus:focus {        background-color: var(--white-80); }
-.bg-white-70-focus:hover,
-.bg-white-70-focus:focus {        background-color: var(--white-70); }
-.bg-white-60-focus:hover,
-.bg-white-60-focus:focus {        background-color: var(--white-60); }
-.bg-white-50-focus:hover,
-.bg-white-50-focus:focus {        background-color: var(--white-50); }
-.bg-white-40-focus:hover,
-.bg-white-40-focus:focus {        background-color: var(--white-40); }
-.bg-white-30-focus:hover,
-.bg-white-30-focus:focus {        background-color: var(--white-30); }
-.bg-white-20-focus:hover,
-.bg-white-20-focus:focus {        background-color: var(--white-20); }
-.bg-white-10-focus:hover,
-.bg-white-10-focus:focus {        background-color: var(--white-10); }
+.bg-white-90 {        background-color: var(--white-90); }
+.bg-white-80 {        background-color: var(--white-80); }
+.bg-white-70 {        background-color: var(--white-70); }
+.bg-white-60 {        background-color: var(--white-60); }
+.bg-white-50 {        background-color: var(--white-50); }
+.bg-white-40 {        background-color: var(--white-40); }
+.bg-white-30 {        background-color: var(--white-30); }
+.bg-white-20 {        background-color: var(--white-20); }
+.bg-white-10 {        background-color: var(--white-10); }
 
 .black {         color: var(--near-black); }
 .dark-gray {     color: var(--dark-gray); }

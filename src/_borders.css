@@ -1,52 +1,26 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
 /*
 
    BORDER BASE
 
-   Use border-base in combination with setting text color
-   or by using extensions from border-color module.
+   Legend
 
-   Examples:
-   To set a border of blue on all sides:
-   <div class="ba b--blue"></div>
-
-   To set a border on top of orange
-   <div class="bt b--orange"></div>
-
-   Base:
-    b = border
-
-   Modifiers:
-     n = none, no border-style or border-width
-     a = all
-     t = top
-     r = right
-     b = bottom
-     l = left
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+   a = all
+   t = top
+   r = right
+   b = bottom
+   l = left
 
 */
 
-/* The extra `.bn` is required to boost the specificity, which is needed
- * sometimes if you are setting the border to 0. */
   .ba { border-style: solid; border-width: 1px; }
   .bt { border-top-style: solid; border-top-width: 1px; }
   .br { border-right-style: solid; border-right-width: 1px; }
   .bb { border-bottom-style: solid; border-bottom-width: 1px; }
   .bl { border-left-style: solid; border-left-width: 1px; }
-  .bn { border-style: solid; border-width: 0; }
-
-  .bda { border-style: dotted; border-width: 1px; }
-  .bdt { border-top-style: dotted; border-top-width: 1px; }
-  .bdr { border-right-style: dotted; border-right-width: 1px; }
-  .bdb { border-bottom-style: dotted; border-bottom-width: 1px; }
-  .bdl { border-left-style: dotted; border-left-width: 1px; }
-
-  .bhn { border-right-width: 0; border-left-width: 0; }
-  .bvn { border-top-width: 0; border-bottom-width: 0; }
 
 @media (--breakpoint-not-small) {
   .ba-ns { border-style: solid; border-width: 1px; }
@@ -54,13 +28,6 @@
   .br-ns { border-right-style: solid; border-right-width: 1px; }
   .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
   .bl-ns { border-left-style: solid; border-left-width: 1px; }
-  .bda-ns { border-style: dotted; border-width: 1px; }
-  .bdt-ns { border-top-style: dotted; border-top-width: 1px; }
-  .bdr-ns { border-right-style: dotted; border-right-width: 1px; }
-  .bdb-ns { border-bottom-style: dotted; border-bottom-width: 1px; }
-  .bdl-ns { border-left-style: dotted; border-left-width: 1px; }
-  .bn-ns { border-style: solid; border-width: 0; }
-  .bhn-ns { border-right-width: 0; border-left-width: 0; }
 }
 
 @media (--breakpoint-medium) {
@@ -69,12 +36,6 @@
   .br-m { border-right-style: solid; border-right-width: 1px; }
   .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
   .bl-m { border-left-style: solid; border-left-width: 1px; }
-  .bda-m { border-style: dotted; border-width: 1px; }
-  .bdt-m { border-top-style: dotted; border-top-width: 1px; }
-  .bdr-m { border-right-style: dotted; border-right-width: 1px; }
-  .bdb-m { border-bottom-style: dotted; border-bottom-width: 1px; }
-  .bdl-m { border-left-style: dotted; border-left-width: 1px; }
-  .bn-m { border-style: solid; border-width: 0; }
 }
 
 @media (--breakpoint-large) {
@@ -83,10 +44,5 @@
   .br-l { border-right-style: solid; border-right-width: 1px; }
   .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
   .bl-l { border-left-style: solid; border-left-width: 1px; }
-  .bda-l { border-style: dotted; border-width: 1px; }
-  .bdt-l { border-top-style: dotted; border-top-width: 1px; }
-  .bdr-l { border-right-style: dotted; border-right-width: 1px; }
-  .bdb-l { border-bottom-style: dotted; border-bottom-width: 1px; }
-  .bdl-l { border-left-style: dotted; border-left-width: 1px; }
-  .bn-l { border-style: solid; border-width: 0; }
 }
+
