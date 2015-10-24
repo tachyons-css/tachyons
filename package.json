@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mrmrs/tachyons.git"
+    "url": "git://github.com/tachyons-css/tachyons.git"
   },
   "keywords": [
     "css",
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons/issues"
+    "url": "https://github.com/tachyons-css/tachyons/issues"
   },
   "devDependencies": {
     "tachyons-background-size": "^2.0.0",
@@ -84,7 +84,7 @@
     }
   ],
   "scripts": {
-    "start": "tachyons src/tachyons.css > css/tachyons.css && tachyons -m src/tachyons.css > css/tachyons.min.css"
+    "start": "node build.js && tachyons src/tachyons.css > css/tachyons.css && tachyons src/tachyons.css -m > css/tachyons.min.css"
   },
   "dependencies": {}
 }
