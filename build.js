@@ -15,11 +15,8 @@ var modules = Object.keys(pkg.devDependencies).filter(function (module) {
 
 var files = {}
 modules.forEach(function (module) {
-  var moduleLocation = isTachyonsModule(module) ?
-    __dirname + '/node_modules/' + module + '/src/' + module + '.css' :
-    __dirname + '/node_modules/' + module + '/' + module
-
-  var moduleName = module.replace(/(tachyons-|\.css)/, '')
+  var moduleLocation = getModuleCssLocation(module)
+  var moduleName = getModuleKey(module)
   files['_' + moduleName + '.css'] = moduleLocation
 })
 
@@ -37,4 +34,22 @@ copy({
 
 function isTachyonsModule (module) {
   return module.indexOf('tachyons') !== -1
+}
+
+function isNormalizeModule (module) {
+  return module === 'normalize.css'
+}
+
+function getModuleCssLocation (module) {
+  if (isTachyonsModule(module)) {
+    return __dirname + '/node_modules/' + module + '/src/' + module + '.css'
+  } else if (isNormalizeModule(module)) {
+    return __dirname + '/node_modules/' + module + '/' + module
+  } else {
+    console.error('Unknown module: ' + module)
+  }
+}
+
+function getModuleKey (module) {
+  return module.replace(/(tachyons-|\.css)/ig, '')
 }

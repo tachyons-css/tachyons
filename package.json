@@ -87,6 +87,7 @@
     {
       "name": "john otander",
       "url": "http://johnotander.com"
+    }
   ],
   "scripts": {
     "start": "node build.js && tachyons src/tachyons.css > css/tachyons.css && tachyons src/tachyons.css -m > css/tachyons.min.css"
