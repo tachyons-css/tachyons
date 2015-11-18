@@ -1,36 +1,35 @@
 var pkg = require('./package.json')
+var tachyonsModules = require('tachyons-modules')
 var copy = require('copy-files')
 
-var ignoredModules = [
-  'tachyons-cli',
-  'tachyons-queries'  // For now, need to update to play nice
-]
+tachyonsModules().then(function (cssModules) {
+  var cssModules = cssModules.map(function (cssModules) {
+    return cssModule.name
+  })
 
-var modules = Object.keys(pkg.devDependencies).filter(function (module) {
-  return (
-    isTachyonsModule(module) ||
-    module === 'normalize.css'
-  ) && ignoredModules.indexOf(module) == -1
+  var files = constructFiles(cssModules.push('normalize.css'))
+
+  copy({
+    files: files,
+    dest: __dirname + '/src',
+    overwrite: true
+  }, function (err) {
+    if (err) {
+      console.error('Error occurred copying files')
+      console.error(err)
+      process.exit(1)
+    }
+  })
 })
 
-var files = {}
-modules.forEach(function (module) {
-  var moduleLocation = getModuleCssLocation(module)
-  var moduleName = getModuleKey(module)
-  files['_' + moduleName + '.css'] = moduleLocation
-})
-
-copy({
-  files: files,
-  dest: __dirname + '/src',
-  overwrite: true
-}, function (err) {
-  if (err) {
-    console.error('Error occurred copying files')
-    console.error(err)
-    process.exit(1)
-  }
-})
+function constructFiles (modules) {
+  var files = {}
+  modules.forEach(function (module) {
+    var moduleLocation = getModuleCssLocation(module)
+    var moduleName = getModuleKey(module)
+    files['_' + moduleName + '.css'] = moduleLocation
+  })
+}
 
 function isTachyonsModule (module) {
   return module.indexOf('tachyons') !== -1
