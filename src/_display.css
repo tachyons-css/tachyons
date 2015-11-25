@@ -15,6 +15,7 @@
     tr    = table-row
     tcol  = table-column
     tcolg = table-column-group
+    f     = flex
 
    Media Query Extensions:
      -ns = not-small
@@ -33,6 +34,7 @@
 .dtc {    display: table-cell; }
 .dtcol {  display: table-column; }
 .dtcolg { display: table-column-group; }
+.df {     display: flex; }
 
 @media (--breakpoint-not-small) {
   .dn-ns {     display: none; }
@@ -45,6 +47,7 @@
   .dtc-ns {    display: table-cell; }
   .dtcol-ns {  display: table-column; }
   .dtcolg-ns { display: table-column-group; }
+  .df-ns {     display: flex; }
 }
 
 @media (--breakpoint-medium) {
@@ -58,6 +61,7 @@
   .dtc-m {    display: table-cell; }
   .dtcol-m {  display: table-column; }
   .dtcolg-m { display: table-column-group; }
+  .df-m {     display: flex; }
 }
 
 @media (--breakpoint-large) {
@@ -71,4 +75,5 @@
   .dtc-l {    display: table-cell; }
   .dtcol-l {  display: table-column; }
   .dtcolg-l { display: table-column-group; }
+  .df-l {     display: flex; }
 }

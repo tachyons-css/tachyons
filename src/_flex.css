@@ -1,0 +1,231 @@
+/*
+
+   FLEX BOX LAYOUT
+
+   Use them in conjunction with `df` base class (display: flex), found on the
+   Display module.
+
+   Mix & match container-level flex properties with item-level ones to achieve
+   desired flex box layouts.
+
+   More complex flex layout system may need more fine-tuned values for different
+   flex properties, but in most cases, simple layouts can easily be achieved by
+   a combination of the classes enlisted here.
+
+
+   For further reference:
+   https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+
+   Base:
+    flx = Base for all flex-related properties
+
+   Modifiers:
+    dr = sets flex direction to row (default value)
+    dc = sets flex direction to column
+    drr = sets flex direction to reversed row
+    dcr = sets flex direction to reversed column
+
+    i = sets a flex item, standing for `flex: 1`; property value, which is a
+    shorthand for `flex-grow: 1;`, `flex-shrink: 1;` and `flex-basis: auto;`.
+    This is the most likely usage for a flex item: to grow so as to take all
+    white space available.
+
+    g0 = sets flex grow to 0
+    s0 = sets flex shrink to 0
+    b0 = sets flex basis to 0%
+    g1 = sets flex grow to 1
+    s1 = sets flex shrink to 1
+    b1 = sets flex basis to 100%
+
+    ais = align items to stretch (default)
+    aifs = align items to start (flex-start)
+    aife = align items to end (flex-end)
+    aic = align items to center
+    aib = align items to baseline
+
+    acs = align content to stretch (default)
+    acfs = align content to start (flex-start)
+    acfe = align content to end (flex-end)
+    acc = align content to center
+    acsb = align content with space between
+    acsa = align content with space around
+
+    ass = align self to stretch (default)
+    asfs = align self to start (flex-start)
+    asfe = align self to end (flex-end)
+    asc = align self to center
+    asb = align self to baseline
+
+    jcfs = justify content to start (flex-start, default)
+    jcfe = justify content to end (flex-end)
+    jcc = justify content to center
+    jcsb = justify content to space between
+    jcsa = justify content to space around
+
+    w = flex wrap
+    wr = flex wrap reverse
+    wn = flex no wrap (default)
+
+    o0 = order 0
+    o1 = order 1
+    o2 = order 2
+    o3 = order 3
+    o4 = order 4
+    o5 = order 5
+
+*/
+
+/*
+  FLEX DIRECTION
+ */
+.flx-dc {
+  flex-direction: column;
+}
+.flx-dr {
+  flex-direction: row;
+}
+.flx-dcr {
+  flex-direction: column-reverse;
+}
+.flx-drr {
+  flex-direction: row-reverse;
+}
+
+/*
+  FLEX
+ */
+.flx-i {
+  flex: 1;
+}
+.flx-g0 {
+  flex-grow: 0;
+}
+.flx-s0 {
+  flex-shrink: 0;
+}
+.flx-b0 {
+  flex-basis: 0%;
+}
+.flx-g1 {
+  flex-grow: 1;
+}
+.flx-s1 {
+  flex-shrink: 1;
+}
+.flx-b1 {
+  flex-basis: 100%;
+}
+
+/*
+  ALIGN ITEMS
+ */
+.flx-ais {
+  align-items: stretch;
+}
+.flx-aifs {
+  align-items: flex-start;
+}
+.flx-aife {
+  align-items: flex-end;
+}
+.flx-aic {
+  align-items: center;
+}
+.flx-aib {
+  align-items: baseline;
+}
+
+/*
+  ALIGN CONTENT
+ */
+.flx-acs {
+  align-content: stretch;
+}
+.flx-acfs {
+  align-content: flex-start;
+}
+.flx-acfe {
+  align-content: flex-end;
+}
+.flx-acc {
+  align-content: center;
+}
+.flx-acsb {
+  align-content: space-between;
+}
+.flx-acsa {
+  align-content: space-around;
+}
+
+/*
+  ALIGN SELF
+ */
+.flx-ass {
+  align-self: stretch;
+}
+.flx-asfs {
+  align-self: flex-start;
+}
+.flx-asfe {
+  align-self: flex-end;
+}
+.flx-asc {
+  align-self: center;
+}
+.flx-asb {
+  align-self: baseline;
+}
+
+/*
+  JUSTIFY CONTENT
+ */
+.flx-jcfs {
+  justify-content: flex-start;
+}
+.flx-jcfe {
+  justify-content: flex-end;
+}
+.flx-jcc {
+  justify-content: center;
+}
+.flx-jcsb {
+  justify-content: space-between;
+}
+.flx-jcsa {
+  justify-content: space-around;
+}
+
+/*
+  WRAP
+ */
+.flx-w {
+  flex-wrap: wrap;
+}
+.flx-wr {
+  flex-wrap: wrap-reverse;
+}
+.flx-wn {
+  flex-wrap: nowrap;
+}
+
+/*
+  ORDER
+ */
+.flx-o0 {
+  order: 0;
+}
+.flx-o1 {
+  order: 1;
+}
+.flx-o2 {
+  order: 2;
+}
+.flx-o3 {
+  order: 3;
+}
+.flx-o4 {
+  order: 4;
+}
+.flx-o5 {
+  order: 5;
+}
