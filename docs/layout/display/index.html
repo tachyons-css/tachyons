@@ -92,6 +92,20 @@
     <div class="dtc v-mid paxs bg-black-10">will automatically</div>
     <div class="dtc v-mid paxs bg-black-20">compute cell width</div>
   </div>
+
+  <h3 class="f5 book ptl caps">Display Flex</h3>
+  <p class="measure">
+    Display flex is the starting point to achieve flex box layouts; set this
+    class onto your desired flex container, and use the <a class="blue link dim" href="/docs/layout/flex">Flex</a> module
+    to play around with flex items and other properties.
+  </p>
+  <div class="df bg-black-10 mbs">
+    <div class="flx-i paxs bg-black-10">these</div>
+    <div class="flx-i paxs bg-black-20">are</div>
+    <div class="flx-i paxs bg-black-10">flex</div>
+    <div class="flx-i paxs bg-black-20">items</div>
+  </div>
+
   <h3 class="f5 book ptl caps">Display None</h3>
   <p class="measure">
     You can set the display of any element to none by tacking on the <code class="code">dn</code> class.
@@ -121,6 +135,7 @@
     tr    = table-row
     tcol  = table-column
     tcolg = table-column-group
+    f     = flex
 
    Media Query Extensions:
      -ns = not-small
@@ -139,6 +154,7 @@
 .dtc {    display: table-cell; }
 .dtcol {  display: table-column; }
 .dtcolg { display: table-column-group; }
+.df {     display: flex; }
 
 @media (--breakpoint-not-small) {
   .dn-ns {     display: none; }
@@ -151,6 +167,7 @@
   .dtc-ns {    display: table-cell; }
   .dtcol-ns {  display: table-column; }
   .dtcolg-ns { display: table-column-group; }
+  .df-ns {     display: flex; }
 }
 
 @media (--breakpoint-medium) {
@@ -164,6 +181,7 @@
   .dtc-m {    display: table-cell; }
   .dtcol-m {  display: table-column; }
   .dtcolg-m { display: table-column-group; }
+  .df-m {     display: flex; }
 }
 
 @media (--breakpoint-large) {
@@ -177,6 +195,7 @@
   .dtc-l {    display: table-cell; }
   .dtcol-l {  display: table-column; }
   .dtcolg-l { display: table-column-group; }
+  .df-l {     display: flex; }
 }
 </code>
 </pre>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      Flex / Layout / Docs / TACHYONS
+    </title>
+    <meta name="author" content="@mrmrs">
+    <meta name="description" content="CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.css">
+  </head>
+  <body class="w-100 sans-serif">
+    <header class="bg-dark-gray white pbl">
+      <div class="bb b--mid-gray phm phl-ns pvl">
+        <h1 class="f4 ttu mtn heavy tracked"><a class="white link dim" href="/">Tachyons</a></h1>
+        <h2 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/">Docs</a></h2>
+        <span class="thin white-40">/</span>
+        <h3 class="f4 mvn semibold dib prxs"><a class="lightest-blue link dim" href="/docs/#layout">Layout</a></h3>
+        <span class="thin white-40">/</span>
+        <h4 class="f4 mvn semibold dib">Flex</h4>
+      </div>
+      <div class="phm phl-ns pvm">
+        <p class="measure f3 lh-copy">
+          Flex Box Layouts could easily be achieved by mixing & matching flex-related properties,
+          stablishing a behavioral relationship between the flex container, and its inner flex items.
+        </p>
+        <p class="measure f4 lh-copy">
+          While flex box layout implementations are limitless, there are still some regularly common
+          use cases from where to start. The classes enlisted here should provide enough flexibility
+          to tackle down most of those scenarios, while keeping a simple and clear nomenclature.
+        </p>
+      </div>
+    </header>
+    <main class="">
+
+      <!-- Examples -->
+      <div class="phm phl-ns ptl pbxl">
+        <h2 class="f3 bold">Examples</h2>
+        <p class="f5">Note: these are just basic examples of Flex Box Layout usage. The resulted combination of all classes provided by this library is too large to be enlisted.</p>
+
+        <h3 class="f5 book ptl caps">flex items along x axis</h3>
+        <p class="f5">Items will be equally distributed, taking the available white space.</p>
+        <div class="df">
+          <div class="flx-i bg-black-10">Item 1</div>
+          <div class="flx-i bg-black-20">Item 2</div>
+          <div class="flx-i bg-black-30">Item 3</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis reversed</h3>
+        <div class="df flx-drr">
+          <div class="flx-i bg-black-10">Item 1</div>
+          <div class="flx-i bg-black-20">Item 2</div>
+          <div class="flx-i bg-black-30">Item 3</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along y axis</h3>
+        <p class="f5">Items will be equally distributed, taking the available white space inside the container, which has a fixed height.</p>
+        <div class="df flx-dc h5">
+          <div class="flx-i bg-black-10">Item 1</div>
+          <div class="flx-i bg-black-20">Item 2</div>
+          <div class="flx-i bg-black-30">Item 3</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along y axis reversed</h3>
+        <div class="df flx-dcr h5">
+          <div class="flx-i bg-black-10">Item 1</div>
+          <div class="flx-i bg-black-20">Item 2</div>
+          <div class="flx-i bg-black-30">Item 3</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis aligned to top</h3>
+        <p class="f5">Items will be aligned to the top of the container, which has a fixed height.</p>
+        <div class="df flx-aifs h3 bg-black-05">
+          <div class="flx-i bg-black-10">Item 1</div>
+          <div class="flx-i bg-black-20">Item 2</div>
+          <div class="flx-i bg-black-30">Item 3</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis aligned to bottom</h3>
+        <p class="f5">Items will be aligned to the bottom of the container.</p>
+        <div class="df flx-aife h3 bg-black-05">
+          <div class="flx-i bg-black-10">Item 1</div>
+          <div class="flx-i bg-black-20">Item 2</div>
+          <div class="flx-i bg-black-30">Item 3</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis with different alignments</h3>
+        <p class="f5">Making use of the <span class="code">align-self</span> property inside each item.</p>
+        <div class="df h3 bg-black-05">
+          <div class="flx-i flx-asfs bg-black-10">Align to start</div>
+          <div class="flx-i flx-asfe bg-black-20">Align to end</div>
+          <div class="flx-i flx-asc bg-black-30">Centered</div>
+          <div class="flx-i flx-ass bg-black-40 white">Stretched</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis justified to the start</h3>
+        <div class="df flx-jcfs h3 bg-black-05">
+          <div class="w2 oh bg-black-10">Item 1</div>
+          <div class="w2 oh bg-black-20">Item 2</div>
+          <div class="w2 oh bg-black-30">Item 3</div>
+          <div class="w2 oh bg-black-40 white">Item 4</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis justified to the end</h3>
+        <div class="df flx-jcfe h3 bg-black-05">
+          <div class="w2 oh bg-black-10">Item 1</div>
+          <div class="w2 oh bg-black-20">Item 2</div>
+          <div class="w2 oh bg-black-30">Item 3</div>
+          <div class="w2 oh bg-black-40 white">Item 4</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis justified at the center</h3>
+        <div class="df flx-jcc h3 bg-black-05">
+          <div class="bg-black-10">Item 1</div>
+          <div class="bg-black-20">Item 2</div>
+          <div class="bg-black-30">Item 3</div>
+          <div class="bg-black-40 white">Item 4</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis with space between</h3>
+        <div class="df flx-jcsb h3 bg-black-05">
+          <div class="bg-black-10">Item 1</div>
+          <div class="bg-black-20">Item 2</div>
+          <div class="bg-black-30">Item 3</div>
+          <div class="bg-black-40 white">Item 4</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis with space around</h3>
+        <div class="df flx-jcsa h3 bg-black-05">
+          <div class="bg-black-10">Item 1</div>
+          <div class="bg-black-20">Item 2</div>
+          <div class="bg-black-30">Item 3</div>
+          <div class="bg-black-40 white">Item 4</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along x axis, mixing & matching alignments</h3>
+        <div class="df flx-jcsa h4 bg-black-05">
+          <div class="flx-asfs pas bg-black-10">Item 1</div>
+          <div class="flx-asfe pas bg-black-20">Item 2</div>
+          <div class="flx-asc pas bg-black-30">Item 3</div>
+          <div class="flx-ass pas bg-black-40 white">Item 4</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items along y axis, mixing & matching alignments</h3>
+        <div class="df flx-dc flx-jcsb h5 bg-black-05">
+          <div class="flx-asfs pas bg-black-10">Item 1</div>
+          <div class="flx-asfe pas bg-black-20">Item 2</div>
+          <div class="flx-asc pas bg-black-30">Item 3</div>
+          <div class="flx-ass pas bg-black-40 white">Item 4</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items wrapped</h3>
+        <p class="f5">Items have a fixed width.</p>
+        <div class="df flx-w">
+          <div class="w-40 bg-black-10 pas">Item 1</div>
+          <div class="w-40 bg-black-20 pas">Item 2</div>
+          <div class="w-40 bg-black-30 pas">Item 3</div>
+          <div class="w-40 bg-black-40 pas white">Item 4</div>
+          <div class="w-40 bg-black-50 pas white">Item 5</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items wrapped in reverse</h3>
+        <div class="df flx-wr">
+          <div class="w-40 bg-black-10 pas">Item 1</div>
+          <div class="w-40 bg-black-20 pas">Item 2</div>
+          <div class="w-40 bg-black-30 pas">Item 3</div>
+          <div class="w-40 bg-black-40 pas white">Item 4</div>
+          <div class="w-40 bg-black-50 pas white">Item 5</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">flex items not allowed to wrap</h3>
+        <p class="f5">See how, although items are supposed to be wider, they get shrunk to fit into the flex container.</p>
+        <div class="df flx-wn">
+          <div class="w-40 bg-black-10 pas">Item 1</div>
+          <div class="w-40 bg-black-20 pas">Item 2</div>
+          <div class="w-40 bg-black-30 pas">Item 3</div>
+          <div class="w-40 bg-black-40 pas white">Item 4</div>
+          <div class="w-40 bg-black-50 pas white">Item 5</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">altering order programatically</h3>
+        <p class="f5">Compare the order that the elements are enlisted in the markup, with the orders set by the <span class="code">order</span> property.</p>
+        <div class="df">
+          <div class="flx-i flx-o1 bg-black-10 pas">Item 1</div>
+          <div class="flx-i flx-o4 bg-black-20 pas">Item 2</div>
+          <div class="flx-i flx-o0 bg-black-30 pas">Item 3</div>
+          <div class="flx-i flx-o3 bg-black-40 pas white">Item 4</div>
+          <div class="flx-i flx-o2 bg-black-50 pas white">Item 5</div>
+        </div>
+
+        <h3 class="f5 book ptl caps">common layout case: header, content, footer</h3>
+        <p class="f5">Consider a basic layout with fixed header and footer, a "flexed" content will always take the whole available height, regardless.</p>
+        <div class="df">
+          <div class="df flx-i flx-dc h4 prm">
+            <div class="paxs bg-black-30">Header</div>
+            <div class="paxs flx-i bg-black-10">Content</div>
+            <div class="paxs bg-black-30">Footer</div>
+          </div>
+          <div class="df flx-i flx-dc h5">
+            <div class="paxs bg-black-30">Header</div>
+            <div class="paxs flx-i bg-black-10">Content</div>
+            <div class="paxs bg-black-30">Footer</div>
+          </div>
+        </div>
+
+        <h3 class="f5 book ptl caps">common layout case: distribute items evenly</h3>
+        <p class="f5">Distribute items with different size, proportionally across a given container, keeping an even space between them and the edges.</p>
+        <div class="df flx-jcsa bg-black-10 h5">
+            <div class="flx-asc tc pas bg-black-10">this</div>
+            <div class="flx-asc tc pas bg-black-10 h2">items</div>
+            <div class="flx-asc tc pas bg-black-10">have</div>
+            <div class="flx-asc tc pas bg-black-10 h3">different</div>
+            <div class="flx-asc tc pas bg-black-10">widths</div>
+            <div class="flx-asc tc pas bg-black-10 h4">and</div>
+            <div class="flx-asc tc pas bg-black-10">heights</div>
+        </div>
+
+      </div>
+
+      <section class="bg-dark-gray white ptl pbxl">
+<header class="phm phl-ns ptl">
+        <kbd class="yellow">src/_flex.css</kbd>
+</header>
+<pre class="phm phl-ns">
+<code class="small">
+/*
+
+   FLEX BOX LAYOUT
+
+   Use them in conjunction with `df` base class (display: flex), found on the
+   Display module.
+
+   Mix & match container-level flex properties with item-level ones to achieve
+   desired flex box layouts.
+
+   More complex flex layout system may need more fine-tuned values for different
+   flex properties, but in most cases, simple layouts can easily be achieved by
+   a combination of the classes enlisted here.
+
+
+   For further reference:
+   https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+
+   Base:
+    flx = Base for all flex-related properties
+
+   Modifiers:
+    dr = sets flex direction to row (default value)
+    dc = sets flex direction to column
+    drr = sets flex direction to reversed row
+    dcr = sets flex direction to reversed column
+
+    i = sets a flex item, standing for `flex: 1`; property value, which is a
+    shorthand for `flex-grow: 1;`, `flex-shrink: 1;` and `flex-basis: auto;`.
+    This is the most likely usage for a flex item: to grow so as to take all
+    white space available.
+
+    g0 = sets flex grow to 0
+    s0 = sets flex shrink to 0
+    b0 = sets flex basis to 0%
+    g1 = sets flex grow to 1
+    s1 = sets flex shrink to 1
+    b1 = sets flex basis to 100%
+
+    ais = align items to stretch (default)
+    aifs = align items to start (flex-start)
+    aife = align items to end (flex-end)
+    aic = align items to center
+    aib = align items to baseline
+
+    acs = align content to stretch (default)
+    acfs = align content to start (flex-start)
+    acfe = align content to end (flex-end)
+    acc = align content to center
+    acsb = align content with space between
+    acsa = align content with space around
+
+    ass = align self to stretch (default)
+    asfs = align self to start (flex-start)
+    asfe = align self to end (flex-end)
+    asc = align self to center
+    asb = align self to baseline
+
+    jcfs = justify content to start (flex-start, default)
+    jcfe = justify content to end (flex-end)
+    jcc = justify content to center
+    jcsb = justify content to space between
+    jcsa = justify content to space around
+
+    w = flex wrap
+    wr = flex wrap reverse
+    wn = flex no wrap (default)
+
+    o0 = order 0
+    o1 = order 1
+    o2 = order 2
+    o3 = order 3
+    o4 = order 4
+    o5 = order 5
+
+*/
+
+/*
+  FLEX DIRECTION
+ */
+.flx-dc {
+  flex-direction: column;
+}
+.flx-dr {
+  flex-direction: row;
+}
+.flx-dcr {
+  flex-direction: column-reverse;
+}
+.flx-drr {
+  flex-direction: row-reverse;
+}
+
+/*
+  FLEX
+ */
+.flx-i {
+  flex: 1;
+}
+.flx-g0 {
+  flex-grow: 0;
+}
+.flx-s0 {
+  flex-shrink: 0;
+}
+.flx-b0 {
+  flex-basis: 0%;
+}
+.flx-g1 {
+  flex-grow: 1;
+}
+.flx-s1 {
+  flex-shrink: 1;
+}
+.flx-b1 {
+  flex-basis: 100%;
+}
+
+/*
+  ALIGN ITEMS
+ */
+.flx-ais {
+  align-items: stretch;
+}
+.flx-aifs {
+  align-items: flex-start;
+}
+.flx-aife {
+  align-items: flex-end;
+}
+.flx-aic {
+  align-items: center;
+}
+.flx-aib {
+  align-items: baseline;
+}
+
+/*
+  ALIGN CONTENT
+ */
+.flx-acs {
+  align-content: stretch;
+}
+.flx-acfs {
+  align-content: flex-start;
+}
+.flx-acfe {
+  align-content: flex-end;
+}
+.flx-acc {
+  align-content: center;
+}
+.flx-acsb {
+  align-content: space-between;
+}
+.flx-acsa {
+  align-content: space-around;
+}
+
+/*
+  ALIGN SELF
+ */
+.flx-ass {
+  align-self: stretch;
+}
+.flx-asfs {
+  align-self: flex-start;
+}
+.flx-asfe {
+  align-self: flex-end;
+}
+.flx-asc {
+  align-self: center;
+}
+.flx-asb {
+  align-self: baseline;
+}
+
+/*
+  JUSTIFY CONTENT
+ */
+.flx-jcfs {
+  justify-content: flex-start;
+}
+.flx-jcfe {
+  justify-content: flex-end;
+}
+.flx-jcc {
+  justify-content: center;
+}
+.flx-jcsb {
+  justify-content: space-between;
+}
+.flx-jcsa {
+  justify-content: space-around;
+}
+
+/*
+  WRAP
+ */
+.flx-w {
+  flex-wrap: wrap;
+}
+.flx-wr {
+  flex-wrap: wrap-reverse;
+}
+.flx-wn {
+  flex-wrap: nowrap;
+}
+
+/*
+  ORDER
+ */
+.flx-o0 {
+  order: 0;
+}
+.flx-o1 {
+  order: 1;
+}
+.flx-o2 {
+  order: 2;
+}
+.flx-o3 {
+  order: 3;
+}
+.flx-o4 {
+  order: 4;
+}
+.flx-o5 {
+  order: 5;
+}
+</code>
+</pre>
+      </section>
+    </main>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55773803-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
