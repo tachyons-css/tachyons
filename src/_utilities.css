@@ -30,4 +30,10 @@
   margin-left: auto;
 }
 
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: auto;
+  width: auto;
+}
 
