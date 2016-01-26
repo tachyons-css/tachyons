@@ -46,7 +46,7 @@ function isNormalizeModule (module) {
 
 function getModuleCssLocation (module) {
   if (isTachyonsModule(module)) {
-    return __dirname + '/node_modules/' + module + '/src/' + module + '.css'
+    return require('./' + __dirname + '/node_modules/' + module + '/package.json').style
   } else if (isNormalizeModule(module)) {
     return __dirname + '/node_modules/' + module + '/' + module
   } else {
