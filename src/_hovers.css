@@ -1,5 +1,34 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 /*
+
   HOVER EFFECTS
+
+
+*/
+
+/* 
+  
+  Dim element on hover by adding the dim class.
+
+*/
+.dim { 
+  opacity: 1; 
+  transition: opacity .15s ease-in; 
+}
+.dim:hover,
+.dim:focus { 
+  opacity: .5; 
+  transition: opacity .15s ease-in; 
+}
+.dim:active {
+  opacity: .8; transition: opacity .15s ease-out; 
+}
+
+/*
+
+  Hide child on hover:
 
   Put the hide-child class on a parent element and any nested element with the
   child class will be hidden and displayed on hover or focus.
@@ -10,19 +39,12 @@
     <div class="child"> Hidden until hover or focus </div>
     <div class="child"> Hidden until hover or focus </div>
   </div>
-
 */
-
-.dim { opacity: 1; transition: opacity .15s ease-in; }
-.dim:hover { opacity: .5; transition: opacity .15s ease-in; }
-.dim:active,
-.dim:focus { opacity: .8; transition: opacity .15s ease-out; }
 
 .hide-child .child {
   opacity: 0;
   transition: opacity .15s ease-in;
 }
-
 .hide-child:hover  .child,
 .hide-child:focus  .child,
 .hide-child:active .child {

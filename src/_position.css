@@ -1,3 +1,7 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
 /*
 
     POSITIONING
@@ -7,25 +11,21 @@
 .pos-stat { position: static; }
 .pos-rel  { position: relative; }
 .pos-abs  { position: absolute; }
-.pos-fix  { position: fixed; }
 
 @media (--breakpoint-not-small) {
   .pos-stat-ns { position: static; }
   .pos-rel-ns  { position: relative; }
   .pos-abs-ns  { position: absolute; }
-  .pos-fix-ns  { position: fixed; }
 }
 
 @media (--breakpoint-medium) {
   .pos-stat-m { position: static; }
   .pos-rel-m  { position: relative; }
   .pos-abs-m  { position: absolute; }
-  .pos-fix-m  { position: fixed; }
 }
 
 @media (--breakpoint-large) {
   .pos-stat-l { position: static; }
   .pos-rel-l  { position: relative; }
   .pos-abs-l  { position: absolute; }
-  .pos-fix-l  { position: fixed; }
 }

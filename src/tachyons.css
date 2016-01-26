@@ -6,12 +6,10 @@
 
 
 /* Variables */
+
 @import './_normalize';
 @import './_media-queries';
 @import './_colors';
-
-/* Fallbacks */
-@import './_spacing_fallback';
 
 /* Modules */
 
@@ -19,13 +17,13 @@
 @import './_box-sizing';
 @import './_background-size';
 @import './_borders';
-@import './_border-colors';
+/* @import './_border-colors'; Ignoring until colors are figured out */
 @import './_border-radius';
 @import './_border-style';
 @import './_border-widths';
 @import './_code';
 @import './_coordinates';
-@import './_clears';
+@import './_clearfix';
 @import './_display';
 @import './_floats';
 @import './_font-family';
@@ -43,7 +41,6 @@
 @import './_overflow';
 @import './_position';
 @import './_skins';
-@import './_svg-fills';
 @import './_svg-strokes';
 @import './_spacing';
 @import './_text-decoration';
@@ -54,9 +51,10 @@
 @import './_utilities';
 @import './_visibility';
 @import './_white-space';
-@import './_styles';
 @import './_vertical-align';
 @import './_hovers';
+@import './_styles';
+@import './_gradients';
 
 
 @import './_debug_children';

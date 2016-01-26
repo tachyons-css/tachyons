@@ -2,45 +2,64 @@
   "name": "tachyons",
   "version": "3.0.2",
   "description": "Performant, mobile-first, and 100% responsive modular css framework.",
-  "main": "index.html",
-  "style": "css/tachyons.min.css",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mrmrs/tachyons.git"
-  },
+  "author": "mrmrs",
+  "style": "src/tachyons.css",
+  "files": [
+    "css",
+    "src"
+  ],
+  "repository": "tachyons-css/tachyons",
   "keywords": [
     "css",
     "sass",
     "oocss",
     "performance"
   ],
-  "author": "mrmrs",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mrmrs/tachyons/issues"
-  },
   "devDependencies": {
-    "browser-sync": "^1.1.1",
-    "css": "^2.1.0",
-    "css-parse": "^2.0.0",
-    "cssstats": "^1.10.0",
-    "filesize": "^3.1.2",
-    "gulp": "^3.8.2",
-    "gulp-autoprefixer": "0.0.7",
-    "gulp-basswork": "0.0.11",
-    "gulp-csslint": "^0.1.4",
-    "gulp-file-include": "^0.5.1",
-    "gulp-minify-css": "^0.3.5",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "^0.7.2",
-    "gulp-shell": "^0.2.8",
-    "gulp-size": "^0.4.0",
-    "gulp-uncss": "^0.4.4",
-    "gulp-util": "^2.2.18",
-    "gulp-watch": "^0.6.8",
-    "lodash": "^3.10.0",
-    "node-sass": "^0.9",
-    "postcss": "^4.1.16"
+    "copy-files": "^0.1.0",
+    "normalize.css": "^3.0.3",
+    "tachyons-background-size": "^3.0.2",
+    "tachyons-base": "^1.2.2",
+    "tachyons-border-colors": "^3.1.1",
+    "tachyons-border-radius": "^3.0.2",
+    "tachyons-border-style": "^2.0.1",
+    "tachyons-border-widths": "^2.0.1",
+    "tachyons-borders": "^2.0.2",
+    "tachyons-box-sizing": "^3.0.3",
+    "tachyons-clears": "^2.0.3",
+    "tachyons-cli": "^0.3.3",
+    "tachyons-colors": "^4.0.2",
+    "tachyons-debug": "^1.1.1",
+    "tachyons-display": "^3.0.3",
+    "tachyons-floats": "^2.0.3",
+    "tachyons-font-family": "^4.0.2",
+    "tachyons-font-style": "^2.2.2",
+    "tachyons-font-weight": "^4.0.2",
+    "tachyons-forms": "^1.1.0",
+    "tachyons-heights": "^4.0.2",
+    "tachyons-hovers": "^2.0.4",
+    "tachyons-images": "^1.0.3",
+    "tachyons-letter-spacing": "^2.0.3",
+    "tachyons-line-height": "^2.0.3",
+    "tachyons-links": "^2.0.3",
+    "tachyons-lists": "^2.0.3",
+    "tachyons-max-widths": "^3.0.3",
+    "tachyons-modules": "^1.0.3",
+    "tachyons-opacity": "^1.0.0",
+    "tachyons-overflow": "^2.0.3",
+    "tachyons-position": "^4.1.2",
+    "tachyons-spacing": "^4.0.3",
+    "tachyons-text-align": "^2.0.3",
+    "tachyons-text-decoration": "^3.0.3",
+    "tachyons-text-transform": "^3.0.3",
+    "tachyons-type-scale": "^4.0.3",
+    "tachyons-typography": "^2.0.3",
+    "tachyons-utilities": "^1.1.3",
+    "tachyons-vertical-align": "^2.0.2",
+    "tachyons-visibility": "^1.0.3",
+    "tachyons-white-space": "^2.0.3",
+    "tachyons-widths": "^4.0.1"
   },
   "contributors": [
     {
@@ -58,10 +77,14 @@
     {
       "name": "tyler benziger",
       "url": "http://tybenz.com"
+    },
+    {
+      "name": "john otander",
+      "url": "http://johnotander.com"
     }
   ],
   "scripts": {
-    "start": "gulp",
-    "build": "node home.js"
-  }
+    "start": "node build.js && tachyons src/tachyons.css > css/tachyons.css && tachyons src/tachyons.css -m > css/tachyons.min.css"
+  },
+  "dependencies": {}
 }

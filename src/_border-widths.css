@@ -1,3 +1,7 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
 /*
 
    BORDER WIDTHS
@@ -24,16 +28,16 @@
 .bw1 { border-width: .125rem; }
 .bw2 { border-width: .25rem; }
 .bw3 { border-width: .5rem; }
-.bw4 { border-width: .75rem; }
-.bw5 { border-width: 1rem; }
+.bw4 { border-width: 1rem; }
+.bw5 { border-width: 2rem; }
 
 @media (--breakpoint-not-small) {
   .bw0-ns { border-width: 0; }
   .bw1-ns { border-width: .125rem; }
   .bw2-ns { border-width: .25rem; }
   .bw3-ns { border-width: .5rem; }
-  .bw4-ns { border-width: .75rem; }
-  .bw5-ns { border-width: 1rem; }
+  .bw4-ns { border-width: 1rem; }
+  .bw5-ns { border-width: 2rem; }
 }
 
 @media (--breakpoint-medium) {
@@ -41,8 +45,8 @@
   .bw1-m { border-width: .125rem; }
   .bw2-m { border-width: .25rem; }
   .bw3-m { border-width: .5rem; }
-  .bw4-m { border-width: .75rem; }
-  .bw5-m { border-width: 1rem; }
+  .bw4-m { border-width: 1rem; }
+  .bw5-m { border-width: 2rem; }
 }
 
 @media (--breakpoint-large) {
@@ -50,6 +54,6 @@
   .bw1-l { border-width: .125rem; }
   .bw2-l { border-width: .25rem; }
   .bw3-l { border-width: .5rem; }
-  .bw4-l { border-width: .75rem; }
-  .bw5-l { border-width: 1rem; }
+  .bw4-l { border-width: 1rem; }
+  .bw5-l { border-width: 2rem; }
 }
