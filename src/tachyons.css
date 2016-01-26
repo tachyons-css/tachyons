@@ -17,7 +17,7 @@
 @import './_box-sizing';
 @import './_background-size';
 @import './_borders';
-@import './_border-colors';
+/* @import './_border-colors'; Ignoring until colors are figured out */
 @import './_border-radius';
 @import './_border-style';
 @import './_border-widths';
