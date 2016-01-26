@@ -4,7 +4,10 @@ var copy = require('copy-files')
 
 tachyonsModules().then(function (cssModules) {
   cssModules = cssModules.filter(function (module) {
-    return ['tachyons-colors'].indexOf(cssModule.name) == -1
+    return [
+      'tachyons-border-colors',
+      'tachyons-colors'
+    ].indexOf(cssModule.name) == -1
   }).cssModules.map(function (cssModule) {
     return cssModule.name
   })
