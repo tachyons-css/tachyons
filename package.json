@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "Performant, mobile-first, and 100% responsive modular css framework.",
   "author": "mrmrs",
   "style": "src/tachyons.css",
