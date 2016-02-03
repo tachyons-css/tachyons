@@ -13,7 +13,7 @@
 
 /* Media Queries */
 
-@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
 @custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
 @custom-media --breakpoint-large screen and (min-width: 64em);
 
