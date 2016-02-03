@@ -354,6 +354,7 @@ input[type="password"] { box-sizing: border-box; }
    Modifiers:
      none   = none
      dotted = dotted
+     dashed = dashed
      solid  = solid
 
    Media Query Extensions:
@@ -364,6 +365,7 @@ input[type="password"] { box-sizing: border-box; }
  */
 .bs-none { border-style: none; }
 .bs-dotted { border-style: dotted; }
+.bs-dashed { border-style: dashed; }
 .bs-solid { border-style: solid; }
 /*
 
@@ -498,22 +500,26 @@ input[type="password"] { box-sizing: border-box; }
    FONT FAMILY GROUPS
 
 */
-.sans-serif { font-family: 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif; }
-.serif { font-family: times, TimesNewRoman, "Times New Roman", georgia, serif; }
+.sans-serif { font-family: -apple-system, 'avenir next', avenir, Roboto, Noto, helvetica, 'helvetica neue', Ubuntu, arial, sans-serif; }
+.serif { font-family: times, georgia, serif; }
+/* Monospaced Typefaces (for code) */
 /* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
+/* Sans-Serif Typefaces */
 .helvetica { font-family: helvetica, 'helvetica neue', arial, sans-serif; }
-.bodoni { font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, Times, "Times New Roman", serif; }
-.calisto { font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; }
-.garamond { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; }
-.times { font-family: Times, TimesNewRoman, "Times New Roman", Baskerville, Georgia, serif; }
+/* Serif Typefaces */
+.georgia { font-family: georgia, serif; }
+.times { font-family: Times, serif; }
+.bodoni { font-family: "Bodoni MT", serif; }
+.calisto { font-family: "Calisto MT", serif; }
+.garamond { font-family: garamond, serif; }
 /*
 
    FONT STYLE
 
 */
-.fsn { font-style: normal; }
 .i { font-style: italic; }
+.fsn { font-style: normal; }
 /*
 
    FONT WEIGHT
@@ -521,12 +527,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 .normal { font-weight: normal; }
 .b { font-weight: bold; }
-.thin { font-weight: 100; }
-.book { font-weight: 400; }
-.semibold { font-weight: 500; }
-.bold { font-weight: 600; }
-.heavy { font-weight: 700; }
-.ultrabold { font-weight: 900; }
 .fw1 { font-weight: 100; }
 .fw2 { font-weight: 200; }
 .fw3 { font-weight: 300; }
@@ -541,7 +541,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
    FORMS
 
 */
-.input-text { outline: 0; border: 1px solid #999; }
+.input-reset { -webkit-appearance: none; -moz-appearance: none; }
 .input-invisible { outline: 0; border: 0; }
 /*
 
@@ -555,17 +555,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .h4 { height: 8rem; }
 .h5 { height: 16rem; }
 /* Height Percentages */
-.h-10 { height: 10%; }
-.h-20 { height: 20%; }
 .h-25 { height: 25%; }
-.h-30 { height: 30%; }
-.h-40 { height: 40%; }
 .h-50 { height: 50%; }
-.h-60 { height: 60%; }
-.h-70 { height: 70%; }
 .h-75 { height: 75%; }
-.h-80 { height: 80%; }
-.h-90 { height: 90%; }
 .h-100 { height: 100%; }
 /* String Properties */
 .h-at { height: auto; }
@@ -712,6 +704,7 @@ img { max-width: 100%; }
 .pos-stat { position: static; }
 .pos-rel { position: relative; }
 .pos-abs { position: absolute; }
+.pos-fix { position: fixed; }
 /*
 
    COLOR VARIABLES
@@ -1432,6 +1425,7 @@ img { max-width: 100%; }
  .br-100-ns { border-radius: 100%; }
  .bs-none-ns { border-style: none; }
  .bs-dotted-ns { border-style: dotted; }
+ .bs-dashed-ns { border-style: dashed; }
  .bs-solid-ns { border-style: solid; }
  .bw0-ns { border-width: 0; }
  .bw1-ns { border-width: .125rem; }
@@ -1467,32 +1461,27 @@ img { max-width: 100%; }
  .fl-ns { float: left; display: inline; }
  .fr-ns { float: right; display: inline; }
  .fn-ns { float: none !important; }
- .fsn-ns { font-style: normal; }
  .i-ns { font-style: italic; }
+ .fsn-ns { font-style: normal; }
  .normal-ns { font-weight: normal; }
  .b-ns { font-weight: bold; }
- .thin-ns { font-weight: 100; }
- .book-ns { font-weight: 400; }
- .semibold-ns { font-weight: 500; }
- .bold-ns { font-weight: 600; }
- .heavy-ns { font-weight: 700; }
- .ultrabold-ns { font-weight: 900; }
+ .fw1-ns { font-weight: 100; }
+ .fw2-ns { font-weight: 200; }
+ .fw3-ns { font-weight: 300; }
+ .fw4-ns { font-weight: 400; }
+ .fw5-ns { font-weight: 500; }
+ .fw6-ns { font-weight: 600; }
+ .fw7-ns { font-weight: 700; }
+ .fw8-ns { font-weight: 800; }
+ .fw9-ns { font-weight: 900; }
  .h-1-ns { height: 1rem; }
  .h-2-ns { height: 2rem; }
  .h-3-ns { height: 4rem; }
  .h-4-ns { height: 8rem; }
  .h-5-ns { height: 16rem; }
- .h-10-ns { height: 10%; }
- .h-20-ns { height: 20%; }
  .h-25-ns { height: 25%; }
- .h-30-ns { height: 30%; }
- .h-40-ns { height: 40%; }
  .h-50-ns { height: 50%; }
- .h-60-ns { height: 60%; }
- .h-70-ns { height: 70%; }
  .h-75-ns { height: 75%; }
- .h-80-ns { height: 80%; }
- .h-90-ns { height: 90%; }
  .h-100-ns { height: 100%; }
  .h-at-ns { height: auto; }
  .h-i-ns { height: inherit; }
@@ -1549,6 +1538,7 @@ img { max-width: 100%; }
  .pos-stat-ns { position: static; }
  .pos-rel-ns { position: relative; }
  .pos-abs-ns { position: absolute; }
+ .pos-fix-ns { position: fixed; }
  .pan-ns { padding: 0; }
  .paxs-ns { padding: .25rem; }
  .pas-ns { padding: .5rem; }
@@ -1709,6 +1699,7 @@ img { max-width: 100%; }
  .br-100-m { border-radius: 100%; }
  .bs-none-m { border-style: none; }
  .bs-dotted-m { border-style: dotted; }
+ .bs-dashed-m { border-style: dashed; }
  .bs-solid-m { border-style: solid; }
  .bw0-m { border-width: 0; }
  .bw1-m { border-width: .125rem; }
@@ -1744,32 +1735,27 @@ img { max-width: 100%; }
  .fl-m { float: left; display: inline; }
  .fr-m { float: right; display: inline; }
  .fn-m { float: none; }
- .fsn-m { font-style: normal; }
  .i-m { font-style: italic; }
+ .fsn-m { font-style: normal; }
  .normal-m { font-weight: normal; }
  .b-m { font-weight: bold; }
- .thin-m { font-weight: 100; }
- .book-m { font-weight: 400; }
- .semibold-m { font-weight: 500; }
- .bold-m { font-weight: 600; }
- .heavy-m { font-weight: 700; }
- .ultrabold-m { font-weight: 900; }
+ .fw1-m { font-weight: 100; }
+ .fw2-m { font-weight: 200; }
+ .fw3-m { font-weight: 300; }
+ .fw4-m { font-weight: 400; }
+ .fw5-m { font-weight: 500; }
+ .fw6-m { font-weight: 600; }
+ .fw7-m { font-weight: 700; }
+ .fw8-m { font-weight: 800; }
+ .fw9-m { font-weight: 900; }
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }
  .h4-m { height: 8rem; }
  .h5-m { height: 16rem; }
- .h-10-m { height: 10%; }
- .h-20-m { height: 20%; }
  .h-25-m { height: 25%; }
- .h-30-m { height: 30%; }
- .h-40-m { height: 40%; }
  .h-50-m { height: 50%; }
- .h-60-m { height: 60%; }
- .h-70-m { height: 70%; }
  .h-75-m { height: 75%; }
- .h-80-m { height: 80%; }
- .h-90-m { height: 90%; }
  .h-100-m { height: 100%; }
  .h-at-m { height: auto; }
  .h-i-m { height: inherit; }
@@ -1826,6 +1812,7 @@ img { max-width: 100%; }
  .pos-stat-m { position: static; }
  .pos-rel-m { position: relative; }
  .pos-abs-m { position: absolute; }
+ .pos-fix-m { position: fixed; }
  .pan-m { padding: 0; }
  .paxs-m { padding: .25rem; }
  .pas-m { padding: .5rem; }
@@ -1987,6 +1974,7 @@ img { max-width: 100%; }
  .br-100-l { border-radius: 100%; }
  .bs-none-l { border-style: none; }
  .bs-dotted-l { border-style: dotted; }
+ .bs-dashed-l { border-style: dashed; }
  .bs-solid-l { border-style: solid; }
  .bw0-l { border-width: 0; }
  .bw1-l { border-width: .125rem; }
@@ -2022,32 +2010,27 @@ img { max-width: 100%; }
  .fl-l { float: left; display: inline; }
  .fr-l { float: right; display: inline; }
  .fn-l { float: none; }
- .fsn-l { font-style: normal; }
  .i-l { font-style: italic; }
+ .fsn-l { font-style: normal; }
  .normal-l { font-weight: normal; }
  .b-l { font-weight: bold; }
- .thin-l { font-weight: 100; }
- .book-l { font-weight: 400; }
- .semibold-l { font-weight: 500; }
- .bold-l { font-weight: 600; }
- .heavy-l { font-weight: 700; }
- .ultrabold-l { font-weight: 900; }
+ .fw1-l { font-weight: 100; }
+ .fw2-l { font-weight: 200; }
+ .fw3-l { font-weight: 300; }
+ .fw4-l { font-weight: 400; }
+ .fw5-l { font-weight: 500; }
+ .fw6-l { font-weight: 600; }
+ .fw7-l { font-weight: 700; }
+ .fw8-l { font-weight: 800; }
+ .fw9-l { font-weight: 900; }
  .h1-l { height: 1rem; }
  .h2-l { height: 2rem; }
  .h3-l { height: 4rem; }
  .h4-l { height: 8rem; }
  .h5-l { height: 16rem; }
- .h-10-l { height: 10%; }
- .h-20-l { height: 20%; }
  .h-25-l { height: 25%; }
- .h-30-l { height: 30%; }
- .h-40-l { height: 40%; }
  .h-50-l { height: 50%; }
- .h-60-l { height: 60%; }
- .h-70-l { height: 70%; }
  .h-75-l { height: 75%; }
- .h-80-l { height: 80%; }
- .h-90-l { height: 90%; }
  .h-100-l { height: 100%; }
  .h-at-l { height: auto; }
  .h-i-l { height: inherit; }
@@ -2104,6 +2087,7 @@ img { max-width: 100%; }
  .pos-stat-l { position: static; }
  .pos-rel-l { position: relative; }
  .pos-abs-l { position: absolute; }
+ .pos-fix-l { position: fixed; }
  .pan-l { padding: 0; }
  .paxs-l { padding: .25rem; }
  .pas-l { padding: .5rem; }
@@ -2153,7 +2137,7 @@ img { max-width: 100%; }
  .pvxxl-l { padding-top: 8rem; padding-bottom: 8rem; }
  .pvxxxl-l { padding-top: 16rem; padding-bottom: 16rem; }
  .phn-l { padding-left: 0; padding-right: 0; }
- .pvxs-l { padding-left: .25rem; padding-right: .25rem; }
+ .phxs-l { padding-left: .25rem; padding-right: .25rem; }
  .phs-l { padding-left: .5rem; padding-right: .5rem; }
  .phm-l { padding-left: 1rem; padding-right: 1rem; }
  .phl-l { padding-left: 2rem; padding-right: 2rem; }
