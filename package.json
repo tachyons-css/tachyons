@@ -18,6 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "copy-files": "^0.1.0",
+    "immutable-css-cli": "^1.1.0",
     "normalize.css": "^3.0.3",
     "tachyons-background-size": "^3.0.2",
     "tachyons-base": "^1.2.2",
@@ -49,7 +50,11 @@
     "tachyons-opacity": "^1.0.0",
     "tachyons-overflow": "^2.0.3",
     "tachyons-position": "^4.1.2",
+<<<<<<< e09cb49b622997fb25123cc62f4019fdb8e30ee2
     "tachyons-spacing": "^4.0.4",
+=======
+    "tachyons-spacing": "^4.0.5",
+>>>>>>> Begin tweaks
     "tachyons-text-align": "^2.0.3",
     "tachyons-text-decoration": "^3.0.3",
     "tachyons-text-transform": "^3.0.3",
@@ -85,6 +90,7 @@
   ],
   "scripts": {
     "build": "node build.js && npm start",
+    "mutations": "immutable-css src/tachyons.css --strict",
     "start": "tachyons src/tachyons.css > css/tachyons.css && tachyons src/tachyons.css -m > css/tachyons.min.css"
   },
   "dependencies": {}

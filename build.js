@@ -33,6 +33,7 @@ tachyonsModules().then(function (cssModules) {
 function constructFiles (modules) {
   var files = {}
   modules.forEach(function (module) {
+    console.log('Copying ' + module)
     var moduleLocation = getModuleCssLocation(module)
     var moduleName = getModuleKey(module)
     files['_' + moduleName + '.css'] = moduleLocation
