@@ -50,11 +50,7 @@
     "tachyons-opacity": "^1.0.0",
     "tachyons-overflow": "^2.0.3",
     "tachyons-position": "^4.1.2",
-<<<<<<< e09cb49b622997fb25123cc62f4019fdb8e30ee2
-    "tachyons-spacing": "^4.0.4",
-=======
     "tachyons-spacing": "^4.0.5",
->>>>>>> Begin tweaks
     "tachyons-text-align": "^2.0.3",
     "tachyons-text-decoration": "^3.0.3",
     "tachyons-text-transform": "^3.0.3",
