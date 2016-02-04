@@ -4,26 +4,35 @@
 
 */
 
+
 .sans-serif {
-  font-family: 'avenir next', avenir,
-                helvetica, 'helvetica neue',
-                arial,
-                sans-serif;
+  font-family: -apple-system,
+               'avenir next', avenir,
+               Roboto, Noto,
+               helvetica, 'helvetica neue',
+               Ubuntu,
+               arial,
+               sans-serif;
 }
 
 .serif {
-  font-family: times, TimesNewRoman, "Times New Roman",
+  font-family: times,
                georgia,
                serif;
 }
 
-/* From http://cssfontstack.com */
 
+/* Monospaced Typefaces (for code) */
+
+/* From http://cssfontstack.com */
 code, .code {
   font-family: Consolas,
                monaco,
                monospace;
 }
+
+
+/* Sans-Serif Typefaces */
 
 .helvetica {
   font-family:  helvetica, 'helvetica neue',
@@ -31,39 +40,31 @@ code, .code {
                 sans-serif;
 }
 
+
+/* Serif Typefaces */
+
+.georgia {
+  font-family: georgia,
+               serif;
+}
+
+.times {
+  font-family: Times,
+               serif;
+}
+
 .bodoni {
   font-family: "Bodoni MT",
-                Didot,
-               "Didot LT STD",
-               "Hoefler Text",
-                Garamond,
-                Times,
-               "Times New Roman",
                 serif;
 }
 
 .calisto {
   font-family: "Calisto MT",
-               "Bookman Old Style", Bookman,
-               "Goudy Old Style",
-                Garamond,
-               "Hoefler Text",
-               "Bitstream Charter",
-                Georgia,
                 serif;
 }
 
 .garamond {
-  font-family: Garamond,
-               Baskerville, "Baskerville Old Face",
-              "Hoefler Text",
-              "Times New Roman",
+  font-family: garamond,
                serif;
 }
 
-.times {
-  font-family: Times, TimesNewRoman, "Times New Roman",
-               Baskerville,
-               Georgia,
-               serif;
-}

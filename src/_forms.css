@@ -4,9 +4,9 @@
 
 */
 
-.input-text {
-  outline: 0;
-  border: 1px solid #999;
+.input-reset {
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .input-invisible {

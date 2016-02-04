@@ -12,6 +12,7 @@
    Modifiers:
      none   = none
      dotted = dotted
+     dashed = dashed
      solid  = solid
 
    Media Query Extensions:
@@ -23,22 +24,26 @@
 
 .bs-none {   border-style: none; }
 .bs-dotted { border-style: dotted; }
+.bs-dashed { border-style: dashed; }
 .bs-solid {  border-style: solid; }
 
 @media (--breakpoint-not-small) {
   .bs-none-ns {   border-style: none; }
   .bs-dotted-ns { border-style: dotted; }
+  .bs-dashed-ns { border-style: dashed; }
   .bs-solid-ns {  border-style: solid; }
 }
 
 @media (--breakpoint-medium) {
   .bs-none-m {   border-style: none; }
   .bs-dotted-m { border-style: dotted; }
+  .bs-dashed-m { border-style: dashed; }
   .bs-solid-m {  border-style: solid; }
 }
 
 @media (--breakpoint-large) {
   .bs-none-l {   border-style: none; }
   .bs-dotted-l { border-style: dotted; }
+  .bs-dashed-l { border-style: dashed; }
   .bs-solid-l {  border-style: solid; }
 }

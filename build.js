@@ -3,16 +3,19 @@ var tachyonsModules = require('tachyons-modules')
 var copy = require('copy-files')
 
 tachyonsModules().then(function (cssModules) {
-  cssModules = cssModules.filter(function (module) {
+  var filteredModules = cssModules.filter(function (module) {
     return [
+      // TODO: Fix me : (
       'tachyons-border-colors',
-      'tachyons-colors'
-    ].indexOf(cssModule.name) == -1
-  }).cssModules.map(function (cssModule) {
+      'tachyons-colors',
+      'tachyons-coordinates'
+    ].indexOf(module.name) == -1
+  }).map(function (cssModule) {
     return cssModule.name
   })
 
-  var files = constructFiles(cssModules.push('normalize.css'))
+  filteredModules.push('normalize.css')
+  var files = constructFiles(filteredModules)
 
   copy({
     files: files,
@@ -34,6 +37,8 @@ function constructFiles (modules) {
     var moduleName = getModuleKey(module)
     files['_' + moduleName + '.css'] = moduleLocation
   })
+
+  return files
 }
 
 function isTachyonsModule (module) {
@@ -45,12 +50,16 @@ function isNormalizeModule (module) {
 }
 
 function getModuleCssLocation (module) {
-  if (isTachyonsModule(module)) {
-    return require('./' + __dirname + '/node_modules/' + module + '/package.json').style
-  } else if (isNormalizeModule(module)) {
-    return __dirname + '/node_modules/' + module + '/' + module
-  } else {
-    console.error('Unknown module: ' + module)
+  try {
+    if (isTachyonsModule(module)) {
+      return 'node_modules/' + module + '/' + require('./node_modules/' + module + '/package.json').style
+    } else if (isNormalizeModule(module)) {
+      return 'node_modules/' + module + '/' + module
+    } else {
+      console.error('Unknown module: ' + module)
+    }
+  } catch (e) {
+    console.log(e)
   }
 }
 

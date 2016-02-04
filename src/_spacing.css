@@ -13,8 +13,8 @@
 
 /* Media Queries */
 
-@custom-media --breakpoint-not-small screen and (maxl-width: 48em);
-@custom-media --breakpoint-medium screen and (min-width: 48em) and (maxl-width: 64em);
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
 @custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
@@ -802,7 +802,7 @@
     padding-left: var(--spacing-none);
     padding-right: var(--spacing-none);
   }
-  .pvxs-l {
+  .phxs-l {
     padding-left: var(--spacing-extra-small);
     padding-right: var(--spacing-extra-small);
   }
