@@ -25,7 +25,7 @@
 
 @media (--breakpoint-not-small) {
   .of-vis-ns { overflow: visible; }
-  .of-hid-ns,.oh { overflow: hidden; }
+  .of-hid-ns { overflow: hidden; }
   .of-scr-ns { overflow: scroll; }
   .of-aut-ns { overflow: auto; }
 
