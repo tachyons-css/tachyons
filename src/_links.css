@@ -23,5 +23,3 @@
   transition: color .15s ease-in;
 }
 
-.underline             { text-decoration: underline; }
-.underline-hover:hover { text-decoration: underline; }

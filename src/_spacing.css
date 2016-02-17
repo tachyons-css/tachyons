@@ -131,12 +131,6 @@
   padding-left: var(--spacing-none);
   padding-right: var(--spacing-none);
 }
-
-.pvxs {
-  padding-left: var(--spacing-extra-small);
-  padding-right: var(--spacing-extra-small);
-}
-
 .phs {
   padding-left: var(--spacing-small);
   padding-right: var(--spacing-small);
@@ -356,10 +350,6 @@
     padding-left: var(--spacing-none);
     padding-right: var(--spacing-none);
   }
-  .pvxs-ns {
-    padding-left: var(--spacing-extra-small);
-    padding-right: var(--spacing-extra-small);
-  }
   .phs-ns {
     padding-left: var(--spacing-small);
     padding-right: var(--spacing-small);
@@ -576,10 +566,6 @@
   .phn-m {
     padding-left: var(--spacing-none);
     padding-right: var(--spacing-none);
-  }
-  .pvxs-m {
-    padding-left: var(--spacing-extra-small);
-    padding-right: var(--spacing-extra-small);
   }
   .phs-m {
     padding-left: var(--spacing-small);
