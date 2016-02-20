@@ -6,9 +6,12 @@
 
 .aspect-ratio {
   height: 0;
-  padding-top: 56.25%;
   position: relative;
 }
+
+.aspect-ratio--16x9 { padding-bottom: 56.25%; }
+.aspect-ratio--4x3 {  padding-bottom: 75%; }
+.aspect-ratio--8x5 {  padding-bottom: 62.5%; }
 
 .aspect-ratio--object {
     bottom: 0;
@@ -29,5 +32,3 @@
   margin-right: auto;
   margin-left: auto;
 }
-
-

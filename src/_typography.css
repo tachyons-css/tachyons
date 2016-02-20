@@ -8,11 +8,18 @@
 
 */
 
-.measure  {
+/* Measure is limited to ~75 characters */
+.measure {
   max-width: 30em;
 }
 
-.indent   {
+/* Measure is limited to ~45 characters */
+.measure-narrow {
+  max-width: 20em;
+}
+
+/* Book paragraph style - paragraphs are indented with no vertical spacing. */
+.indent {
   text-indent: 1em;
   margin-top: 0;
   margin-bottom: 0;
@@ -26,11 +33,14 @@
   text-overflow: ellipsis;
 }
 
-@media (--breakpoint-not-small){
+@media (--breakpoint-not-small) {
   .measure-ns  {
     max-width: 30em;
   }
-  .indent-ns   {
+  .measure-narrow-ns {
+    max-width: 20em;
+  }
+  .indent-ns {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
@@ -43,8 +53,11 @@
 }
 
 @media (--breakpoint-medium) {
-  .measure-m  { max-width: 30em; }
-  .indent-m  {
+  .measure-m { max-width: 30em; }
+  .measure-narrow-m {
+    max-width: 20em;
+  }
+  .indent-m {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
@@ -57,8 +70,9 @@
 }
 
 @media (--breakpoint-large) {
-  .measure-l  { max-width: 30em; }
-  .indent-l  {
+  .measure-l { max-width: 30em; }
+  .measure-narrow-l { max-width: 20em; }
+  .indent-l {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;

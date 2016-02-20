@@ -342,7 +342,6 @@ input[type="password"] { box-sizing: border-box; }
 .br2 { border-radius: .25rem; }
 .br3 { border-radius: .5rem; }
 .br4 { border-radius: 1rem; }
-.br5 { border-radius: 2rem; }
 .br-100 { border-radius: 100%; }
 /*
 
@@ -363,10 +362,10 @@ input[type="password"] { box-sizing: border-box; }
      -l  = large
 
  */
-.bs-none { border-style: none; }
-.bs-dotted { border-style: dotted; }
-.bs-dashed { border-style: dashed; }
-.bs-solid { border-style: solid; }
+.b--none { border-style: none; }
+.b--dotted { border-style: dotted; }
+.b--dashed { border-style: dashed; }
+.b--solid { border-style: solid; }
 /*
 
    BORDER WIDTHS
@@ -500,8 +499,8 @@ input[type="password"] { box-sizing: border-box; }
    FONT FAMILY GROUPS
 
 */
-.sans-serif { font-family: -apple-system, 'avenir next', avenir, Roboto, Noto, helvetica, 'helvetica neue', Ubuntu, arial, sans-serif; }
-.serif { font-family: times, georgia, serif; }
+.sans-serif { font-family: -apple-system, 'avenir next', avenir, Roboto, Noto, helvetica, 'helvetica neue', Ubuntu, 'segoe ui', arial, sans-serif; }
+.serif { font-family: georgia, times, serif; }
 /* Monospaced Typefaces (for code) */
 /* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
@@ -682,27 +681,27 @@ img { max-width: 100%; }
     OVERFLOW
 
  */
-.of-vis { overflow: visible; }
-.of-hid, .oh { overflow: hidden; }
-.of-scr { overflow: scroll; }
-.of-aut { overflow: auto; }
-.ofx-vis { overflow-x: visible; }
-.ofx-hid { overflow-x: hidden; }
-.ofx-scr { overflow-x: scroll; }
-.ofx-aut { overflow-x: auto; }
-.ofy-vis { overflow-y: visible; }
-.ofy-hid { overflow-y: hidden; }
-.ofy-scr { overflow-y: scroll; }
-.ofy-aut { overflow-y: auto; }
+.overflow-visible { overflow: visible; }
+.overflow-hidden { overflow: hidden; }
+.overflow-scroll { overflow: scroll; }
+.overflow-auto { overflow: auto; }
+.overflow-x-visible { overflow-x: visible; }
+.overflow-x-hidden { overflow-x: hidden; }
+.overflow-x-scroll { overflow-x: scroll; }
+.overflow-x-auto { overflow-x: auto; }
+.overflow-y-visible { overflow-y: visible; }
+.overflow-y-hidden { overflow-y: hidden; }
+.overflow-y-scroll { overflow-y: scroll; }
+.overflow-y-auto { overflow-y: auto; }
 /*
 
     POSITIONING
 
  */
-.pos-stat { position: static; }
-.pos-rel { position: relative; }
-.pos-abs { position: absolute; }
-.pos-fix { position: fixed; }
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
 /*
 
    COLOR VARIABLES
@@ -1285,26 +1284,33 @@ img { max-width: 100%; }
 */
 .ttc { text-transform: capitalize; }
 .ttl { text-transform: lowercase; }
-.ttn { text-transform: none; }
 .ttu { text-transform: uppercase; }
-.caps { text-transform: uppercase; letter-spacing: .15em; }
+.ttn { text-transform: none; }
 /*
 
    TYPE SCALE
 
 */
-.mega { font-size: 4rem; }
-.f1 { font-size: 2rem; }
-.f2 { font-size: 1.5rem; }
-.f3 { font-size: 1.25rem; }
-.f4 { font-size: 1rem; }
-.f5, .small { font-size: .85rem; }
+/* For Hero Titles */
+.f-6-ns, .f-headline { font-size: 6rem; }
+.f-5-ns, .f-subheadline { font-size: 5rem; }
+/* Type Scale */
+.f1 { font-size: 3rem; }
+.f2 { font-size: 2.25rem; }
+.f3 { font-size: 1.5rem; }
+.f4 { font-size: 1.25rem; }
+.f5 { font-size: 1rem; }
+.f6 { font-size: .875rem; }
 /*
 
    TYPOGRAPHY
 
 */
+/* Measure is limited to ~75 characters */
 .measure { max-width: 30em; }
+/* Measure is limited to ~45 characters */
+.measure-narrow { max-width: 20em; }
+/* Book paragraph style - paragraphs are indented with no vertical spacing. */
 .indent { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 /* Combine this class with a width to truncate text */
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -1313,7 +1319,10 @@ img { max-width: 100%; }
    UTILITIES
 
 */
-.aspect-ratio { height: 0; padding-top: 56.25%; position: relative; }
+.aspect-ratio { height: 0; position: relative; }
+.aspect-ratio--16x9 { padding-bottom: 56.25%; }
+.aspect-ratio--4x3 { padding-bottom: 75%; }
+.aspect-ratio--8x5 { padding-bottom: 62.5%; }
 .aspect-ratio--object { bottom: 0; height: 100%; left: 0; position: absolute; right: 0; top: 0; width: 100%; z-index: 100; }
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
@@ -1419,12 +1428,11 @@ img { max-width: 100%; }
  .br2-ns { border-radius: .25rem; }
  .br3-ns { border-radius: .5rem; }
  .br4-ns { border-radius: 1rem; }
- .br5-ns { border-radius: 2rem; }
  .br-100-ns { border-radius: 100%; }
- .bs-none-ns { border-style: none; }
- .bs-dotted-ns { border-style: dotted; }
- .bs-dashed-ns { border-style: dashed; }
- .bs-solid-ns { border-style: solid; }
+ .b--none-ns { border-style: none; }
+ .b--dotted-ns { border-style: dotted; }
+ .b--dashed-ns { border-style: dashed; }
+ .b--solid-ns { border-style: solid; }
  .bw0-ns { border-width: 0; }
  .bw1-ns { border-width: .125rem; }
  .bw2-ns { border-width: .25rem; }
@@ -1521,22 +1529,22 @@ img { max-width: 100%; }
  .w-80-ns { width: 80%; }
  .w-100-ns { width: 100%; }
  .w-auto-ns { width: auto; }
- .of-vis-ns { overflow: visible; }
- .of-hid-ns { overflow: hidden; }
- .of-scr-ns { overflow: scroll; }
- .of-aut-ns { overflow: auto; }
- .ofx-vis-ns { overflow-x: visible; }
- .ofx-hid-ns { overflow-x: hidden; }
- .ofx-scr-ns { overflow-x: scroll; }
- .ofx-aut-ns { overflow-x: auto; }
- .ofy-vis-ns { overflow-y: visible; }
- .ofy-hid-ns { overflow-y: hidden; }
- .ofy-scr-ns { overflow-y: scroll; }
- .ofy-aut-ns { overflow-y: auto; }
- .pos-stat-ns { position: static; }
- .pos-rel-ns { position: relative; }
- .pos-abs-ns { position: absolute; }
- .pos-fix-ns { position: fixed; }
+ .overflow-visible-ns { overflow: visible; }
+ .overflow-hidden-ns { overflow: hidden; }
+ .overflow-scroll-ns { overflow: scroll; }
+ .overflow-auto-ns { overflow: auto; }
+ .overflow-x-visible-ns { overflow-x: visible; }
+ .overflow-x-hidden-ns { overflow-x: hidden; }
+ .overflow-x-scroll-ns { overflow-x: scroll; }
+ .overflow-x-auto-ns { overflow-x: auto; }
+ .overflow-y-visible-ns { overflow-y: visible; }
+ .overflow-y-hidden-ns { overflow-y: hidden; }
+ .overflow-y-scroll-ns { overflow-y: scroll; }
+ .overflow-y-auto-ns { overflow-y: auto; }
+ .static-ns { position: static; }
+ .relative-ns { position: relative; }
+ .absolute-ns { position: absolute; }
+ .fixed-ns { position: fixed; }
  .pan-ns { padding: 0; }
  .paxs-ns { padding: .25rem; }
  .pas-ns { padding: .5rem; }
@@ -1655,16 +1663,18 @@ img { max-width: 100%; }
  .tc-ns { text-align: center; }
  .ttc-ns { text-transform: capitalize; }
  .ttl-ns { text-transform: lowercase; }
- .ttn-ns { text-transform: none; }
  .ttu-ns { text-transform: uppercase; }
- .caps-ns { text-transform: uppercase; letter-spacing: .15em; }
- .mega-ns { font-size: 4rem; }
- .f1-ns { font-size: 2rem; }
- .f2-ns { font-size: 1.5rem; }
- .f3-ns { font-size: 1.25rem; }
- .f4-ns { font-size: 1rem; }
- .f5-ns { font-size: .85rem; }
+ .ttn-ns { text-transform: none; }
+ .f-6-ns, .f-headline-ns { font-size: 6rem; }
+ .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
+ .f1-ns { font-size: 3rem; }
+ .f2-ns { font-size: 2.25rem; }
+ .f3-ns { font-size: 1.5rem; }
+ .f4-ns { font-size: 1.25rem; }
+ .f5-ns { font-size: 1rem; }
+ .f6-ns { font-size: .875rem; }
  .measure-ns { max-width: 30em; }
+ .measure-narrow-ns { max-width: 20em; }
  .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .clip-ns { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
@@ -1693,12 +1703,11 @@ img { max-width: 100%; }
  .br2-m { border-radius: .25rem; }
  .br3-m { border-radius: .5rem; }
  .br4-m { border-radius: 1rem; }
- .br5-m { border-radius: 2rem; }
  .br-100-m { border-radius: 100%; }
- .bs-none-m { border-style: none; }
- .bs-dotted-m { border-style: dotted; }
- .bs-dashed-m { border-style: dashed; }
- .bs-solid-m { border-style: solid; }
+ .b--none-m { border-style: none; }
+ .b--dotted-m { border-style: dotted; }
+ .b--dashed-m { border-style: dashed; }
+ .b--solid-m { border-style: solid; }
  .bw0-m { border-width: 0; }
  .bw1-m { border-width: .125rem; }
  .bw2-m { border-width: .25rem; }
@@ -1795,22 +1804,22 @@ img { max-width: 100%; }
  .w-80-m { width: 80%; }
  .w-100-m { width: 100%; }
  .w-auto-m { width: auto; }
- .of-vis-m { overflow: visible; }
- .of-hid-m { overflow: hidden; }
- .of-scr-m { overflow: scroll; }
- .of-aut-m { overflow: auto; }
- .ofx-vis-m { overflow-x: visible; }
- .ofx-hid-m { overflow-x: hidden; }
- .ofx-scr-m { overflow-x: scroll; }
- .ofx-aut-m { overflow-x: auto; }
- .ofy-vis-m { overflow-y: visible; }
- .ofy-hid-m { overflow-y: hidden; }
- .ofy-scr-m { overflow-y: scroll; }
- .ofy-aut-m { overflow-y: auto; }
- .pos-stat-m { position: static; }
- .pos-rel-m { position: relative; }
- .pos-abs-m { position: absolute; }
- .pos-fix-m { position: fixed; }
+ .overflow-visible-m { overflow: visible; }
+ .overflow-hidden-m { overflow: hidden; }
+ .overflow-scroll-m { overflow: scroll; }
+ .overflow-auto-m { overflow: auto; }
+ .overflow-x-visible-m { overflow-x: visible; }
+ .overflow-x-hidden-m { overflow-x: hidden; }
+ .overflow-x-scroll-m { overflow-x: scroll; }
+ .overflow-x-auto-m { overflow-x: auto; }
+ .overflow-y-visible-m { overflow-y: visible; }
+ .overflow-y-hidden-m { overflow-y: hidden; }
+ .overflow-y-scroll-m { overflow-y: scroll; }
+ .overflow-y-auto-m { overflow-y: auto; }
+ .static-m { position: static; }
+ .relative-m { position: relative; }
+ .absolute-m { position: absolute; }
+ .fixed-m { position: fixed; }
  .pan-m { padding: 0; }
  .paxs-m { padding: .25rem; }
  .pas-m { padding: .5rem; }
@@ -1930,16 +1939,18 @@ img { max-width: 100%; }
  .tc-m { text-align: center; }
  .ttc-m { text-transform: capitalize; }
  .ttl-m { text-transform: lowercase; }
- .ttn-m { text-transform: none; }
  .ttu-m { text-transform: uppercase; }
- .caps-m { text-transform: uppercase; letter-spacing: .15em; }
- .mega-m { font-size: 4rem; }
- .f1-m { font-size: 2rem; }
- .f2-m { font-size: 1.5rem; }
- .f3-m { font-size: 1.25rem; }
- .f4-m { font-size: 1rem; }
- .f5-m { font-size: .85rem; }
+ .ttn-m { text-transform: none; }
+ .f-6-m, .f-headline-m { font-size: 6rem; }
+ .f-5-m, .f-subheadline-m { font-size: 5rem; }
+ .f1-m { font-size: 3rem; }
+ .f2-m { font-size: 2.25rem; }
+ .f3-m { font-size: 1.5rem; }
+ .f4-m { font-size: 1.25rem; }
+ .f5-m { font-size: 1rem; }
+ .f6-m { font-size: .875rem; }
  .measure-m { max-width: 30em; }
+ .measure-narrow-m { max-width: 20em; }
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .clip-m { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
@@ -1968,12 +1979,11 @@ img { max-width: 100%; }
  .br2-l { border-radius: .25rem; }
  .br3-l { border-radius: .5rem; }
  .br4-l { border-radius: 1rem; }
- .br5-l { border-radius: 2rem; }
  .br-100-l { border-radius: 100%; }
- .bs-none-l { border-style: none; }
- .bs-dotted-l { border-style: dotted; }
- .bs-dashed-l { border-style: dashed; }
- .bs-solid-l { border-style: solid; }
+ .b--none-l { border-style: none; }
+ .b--dotted-l { border-style: dotted; }
+ .b--dashed-l { border-style: dashed; }
+ .b--solid-l { border-style: solid; }
  .bw0-l { border-width: 0; }
  .bw1-l { border-width: .125rem; }
  .bw2-l { border-width: .25rem; }
@@ -2070,22 +2080,22 @@ img { max-width: 100%; }
  .w-80-l { width: 80%; }
  .w-100-l { width: 100%; }
  .w-auto-l { width: auto; }
- .of-vis-l { overflow: visible; }
- .of-hid-l { overflow: hidden; }
- .of-scr-l { overflow: scroll; }
- .of-aut-l { overflow: auto; }
- .ofx-vis-l { overflow-x: visible; }
- .ofx-hid-l { overflow-x: hidden; }
- .ofx-scr-l { overflow-x: scroll; }
- .ofx-aut-l { overflow-x: auto; }
- .ofy-vis-l { overflow-y: visible; }
- .ofy-hid-l { overflow-y: hidden; }
- .ofy-scr-l { overflow-y: scroll; }
- .ofy-aut-l { overflow-y: auto; }
- .pos-stat-l { position: static; }
- .pos-rel-l { position: relative; }
- .pos-abs-l { position: absolute; }
- .pos-fix-l { position: fixed; }
+ .overflow-visible-l { overflow: visible; }
+ .overflow-hidden-l { overflow: hidden; }
+ .overflow-scroll-l { overflow: scroll; }
+ .overflow-auto-l { overflow: auto; }
+ .overflow-x-visible-l { overflow-x: visible; }
+ .overflow-x-hidden-l { overflow-x: hidden; }
+ .overflow-x-scroll-l { overflow-x: scroll; }
+ .overflow-x-auto-l { overflow-x: auto; }
+ .overflow-y-visible-l { overflow-y: visible; }
+ .overflow-y-hidden-l { overflow-y: hidden; }
+ .overflow-y-scroll-l { overflow-y: scroll; }
+ .overflow-y-auto-l { overflow-y: auto; }
+ .static-l { position: static; }
+ .relative-l { position: relative; }
+ .absolute-l { position: absolute; }
+ .fixed-l { position: fixed; }
  .pan-l { padding: 0; }
  .paxs-l { padding: .25rem; }
  .pas-l { padding: .5rem; }
@@ -2206,16 +2216,18 @@ img { max-width: 100%; }
  .tc-l { text-align: center; }
  .ttc-l { text-transform: capitalize; }
  .ttl-l { text-transform: lowercase; }
- .ttn-l { text-transform: none; }
  .ttu-l { text-transform: uppercase; }
- .caps-l { text-transform: uppercase; letter-spacing: .15em; }
- .mega-l { font-size: 4rem; }
- .f1-l { font-size: 2rem; }
- .f2-l { font-size: 1.5rem; }
- .f3-l { font-size: 1.25rem; }
- .f4-l { font-size: 1rem; }
- .f5-l { font-size: .85rem; }
+ .ttn-l { text-transform: none; }
+ .f-6-l, .f-headline-l { font-size: 6rem; }
+ .f-5-l, .f-subheadline-l { font-size: 5rem; }
+ .f1-l { font-size: 3rem; }
+ .f2-l { font-size: 2.25rem; }
+ .f3-l { font-size: 1.5rem; }
+ .f4-l { font-size: 1.25rem; }
+ .f5-l { font-size: 1rem; }
+ .f6-l { font-size: .875rem; }
  .measure-l { max-width: 30em; }
+ .measure-narrow-l { max-width: 20em; }
  .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .clip-l { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
