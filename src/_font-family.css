@@ -11,13 +11,13 @@
                Roboto, Noto,
                helvetica, 'helvetica neue',
                Ubuntu,
-               arial,
+               'segoe ui', arial,
                sans-serif;
 }
 
 .serif {
-  font-family: times,
-               georgia,
+  font-family: georgia,
+               times,
                serif;
 }
 
