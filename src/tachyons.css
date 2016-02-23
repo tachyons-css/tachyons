@@ -13,7 +13,6 @@
 
 /* Modules */
 
-@import './_base';
 @import './_box-sizing';
 @import './_background-size';
 @import './_borders';
