@@ -73,12 +73,13 @@ This will watch the src directory and do the following on file change:
 
 * http://bluebottlecoffee.com
 * http://aboutlife.com
+* http://clrs.cc
 * http://mrmrs.io/gradients
 * http://joinoneroom.com
 * https://www.getnoodl.es
+* https://natwelch.com
 * http://mrmrs.io/profile/
 * http://mn-ml.cc
-* http://clrs.cc
 * http://gfffs.com
 * http://pesticide.io
 * http://mrmrs.io/btns/
