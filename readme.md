@@ -60,7 +60,7 @@ Set up the project by cloning the repo, navigating into it, and installing the n
 
 You can alternatively fork the repo and clone your own version of it.
 
-### To run the development environment
+### To compile compressed and uncompressed css from src
 ```
 npm start
 ```
@@ -69,9 +69,13 @@ This will watch the src directory and do the following on file change:
 * Run autoprefixer (this allows you to keep vendor prefixes out of your source files)
 * Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change. It will also keep all browsers in sync with eachother i.e. they will all scroll simultaneously. If you fill out a form on one device all devices will be updated with that content. It can be a huge help if you are testing multiple browsers or devices.
 
-## Some things I've built with Tachyons
+## Some websites that use tachyons modules
 
+* http://bluebottlecoffee.com
+* http://aboutlife.com
+* http://mrmrs.io/gradients
 * http://joinoneroom.com
+* https://www.getnoodl.es
 * http://mn-ml.cc
 * http://clrs.cc
 * http://gfffs.com
@@ -79,11 +83,10 @@ This will watch the src directory and do the following on file change:
 * http://mrmrs.io/btns/
 * http://zachhurd.com
 * http://mrmrs.cc
-* http://mrmrs.io
 * http://mrmrs.io/up/
 * http://mrmrs.io/beats/
 * http://designbytyping.com
-* http://☠☣.ws
+* http://mrmrs.io/writing
 
 ## A Note on Class Names
 
