@@ -36,14 +36,14 @@
    b = bottom
    l = left
 
-   0 = none
+   n = none
    1 = extra small
-   2 = small
-   3 = medium
-   4 = large
+   s = small
+   m = medium
+   l = large
+   x = extra
    5 = extra large
-   6 = extra extra large
-   7 = extra extra extra large
+   xxx = extra extra large
 
 */
 
