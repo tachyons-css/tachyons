@@ -2,6 +2,8 @@
   Box Sizing
 */
 
+html,
+body,
 div,
 article,
 section,
@@ -13,11 +15,19 @@ fieldset,
 pre,
 code,
 p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+textarea,
 input[type="text"],
 input[type="tel"],
 input[type="email"],
 input[type="url"],
-input[type="password"] {
+input[type="password"],
+.border-box {
   box-sizing: border-box;
 }
 
