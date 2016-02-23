@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "3.1.1",
+  "version": "4.0.0-beta1",
   "description": "Performant, mobile-first, and 100% responsive modular css framework.",
   "author": "mrmrs",
   "style": "src/tachyons.css",
@@ -33,7 +33,7 @@
     "tachyons-debug": "^1.1.1",
     "tachyons-display": "^3.0.3",
     "tachyons-floats": "^2.0.3",
-    "tachyons-font-family": "^4.1.0",
+    "tachyons-font-family": "^4.1.1",
     "tachyons-font-style": "^2.2.2",
     "tachyons-font-weight": "^4.0.2",
     "tachyons-forms": "^2.0.1",
@@ -59,7 +59,7 @@
     "tachyons-utilities": "^1.1.3",
     "tachyons-vertical-align": "^2.0.2",
     "tachyons-visibility": "^1.0.3",
-    "tachyons-white-space": "^2.0.3",
+    "tachyons-white-space": "^3.0.0",
     "tachyons-widths": "^4.0.1"
   },
   "contributors": [
