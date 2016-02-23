@@ -76,6 +76,7 @@ This will watch the src directory and do the following on file change:
 * http://mrmrs.io/gradients
 * http://joinoneroom.com
 * https://www.getnoodl.es
+* http://mrmrs.io/profile/
 * http://mn-ml.cc
 * http://clrs.cc
 * http://gfffs.com
@@ -85,8 +86,11 @@ This will watch the src directory and do the following on file change:
 * http://mrmrs.cc
 * http://mrmrs.io/up/
 * http://mrmrs.io/beats/
-* http://designbytyping.com
 * http://mrmrs.io/writing
+* http://fade.pics
+
+And of course...
+* http://tachyons.io
 
 ## A Note on Class Names
 
