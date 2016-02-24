@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "4.0.0",
+  "version": "4.0.1-beta",
   "description": "CSS for humans",
   "author": "mrmrs",
   "style": "src/tachyons.css",
