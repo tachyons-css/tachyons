@@ -1,23 +1,8 @@
 # TACHYONS
 
-CSS for designing faster than the speed of light.
+Functional CSS for humans.
 
-For the full set of documentation, please see [tachyons.io](http://tachyons.io).
-
-## About
-
-Tachyons is a work in progress and still heavily in flux.
-The important parts of tachyons are the separation of concerns and the mobile-first
-and modular architecture.
-
-More documentation and examples will be coming. For now - reading the source files
-in the src directory are a great way to get up to speed. I promise they are not complicated.
-
-There is now a [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com). Submit your email to be automatically invited.
-
-## TLDR;
-
-Build responsive, performant, and easy to maintain interfaces faster than the speed of light.
+Quickly build and design new UI without writing CSS.
 
 ## Principles
 
@@ -32,44 +17,69 @@ Build responsive, performant, and easy to maintain interfaces faster than the sp
 ## Features
 
 * Mobile-first css
-* Single-purpose class architecture
+* Single-purpose class structure
 * Optimized for maximum gzip compression
-* Less than 20kB when minified and gzipped
+* 7.2kB when minified and gzipped
 * Usable across projects
 * Infinitely nestable responsive grid system
-* Several color palettes
-* Currently built on rework
+* Built with Postcss
 
 ## Getting started
 
-The easiest way to use tachyons is to include the minified file in the head.
-If you want to reduce the size of the library greatly on production I suggest
-using [uncss](https://github.com/giakki/uncss) to remove styles you aren't referencing.
+Docs can be found at http://tachyons.io/docs
+The modules are generally pretty small and thus easy to read and grock if you're familiar with css at all.
 
-### Modify the source
-Set up the project by cloning the repo, navigating into it, and installing the necessary dependencies by running the following commands:
+### Use the CDN
 
-```
- git clone git@github.com:mrmrs/tachyons.git yourProject
- cd yourProject
- rm -rf .git
- git init
- git add remote git@github.com/yourUserName/yourProject.git
- npm install . && npm start
+The quickest and easiest way to start using tachyons is to include a reference
+to the minified file in the head of your html file.
+
+The latest version can always be found at the link below.
+```html
+<link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/tachyons-css/tachyons.min.css">
 ```
 
-You can alternatively fork the repo and clone your own version of it.
-
-### To compile compressed and uncompressed css from src
+Currently the latest version is 4.0.1-beta
+```html
+<link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/tachyons-css/4.0.1-beta/tachyons.min.css">
 ```
-npm start
-```
-This will watch the src directory and do the following on file change:
-* Compile rework css files
-* Run autoprefixer (this allows you to keep vendor prefixes out of your source files)
-* Run an instance of browser-sync - this causes any browsers or devices pointing to your local server to reload on file change. It will also keep all browsers in sync with eachother i.e. they will all scroll simultaneously. If you fill out a form on one device all devices will be updated with that content. It can be a huge help if you are testing multiple browsers or devices.
 
-## Some websites that use tachyons modules
+### Local Setup
+
+Clone the repo from github and install dependencies through npm.
+
+```
+ git clone https://github.com/tachyons-css/tachyons.git
+cd tachyons
+npm install
+```
+
+#### Build
+
+##### First time
+
+Tachyons is available as a series of small self contained css modules. They aren't dependent on eachother but
+are designed to play well together. But tachyons is also just css. And you should feel free to edit css
+that is in your project. The first time you build tachyons all of the css gets installed through npm, but the modules
+then get copied over to your local src directory and then the tachyons-cli uses a series of postcss plugins to
+compile the source down to vanilla css.
+
+##### Updating
+
+If you want to update a tachyons partial, update the module through npm and run the build command again. Note
+this will copy over all source files, so if you've modified src/ your changes might be overwritten.
+```npm run build```
+
+#### Dev
+
+If you want to just use src as a jumping off point and edit all the code yourself, you can compile all of your wonderful changes by running
+
+```npm start```
+
+This will output both minified and unminified versions of the css to the css directory.
+
+
+## Some websites that use modules from the tachyons project
 
 * http://bluebottlecoffee.com
 * http://aboutlife.com
@@ -80,7 +90,6 @@ This will watch the src directory and do the following on file change:
 * https://natwelch.com
 * http://mrmrs.io/profile/
 * http://mn-ml.cc
-* http://gfffs.com
 * http://pesticide.io
 * http://mrmrs.io/btns/
 * http://zachhurd.com
@@ -89,22 +98,14 @@ This will watch the src directory and do the following on file change:
 * http://mrmrs.io/beats/
 * http://mrmrs.io/writing
 * http://fade.pics
+* http://gfffs.com
 
 And of course...
 * http://tachyons.io
 
-## A Note on Class Names
+## Help
 
-As tachyons started out as an experiment in css performance - many of the names
-were programmatically generated using vim macros based on the content of the properties and values
-they represent. As I have begun to work on tachyons more and use it in the wild,
-I've begun to codify common classes to things that my brain naturally leans towards remembering.
-I like unix a lot and subscribe to naming conventions like cp over copy for common classes that I use frequently.
-
-That being said I think the naming in Tachyons needs work and I am open to hearing peoples
-feedback on things they like and also the things they don't like. Once Tachyons is a little more finished I
-will be generating different 'flavors' of the framework that use different naming patterns.
-One version being a more verbose class naming system that seems to be aligned with what many people prefer.
+If you have a question feel free to open an issue here or jump into the [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com).
 
 ## License
 
