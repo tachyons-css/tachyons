@@ -6,9 +6,8 @@
 
 
 .sans-serif {
-  font-family: -apple-system,
+  font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
-               Roboto, Noto,
                helvetica, 'helvetica neue',
                Ubuntu,
                'segoe ui', arial,
@@ -19,6 +18,14 @@
   font-family: georgia,
                times,
                serif;
+}
+
+.system-sans-serif {
+  font-family: sans-serif;
+}
+
+.system-serif {
+  font-family: serif;
 }
 
 

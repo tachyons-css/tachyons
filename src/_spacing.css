@@ -1,5 +1,6 @@
 /* Variables */
 
+/* Spacing Scale - based on a ratio of 1:2 */
 :root {
   --spacing-none: 0;
   --spacing-extra-small: .25rem;
@@ -36,61 +37,61 @@
    b = bottom
    l = left
 
-   n = none
-   1 = extra small
-   s = small
-   m = medium
-   l = large
-   x = extra
-   5 = extra large
-   xxx = extra extra large
+   0 = none
+   1 = 1st step in spacing scale
+   2 = 2nd step in spacing scale
+   3 = 3rd step in spacing scale
+   4 = 4th step in spacing scale
+   5 = 5th step in spacing scale
+   6 = 6th step in spacing scale
+   7 = 7th step in spacing scale
 
 */
 
 
-.pa0  {  padding: var(--spacing-none); }
-.pa1 {  padding: var(--spacing-extra-small); }
-.pa2  {  padding: var(--spacing-small); }
-.pa3  {  padding: var(--spacing-medium); }
-.pa4  {  padding: var(--spacing-large); }
-.pa5  {  padding: var(--spacing-extra-large); }
-.pa6 {  padding: var(--spacing-extra-extra-large); }
+.pa0 { padding: var(--spacing-none); }
+.pa1 { padding: var(--spacing-extra-small); }
+.pa2 { padding: var(--spacing-small); }
+.pa3 { padding: var(--spacing-medium); }
+.pa4 { padding: var(--spacing-large); }
+.pa5 { padding: var(--spacing-extra-large); }
+.pa6 { padding: var(--spacing-extra-extra-large); }
 .pa7 { padding: var(--spacing-extra-extra-extra-large); }
 
-.pl0  {  padding-left: var(--spacing-none); }
-.pl1 {  padding-left: var(--spacing-extra-small); }
-.pl2  {  padding-left: var(--spacing-small); }
-.pl3  {  padding-left: var(--spacing-medium); }
-.pl4  {  padding-left: var(--spacing-large); }
-.pl5  {  padding-left: var(--spacing-extra-large); }
-.pl6 {  padding-left: var(--spacing-extra-extra-large); }
+.pl0 { padding-left: var(--spacing-none); }
+.pl1 { padding-left: var(--spacing-extra-small); }
+.pl2 { padding-left: var(--spacing-small); }
+.pl3 { padding-left: var(--spacing-medium); }
+.pl4 { padding-left: var(--spacing-large); }
+.pl5 { padding-left: var(--spacing-extra-large); }
+.pl6 { padding-left: var(--spacing-extra-extra-large); }
 .pl7 { padding-left: var(--spacing-extra-extra-extra-large); }
 
-.pr0  {  padding-right: var(--spacing-none); }
-.pr1 {  padding-right: var(--spacing-extra-small); }
-.pr2  {  padding-right: var(--spacing-small); }
-.pr3  {  padding-right: var(--spacing-medium); }
-.pr4  {  padding-right: var(--spacing-large); }
-.pr5  {  padding-right: var(--spacing-extra-large); }
-.pr6 {  padding-right: var(--spacing-extra-extra-large); }
+.pr0 { padding-right: var(--spacing-none); }
+.pr1 { padding-right: var(--spacing-extra-small); }
+.pr2 { padding-right: var(--spacing-small); }
+.pr3 { padding-right: var(--spacing-medium); }
+.pr4 { padding-right: var(--spacing-large); }
+.pr5 { padding-right: var(--spacing-extra-large); }
+.pr6 { padding-right: var(--spacing-extra-extra-large); }
 .pr7 { padding-right: var(--spacing-extra-extra-extra-large); }
 
-.pb0  {  padding-bottom: var(--spacing-none); }
-.pb1 {  padding-bottom: var(--spacing-extra-small); }
-.pb2  {  padding-bottom: var(--spacing-small); }
-.pb3  {  padding-bottom: var(--spacing-medium); }
-.pb4  {  padding-bottom: var(--spacing-large); }
-.pb5  {  padding-bottom: var(--spacing-extra-large); }
-.pb6 {  padding-bottom: var(--spacing-extra-extra-large); }
+.pb0 { padding-bottom: var(--spacing-none); }
+.pb1 { padding-bottom: var(--spacing-extra-small); }
+.pb2 { padding-bottom: var(--spacing-small); }
+.pb3 { padding-bottom: var(--spacing-medium); }
+.pb4 { padding-bottom: var(--spacing-large); }
+.pb5 { padding-bottom: var(--spacing-extra-large); }
+.pb6 { padding-bottom: var(--spacing-extra-extra-large); }
 .pb7 { padding-bottom: var(--spacing-extra-extra-extra-large); }
 
-.pt0  {  padding-top: var(--spacing-none); }
-.pt1 {  padding-top: var(--spacing-extra-small); }
-.pt2  {  padding-top: var(--spacing-small); }
-.pt3  {  padding-top: var(--spacing-medium); }
-.pt4  {  padding-top: var(--spacing-large); }
-.pt5  {  padding-top: var(--spacing-extra-large); }
-.pt6 {  padding-top: var(--spacing-extra-extra-large); }
+.pt0 { padding-top: var(--spacing-none); }
+.pt1 { padding-top: var(--spacing-extra-small); }
+.pt2 { padding-top: var(--spacing-small); }
+.pt3 { padding-top: var(--spacing-medium); }
+.pt4 { padding-top: var(--spacing-large); }
+.pt5 { padding-top: var(--spacing-extra-large); }
+.pt6 { padding-top: var(--spacing-extra-extra-large); }
 .pt7 { padding-top: var(--spacing-extra-extra-extra-large); }
 
 .pv0 {
@@ -132,7 +133,7 @@
   padding-right: var(--spacing-none);
 }
 
-.pv1 {
+.ph1 {
   padding-left: var(--spacing-extra-small);
   padding-right: var(--spacing-extra-small);
 }
