@@ -6,9 +6,8 @@ tachyonsModules().then(function (cssModules) {
   var filteredModules = cssModules.filter(function (module) {
     return [
       // TODO: Fix me : (
-      'tachyons-border-colors',
       'tachyons-colors',
-      'tachyons-coordinates',
+      'tachyons-base',
       'tachyons-display-verbose'
     ].indexOf(module.name) == -1
   }).map(function (cssModule) {
