@@ -61,7 +61,8 @@
     "tachyons-vertical-align": "^2.0.2",
     "tachyons-visibility": "^1.0.3",
     "tachyons-white-space": "^3.0.0",
-    "tachyons-widths": "^4.0.1"
+    "tachyons-widths": "^4.0.1",
+    "tachyons-word-break": "1.0.0"
   },
   "contributors": [
     {
