@@ -26,7 +26,7 @@
 
 */
 
-  .brn {        border-radius: 0; }
+  .br0 {        border-radius: 0; }
   .br1 {        border-radius: .125rem; }
   .br2 {        border-radius: .25rem; }
   .br3 {        border-radius: .5rem; }
@@ -34,7 +34,7 @@
   .br-100 {     border-radius: 100%; }
 
 @media (--breakpoint-not-small) {
-  .brn-ns {     border-radius: 0; }
+  .br0-ns {     border-radius: 0; }
   .br1-ns {     border-radius: .125rem; }
   .br2-ns {     border-radius: .25rem; }
   .br3-ns {     border-radius: .5rem; }
@@ -43,7 +43,7 @@
 }
 
 @media (--breakpoint-medium) {
-  .brn-m {     border-radius: 0; }
+  .br0-m {     border-radius: 0; }
   .br1-m {     border-radius: .125rem; }
   .br2-m {     border-radius: .25rem; }
   .br3-m {     border-radius: .5rem; }
@@ -52,7 +52,7 @@
 }
 
 @media (--breakpoint-large) {
-  .brn-l {     border-radius: 0; }
+  .br0-l {     border-radius: 0; }
   .br1-l {     border-radius: .125rem; }
   .br2-l {     border-radius: .25rem; }
   .br3-l {     border-radius: .5rem; }
