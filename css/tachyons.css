@@ -379,7 +379,7 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
      -l  = large
 
 */
-.brn { border-radius: 0; }
+.br0 { border-radius: 0; }
 .br1 { border-radius: .125rem; }
 .br2 { border-radius: .25rem; }
 .br3 { border-radius: .5rem; }
@@ -1156,7 +1156,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-ns { border-right-style: solid; border-right-width: 1px; }
  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-ns { border-left-style: solid; border-left-width: 1px; }
- .brn-ns { border-radius: 0; }
+ .br0-ns { border-radius: 0; }
  .br1-ns { border-radius: .125rem; }
  .br2-ns { border-radius: .25rem; }
  .br3-ns { border-radius: .5rem; }
@@ -1435,7 +1435,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-m { border-right-style: solid; border-right-width: 1px; }
  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-m { border-left-style: solid; border-left-width: 1px; }
- .brn-m { border-radius: 0; }
+ .br0-m { border-radius: 0; }
  .br1-m { border-radius: .125rem; }
  .br2-m { border-radius: .25rem; }
  .br3-m { border-radius: .5rem; }
@@ -1715,7 +1715,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-l { border-right-style: solid; border-right-width: 1px; }
  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-l { border-left-style: solid; border-left-width: 1px; }
- .brn-l { border-radius: 0; }
+ .br0-l { border-radius: 0; }
  .br1-l { border-radius: .125rem; }
  .br2-l { border-radius: .25rem; }
  .br3-l { border-radius: .5rem; }
