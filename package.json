@@ -1,9 +1,9 @@
 {
   "name": "tachyons",
   "version": "4.0.1-beta",
-  "description": "CSS for humans",
+  "description": "Functional CSS for humans",
   "author": "mrmrs",
-  "style": "src/tachyons.css",
+  "style": "css/tachyons.css",
   "files": [
     "css",
     "src"
@@ -32,7 +32,7 @@
     "tachyons-colors": "^5.1.0",
     "tachyons-coordinates": "^2.2.0",
     "tachyons-debug": "^1.1.1",
-    "tachyons-display": "^3.0.3",
+    "tachyons-display": "^4.0.0",
     "tachyons-floats": "^2.0.3",
     "tachyons-font-family": "^4.1.1",
     "tachyons-font-style": "^2.2.2",
@@ -50,8 +50,8 @@
     "tachyons-opacity": "^1.0.0",
     "tachyons-overflow": "^3.0.0",
     "tachyons-position": "^5.0.0",
-    "tachyons-spacing": "^5.0.2",
     "tachyons-skins": "^3.1.0",
+    "tachyons-spacing": "^5.0.2",
     "tachyons-text-align": "^2.0.3",
     "tachyons-text-decoration": "^3.1.0",
     "tachyons-text-transform": "^3.0.3",
