@@ -511,8 +511,10 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
 .dit { display: inline-table; }
 .dt { display: table; }
 .dtc { display: table-cell; }
-.dtcol { display: table-column; }
-.dtcolg { display: table-column-group; }
+.dt-row { display: table-row; }
+.dt-row-group { display: table-row-group; }
+.dt-column { display: table-column; }
+.dt-column-group { display: table-column-group; }
 /* Media Query Variables */
 /*
 
@@ -1198,8 +1200,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dit-ns { display: inline-table; }
  .dt-ns { display: table; }
  .dtc-ns { display: table-cell; }
- .dtcol-ns { display: table-column; }
- .dtcolg-ns { display: table-column-group; }
+ .dt-row-ns { display: table-row; }
+ .dt-row-group-ns { display: table-row-group; }
+ .dt-column-ns { display: table-column; }
+ .dt-column-group-ns { display: table-column-group; }
  .fl-ns { float: left; display: inline; }
  .fr-ns { float: right; display: inline; }
  .fn-ns { float: none !important; }
@@ -1475,8 +1479,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dit-m { display: inline-table; }
  .dt-m { display: table; }
  .dtc-m { display: table-cell; }
- .dtcol-m { display: table-column; }
- .dtcolg-m { display: table-column-group; }
+ .dt-row-m { display: table-row; }
+ .dt-row-group-m { display: table-row-group; }
+ .dt-column-m { display: table-column; }
+ .dt-column-group-m { display: table-column-group; }
  .fl-m { float: left; display: inline; }
  .fr-m { float: right; display: inline; }
  .fn-m { float: none; }
@@ -1753,8 +1759,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dit-l { display: inline-table; }
  .dt-l { display: table; }
  .dtc-l { display: table-cell; }
- .dtcol-l { display: table-column; }
- .dtcolg-l { display: table-column-group; }
+ .dt-row-l { display: table-row; }
+ .dt-row-group-l { display: table-row-group; }
+ .dt-column-l { display: table-column; }
+ .dt-column-group-l { display: table-column-group; }
  .fl-l { float: left; display: inline; }
  .fr-l { float: right; display: inline; }
  .fn-l { float: none; }
