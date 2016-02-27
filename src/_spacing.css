@@ -841,7 +841,7 @@
   .ma6-l {  margin: var(--spacing-extra-extra-large); }
   .ma7-l { margin: var(--spacing-extra-extra-extra-large); }
 
-  .mlo-l  {  margin-left: var(--spacing-none); }
+  .ml0-l  {  margin-left: var(--spacing-none); }
   .ml1-l {  margin-left: var(--spacing-extra-small); }
   .ml2-l  {  margin-left: var(--spacing-small); }
   .ml3-l  {  margin-left: var(--spacing-medium); }
