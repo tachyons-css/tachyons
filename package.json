@@ -62,7 +62,8 @@
     "tachyons-visibility": "^1.0.3",
     "tachyons-white-space": "^3.0.0",
     "tachyons-widths": "^4.0.1",
-    "tachyons-word-break": "1.0.0"
+    "tachyons-word-break": "1.0.0",
+    "watch": "^0.17.1"
   },
   "contributors": [
     {
@@ -87,9 +88,12 @@
     }
   ],
   "scripts": {
-    "build": "node build.js && npm start",
+    "start": "build:css && build:minify",
     "mutations": "immutable-css src/tachyons.css --strict",
-    "start": "tachyons src/tachyons.css > css/tachyons.css && tachyons src/tachyons.css -m > css/tachyons.min.css"
+    "build": "node build.js && npm start",
+    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
+    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:watch": "watch 'npm start' ./src/"
   },
   "dependencies": {}
 }
