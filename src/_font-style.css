@@ -8,20 +8,20 @@
 
 */
 
-.i       { font-style: italic; }
-.fsn     { font-style: normal; }
+.i         { font-style: italic; }
+.fs-normal { font-style: normal; }
 
 @media (--breakpoint-not-small) {
   .i-ns       { font-style: italic; }
-  .fsn-ns     { font-style: normal; }
+  .fs-normal-ns     { font-style: normal; }
 }
 
 @media (--breakpoint-medium) {
   .i-m       { font-style: italic; }
-  .fsn-m     { font-style: normal; }
+  .fs-normal-m     { font-style: normal; }
 }
 
 @media (--breakpoint-large) {
   .i-l       { font-style: italic; }
-  .fsn-l     { font-style: normal; }
+  .fs-normal-l     { font-style: normal; }
 }
