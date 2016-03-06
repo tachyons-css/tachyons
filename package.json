@@ -89,9 +89,9 @@
     }
   ],
   "scripts": {
-    "start": "build:css && build:minify",
+    "start": "npm run build:css && npm run build:minify",
     "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "node build.js && npm start",
+    "build": "node build.js && npm run build:css && npm start",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:watch": "watch 'npm start' ./src/"
