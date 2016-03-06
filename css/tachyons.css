@@ -618,7 +618,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .tracked { letter-spacing: .16em; }
-.tracked-tight { letter-spacing: -.08em; }
+.tracked-tight { letter-spacing: -.05em; }
 .tracked-mega { letter-spacing: .32em; }
 /*
 
@@ -1035,8 +1035,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 /* For Hero Titles */
-.f-6-ns, .f-headline { font-size: 6rem; }
-.f-5-ns, .f-subheadline { font-size: 5rem; }
+.f-6, .f-headline { font-size: 6rem; }
+.f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
 .f1 { font-size: 3rem; }
 .f2 { font-size: 2.25rem; }
@@ -1232,7 +1232,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-at-ns { height: auto; }
  .h-i-ns { height: inherit; }
  .tracked-ns { letter-spacing: .16em; }
- .tracked-tight-ns { letter-spacing: -.08em; }
+ .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .32em; }
  .lh-ns { line-height: 1; }
  .lh-title-ns { line-height: 1.3; }
@@ -1511,7 +1511,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-at-m { height: auto; }
  .h-i-m { height: inherit; }
  .tracked-m { letter-spacing: .16em; }
- .tracked-tight-m { letter-spacing: -.08em; }
+ .tracked-tight-m { letter-spacing: -.05em; }
  .tracked-mega-m { letter-spacing: .32em; }
  .lh-m { line-height: 1; }
  .lh-title-m { line-height: 1.3; }
@@ -1791,7 +1791,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-at-l { height: auto; }
  .h-i-l { height: inherit; }
  .tracked-l { letter-spacing: .16em; }
- .tracked-tight-l { letter-spacing: -.08em; }
+ .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .32em; }
  .lh-l { line-height: 1; }
  .lh-title-l { line-height: 1.3; }
