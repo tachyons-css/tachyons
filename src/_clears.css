@@ -1,3 +1,7 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
 /*
 
    CLEARFIX
@@ -12,3 +16,24 @@
 .cf:after { clear: both; }
 .cf {       *zoom: 1; }
 
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+
+@media (--breakpoint-not-small) {
+  .cl-ns { clear: left; }
+  .cr-ns { clear: right; }
+  .cb-ns { clear: both; }
+}
+
+@media (--breakpoint-medium) {
+  .cl-m { clear: left; }
+  .cr-m { clear: right; }
+  .cb-m { clear: both; }
+}
+
+@media (--breakpoint-large) {
+  .cl-l { clear: left; }
+  .cr-l { clear: right; }
+  .cb-l { clear: both; }
+}
