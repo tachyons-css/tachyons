@@ -39,7 +39,7 @@
 @media (--breakpoint-not-small) {
   .fl-ns { float: left; display: inline; }
   .fr-ns { float: right;display: inline; }
-  .fn-ns { float: none!important; }
+  .fn-ns { float: none; }
 }
 
 @media (--breakpoint-medium) {

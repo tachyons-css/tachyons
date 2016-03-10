@@ -473,7 +473,7 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
 .absolute--fill { top: 0; right: 0; bottom: 0; left: 0; }
 /*
 
-   CLEARS
+   CLEARFIX
 
 */
 /* Nicolas Gallaghers Clearfix solution
@@ -481,6 +481,9 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
 .cf:before, .cf:after { content: " "; display: table; }
 .cf:after { clear: both; }
 .cf { *zoom: 1; }
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
 /*
 
    DISPLAY
@@ -593,7 +596,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .input-reset { -webkit-appearance: none; -moz-appearance: none; }
-.input-invisible { outline: 0; border: 0; }
 /*
 
    HEIGHTS
@@ -603,8 +605,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .h1 { height: 1rem; }
 .h2 { height: 2rem; }
 .h3 { height: 4rem; }
-.h4 { height: 8rem; }
-.h5 { height: 16rem; }
 /* Height Percentages */
 .h-25 { height: 25%; }
 .h-50 { height: 50%; }
@@ -626,7 +626,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
    LINE HEIGHT / LEADING
 
 */
-.lh { line-height: 1; }
+.lh-solid { line-height: 1; }
 .lh-title { line-height: 1.3; }
 .lh-copy { line-height: 1.6; }
 /*
@@ -1195,6 +1195,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bottom--2-ns { bottom: -2rem; }
  .left--2-ns { left: -2rem; }
  .absolute--fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
+ .cl-ns { clear: left; }
+ .cr-ns { clear: right; }
+ .cb-ns { clear: both; }
  .dn-ns { display: none; }
  .di-ns { display: inline; }
  .db-ns { display: block; }
@@ -1208,7 +1211,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dt-column-group-ns { display: table-column-group; }
  .fl-ns { float: left; display: inline; }
  .fr-ns { float: right; display: inline; }
- .fn-ns { float: none !important; }
+ .fn-ns { float: none; }
  .i-ns { font-style: italic; }
  .fs-normal-ns { font-style: normal; }
  .normal-ns { font-weight: normal; }
@@ -1225,8 +1228,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-1-ns { height: 1rem; }
  .h-2-ns { height: 2rem; }
  .h-3-ns { height: 4rem; }
- .h-4-ns { height: 8rem; }
- .h-5-ns { height: 16rem; }
  .h-25-ns { height: 25%; }
  .h-50-ns { height: 50%; }
  .h-75-ns { height: 75%; }
@@ -1236,7 +1237,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tracked-ns { letter-spacing: .16em; }
  .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .32em; }
- .lh-ns { line-height: 1; }
+ .lh-solid-ns { line-height: 1; }
  .lh-title-ns { line-height: 1.3; }
  .lh-copy-ns { line-height: 1.6; }
  .mw-100-ns { max-width: 100%; }
@@ -1475,6 +1476,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bottom--2-m { bottom: -2rem; }
  .left--2-m { left: -2rem; }
  .absolute--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
+ .cl-m { clear: left; }
+ .cr-m { clear: right; }
+ .cb-m { clear: both; }
  .dn-m { display: none; }
  .di-m { display: inline; }
  .db-m { display: block; }
@@ -1505,8 +1509,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }
- .h4-m { height: 8rem; }
- .h5-m { height: 16rem; }
  .h-25-m { height: 25%; }
  .h-50-m { height: 50%; }
  .h-75-m { height: 75%; }
@@ -1516,7 +1518,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tracked-m { letter-spacing: .16em; }
  .tracked-tight-m { letter-spacing: -.05em; }
  .tracked-mega-m { letter-spacing: .32em; }
- .lh-m { line-height: 1; }
+ .lh-solid-m { line-height: 1; }
  .lh-title-m { line-height: 1.3; }
  .lh-copy-m { line-height: 1.6; }
  .mw-100-m { max-width: 100%; }
@@ -1756,6 +1758,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bottom--2-l { bottom: -2rem; }
  .left--2-l { left: -2rem; }
  .absolute--fill-l { top: 0; right: 0; bottom: 0; left: 0; }
+ .cl-l { clear: left; }
+ .cr-l { clear: right; }
+ .cb-l { clear: both; }
  .dn-l { display: none; }
  .di-l { display: inline; }
  .db-l { display: block; }
@@ -1786,8 +1791,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h1-l { height: 1rem; }
  .h2-l { height: 2rem; }
  .h3-l { height: 4rem; }
- .h4-l { height: 8rem; }
- .h5-l { height: 16rem; }
  .h-25-l { height: 25%; }
  .h-50-l { height: 50%; }
  .h-75-l { height: 75%; }
@@ -1797,7 +1800,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tracked-l { letter-spacing: .16em; }
  .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .32em; }
- .lh-l { line-height: 1; }
+ .lh-solid-l { line-height: 1; }
  .lh-title-l { line-height: 1.3; }
  .lh-copy-l { line-height: 1.6; }
  .mw-100-l { max-width: 100%; }
