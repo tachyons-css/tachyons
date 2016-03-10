@@ -56,7 +56,6 @@
   },
   "dependencies": {
     "tachyons-background-size": "^3.0.2",
-    "tachyons-base": "^1.2.2",
     "tachyons-border-colors": "^4.0.4",
     "tachyons-border-radius": "^4.0.0",
     "tachyons-border-style": "^3.0.0",
@@ -72,6 +71,7 @@
     "tachyons-font-family": "^4.1.1",
     "tachyons-font-style": "^3.0.0",
     "tachyons-font-weight": "^4.0.2",
+    "tachyons-forms": "^3.0.0",
     "tachyons-heights": "^4.0.2",
     "tachyons-hovers": "^2.0.4",
     "tachyons-images": "^1.0.3",
