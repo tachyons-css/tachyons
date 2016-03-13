@@ -49,7 +49,7 @@ Currently the latest version is 4.0.1-beta
 Clone the repo from github and install dependencies through npm.
 
 ```
- git clone https://github.com/tachyons-css/tachyons.git
+git clone https://github.com/tachyons-css/tachyons.git
 cd tachyons
 npm install
 ```
@@ -61,8 +61,8 @@ npm install
 Tachyons is available as a series of small self contained css modules. They aren't dependent on eachother but
 are designed to play well together. But tachyons is also just css. And you should feel free to edit css
 that is in your project. The first time you build tachyons all of the css gets installed through npm, but the modules
-then get copied over to your local src directory and then the tachyons-cli uses a series of postcss plugins to
-compile the source down to vanilla css.
+then get copied over to your local src directory and then the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+uses a series of postcss plugins to compile the source down to vanilla css.
 
 ##### Updating
 
