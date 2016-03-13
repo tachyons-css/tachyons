@@ -433,7 +433,7 @@
 
   .mv0-ns   {
     margin-top: var(--spacing-none);
-    margin-bottom: var(--spacing-none)rem;
+    margin-bottom: var(--spacing-none);
   }
   .mv1-ns  {
     margin-top: var(--spacing-extra-small);
