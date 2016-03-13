@@ -27,9 +27,9 @@
 .h-i {  height: inherit; }
 
 @media (--breakpoint-not-small) {
-  .h-1-ns {  height: 1rem; }
-  .h-2-ns {  height: 2rem; }
-  .h-3-ns {  height: 4rem; }
+  .h1-ns {  height: 1rem; }
+  .h2-ns {  height: 2rem; }
+  .h3-ns {  height: 4rem; }
   .h-25-ns  { height: 25%; }
   .h-50-ns  { height: 50%; }
   .h-75-ns  { height: 75%; }
