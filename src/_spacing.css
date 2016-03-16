@@ -250,6 +250,10 @@
   margin-left: var(--spacing-none);
   margin-right: var(--spacing-none);
 }
+.mh1   {
+  margin-left: var(--spacing-extra-small);
+  margin-right: var(--spacing-extra-small);
+}
 .mh2   {
   margin-left: var(--spacing-small);
   margin-right: var(--spacing-small);
@@ -464,34 +468,38 @@
     margin-bottom: var(--spacing-extra-extra-extra-large);
   }
 
-   .mh0-ns   {
-     margin-left: var(--spacing-none);
-     margin-right: var(--spacing-none);
-   }
-   .mh2-ns   {
-     margin-left: var(--spacing-small);
-     margin-right: var(--spacing-small);
-   }
-   .mh3-ns   {
-     margin-left: var(--spacing-medium);
-     margin-right: var(--spacing-medium);
-   }
-   .mh4-ns   {
-     margin-left: var(--spacing-large);
-     margin-right: var(--spacing-large);
-   }
-   .mh5-ns   {
-     margin-left: var(--spacing-extra-large);
-     margin-right: var(--spacing-extra-large);
-   }
-   .mh6-ns  {
-     margin-left: var(--spacing-extra-extra-large);
-     margin-right: var(--spacing-extra-extra-large);
-   }
-   .mh7-ns  {
-     margin-left: var(--spacing-extra-extra-extra-large);
-     margin-right: var(--spacing-extra-extra-extra-large);
-   }
+  .mh0-ns   {
+    margin-left: var(--spacing-none);
+    margin-right: var(--spacing-none);
+  }
+  .mh1-ns   {
+    margin-left: var(--spacing-extra-small);
+    margin-right: var(--spacing-extra-small);
+  }
+  .mh2-ns   {
+    margin-left: var(--spacing-small);
+    margin-right: var(--spacing-small);
+  }
+  .mh3-ns   {
+    margin-left: var(--spacing-medium);
+    margin-right: var(--spacing-medium);
+  }
+  .mh4-ns   {
+    margin-left: var(--spacing-large);
+    margin-right: var(--spacing-large);
+  }
+  .mh5-ns   {
+    margin-left: var(--spacing-extra-large);
+    margin-right: var(--spacing-extra-large);
+  }
+  .mh6-ns  {
+    margin-left: var(--spacing-extra-extra-large);
+    margin-right: var(--spacing-extra-extra-large);
+  }
+  .mh7-ns  {
+    margin-left: var(--spacing-extra-extra-extra-large);
+    margin-right: var(--spacing-extra-extra-extra-large);
+  }
 
 }
 
