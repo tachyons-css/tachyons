@@ -3,16 +3,9 @@
    Tachyons
    COLOR VARIABLES
 
-   - Grayscale
-   - Blues
-   - Teals
-   - Green
-   - Reds
-   - Oranges
-   - Yellows
-   - Pink
-   - Purple
-
+   Grayscale
+   - Solids
+   - Transparencies
 */
 
 :root {
@@ -28,51 +21,31 @@
   --near-white: #f4f4f4;
   --white: #fff;
 
-  --blue: #0074D9;
-  --light-blue: #64a8ff;
-  --lightest-blue: #a2dfff;
-  --dark-blue: #0045a1;
-  --darkest-blue: #002f86;
+  --transparent:transparent;
 
-  --teal: #27bfa8;
-  --light-teal: #4eddc5;
-  --lightest-teal: #6ffae0;
-  --dark-teal: #25a28f;
-  --darkest-teal: #008876;
+ --black-90: rgba(0,0,0,.9);
+ --black-80: rgba(0,0,0,.8);
+ --black-70: rgba(0,0,0,.7);
+ --black-60: rgba(0,0,0,.6);
+ --black-50: rgba(0,0,0,.5);
+ --black-40: rgba(0,0,0,.4);
+ --black-30: rgba(0,0,0,.3);
+ --black-20: rgba(0,0,0,.2);
+ --black-10: rgba(0,0,0,.1);
+ --black-05: rgba(0,0,0,.05);
+ --black-025: rgba(0,0,0,.025);
+ --black-0125: rgba(0,0,0,.0125);
 
-  --green: #3D9970;
-  --light-green: #5ab48a;
-  --lightest-green: #75d0a4;
-  --dark-green: #1e7f58;
-  --darkest-green: #006540;
-
-  --red: #d82c2c;
-  --light-red: #f94f44;
-  --lightest-red: #ff6c5c;
-  --dark-red: #bd001a;
-  --darkest-red: #9d0003;
-
-  --orange: #FF851B;
-  --light-orange: #ffa942;
-  --lightest-orange: #ffc55d;
-  --dark-orange: #d05e00;
-  --darkest-orange: #b14400;
-
-  --yellow: #fff93c;
-  --light-yellow: #fffa60;
-  --lightest-yellow: #fffca6;
-  --dark-yellow: #e2c100;
-  --darkest-yellow: #c4a600;
-
-  --pink: #F012BE;
-  --light-pink: #ff57e8;
-  --lightest-pink: #ff81ff;
-  --dark-pink: #d100a3;
-  --darkest-pink: #b20088;
-
-  --purple: #980bc6;
-  --light-purple: #b536e2;
-  --lightest-purple: #d355ff;
-  --dark-purple: #7b00a9;
-  --darkest-purple: #5f008e;
+ --white-90: rgba(255,255,255,.9);
+ --white-80: rgba(255,255,255,.8);
+ --white-70: rgba(255,255,255,.7);
+ --white-60: rgba(255,255,255,.6);
+ --white-50: rgba(255,255,255,.5);
+ --white-40: rgba(255,255,255,.4);
+ --white-30: rgba(255,255,255,.3);
+ --white-20: rgba(255,255,255,.2);
+ --white-10: rgba(255,255,255,.1);
+ --white-05: rgba(255,255,255,.05);
+ --white-025: rgba(255,255,255,.025);
+ --white-0125: rgba(255,255,255,.0125);
 }
