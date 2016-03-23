@@ -19,7 +19,7 @@
   "devDependencies": {
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^3.0.3",
+    "normalize.css": "^4.0.0",
     "tachyons-cli": "^0.6.0",
     "tachyons-modules": "^1.0.3",
     "watch": "^0.17.1"
@@ -55,10 +55,10 @@
     "build:watch": "watch 'npm start' ./src/"
   },
   "dependencies": {
-    "tachyons-background-size": "^3.0.2",
+    "tachyons-background-size": "^3.0.3",
     "tachyons-border-colors": "^4.0.5",
-    "tachyons-border-radius": "^4.1.1",
-    "tachyons-border-style": "^3.0.1",
+    "tachyons-border-radius": "^4.1.2",
+    "tachyons-border-style": "^3.0.2",
     "tachyons-border-widths": "^2.0.2",
     "tachyons-borders": "^2.1.0",
     "tachyons-box-sizing": "^3.1.1",
