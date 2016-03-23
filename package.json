@@ -20,7 +20,6 @@
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
     "normalize.css": "^3.0.3",
-    "tachyons-border-radius": "^4.1.1",
     "tachyons-cli": "^0.6.0",
     "tachyons-modules": "^1.0.3",
     "watch": "^0.17.1"
