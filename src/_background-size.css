@@ -20,6 +20,11 @@
 
 */
 
+/*
+  Often used in combination with background image set as an inline style
+  on an html element.
+*/
+
   .bg-cv  {               background-size: cover; }
   .bg-cn  {               background-size: contain; }
 
