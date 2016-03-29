@@ -813,6 +813,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .gray { color: #777; }
 .silver { color: #999; }
 .light-silver { color: #aaa; }
+.moon-gray { color: #ccc; }
 .light-gray { color: #eee; }
 .near-white { color: #f4f4f4; }
 .white { color: #fff; }
@@ -824,6 +825,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-gray { background-color: #777; }
 .bg-silver { background-color: #999; }
 .bg-light-silver { background-color: #aaa; }
+.bg-moon-gray { background-color: #ccc; }
 .bg-light-gray { background-color: #eee; }
 .bg-near-white { background-color: #f4f4f4; }
 .bg-white { background-color: #fff; }
