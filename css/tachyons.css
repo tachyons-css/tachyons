@@ -433,7 +433,6 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
 
 */
 .pre { overflow-x: auto; overflow-y: hidden; overflow: scroll; }
-.code { white-space: pre; font-size: 14px; }
 /*
 
    COORDINATES
