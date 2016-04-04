@@ -60,14 +60,14 @@ npm install
 
 Tachyons is available as a series of small self contained css modules. They aren't dependent on eachother but
 are designed to play well together. But tachyons is also just css. And you should feel free to edit css
-that is in your project. The first time you build tachyons all of the css gets installed through npm, but the modules
+that is in your project. The first time you build tachyons all of the css gets installed via npm, but the modules
 then get copied over to your local src directory and then the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 uses a series of postcss plugins to compile the source down to vanilla css.
 
 ##### Updating
 
-If you want to update a tachyons partial, update the module through npm and run the build command again. Note
-this will copy over all source files, so if you've modified src/ your changes might be overwritten.
+If you want to update a tachyons partial, install the desired module version via npm and run the build command again. Note
+this will copy over all source files, so if you've modified src/ your changes might will be overwritten but you can use version control (like git!) to undo these changes.
 ```npm run build```
 
 #### Dev
@@ -78,9 +78,19 @@ If you want to just use src as a jumping off point and edit all the code yoursel
 
 This will output both minified and unminified versions of the css to the css directory.
 
+If you want to recompile everything from src everytime you save a change - you can run the following command, which will compile and minify the css
+
+```npm run build:watch```
+
+If you want to check that a class hasn't been redefined or 'mutated' there is a linter to check that all of the classes have only been defined once. This can be useful if you are using another library or have written some of your own css and want to make sure there are no naming collisions. To do this run the command
+
+```npm run mutations```
 
 ## Some websites that use modules from the tachyons project
+(if you have a project that uses tachyons feel free to make a PR to add it to this list)
 
+* http://spenhar.com
+* http://www.csspurge.com
 * http://bluebottlecoffee.com
 * http://aboutlife.com
 * http://clrs.cc
