@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "4.0.0-beta.18",
+  "version": "4.0.0-beta.19",
   "description": "Functional CSS for humans",
   "author": "mrmrs",
   "style": "css/tachyons.css",
@@ -84,7 +84,7 @@
     "tachyons-outlines": "^1.0.0",
     "tachyons-overflow": "^3.0.1",
     "tachyons-position": "^5.0.1",
-    "tachyons-skins": "^3.1.2",
+    "tachyons-skins": "^3.1.3",
     "tachyons-spacing": "^5.0.6",
     "tachyons-text-align": "^2.0.4",
     "tachyons-text-decoration": "^3.1.1",

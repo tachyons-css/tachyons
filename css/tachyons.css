@@ -346,7 +346,7 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
 .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
 .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
-.b--transparent { border-color: transprent; }
+.b--transparent { border-color: transparent; }
 /*
 
    BORDER RADIUS
