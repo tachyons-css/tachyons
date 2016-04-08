@@ -215,7 +215,7 @@
 
 .mv0   {
   margin-top: var(--spacing-none);
-  margin-bottom: var(--spacing-none)rem;
+  margin-bottom: var(--spacing-none);
 }
 .mv1  {
   margin-top: var(--spacing-extra-small);

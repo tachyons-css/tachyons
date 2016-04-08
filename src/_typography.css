@@ -8,9 +8,16 @@
 
 */
 
-/* Measure is limited to ~75 characters */
+
+
+/* Measure is limited to ~66 characters */
 .measure {
   max-width: 30em;
+}
+
+/* Measure is limited to ~80 characters */
+.measure-wide {
+  max-width: 34em;
 }
 
 /* Measure is limited to ~45 characters */
@@ -37,6 +44,9 @@
   .measure-ns  {
     max-width: 30em;
   }
+  .measure-wide-ns {
+    max-width: 34em;
+  }
   .measure-narrow-ns {
     max-width: 20em;
   }
@@ -53,7 +63,12 @@
 }
 
 @media (--breakpoint-medium) {
-  .measure-m { max-width: 30em; }
+  .measure-m {
+    max-width: 30em;
+  }
+  .measure-wide-m {
+    max-width: 34em;
+  }
   .measure-narrow-m {
     max-width: 20em;
   }
@@ -70,8 +85,15 @@
 }
 
 @media (--breakpoint-large) {
-  .measure-l { max-width: 30em; }
-  .measure-narrow-l { max-width: 20em; }
+  .measure-l {
+    max-width: 30em;
+  }
+  .measure-wide-l {
+    max-width: 34em;
+  }
+  .measure-narrow-l {
+    max-width: 20em;
+  }
   .indent-l {
     text-indent: 1em;
     margin-top: 0;
