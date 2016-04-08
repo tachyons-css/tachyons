@@ -509,6 +509,11 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
 .dt-row-group { display: table-row-group; }
 .dt-column { display: table-column; }
 .dt-column-group { display: table-column-group; }
+/*
+  This will set table to full width and then
+  all cells will be equal width
+*/
+.dt--fixed { table-layout: fixed; width: 100%; }
 /* Media Query Variables */
 /*
 
@@ -1001,7 +1006,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mt5 { margin-top: 4rem; }
 .mt6 { margin-top: 8rem; }
 .mt7 { margin-top: 16rem; }
-.mv0 { margin-top: 0; margin-bottom: 0rem; }
+.mv0 { margin-top: 0; margin-bottom: 0; }
 .mv1 { margin-top: .25rem; margin-bottom: .25rem; }
 .mv2 { margin-top: .5rem; margin-bottom: .5rem; }
 .mv3 { margin-top: 1rem; margin-bottom: 1rem; }
@@ -1062,8 +1067,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
    TYPOGRAPHY
 
 */
-/* Measure is limited to ~75 characters */
+/* Measure is limited to ~66 characters */
 .measure { max-width: 30em; }
+/* Measure is limited to ~80 characters */
+.measure-wide { max-width: 34em; }
 /* Measure is limited to ~45 characters */
 .measure-narrow { max-width: 20em; }
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
@@ -1223,6 +1230,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dt-row-group-ns { display: table-row-group; }
  .dt-column-ns { display: table-column; }
  .dt-column-group-ns { display: table-column-group; }
+ .dt--fixed-ns { table-layout: fixed; width: 100%; }
  .fl-ns { float: left; display: inline; }
  .fr-ns { float: right; display: inline; }
  .fn-ns { float: none; }
@@ -1431,6 +1439,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .f5-ns { font-size: 1rem; }
  .f6-ns { font-size: .875rem; }
  .measure-ns { max-width: 30em; }
+ .measure-wide-ns { max-width: 34em; }
  .measure-narrow-ns { max-width: 20em; }
  .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -1509,6 +1518,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dt-row-group-m { display: table-row-group; }
  .dt-column-m { display: table-column; }
  .dt-column-group-m { display: table-column-group; }
+ .dt--fixed-m { table-layout: fixed; width: 100%; }
  .fl-m { float: left; display: inline; }
  .fr-m { float: right; display: inline; }
  .fn-m { float: none; }
@@ -1717,6 +1727,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .f5-m { font-size: 1rem; }
  .f6-m { font-size: .875rem; }
  .measure-m { max-width: 30em; }
+ .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -1795,6 +1806,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dt-row-group-l { display: table-row-group; }
  .dt-column-l { display: table-column; }
  .dt-column-group-l { display: table-column-group; }
+ .dt--fixed-l { table-layout: fixed; width: 100%; }
  .fl-l { float: left; display: inline; }
  .fr-l { float: right; display: inline; }
  .fn-l { float: none; }
@@ -2003,6 +2015,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .f5-l { font-size: 1rem; }
  .f6-l { font-size: .875rem; }
  .measure-l { max-width: 30em; }
+ .measure-wide-l { max-width: 34em; }
  .measure-narrow-l { max-width: 20em; }
  .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
