@@ -22,28 +22,105 @@
 
  */
 
-.b--none {   border-style: none; }
-.b--dotted { border-style: dotted; }
-.b--dashed { border-style: dashed; }
+.b--none {  border-style: none; }
+.bt--none { border-top-style: none; }
+.br--none { border-right-style: none; }
+.bb--none { border-bottom-style: none; }
+.bl--none { border-left-style: none; }
+
+.b--dotted {  border-style: dotted; }
+.bt--dotted { border-top-style: dotted; }
+.br--dotted { border-right-style: dotted; }
+.bb--dotted { border-bottom-style: dotted; }
+.bl--dotted { border-left-style: dotted; }
+
+.b--dashed {  border-style: dashed; }
+.bt--dashed { border-top-style: dashed; }
+.br--dashed { border-right-style: dashed; }
+.bb--dashed { border-bottom-style: dashed; }
+.bl--dashed { border-left-style: dashed; }
+
 .b--solid {  border-style: solid; }
+.bt--solid { border-top-style: solid; }
+.br--solid { border-right-style: solid; }
+.bb--solid { border-bottom-style: solid; }
+.bl--solid { border-left-style: solid; }
+
 
 @media (--breakpoint-not-small) {
-  .b--none-ns {   border-style: none; }
-  .b--dotted-ns { border-style: dotted; }
-  .b--dashed-ns { border-style: dashed; }
+  .b--none-ns {  border-style: none; }
+  .bt--none-ns { border-top-style: none; }
+  .br--none-ns { border-right-style: none; }
+  .bb--none-ns { border-bottom-style: none; }
+  .bl--none-ns { border-left-style: none; }
+
+  .b--dotted-ns {  border-style: dotted; }
+  .bt--dotted-ns { border-top-style: dotted; }
+  .br--dotted-ns { border-right-style: dotted; }
+  .bb--dotted-ns { border-bottom-style: dotted; }
+  .bl--dotted-ns { border-left-style: dotted; }
+
+  .b--dashed-ns {  border-style: dashed; }
+  .bt--dashed-ns { border-top-style: dashed; }
+  .br--dashed-ns { border-right-style: dashed; }
+  .bb--dashed-ns { border-bottom-style: dashed; }
+  .bl--dashed-ns { border-left-style: dashed; }
+
   .b--solid-ns {  border-style: solid; }
+  .bt--solid-ns { border-top-style: solid; }
+  .br--solid-ns { border-right-style: solid; }
+  .bb--solid-ns { border-bottom-style: solid; }
+  .bl--solid-ns { border-left-style: solid; }
 }
 
 @media (--breakpoint-medium) {
-  .b--none-m {   border-style: none; }
-  .b--dotted-m { border-style: dotted; }
-  .b--dashed-m { border-style: dashed; }
+  .b--none-m {  border-style: none; }
+  .bt--none-m { border-top-style: none; }
+  .br--none-m { border-right-style: none; }
+  .bb--none-m { border-bottom-style: none; }
+  .bl--none-m { border-left-style: none; }
+
+  .b--dotted-m {  border-style: dotted; }
+  .bt--dotted-m { border-top-style: dotted; }
+  .br--dotted-m { border-right-style: dotted; }
+  .bb--dotted-m { border-bottom-style: dotted; }
+  .bl--dotted-m { border-left-style: dotted; }
+
+  .b--dashed-m {  border-style: dashed; }
+  .bt--dashed-m { border-top-style: dashed; }
+  .br--dashed-m { border-right-style: dashed; }
+  .bb--dashed-m { border-bottom-style: dashed; }
+  .bl--dashed-m { border-left-style: dashed; }
+
   .b--solid-m {  border-style: solid; }
+  .bt--solid-m { border-top-style: solid; }
+  .br--solid-m { border-right-style: solid; }
+  .bb--solid-m { border-bottom-style: solid; }
+  .bl--solid-m { border-left-style: solid; }
 }
 
 @media (--breakpoint-large) {
-  .b--none-l {   border-style: none; }
-  .b--dotted-l { border-style: dotted; }
-  .b--dashed-l { border-style: dashed; }
+  .b--none-l {  border-style: none; }
+  .bt--none-l { border-top-style: none; }
+  .br--none-l { border-right-style: none; }
+  .bb--none-l { border-bottom-style: none; }
+  .bl--none-l { border-left-style: none; }
+
+  .b--dotted-l {  border-style: dotted; }
+  .bt--dotted-l { border-top-style: dotted; }
+  .br--dotted-l { border-right-style: dotted; }
+  .bb--dotted-l { border-bottom-style: dotted; }
+  .bl--dotted-l { border-left-style: dotted; }
+
+  .b--dashed-l {  border-style: dashed; }
+  .bt--dashed-l { border-top-style: dashed; }
+  .br--dashed-l { border-right-style: dashed; }
+  .bb--dashed-l { border-bottom-style: dashed; }
+  .bl--dashed-l { border-left-style: dashed; }
+
   .b--solid-l {  border-style: solid; }
+  .bt--solid-l { border-top-style: solid; }
+  .br--solid-l { border-right-style: solid; }
+  .bb--solid-l { border-bottom-style: solid; }
+  .bl--solid-l { border-left-style: solid; }
 }
