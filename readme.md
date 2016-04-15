@@ -109,6 +109,8 @@ If you want to check that a class hasn't been redefined or 'mutated' there is a 
 * http://mrmrs.io/writing
 * http://fade.pics
 * http://gfffs.com
+* https://wordpress.org/themes/vanilla-milkshake/
+* http://comics.hongkonggong.com/
 
 And of course...
 * http://tachyons.io
