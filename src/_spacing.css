@@ -662,7 +662,7 @@
 
   .mv0-m {
     margin-top: var(--spacing-none);
-    margin-bottom: var(--spacing-none)rem;
+    margin-bottom: var(--spacing-none);
   }
   .mv1-m {
     margin-top: var(--spacing-extra-small);
@@ -887,7 +887,7 @@
 
   .mv0-l {
     margin-top: var(--spacing-none);
-    margin-bottom: var(--spacing-none)rem;
+    margin-bottom: var(--spacing-none);
   }
   .mv1-l {
     margin-top: var(--spacing-extra-small);

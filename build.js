@@ -8,6 +8,7 @@ tachyonsModules().then(function (cssModules) {
       // TODO: Fix me : (
       'tachyons-colors',
       'tachyons-base',
+      'tachyons-webpack',
       'tachyons-display-verbose'
     ].indexOf(module.name) == -1
   }).map(function (cssModule) {
