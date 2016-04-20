@@ -4,7 +4,7 @@
 
 */
 /* Variables */
-/*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
@@ -46,9 +46,10 @@ template, /* 1 */
 /* Links
    ========================================================================== */
 /**
- * Remove the gray background on active links in IE 10.
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-a { background-color: transparent; }
+a { background-color: transparent; /* 1 */ -webkit-text-decoration-skip: objects; /* 2 */ }
 /**
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
@@ -122,9 +123,10 @@ hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2
 /* Forms
    ========================================================================== */
 /**
- * Change font properties to `inherit` in all browsers (opinionated).
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
  */
-button, input, select, textarea { font: inherit; }
+button, input, select, textarea { font: inherit; /* 1 */ margin: 0; /* 2 */ }
 /**
  * Restore the font weight unset by the previous rule.
  */
@@ -132,43 +134,30 @@ optgroup { font-weight: bold; }
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
- * 2. Show the overflow in Edge, Firefox, and IE.
  */
-button, input, /* 1 */
-select {/* 2 */ overflow: visible; }
+button, input {/* 1 */ overflow: visible; }
 /**
- * Remove the margin in Safari.
- * 1. Remove the margin in Firefox and Safari.
- */
-button, input, select, textarea {/* 1 */ margin: 0; }
-/**
- * Remove the inheritence of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritence of text transform in Firefox.
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
  */
 button, select {/* 1 */ text-transform: none; }
 /**
- * Change the cursor in all browsers (opinionated).
- */
-button, [type="button"], [type="reset"], [type="submit"] { cursor: pointer; }
-/**
- * Restore the default cursor to disabled elements unset by the previous rule.
- */
-[disabled] { cursor: default; }
-/**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
- * 2. Correct the inability to style clickable types in iOS.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
  */
 button, html [type="button"], /* 1 */
 [type="reset"], [type="submit"] { -webkit-appearance: button; /* 2 */ }
 /**
  * Remove the inner border and padding in Firefox.
  */
-button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner { border-style: none; padding: 0; }
 /**
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring, input:-moz-focusring { outline: 1px dotted ButtonText; }
+button:-moz-focusring, [type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring { outline: 1px dotted ButtonText; }
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
@@ -195,15 +184,24 @@ textarea { overflow: auto; }
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button { height: auto; }
 /**
- * Correct the odd appearance of search inputs in Chrome and Safari.
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
  */
-[type="search"] { -webkit-appearance: textfield; }
+[type="search"] { -webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ }
 /**
- * Remove the inner padding and cancel buttons in Chrome on OS X and
- * Safari on OS X.
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
  */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+::-webkit-input-placeholder { color: inherit; opacity: 0.54; }
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
 /*
 
   CUSTOM MEDIA QUERIES
@@ -312,7 +310,7 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
    BORDER COLORS
 
 */
-.b--black { border-color: #111; }
+.b--black { border-color: #000; }
 .b--near-black { border-color: #111; }
 .b--dark-gray { border-color: #333; }
 .b--mid-gray { border-color: #555; }
@@ -548,7 +546,7 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
    FONT FAMILY GROUPS
 
 */
-.sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', Ubuntu, 'segoe ui', arial, sans-serif; }
+.sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }
 .system-sans-serif { font-family: sans-serif; }
 .system-serif { font-family: serif; }
@@ -556,10 +554,10 @@ input[type="email"], input[type="url"], input[type="password"], .border-box { bo
 /* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
 /* Sans-Serif Typefaces */
-.helvetica { font-family: helvetica, 'helvetica neue', arial, sans-serif; }
+.helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
 /* Serif Typefaces */
 .georgia { font-family: georgia, serif; }
-.times { font-family: Times, serif; }
+.times { font-family: times, serif; }
 .bodoni { font-family: "Bodoni MT", serif; }
 .calisto { font-family: "Calisto MT", serif; }
 .garamond { font-family: garamond, serif; }
@@ -811,7 +809,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-white-30 { background-color: rgba( 255, 255, 255, .3 ); }
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
-.black { color: #111; }
+.black { color: #000; }
 .near-black { color: #111; }
 .dark-gray { color: #333; }
 .mid-gray { color: #555; }
@@ -823,7 +821,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .near-white { color: #f4f4f4; }
 .white { color: #fff; }
 /* Background colors */
-.bg-black { background-color: #111; }
+.bg-black { background-color: #000; }
 .bg-near-black { background-color: #111; }
 .bg-dark-gray { background-color: #333; }
 .bg-mid-gray { background-color: #555; }
@@ -835,7 +833,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-near-white { background-color: #f4f4f4; }
 .bg-white { background-color: #fff; }
 /* Skins for specific pseudoclasses */
-.focus-black:focus { color: #111; }
+.focus-black:focus { color: #000; }
 .focus-near-black:focus { color: #111; }
 .focus-dark-gray:focus { color: #333; }
 .focus-mid-gray:focus { color: #555; }
@@ -846,7 +844,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .focus-light-gray:focus { color: #eee; }
 .focus-near-white:focus { color: #f4f4f4; }
 .focus-white:focus { color: #fff; }
-.bg-focus-black:focus { background-color: #111; }
+.bg-focus-black:focus { background-color: #000; }
 .bg-focus-near-black:focus { background-color: #111; }
 .bg-focus-dark-gray:focus { background-color: #333; }
 .bg-focus-mid-gray:focus { background-color: #555; }
@@ -857,7 +855,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-focus-light-gray:focus { background-color: #eee; }
 .bg-focus-near-white:focus { background-color: #f4f4f4; }
 .bg-focus-white:focus { background-color: #fff; }
-.hover-black:hover { color: #111; }
+.hover-black:hover { color: #000; }
 .hover-near-black:hover { color: #111; }
 .hover-dark-gray:hover { color: #333; }
 .hover-mid-gray:hover { color: #555; }
@@ -868,7 +866,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-light-gray:hover { color: #eee; }
 .hover-near-white:hover { color: #f4f4f4; }
 .hover-white:hover { color: #fff; }
-.bg-hover-black:hover { background-color: #111; }
+.bg-hover-black:hover { background-color: #000; }
 .bg-hover-near-black:hover { background-color: #111; }
 .bg-hover-dark-gray:hover { background-color: #333; }
 .bg-hover-mid-gray:hover { background-color: #555; }
