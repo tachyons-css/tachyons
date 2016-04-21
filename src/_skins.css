@@ -21,7 +21,6 @@
   --black-10: rgba(0,0,0,.1);
   --black-05: rgba(0,0,0,.05);
 
-  --white-100: rgba(255,255,255,1);
   --white-90: rgba(255,255,255,.9);
   --white-80: rgba(255,255,255,.8);
   --white-70: rgba(255,255,255,.7);
@@ -34,7 +33,7 @@
 
   --transparent: transparent;
 
-  --black: #111;
+  --black: #000;
   --near-black: #111;
   --dark-gray:#333;
   --mid-gray:#555;

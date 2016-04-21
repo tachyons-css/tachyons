@@ -9,7 +9,8 @@
   font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                helvetica, 'helvetica neue',
-               Ubuntu,
+               ubuntu,
+               roboto, noto,
                'segoe ui', arial,
                sans-serif;
 }
@@ -42,9 +43,8 @@ code, .code {
 /* Sans-Serif Typefaces */
 
 .helvetica {
-  font-family:  helvetica, 'helvetica neue',
-                arial,
-                sans-serif;
+  font-family: 'helvetica neue', helvetica,
+               sans-serif;
 }
 
 
@@ -56,7 +56,7 @@ code, .code {
 }
 
 .times {
-  font-family: Times,
+  font-family: times,
                serif;
 }
 
