@@ -47,29 +47,3 @@
     clip: rect(1px, 1px, 1px, 1px);
   }
 }
-
-/*
-  Focus state defaults for keyboard navigation, including buttons/inputs
-  http://www.outlinenone.com/
-*/
-input:focus,
-textarea:focus {
-  background-color: #fff;
-  color: #222;
-  border: 2px solid #ccc;
-}
-a:focus,
-.link:focus,
-select:focus,
-button:focus,
-input[type="button"]:focus,
-input[type="checkbox"]:focus,
-input[type="image"]:focus,
-input[type="radio"]:focus,
-input[type="range"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus {
-  outline: thin dotted;
-  outline-color: #aaa;
-  outline-offset: 1px;
-}
