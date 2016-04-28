@@ -25,7 +25,7 @@
 
 /* String Properties */
 
-.h-at { height: auto; }
+.h-auto { height: auto; }
 .h-i {  height: inherit; }
 
 @media (--breakpoint-not-small) {
@@ -38,7 +38,7 @@
   .h-50-ns  { height: 50%; }
   .h-75-ns  { height: 75%; }
   .h-100-ns { height: 100%; }
-  .h-at-ns { height: auto; }
+  .h-auto-ns { height: auto; }
   .h-i-ns {  height: inherit; }
 }
 
@@ -52,7 +52,7 @@
   .h-50-m  { height: 50%; }
   .h-75-m  { height: 75%; }
   .h-100-m { height: 100%; }
-  .h-at-m {    height: auto; }
+  .h-auto-m {    height: auto; }
   .h-i-m {     height: inherit; }
 }
 
@@ -66,6 +66,6 @@
   .h-50-l  { height: 50%; }
   .h-75-l  { height: 75%; }
   .h-100-l { height: 100%; }
-  .h-at-l {    height: auto; }
+  .h-auto-l {    height: auto; }
   .h-i-l {     height: inherit; }
 }
