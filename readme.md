@@ -86,6 +86,14 @@ If you want to check that a class hasn't been redefined or 'mutated' there is a 
 
 ```npm run mutations```
 
+## Contributing
+
+If you want to make a PR to change part of the css source for tachyons, make sure you make the PR on the corresponding module
+that can be found in the [tachyons org](http://github.com/tachyons-css/). Those modules get copied into the main repo so
+any changes you make to the css in this repo would get overridden.
+
+Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/master/code-of-conduct.md) for contributors.
+
 ## Some websites that use modules from the tachyons project
 (if you have a project that uses tachyons feel free to make a PR to add it to this list)
 
@@ -122,11 +130,3 @@ If you have a question feel free to open an issue here or jump into the [Tachyon
 ## License
 
 MIT
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
