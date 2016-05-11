@@ -8,22 +8,22 @@
 
 */
 
-/* 
-  
+/*
+
   Dim element on hover by adding the dim class.
 
 */
-.dim { 
-  opacity: 1; 
-  transition: opacity .15s ease-in; 
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
 }
 .dim:hover,
-.dim:focus { 
-  opacity: .5; 
-  transition: opacity .15s ease-in; 
+.dim:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
 }
 .dim:active {
-  opacity: .8; transition: opacity .15s ease-out; 
+  opacity: .8; transition: opacity .15s ease-out;
 }
 
 /*
@@ -50,5 +50,10 @@
 .hide-child:active .child {
   opacity: 1;
   transition: opacity .15s ease-in;
+}
+
+.underline-hover:hover,
+.underline-hover:focus {
+  text-decoration: underline;
 }
 
