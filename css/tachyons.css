@@ -607,8 +607,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .h-75 { height: 75%; }
 .h-100 { height: 100%; }
 /* String Properties */
-.h-at { height: auto; }
-.h-i { height: inherit; }
+.h-auto { height: auto; }
+.h-inherit { height: inherit; }
 /*
 
    LETTER SPACING
@@ -884,7 +884,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
    SPACING
 
    An eight step powers of two scale ranging from 0 to 16rem.
-   Namespaces are composab4e and thus high4y grockab4e - check the legend below
+   Namespaces are composable and thus highly grockable - check the legend below
 
    Legend:
 
@@ -1023,6 +1023,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mh7 { margin-left: 16rem; margin-right: 16rem; }
 /*
 
+  TABLES
+
+*/
+.collapse { border-collapse: collapse; border-spacing: 0; }
+.striped--moon-gray:nth-child(odd) { background-color: #aaa; }
+.striped--moon-gray:nth-child(odd) { background-color: #ccc; }
+.striped--light-gray:nth-child(odd) { background-color: #eee; }
+.striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
+/*
+
    TEXT DECORATION
 
 */
@@ -1125,8 +1135,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 
 */
-/* 
-  
+/*
+
   Dim element on hover by adding the dim class.
 
 */
@@ -1149,6 +1159,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 .hide-child .child { opacity: 0; transition: opacity .15s ease-in; }
 .hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; transition: opacity .15s ease-in; }
+.underline-hover:hover, .underline-hover:focus { text-decoration: underline; }
 /*
 
   STYLES
@@ -1256,8 +1267,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-50-ns { height: 50%; }
  .h-75-ns { height: 75%; }
  .h-100-ns { height: 100%; }
- .h-at-ns { height: auto; }
- .h-i-ns { height: inherit; }
+ .h-auto-ns { height: auto; }
+ .h-inherit-ns { height: inherit; }
  .tracked-ns { letter-spacing: .16em; }
  .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .32em; }
@@ -1545,8 +1556,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-50-m { height: 50%; }
  .h-75-m { height: 75%; }
  .h-100-m { height: 100%; }
- .h-at-m { height: auto; }
- .h-i-m { height: inherit; }
+ .h-auto-m { height: auto; }
+ .h-inherit-m { height: inherit; }
  .tracked-m { letter-spacing: .16em; }
  .tracked-tight-m { letter-spacing: -.05em; }
  .tracked-mega-m { letter-spacing: .32em; }
@@ -1834,8 +1845,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-50-l { height: 50%; }
  .h-75-l { height: 75%; }
  .h-100-l { height: 100%; }
- .h-at-l { height: auto; }
- .h-i-l { height: inherit; }
+ .h-auto-l { height: auto; }
+ .h-inherit-l { height: inherit; }
  .tracked-l { letter-spacing: .16em; }
  .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .32em; }

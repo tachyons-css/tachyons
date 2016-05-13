@@ -1,9 +1,10 @@
 {
   "name": "tachyons",
-  "version": "4.0.0-beta.22",
+  "version": "4.0.0-beta.27",
   "description": "Functional CSS for humans",
   "author": "mrmrs",
   "style": "css/tachyons.css",
+  "main": "css/tachyons.css",
   "files": [
     "css",
     "src"
@@ -19,10 +20,10 @@
   "devDependencies": {
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^4.0.0",
+    "normalize.css": "^4.1.1",
     "tachyons-cli": "^0.6.0",
-    "tachyons-modules": "^1.1.0",
-    "watch": "^0.17.1"
+    "tachyons-modules": "^1.1.1",
+    "watch": "^0.18.0"
   },
   "contributors": [
     {
@@ -72,8 +73,8 @@
     "tachyons-font-style": "^3.0.1",
     "tachyons-font-weight": "^4.0.3",
     "tachyons-forms": "^3.0.0",
-    "tachyons-heights": "^4.1.3",
-    "tachyons-hovers": "^2.0.5",
+    "tachyons-heights": "^5.0.0",
+    "tachyons-hovers": "^2.1.0",
     "tachyons-images": "^1.0.3",
     "tachyons-letter-spacing": "^2.1.2",
     "tachyons-line-height": "^2.0.4",
@@ -85,7 +86,8 @@
     "tachyons-overflow": "^3.0.1",
     "tachyons-position": "^5.0.1",
     "tachyons-skins": "^3.1.4",
-    "tachyons-spacing": "^5.0.7",
+    "tachyons-spacing": "^5.0.9",
+    "tachyons-tables": "^1.0.0",
     "tachyons-text-align": "^2.0.4",
     "tachyons-text-decoration": "^3.1.1",
     "tachyons-text-transform": "^3.0.5",
