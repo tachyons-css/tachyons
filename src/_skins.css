@@ -128,6 +128,7 @@
 .bg-near-white {    background-color: var(--near-white); }
 .bg-white {         background-color: var(--white); }
 
+.bg-transparent { background-color: var(--transparent); }
 
 /* Skins for specific pseudoclasses */
 .focus-black:focus { color: var(--black); }

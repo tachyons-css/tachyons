@@ -832,6 +832,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-light-gray { background-color: #eee; }
 .bg-near-white { background-color: #f4f4f4; }
 .bg-white { background-color: #fff; }
+.bg-transparent { background-color: transparent; }
 /* Skins for specific pseudoclasses */
 .focus-black:focus { color: #000; }
 .focus-near-black:focus { color: #111; }
