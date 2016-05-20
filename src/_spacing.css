@@ -361,7 +361,7 @@
     padding-left: var(--spacing-none);
     padding-right: var(--spacing-none);
   }
-  .pv1-ns {
+  .ph1-ns {
     padding-left: var(--spacing-extra-small);
     padding-right: var(--spacing-extra-small);
   }
@@ -586,7 +586,7 @@
     padding-left: var(--spacing-none);
     padding-right: var(--spacing-none);
   }
-  .pv1-m {
+  .ph1-m {
     padding-left: var(--spacing-extra-small);
     padding-right: var(--spacing-extra-small);
   }

@@ -127,6 +127,7 @@
 .bg-light-gray {    background-color: var(--light-gray); }
 .bg-near-white {    background-color: var(--near-white); }
 .bg-white {         background-color: var(--white); }
+.bg-transparent {   background-color: var(--transparent); }
 
 
 /* Skins for specific pseudoclasses */
@@ -153,6 +154,7 @@
 .bg-focus-light-gray:focus { background-color: var(--light-gray); }
 .bg-focus-near-white:focus { background-color: var(--near-white); }
 .bg-focus-white:focus { background-color: var(--white); }
+.bg-focus-transparent:focus { background-color: var(--transparent); }
 
 .hover-black:hover { color: var(--black); }
 .hover-near-black:hover { color: var(--near-black); }
@@ -177,3 +179,4 @@
 .bg-hover-light-gray:hover { background-color: var(--light-gray); }
 .bg-hover-near-white:hover { background-color: var(--near-white); }
 .bg-hover-white:hover { background-color: var(--white); }
+.bg-hover-transparent:hover { background-color: var(--transparent); }
