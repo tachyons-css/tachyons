@@ -832,6 +832,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-light-gray { background-color: #eee; }
 .bg-near-white { background-color: #f4f4f4; }
 .bg-white { background-color: #fff; }
+.bg-transparent { background-color: transparent; }
 /* Skins for specific pseudoclasses */
 .focus-black:focus { color: #000; }
 .focus-near-black:focus { color: #111; }
@@ -855,6 +856,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-focus-light-gray:focus { background-color: #eee; }
 .bg-focus-near-white:focus { background-color: #f4f4f4; }
 .bg-focus-white:focus { background-color: #fff; }
+.bg-focus-transparent:focus { background-color: transparent; }
 .hover-black:hover { color: #000; }
 .hover-near-black:hover { color: #111; }
 .hover-dark-gray:hover { color: #333; }
@@ -877,6 +879,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-hover-light-gray:hover { background-color: #eee; }
 .bg-hover-near-white:hover { background-color: #f4f4f4; }
 .bg-hover-white:hover { background-color: #fff; }
+.bg-hover-transparent:hover { background-color: transparent; }
 /* Variables */
 /* Spacing Scale - based on a ratio of 1:2 */
 /* Media Queries */
@@ -1368,7 +1371,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .pv6-ns { padding-top: 8rem; padding-bottom: 8rem; }
  .pv7-ns { padding-top: 16rem; padding-bottom: 16rem; }
  .ph0-ns { padding-left: 0; padding-right: 0; }
- .pv1-ns { padding-left: .25rem; padding-right: .25rem; }
+ .ph1-ns { padding-left: .25rem; padding-right: .25rem; }
  .ph2-ns { padding-left: .5rem; padding-right: .5rem; }
  .ph3-ns { padding-left: 1rem; padding-right: 1rem; }
  .ph4-ns { padding-left: 2rem; padding-right: 2rem; }
@@ -1657,7 +1660,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .pv6-m { padding-top: 8rem; padding-bottom: 8rem; }
  .pv7-m { padding-top: 16rem; padding-bottom: 16rem; }
  .ph0-m { padding-left: 0; padding-right: 0; }
- .pv1-m { padding-left: .25rem; padding-right: .25rem; }
+ .ph1-m { padding-left: .25rem; padding-right: .25rem; }
  .ph2-m { padding-left: .5rem; padding-right: .5rem; }
  .ph3-m { padding-left: 1rem; padding-right: 1rem; }
  .ph4-m { padding-left: 2rem; padding-right: 2rem; }
