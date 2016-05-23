@@ -34,14 +34,9 @@ The modules are generally pretty small and thus easy to read and grock if you're
 The quickest and easiest way to start using tachyons is to include a reference
 to the minified file in the head of your html file.
 
-The latest version can always be found at the link below.
+Currently the latest version is 4.0.0-beta.28
 ```html
-<link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/tachyons-css/tachyons.min.css">
-```
-
-Currently the latest version is 4.0.1-beta
-```html
-<link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/tachyons-css/4.0.1-beta/tachyons.min.css">
+<link rel="stylesheet" href="https://npmcdn.com/tachyons@4.0.0-beta.28/css/tachyons.min.css">
 ```
 
 ### Local Setup
