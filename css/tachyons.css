@@ -1163,6 +1163,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hide-child .child { opacity: 0; transition: opacity .15s ease-in; }
 .hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; transition: opacity .15s ease-in; }
 .underline-hover:hover, .underline-hover:focus { text-decoration: underline; }
+/* Can combine this with overflow-hidden to make background images grow on hover
+ * even if you are using background-size: cover */
+.grow { transition: transform .2s; }
+.grow:hover { transform: scale( 1.05 ); }
+.grow-large { transition: transform .2s; }
+.grow-large:hover { transform: scale( 1.2 ); }
 /*
 
   STYLES
