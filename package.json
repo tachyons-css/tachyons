@@ -22,7 +22,7 @@
     "immutable-css-cli": "^1.1.1",
     "normalize.css": "^4.1.1",
     "tachyons-cli": "^0.6.0",
-    "tachyons-modules": "^1.1.1",
+    "tachyons-modules": "^1.1.3",
     "watch": "^0.18.0"
   },
   "contributors": [
@@ -63,6 +63,7 @@
     "tachyons-border-widths": "^2.0.2",
     "tachyons-borders": "^2.1.0",
     "tachyons-box-sizing": "^3.1.1",
+    "tachyons-box-shadow": "^1.1.0",
     "tachyons-clears": "^2.2.0",
     "tachyons-colors": "^5.1.2",
     "tachyons-coordinates": "^3.0.1",
@@ -74,7 +75,7 @@
     "tachyons-font-weight": "^4.0.3",
     "tachyons-forms": "^3.0.0",
     "tachyons-heights": "^5.0.0",
-    "tachyons-hovers": "^2.1.0",
+    "tachyons-hovers": "^2.2.0",
     "tachyons-images": "^1.0.3",
     "tachyons-letter-spacing": "^2.1.2",
     "tachyons-line-height": "^2.0.4",
