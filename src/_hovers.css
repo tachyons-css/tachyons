@@ -76,3 +76,9 @@
   transform: scale(1.2);
 }
 
+/* Add pointer on hover */
+
+.pointer:hover {
+  cursor: pointer;
+}
+

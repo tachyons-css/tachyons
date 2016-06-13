@@ -32,7 +32,11 @@
   margin-bottom: 0;
 }
 
-/* Combine this class with a width to truncate text */
+.small-caps {
+  font-variant: small-caps;
+}
+
+/* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 
 .truncate {
   white-space: nowrap;
@@ -54,6 +58,9 @@
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .small-caps-ns {
+    font-variant: small-caps;
   }
   .truncate-ns {
     white-space: nowrap;
@@ -77,6 +84,9 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .small-caps-m {
+    font-variant: small-caps;
+  }
   .truncate-m {
     white-space: nowrap;
     overflow: hidden;
@@ -98,6 +108,9 @@
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .small-caps-l {
+    font-variant: small-caps;
   }
   .truncate-l {
     white-space: nowrap;
