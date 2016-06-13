@@ -771,6 +771,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .o-10 { opacity: .1; }
 .o-05 { opacity: .05; }
 .o-025 { opacity: .025; }
+.o-0 { opacity: 0; }
 /*
 
    COLOR VARIABLES
@@ -1102,7 +1103,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .measure-narrow { max-width: 20em; }
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
 .indent { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
-/* Combine this class with a width to truncate text */
+.small-caps { font-variant: small-caps; }
+/* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 /*
 
@@ -1184,6 +1186,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .grow:hover { transform: scale( 1.05 ); }
 .grow-large { transition: transform .2s; }
 .grow-large:hover { transform: scale( 1.2 ); }
+/* Add pointer on hover */
+.pointer:hover { cursor: pointer; }
 /*
 
   STYLES
@@ -1482,6 +1486,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .measure-wide-ns { max-width: 34em; }
  .measure-narrow-ns { max-width: 20em; }
  .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+ .small-caps-ns { font-variant: small-caps; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .clip-ns { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-ns { white-space: normal; }
@@ -1776,6 +1781,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+ .small-caps-m { font-variant: small-caps; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .clip-m { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-m { white-space: normal; }
@@ -2070,6 +2076,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .measure-wide-l { max-width: 34em; }
  .measure-narrow-l { max-width: 20em; }
  .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+ .small-caps-l { font-variant: small-caps; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .clip-l { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-l { white-space: normal; }
