@@ -28,7 +28,7 @@
 
 /*
 
-  Hide child on hover:
+  Hide child & reveal on hover:
 
   Put the hide-child class on a parent element and any nested element with the
   child class will be hidden and displayed on hover or focus.

@@ -252,8 +252,9 @@ textarea { overflow: auto; }
   Box Sizing
 */
 html, body, div, article, section, main, footer, header, form, fieldset, pre,
-code, p, ul, ol, li, dl, dt, dd, textarea, input[type="text"], input[type="tel"],
-input[type="email"], input[type="url"], input[type="password"], .border-box { box-sizing: border-box; }
+code, p, ul, ol, li, dl, dt, dd, textarea, input[type="email"],
+input[type="number"], input[type="password"], input[type="tel"],
+input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 /*
 
    BACKGROUND SIZE
@@ -1165,7 +1166,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .dim:active { opacity: .8; transition: opacity .15s ease-out; }
 /*
 
-  Hide child on hover:
+  Hide child & reveal on hover:
 
   Put the hide-child class on a parent element and any nested element with the
   child class will be hidden and displayed on hover or focus.
