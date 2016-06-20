@@ -1,18 +1,12 @@
-/*
+/* TACHYONS v4.0.0-beta.33 | github.com/tachyons-css/tachyons */
 
-  TACHYONS
-
-*/
-
+/* External Library Includes */
+@import './_normalize';
 
 /* Variables */
-
-@import './_normalize';
-@import './_media-queries';
 @import './_colors';
 
 /* Modules */
-
 @import './_box-sizing';
 @import './_background-size';
 @import './_borders';
@@ -55,8 +49,13 @@
 @import './_hovers';
 @import './_styles';
 
+/* Import media queries at end as this will allow you to customize them
+ * and override what is currently declared in each module.
+ */
+@import './_media-queries';
 
+/* DEBUGGING */
 @import './_debug_children';
 
-/* Uncomment out this line if you want to debug your layout */
+/* Uncomment out this line and rebuild if you want to debug your layout.*/
 /* @import './_debug'; */

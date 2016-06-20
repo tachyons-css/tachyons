@@ -1,9 +1,5 @@
-/*
-
-  TACHYONS
-
-*/
-/* Variables */
+/* TACHYONS v4.0.0-beta.33 | github.com/tachyons-css/tachyons */
+/* External Library Includes */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -202,42 +198,7 @@ textarea { overflow: auto; }
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
-/*
-
-  CUSTOM MEDIA QUERIES
-
-  Media query values can be changed to fit your own content.
-  There are no magic bullets when it comes to media query width values.
-  They should be declared in em units - and they should be set to meet
-  the needs of your content.
-
-  These media queries can be referenced like so:
-
-  @media (--breakpoint-not-small) {
-    .medium-and-larger-specific-style {
-      background-color: red;
-    }
-  }
-
-  @media (--breakpoint-medium) {
-    .medium-screen-specific-style {
-      background-color: red;
-    }
-  }
-
-  @media (--breakpoint-large) {
-    .large-screen-specific-style {
-      background-color: red;
-    }
-  }
-
-  @media (--breakpoint-extra-large) {
-    .extra-large-screen-specific-style {
-      background-color: red;
-    }
-  }
-
-*/
+/* Variables */
 /*
 
    Tachyons
@@ -1196,6 +1157,46 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
+/* Import media queries at end as this will allow you to customize them
+ * and override what is currently declared in each module.
+ */
+/*
+
+  CUSTOM MEDIA QUERIES
+
+  Media query values can be changed to fit your own content.
+  There are no magic bullets when it comes to media query width values.
+  They should be declared in em units - and they should be set to meet
+  the needs of your content.
+
+  These media queries can be referenced like so:
+
+  @media (--breakpoint-not-small) {
+    .medium-and-larger-specific-style {
+      background-color: red;
+    }
+  }
+
+  @media (--breakpoint-medium) {
+    .medium-screen-specific-style {
+      background-color: red;
+    }
+  }
+
+  @media (--breakpoint-large) {
+    .large-screen-specific-style {
+      background-color: red;
+    }
+  }
+
+  @media (--breakpoint-extra-large) {
+    .extra-large-screen-specific-style {
+      background-color: red;
+    }
+  }
+
+*/
+/* DEBUGGING */
 /*
 
   DEBUG CHILDREN
@@ -1205,9 +1206,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .debug * { outline: 1px solid gold; }
-/* Uncomment out this line if you want to debug your layout */
+/* Uncomment out this line and rebuild if you want to debug your layout.*/
 /* @import './_debug'; */
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .bg-cv-ns { background-size: cover; }
  .bg-cn-ns { background-size: contain; }
  .ba-ns { border-style: solid; border-width: 1px; }
@@ -1502,7 +1503,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-top-ns { vertical-align: top; }
  .v-btm-ns { vertical-align: bottom; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .bg-cv-m { background-size: cover; }
  .bg-cn-m { background-size: contain; }
  .ba-m { border-style: solid; border-width: 1px; }
@@ -1797,7 +1798,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-top-m { vertical-align: top; }
  .v-btm-m { vertical-align: bottom; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .bg-cv-l { background-size: cover; }
  .bg-cn-l { background-size: contain; }
  .ba-l { border-style: solid; border-width: 1px; }
