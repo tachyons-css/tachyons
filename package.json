@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "4.0.0-beta.33",
+  "version": "4.0.0-beta.34",
   "description": "Functional CSS for humans",
   "author": "mrmrs",
   "style": "css/tachyons.css",
@@ -48,9 +48,9 @@
     }
   ],
   "scripts": {
-    "start": "npm run build:css && npm run build:minify",
+    "start": "npm run build",
     "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "node build.js && npm run build:css && npm start",
+    "build": "node build/index.js && npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:watch": "watch 'npm start' ./src/"
