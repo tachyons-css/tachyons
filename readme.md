@@ -114,6 +114,8 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 * http://gfffs.com
 * https://wordpress.org/themes/vanilla-milkshake/
 * http://comics.hongkonggong.com/
+* http://jon.gold/txt
+* http://rene.jon.gold
 
 And of course...
 * http://tachyons.io
