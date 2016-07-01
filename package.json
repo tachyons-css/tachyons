@@ -60,7 +60,7 @@
   "dependencies": {
     "tachyons-background-size": "^3.0.4",
     "tachyons-border-colors": "^4.0.5",
-    "tachyons-border-radius": "^4.1.3",
+    "tachyons-border-radius": "^4.2.0",
     "tachyons-border-style": "^3.0.2",
     "tachyons-border-widths": "^2.0.2",
     "tachyons-borders": "^2.1.0",
