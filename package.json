@@ -58,7 +58,7 @@
     "build:watch": "watch 'npm start' ./src/"
   },
   "dependencies": {
-    "tachyons-background-size": "^3.0.4",
+    "tachyons-background-size": "^4.0.0",
     "tachyons-border-colors": "^4.0.5",
     "tachyons-border-radius": "^4.2.0",
     "tachyons-border-style": "^3.0.2",
@@ -97,10 +97,10 @@
     "tachyons-type-scale": "^5.0.4",
     "tachyons-typography": "^2.3.1",
     "tachyons-utilities": "^1.2.2",
-    "tachyons-vertical-align": "^2.0.4",
+    "tachyons-vertical-align": "^3.0.0",
     "tachyons-visibility": "^1.0.4",
     "tachyons-white-space": "^3.0.2",
     "tachyons-widths": "^4.0.2",
-    "tachyons-word-break": "1.0.1"
+    "tachyons-word-break": "2.0.0"
   }
 }
