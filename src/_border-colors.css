@@ -48,7 +48,32 @@
   --white-05: rgba(255,255,255,.05);
   --white-025: rgba(255,255,255,.025);
   --white-0125: rgba(255,255,255,.0125);
+
+  --dark-red: #f00008;
+  --red: #ff3223;
+  --orange: #f3a801;
+  --gold: #f2c800;
+  --yellow: #ffde37;
+  --purple: #7d5da9;
+  --light-purple: #8d4f92;
+  --hot-pink: #d62288;
+  --dark-pink: #c64774;
+  --pink: #f49cc8;
+  --dark-green: #006C71;
+  --green: #41D69F;
+  --navy: #001b44;
+  --dark-blue: #00449e;
+  --blue: #357edd;
+  --light-blue: #96ccff;
+  --lightest-blue: #cdecff;
+  --washed-blue: #f6fffe;
+  --washed-green: #e8fdf5;
+  --washed-yellow: #fff8d5;
+  --light-pink: #efa4b8;
+  --light-yellow: #f3dd70;
+  --light-red: #ffd3c0;
 }
+
 /*
 
    BORDER COLORS
@@ -91,5 +116,29 @@
 .b--black-05 {   border-color: var(--black-05); }
 .b--black-025 {   border-color: var(--black-025); }
 .b--black-0125 {   border-color: var(--black-0125); }
+
+.b--dark-red { border-color:  var(--dark-red); }
+.b--red { border-color:  var(--red); }
+.b--orange { border-color:  var(--orange); }
+.b--gold { border-color:  var(--gold); }
+.b--yellow { border-color:  var(--yellow); }
+.b--purple { border-color:  var(--purple); }
+.b--light-purple { border-color:  var(--light-purple); }
+.b--hot-pink { border-color:  var(--hot-pink); }
+.b--dark-pink { border-color:  var(--dark-pink); }
+.b--pink { border-color:  var(--pink); }
+.b--dark-green { border-color:  var(--dark-green); }
+.b--green { border-color:  var(--green); }
+.b--navy { border-color:  var(--navy); }
+.b--dark-blue { border-color:  var(--dark-blue); }
+.b--blue { border-color:  var(--blue); }
+.b--light-blue { border-color:  var(--light-blue); }
+.b--lightest-blue { border-color:  var(--lightest-blue); }
+.b--washed-blue { border-color:  var(--washed-blue); }
+.b--washed-green { border-color:  var(--washed-green); }
+.b--washed-yellow { border-color:  var(--washed-yellow); }
+.b--light-pink { border-color:  var(--light-pink); }
+.b--light-yellow { border-color:  var(--light-yellow) }
+.b--light-red { border-color:  var(--light-red); }
 
 .b--transparent { border-color: var(--transparent); }

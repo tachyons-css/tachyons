@@ -47,6 +47,11 @@ code, .code {
                sans-serif;
 }
 
+.avenir {
+  font-family: 'avenir next', avenir,
+               sans-serif;
+}
+
 
 /* Serif Typefaces */
 
@@ -71,6 +76,11 @@ code, .code {
 }
 
 .garamond {
+  font-family: garamond,
+               serif;
+}
+
+.baskerville {
   font-family: garamond,
                serif;
 }

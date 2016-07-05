@@ -8,24 +8,24 @@
 
 */
 
-.wb-normal { word-break: normal; }
+.word-normal { word-break: normal; }
 .word-wrap { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
 
 @media (--breakpoint-not-small) {
-  .wb-normal-ns { word-break: normal; }
+  .word-normal-ns { word-break: normal; }
   .word-wrap-ns { word-break: break-all; }
   .word-nowrap-ns { word-break: keep-all; }
 }
 
 @media (--breakpoint-medium) {
-  .wb-normal-m { word-break: normal; }
+  .word-normal-m { word-break: normal; }
   .word-wrap-m { word-break: break-all; }
   .word-nowrap-m { word-break: keep-all; }
 }
 
 @media (--breakpoint-large) {
-  .wb-normal-l { word-break: normal; }
+  .word-normal-l { word-break: normal; }
   .word-wrap-l { word-break: break-all; }
   .word-nowrap-l { word-break: keep-all; }
 }

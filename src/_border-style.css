@@ -22,28 +22,28 @@
 
  */
 
-.b--none {   border-style: none; }
 .b--dotted { border-style: dotted; }
 .b--dashed { border-style: dashed; }
 .b--solid {  border-style: solid; }
+.b--none {   border-style: none; }
 
 @media (--breakpoint-not-small) {
-  .b--none-ns {   border-style: none; }
   .b--dotted-ns { border-style: dotted; }
   .b--dashed-ns { border-style: dashed; }
   .b--solid-ns {  border-style: solid; }
+  .b--none-ns {   border-style: none; }
 }
 
 @media (--breakpoint-medium) {
-  .b--none-m {   border-style: none; }
   .b--dotted-m { border-style: dotted; }
   .b--dashed-m { border-style: dashed; }
   .b--solid-m {  border-style: solid; }
+  .b--none-m {   border-style: none; }
 }
 
 @media (--breakpoint-large) {
-  .b--none-l {   border-style: none; }
   .b--dotted-l { border-style: dotted; }
   .b--dashed-l { border-style: dashed; }
   .b--solid-l {  border-style: solid; }
+  .b--none-l {   border-style: none; }
 }

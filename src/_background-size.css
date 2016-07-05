@@ -6,13 +6,6 @@
 
    BACKGROUND SIZE
 
-   Base:
-    bg = background-size
-
-   Modifiers:
-    -cv = cover
-    -cn = contain
-
    Media Query Extensions:
      -ns = not-small
      -m  = medium
@@ -25,20 +18,20 @@
   on an html element.
 */
 
-  .bg-cv  {               background-size: cover; }
-  .bg-cn  {               background-size: contain; }
+  .cover { background-size: cover; }
+  .contain { background-size: contain; }
 
 @media (--breakpoint-not-small) {
-  .bg-cv-ns {             background-size: cover; }
-  .bg-cn-ns {             background-size: contain; }
+  .cover-ns { background-size: cover; }
+  .contain-ns { background-size: contain; }
 }
 
 @media (--breakpoint-medium) {
-  .bg-cv-m {              background-size: cover; }
-  .bg-cn-m {              background-size: contain; }
+  .cover-m { background-size: cover; }
+  .contain-m { background-size: contain; }
 }
 
 @media (--breakpoint-large) {
-  .bg-cv-l {              background-size: cover; }
-  .bg-cn-l {              background-size: contain; }
+  .cover-l { background-size: cover; }
+  .contain-l { background-size: contain; }
 }
