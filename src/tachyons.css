@@ -19,6 +19,7 @@
 @import './_coordinates';
 @import './_clears';
 @import './_display';
+@import './_flexbox';
 @import './_floats';
 @import './_font-family';
 @import './_font-style';
