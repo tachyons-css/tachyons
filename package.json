@@ -24,6 +24,7 @@
     "immutable-css-cli": "^1.1.1",
     "normalize.css": "^4.1.1",
     "tachyons-cli": "^0.6.0",
+    "tachyons-flexbox": "^1.0.0",
     "tachyons-modules": "^1.1.3",
     "watch": "^0.19.1"
   },
@@ -71,6 +72,7 @@
     "tachyons-coordinates": "^3.0.1",
     "tachyons-debug": "^1.1.2",
     "tachyons-display": "^4.1.0",
+    "tachyons-flexbox": "^1.0.0",
     "tachyons-floats": "^2.0.4",
     "tachyons-font-family": "^4.2.0",
     "tachyons-font-style": "^3.0.2",
