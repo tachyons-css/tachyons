@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "tachyons-background-size": "^4.0.0",
-    "tachyons-border-colors": "^4.0.5",
+    "tachyons-border-colors": "^4.1.0",
     "tachyons-border-radius": "^4.2.0",
     "tachyons-border-style": "^3.0.2",
     "tachyons-border-widths": "^2.0.2",
