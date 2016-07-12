@@ -11,7 +11,8 @@ tachyonsModules().then(function (cssModules) {
       'tachyons-colors',
       'tachyons-base',
       'tachyons-webpack',
-      'tachyons-display-verbose'
+      'tachyons-display-verbose',
+      'tachyons-build-css'
     ].indexOf(module.name) == -1
   }).map(function (cssModule) {
     return cssModule.name
