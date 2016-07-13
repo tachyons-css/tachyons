@@ -1329,7 +1329,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .debug * { outline: 1px solid gold; }
 /* Uncomment out this line and rebuild if you want to debug your layout.*/
 /* @import './_debug'; */
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 48em) {
  .cover-ns { background-size: cover; }
  .contain-ns { background-size: contain; }
  .ba-ns { border-style: solid; border-width: 1px; }
@@ -1662,7 +1662,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-top-ns { vertical-align: top; }
  .v-btm-ns { vertical-align: bottom; }
 }
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
  .cover-m { background-size: cover; }
  .contain-m { background-size: contain; }
  .ba-m { border-style: solid; border-width: 1px; }
@@ -1995,7 +1995,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-top-m { vertical-align: top; }
  .v-btm-m { vertical-align: bottom; }
 }
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 64em) {
  .cover-l { background-size: cover; }
  .contain-l { background-size: contain; }
  .ba-l { border-style: solid; border-width: 1px; }
