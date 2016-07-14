@@ -51,12 +51,13 @@
     }
   ],
   "scripts": {
-    "start": "npm run build",
+    "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "node build/index.js && npm run build:css && npm run build:minify",
+    "copy": "node build/index.js",
+    "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch 'npm start' ./src/"
+    "build:watch": "watch 'npm run build' ./src/"
   },
   "dependencies": {
     "tachyons-background-size": "^4.0.0",
