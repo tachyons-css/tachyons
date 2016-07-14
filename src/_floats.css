@@ -32,24 +32,24 @@
 
 
 
-.fl { float: left;  display: inline; }
-.fr { float: right; display: inline; }
+.fl { float: left;  _display: inline; }
+.fr { float: right; _display: inline; }
 .fn { float: none; }
 
 @media (--breakpoint-not-small) {
-  .fl-ns { float: left; display: inline; }
-  .fr-ns { float: right;display: inline; }
+  .fl-ns { float: left; _display: inline; }
+  .fr-ns { float: right; _display: inline; }
   .fn-ns { float: none; }
 }
 
 @media (--breakpoint-medium) {
-  .fl-m { float: left; display: inline; }
-  .fr-m { float: right;  display: inline; }
+  .fl-m { float: left; _display: inline; }
+  .fr-m { float: right; _display: inline; }
   .fn-m { float: none; }
 }
 
 @media (--breakpoint-large) {
-  .fl-l { float: left; display: inline; }
-  .fr-l { float: right;  display: inline; }
+  .fl-l { float: left; _display: inline; }
+  .fr-l { float: right; _display: inline; }
   .fn-l { float: none; }
 }
