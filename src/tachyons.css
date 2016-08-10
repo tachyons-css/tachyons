@@ -3,8 +3,6 @@
 /* External Library Includes */
 @import './_normalize';
 
-/* Variables */
-@import './_colors';
 
 /* Modules */
 @import './_box-sizing';
@@ -50,9 +48,10 @@
 @import './_hovers';
 @import './_styles';
 
-/* Import media queries at end as this will allow you to customize them
+/* Import media queries and variables at end as this will allow you to customize them
  * and override what is currently declared in each module.
  */
+@import './_colors';
 @import './_media-queries';
 
 /* DEBUGGING */
