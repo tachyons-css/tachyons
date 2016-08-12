@@ -4,7 +4,7 @@ FLEXBOX
 
  */
 
-.flex { display: flex }
+.flex { display: flex; }
 
 /* 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */
 .flex-auto {
@@ -54,7 +54,7 @@ FLEXBOX
 .order-8 { order: 8; }
 .order-last { order: 99999; }
 @media (--breakpoint-not-small) {
-  .flex-ns { display: flex }
+  .flex-ns { display: flex; }
   .flex-auto-ns {
     flex: 1 1 auto;
     min-width: 0; /* 1 */
@@ -100,7 +100,7 @@ FLEXBOX
   .order-last-ns { order: 99999; }
 }
 @media (--breakpoint-medium) {
-  .flex-m { display: flex }
+  .flex-m { display: flex; }
   .flex-auto-m {
     flex: 1 1 auto;
     min-width: 0; /* 1 */
@@ -146,7 +146,7 @@ FLEXBOX
   .order-last-m { order: 99999; }
 }
 @media (--breakpoint-large) {
-  .flex-l { display: flex }
+  .flex-l { display: flex; }
   .flex-auto-l {
     flex: 1 1 auto;
     min-width: 0; /* 1 */
