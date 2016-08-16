@@ -89,16 +89,25 @@ any changes you make to the css in this repo would get overridden.
 
 Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/master/code-of-conduct.md) for contributors.
 
-## Some websites that use modules from the tachyons project
-(if you have a project that uses tachyons feel free to make a PR to add it to this list)
+## Websites that Use Tachyons
+(if you have a project that uses Tachyons feel free to make a PR to add it to this list)
 
-* http://spenhar.com
-* http://www.csspurge.com
+* https://goldenstaterecord.com
 * http://bluebottlecoffee.com
 * http://aboutlife.com
+* http://joinoneroom.com
+* https://vimgifs.com
+* http://jon.gold/txt
+* http://rene.jon.gold
+* https://tinychime.github.io/jekyons/
+* http://mrmrs.io/up
+* http://prnt.cc
+* http://spenhar.com
+* http://randoma11y.com
+* http://cyclelove.cc
+* http://www.csspurge.com
 * http://clrs.cc
 * http://mrmrs.io/gradients
-* http://joinoneroom.com
 * https://www.getnoodl.es
 * https://natwelch.com
 * http://mrmrs.io/profile/
@@ -107,18 +116,17 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 * http://mrmrs.io/btns/
 * http://zachhurd.com
 * http://mrmrs.cc
-* http://mrmrs.io/up/
+* http://gfffs.com
 * http://mrmrs.io/beats/
 * http://mrmrs.io/writing
 * http://fade.pics
-* http://gfffs.com
 * https://wordpress.org/themes/vanilla-milkshake/
 * http://comics.hongkonggong.com/
-* http://jon.gold/txt
-* http://rene.jon.gold
 
 And of course...
 * http://tachyons.io
+
+
 
 ## Help
 
