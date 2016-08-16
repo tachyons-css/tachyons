@@ -1,4 +1,4 @@
-/* TACHYONS v4.0.4| github.com/tachyons-css/tachyons */
+/* TACHYONS v4.0.5| github.com/tachyons-css/tachyons */
 /* External Library Includes */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -199,6 +199,7 @@ textarea { overflow: auto; }
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
+/* Variables */
 /* Modules */
 /*
   Box Sizing
@@ -585,6 +586,7 @@ FLEXBOX
 /* Monospaced Typefaces (for code) */
 /* From http://cssfontstack.com */
 code, .code { font-family: Consolas, monaco, monospace; }
+.courier { font-family: 'Courier Next', courier, monospace; }
 /* Sans-Serif Typefaces */
 .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
 .avenir { font-family: 'avenir next', avenir, sans-serif; }
@@ -594,7 +596,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bodoni { font-family: "Bodoni MT", serif; }
 .calisto { font-family: "Calisto MT", serif; }
 .garamond { font-family: garamond, serif; }
-.baskerville { font-family: garamond, serif; }
+.baskerville { font-family: baskerville, serif; }
 /*
 
    FONT STYLE
@@ -1268,18 +1270,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
-/* Import media queries and variables at end as this will allow you to customize them
+/* Import media queries at end as this will allow you to customize them
  * and override what is currently declared in each module.
  */
-/*
-
-   Tachyons
-   COLOR VARIABLES
-
-   Grayscale
-   - Solids
-   - Transparencies
-*/
 /*
 
   CUSTOM MEDIA QUERIES
@@ -1315,6 +1308,15 @@ code, .code { font-family: Consolas, monaco, monospace; }
     }
   }
 
+*/
+/*
+
+   Tachyons
+   COLOR VARIABLES
+
+   Grayscale
+   - Solids
+   - Transparencies
 */
 /* DEBUGGING */
 /*
