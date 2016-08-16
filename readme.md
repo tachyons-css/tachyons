@@ -34,9 +34,9 @@ The modules are generally pretty small and thus easy to read and grock if you're
 The quickest and easiest way to start using tachyons is to include a reference
 to the minified file in the head of your html file.
 
-Currently the latest version is 4.0.4
+Currently the latest version is 4.0.6
 ```html
-<link rel="stylesheet" href="https://npmcdn.com/tachyons@4.0.4/css/tachyons.min.css">
+<link rel="stylesheet" href="https://npmcdn.com/tachyons@4.0.6/css/tachyons.min.css">
 ```
 
 ### Local Setup
@@ -63,6 +63,7 @@ uses a series of postcss plugins to compile the source down to vanilla css.
 
 If you want to update a tachyons partial, install the desired module version via npm and run the build command again. Note
 this will copy over all source files, so if you've modified src/ your changes might will be overwritten but you can use version control (like git!) to undo these changes.
+
 ```npm run build```
 
 #### Dev
@@ -124,6 +125,10 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 * http://comics.hongkonggong.com/
 * https://accessmyinfo.hk/#/
 * https://accessmyinfo.org/#/
+* http://jon.gold/txt
+* http://rene.jon.gold
+* http://johnotander.com
+* http://randoma11y.com
 
 And of course...
 * http://tachyons.io

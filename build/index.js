@@ -8,7 +8,6 @@ tachyonsModules().then(function (cssModules) {
   var filteredModules = cssModules.filter(function (module) {
     return [
       // TODO: Fix me : (
-      'tachyons-colors',
       'tachyons-base',
       'tachyons-webpack',
       'tachyons-display-verbose',
