@@ -34,7 +34,7 @@ tachyonsModules().then(function (cssModules) {
   })
 
   var srcCss = fs.readFileSync('./build/_tachyons.css', 'utf8')
-  var banner = '/* TACHYONS v' + pkg.version + '| github.com/tachyons-css/tachyons */\n\n'
+  var banner = '/* TACHYONS v' + pkg.version + ' | github.com/tachyons-css/tachyons */\n\n'
   console.log(banner)
   fs.writeFileSync(path.join(__dirname, '../src/tachyons.css'), banner + srcCss)
 })
