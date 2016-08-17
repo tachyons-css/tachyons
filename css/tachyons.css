@@ -1,4 +1,25 @@
-/* TACHYONS v4.0.6| github.com/tachyons-css/tachyons */
+/* TACHYONS v4.0.7 | github.com/tachyons-css/tachyons */
+/*
+ *    ████████╗ █████╗  ██████╗██╗  ██╗██╗   ██╗ ██████╗ ███╗   ██╗███████╗
+ *    ╚══██╔══╝██╔══██╗██╔════╝██║  ██║╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝
+ *       ██║   ███████║██║     ███████║ ╚████╔╝ ██║   ██║██╔██╗ ██║███████╗
+ *       ██║   ██╔══██║██║     ██╔══██║  ╚██╔╝  ██║   ██║██║╚██╗██║╚════██║
+ *       ██║   ██║  ██║╚██████╗██║  ██║   ██║   ╚██████╔╝██║ ╚████║███████║
+ *       ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+ *
+ *    TABLE OF CONTENTS
+ *
+ *    1. External Library Includes
+ *       - Normalize.css | http://normalize.css.github.io
+ *    2. Tachyons Modules
+ *    3. Variables
+ *       - Media Queries
+ *       - Colors
+ *    4. Debugging
+ *       - Debug all
+ *       - Debug children
+ *
+ */
 /* External Library Includes */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -199,16 +220,6 @@ textarea { overflow: auto; }
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
-/* Variables */
-/*
-
-   Tachyons
-   COLOR VARIABLES
-
-   Grayscale
-   - Solids
-   - Transparencies
-*/
 /* Modules */
 /*
   Box Sizing
@@ -1279,9 +1290,17 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
-/* Import media queries at end as this will allow you to customize them
- * and override what is currently declared in each module.
- */
+/* Variables */
+/* Importing here will allow you to override any variables in the modules */
+/*
+
+   Tachyons
+   COLOR VARIABLES
+
+   Grayscale
+   - Solids
+   - Transparencies
+*/
 /*
 
   CUSTOM MEDIA QUERIES
@@ -1318,7 +1337,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
   }
 
 */
-/* DEBUGGING */
+/* Debugging */
 /*
 
   DEBUG CHILDREN
@@ -1328,7 +1347,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .debug * { outline: 1px solid gold; }
-/* Uncomment out this line and rebuild if you want to debug your layout.*/
+/* Uncomment out the  line below and rebuild the css if you want to use pesticide.io to debug layout .*/
 /* @import './_debug'; */
 @media screen and (min-width: 30em) {
  .cover-ns { background-size: cover; }
