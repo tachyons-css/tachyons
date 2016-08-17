@@ -48,4 +48,29 @@
  --white-05: rgba(255,255,255,.05);
  --white-025: rgba(255,255,255,.025);
  --white-0125: rgba(255,255,255,.0125);
+
+  --dark-red:  #f00008;
+  --red:  #ff3223;
+  --orange:  #f3a801;
+  --gold:  #f2c800;
+  --yellow:  #ffde37;
+  --purple:  #7d5da9;
+  --light-purple:  #8d4f92;
+  --hot-pink: #d62288;
+  --dark-pink:  #c64774;
+  --pink:  #f49cc8;
+  --dark-green:  #006C71;
+  --green:  #41D69F;
+  --navy:  #001b44;
+  --dark-blue:  #00449e;
+  --blue:  #357edd;
+  --light-blue:  #96ccff;
+  --lightest-blue:  #cdecff;
+  --washed-blue:  #f6fffe;
+  --washed-green:  #e8fdf5;
+  --washed-yellow:  #fff8d5;
+  --light-pink:  #efa4b8;
+  --light-yellow:  #f3dd70;
+  --light-red:  #ffd3c0;
+
 }

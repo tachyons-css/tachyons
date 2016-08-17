@@ -1,4 +1,4 @@
-/* TACHYONS v4.0.5| github.com/tachyons-css/tachyons */
+/* TACHYONS v4.0.6| github.com/tachyons-css/tachyons */
 /* External Library Includes */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -200,6 +200,15 @@ textarea { overflow: auto; }
  */
 ::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
 /* Variables */
+/*
+
+   Tachyons
+   COLOR VARIABLES
+
+   Grayscale
+   - Solids
+   - Transparencies
+*/
 /* Modules */
 /*
   Box Sizing
@@ -1308,15 +1317,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
     }
   }
 
-*/
-/*
-
-   Tachyons
-   COLOR VARIABLES
-
-   Grayscale
-   - Solids
-   - Transparencies
 */
 /* DEBUGGING */
 /*
