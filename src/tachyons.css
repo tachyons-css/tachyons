@@ -1,10 +1,32 @@
-/* TACHYONS v4.0.6| github.com/tachyons-css/tachyons */
+/* TACHYONS v4.0.6 | github.com/tachyons-css/tachyons */
+
+
+/*
+ *    ████████╗ █████╗  ██████╗██╗  ██╗██╗   ██╗ ██████╗ ███╗   ██╗███████╗
+ *    ╚══██╔══╝██╔══██╗██╔════╝██║  ██║╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝
+ *       ██║   ███████║██║     ███████║ ╚████╔╝ ██║   ██║██╔██╗ ██║███████╗
+ *       ██║   ██╔══██║██║     ██╔══██║  ╚██╔╝  ██║   ██║██║╚██╗██║╚════██║
+ *       ██║   ██║  ██║╚██████╗██║  ██║   ██║   ╚██████╔╝██║ ╚████║███████║
+ *       ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+ *
+ *    TABLE OF CONTENTS
+ *
+ *    1. External Library Includes
+ *       - Normalize.css | http://normalize.css.github.io
+ *    2. Tachyons Modules
+ *    3. Variables
+ *       - Media Queries
+ *       - Colors
+ *    4. Debugging
+ *       - Debug all
+ *       - Debug children
+ *
+ */
+
 
 /* External Library Includes */
 @import './_normalize';
 
-/* Variables */
-@import './_colors';
 
 /* Modules */
 @import './_box-sizing';
@@ -50,13 +72,12 @@
 @import './_hovers';
 @import './_styles';
 
-/* Import media queries at end as this will allow you to customize them
- * and override what is currently declared in each module.
- */
+/* Variables */
+/* Importing here will allow you to override any variables in the modules */
+@import './_colors';
 @import './_media-queries';
 
-/* DEBUGGING */
+/* Debugging */
 @import './_debug_children';
-
-/* Uncomment out this line and rebuild if you want to debug your layout.*/
+/* Uncomment out the  line below and rebuild the css if you want to use pesticide.io to debug layout .*/
 /* @import './_debug'; */
