@@ -125,10 +125,10 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 * http://comics.hongkonggong.com/
 * https://accessmyinfo.hk/#/
 * https://accessmyinfo.org/#/
-* http://jon.gold/txt
 * http://rene.jon.gold
 * http://johnotander.com
 * http://randoma11y.com
+* http://designbytyping.com
 
 And of course...
 * http://tachyons.io
