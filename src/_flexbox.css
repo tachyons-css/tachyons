@@ -1,12 +1,23 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
 /*
 
-FLEXBOX
+  FLEXBOX
 
- */
+  Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
+
+*/
 
 .flex { display: flex; }
+.inline-flex { display: inline-flex; }
 
-/* 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */
+/* 1. Fix for Chrome 44 bug.
+ * https://code.google.com/p/chromium/issues/detail?id=506893 */
 .flex-auto {
   flex: 1 1 auto;
   min-width: 0; /* 1 */
@@ -16,6 +27,7 @@ FLEXBOX
 .flex-none { flex: none; }
 
 .flex-column  { flex-direction: column; }
+.flex-row     { flex-direction: row; }
 .flex-wrap    { flex-wrap: wrap; }
 
 .items-start    { align-items: flex-start; }
@@ -53,8 +65,10 @@ FLEXBOX
 .order-7 { order: 7; }
 .order-8 { order: 8; }
 .order-last { order: 99999; }
+
 @media (--breakpoint-not-small) {
   .flex-ns { display: flex; }
+  .inline-flex-ns { display: inline-flex; }
   .flex-auto-ns {
     flex: 1 1 auto;
     min-width: 0; /* 1 */
@@ -62,6 +76,7 @@ FLEXBOX
   }
   .flex-none-ns { flex: none; }
   .flex-column-ns { flex-direction: column; }
+  .flex-row-ns     { flex-direction: row; }
   .flex-wrap-ns { flex-wrap: wrap; }
   .items-start-ns { align-items: flex-start; }
   .items-end-ns { align-items: flex-end; }
@@ -101,6 +116,7 @@ FLEXBOX
 }
 @media (--breakpoint-medium) {
   .flex-m { display: flex; }
+  .inline-flex-m { display: inline-flex; }
   .flex-auto-m {
     flex: 1 1 auto;
     min-width: 0; /* 1 */
@@ -108,6 +124,7 @@ FLEXBOX
   }
   .flex-none-m { flex: none; }
   .flex-column-m { flex-direction: column; }
+  .flex-row-m     { flex-direction: row; }
   .flex-wrap-m { flex-wrap: wrap; }
   .items-start-m { align-items: flex-start; }
   .items-end-m { align-items: flex-end; }
@@ -145,8 +162,10 @@ FLEXBOX
   .order-8-m { order: 8; }
   .order-last-m { order: 99999; }
 }
+
 @media (--breakpoint-large) {
   .flex-l { display: flex; }
+  .inline-flex-l { display: inline-flex; }
   .flex-auto-l {
     flex: 1 1 auto;
     min-width: 0; /* 1 */
@@ -154,6 +173,7 @@ FLEXBOX
   }
   .flex-none-l { flex: none; }
   .flex-column-l { flex-direction: column; }
+  .flex-row-l { flex-direction: row; }
   .flex-wrap-l { flex-wrap: wrap; }
   .items-start-l { align-items: flex-start; }
   .items-end-l { align-items: flex-end; }
