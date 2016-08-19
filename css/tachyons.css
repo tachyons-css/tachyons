@@ -1,4 +1,4 @@
-/* TACHYONS v4.0.7 | github.com/tachyons-css/tachyons */
+/* TACHYONS v4.0.8 | github.com/tachyons-css/tachyons */
 /*
  *    ████████╗ █████╗  ██████╗██╗  ██╗██╗   ██╗ ██████╗ ███╗   ██╗███████╗
  *    ╚══██╔══╝██╔══██╗██╔════╝██║  ██║╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝
@@ -526,14 +526,22 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 .dt--fixed { table-layout: fixed; width: 100%; }
 /*
 
-FLEXBOX
+  FLEXBOX
 
- */
+  Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
+
+*/
 .flex { display: flex; }
-/* 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */
+.inline-flex { display: inline-flex; }
+/* 1. Fix for Chrome 44 bug.
+ * https://code.google.com/p/chromium/issues/detail?id=506893 */
 .flex-auto { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
 .flex-none { flex: none; }
 .flex-column { flex-direction: column; }
+.flex-row { flex-direction: row; }
 .flex-wrap { flex-wrap: wrap; }
 .items-start { align-items: flex-start; }
 .items-end { align-items: flex-end; }
@@ -1278,11 +1286,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Can combine this with overflow-hidden to make background images grow on hover
  * even if you are using background-size: cover */
 .grow { transition: transform .2s; }
-.grow:hover { transform: scale( 1.05 ); }
+.grow:hover, .grow:focus { transform: scale( 1.05 ); }
 .grow-large { transition: transform .2s; }
-.grow-large:hover { transform: scale( 1.2 ); }
+.grow-large:hover, .grow-large:focus { transform: scale( 1.2 ); }
 /* Add pointer on hover */
 .pointer:hover { cursor: pointer; }
+/* Add shadow on hover */
+.shadow-hover:hover, .shadow-hover:focus { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
 /*
 
   STYLES
@@ -1425,9 +1435,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dt-column-group-ns { display: table-column-group; }
  .dt--fixed-ns { table-layout: fixed; width: 100%; }
  .flex-ns { display: flex; }
+ .inline-flex-ns { display: inline-flex; }
  .flex-auto-ns { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
  .flex-none-ns { flex: none; }
  .flex-column-ns { flex-direction: column; }
+ .flex-row-ns { flex-direction: row; }
  .flex-wrap-ns { flex-wrap: wrap; }
  .items-start-ns { align-items: flex-start; }
  .items-end-ns { align-items: flex-end; }
@@ -1758,9 +1770,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dt-column-group-m { display: table-column-group; }
  .dt--fixed-m { table-layout: fixed; width: 100%; }
  .flex-m { display: flex; }
+ .inline-flex-m { display: inline-flex; }
  .flex-auto-m { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
  .flex-none-m { flex: none; }
  .flex-column-m { flex-direction: column; }
+ .flex-row-m { flex-direction: row; }
  .flex-wrap-m { flex-wrap: wrap; }
  .items-start-m { align-items: flex-start; }
  .items-end-m { align-items: flex-end; }
@@ -2091,9 +2105,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .dt-column-group-l { display: table-column-group; }
  .dt--fixed-l { table-layout: fixed; width: 100%; }
  .flex-l { display: flex; }
+ .inline-flex-l { display: inline-flex; }
  .flex-auto-l { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
  .flex-none-l { flex: none; }
  .flex-column-l { flex-direction: column; }
+ .flex-row-l { flex-direction: row; }
  .flex-wrap-l { flex-wrap: wrap; }
  .items-start-l { align-items: flex-start; }
  .items-end-l { align-items: flex-end; }
