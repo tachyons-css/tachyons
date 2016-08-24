@@ -1,0 +1,35 @@
+{
+  "name": "tachyons-box-shadow",
+  "description": "box-shadow CSS module for Tachyons",
+  "version": "2.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-box-shadow.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "box-shadow"
+  ],
+  "repository": "tachyons-css/tachyons-box-shadow",
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-box-shadow.css > css/tachyons-box-shadow.css",
+    "build:minify": "tachyons src/tachyons-box-shadow.css --minify > css/tachyons-box-shadow.min.css",
+    "build:docs": "tachyons src/tachyons-box-shadow.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

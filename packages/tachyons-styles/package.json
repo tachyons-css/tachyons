@@ -1,0 +1,34 @@
+{
+  "name": "tachyons-styles",
+  "version": "0.3.2",
+  "style": "src/tachyons-styles.css",
+  "homepage": "http://github.com/tachyons-css/tachyons-styles",
+  "description": "Performance based css module.",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tachyons-css/tachyons-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tachyons-css/tachyons-styles/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^0.6.1",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-styles.css > css/tachyons-styles.css",
+    "build:minify": "tachyons src/tachyons-styles.css --minify > css/tachyons-styles.min.css",
+    "build:docs": "tachyons src/tachyons-styles.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

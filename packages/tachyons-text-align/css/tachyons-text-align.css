@@ -1,0 +1,24 @@
+/*
+
+  TEXT ALIGN
+
+*/
+.tl { text-align: left; }
+.tr { text-align: right; }
+.tc { text-align: center; }
+@media screen and (min-width: 30em) {
+ .tl-ns { text-align: left; }
+ .tr-ns { text-align: right; }
+ .tc-ns { text-align: center; }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+ .tl-m { text-align: left; }
+ .tr-m { text-align: right; }
+ .tc-m { text-align: center; }
+}
+@media screen and (min-width: 60em) {
+ .tl-l { text-align: left; }
+ .tr-l { text-align: right; }
+ .tc-l { text-align: center; }
+}
+

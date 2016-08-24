@@ -1,0 +1,29 @@
+{
+  "name": "tachyons-outlines",
+  "description": "Tachyons module for setting outlines",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-outlines.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "base"
+  ],
+  "repository": "tachyons-css/tachyons-base",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^0.6.1"
+  },
+  "scripts": {
+    "start": "tachyons src/tachyons-outlines.css > css/tachyons-outlines.css && tachyons src/tachyons-outlines.css --minify > css/tachyons-outlines.min.css && tachyons src/tachyons-outlines.css --generate-docs --package=../../package.json > readme.md"
+  }
+}

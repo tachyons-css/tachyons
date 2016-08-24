@@ -1,0 +1,34 @@
+/*
+
+   TACHYONS - QUERIES
+
+*/
+
+/*
+ * Mixin for mobile-first width based media queries.
+ *
+ * Use like 
+ * @include break(medium) {
+ *  color: #333; 
+ * }
+ *
+ */
+
+@mixin break($point) {
+  @if $point == not-small {
+    @media screen and (min-width: 48em) {
+      @content;
+    }
+  }
+  @else if $point == medium {
+    @media screen and (min-width: 48em) and (max-width: 64em) {
+      @content;
+    }
+  }
+  @else if $point == large {
+    @media screen and (min-width: 64em)  {
+      @content;
+    }
+  }
+}
+

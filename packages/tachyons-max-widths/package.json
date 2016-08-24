@@ -1,0 +1,37 @@
+{
+  "name": "tachyons-max-widths",
+  "version": "4.0.0",
+  "style": "src/tachyons-max-widths.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-max-widths",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-max-widths.css > css/tachyons-max-widths.css",
+    "build:minify": "tachyons src/tachyons-max-widths.css --minify > css/tachyons-max-widths.min.css",
+    "build:docs": "tachyons src/tachyons-max-widths.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "metadata": {
+    "category": "layout",
+    "isCore": true
+  }
+}

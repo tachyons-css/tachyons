@@ -1,0 +1,35 @@
+{
+  "name": "tachyons-cms",
+  "description": "CSS module for styling unqualified elements with Tachyons",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-cms.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "cms"
+  ],
+  "repository": "tachyons-css/tachyons-cms",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^0.6.1",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-cms.css > css/tachyons-cms.css",
+    "build:minify": "tachyons src/tachyons-cms.css --minify > css/tachyons-cms.min.css",
+    "build:docs": "tachyons src/tachyons-cms.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}
