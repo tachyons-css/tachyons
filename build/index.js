@@ -7,7 +7,8 @@ const pattern = [
   '!src/tachyons.css',
   '!src/_debug_children.css',
   '!src/_normalize.css',
-  '!src/_media-queries.css'
+  '!src/_media-queries.css',
+  '!src/_module-template.css'
 ]
 
 const mq = stripComments(fs.readFileSync('src/_media-queries.css', 'utf8'))
