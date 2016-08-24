@@ -265,15 +265,6 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 .bn { border-style: none; border-width: 0; }
 /*
 
-   Tachyons
-   COLOR VARIABLES
-
-   Grayscale
-   - Solids
-   - Transparencies
-*/
-/*
-
    BORDER COLORS
 
 */
@@ -574,7 +565,6 @@ input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 .order-7 { order: 7; }
 .order-8 { order: 8; }
 .order-last { order: 99999; }
-/* Media Query Variables */
 /*
 
    FLOATS
@@ -821,15 +811,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .o-05 { opacity: .05; }
 .o-025 { opacity: .025; }
 .o-0 { opacity: 0; }
-/*
-
-   COLOR VARIABLES
-
-   Variables to set colors for
-   color, background-color, and border-color
-
-*/
-/* variables */
 /*
 
    SKINS
@@ -1318,7 +1299,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Media query values can be changed to fit your own content.
   There are no magic bullets when it comes to media query width values.
   They should be declared in em units - and they should be set to meet
-  the needs of your content.
+  the needs of your content. You can also add additional media queries,
+  or remove some of the existing ones.
 
   These media queries can be referenced like so:
 
@@ -1335,18 +1317,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
   }
 
   @media (--breakpoint-large) {
-    .large-screen-specific-style {
-      background-color: red;
-    }
-  }
-
-  @media (--breakpoint-extra-large) {
-    .extra-large-screen-specific-style {
+    .large-and-larger-screen-specific-style {
       background-color: red;
     }
   }
 
 */
+/* Media Queries */
 /* Debugging */
 /*
 

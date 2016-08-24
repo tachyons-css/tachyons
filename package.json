@@ -33,18 +33,6 @@
       "email": "hi@mrmrs.cc"
     },
     {
-      "name": "robert forloine",
-      "url": "http://www.sndsgn.com"
-    },
-    {
-      "name": "david potsiadlo",
-      "url": "http://www.davidpots.com/"
-    },
-    {
-      "name": "tyler benziger",
-      "url": "http://tybenz.com"
-    },
-    {
       "name": "john otander",
       "url": "http://johnotander.com"
     }
@@ -52,58 +40,9 @@
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
-    "copy": "node build/index.js",
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:watch": "watch 'npm run build' ./src/"
-  },
-  "dependencies": {
-    "tachyons-background-size": "^5.0.0",
-    "tachyons-border-colors": "^4.1.3",
-    "tachyons-border-radius": "^5.0.0",
-    "tachyons-border-style": "^4.0.0",
-    "tachyons-border-widths": "^3.0.0",
-    "tachyons-borders": "^3.0.0",
-    "tachyons-box-shadow": "^2.0.0",
-    "tachyons-box-sizing": "^3.1.6",
-    "tachyons-clears": "^3.0.0",
-    "tachyons-colors": "^5.2.4",
-    "tachyons-coordinates": "^4.0.0",
-    "tachyons-debug": "^1.1.6",
-    "tachyons-display": "^5.0.0",
-    "tachyons-flexbox": "^2.0.0",
-    "tachyons-floats": "^3.0.0",
-    "tachyons-font-family": "^4.2.4",
-    "tachyons-font-style": "^4.0.0",
-    "tachyons-font-weight": "^5.0.0",
-    "tachyons-forms": "^3.0.4",
-    "tachyons-heights": "^6.0.0",
-    "tachyons-hovers": "^2.4.0",
-    "tachyons-images": "^1.0.7",
-    "tachyons-letter-spacing": "^3.0.0",
-    "tachyons-line-height": "^3.0.0",
-    "tachyons-links": "^3.0.5",
-    "tachyons-lists": "^2.0.8",
-    "tachyons-max-widths": "^4.0.0",
-    "tachyons-opacity": "^1.1.3",
-    "tachyons-outlines": "^1.0.0",
-    "tachyons-overflow": "^4.0.0",
-    "tachyons-position": "^6.0.0",
-    "tachyons-skins": "^3.2.4",
-    "tachyons-spacing": "^6.0.0",
-    "tachyons-tables": "^1.0.3",
-    "tachyons-text-align": "^3.0.0",
-    "tachyons-text-decoration": "^4.0.0",
-    "tachyons-text-transform": "^4.0.0",
-    "tachyons-type-scale": "^6.0.0",
-    "tachyons-typography": "^3.0.0",
-    "tachyons-utilities": "^1.2.5",
-    "tachyons-vertical-align": "^4.0.0",
-    "tachyons-visibility": "^2.0.0",
-    "tachyons-white-space": "^4.0.0",
-    "tachyons-widths": "^5.0.0",
-    "tachyons-word-break": "3.0.0",
-    "tachyons-z-index": "^1.0.3"
   }
 }
