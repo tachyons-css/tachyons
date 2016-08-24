@@ -20,11 +20,12 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "globby": "^6.0.0",
     "immutable-css-cli": "^1.1.1",
+    "lerna": "2.0.0-beta.26",
     "normalize.css": "^4.2.0",
     "tachyons-cli": "^1.0.2",
-    "watch": "^0.19.2",
-    "lerna": "2.0.0-beta.26"
+    "watch": "^0.19.2"
   },
   "contributors": [
     {
