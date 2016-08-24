@@ -22,7 +22,7 @@ const processPackage = path => {
   let css = fs.readFileSync(path, 'utf8')
 
   if (/@media/.test(css)) {
-    css = mq + '\n' + css
+    css = `${mq}${css}`
   }
 
   console.log(`building ${path}`)
