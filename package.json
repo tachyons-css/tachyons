@@ -43,6 +43,7 @@
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch 'npm run build' ./src/"
+    "build:watch": "watch 'npm run build' ./src/",
+    "dev:update-packages": "node build/index"
   }
 }
