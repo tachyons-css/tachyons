@@ -4,7 +4,7 @@ Border radius CSS module for Tachyons
 
 #### Stats
 
-474 | 40 | 56
+465 | 40 | 56
 ---|---|---
 bytes | selectors | declarations
 
@@ -137,7 +137,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br3-l { border-radius: .5rem; }
  .br4-l { border-radius: 1rem; }
  .br-100-l { border-radius: 100%; }
- .br--bottom-l { border-radius-top-left: 0; border-radius-top-right: 0; }
+ .br--bottom-l { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
  .br--left-l { border-top-right-radius: 0; border-bottom-right-radius: 0; }

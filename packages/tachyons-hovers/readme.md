@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-554 | 19 | 17
+590 | 19 | 30
 ---|---|---
 bytes | selectors | declarations
 
@@ -85,9 +85,9 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
   Dim element on hover by adding the dim class.
 
 */
-.dim { opacity: 1; transition: opacity .15s ease-in; }
-.dim:hover, .dim:focus { opacity: .5; transition: opacity .15s ease-in; }
-.dim:active { opacity: .8; transition: opacity .15s ease-out; }
+.dim { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.dim:hover, .dim:focus { opacity: .5; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.dim:active { opacity: .8; -webkit-transition: opacity .15s ease-out; transition: opacity .15s ease-out; }
 /*
 
   Hide child & reveal on hover:
@@ -102,15 +102,15 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
     <div class="child"> Hidden until hover or focus </div>
   </div>
 */
-.hide-child .child { opacity: 0; transition: opacity .15s ease-in; }
-.hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; transition: opacity .15s ease-in; }
+.hide-child .child { opacity: 0; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
 .underline-hover:hover, .underline-hover:focus { text-decoration: underline; }
 /* Can combine this with overflow-hidden to make background images grow on hover
  * even if you are using background-size: cover */
-.grow { transition: transform .2s; }
-.grow:hover, .grow:focus { transform: scale( 1.05 ); }
-.grow-large { transition: transform .2s; }
-.grow-large:hover, .grow-large:focus { transform: scale( 1.2 ); }
+.grow { -webkit-transition: -webkit-transform .2s; transition: -webkit-transform .2s; transition: transform .2s; transition: transform .2s, -webkit-transform .2s; }
+.grow:hover, .grow:focus { -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); }
+.grow-large { -webkit-transition: -webkit-transform .2s; transition: -webkit-transform .2s; transition: transform .2s; transition: transform .2s, -webkit-transform .2s; }
+.grow-large:hover, .grow-large:focus { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
 /* Add pointer on hover */
 .pointer:hover { cursor: pointer; }
 /* Add shadow on hover */

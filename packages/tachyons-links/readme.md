@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-138 | 6 | 6
+148 | 6 | 11
 ---|---|---
 bytes | selectors | declarations
 
@@ -79,11 +79,11 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    LINKS
 
 */
-.link { text-decoration: none; transition: color .15s ease-in; }
-.link:link, .link:visited { transition: color .15s ease-in; }
-.link:hover { transition: color .15s ease-in; }
-.link:active { transition: color .15s ease-in; }
-.link:focus { transition: color .15s ease-in; }
+.link { text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.link:link, .link:visited { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.link:hover { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.link:active { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.link:focus { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 ```
 
 ## Contributing

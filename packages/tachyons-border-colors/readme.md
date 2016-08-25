@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-605 | 58 | 58
+604 | 58 | 58
 ---|---|---
 bytes | selectors | declarations
 
@@ -132,8 +132,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .b--hot-pink { border-color: #d62288; }
 .b--dark-pink { border-color: #c64774; }
 .b--pink { border-color: #f49cc8; }
-.b--dark-green { border-color: #006C71; }
-.b--green { border-color: #41D69F; }
+.b--dark-green { border-color: #006c71; }
+.b--green { border-color: #41d69f; }
 .b--navy { border-color: #001b44; }
 .b--dark-blue { border-color: #00449e; }
 .b--blue { border-color: #357edd; }

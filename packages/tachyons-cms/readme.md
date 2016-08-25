@@ -36,7 +36,7 @@ Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/
 
 ```sh
 $ npm i -g tachyons-cli
-$ tachyons-cli path/to/css-file.css > dist/t.css
+$ tachyons path/to/css-file.css > dist/t.css
 ```
 
 #### Using the CSS
