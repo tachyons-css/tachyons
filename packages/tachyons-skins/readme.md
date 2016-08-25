@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-1322 | 153 | 153
+1320 | 153 | 153
 ---|---|---
 bytes | selectors | declarations
 
@@ -129,8 +129,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .hot-pink { color: #d62288; }
 .dark-pink { color: #c64774; }
 .pink { color: #f49cc8; }
-.dark-green { color: #006C71; }
-.green { color: #41D69F; }
+.dark-green { color: #006c71; }
+.green { color: #41d69f; }
 .navy { color: #001b44; }
 .dark-blue { color: #00449e; }
 .blue { color: #357edd; }
@@ -184,8 +184,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .bg-hot-pink { background-color: #d62288; }
 .bg-dark-pink { background-color: #c64774; }
 .bg-pink { background-color: #f49cc8; }
-.bg-dark-green { background-color: #006C71; }
-.bg-green { background-color: #41D69F; }
+.bg-dark-green { background-color: #006c71; }
+.bg-green { background-color: #41d69f; }
 .bg-navy { background-color: #001b44; }
 .bg-dark-blue { background-color: #00449e; }
 .bg-blue { background-color: #357edd; }
@@ -231,8 +231,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .hover-bg-hot-pink:hover { background-color: #d62288; }
 .hover-bg-dark-pink:hover { background-color: #c64774; }
 .hover-bg-pink:hover { background-color: #f49cc8; }
-.hover-bg-dark-green:hover { background-color: #006C71; }
-.hover-bg-green:hover { background-color: #41D69F; }
+.hover-bg-dark-green:hover { background-color: #006c71; }
+.hover-bg-green:hover { background-color: #41d69f; }
 .hover-bg-navy:hover { background-color: #001b44; }
 .hover-bg-dark-blue:hover { background-color: #00449e; }
 .hover-bg-blue:hover { background-color: #357edd; }
