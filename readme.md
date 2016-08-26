@@ -1,8 +1,8 @@
 # TACHYONS
 
-Functional CSS for humans.
+Functional css for humans.
 
-Quickly build and design new UI without writing CSS.
+Quickly build and design new UI without writing css.
 
 ## Principles
 
@@ -12,7 +12,7 @@ Quickly build and design new UI without writing CSS.
 * Designing in the browser should be easy
 * It should be easy to change any interface or part of an interface without breaking any existing interfaces
 * Doing one thing extremely well promotes reusability and reduces repetition
-* CSS is global. HTML is not. Send the smallest amount of code to the user as possible.
+* css is global. HTML is not. Send the smallest amount of code to the user as possible.
 
 ## Features
 
