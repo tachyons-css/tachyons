@@ -131,6 +131,7 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 * http://designbytyping.com
 * http://colepeters.com
 * https://atmin.github.io/funponent/
+* http://blog.colepeters.com
 
 And of course...
 * http://tachyons.io
