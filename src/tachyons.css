@@ -1,4 +1,4 @@
-/* TACHYONS v4.0.8 | github.com/tachyons-css/tachyons */
+/* TACHYONS v4.1.3 | github.com/tachyons-css/tachyons */
 
 
 /*
@@ -30,6 +30,7 @@
 
 /* Modules */
 @import './_box-sizing';
+@import './_images';
 @import './_background-size';
 @import './_borders';
 @import './_border-colors';
@@ -70,6 +71,7 @@
 @import './_white-space';
 @import './_vertical-align';
 @import './_hovers';
+@import './_z-index';
 @import './_styles';
 
 /* Variables */
