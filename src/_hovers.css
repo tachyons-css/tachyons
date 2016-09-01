@@ -58,7 +58,10 @@
  * even if you are using background-size: cover */
 
 .grow {
-  transition: transform .2s;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: 0.25s transform ease-out;
 }
 
 .grow:hover,
@@ -66,13 +69,24 @@
   transform: scale(1.05);
 }
 
+.grow:active {
+  transform: scale(.90);
+}
+
 .grow-large {
-  transition: transform .2s;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: 0.25s transform ease-in-out;
 }
 
 .grow-large:hover,
 .grow-large:focus {
   transform: scale(1.2);
+}
+
+.grow-large:active {
+  transform: scale(.95);
 }
 
 /* Add pointer on hover */
