@@ -32,6 +32,7 @@
 @import './_box-sizing';
 @import './_images';
 @import './_background-size';
+@import './_outlines';
 @import './_borders';
 @import './_border-colors';
 @import './_border-radius';
@@ -80,6 +81,8 @@
 @import './_media-queries';
 
 /* Debugging */
-@import './_debug_children';
-/* Uncomment out the  line below and rebuild the css if you want to use pesticide.io to debug layout .*/
+@import './_debug-children';
+@import './_debug-grid';
+
+/* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
