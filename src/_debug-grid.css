@@ -1,0 +1,25 @@
+/*
+
+   DEBUG GRID
+
+   Can be useful for debugging layout issues
+   or helping to make sure things line up perfectly.
+   Just tack one of these classes onto a parent element.
+
+*/
+
+.debug-grid {
+  background:transparent url(http://tachyons.io/img/8-grid-blue-alpha.png) repeat top left;
+}
+
+.debug-grid-16 {
+  background:transparent url(http://tachyons.io/img/16-grid-blue-alpha.png) repeat top left;
+}
+
+.debug-grid-8-solid {
+  background:white url(http://tachyons.io/img/8-grid.jpg) repeat top left;
+}
+
+.debug-grid-16-solid {
+  background:white url(http://tachyons.io/img/16-grid.png) repeat top left;
+}
