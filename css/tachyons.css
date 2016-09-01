@@ -253,6 +253,14 @@ img { max-width: 100%; }
 .contain { background-size: contain; }
 /*
 
+  OUTLINES
+
+*/
+.outline { outline: 1px solid; }
+.outline-transparent { outline: 1px solid transparent; }
+.outline-0 { outline: 0; }
+/*
+
    BORDER BASE
 
    Legend
@@ -361,6 +369,7 @@ img { max-width: 100%; }
 .br3 { border-radius: .5rem; }
 .br4 { border-radius: 1rem; }
 .br-100 { border-radius: 100%; }
+.br-pill { border-radius: 9999px; }
 .br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
 .br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -662,11 +671,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .h3 { height: 4rem; }
 .h4 { height: 8rem; }
 .h5 { height: 16rem; }
-/* Height Percentages */
+/* Height Percentages - Based off of height of parent */
 .h-25 { height: 25%; }
 .h-50 { height: 50%; }
 .h-75 { height: 75%; }
 .h-100 { height: 100%; }
+/* Screen Height Percentage */
+.vh-25 { height: 25vh; }
+.vh-50 { height: 50vh; }
+.vh-75 { height: 75vh; }
+.vh-100 { height: 100vh; }
 /* String Properties */
 .h-auto { height: auto; }
 .h-inherit { height: inherit; }
@@ -684,8 +698,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .lh-solid { line-height: 1; }
-.lh-title { line-height: 1.3; }
-.lh-copy { line-height: 1.6; }
+.lh-title { line-height: 1.25; }
+.lh-copy { line-height: 1.5; }
 /*
 
    LINKS
@@ -1369,11 +1383,27 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .debug * { outline: 1px solid gold; }
-/* Uncomment out the  line below and rebuild the css if you want to use pesticide.io to debug layout .*/
+/*
+
+   DEBUG GRID
+
+   Can be useful for debugging layout issues
+   or helping to make sure things line up perfectly.
+   Just tack one of these classes onto a parent element.
+
+*/
+.debug-grid { background: transparent url( http://tachyons.io/img/8-grid-blue-alpha.png ) repeat top left; }
+.debug-grid-16 { background: transparent url( http://tachyons.io/img/16-grid-blue-alpha.png ) repeat top left; }
+.debug-grid-8-solid { background: white url( http://tachyons.io/img/8-grid.jpg ) repeat top left; }
+.debug-grid-16-solid { background: white url( http://tachyons.io/img/16-grid.png ) repeat top left; }
+/* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
 @media screen and (min-width: 30em) {
  .cover-ns { background-size: cover; }
  .contain-ns { background-size: contain; }
+ .outline-ns { outline: 1px solid; }
+ .outline-transparent-ns { outline: 1px solid transparent; }
+ .outline-0-ns { outline: 0; }
  .ba-ns { border-style: solid; border-width: 1px; }
  .bt-ns { border-top-style: solid; border-top-width: 1px; }
  .br-ns { border-right-style: solid; border-right-width: 1px; }
@@ -1386,6 +1416,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br3-ns { border-radius: .5rem; }
  .br4-ns { border-radius: 1rem; }
  .br-100-ns { border-radius: 100%; }
+ .br-pill-ns { border-radius: 9999px; }
  .br--bottom-ns { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-ns { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-ns { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -1508,6 +1539,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-25-ns { height: 25%; }
  .h-50-ns { height: 50%; }
  .h-75-ns { height: 75%; }
+ .vh-25-ns { height: 25vh; }
+ .vh-50-ns { height: 50vh; }
+ .vh-75-ns { height: 75vh; }
+ .vh-100-ns { height: 100vh; }
  .h-100-ns { height: 100%; }
  .h-auto-ns { height: auto; }
  .h-inherit-ns { height: inherit; }
@@ -1515,8 +1550,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .25em; }
  .lh-solid-ns { line-height: 1; }
- .lh-title-ns { line-height: 1.3; }
- .lh-copy-ns { line-height: 1.6; }
+ .lh-title-ns { line-height: 1.25; }
+ .lh-copy-ns { line-height: 1.5; }
  .mw-100-ns { max-width: 100%; }
  .mw1-ns { max-width: 1rem; }
  .mw2-ns { max-width: 2rem; }
@@ -1709,6 +1744,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .cover-m { background-size: cover; }
  .contain-m { background-size: contain; }
+ .outline-m { outline: 1px solid; }
+ .outline-transparent-m { outline: 1px solid transparent; }
+ .outline-0-m { outline: 0; }
+ .outline-l { outline: 1px solid; }
+ .outline-transparent-l { outline: 1px solid transparent; }
+ .outline-0-l { outline: 0; }
  .ba-m { border-style: solid; border-width: 1px; }
  .bt-m { border-top-style: solid; border-top-width: 1px; }
  .br-m { border-right-style: solid; border-right-width: 1px; }
@@ -1721,6 +1762,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br3-m { border-radius: .5rem; }
  .br4-m { border-radius: 1rem; }
  .br-100-m { border-radius: 100%; }
+ .br-pill-m { border-radius: 9999px; }
  .br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -1844,14 +1886,18 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-50-m { height: 50%; }
  .h-75-m { height: 75%; }
  .h-100-m { height: 100%; }
+ .vh-25-m { height: 25vh; }
+ .vh-50-m { height: 50vh; }
+ .vh-75-m { height: 75vh; }
+ .vh-100-m { height: 100vh; }
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
  .tracked-m { letter-spacing: .1em; }
  .tracked-tight-m { letter-spacing: -.05em; }
  .tracked-mega-m { letter-spacing: .25em; }
  .lh-solid-m { line-height: 1; }
- .lh-title-m { line-height: 1.3; }
- .lh-copy-m { line-height: 1.6; }
+ .lh-title-m { line-height: 1.25; }
+ .lh-copy-m { line-height: 1.5; }
  .mw-100-m { max-width: 100%; }
  .mw1-m { max-width: 1rem; }
  .mw2-m { max-width: 2rem; }
@@ -2056,6 +2102,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br3-l { border-radius: .5rem; }
  .br4-l { border-radius: 1rem; }
  .br-100-l { border-radius: 100%; }
+ .br-pill-l { border-radius: 9999px; }
  .br--bottom-l { border-radius-top-left: 0; border-radius-top-right: 0; }
  .br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -2179,14 +2226,18 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .h-50-l { height: 50%; }
  .h-75-l { height: 75%; }
  .h-100-l { height: 100%; }
+ .vh-25-l { height: 25vh; }
+ .vh-50-l { height: 50vh; }
+ .vh-75-l { height: 75vh; }
+ .vh-100-l { height: 100vh; }
  .h-auto-l { height: auto; }
  .h-inherit-l { height: inherit; }
  .tracked-l { letter-spacing: .1em; }
  .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .25em; }
  .lh-solid-l { line-height: 1; }
- .lh-title-l { line-height: 1.3; }
- .lh-copy-l { line-height: 1.6; }
+ .lh-title-l { line-height: 1.25; }
+ .lh-copy-l { line-height: 1.5; }
  .mw-100-l { max-width: 100%; }
  .mw1-l { max-width: 1rem; }
  .mw2-l { max-width: 2rem; }
