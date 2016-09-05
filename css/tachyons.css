@@ -1,11 +1,12 @@
-/* TACHYONS v4.2.0 | github.com/tachyons-css/tachyons */
+/* TACHYONS v4.2.1 | http://github.com/tachyons-css/tachyons */
 /*
- *    ████████╗ █████╗  ██████╗██╗  ██╗██╗   ██╗ ██████╗ ███╗   ██╗███████╗
- *    ╚══██╔══╝██╔══██╗██╔════╝██║  ██║╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝
- *       ██║   ███████║██║     ███████║ ╚████╔╝ ██║   ██║██╔██╗ ██║███████╗
- *       ██║   ██╔══██║██║     ██╔══██║  ╚██╔╝  ██║   ██║██║╚██╗██║╚════██║
- *       ██║   ██║  ██║╚██████╗██║  ██║   ██║   ╚██████╔╝██║ ╚████║███████║
- *       ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+ *
+ *      ________            ______
+ *      ___  __/_____ _________  /______  ______________________
+ *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
+ *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
+ *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
+ *                                 /____/
  *
  *    TABLE OF CONTENTS
  *
@@ -253,7 +254,12 @@ img { max-width: 100%; }
 .contain { background-size: contain; }
 /*
 
-  OUTLINES
+   OUTLINES
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .outline { outline: 1px solid; }
@@ -261,15 +267,23 @@ img { max-width: 100%; }
 .outline-0 { outline: 0; }
 /*
 
-   BORDER BASE
+    BORDERS
 
-   Legend
+    Base:
+      b = border
 
-   a = all
-   t = top
-   r = right
-   b = bottom
-   l = left
+    Modifiers:
+      a = all
+      t = top
+      r = right
+      b = bottom
+      l = left
+      n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .ba { border-style: solid; border-width: 1px; }
@@ -281,6 +295,15 @@ img { max-width: 100%; }
 /*
 
    BORDER COLORS
+
+   Border colors can be used to extend the base
+   border classes ba,bt,bb,br,bl found in the _borders.css file.
+
+   The base border class by default will set the color of the border
+   to that of the current text color. These classes are for the cases
+   where you desire for the text and border colors to be different.
+
+   b = border
 
 */
 .b--black { border-color: #000; }
@@ -354,8 +377,10 @@ img { max-width: 100%; }
      2    = 2nd step in scale
      3    = 3rd step in scale
      4    = 4th step in scale
-     -100 = 100%
 
+   Literal values:
+     -100 = 100%
+     -pill = 9999px
 
    Media Query Extensions:
      -ns = not-small
@@ -378,14 +403,16 @@ img { max-width: 100%; }
 
    BORDER STYLES
 
+   Depends on base border module in _borders.css
+
    Base:
-     bs = border-style
+     b = border-style
 
    Modifiers:
-     none   = none
-     dotted = dotted
-     dashed = dashed
-     solid  = solid
+     --none   = none
+     --dotted = dotted
+     --dashed = dashed
+     --solid  = solid
 
    Media Query Extensions:
      -ns = not-small
@@ -424,6 +451,7 @@ img { max-width: 100%; }
 .bw3 { border-width: .5rem; }
 .bw4 { border-width: 1rem; }
 .bw5 { border-width: 2rem; }
+/* Resets */
 .bt-0 { border-top-width: 0; }
 .br-0 { border-right-width: 0; }
 .bb-0 { border-bottom-width: 0; }
@@ -454,6 +482,24 @@ img { max-width: 100%; }
    COORDINATES
 
    Use in combination with the position module.
+
+   Base:
+     top
+     bottom
+     right
+     left
+
+   Modifiers:
+     -0  = literal value 0
+     -1  = literal value 1
+     -2  = literal value 2
+     --1 = literal value -1
+     --2 = literal value -2
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .top-0 { top: 0; }
@@ -635,12 +681,36 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    FONT STYLE
 
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 .i { font-style: italic; }
 .fs-normal { font-style: normal; }
 /*
 
    FONT WEIGHT
+
+   Base
+     fw = font-weight
+
+   Modifiers:
+     1 = literal value 100
+     2 = literal value 200
+     3 = literal value 300
+     4 = literal value 400
+     5 = literal value 500
+     6 = literal value 600
+     7 = literal value 700
+     8 = literal value 800
+     9 = literal value 900
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .normal { font-weight: normal; }
@@ -663,6 +733,30 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    HEIGHTS
+
+   Base:
+     h = height
+     vh = vertical screen height
+
+   Modifiers
+     1 = 1st step in height scale
+     2 = 2nd step in height scale
+     3 = 3rd step in height scale
+     4 = 4th step in height scale
+     5 = 5th step in height scale
+
+     -25   = literal value 25%
+     -50   = literal value 50%
+     -75   = literal value 75%
+     -100  = literal value 100%
+
+     -auto = string value of auto
+     -inherit = string value of inherit
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 /* Height Scale */
@@ -688,6 +782,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    LETTER SPACING
 
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 .tracked { letter-spacing: .1em; }
 .tracked-tight { letter-spacing: -.05em; }
@@ -695,6 +794,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    LINE HEIGHT / LEADING
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .lh-solid { line-height: 1; }
@@ -719,6 +823,30 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    MAX WIDTHS
+
+   Base:
+     mw = max-width
+
+   Modifiers
+     1 = 1st step in width scale
+     2 = 2nd step in width scale
+     3 = 3rd step in width scale
+     4 = 4th step in width scale
+     5 = 5th step in width scale
+     6 = 6st step in width scale
+     7 = 7nd step in width scale
+     8 = 8rd step in width scale
+     9 = 9th step in width scale
+
+     -100 = literal value 100%
+
+     -none  = string value none
+
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 /* Max Width Percentages */
@@ -792,6 +920,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
     OVERFLOW
 
+    Media Query Extensions:
+      -ns = not-small
+      -m  = medium
+      -l  = large
+
  */
 .overflow-visible { overflow: visible; }
 .overflow-hidden { overflow: hidden; }
@@ -807,16 +940,21 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .overflow-y-auto { overflow-y: auto; }
 /*
 
-    POSITIONING
+   POSITIONING
 
- */
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
 .static { position: static; }
 .relative { position: relative; }
 .absolute { position: absolute; }
 .fixed { position: fixed; }
 /*
 
-  Opacity
+    OPACITY
 
 */
 .o-100 { opacity: 1; }
@@ -835,6 +973,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    SKINS
+
+   Classes for setting foreground and background colors on elements.
 
 */
 /* Text colors */
@@ -994,35 +1134,38 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-light-yellow:hover { background-color: #f3dd70; }
 .hover-bg-light-red:hover { background-color: #ffd3c0; }
 /* Variables */
-/* Spacing Scale - based on a ratio of 1:2 */
-/* Media Queries */
 /*
    SPACING
 
    An eight step powers of two scale ranging from 0 to 16rem.
-   Namespaces are composable and thus highly grockable - check the legend below
 
-   Legend:
+   Base:
 
-   p = padding
-   m = margin
+     p = padding
+     m = margin
 
-   a = all
-   h = horizontal
-   v = vertical
-   t = top
-   r = right
-   b = bottom
-   l = left
+   Modifiers:
+     a = all
+     h = horizontal
+     v = vertical
+     t = top
+     r = right
+     b = bottom
+     l = left
 
-   0 = none
-   1 = 1st step in spacing scale
-   2 = 2nd step in spacing scale
-   3 = 3rd step in spacing scale
-   4 = 4th step in spacing scale
-   5 = 5th step in spacing scale
-   6 = 6th step in spacing scale
-   7 = 7th step in spacing scale
+     0 = none
+     1 = 1st step in spacing scale
+     2 = 2nd step in spacing scale
+     3 = 3rd step in spacing scale
+     4 = 4th step in spacing scale
+     5 = 5th step in spacing scale
+     6 = 6th step in spacing scale
+     7 = 7th step in spacing scale
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .pa0 { padding: 0; }
@@ -1143,13 +1286,18 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .collapse { border-collapse: collapse; border-spacing: 0; }
-.striped--moon-gray:nth-child(odd) { background-color: #aaa; }
+.striped--light-silver:nth-child(odd) { background-color: #aaa; }
 .striped--moon-gray:nth-child(odd) { background-color: #ccc; }
 .striped--light-gray:nth-child(odd) { background-color: #eee; }
 .striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
 /*
 
    TEXT DECORATION
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .strike { text-decoration: line-through; }
@@ -1159,6 +1307,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
   TEXT ALIGN
 
+  Base
+    t = text-align
+
+  Modifiers
+    l = left
+    r = right
+    c = center
+
+  Media Query Extensions:
+    -ns = not-small
+    -m  = medium
+    -l  = large
+
 */
 .tl { text-align: left; }
 .tr { text-align: right; }
@@ -1166,6 +1327,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TEXT TRANSFORM
+
+   Base:
+     tt = text-transform
+
+   Modifiers
+     c = capitalize
+     l = lowercase
+     u = uppercase
+     n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .ttc { text-transform: capitalize; }
@@ -1176,8 +1351,28 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    TYPE SCALE
 
+   Base:
+    f = font-size
+
+   Modifiers
+     1 = 1st step in size scale
+     2 = 2nd step in size scale
+     3 = 3rd step in size scale
+     4 = 4th step in size scale
+     5 = 5th step in size scale
+     6 = 6th step in size scale
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 */
-/* For Hero Titles */
+/*
+ * For Hero/Marketing Titles
+ *
+ * These generally are too large for mobile
+ * so be careful using them on smaller screens.
+ * */
 .f-6, .f-headline { font-size: 6rem; }
 .f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
@@ -1190,6 +1385,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TYPOGRAPHY
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 /* Measure is limited to ~66 characters */
@@ -1231,6 +1431,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    VISIBILITY
 
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 /*
     Text that is hidden but accessible
@@ -1241,6 +1446,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    WHITE SPACE
 
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 .ws-normal { white-space: normal; }
 .nowrap { white-space: nowrap; }
@@ -1248,6 +1458,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    VERTICAL ALIGN
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 .v-base { vertical-align: baseline; }
@@ -1258,6 +1473,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
   HOVER EFFECTS
 
+    - Dim
+    - Hide Child
+    - Underline text
+    - Grow
+    - Pointer
+    - Shadow
 
 */
 /*
@@ -1299,13 +1520,31 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .shadow-hover:hover, .shadow-hover:focus { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
 /*
 
-  Tachyons
-  z-index
+  Z-INDEX
 
-  DOCUMENTATION
+  Base
+    z = z-index
+
+  Modifiers
+    -0 = literal value 0
+    -1 = literal value 1
+    -2 = literal value 2
+    -3 = literal value 3
+    -4 = literal value 4
+    -5 = literal value 5
+    -999 = literal value 999
+    -9999 = literal value 9999
+
+    -max = largest accepted z-index value as integer
+
+    -inherit = string value inherit
+    -initial = string value initial
+    -unset = string value unset
 
   MDN: https://developer.mozilla.org/en/docs/Web/CSS/z-index
   Spec: http://www.w3.org/TR/CSS2/zindex.html
+  Articles:
+    https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
 
   Tips on extending:
   There might be a time worth using negative z-index values.
@@ -1342,6 +1581,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Grayscale
    - Solids
    - Transparencies
+   Colors
+
 */
 /*
 
