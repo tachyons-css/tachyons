@@ -2,9 +2,30 @@
 
    TYPE SCALE
 
+   Base:
+    f = font-size
+
+   Modifiers
+     1 = 1st step in size scale
+     2 = 2nd step in size scale
+     3 = 3rd step in size scale
+     4 = 4th step in size scale
+     5 = 5th step in size scale
+     6 = 6th step in size scale
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 */
 
-/* For Hero Titles */
+/*
+ * For Hero/Marketing Titles
+ *
+ * These generally are too large for mobile
+ * so be careful using them on smaller screens.
+ * */
+
 .f-6,
 .f-headline {
   font-size: 6rem;
@@ -14,7 +35,9 @@
   font-size: 5rem;
 }
 
+
 /* Type Scale */
+
 .f1 { font-size: 3rem; }
 .f2 { font-size: 2.25rem; }
 .f3 { font-size: 1.5rem; }

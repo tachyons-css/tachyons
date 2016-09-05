@@ -2,14 +2,16 @@
 
    BORDER STYLES
 
+   Depends on base border module in _borders.css
+
    Base:
-     bs = border-style
+     b = border-style
 
    Modifiers:
-     none   = none
-     dotted = dotted
-     dashed = dashed
-     solid  = solid
+     --none   = none
+     --dotted = dotted
+     --dashed = dashed
+     --solid  = solid
 
    Media Query Extensions:
      -ns = not-small

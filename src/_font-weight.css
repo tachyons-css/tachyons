@@ -2,6 +2,25 @@
 
    FONT WEIGHT
 
+   Base
+     fw = font-weight
+
+   Modifiers:
+     1 = literal value 100
+     2 = literal value 200
+     3 = literal value 300
+     4 = literal value 400
+     5 = literal value 500
+     6 = literal value 600
+     7 = literal value 700
+     8 = literal value 800
+     9 = literal value 900
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 
 .normal { font-weight: normal; }

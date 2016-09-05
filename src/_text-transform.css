@@ -2,6 +2,20 @@
 
    TEXT TRANSFORM
 
+   Base:
+     tt = text-transform
+
+   Modifiers
+     c = capitalize
+     l = lowercase
+     u = uppercase
+     n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 
 .ttc { text-transform: capitalize; }

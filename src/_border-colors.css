@@ -2,6 +2,15 @@
 
    BORDER COLORS
 
+   Border colors can be used to extend the base
+   border classes ba,bt,bb,br,bl found in the _borders.css file.
+
+   The base border class by default will set the color of the border
+   to that of the current text color. These classes are for the cases
+   where you desire for the text and border colors to be different.
+
+   b = border
+
 */
 
 .b--black {        border-color: var(--black); }

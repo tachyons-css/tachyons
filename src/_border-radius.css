@@ -11,8 +11,10 @@
      2    = 2nd step in scale
      3    = 3rd step in scale
      4    = 4th step in scale
-     -100 = 100%
 
+   Literal values:
+     -100 = 100%
+     -pill = 9999px
 
    Media Query Extensions:
      -ns = not-small

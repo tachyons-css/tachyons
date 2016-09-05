@@ -4,6 +4,24 @@
 
    Use in combination with the position module.
 
+   Base:
+     top
+     bottom
+     right
+     left
+
+   Modifiers:
+     -0  = literal value 0
+     -1  = literal value 1
+     -2  = literal value 2
+     --1 = literal value -1
+     --2 = literal value -2
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 
 .top-0    { top:    0; }

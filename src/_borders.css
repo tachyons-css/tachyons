@@ -1,14 +1,22 @@
 /*
 
-   BORDER BASE
+    BORDERS
 
-   Legend
+    Base:
+      b = border
 
-   a = all
-   t = top
-   r = right
-   b = bottom
-   l = left
+    Modifiers:
+      a = all
+      t = top
+      r = right
+      b = bottom
+      l = left
+      n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 

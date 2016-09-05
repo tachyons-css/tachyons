@@ -2,6 +2,30 @@
 
    HEIGHTS
 
+   Base:
+     h = height
+     vh = vertical screen height
+
+   Modifiers
+     1 = 1st step in height scale
+     2 = 2nd step in height scale
+     3 = 3rd step in height scale
+     4 = 4th step in height scale
+     5 = 5th step in height scale
+
+     -25   = literal value 25%
+     -50   = literal value 50%
+     -75   = literal value 75%
+     -100  = literal value 100%
+
+     -auto = string value of auto
+     -inherit = string value of inherit
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 
 /* Height Scale */

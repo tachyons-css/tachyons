@@ -9,7 +9,7 @@
     border-spacing: 0;
 }
 
-.striped--moon-gray:nth-child(odd) {
+.striped--light-silver:nth-child(odd) {
   background-color: var(--light-silver);
 }
 
