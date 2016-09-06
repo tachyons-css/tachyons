@@ -8,6 +8,91 @@
 - Better build scripts
 - etc.
 
+### 4.2.1
+
+#### Comments: There is no substitute
+
+![](https://media.giphy.com/media/9CFB8fnPPgzok/giphy.gif)
+
+This patch fixes a small bug in class naming and also adds comments to the css partials in the src/ directory.
+
+After making another pass through the source code I was horrified to find how many glaring inconsistencies there were in the code comments for each module. Especially regarding naming systems. It never ceases to amaze me how bad past me is at writing code. 
+
+In an effort to not have poorly documented code I woke up this morning, made some coffee, and tried to make the comments more clear and more consistent. They aren't perfect yet. But
+ they are less glaringly awful. I hope. 
+
+### Bug fix
+![](https://media.giphy.com/media/7zYQSkF4LPmmY/giphy.gif)
+
+There were two different classes called striped--moon-gray which is very silly because they were set to different values. So that has been fixed. No more duplicative classes and the class striped--light-gray has been added in as originally intended. 
+
+### 4.3 news
+Next up I'll be adding some more table striping utilities along with some additional aspect ratios used for fluid embeds. 
+
+Cheers.
+
+### 4.2.0
+
+#### High Times
+
+![](https://media.giphy.com/media/FVbsOFYqdARtS/giphy.gif)
+
+Without a doubt this is my favorite release ever. We fixed a couple of bugs and also
+added some new goodness.
+
+## Additions
+
+#####_debug-grid.css
+Added some classes to help enable lining things up. If you place the ```.grid-debug``` class on an element you'll get an 8px grid on the background with a slightly transparent blue line. To get a 16px grid use the class ```.grid-debug-16```
+
+##### 8px grid
+<img width="1197" alt="screen shot 2016-09-01 at 5 39 03 pm" src="https://cloud.githubusercontent.com/assets/1748143/18177535/87caf59c-7072-11e6-956b-5d5018f368ed.png">
+
+##### 16px grid
+<img width="1280" alt="screen shot 2016-09-01 at 5 45 05 pm" src="https://cloud.githubusercontent.com/assets/1748143/18177523/7de0a202-7072-11e6-956f-ae95fa7ff539.png">
+
+#### vh units
+Added some classes for setting the height of the element based off of the screen height as opposed to the height of the parent. You can now use vh-100, vh-75, vh-50, or vh-25 to set the height of an element to 100, 75, 50, or 25% of the screen height. Shout out to @yoshuawuyts for the recommendation.
+
+#### outlines
+You can now place a 1px outline on an element with the ```class="outline"``` it will be set to the currentColor of the element.
+
+#### line-height
+Made some slight tweaks to line-height values. ```lh-copy``` is now set to 1.5 and ```lh-title``` is set to 1.25. This will hopefully help people worried about baseline grids a little bit.
+
+#### pill shaped links / buttons
+Added a class called br-pill that makes things look like pills with a border-radius of 9999px. Shout out to @matthewmueller for getting this in.
+
+<img width="387" alt="screen shot 2016-09-01 at 7 10 51 pm" src="https://cloud.githubusercontent.com/assets/1748143/18178988/663fdc20-7078-11e6-8ed7-d5dd6bd779fb.png">
+
+
+## Bug Fixes
+![](https://media.giphy.com/media/oJ3a572OzNV2U/giphy.gif)
+
+#### Animation fix
+The .glow class was not animating properly. This has been fixed.
+![hover](https://cloud.githubusercontent.com/assets/1748143/18177453/3755a0f8-7072-11e6-9cdc-838732f0967b.gif)
+
+#### Filename consistency
+Renamed _debug_children.css to _debug-children.css to follow the naming pattern of the other partials
+
+##### Until next time
+I think that is about it. Thanks to everyone who has given feedback and helped out with docs fixes. It's all really helpful.
+
+### 4.1.3
+
+## They're back
+
+![](https://media.giphy.com/media/CrUNKmmIi74RO/giphy.gif)
+
+We accidentally were not including the images partial or the z-index partial in the main build.
+The 4.1.3 fixes this 100% completely embarrassing mistake by including them back in. 
+
+If you use the CDN link you can find the new version at
+```
+https://npmcdn.com/tachyons@4.1.3/css/tachyons.min.css
+```
+
 ### 4.1.1
 
 ##### More Simple. Fewer Dependencies.

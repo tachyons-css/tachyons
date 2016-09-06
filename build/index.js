@@ -25,6 +25,5 @@ const processPackage = path => {
     css = `${mq}${css}`
   }
 
-  console.log(`building ${path}`)
   fs.writeFileSync(`packages/tachyons-${name}/src/tachyons-${name}.css`, css)
 }
