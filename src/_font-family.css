@@ -61,6 +61,12 @@ code, .code {
 
 /* Serif Typefaces */
 
+.athelas {
+  font-family: athelas,
+               georgia,
+               serif;
+}
+
 .georgia {
   font-family: georgia,
                serif;
