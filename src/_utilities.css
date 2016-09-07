@@ -23,8 +23,21 @@
 }
 
 .aspect-ratio--16x9 { padding-bottom: 56.25%; }
+.aspect-ratio--9x16 { padding-bottom: 177.77%; }
+
 .aspect-ratio--4x3 {  padding-bottom: 75%; }
+.aspect-ratio--3x4 {  padding-bottom: 133.33%; }
+
+.aspect-ratio--6x4 {  padding-bottom: 66.6%; }
+.aspect-ratio--4x6 {  padding-bottom: 150%; }
+
 .aspect-ratio--8x5 {  padding-bottom: 62.5%; }
+.aspect-ratio--5x8 {  padding-bottom: 160%; }
+
+.aspect-ratio--7x5 {  padding-bottom: 71.42%; }
+.aspect-ratio--5x7 {  padding-bottom: 140%; }
+
+.aspect-ratio--1x1 {  padding-bottom: 100%; }
 
 .aspect-ratio--object {
     position: absolute;
