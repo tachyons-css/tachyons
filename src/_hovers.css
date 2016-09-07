@@ -67,7 +67,7 @@
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
-  transition: 0.25s transform ease-out;
+  transition: transform 0.25s ease-out;
 }
 
 .grow:hover,
@@ -83,7 +83,7 @@
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
-  transition: 0.25s transform ease-in-out;
+  transition: transform 0.25s ease-in-out;
 }
 
 .grow-large:hover,
