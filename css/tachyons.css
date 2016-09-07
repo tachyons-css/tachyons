@@ -1,4 +1,4 @@
-/* TACHYONS v4.2.1 | http://github.com/tachyons-css/tachyons */
+/* TACHYONS v4.3.0 | http://github.com/tachyons-css/tachyons */
 /*
  *
  *      ________            ______
@@ -303,7 +303,11 @@ img { max-width: 100%; }
    to that of the current text color. These classes are for the cases
    where you desire for the text and border colors to be different.
 
-   b = border
+   Base:
+     b = border
+
+   Modifiers:
+   --color-name = each color variable name is also a border color name
 
 */
 .b--black { border-color: #000; }
@@ -671,6 +675,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
 .avenir { font-family: 'avenir next', avenir, sans-serif; }
 /* Serif Typefaces */
+.athelas { font-family: athelas, georgia, serif; }
 .georgia { font-family: georgia, serif; }
 .times { font-family: times, serif; }
 .bodoni { font-family: "Bodoni MT", serif; }
@@ -1422,8 +1427,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
  * */
 .aspect-ratio { height: 0; position: relative; }
 .aspect-ratio--16x9 { padding-bottom: 56.25%; }
+.aspect-ratio--9x16 { padding-bottom: 177.77%; }
 .aspect-ratio--4x3 { padding-bottom: 75%; }
+.aspect-ratio--3x4 { padding-bottom: 133.33%; }
+.aspect-ratio--6x4 { padding-bottom: 66.6%; }
+.aspect-ratio--4x6 { padding-bottom: 150%; }
 .aspect-ratio--8x5 { padding-bottom: 62.5%; }
+.aspect-ratio--5x8 { padding-bottom: 160%; }
+.aspect-ratio--7x5 { padding-bottom: 71.42%; }
+.aspect-ratio--5x7 { padding-bottom: 140%; }
+.aspect-ratio--1x1 { padding-bottom: 100%; }
 .aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
@@ -1508,10 +1521,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .underline-hover:hover, .underline-hover:focus { text-decoration: underline; }
 /* Can combine this with overflow-hidden to make background images grow on hover
  * even if you are using background-size: cover */
-.grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: 0.25s -webkit-transform ease-out; transition: 0.25s -webkit-transform ease-out; transition: 0.25s transform ease-out; transition: 0.25s transform ease-out, 0.25s -webkit-transform ease-out; }
+.grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: -webkit-transform 0.25s ease-out; transition: -webkit-transform 0.25s ease-out; transition: transform 0.25s ease-out; transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out; }
 .grow:hover, .grow:focus { -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); }
 .grow:active { -webkit-transform: scale( .90 ); transform: scale( .90 ); }
-.grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: 0.25s -webkit-transform ease-in-out; transition: 0.25s -webkit-transform ease-in-out; transition: 0.25s transform ease-in-out; transition: 0.25s transform ease-in-out, 0.25s -webkit-transform ease-in-out; }
+.grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: -webkit-transform 0.25s ease-in-out; transition: -webkit-transform 0.25s ease-in-out; transition: transform 0.25s ease-in-out; transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out; }
 .grow-large:hover, .grow-large:focus { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
 .grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
 /* Add pointer on hover */
