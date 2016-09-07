@@ -9,7 +9,11 @@
    to that of the current text color. These classes are for the cases
    where you desire for the text and border colors to be different.
 
-   b = border
+   Base:
+     b = border
+
+   Modifiers:
+   --color-name = each color variable name is also a border color name
 
 */
 
