@@ -14,20 +14,20 @@
   on an html element.
 */
 
-  .cover { background-size: cover; }
-  .contain { background-size: contain; }
+  .cover { background-size: cover!important; }
+  .contain { background-size: contain!important; }
 
 @media (--breakpoint-not-small) {
-  .cover-ns { background-size: cover; }
-  .contain-ns { background-size: contain; }
+  .cover-ns { background-size: cover!important; }
+  .contain-ns { background-size: contain!important; }
 }
 
 @media (--breakpoint-medium) {
-  .cover-m { background-size: cover; }
-  .contain-m { background-size: contain; }
+  .cover-m { background-size: cover!important; }
+  .contain-m { background-size: contain!important; }
 }
 
 @media (--breakpoint-large) {
-  .cover-l { background-size: cover; }
-  .contain-l { background-size: contain; }
+  .cover-l { background-size: cover!important; }
+  .contain-l { background-size: contain!important; }
 }
