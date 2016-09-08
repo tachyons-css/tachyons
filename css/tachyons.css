@@ -1,4 +1,4 @@
-/* TACHYONS v4.3.0 | http://github.com/tachyons-css/tachyons */
+/* TACHYONS v4.3.1 | http://github.com/tachyons-css/tachyons */
 /*
  *
  *      ________            ______
@@ -265,8 +265,8 @@ img { max-width: 100%; }
   Often used in combination with background image set as an inline style
   on an html element.
 */
-.cover { background-size: cover; }
-.contain { background-size: contain; }
+.cover { background-size: cover !important; }
+.contain { background-size: contain !important; }
 /*
 
    OUTLINES
@@ -1675,8 +1675,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bg--right-ns { background-position: center right; background-repeat: no-repeat; }
  .bg--bottom-ns { background-position: bottom center; background-repeat: no-repeat; }
  .bg--left-ns { background-position: center left; background-repeat: no-repeat; }
- .cover-ns { background-size: cover; }
- .contain-ns { background-size: contain; }
+ .cover-ns { background-size: cover !important; }
+ .contain-ns { background-size: contain !important; }
  .outline-ns { outline: 1px solid; }
  .outline-transparent-ns { outline: 1px solid transparent; }
  .outline-0-ns { outline: 0; }
@@ -2023,8 +2023,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bg--right-m { background-position: center right; background-repeat: no-repeat; }
  .bg--bottom-m { background-position: bottom center; background-repeat: no-repeat; }
  .bg--left-m { background-position: center left; background-repeat: no-repeat; }
- .cover-m { background-size: cover; }
- .contain-m { background-size: contain; }
+ .cover-m { background-size: cover !important; }
+ .contain-m { background-size: contain !important; }
  .outline-m { outline: 1px solid; }
  .outline-transparent-m { outline: 1px solid transparent; }
  .outline-0-m { outline: 0; }
@@ -2374,8 +2374,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bg--right-l { background-position: center right; background-repeat: no-repeat; }
  .bg--bottom-l { background-position: bottom center; background-repeat: no-repeat; }
  .bg--left-l { background-position: center left; background-repeat: no-repeat; }
- .cover-l { background-size: cover; }
- .contain-l { background-size: contain; }
+ .cover-l { background-size: cover !important; }
+ .contain-l { background-size: contain !important; }
  .ba-l { border-style: solid; border-width: 1px; }
  .bt-l { border-top-style: solid; border-top-width: 1px; }
  .br-l { border-right-style: solid; border-right-width: 1px; }
