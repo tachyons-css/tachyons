@@ -1,0 +1,44 @@
+/*
+
+    BACKGROUND REPEAT
+
+    Media Query Extensions:
+      -ns = not-small
+      -m  = medium
+      -l  = large
+
+ */
+
+.bg-r { background-repeat: repeat; }
+.bg-r--x { background-repeat: repeat-x; }
+.bg-r--y { background-repeat: repeat-y; }
+.bg-r--space { background-repeat: space; }
+.bg-r--round { background-repeat: round; }
+.bg-r--no { background-repeat: no-repeat; }
+
+@media (--breakpoint-not-small) {
+  .bg-r-ns { background-repeat: repeat; }
+  .bg-r--x-ns { background-repeat: repeat-x; }
+  .bg-r--y-ns { background-repeat: repeat-y; }
+  .bg-r--space-ns { background-repeat: space; }
+  .bg-r--round-ns { background-repeat: round; }
+  .bg-r--no-ns { background-repeat: no-repeat; }
+}
+
+@media (--breakpoint-medium) {
+  .bg-r-m { background-repeat: repeat; }
+  .bg-r--x-m { background-repeat: repeat-x; }
+  .bg-r--y-m { background-repeat: repeat-y; }
+  .bg-r--space-m { background-repeat: space; }
+  .bg-r--round-m { background-repeat: round; }
+  .bg-r--no-m { background-repeat: no-repeat; }
+}
+
+@media (--breakpoint-large) {
+  .bg-r-l { background-repeat: repeat; }
+  .bg-r--x-l { background-repeat: repeat-x; }
+  .bg-r--y-l { background-repeat: repeat-y; }
+  .bg-r--space-l { background-repeat: space; }
+  .bg-r--round-l { background-repeat: round; }
+  .bg-r--no-l { background-repeat: no-repeat; }
+}

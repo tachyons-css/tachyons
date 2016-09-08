@@ -31,6 +31,7 @@
 /* Modules */
 @import './_box-sizing';
 @import './_images';
+@import './_background-repeat';
 @import './_background-size';
 @import './_outlines';
 @import './_borders';
