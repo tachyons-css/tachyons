@@ -950,6 +950,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
      -80  = literal value 80%
      -100 = literal value 100%
 
+     -third = 100% / 3 (Not supported in opera mini or IE8)
      -auto  = string value auto
 
 
@@ -976,6 +977,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .w-75 { width: 75%; }
 .w-80 { width: 80%; }
 .w-100 { width: 100%; }
+.w-third { width: calc( 100% / 3 ); }
 .w-auto { width: auto; }
 /*
 
@@ -2032,6 +2034,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-75-ns { width: 75%; }
  .w-80-ns { width: 80%; }
  .w-100-ns { width: 100%; }
+ .w-third-ns { width: calc( 100% / 3 ); }
  .w-auto-ns { width: auto; }
  .overflow-visible-ns { overflow: visible; }
  .overflow-hidden-ns { overflow: hidden; }
@@ -2385,6 +2388,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-75-m { width: 75%; }
  .w-80-m { width: 80%; }
  .w-100-m { width: 100%; }
+ .w-third-m { width: calc( 100% / 3 ); }
  .w-auto-m { width: auto; }
  .overflow-visible-m { overflow: visible; }
  .overflow-hidden-m { overflow: hidden; }
@@ -2732,6 +2736,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-75-l { width: 75%; }
  .w-80-l { width: 80%; }
  .w-100-l { width: 100%; }
+ .w-third-l { width: calc( 100% / 3 ); }
  .w-auto-l { width: auto; }
  .overflow-visible-l { overflow: visible; }
  .overflow-hidden-l { overflow: hidden; }
