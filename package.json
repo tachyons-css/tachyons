@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "4.3.1",
+  "version": "4.4.0",
   "description": "Functional CSS for humans",
   "author": "mrmrs",
   "style": "css/tachyons.min.css",
@@ -23,7 +23,7 @@
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
     "normalize.css": "^4.2.0",
-    "tachyons-cli": "^1.0.3",
+    "tachyons-cli": "^1.0.6",
     "tachyons-modules": "^1.1.8",
     "watch": "^0.19.2"
   },
