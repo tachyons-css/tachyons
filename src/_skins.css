@@ -44,7 +44,7 @@
 .near-white {    color: var(--near-white); }
 .white {         color: var(--white); }
 
-.dark-red { color: var(-dark-red); }
+.dark-red { color: var(--dark-red); }
 .red { color: var(--red); }
 .light-red { color: var(--light-red); }
 .orange { color: var(--orange); }
@@ -107,7 +107,7 @@
 .bg-white {         background-color: var(--white); }
 .bg-transparent {   background-color: var(--transparent); }
 
-.bg-dark-red { background-color: var(-dark-red); }
+.bg-dark-red { background-color: var(--dark-red); }
 .bg-red { background-color: var(--red); }
 .bg-light-red { background-color: var(--light-red); }
 .bg-orange { background-color: var(--orange); }
