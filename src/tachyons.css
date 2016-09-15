@@ -1,4 +1,4 @@
-/* TACHYONS v4.3.1 | http://github.com/tachyons-css/tachyons */
+/* TACHYONS v4.4.0 | http://github.com/tachyons-css/tachyons */
 
 /*
  *
@@ -32,6 +32,7 @@
 @import './_box-sizing';
 @import './_images';
 @import './_background-size';
+@import './_background-position';
 @import './_outlines';
 @import './_borders';
 @import './_border-colors';
@@ -60,6 +61,7 @@
 @import './_position';
 @import './_opacity';
 @import './_skins';
+@import './_skins-pseudo';
 @import './_spacing';
 @import './_tables';
 @import './_text-decoration';

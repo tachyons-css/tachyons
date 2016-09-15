@@ -1,0 +1,102 @@
+/* 
+  
+   SKINS:PSEUDO
+
+   Customize the color of an element when
+   it is focused or hovered over.
+ 
+ */
+
+.focus-black:hover, 
+.hover-black:focus { color: var(--black); }
+.hover-near-black:hover, 
+.hover-near-black:focus { color: var(--near-black); }
+.hover-dark-gray:hover, 
+.hover-dark-gray:focus { color: var(--dark-gray); }
+.hover-mid-gray:hover, 
+.hover-mid-gray:focus { color: var(--mid-gray); }
+.hover-gray:hover, 
+.hover-gray:focus { color: var(--gray); }
+.hover-silver:hover, 
+.hover-silver:focus { color: var(--silver); }
+.hover-light-silver:hover, 
+.hover-light-silver:focus { color: var(--light-silver); }
+.hover-moon-gray:hover, 
+.hover-moon-gray:focus { color: var(--moon-gray); }
+.hover-light-gray:hover, 
+.hover-light-gray:focus { color: var(--light-gray); }
+.hover-near-white:hover, 
+.hover-near-white:focus { color: var(--near-white); }
+.hover-white:hover, 
+.hover-white:focus { color: var(--white); }
+
+.hover-bg-black:hover, 
+.hover-bg-black:focus { background-color: var(--black); }
+.hover-bg-near-black:hover, 
+.hover-bg-near-black:focus { background-color: var(--near-black); }
+.hover-bg-dark-gray:hover, 
+.hover-bg-dark-gray:focus { background-color: var(--dark-gray); }
+.hover-bg-dark-gray:focus, 
+.focus-bg-mid-gray:hover { background-color: var(--mid-gray); }
+.hover-bg-gray:hover, 
+.hover-bg-gray:focus { background-color: var(--gray); }
+.hover-bg-silver:hover, 
+.hover-bg-silver:focus { background-color: var(--silver); }
+.hover-bg-light-silver:hover, 
+.hover-bg-light-silver:focus { background-color: var(--light-silver); }
+.hover-bg-moon-gray:hover, 
+.hover-bg-moon-gray:focus { background-color: var(--moon-gray); }
+.hover-bg-light-gray:hover, 
+.hover-bg-light-gray:focus { background-color: var(--light-gray); }
+.hover-bg-near-white:hover, 
+.hover-bg-near-white:focus { background-color: var(--near-white); }
+.hover-bg-white:hover, 
+.hover-bg-white:focus { background-color: var(--white); }
+.hover-bg-transparent:hover, 
+.hover-bg-transparent:focus { background-color: var(--transparent); }
+
+
+.hover-bg-dark-red:focus, 
+.hover-bg-red:hover { background-color: var(--red); }
+.hover-bg-orange:hover, 
+.hover-bg-orange:focus { background-color: var(--orange); }
+.hover-bg-gold:hover, 
+.hover-bg-gold:focus { background-color: var(--gold); }
+.hover-bg-yellow:hover, 
+.hover-bg-yellow:focus { background-color: var(--yellow); }
+.hover-bg-purple:hover, 
+.hover-bg-purple:focus { background-color: var(--purple); }
+.hover-bg-light-purple:hover, 
+.hover-bg-light-purple:focus { background-color: var(--light-purple); }
+.hover-bg-hot-pink:hover, 
+.hover-bg-hot-pink:focus { background-color:  var(--hot-pink); }
+.hover-bg-dark-pink:hover, 
+.hover-bg-dark-pink:focus { background-color: var(--dark-pink); }
+.hover-bg-pink:hover, 
+.hover-bg-pink:focus { background-color: var(--pink); }
+.hover-bg-dark-green:hover, 
+.hover-bg-dark-green:focus { background-color: var(--dark-green); }
+.hover-bg-green:hover, 
+.hover-bg-green:focus { background-color: var(--green); }
+.hover-bg-navy:hover, 
+.hover-bg-navy:focus { background-color: var(--navy); }
+.hover-bg-dark-blue:hover, 
+.hover-bg-dark-blue:focus { background-color: var(--dark-blue); }
+.hover-bg-blue:hover, 
+.hover-bg-blue:focus { background-color: var(--blue); }
+.hover-bg-light-blue:hover, 
+.hover-bg-light-blue:focus { background-color: var(--light-blue); }
+.hover-bg-lightest-blue:hover, 
+.hover-bg-lightest-blue:focus { background-color: var(--lightest-blue); }
+.hover-bg-washed-blue:hover, 
+.hover-bg-washed-blue:focus { background-color: var(--washed-blue); }
+.hover-bg-washed-green:hover, 
+.hover-bg-washed-green:focus { background-color: var(--washed-green); }
+.hover-bg-washed-yellow:hover, 
+.hover-bg-washed-yellow:focus { background-color: var(--washed-yellow); }
+.hover-bg-light-pink:hover, 
+.hover-bg-light-pink:focus { background-color: var(--light-pink); }
+.hover-bg-light-yellow:hover, 
+.hover-bg-light-yellow:focus { background-color: var(--light-yellow); }
+.hover-bg-light-red:hover, 
+.hover-bg-light-red:focus { background-color: var(--light-red); }
