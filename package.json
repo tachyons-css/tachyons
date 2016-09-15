@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "4.4.1",
+  "version": "4.4.2",
   "description": "Functional CSS for humans",
   "author": "mrmrs",
   "style": "css/tachyons.min.css",
@@ -13,6 +13,7 @@
   "keywords": [
     "css",
     "oocss",
+    "postcss",
     "functional css",
     "design",
     "responsive",
