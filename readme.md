@@ -94,10 +94,15 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 (if you have a project that uses Tachyons feel free to make a PR to add it to this list)
 
 * https://goldenstaterecord.com
+* https://segment.com
+* https://voteplz.com
 * http://bluebottlecoffee.com
+* http://iheanyi.com/
+* http://johnotander.com
+* https://vimgifs.com
 * http://aboutlife.com
 * http://joinoneroom.com
-* https://vimgifs.com
+* http://cyclelove.cc
 * http://jon.gold/txt
 * http://rene.jon.gold
 * https://tinychime.github.io/jekyons/
@@ -105,7 +110,6 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 * http://prnt.cc
 * http://spenhar.com
 * http://randoma11y.com
-* http://cyclelove.cc
 * http://www.csspurge.com
 * http://clrs.cc
 * http://mrmrs.io/gradients
@@ -126,7 +130,6 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 * https://accessmyinfo.hk/#/
 * https://accessmyinfo.org/#/
 * http://rene.jon.gold
-* http://johnotander.com
 * http://randoma11y.com
 * http://designbytyping.com
 * http://colepeters.com
