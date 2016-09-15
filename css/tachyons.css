@@ -1,4 +1,3 @@
-@import './_background-position';
 /* TACHYONS v4.4.0 | http://github.com/tachyons-css/tachyons */
 /*
  *
@@ -257,6 +256,31 @@ img { max-width: 100%; }
 */
 .cover { background-size: cover !important; }
 .contain { background-size: contain !important; }
+/*
+
+    BACKGROUND POSITION
+
+    Base:
+    bg = background
+
+    Modifiers:
+    -center = center center
+    -top = top center
+    -right = center right
+    -bottom = bottom center
+    -left = center left
+
+    Media Query Extensions:
+      -ns = not-small
+      -m  = medium
+      -l  = large
+
+ */
+.bg-center { background-repeat: no-repeat; background-position: center center; }
+.bg-top { background-repeat: no-repeat; background-position: top center; }
+.bg-right { background-repeat: no-repeat; background-position: center right; }
+.bg-bottom { background-repeat: no-repeat; background-position: bottom center; }
+.bg-left { background-repeat: no-repeat; background-position: center left; }
 /*
 
    OUTLINES
@@ -1823,6 +1847,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 @media screen and (min-width: 30em) {
  .cover-ns { background-size: cover !important; }
  .contain-ns { background-size: contain !important; }
+ .bg-center-ns { background-repeat: no-repeat; background-position: center center; }
+ .bg-top-ns { background-repeat: no-repeat; background-position: top center; }
+ .bg-right-ns { background-repeat: no-repeat; background-position: center right; }
+ .bg-bottom-ns { background-repeat: no-repeat; background-position: bottom center; }
+ .bg-left-ns { background-repeat: no-repeat; background-position: center left; }
  .outline-ns { outline: 1px solid; }
  .outline-transparent-ns { outline: 1px solid transparent; }
  .outline-0-ns { outline: 0; }
@@ -2168,6 +2197,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .cover-m { background-size: cover !important; }
  .contain-m { background-size: contain !important; }
+ .bg-center-m { background-repeat: no-repeat; background-position: center center; }
+ .bg-top-m { background-repeat: no-repeat; background-position: top center; }
+ .bg-right-m { background-repeat: no-repeat; background-position: center right; }
+ .bg-bottom-m { background-repeat: no-repeat; background-position: bottom center; }
+ .bg-left-m { background-repeat: no-repeat; background-position: center left; }
  .outline-m { outline: 1px solid; }
  .outline-transparent-m { outline: 1px solid transparent; }
  .outline-0-m { outline: 0; }
@@ -2516,6 +2550,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 @media screen and (min-width: 60em) {
  .cover-l { background-size: cover !important; }
  .contain-l { background-size: contain !important; }
+ .bg-center-l { background-repeat: no-repeat; background-position: center center; }
+ .bg-top-l { background-repeat: no-repeat; background-position: top center; }
+ .bg-right-l { background-repeat: no-repeat; background-position: center right; }
+ .bg-bottom-l { background-repeat: no-repeat; background-position: bottom center; }
+ .bg-left-l { background-repeat: no-repeat; background-position: center left; }
  .ba-l { border-style: solid; border-width: 1px; }
  .bt-l { border-top-style: solid; border-top-width: 1px; }
  .br-l { border-right-style: solid; border-right-width: 1px; }
