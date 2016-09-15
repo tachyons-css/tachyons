@@ -1,4 +1,4 @@
-/* TACHYONS v4.4.0 | https://github.com/tachyons-css/tachyons */
+/* TACHYONS v4.4.1 | https://github.com/tachyons-css/tachyons */
 /*
  *
  *      ________            ______
@@ -101,7 +101,7 @@ h1 { font-size: 2em; margin: 0.67em 0; }
 /**
  * Add the correct background and color in IE 9-.
  */
-mark { background-color: #ff0; color: #000; }
+mark { background-color: #ffd700; color: #000; }
 /**
  * Add the correct font size in all browsers.
  */
@@ -1076,7 +1076,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-gray { color: #eee; }
 .near-white { color: #f4f4f4; }
 .white { color: #fff; }
-.dark-red { color: var( -dark-red ); }
+.dark-red { color: #e7040f; }
 .red { color: #ff4136; }
 .light-red { color: #ff725c; }
 .orange { color: #ff6300; }
@@ -1133,7 +1133,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-near-white { background-color: #f4f4f4; }
 .bg-white { background-color: #fff; }
 .bg-transparent { background-color: transparent; }
-.bg-dark-red { background-color: var( -dark-red ); }
+.bg-dark-red { background-color: #e7040f; }
 .bg-red { background-color: #ff4136; }
 .bg-light-red { background-color: #ff725c; }
 .bg-orange { background-color: #ff6300; }
