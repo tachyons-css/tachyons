@@ -19,7 +19,7 @@ Quickly build and design new UI without writing css.
 * Mobile-first css
 * Single-purpose class structure
 * Optimized for maximum gzip compression
-* 7.2kB when minified and gzipped
+* ~13kB when minified and gzipped
 * Usable across projects
 * Infinitely nestable responsive grid system
 * Built with Postcss
@@ -34,9 +34,9 @@ The modules are generally pretty small and thus easy to read and grock if you're
 The quickest and easiest way to start using tachyons is to include a reference
 to the minified file in the head of your html file.
 
-Currently the latest version is 4.4.2
+Currently the latest version is 4.4.3
 ```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4.4.2/css/tachyons.min.css">
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.4.3/css/tachyons.min.css">
 ```
 
 You can always grab the latest version with
@@ -98,6 +98,7 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 ## Websites that Use Tachyons
 (if you have a project that uses Tachyons feel free to make a PR to add it to this list)
 
+* https://coralproject.net
 * https://goldenstaterecord.com
 * https://segment.com
 * https://voteplz.com
