@@ -1,4 +1,4 @@
-/* TACHYONS v4.4.2 | https://github.com/tachyons-css/tachyons */
+/*! TACHYONS v4.4.3 | http://tachyons.io */
 /*
  *
  *      ________            ______
@@ -22,7 +22,7 @@
  *
  */
 /* External Library Includes */
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/* normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Correct the line height in all browsers.
@@ -1536,7 +1536,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    TYPE SCALE
-   Docs: http://tachyons.io/docs/typography/type-scale/
+   Docs: http://tachyons.io/docs/typography/scale/
 
    Base:
     f = font-size
