@@ -1,4 +1,4 @@
-/*! TACHYONS v4.5.0 | http://tachyons.io */
+/*! TACHYONS v4.5.1 | http://tachyons.io */
 /*
  *
  *      ________            ______
@@ -2047,7 +2047,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-90-ns { width: 90%; }
  .w-100-ns { width: 100%; }
  .w-third-ns { width: calc( 100% / 3 ); }
- .w-two-third-ns { width: calc( 100% / 1.5 ); }
+ .w-two-thirds-ns { width: calc( 100% / 1.5 ); }
  .w-auto-ns { width: auto; }
  .overflow-visible-ns { overflow: visible; }
  .overflow-hidden-ns { overflow: hidden; }
