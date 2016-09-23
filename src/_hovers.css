@@ -123,6 +123,7 @@
 /* Combine with classes in skins and skins-pseudo for 
  * thousands of different transition possibilities. */
 
+.bg-animate,
 .bg-animate:hover,
 .bg-animate:focus {
   transition: background-color .15s ease-in-out; 
