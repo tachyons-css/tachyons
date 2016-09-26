@@ -103,6 +103,7 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 * https://segment.com
 * https://voteplz.com
 * http://bluebottlecoffee.com
+* http://topher.design
 * http://iheanyi.com/
 * http://johnotander.com
 * https://vimgifs.com
@@ -142,6 +143,10 @@ Also please read our [code of conduct](https://github.com/tachyons-css/tachyons/
 * http://colepeters.com
 * https://atmin.github.io/funponent/
 * http://blog.colepeters.com
+* http://filipaonunes.com
+* https://vakra.band
+* http://tylernford.com
+* https://adventuretron.org
 
 And of course...
 * http://tachyons.io
