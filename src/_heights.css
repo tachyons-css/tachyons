@@ -118,7 +118,7 @@
   .vh-50-l {  height:  50vh; }
   .vh-75-l {  height:  75vh; }
   .vh-100-l { height: 100vh; }
-  .min-vh-100-m { min-height: 100vh; }
+  .min-vh-100-l { min-height: 100vh; }
   .h-auto-l { height: auto; }
   .h-inherit-l { height: inherit; }
 }
