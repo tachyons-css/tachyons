@@ -137,6 +137,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://tylernford.com
 * https://adventuretron.org
 * https://uptimeumbrella.com
+* http://www.talbs.me
 
 And of course...
 * http://tachyons.io
