@@ -139,7 +139,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * https://uptimeumbrella.com
 * http://www.talbs.me
 * https://urlbox.io
-* http://spacefarm.digital
+* http://www.spacefarm.digital
 
 And of course...
 * http://tachyons.io
