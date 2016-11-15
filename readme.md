@@ -13,7 +13,8 @@ Quickly build and design new UI without writing css.
 * It should be easy to change any interface or part of an interface without breaking any existing interfaces
 * Doing one thing extremely well promotes reusability and reduces repetition
 * Documentation helps promote reusability and shared knowledge
-* Css is global. Html is not. Send the smallest amount of code to the user as possible.
+* Css shouldn't impede accessibility or the default functionality of Html
+* You should send the smallest possible amount of code to the user
 
 ## Features
 
@@ -23,7 +24,7 @@ Quickly build and design new UI without writing css.
 * Multiple debugging utilities to reduce layout struggles
 * Single-purpose class structure
 * Optimized for maximum gzip compression
-* Lightweight (~13kB)
+* Lightweight (~14kB)
 * Usable across projects
 * Growing open source component library
 * Works well with plain html, react, ember, angular, rails, and more
@@ -68,15 +69,26 @@ running
 
 ```npm start```
 
-This will output both minified and unminified versions of the css to the css directory.
-
-If you want to recompile everything from src everytime you save a change - you can run the following command, which will compile and minify the css
+This will output both minified and unminified versions of the css to the css directory and watch the src directory for changes.
+It's aliased to the command:
 
 ```npm run build:watch```
+
+If you'd like to just build the css once without watching the src directory run
+
+```npm run build```
 
 If you want to check that a class hasn't been redefined or 'mutated' there is a linter to check that all of the classes have only been defined once. This can be useful if you are using another library or have written some of your own css and want to make sure there are no naming collisions. To do this run the command
 
 ```npm run mutations```
+
+## Docs
+The tachyons docs located at http://tachyons.io are all open source and located at https://github.com/tachyons-css/tachyons-css.github.io
+
+You can clone the docs and use them as a template for documenting your own design system / patterns / components.
+While not everything is automated, the component library generation makes it extremely easy to 
+generate and organize the documentation for components as demonstrated at http://tachyons.io/components
+
 
 ## Contributing
 
@@ -87,7 +99,9 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 
 * https://coralproject.net
 * https://goldenstaterecord.com
+* http://www.sogol.co
 * https://segment.com
+* https://urlbox.io
 * https://community.algolia.com/wordpress/
 * http://samueldregan.com
 * https://voteplz.com
@@ -138,8 +152,8 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * https://adventuretron.org
 * https://uptimeumbrella.com
 * http://www.talbs.me
-* https://urlbox.io
 * http://seanoshea.me
+* http://hicuties.com
 
 And of course...
 * http://tachyons.io
