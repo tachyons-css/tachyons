@@ -61,6 +61,7 @@
 @import './_overflow';
 @import './_position';
 @import './_opacity';
+@import './_rotations';
 @import './_skins';
 @import './_skins-pseudo';
 @import './_spacing';
@@ -77,7 +78,7 @@
 @import './_vertical-align';
 @import './_hovers';
 @import './_z-index';
-@import './_children';
+@import './_nested';
 @import './_styles';
 
 /* Variables */
