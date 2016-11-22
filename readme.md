@@ -140,6 +140,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://www.talbs.me
 * https://urlbox.io
 * http://seanoshea.me
+* https://www.hiaida.com
 
 And of course...
 * http://tachyons.io
