@@ -88,6 +88,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * https://coralproject.net
 * https://goldenstaterecord.com
 * https://segment.com
+* http://hicuties.com
 * https://community.algolia.com/wordpress/
 * http://studiocraft.cc
 * http://samueldregan.com
@@ -133,6 +134,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://www.talbs.me
 * https://urlbox.io
 * http://seanoshea.me
+* https://www.hiaida.com
 * http://maxogden.github.io/screencat/
 * https://windtoday.co
 * http://claudio.netlify.com
