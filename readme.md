@@ -85,6 +85,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 ## Websites that Use Tachyons
 (if you have a project that uses Tachyons feel free to make a PR to add it to this list)
 
+* https://nicenice.co
 * https://coralproject.net
 * https://goldenstaterecord.com
 * https://segment.com
@@ -136,6 +137,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://seanoshea.me
 * https://www.hiaida.com
 * http://maxogden.github.io/screencat/
+* http://numenta.com
 * https://windtoday.co
 * http://claudio.netlify.com
 * http://devday-ar.com
