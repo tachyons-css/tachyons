@@ -22,9 +22,10 @@
 
 .flex-none { flex: none; }
 
-.flex-column  { flex-direction: column; }
-.flex-row     { flex-direction: row; }
-.flex-wrap    { flex-wrap: wrap; }
+.flex-column       { flex-direction: column; }
+.flex-row          { flex-direction: row; }
+.flex-wrap         { flex-wrap: wrap; }
+.flex-wrap-reverse { flex-wrap: wrap-reverse; }
 
 .items-start    { align-items: flex-start; }
 .items-end      { align-items: flex-end; }
