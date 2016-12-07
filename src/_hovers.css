@@ -4,6 +4,7 @@
   Docs: http://tachyons.io/docs/themes/hovers/
 
     - Dim
+    - Glow
     - Hide Child
     - Underline text
     - Grow
@@ -28,6 +29,20 @@
 }
 .dim:active {
   opacity: .8; transition: opacity .15s ease-out;
+}
+
+/*
+
+  Animate opacity to 100% on hover by adding the glow class.
+
+*/
+.glow {
+  transition: opacity .15s ease-in;
+}
+.glow:hover,
+.glow:focus {
+  opacity: 1;
+  transition: opacity .15s ease-in;
 }
 
 /*
@@ -121,7 +136,7 @@
 }
 
 /* Combine with classes in skins and skins-pseudo for 
- * thousands of different transition possibilities. */
+ * many different transition possibilities. */
 
 .bg-animate,
 .bg-animate:hover,
