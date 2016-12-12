@@ -1657,6 +1657,22 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pre { white-space: pre; }
 /*
 
+  WORD BREAK
+
+   Base:
+     word = word-break
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+.word-normal { word-break: normal; }
+.word-wrap { word-break: break-all; }
+.word-nowrap { word-break: keep-all; }
+/*
+
    VERTICAL ALIGN
 
    Media Query Extensions:
@@ -2205,6 +2221,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ws-normal-ns { white-space: normal; }
  .nowrap-ns { white-space: nowrap; }
  .pre-ns { white-space: pre; }
+ .word-normal-ns { word-break: normal; }
+ .word-wrap-ns { word-break: break-all; }
+ .word-nowrap-ns { word-break: keep-all; }
  .v-base-ns { vertical-align: baseline; }
  .v-mid-ns { vertical-align: middle; }
  .v-top-ns { vertical-align: top; }
@@ -2563,6 +2582,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ws-normal-m { white-space: normal; }
  .nowrap-m { white-space: nowrap; }
  .pre-m { white-space: pre; }
+ .word-normal-m { word-break: normal; }
+ .word-wrap-m { word-break: break-all; }
+ .word-nowrap-m { word-break: keep-all; }
  .v-base-m { vertical-align: baseline; }
  .v-mid-m { vertical-align: middle; }
  .v-top-m { vertical-align: top; }
@@ -2915,6 +2937,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ws-normal-l { white-space: normal; }
  .nowrap-l { white-space: nowrap; }
  .pre-l { white-space: pre; }
+ .word-normal-l { word-break: normal; }
+ .word-wrap-l { word-break: break-all; }
+ .word-nowrap-l { word-break: keep-all; }
  .v-base-l { vertical-align: baseline; }
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
