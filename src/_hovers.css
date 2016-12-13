@@ -4,6 +4,7 @@
   Docs: http://tachyons.io/docs/themes/hovers/
 
     - Dim
+    - Glow
     - Hide Child
     - Underline text
     - Grow
@@ -28,6 +29,20 @@
 }
 .dim:active {
   opacity: .8; transition: opacity .15s ease-out;
+}
+
+/*
+
+  Animate opacity to 100% on hover by adding the glow class.
+
+*/
+.glow {
+  transition: opacity .15s ease-in;
+}
+.glow:hover,
+.glow:focus {
+  opacity: 1;
+  transition: opacity .15s ease-in;
 }
 
 /*
@@ -109,10 +124,23 @@
    http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
 */
 
+.shadow-hover {
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 .shadow-hover::after {
-  box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, .2 );
+  content: '';
+  box-shadow: 0px 0px 16px 2px rgba( 0, 0, 0, .2 );
   opacity: 0;
-  transition: opacity .25s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .shadow-hover:hover::after,
@@ -121,7 +149,7 @@
 }
 
 /* Combine with classes in skins and skins-pseudo for 
- * thousands of different transition possibilities. */
+ * many different transition possibilities. */
 
 .bg-animate,
 .bg-animate:hover,

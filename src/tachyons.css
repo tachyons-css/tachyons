@@ -1,4 +1,4 @@
-/*! TACHYONS v4.5.5 | http://tachyons.io */
+/*! TACHYONS v4.6.0 | http://tachyons.io */
 
 /*
  *
@@ -30,6 +30,7 @@
 
 /* Modules */
 @import './_box-sizing';
+@import './_aspect-ratios';
 @import './_images';
 @import './_background-size';
 @import './_background-position';
@@ -60,9 +61,11 @@
 @import './_overflow';
 @import './_position';
 @import './_opacity';
+@import './_rotations';
 @import './_skins';
 @import './_skins-pseudo';
 @import './_spacing';
+@import './_negative-margins';
 @import './_tables';
 @import './_text-decoration';
 @import './_text-align';
@@ -75,6 +78,7 @@
 @import './_vertical-align';
 @import './_hovers';
 @import './_z-index';
+@import './_nested';
 @import './_styles';
 
 /* Variables */

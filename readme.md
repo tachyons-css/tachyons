@@ -13,7 +13,8 @@ Quickly build and design new UI without writing css.
 * It should be easy to change any interface or part of an interface without breaking any existing interfaces
 * Doing one thing extremely well promotes reusability and reduces repetition
 * Documentation helps promote reusability and shared knowledge
-* Css is global. Html is not. Send the smallest amount of code to the user as possible.
+* Css shouldn't impede accessibility or the default functionality of Html
+* You should send the smallest possible amount of code to the user
 
 ## Features
 
@@ -23,7 +24,7 @@ Quickly build and design new UI without writing css.
 * Multiple debugging utilities to reduce layout struggles
 * Single-purpose class structure
 * Optimized for maximum gzip compression
-* Lightweight (~13kB)
+* Lightweight (~14kB)
 * Usable across projects
 * Growing open source component library
 * Works well with plain html, react, ember, angular, rails, and more
@@ -40,14 +41,13 @@ The modules are generally pretty small and thus quick and easy to read.
 The quickest and easiest way to start using tachyons is to include a reference
 to the minified file in the head of your html file.
 
-Currently the latest version is 4.5.4
-```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.4/css/tachyons.min.css">
-```
-
 You can always grab the latest version with
 ```html
 <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+```
+You can also specify a specific version. The latest version is 4.6.0
+```html
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.0/css/tachyons.min.css">
 ```
 
 ### Local Setup
@@ -68,15 +68,26 @@ running
 
 ```npm start```
 
-This will output both minified and unminified versions of the css to the css directory.
-
-If you want to recompile everything from src everytime you save a change - you can run the following command, which will compile and minify the css
+This will output both minified and unminified versions of the css to the css directory and watch the src directory for changes.
+It's aliased to the command:
 
 ```npm run build:watch```
+
+If you'd like to just build the css once without watching the src directory run
+
+```npm run build```
 
 If you want to check that a class hasn't been redefined or 'mutated' there is a linter to check that all of the classes have only been defined once. This can be useful if you are using another library or have written some of your own css and want to make sure there are no naming collisions. To do this run the command
 
 ```npm run mutations```
+
+## Docs
+The tachyons docs located at http://tachyons.io are all open source and located at https://github.com/tachyons-css/tachyons-css.github.io
+
+You can clone the docs and use them as a template for documenting your own design system / patterns / components.
+While not everything is automated, the component library generation makes it extremely easy to 
+generate and organize the documentation for components as demonstrated at http://tachyons.io/components
+
 
 ## Contributing
 
@@ -88,8 +99,10 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * https://nicenice.co
 * https://coralproject.net
 * https://goldenstaterecord.com
+* http://www.sogol.co
 * https://segment.com
 * http://hicuties.com
+* https://urlbox.io
 * https://community.algolia.com/wordpress/
 * http://studiocraft.cc
 * http://samueldregan.com
@@ -133,7 +146,6 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * https://adventuretron.org
 * https://uptimeumbrella.com
 * http://www.talbs.me
-* https://urlbox.io
 * http://seanoshea.me
 * https://www.hiaida.com
 * http://maxogden.github.io/screencat/
@@ -149,7 +161,6 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://mrmrs.io/writing
 * http://mrmrs.cc
 * http://mn-ml.cc
-* http://devday-ar.com/
 
 And of course...
 * http://tachyons.io
