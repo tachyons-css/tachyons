@@ -31,41 +31,41 @@
 .hover-white:focus { color: var(--white); }
 
 .hover-black-90:hover,
-.hover-black-90:focus {         color: var(--black-90); }
+.hover-black-90:focus { color: var(--black-90); }
 .hover-black-80:hover,
-.hover-black-80:focus {         color: var(--black-80); }
+.hover-black-80:focus { color: var(--black-80); }
 .hover-black-70:hover,
-.hover-black-70:focus {         color: var(--black-70); }
+.hover-black-70:focus { color: var(--black-70); }
 .hover-black-60:hover,
-.hover-black-60:focus {         color: var(--black-60); }
+.hover-black-60:focus { color: var(--black-60); }
 .hover-black-50:hover,
-.hover-black-50:focus {         color: var(--black-50); }
+.hover-black-50:focus { color: var(--black-50); }
 .hover-black-40:hover,
-.hover-black-40:focus {         color: var(--black-40); }
+.hover-black-40:focus { color: var(--black-40); }
 .hover-black-30:hover,
-.hover-black-30:focus {         color: var(--black-30); }
+.hover-black-30:focus { color: var(--black-30); }
 .hover-black-20:hover,
-.hover-black-20:focus {         color: var(--black-20); }
+.hover-black-20:focus { color: var(--black-20); }
 .hover-black-10:hover,
-.hover-black-10:focus {         color: var(--black-10); }
+.hover-black-10:focus { color: var(--black-10); }
 .hover-white-90:hover,
-.hover-white-90:focus {         color: var(--white-90); }
+.hover-white-90:focus { color: var(--white-90); }
 .hover-white-80:hover,
-.hover-white-80:focus {         color: var(--white-80); }
+.hover-white-80:focus { color: var(--white-80); }
 .hover-white-70:hover,
-.hover-white-70:focus {         color: var(--white-70); }
+.hover-white-70:focus { color: var(--white-70); }
 .hover-white-60:hover,
-.hover-white-60:focus {         color: var(--white-60); }
+.hover-white-60:focus { color: var(--white-60); }
 .hover-white-50:hover,
-.hover-white-50:focus {         color: var(--white-50); }
+.hover-white-50:focus { color: var(--white-50); }
 .hover-white-40:hover,
-.hover-white-40:focus {         color: var(--white-40); }
+.hover-white-40:focus { color: var(--white-40); }
 .hover-white-30:hover,
-.hover-white-30:focus {         color: var(--white-30); }
+.hover-white-30:focus { color: var(--white-30); }
 .hover-white-20:hover,
-.hover-white-20:focus {         color: var(--white-20); }
+.hover-white-20:focus { color: var(--white-20); }
 .hover-white-10:hover,
-.hover-white-10:focus {         color: var(--white-10); }
+.hover-white-10:focus { color: var(--white-10); }
 
 .hover-bg-black:hover, 
 .hover-bg-black:focus { background-color: var(--black); }
@@ -93,41 +93,41 @@
 .hover-bg-transparent:focus { background-color: var(--transparent); }
 
 .hover-bg-black-90:hover,
-.hover-bg-black-90:focus {         color: var(--black-90); }
+.hover-bg-black-90:focus { background-color: var(--black-90); }
 .hover-bg-black-80:hover,
-.hover-bg-black-80:focus {         color: var(--black-80); }
+.hover-bg-black-80:focus { background-color: var(--black-80); }
 .hover-bg-black-70:hover,
-.hover-bg-black-70:focus {         color: var(--black-70); }
+.hover-bg-black-70:focus { background-color: var(--black-70); }
 .hover-bg-black-60:hover,
-.hover-bg-black-60:focus {         color: var(--black-60); }
+.hover-bg-black-60:focus { background-color: var(--black-60); }
 .hover-bg-black-50:hover,
-.hover-bg-black-50:focus {         color: var(--black-50); }
+.hover-bg-black-50:focus { background-color: var(--black-50); }
 .hover-bg-black-40:hover,
-.hover-bg-black-40:focus {         color: var(--black-40); }
+.hover-bg-black-40:focus { background-color: var(--black-40); }
 .hover-bg-black-30:hover,
-.hover-bg-black-30:focus {         color: var(--black-30); }
+.hover-bg-black-30:focus { background-color: var(--black-30); }
 .hover-bg-black-20:hover,
-.hover-bg-black-20:focus {         color: var(--black-20); }
+.hover-bg-black-20:focus { background-color: var(--black-20); }
 .hover-bg-black-10:hover,
-.hover-bg-black-10:focus {         color: var(--black-10); }
+.hover-bg-black-10:focus { background-color: var(--black-10); }
 .hover-bg-white-90:hover,
-.hover-bg-white-90:focus {         color: var(--white-90); }
+.hover-bg-white-90:focus { background-color: var(--white-90); }
 .hover-bg-white-80:hover,
-.hover-bg-white-80:focus {         color: var(--white-80); }
+.hover-bg-white-80:focus { background-color: var(--white-80); }
 .hover-bg-white-70:hover,
-.hover-bg-white-70:focus {         color: var(--white-70); }
+.hover-bg-white-70:focus { background-color: var(--white-70); }
 .hover-bg-white-60:hover,
-.hover-bg-white-60:focus {         color: var(--white-60); }
+.hover-bg-white-60:focus { background-color: var(--white-60); }
 .hover-bg-white-50:hover,
-.hover-bg-white-50:focus {         color: var(--white-50); }
+.hover-bg-white-50:focus { background-color: var(--white-50); }
 .hover-bg-white-40:hover,
-.hover-bg-white-40:focus {         color: var(--white-40); }
+.hover-bg-white-40:focus { background-color: var(--white-40); }
 .hover-bg-white-30:hover,
-.hover-bg-white-30:focus {         color: var(--white-30); }
+.hover-bg-white-30:focus { background-color: var(--white-30); }
 .hover-bg-white-20:hover,
-.hover-bg-white-20:focus {         color: var(--white-20); }
+.hover-bg-white-20:focus { background-color: var(--white-20); }
 .hover-bg-white-10:hover,
-.hover-bg-white-10:focus {         color: var(--white-10); }
+.hover-bg-white-10:focus { background-color: var(--white-10); }
 
 .hover-dark-red:hover,
 .hover-dark-red:focus { color: var(--dark-red); }
