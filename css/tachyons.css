@@ -1,4 +1,4 @@
-/*! TACHYONS v4.5.5 | http://tachyons.io */
+/*! TACHYONS v4.6.1 | http://tachyons.io */
 /*
  *
  *      ________            ______
@@ -22,47 +22,53 @@
  *
  */
 /* External Library Includes */
-/* normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
  */
+/* Document
+   ========================================================================== */
 html { font-family: sans-serif; /* 1 */ line-height: 1.15; /* 2 */ -ms-text-size-adjust: 100%; /* 3 */ -webkit-text-size-adjust: 100%; /* 3 */ }
+/* Sections
+   ========================================================================== */
 /**
  * Remove the margin in all browsers (opinionated).
  */
 body { margin: 0; }
-/* HTML5 display definitions
+/**
+ * Add the correct display in IE 9-.
+ */
+article, aside, footer, header, nav, section { display: block; }
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 { font-size: 2em; margin: .67em 0; }
+/* Grouping content
    ========================================================================== */
 /**
  * Add the correct display in IE 9-.
- * 1. Add the correct display in Edge, IE, and Firefox.
- * 2. Add the correct display in IE.
- */
-article, aside, details, /* 1 */
-figcaption, figure, footer, header, main,
-/* 2 */
-menu, nav, section, summary {/* 1 */ display: block; }
-/**
- * Add the correct display in IE 9-.
- */
-audio, canvas, progress, video { display: inline-block; }
-/**
- * Add the correct display in iOS 4-7.
- */
-audio:not([controls]) { display: none; height: 0; }
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress { vertical-align: baseline; }
-/**
- * Add the correct display in IE 10-.
  * 1. Add the correct display in IE.
  */
-template, /* 1 */
-[hidden] { display: none; }
-/* Links
+figcaption, figure, main {/* 1 */ display: block; }
+/**
+ * Add the correct margin in IE 8.
+ */
+figure { margin: 1em 40px; }
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
+/* Text-level semantics
    ========================================================================== */
 /**
  * 1. Remove the gray background on active links in IE 10.
@@ -74,8 +80,6 @@ a { background-color: transparent; /* 1 */ -webkit-text-decoration-skip: objects
  * in all browsers (opinionated).
  */
 a:active, a:hover { outline-width: 0; }
-/* Text-level semantics
-   ========================================================================== */
 /**
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -90,18 +94,18 @@ b, strong { font-weight: inherit; }
  */
 b, strong { font-weight: bolder; }
 /**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
+/**
  * Add the correct font style in Android 4.3-.
  */
 dfn { font-style: italic; }
 /**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 { font-size: 2em; margin: .67em 0; }
-/**
  * Add the correct background and color in IE 9-.
  */
-mark { background-color: #ffd700; color: #000; }
+mark { background-color: #ff0; color: #000; }
 /**
  * Add the correct font size in all browsers.
  */
@@ -116,6 +120,14 @@ sup { top: -0.5em; }
 /* Embedded content
    ========================================================================== */
 /**
+ * Add the correct display in IE 9-.
+ */
+audio, video { display: inline-block; }
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) { display: none; height: 0; }
+/**
  * Remove the border on images inside links in IE 10-.
  */
 img { border-style: none; }
@@ -123,33 +135,13 @@ img { border-style: none; }
  * Hide the overflow in IE.
  */
 svg:not(:root) { overflow: hidden; }
-/* Grouping content
-   ========================================================================== */
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code, kbd, pre, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
-/**
- * Add the correct margin in IE 8.
- */
-figure { margin: 1em 40px; }
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
 /* Forms
    ========================================================================== */
 /**
- * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-button, input, optgroup, select, textarea { font: inherit; /* 1 */ margin: 0; /* 2 */ }
-/**
- * Restore the font weight unset by the previous rule.
- */
-optgroup { font-weight: bold; }
+button, input, optgroup, select, textarea { font-family: sans-serif; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -189,6 +181,11 @@ fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: .35em .625em .75em
  */
 legend { box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
 /**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
+/**
  * Remove the default vertical scrollbar in IE.
  */
 textarea { overflow: auto; }
@@ -208,29 +205,83 @@ textarea { overflow: auto; }
  */
 [type="search"] { -webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ }
 /**
- * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
-/**
- * Correct the text style of placeholders in Chrome, Edge, and Safari.
- */
-::-webkit-input-placeholder { color: inherit; opacity: .54; }
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details, /* 1 */
+menu { display: block; }
+/*
+ * Add the correct display in all browsers.
+ */
+summary { display: list-item; }
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas { display: inline-block; }
+/**
+ * Add the correct display in IE.
+ */
+template { display: none; }
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] { display: none; }
 /* Modules */
 /*
  
   BOX SIZING
 
 */
-html, body, div, article, section, main, footer, header, form, fieldset, pre,
-code, p, ul, ol, li, dl, dt, dd, textarea, input[type="email"],
-input[type="number"], input[type="password"], input[type="tel"],
-input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
+html, body, div, article, section, main, footer, header, form, fieldset, legend,
+pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, textarea, table,
+td, th, tr, input[type="email"], input[type="number"], input[type="password"],
+input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
+/*
+
+   ASPECT RATIOS
+
+*/
+/* This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
+ * Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
+ * Make sure there are no height and width attributes on the embedded media.
+ * Adapted from: https://github.com/suitcss/components-flex-embed
+ *
+ * Example:
+ *
+ * <div class="aspect-ratio aspect-ratio--16x9">
+ *  <iframe class="aspect-ratio--object"></iframe>
+ * </div>
+ *
+ * */
+.aspect-ratio { height: 0; position: relative; }
+.aspect-ratio--16x9 { padding-bottom: 56.25%; }
+.aspect-ratio--9x16 { padding-bottom: 177.77%; }
+.aspect-ratio--4x3 { padding-bottom: 75%; }
+.aspect-ratio--3x4 { padding-bottom: 133.33%; }
+.aspect-ratio--6x4 { padding-bottom: 66.6%; }
+.aspect-ratio--4x6 { padding-bottom: 150%; }
+.aspect-ratio--8x5 { padding-bottom: 62.5%; }
+.aspect-ratio--5x8 { padding-bottom: 160%; }
+.aspect-ratio--7x5 { padding-bottom: 71.42%; }
+.aspect-ratio--5x7 { padding-bottom: 140%; }
+.aspect-ratio--1x1 { padding-bottom: 100%; }
+.aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 /*
 
    IMAGES
@@ -705,7 +756,7 @@ img { max-width: 100%; }
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
-.sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+.sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }
 .system-sans-serif { font-family: sans-serif; }
 .system-serif { font-family: serif; }
@@ -1041,6 +1092,18 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .o-0 { opacity: 0; }
 /*
 
+   ROTATIONS
+
+*/
+.rotate-45 { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+.rotate-90 { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+.rotate-135 { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+.rotate-180 { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+.rotate-225 { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+.rotate-270 { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+.rotate-315 { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
+/*
+
    SKINS
    Docs: http://tachyons.io/docs/themes/skins/
 
@@ -1192,6 +1255,42 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-near-white:focus { color: #f4f4f4; }
 .hover-white:hover { color: #fff; }
 .hover-white:focus { color: #fff; }
+.hover-black-90:hover { color: rgba( 0, 0, 0, .9 ); }
+.hover-black-90:focus { color: rgba( 0, 0, 0, .9 ); }
+.hover-black-80:hover { color: rgba( 0, 0, 0, .8 ); }
+.hover-black-80:focus { color: rgba( 0, 0, 0, .8 ); }
+.hover-black-70:hover { color: rgba( 0, 0, 0, .7 ); }
+.hover-black-70:focus { color: rgba( 0, 0, 0, .7 ); }
+.hover-black-60:hover { color: rgba( 0, 0, 0, .6 ); }
+.hover-black-60:focus { color: rgba( 0, 0, 0, .6 ); }
+.hover-black-50:hover { color: rgba( 0, 0, 0, .5 ); }
+.hover-black-50:focus { color: rgba( 0, 0, 0, .5 ); }
+.hover-black-40:hover { color: rgba( 0, 0, 0, .4 ); }
+.hover-black-40:focus { color: rgba( 0, 0, 0, .4 ); }
+.hover-black-30:hover { color: rgba( 0, 0, 0, .3 ); }
+.hover-black-30:focus { color: rgba( 0, 0, 0, .3 ); }
+.hover-black-20:hover { color: rgba( 0, 0, 0, .2 ); }
+.hover-black-20:focus { color: rgba( 0, 0, 0, .2 ); }
+.hover-black-10:hover { color: rgba( 0, 0, 0, .1 ); }
+.hover-black-10:focus { color: rgba( 0, 0, 0, .1 ); }
+.hover-white-90:hover { color: rgba( 255, 255, 255, .9 ); }
+.hover-white-90:focus { color: rgba( 255, 255, 255, .9 ); }
+.hover-white-80:hover { color: rgba( 255, 255, 255, .8 ); }
+.hover-white-80:focus { color: rgba( 255, 255, 255, .8 ); }
+.hover-white-70:hover { color: rgba( 255, 255, 255, .7 ); }
+.hover-white-70:focus { color: rgba( 255, 255, 255, .7 ); }
+.hover-white-60:hover { color: rgba( 255, 255, 255, .6 ); }
+.hover-white-60:focus { color: rgba( 255, 255, 255, .6 ); }
+.hover-white-50:hover { color: rgba( 255, 255, 255, .5 ); }
+.hover-white-50:focus { color: rgba( 255, 255, 255, .5 ); }
+.hover-white-40:hover { color: rgba( 255, 255, 255, .4 ); }
+.hover-white-40:focus { color: rgba( 255, 255, 255, .4 ); }
+.hover-white-30:hover { color: rgba( 255, 255, 255, .3 ); }
+.hover-white-30:focus { color: rgba( 255, 255, 255, .3 ); }
+.hover-white-20:hover { color: rgba( 255, 255, 255, .2 ); }
+.hover-white-20:focus { color: rgba( 255, 255, 255, .2 ); }
+.hover-white-10:hover { color: rgba( 255, 255, 255, .1 ); }
+.hover-white-10:focus { color: rgba( 255, 255, 255, .1 ); }
 .hover-bg-black:hover { background-color: #000; }
 .hover-bg-black:focus { background-color: #000; }
 .hover-bg-near-black:hover { background-color: #111; }
@@ -1216,6 +1315,42 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-white:focus { background-color: #fff; }
 .hover-bg-transparent:hover { background-color: transparent; }
 .hover-bg-transparent:focus { background-color: transparent; }
+.hover-bg-black-90:hover { background-color: rgba( 0, 0, 0, .9 ); }
+.hover-bg-black-90:focus { background-color: rgba( 0, 0, 0, .9 ); }
+.hover-bg-black-80:hover { background-color: rgba( 0, 0, 0, .8 ); }
+.hover-bg-black-80:focus { background-color: rgba( 0, 0, 0, .8 ); }
+.hover-bg-black-70:hover { background-color: rgba( 0, 0, 0, .7 ); }
+.hover-bg-black-70:focus { background-color: rgba( 0, 0, 0, .7 ); }
+.hover-bg-black-60:hover { background-color: rgba( 0, 0, 0, .6 ); }
+.hover-bg-black-60:focus { background-color: rgba( 0, 0, 0, .6 ); }
+.hover-bg-black-50:hover { background-color: rgba( 0, 0, 0, .5 ); }
+.hover-bg-black-50:focus { background-color: rgba( 0, 0, 0, .5 ); }
+.hover-bg-black-40:hover { background-color: rgba( 0, 0, 0, .4 ); }
+.hover-bg-black-40:focus { background-color: rgba( 0, 0, 0, .4 ); }
+.hover-bg-black-30:hover { background-color: rgba( 0, 0, 0, .3 ); }
+.hover-bg-black-30:focus { background-color: rgba( 0, 0, 0, .3 ); }
+.hover-bg-black-20:hover { background-color: rgba( 0, 0, 0, .2 ); }
+.hover-bg-black-20:focus { background-color: rgba( 0, 0, 0, .2 ); }
+.hover-bg-black-10:hover { background-color: rgba( 0, 0, 0, .1 ); }
+.hover-bg-black-10:focus { background-color: rgba( 0, 0, 0, .1 ); }
+.hover-bg-white-90:hover { background-color: rgba( 255, 255, 255, .9 ); }
+.hover-bg-white-90:focus { background-color: rgba( 255, 255, 255, .9 ); }
+.hover-bg-white-80:hover { background-color: rgba( 255, 255, 255, .8 ); }
+.hover-bg-white-80:focus { background-color: rgba( 255, 255, 255, .8 ); }
+.hover-bg-white-70:hover { background-color: rgba( 255, 255, 255, .7 ); }
+.hover-bg-white-70:focus { background-color: rgba( 255, 255, 255, .7 ); }
+.hover-bg-white-60:hover { background-color: rgba( 255, 255, 255, .6 ); }
+.hover-bg-white-60:focus { background-color: rgba( 255, 255, 255, .6 ); }
+.hover-bg-white-50:hover { background-color: rgba( 255, 255, 255, .5 ); }
+.hover-bg-white-50:focus { background-color: rgba( 255, 255, 255, .5 ); }
+.hover-bg-white-40:hover { background-color: rgba( 255, 255, 255, .4 ); }
+.hover-bg-white-40:focus { background-color: rgba( 255, 255, 255, .4 ); }
+.hover-bg-white-30:hover { background-color: rgba( 255, 255, 255, .3 ); }
+.hover-bg-white-30:focus { background-color: rgba( 255, 255, 255, .3 ); }
+.hover-bg-white-20:hover { background-color: rgba( 255, 255, 255, .2 ); }
+.hover-bg-white-20:focus { background-color: rgba( 255, 255, 255, .2 ); }
+.hover-bg-white-10:hover { background-color: rgba( 255, 255, 255, .1 ); }
+.hover-bg-white-10:focus { background-color: rgba( 255, 255, 255, .1 ); }
 .hover-dark-red:hover { color: #e7040f; }
 .hover-dark-red:focus { color: #e7040f; }
 .hover-red:hover { color: #ff4136; }
@@ -1464,6 +1599,68 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mh6 { margin-left: 8rem; margin-right: 8rem; }
 .mh7 { margin-left: 16rem; margin-right: 16rem; }
 /*
+   NEGATIVE MARGINS
+
+   Base:
+     n = negative
+
+   Modifiers:
+     a = all
+     t = top
+     r = right
+     b = bottom
+     l = left
+
+     1 = 1st step in spacing scale
+     2 = 2nd step in spacing scale
+     3 = 3rd step in spacing scale
+     4 = 4th step in spacing scale
+     5 = 5th step in spacing scale
+     6 = 6th step in spacing scale
+     7 = 7th step in spacing scale
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+.na1 { margin: -.25rem; }
+.na2 { margin: -.5rem; }
+.na3 { margin: -1rem; }
+.na4 { margin: -2rem; }
+.na5 { margin: -4rem; }
+.na6 { margin: -8rem; }
+.na7 { margin: -16rem; }
+.nl1 { margin-left: -.25rem; }
+.nl2 { margin-left: -.5rem; }
+.nl3 { margin-left: -1rem; }
+.nl4 { margin-left: -2rem; }
+.nl5 { margin-left: -4rem; }
+.nl6 { margin-left: -8rem; }
+.nl7 { margin-left: -16rem; }
+.nr1 { margin-right: -.25rem; }
+.nr2 { margin-right: -.5rem; }
+.nr3 { margin-right: -1rem; }
+.nr4 { margin-right: -2rem; }
+.nr5 { margin-right: -4rem; }
+.nr6 { margin-right: -8rem; }
+.nr7 { margin-right: -16rem; }
+.nb1 { margin-bottom: -.25rem; }
+.nb2 { margin-bottom: -.5rem; }
+.nb3 { margin-bottom: -1rem; }
+.nb4 { margin-bottom: -2rem; }
+.nb5 { margin-bottom: -4rem; }
+.nb6 { margin-bottom: -8rem; }
+.nb7 { margin-bottom: -16rem; }
+.nt1 { margin-top: -.25rem; }
+.nt2 { margin-top: -.5rem; }
+.nt3 { margin-top: -1rem; }
+.nt4 { margin-top: -2rem; }
+.nt5 { margin-top: -4rem; }
+.nt6 { margin-top: -8rem; }
+.nt7 { margin-top: -16rem; }
+/*
 
   TABLES
   Docs: http://tachyons.io/docs/elements/tables/
@@ -1600,31 +1797,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
    UTILITIES
 
 */
-/* This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
- * Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
- * Make sure there are no height and width attributes on the embedded media.
- * Adapted from: https://github.com/suitcss/components-flex-embed
- *
- * Example:
- *
- * <div class="aspect-ratio aspect-ratio--16x9">
- *  <iframe class="aspect-ratio--object"></iframe>
- * </div>
- *
- * */
-.aspect-ratio { height: 0; position: relative; }
-.aspect-ratio--16x9 { padding-bottom: 56.25%; }
-.aspect-ratio--9x16 { padding-bottom: 177.77%; }
-.aspect-ratio--4x3 { padding-bottom: 75%; }
-.aspect-ratio--3x4 { padding-bottom: 133.33%; }
-.aspect-ratio--6x4 { padding-bottom: 66.6%; }
-.aspect-ratio--4x6 { padding-bottom: 150%; }
-.aspect-ratio--8x5 { padding-bottom: 62.5%; }
-.aspect-ratio--5x8 { padding-bottom: 160%; }
-.aspect-ratio--7x5 { padding-bottom: 71.42%; }
-.aspect-ratio--5x7 { padding-bottom: 140%; }
-.aspect-ratio--1x1 { padding-bottom: 100%; }
-.aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
 /*
@@ -1675,6 +1847,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Docs: http://tachyons.io/docs/themes/hovers/
 
     - Dim
+    - Glow
     - Hide Child
     - Underline text
     - Grow
@@ -1690,6 +1863,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .dim { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
 .dim:hover, .dim:focus { opacity: .5; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
 .dim:active { opacity: .8; -webkit-transition: opacity .15s ease-out; transition: opacity .15s ease-out; }
+/*
+
+  Animate opacity to 100% on hover by adding the glow class.
+
+*/
+.glow { -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.glow:hover, .glow:focus { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
 /*
 
   Hide child & reveal on hover:
@@ -1723,10 +1903,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Performant box-shadow animation pattern from
    http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 */
-.shadow-hover::after { content: ''; position: absolute; width: 100%; height: 100%; z-index: -1; box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); opacity: 0; -webkit-transition: opacity .25s ease-in-out; transition: opacity .25s ease-in-out; }
+.shadow-hover { cursor: pointer; position: relative; -webkit-transition: all .5s cubic-bezier( .165, .84, .44, 1 ); transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
+.shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; -webkit-transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover:hover::after, .shadow-hover:focus::after { opacity: 1; }
-/* Combine with classes in skins and skins-pseudo for
- * thousands of different transition possibilities. */
+/* Combine with classes in skins and skins-pseudo for 
+ * many different transition possibilities. */
 .bg-animate, .bg-animate:hover, .bg-animate:focus { -webkit-transition: background-color .15s ease-in-out; transition: background-color .15s ease-in-out; }
 /*
 
@@ -1774,6 +1955,25 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .z-inherit { z-index: inherit; }
 .z-initial { z-index: initial; }
 .z-unset { z-index: unset; }
+/*
+
+    NESTED
+    Tachyons module for styling nested elements
+    that are generated by a cms.
+
+*/
+.nested-copy-line-height p, .nested-copy-line-height ul,
+.nested-copy-line-height ol { line-height: 1.5; }
+.nested-headline-line-height h1, .nested-headline-line-height h2,
+.nested-headline-line-height h3, .nested-headline-line-height h4,
+.nested-headline-line-height h5, .nested-headline-line-height h6 { line-height: 1.25; }
+.nested-list-reset ul, .nested-list-reset ol { padding-left: 0; margin-left: 0; list-style-type: none; }
+.nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+.nested-copy-seperator p+p { margin-top: 1.5em; }
+.nested-img img { width: 100%; max-width: 100%; display: block; }
+.nested-links a { color: #357edd; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.nested-links a:hover { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.nested-links a:focus { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 /*
 
   STYLES
@@ -1856,6 +2056,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
 @media screen and (min-width: 30em) {
+ .aspect-ratio-ns { height: 0; position: relative; }
+ .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
+ .aspect-ratio--9x16-ns { padding-bottom: 177.77%; }
+ .aspect-ratio--4x3-ns { padding-bottom: 75%; }
+ .aspect-ratio--3x4-ns { padding-bottom: 133.33%; }
+ .aspect-ratio--6x4-ns { padding-bottom: 66.6%; }
+ .aspect-ratio--4x6-ns { padding-bottom: 150%; }
+ .aspect-ratio--8x5-ns { padding-bottom: 62.5%; }
+ .aspect-ratio--5x8-ns { padding-bottom: 160%; }
+ .aspect-ratio--7x5-ns { padding-bottom: 71.42%; }
+ .aspect-ratio--5x7-ns { padding-bottom: 140%; }
+ .aspect-ratio--1x1-ns { padding-bottom: 100%; }
+ .aspect-ratio--object-ns { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
  .cover-ns { background-size: cover !important; }
  .contain-ns { background-size: contain !important; }
  .bg-center-ns { background-repeat: no-repeat; background-position: center center; }
@@ -2065,6 +2278,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .relative-ns { position: relative; }
  .absolute-ns { position: absolute; }
  .fixed-ns { position: fixed; }
+ .rotate-45-ns { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+ .rotate-90-ns { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+ .rotate-135-ns { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+ .rotate-180-ns { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+ .rotate-225-ns { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+ .rotate-270-ns { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+ .rotate-315-ns { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
  .pa0-ns { padding: 0; }
  .pa1-ns { padding: .25rem; }
  .pa2-ns { padding: .5rem; }
@@ -2177,6 +2397,41 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mh5-ns { margin-left: 4rem; margin-right: 4rem; }
  .mh6-ns { margin-left: 8rem; margin-right: 8rem; }
  .mh7-ns { margin-left: 16rem; margin-right: 16rem; }
+ .na1-ns { margin: -.25rem; }
+ .na2-ns { margin: -.5rem; }
+ .na3-ns { margin: -1rem; }
+ .na4-ns { margin: -2rem; }
+ .na5-ns { margin: -4rem; }
+ .na6-ns { margin: -8rem; }
+ .na7-ns { margin: -16rem; }
+ .nl1-ns { margin-left: -.25rem; }
+ .nl2-ns { margin-left: -.5rem; }
+ .nl3-ns { margin-left: -1rem; }
+ .nl4-ns { margin-left: -2rem; }
+ .nl5-ns { margin-left: -4rem; }
+ .nl6-ns { margin-left: -8rem; }
+ .nl7-ns { margin-left: -16rem; }
+ .nr1-ns { margin-right: -.25rem; }
+ .nr2-ns { margin-right: -.5rem; }
+ .nr3-ns { margin-right: -1rem; }
+ .nr4-ns { margin-right: -2rem; }
+ .nr5-ns { margin-right: -4rem; }
+ .nr6-ns { margin-right: -8rem; }
+ .nr7-ns { margin-right: -16rem; }
+ .nb1-ns { margin-bottom: -.25rem; }
+ .nb2-ns { margin-bottom: -.5rem; }
+ .nb3-ns { margin-bottom: -1rem; }
+ .nb4-ns { margin-bottom: -2rem; }
+ .nb5-ns { margin-bottom: -4rem; }
+ .nb6-ns { margin-bottom: -8rem; }
+ .nb7-ns { margin-bottom: -16rem; }
+ .nt1-ns { margin-top: -.25rem; }
+ .nt2-ns { margin-top: -.5rem; }
+ .nt3-ns { margin-top: -1rem; }
+ .nt4-ns { margin-top: -2rem; }
+ .nt5-ns { margin-top: -4rem; }
+ .nt6-ns { margin-top: -8rem; }
+ .nt7-ns { margin-top: -16rem; }
  .strike-ns { text-decoration: line-through; }
  .underline-ns { text-decoration: underline; }
  .no-underline-ns { text-decoration: none; }
@@ -2211,6 +2466,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-btm-ns { vertical-align: bottom; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
+ .aspect-ratio-m { height: 0; position: relative; }
+ .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
+ .aspect-ratio--9x16-m { padding-bottom: 177.77%; }
+ .aspect-ratio--4x3-m { padding-bottom: 75%; }
+ .aspect-ratio--3x4-m { padding-bottom: 133.33%; }
+ .aspect-ratio--6x4-m { padding-bottom: 66.6%; }
+ .aspect-ratio--4x6-m { padding-bottom: 150%; }
+ .aspect-ratio--8x5-m { padding-bottom: 62.5%; }
+ .aspect-ratio--5x8-m { padding-bottom: 160%; }
+ .aspect-ratio--7x5-m { padding-bottom: 71.42%; }
+ .aspect-ratio--5x7-m { padding-bottom: 140%; }
+ .aspect-ratio--1x1-m { padding-bottom: 100%; }
+ .aspect-ratio--object-m { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
  .cover-m { background-size: cover !important; }
  .contain-m { background-size: contain !important; }
  .bg-center-m { background-repeat: no-repeat; background-position: center center; }
@@ -2423,6 +2691,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .relative-m { position: relative; }
  .absolute-m { position: absolute; }
  .fixed-m { position: fixed; }
+ .rotate-45-m { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+ .rotate-90-m { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+ .rotate-135-m { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+ .rotate-180-m { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+ .rotate-225-m { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+ .rotate-270-m { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+ .rotate-315-m { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
  .pa0-m { padding: 0; }
  .pa1-m { padding: .25rem; }
  .pa2-m { padding: .5rem; }
@@ -2535,6 +2810,41 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mh5-m { margin-left: 4rem; margin-right: 4rem; }
  .mh6-m { margin-left: 8rem; margin-right: 8rem; }
  .mh7-m { margin-left: 16rem; margin-right: 16rem; }
+ .na1-m { margin: -.25rem; }
+ .na2-m { margin: -.5rem; }
+ .na3-m { margin: -1rem; }
+ .na4-m { margin: -2rem; }
+ .na5-m { margin: -4rem; }
+ .na6-m { margin: -8rem; }
+ .na7-m { margin: -16rem; }
+ .nl1-m { margin-left: -.25rem; }
+ .nl2-m { margin-left: -.5rem; }
+ .nl3-m { margin-left: -1rem; }
+ .nl4-m { margin-left: -2rem; }
+ .nl5-m { margin-left: -4rem; }
+ .nl6-m { margin-left: -8rem; }
+ .nl7-m { margin-left: -16rem; }
+ .nr1-m { margin-right: -.25rem; }
+ .nr2-m { margin-right: -.5rem; }
+ .nr3-m { margin-right: -1rem; }
+ .nr4-m { margin-right: -2rem; }
+ .nr5-m { margin-right: -4rem; }
+ .nr6-m { margin-right: -8rem; }
+ .nr7-m { margin-right: -16rem; }
+ .nb1-m { margin-bottom: -.25rem; }
+ .nb2-m { margin-bottom: -.5rem; }
+ .nb3-m { margin-bottom: -1rem; }
+ .nb4-m { margin-bottom: -2rem; }
+ .nb5-m { margin-bottom: -4rem; }
+ .nb6-m { margin-bottom: -8rem; }
+ .nb7-m { margin-bottom: -16rem; }
+ .nt1-m { margin-top: -.25rem; }
+ .nt2-m { margin-top: -.5rem; }
+ .nt3-m { margin-top: -1rem; }
+ .nt4-m { margin-top: -2rem; }
+ .nt5-m { margin-top: -4rem; }
+ .nt6-m { margin-top: -8rem; }
+ .nt7-m { margin-top: -16rem; }
  .strike-m { text-decoration: line-through; }
  .underline-m { text-decoration: underline; }
  .no-underline-m { text-decoration: none; }
@@ -2569,6 +2879,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-btm-m { vertical-align: bottom; }
 }
 @media screen and (min-width: 60em) {
+ .aspect-ratio-l { height: 0; position: relative; }
+ .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
+ .aspect-ratio--9x16-l { padding-bottom: 177.77%; }
+ .aspect-ratio--4x3-l { padding-bottom: 75%; }
+ .aspect-ratio--3x4-l { padding-bottom: 133.33%; }
+ .aspect-ratio--6x4-l { padding-bottom: 66.6%; }
+ .aspect-ratio--4x6-l { padding-bottom: 150%; }
+ .aspect-ratio--8x5-l { padding-bottom: 62.5%; }
+ .aspect-ratio--5x8-l { padding-bottom: 160%; }
+ .aspect-ratio--7x5-l { padding-bottom: 71.42%; }
+ .aspect-ratio--5x7-l { padding-bottom: 140%; }
+ .aspect-ratio--1x1-l { padding-bottom: 100%; }
+ .aspect-ratio--object-l { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
  .cover-l { background-size: cover !important; }
  .contain-l { background-size: contain !important; }
  .bg-center-l { background-repeat: no-repeat; background-position: center center; }
@@ -2589,7 +2912,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br4-l { border-radius: 1rem; }
  .br-100-l { border-radius: 100%; }
  .br-pill-l { border-radius: 9999px; }
- .br--bottom-l { border-radius-top-left: 0; border-radius-top-right: 0; }
+ .br--bottom-l { border-top-left-radius: 0; border-top-right-radius: 0; }
  .br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
  .br--left-l { border-top-right-radius: 0; border-bottom-right-radius: 0; }
@@ -2775,6 +3098,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .relative-l { position: relative; }
  .absolute-l { position: absolute; }
  .fixed-l { position: fixed; }
+ .rotate-45-l { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+ .rotate-90-l { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+ .rotate-135-l { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+ .rotate-180-l { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+ .rotate-225-l { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+ .rotate-270-l { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+ .rotate-315-l { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
  .pa0-l { padding: 0; }
  .pa1-l { padding: .25rem; }
  .pa2-l { padding: .5rem; }
@@ -2887,6 +3217,41 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mh5-l { margin-left: 4rem; margin-right: 4rem; }
  .mh6-l { margin-left: 8rem; margin-right: 8rem; }
  .mh7-l { margin-left: 16rem; margin-right: 16rem; }
+ .na1-l { margin: -.25rem; }
+ .na2-l { margin: -.5rem; }
+ .na3-l { margin: -1rem; }
+ .na4-l { margin: -2rem; }
+ .na5-l { margin: -4rem; }
+ .na6-l { margin: -8rem; }
+ .na7-l { margin: -16rem; }
+ .nl1-l { margin-left: -.25rem; }
+ .nl2-l { margin-left: -.5rem; }
+ .nl3-l { margin-left: -1rem; }
+ .nl4-l { margin-left: -2rem; }
+ .nl5-l { margin-left: -4rem; }
+ .nl6-l { margin-left: -8rem; }
+ .nl7-l { margin-left: -16rem; }
+ .nr1-l { margin-right: -.25rem; }
+ .nr2-l { margin-right: -.5rem; }
+ .nr3-l { margin-right: -1rem; }
+ .nr4-l { margin-right: -2rem; }
+ .nr5-l { margin-right: -4rem; }
+ .nr6-l { margin-right: -8rem; }
+ .nr7-l { margin-right: -16rem; }
+ .nb1-l { margin-bottom: -.25rem; }
+ .nb2-l { margin-bottom: -.5rem; }
+ .nb3-l { margin-bottom: -1rem; }
+ .nb4-l { margin-bottom: -2rem; }
+ .nb5-l { margin-bottom: -4rem; }
+ .nb6-l { margin-bottom: -8rem; }
+ .nb7-l { margin-bottom: -16rem; }
+ .nt1-l { margin-top: -.25rem; }
+ .nt2-l { margin-top: -.5rem; }
+ .nt3-l { margin-top: -1rem; }
+ .nt4-l { margin-top: -2rem; }
+ .nt5-l { margin-top: -4rem; }
+ .nt6-l { margin-top: -8rem; }
+ .nt7-l { margin-top: -16rem; }
  .strike-l { text-decoration: line-through; }
  .underline-l { text-decoration: underline; }
  .no-underline-l { text-decoration: none; }
