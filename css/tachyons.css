@@ -399,6 +399,7 @@ img { max-width: 100%; }
 .b--gray { border-color: #777; }
 .b--silver { border-color: #999; }
 .b--light-silver { border-color: #aaa; }
+.b--moon-gray { border-color: #ccc; }
 .b--light-gray { border-color: #eee; }
 .b--near-white { border-color: #f4f4f4; }
 .b--white { border-color: #fff; }
@@ -992,17 +993,21 @@ code, .code { font-family: Consolas, monaco, monospace; }
      -10  = literal value 10%
      -20  = literal value 20%
      -25  = literal value 25%
+     -30  = literal value 30%
      -33  = literal value 33%
      -34  = literal value 34%
      -40  = literal value 40%
      -50  = literal value 50%
      -60  = literal value 60%
+     -70  = literal value 70%
      -75  = literal value 75%
      -80  = literal value 80%
+     -90  = literal value 90%
      -100 = literal value 100%
 
-     -third = 100% / 3 (Not supported in opera mini or IE8)
-     -auto  = string value auto
+     -third      = 100% / 3 (Not supported in opera mini or IE8)
+     -two-thirds = 100% / 1.5 (Not supported in opera mini or IE8)
+     -auto       = string value auto
 
 
    Media Query Extensions:
@@ -1761,8 +1766,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  * These generally are too large for mobile
  * so be careful using them on smaller screens.
  * */
-.f-6, .f-headline { font-size: 6rem; }
-.f-5, .f-subheadline { font-size: 5rem; }
+.f-6 { font-size: 6rem; }
+.f-headline { font-size: 6rem; }
+.f-5 { font-size: 5rem; }
+.f-subheadline { font-size: 5rem; }
 /* Type Scale */
 .f1 { font-size: 3rem; }
 .f2 { font-size: 2.25rem; }
@@ -1897,11 +1904,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
 /* Add pointer on hover */
 .pointer:hover { cursor: pointer; }
-/* 
+/*
    Add shadow on hover.
 
-   Performant box-shadow animation pattern from 
-   http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 */
 .shadow-hover { cursor: pointer; position: relative; -webkit-transition: all .5s cubic-bezier( .165, .84, .44, 1 ); transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; -webkit-transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
@@ -2442,8 +2449,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ttl-ns { text-transform: lowercase; }
  .ttu-ns { text-transform: uppercase; }
  .ttn-ns { text-transform: none; }
- .f-6-ns, .f-headline-ns { font-size: 6rem; }
- .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
+ .f-6-ns { font-size: 6rem; }
+ .f-headline-ns { font-size: 6rem; }
+ .f-5-ns { font-size: 5rem; }
+ .f-subheadline-ns { font-size: 5rem; }
  .f1-ns { font-size: 3rem; }
  .f2-ns { font-size: 2.25rem; }
  .f3-ns { font-size: 1.5rem; }
@@ -2855,8 +2864,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }
  .ttn-m { text-transform: none; }
- .f-6-m, .f-headline-m { font-size: 6rem; }
- .f-5-m, .f-subheadline-m { font-size: 5rem; }
+ .f-6-m { font-size: 6rem; }
+ .f-headline-m { font-size: 6rem; }
+ .f-5-m { font-size: 5rem; }
+ .f-subheadline-m { font-size: 5rem; }
  .f1-m { font-size: 3rem; }
  .f2-m { font-size: 2.25rem; }
  .f3-m { font-size: 1.5rem; }
@@ -3262,8 +3273,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ttl-l { text-transform: lowercase; }
  .ttu-l { text-transform: uppercase; }
  .ttn-l { text-transform: none; }
- .f-6-l, .f-headline-l { font-size: 6rem; }
- .f-5-l, .f-subheadline-l { font-size: 5rem; }
+ .f-6-l { font-size: 6rem; }
+ .f-headline-l { font-size: 6rem; }
+ .f-5-l { font-size: 5rem; }
+ .f-subheadline-l { font-size: 5rem; }
  .f1-l { font-size: 3rem; }
  .f2-l { font-size: 2.25rem; }
  .f3-l { font-size: 1.5rem; }

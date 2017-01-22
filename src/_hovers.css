@@ -117,11 +117,11 @@
   cursor: pointer;
 }
 
-/* 
+/*
    Add shadow on hover.
 
-   Performant box-shadow animation pattern from 
-   http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 */
 
 .shadow-hover {
@@ -154,6 +154,5 @@
 .bg-animate,
 .bg-animate:hover,
 .bg-animate:focus {
-  transition: background-color .15s ease-in-out; 
+  transition: background-color .15s ease-in-out;
 }
-
