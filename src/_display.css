@@ -13,9 +13,9 @@
     it    = inline-table
     t     = table
     tc    = table-cell
-    tr    = table-row
-    tcol  = table-column
-    tcolg = table-column-group
+    t-row          = table-row
+    t-columm       = table-column
+    t-column-group = table-column-group
 
    Media Query Extensions:
      -ns = not-small
