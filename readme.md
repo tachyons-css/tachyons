@@ -161,6 +161,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://mrmrs.io/writing
 * http://mrmrs.cc
 * http://mn-ml.cc
+* https://fontawesome.com
 
 And of course...
 * http://tachyons.io
