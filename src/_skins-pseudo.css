@@ -66,6 +66,8 @@
 .hover-white-20:focus { color: var(--white-20); }
 .hover-white-10:hover,
 .hover-white-10:focus { color: var(--white-10); }
+.hover-inherit:hover,
+.hover-inherit:focus { color: inherit; }
 
 .hover-bg-black:hover, 
 .hover-bg-black:focus { background-color: var(--black); }
@@ -230,4 +232,5 @@
 .hover-bg-washed-yellow:focus { background-color: var(--washed-yellow); }
 .hover-bg-washed-red:hover,
 .hover-bg-washed-red:focus { background-color: var(--washed-red); }
-
+.hover-bg-inherit:hover,
+.hover-bg-inherit:focus { background-color: inherit; }
