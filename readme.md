@@ -162,6 +162,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://mrmrs.cc
 * http://mn-ml.cc
 * https://fontawesome.com
+* https://github.com/pedroborges/xml-sitemap-stylesheet
 
 And of course...
 * http://tachyons.io
