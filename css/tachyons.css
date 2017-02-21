@@ -401,7 +401,7 @@ img { max-width: 100%; }
 .b--light-silver { border-color: #aaa; }
 .b--moon-gray { border-color: #ccc; }
 .b--light-gray { border-color: #eee; }
-.b--near-white { border-color: #f4f4f4; }
+.b--near-white { border-color: #f9f9f9; }
 .b--white { border-color: #fff; }
 .b--white-90 { border-color: rgba( 255, 255, 255, .9 ); }
 .b--white-80 { border-color: rgba( 255, 255, 255, .8 ); }
@@ -427,11 +427,11 @@ img { max-width: 100%; }
 .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
 .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
-.b--dark-red { border-color: #e7040f; }
-.b--red { border-color: #ff4136; }
+.b--dark-red { border-color: #b12419; }
+.b--red { border-color: #d52b1e; }
 .b--light-red { border-color: #ff725c; }
 .b--orange { border-color: #ff6300; }
-.b--gold { border-color: #ffb700; }
+.b--gold { border-color: #e08a00; }
 .b--yellow { border-color: #ffd700; }
 .b--light-yellow { border-color: #fbf1a9; }
 .b--purple { border-color: #5e2ca5; }
@@ -440,12 +440,12 @@ img { max-width: 100%; }
 .b--hot-pink { border-color: #ff41b4; }
 .b--pink { border-color: #ff80cc; }
 .b--light-pink { border-color: #ffa3d7; }
-.b--dark-green { border-color: #137752; }
-.b--green { border-color: #19a974; }
-.b--light-green { border-color: #9eebcf; }
+.b--dark-green { border-color: #23a063; }
+.b--green { border-color: #2ac278; }
+.b--light-green { border-color: #52d87c; }
 .b--navy { border-color: #001b44; }
-.b--dark-blue { border-color: #00449e; }
-.b--blue { border-color: #357edd; }
+.b--dark-blue { border-color: #0270a2; }
+.b--blue { border-color: #038cca; }
 .b--light-blue { border-color: #96ccff; }
 .b--lightest-blue { border-color: #cdecff; }
 .b--washed-blue { border-color: #f6fffe; }
@@ -1146,13 +1146,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-silver { color: #aaa; }
 .moon-gray { color: #ccc; }
 .light-gray { color: #eee; }
-.near-white { color: #f4f4f4; }
+.near-white { color: #f9f9f9; }
 .white { color: #fff; }
-.dark-red { color: #e7040f; }
-.red { color: #ff4136; }
+.dark-red { color: #b12419; }
+.red { color: #d52b1e; }
 .light-red { color: #ff725c; }
 .orange { color: #ff6300; }
-.gold { color: #ffb700; }
+.gold { color: #e08a00; }
 .yellow { color: #ffd700; }
 .light-yellow { color: #fbf1a9; }
 .purple { color: #5e2ca5; }
@@ -1161,12 +1161,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hot-pink { color: #ff41b4; }
 .pink { color: #ff80cc; }
 .light-pink { color: #ffa3d7; }
-.dark-green { color: #137752; }
-.green { color: #19a974; }
-.light-green { color: #9eebcf; }
+.dark-green { color: #23a063; }
+.green { color: #2ac278; }
+.light-green { color: #52d87c; }
 .navy { color: #001b44; }
-.dark-blue { color: #00449e; }
-.blue { color: #357edd; }
+.dark-blue { color: #0270a2; }
+.blue { color: #038cca; }
 .light-blue { color: #96ccff; }
 .lightest-blue { color: #cdecff; }
 .washed-blue { color: #f6fffe; }
@@ -1202,14 +1202,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-light-silver { background-color: #aaa; }
 .bg-moon-gray { background-color: #ccc; }
 .bg-light-gray { background-color: #eee; }
-.bg-near-white { background-color: #f4f4f4; }
+.bg-near-white { background-color: #f9f9f9; }
 .bg-white { background-color: #fff; }
 .bg-transparent { background-color: transparent; }
-.bg-dark-red { background-color: #e7040f; }
-.bg-red { background-color: #ff4136; }
+.bg-dark-red { background-color: #b12419; }
+.bg-red { background-color: #d52b1e; }
 .bg-light-red { background-color: #ff725c; }
 .bg-orange { background-color: #ff6300; }
-.bg-gold { background-color: #ffb700; }
+.bg-gold { background-color: #e08a00; }
 .bg-yellow { background-color: #ffd700; }
 .bg-light-yellow { background-color: #fbf1a9; }
 .bg-purple { background-color: #5e2ca5; }
@@ -1218,12 +1218,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-hot-pink { background-color: #ff41b4; }
 .bg-pink { background-color: #ff80cc; }
 .bg-light-pink { background-color: #ffa3d7; }
-.bg-dark-green { background-color: #137752; }
-.bg-green { background-color: #19a974; }
-.bg-light-green { background-color: #9eebcf; }
+.bg-dark-green { background-color: #23a063; }
+.bg-green { background-color: #2ac278; }
+.bg-light-green { background-color: #52d87c; }
 .bg-navy { background-color: #001b44; }
-.bg-dark-blue { background-color: #00449e; }
-.bg-blue { background-color: #357edd; }
+.bg-dark-blue { background-color: #0270a2; }
+.bg-blue { background-color: #038cca; }
 .bg-light-blue { background-color: #96ccff; }
 .bg-lightest-blue { background-color: #cdecff; }
 .bg-washed-blue { background-color: #f6fffe; }
@@ -1256,8 +1256,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-moon-gray:focus { color: #ccc; }
 .hover-light-gray:hover { color: #eee; }
 .hover-light-gray:focus { color: #eee; }
-.hover-near-white:hover { color: #f4f4f4; }
-.hover-near-white:focus { color: #f4f4f4; }
+.hover-near-white:hover { color: #f9f9f9; }
+.hover-near-white:focus { color: #f9f9f9; }
 .hover-white:hover { color: #fff; }
 .hover-white:focus { color: #fff; }
 .hover-black-90:hover { color: rgba( 0, 0, 0, .9 ); }
@@ -1314,8 +1314,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-moon-gray:focus { background-color: #ccc; }
 .hover-bg-light-gray:hover { background-color: #eee; }
 .hover-bg-light-gray:focus { background-color: #eee; }
-.hover-bg-near-white:hover { background-color: #f4f4f4; }
-.hover-bg-near-white:focus { background-color: #f4f4f4; }
+.hover-bg-near-white:hover { background-color: #f9f9f9; }
+.hover-bg-near-white:focus { background-color: #f9f9f9; }
 .hover-bg-white:hover { background-color: #fff; }
 .hover-bg-white:focus { background-color: #fff; }
 .hover-bg-transparent:hover { background-color: transparent; }
@@ -1356,16 +1356,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-white-20:focus { background-color: rgba( 255, 255, 255, .2 ); }
 .hover-bg-white-10:hover { background-color: rgba( 255, 255, 255, .1 ); }
 .hover-bg-white-10:focus { background-color: rgba( 255, 255, 255, .1 ); }
-.hover-dark-red:hover { color: #e7040f; }
-.hover-dark-red:focus { color: #e7040f; }
-.hover-red:hover { color: #ff4136; }
-.hover-red:focus { color: #ff4136; }
+.hover-dark-red:hover { color: #b12419; }
+.hover-dark-red:focus { color: #b12419; }
+.hover-red:hover { color: #d52b1e; }
+.hover-red:focus { color: #d52b1e; }
 .hover-light-red:hover { color: #ff725c; }
 .hover-light-red:focus { color: #ff725c; }
 .hover-orange:hover { color: #ff6300; }
 .hover-orange:focus { color: #ff6300; }
-.hover-gold:hover { color: #ffb700; }
-.hover-gold:focus { color: #ffb700; }
+.hover-gold:hover { color: #e08a00; }
+.hover-gold:focus { color: #e08a00; }
 .hover-yellow:hover { color: #ffd700; }
 .hover-yellow:focus { color: #ffd700; }
 .hover-light-yellow:hover { color: #fbf1a9; }
@@ -1382,18 +1382,18 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-pink:focus { color: #ff80cc; }
 .hover-light-pink:hover { color: #ffa3d7; }
 .hover-light-pink:focus { color: #ffa3d7; }
-.hover-dark-green:hover { color: #137752; }
-.hover-dark-green:focus { color: #137752; }
-.hover-green:hover { color: #19a974; }
-.hover-green:focus { color: #19a974; }
-.hover-light-green:hover { color: #9eebcf; }
-.hover-light-green:focus { color: #9eebcf; }
+.hover-dark-green:hover { color: #23a063; }
+.hover-dark-green:focus { color: #23a063; }
+.hover-green:hover { color: #2ac278; }
+.hover-green:focus { color: #2ac278; }
+.hover-light-green:hover { color: #52d87c; }
+.hover-light-green:focus { color: #52d87c; }
 .hover-navy:hover { color: #001b44; }
 .hover-navy:focus { color: #001b44; }
-.hover-dark-blue:hover { color: #00449e; }
-.hover-dark-blue:focus { color: #00449e; }
-.hover-blue:hover { color: #357edd; }
-.hover-blue:focus { color: #357edd; }
+.hover-dark-blue:hover { color: #0270a2; }
+.hover-dark-blue:focus { color: #0270a2; }
+.hover-blue:hover { color: #038cca; }
+.hover-blue:focus { color: #038cca; }
 .hover-light-blue:hover { color: #96ccff; }
 .hover-light-blue:focus { color: #96ccff; }
 .hover-lightest-blue:hover { color: #cdecff; }
@@ -1406,16 +1406,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-washed-yellow:focus { color: #fffceb; }
 .hover-washed-red:hover { color: #ffdfdf; }
 .hover-washed-red:focus { color: #ffdfdf; }
-.hover-bg-dark-red:hover { background-color: #e7040f; }
-.hover-bg-dark-red:focus { background-color: #e7040f; }
-.hover-bg-red:hover { background-color: #ff4136; }
-.hover-bg-red:focus { background-color: #ff4136; }
+.hover-bg-dark-red:hover { background-color: #b12419; }
+.hover-bg-dark-red:focus { background-color: #b12419; }
+.hover-bg-red:hover { background-color: #d52b1e; }
+.hover-bg-red:focus { background-color: #d52b1e; }
 .hover-bg-light-red:hover { background-color: #ff725c; }
 .hover-bg-light-red:focus { background-color: #ff725c; }
 .hover-bg-orange:hover { background-color: #ff6300; }
 .hover-bg-orange:focus { background-color: #ff6300; }
-.hover-bg-gold:hover { background-color: #ffb700; }
-.hover-bg-gold:focus { background-color: #ffb700; }
+.hover-bg-gold:hover { background-color: #e08a00; }
+.hover-bg-gold:focus { background-color: #e08a00; }
 .hover-bg-yellow:hover { background-color: #ffd700; }
 .hover-bg-yellow:focus { background-color: #ffd700; }
 .hover-bg-light-yellow:hover { background-color: #fbf1a9; }
@@ -1432,18 +1432,18 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-pink:focus { background-color: #ff80cc; }
 .hover-bg-light-pink:hover { background-color: #ffa3d7; }
 .hover-bg-light-pink:focus { background-color: #ffa3d7; }
-.hover-bg-dark-green:hover { background-color: #137752; }
-.hover-bg-dark-green:focus { background-color: #137752; }
-.hover-bg-green:hover { background-color: #19a974; }
-.hover-bg-green:focus { background-color: #19a974; }
-.hover-bg-light-green:hover { background-color: #9eebcf; }
-.hover-bg-light-green:focus { background-color: #9eebcf; }
+.hover-bg-dark-green:hover { background-color: #23a063; }
+.hover-bg-dark-green:focus { background-color: #23a063; }
+.hover-bg-green:hover { background-color: #2ac278; }
+.hover-bg-green:focus { background-color: #2ac278; }
+.hover-bg-light-green:hover { background-color: #52d87c; }
+.hover-bg-light-green:focus { background-color: #52d87c; }
 .hover-bg-navy:hover { background-color: #001b44; }
 .hover-bg-navy:focus { background-color: #001b44; }
-.hover-bg-dark-blue:hover { background-color: #00449e; }
-.hover-bg-dark-blue:focus { background-color: #00449e; }
-.hover-bg-blue:hover { background-color: #357edd; }
-.hover-bg-blue:focus { background-color: #357edd; }
+.hover-bg-dark-blue:hover { background-color: #0270a2; }
+.hover-bg-dark-blue:focus { background-color: #0270a2; }
+.hover-bg-blue:hover { background-color: #038cca; }
+.hover-bg-blue:focus { background-color: #038cca; }
 .hover-bg-light-blue:hover { background-color: #96ccff; }
 .hover-bg-light-blue:focus { background-color: #96ccff; }
 .hover-bg-lightest-blue:hover { background-color: #cdecff; }
@@ -1675,7 +1675,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .striped--light-silver:nth-child(odd) { background-color: #aaa; }
 .striped--moon-gray:nth-child(odd) { background-color: #ccc; }
 .striped--light-gray:nth-child(odd) { background-color: #eee; }
-.striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
+.striped--near-white:nth-child(odd) { background-color: #f9f9f9; }
 .stripe-light:nth-child(odd) { background-color: rgba( 255, 255, 255, .1 ); }
 .stripe-dark:nth-child(odd) { background-color: rgba( 0, 0, 0, .1 ); }
 /*
@@ -1976,7 +1976,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 .nested-copy-seperator p+p { margin-top: 1.5em; }
 .nested-img img { width: 100%; max-width: 100%; display: block; }
-.nested-links a { color: #357edd; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.nested-links a { color: #038cca; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 .nested-links a:hover { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 .nested-links a:focus { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 /*
