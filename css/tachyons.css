@@ -1705,6 +1705,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
     l = left
     r = right
     c = center
+    j = justify
 
   Media Query Extensions:
     -ns = not-small
@@ -1715,6 +1716,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .tl { text-align: left; }
 .tr { text-align: right; }
 .tc { text-align: center; }
+.tj { text-align: justify; }
 /*
 
    TEXT TRANSFORM
@@ -2443,6 +2445,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tl-ns { text-align: left; }
  .tr-ns { text-align: right; }
  .tc-ns { text-align: center; }
+ .tj-ns { text-align: justify; }
  .ttc-ns { text-transform: capitalize; }
  .ttl-ns { text-transform: lowercase; }
  .ttu-ns { text-transform: uppercase; }
@@ -2856,6 +2859,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tl-m { text-align: left; }
  .tr-m { text-align: right; }
  .tc-m { text-align: center; }
+ .tj-m { text-align: justify; }
  .ttc-m { text-transform: capitalize; }
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }
@@ -3263,6 +3267,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .tl-l { text-align: left; }
  .tr-l { text-align: right; }
  .tc-l { text-align: center; }
+ .tj-l { text-align: justify; }
  .ttc-l { text-transform: capitalize; }
  .ttl-l { text-transform: lowercase; }
  .ttu-l { text-transform: uppercase; }
