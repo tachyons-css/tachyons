@@ -36,7 +36,7 @@ Copy this into an `index.html` file and open it in your browser.
 <html lang="en">
   <title> </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <link rel="stylesheet" href="https://rawgit.com/fenderdigital/tachyons/master/css/tachyons.min.css">
   <body>
 
   </body>
