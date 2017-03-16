@@ -1,0 +1,59 @@
+/*
+
+  BACKGROUND GRADIENTS
+
+  Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
+
+ */
+
+.bg-near-black-gradient-1 {
+  background: var(--near-black);
+  background: linear-gradient(to bottom, var(--near-black) 50%, var(--dark-gray) 100%);
+}
+
+.bg-light-gray-gradient-1 {
+  background: var(--white);
+  background: linear-gradient(1deg, var(--white), var(--light-gray));
+}
+
+@media (--breakpoint-not-small) {
+  .bg-near-black-gradient-1-ns {
+    background: var(--near-black);
+    background: linear-gradient(to bottom, var(--near-black) 50%, var(--dark-gray) 100%);
+  }
+
+  .bg-light-gray-gradient-1-ns {
+    background: var(--white);
+    background: linear-gradient(1deg, var(--white), var(--light-gray));
+  }
+
+}
+
+@media (--breakpoint-medium) {
+  .bg-near-black-gradient-1-m {
+    background: var(--near-black);
+    background: linear-gradient(to bottom, var(--near-black) 50%, var(--dark-gray) 100%);
+  }
+
+  .bg-light-gray-gradient-1-m {
+    background: var(--white);
+    background: linear-gradient(1deg, var(--white), var(--light-gray));
+  }
+
+}
+
+@media (--breakpoint-large) {
+  .bg-near-black-gradient-1-l {
+    background: var(--near-black);
+    background: linear-gradient(to bottom, var(--near-black) 50%, var(--dark-gray) 100%);
+  }
+
+  .bg-light-gray-gradient-1-l {
+    background: var(--white);
+    background: linear-gradient(1deg, var(--white), var(--light-gray));
+  }
+
+}
