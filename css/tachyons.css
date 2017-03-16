@@ -789,6 +789,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
      -l  = large
 
 */
+.anti-aliased { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 .i { font-style: italic; }
 .fs-normal { font-style: normal; }
 /*
