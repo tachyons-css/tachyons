@@ -4,8 +4,8 @@
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 
@@ -60,6 +60,7 @@
 .dark-green { color: var(--dark-green); }
 .green { color: var(--green); }
 .light-green { color: var(--light-green); }
+.teal { color: var(--teal); }
 .navy { color: var(--navy); }
 .dark-blue { color: var(--dark-blue); }
 .blue { color: var(--blue); }
@@ -123,6 +124,7 @@
 .bg-dark-green { background-color: var(--dark-green); }
 .bg-green { background-color: var(--green); }
 .bg-light-green { background-color: var(--light-green); }
+.bg-teal { background-color: var(--teal); }
 .bg-navy { background-color: var(--navy); }
 .bg-dark-blue { background-color: var(--dark-blue); }
 .bg-blue { background-color: var(--blue); }

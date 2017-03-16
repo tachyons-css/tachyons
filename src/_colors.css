@@ -12,14 +12,14 @@
 
 :root {
   --black: #000;
-  --near-black: #111;
-  --dark-gray:#333;
-  --mid-gray:#555;
-  --gray: #777;
+  --near-black: #222;
+  --dark-gray:#4a4a4a;
+  --mid-gray:#666;
+  --gray: #888;
   --silver: #999;
   --light-silver: #aaa;
   --moon-gray: #ccc;
-  --light-gray: #eee;
+  --light-gray: #e0e0e0;
   --near-white: #f9f9f9;
   --white: #fff;
 
@@ -54,21 +54,22 @@
   --dark-red:  #b12419;
   --red:  #d52b1e;
   --light-red:  #ff725c;
-  --orange:  #ff6300;
+  --orange:  #E85A00;
   --gold:  #e08a00;
   --yellow:  #ffd700;
   --light-yellow:  #fbf1a9;
-  --purple:  #5e2ca5;
+  --purple:  #6E3D99;
   --light-purple:  #a463f2;
-  --dark-pink:  #d5008f;
+  --dark-pink:  #D40965;
   --hot-pink: #ff41b4;
   --pink:  #ff80cc;
   --light-pink:  #ffa3d7;
-  --dark-green:  #23a063;
+  --dark-green:  #156E02;
   --green:  #2ac278;
   --light-green:  #52d87c;
+  --teal:  #06807E;
   --navy:  #001b44;
-  --dark-blue:  #0270a2;
+  --dark-blue:  #185B9D;
   --blue:  #038cca;
   --light-blue:  #96ccff;
   --lightest-blue:  #cdecff;
