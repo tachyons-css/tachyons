@@ -72,6 +72,7 @@
 .b--dark-green { border-color: var(--dark-green); }
 .b--green { border-color: var(--green); }
 .b--light-green { border-color: var(--light-green); }
+.b--teal { border-color: var(--teal); }
 .b--navy { border-color: var(--navy); }
 .b--dark-blue { border-color: var(--dark-blue); }
 .b--blue { border-color: var(--blue); }
