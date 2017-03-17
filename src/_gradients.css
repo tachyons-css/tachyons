@@ -19,6 +19,11 @@
   background: linear-gradient(1deg, var(--white), var(--light-gray));
 }
 
+.bg-light-gray-gradient-2 {
+  background:  var(--white);
+  background: linear-gradient(to bottom, var(--white), var(--light-gray));
+}
+
 @media (--breakpoint-not-small) {
   .bg-near-black-gradient-1-ns {
     background: var(--near-black);
@@ -28,6 +33,11 @@
   .bg-light-gray-gradient-1-ns {
     background: var(--white);
     background: linear-gradient(1deg, var(--white), var(--light-gray));
+  }
+
+  .bg-light-gray-gradient-2-ns {
+    background:  var(--white);
+    background: linear-gradient(to bottom, var(--white), var(--light-gray));
   }
 
 }
@@ -43,6 +53,11 @@
     background: linear-gradient(1deg, var(--white), var(--light-gray));
   }
 
+  .bg-light-gray-gradient-2-m {
+    background:  var(--white);
+    background: linear-gradient(to bottom, var(--white), var(--light-gray));
+  }
+
 }
 
 @media (--breakpoint-large) {
@@ -54,6 +69,11 @@
   .bg-light-gray-gradient-1-l {
     background: var(--white);
     background: linear-gradient(1deg, var(--white), var(--light-gray));
+  }
+
+  .bg-light-gray-gradient-2-l {
+    background:  var(--white);
+    background: linear-gradient(to bottom, var(--white), var(--light-gray));
   }
 
 }
