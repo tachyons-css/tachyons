@@ -25,7 +25,7 @@
   .outline-0-m { outline: 0; }
 }
 
-@media (--breakpoint-medium) {
+@media (--breakpoint-large) {
   .outline-l { outline: 1px solid; }
   .outline-transparent-l { outline: 1px solid transparent; }
   .outline-0-l { outline: 0; }
