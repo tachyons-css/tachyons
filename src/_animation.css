@@ -1,0 +1,28 @@
+/*
+
+   ANIMATION
+
+*/
+
+.animate-2s {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.spin {
+  animation-name: spin;
+  transform-origin: 50% 50% 0;
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}

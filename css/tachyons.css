@@ -2002,6 +2002,23 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .nested-links a:focus { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
 /*
 
+   ANIMATION
+
+*/
+.animate-2s { -webkit-animation-duration: 2s; animation-duration: 2s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.infinite { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+.linear { -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+.spin { -webkit-animation-name: spin; animation-name: spin; -webkit-transform-origin: 50% 50% 0; transform-origin: 50% 50% 0; }
+@-webkit-keyframes spin {
+ from { -webkit-transform: rotate( 0deg ); transform: rotate( 0deg ); }
+ to { -webkit-transform: rotate( 360deg ); transform: rotate( 360deg ); }
+}
+@keyframes spin {
+ from { -webkit-transform: rotate( 0deg ); transform: rotate( 0deg ); }
+ to { -webkit-transform: rotate( 360deg ); transform: rotate( 360deg ); }
+}
+/*
+
   STYLES
 
   Add custom styles here.
