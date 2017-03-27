@@ -42,8 +42,8 @@
 .mw5  {  max-width: 16rem; }
 .mw6  {  max-width: 32rem; }
 .mw7  {  max-width: 48rem; }
-.mw8  {  max-width: 64rem; }
-.mw9  {  max-width: 96rem; }
+.mw8  {  max-width: 75rem; }
+.mw9  {  max-width: 86rem; }
 
 /* Max Width String Properties */
 
@@ -59,8 +59,8 @@
   .mw5-ns  {  max-width: 16rem; }
   .mw6-ns  {  max-width: 32rem; }
   .mw7-ns  {  max-width: 48rem; }
-  .mw8-ns  {  max-width: 64rem; }
-  .mw9-ns  {  max-width: 96rem; }
+  .mw8-ns  {  max-width: 75rem; }
+  .mw9-ns  {  max-width: 86rem; }
 
   .mw-none-ns { max-width: none; }
 }
@@ -75,8 +75,8 @@
   .mw5-m  {  max-width: 16rem; }
   .mw6-m  {  max-width: 32rem; }
   .mw7-m  {  max-width: 48rem; }
-  .mw8-m  {  max-width: 64rem; }
-  .mw9-m  {  max-width: 96rem; }
+  .mw8-m  {  max-width: 75rem; }
+  .mw9-m  {  max-width: 86rem; }
 
   .mw-none-m { max-width: none; }
 }
@@ -91,8 +91,8 @@
   .mw5-l  {  max-width: 16rem; }
   .mw6-l  {  max-width: 32rem; }
   .mw7-l  {  max-width: 48rem; }
-  .mw8-l  {  max-width: 64rem; }
-  .mw9-l  {  max-width: 96rem; }
+  .mw8-l  {  max-width: 75rem; }
+  .mw9-l  {  max-width: 86rem; }
 
   .mw-none-l { max-width: none; }
 }
