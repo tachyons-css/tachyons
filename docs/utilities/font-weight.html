@@ -1,0 +1,147 @@
+---
+layout: design-system
+title: Font Weight
+permalink: /font-weight/
+---
+<article class="mv4">
+  {% include title.html text=page.title %}
+  <p class="measure f4 lh-copy">
+    Single purpose classes to set the font-weight of any element at any breakpoint.
+  </p>
+  <p class="measure f5 lh-copy red">
+    While these utilities are available in the library, Fender currently uses typeface utilities to set weights.
+    See: <a href="/typefaces/" class="blue link dim"> Typefaces</a>
+  </p>
+  <h3 class="f5 fw6 pt4">String Values</h3>
+  <div class="system-sans-serif">
+    <code class="f6 db">
+      .normal
+    </code>
+    <p class="f4 f3-ns normal pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: normal</p>
+    <code class="f6 db">
+    .b
+    </code>
+    <p class="f4 f3-ns b pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: bold</p>
+    <h3 class="f5 fw6 mt4">Number values</h3>
+    <code class="f6 db">
+      .fw1
+    </code>
+    <p class="f4 f3-ns fw2 pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: 100</p>
+    <code class="f6 db">
+      .fw2
+    </code>
+    <p class="f4 f3-ns fw2 pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: 200</p>
+    <code class="f6 db">
+      .fw3
+    </code>
+    <p class="f4 f3-ns fw3 pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: 300</p>
+    <code class="f6 db">
+      .fw4
+    </code>
+    <p class="f4 f3-ns fw4 pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: 400</p>
+    <code class="f6 db">
+      .fw5
+    </code>
+    <p class="f4 f3-ns fw5 pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: 500</p>
+    <code class="f6 db">
+      .fw6
+    </code>
+    <p class="f4 f3-ns fw6 pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: 600</p>
+    <code class="f6 db">
+      .fw7
+    </code>
+    <p class="f4 f3-ns fw7 pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: 700</p>
+    <code class="f6 db">
+      .fw8
+    </code>
+    <p class="f4 f3-ns fw8 pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: 800</p>
+    <code class="f6 db">
+      .fw9
+    </code>
+    <p class="f4 f3-ns fw9 pl3 pl4-ns bl bw2 b--black-10 mb5">Font-weight: 900</p>
+  </div>
+  {% include reference-button.html url="http://cssreference.io/property/font-weight/" %}
+<pre>
+<code class="f7">
+/*
+   FONT WEIGHT
+
+   Base
+     fw = font-weight
+
+   Modifiers:
+     1 = literal value 100
+     2 = literal value 200
+     3 = literal value 300
+     4 = literal value 400
+     5 = literal value 500
+     6 = literal value 600
+     7 = literal value 700
+     8 = literal value 800
+     9 = literal value 900
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.normal { font-weight: normal; }
+.b      { font-weight: bold; }
+.fw1    { font-weight: 100; }
+.fw2    { font-weight: 200; }
+.fw3    { font-weight: 300; }
+.fw4    { font-weight: 400; }
+.fw5    { font-weight: 500; }
+.fw6    { font-weight: 600; }
+.fw7    { font-weight: 700; }
+.fw8    { font-weight: 800; }
+.fw9    { font-weight: 900; }
+
+
+@media (--breakpoint-not-small) {
+  .normal-ns { font-weight: normal; }
+  .b-ns      { font-weight: bold; }
+  .fw1-ns    { font-weight: 100; }
+  .fw2-ns    { font-weight: 200; }
+  .fw3-ns    { font-weight: 300; }
+  .fw4-ns    { font-weight: 400; }
+  .fw5-ns    { font-weight: 500; }
+  .fw6-ns    { font-weight: 600; }
+  .fw7-ns    { font-weight: 700; }
+  .fw8-ns    { font-weight: 800; }
+  .fw9-ns    { font-weight: 900; }
+}
+
+@media (--breakpoint-medium) {
+  .normal-m { font-weight: normal; }
+  .b-m      { font-weight: bold; }
+  .fw1-m    { font-weight: 100; }
+  .fw2-m    { font-weight: 200; }
+  .fw3-m    { font-weight: 300; }
+  .fw4-m    { font-weight: 400; }
+  .fw5-m    { font-weight: 500; }
+  .fw6-m    { font-weight: 600; }
+  .fw7-m    { font-weight: 700; }
+  .fw8-m    { font-weight: 800; }
+  .fw9-m    { font-weight: 900; }
+}
+
+@media (--breakpoint-large) {
+  .normal-l { font-weight: normal; }
+  .b-l      { font-weight: bold; }
+  .fw1-l    { font-weight: 100; }
+  .fw2-l    { font-weight: 200; }
+  .fw3-l    { font-weight: 300; }
+  .fw4-l    { font-weight: 400; }
+  .fw5-l    { font-weight: 500; }
+  .fw6-l    { font-weight: 600; }
+  .fw7-l    { font-weight: 700; }
+  .fw8-l    { font-weight: 800; }
+  .fw9-l    { font-weight: 900; }
+}
+
+</code>
+</pre>
+</article>

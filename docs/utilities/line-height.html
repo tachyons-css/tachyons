@@ -1,0 +1,80 @@
+---
+layout: design-system
+title: Line Height
+permalink: /line-height/
+---
+<article class="mv4">
+  {% include title.html text=page.title %}
+  <p class="measure f5 lh-copy">
+    <b>lead</b> <i>[rhyming with red]:</i> <br> Originally a strip of soft metal used for vertical spacing between lines of type. Now meaning the vertical distance from the baseline of one line to the baseline of the next. Also called <b class="fw6">leading</b>.
+  </p>
+  <p class="measure lh-copy">
+    Line-height affects how easy it is to read a piece of text, so having a well constructed set of values can help make your text easier to read, increasing the chances that people will read it. Tachyons provides classes to set text at three common line-height
+    values. 1.5 for body copy, 1.25 for titles, and 1 for text that doesn't wrap.
+  </p>
+  <h3 class="f5 mb4 pb2 bb">Examples</h3>
+  <div class="mb4">
+    <h4 class="f5">None (default)</h4>
+    <p class="measure">
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+      sanctus est Lorem ipsum dolor sit amet.
+    </p>
+  </div>
+  <code class="f6">.lh-copy</code>
+  <p class="measure lh-copy">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+    sanctus est Lorem ipsum dolor sit amet.
+  </p>
+  <h3 class="f6 mt5">No Title Leading (Default)</h3>
+  <h4 class="measure-narrow ttu mt2 f1">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  </h4>
+  <code class="f6">.lh-title</code>
+  <h4 class="measure-narrow lh-title ttu f1 mt2">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  </h4>
+  <h3 class="f6">Solid Leading (1)</h3>
+  <code class="f6">.lh-solid</code>
+  <h4 class="lh-solid f2 f-subheadline-l mt0">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  </h4>
+
+  {% include reference-button.html url="http://cssreference.io/property/line-height/" %}
+<pre>
+<code class="f7">
+/*
+
+   LINE HEIGHT / LEADING
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+  .lh-solid { line-height: 1; }
+  .lh-title { line-height: 1.25; }
+  .lh-copy  { line-height: 1.5; }
+
+@media (--breakpoint-not-small) {
+  .lh-solid-ns { line-height: 1; }
+  .lh-title-ns { line-height: 1.25; }
+  .lh-copy-ns  { line-height: 1.5; }
+}
+
+@media (--breakpoint-medium) {
+  .lh-solid-m { line-height: 1; }
+  .lh-title-m { line-height: 1.25; }
+  .lh-copy-m  { line-height: 1.5; }
+}
+
+@media (--breakpoint-large) {
+  .lh-solid-l { line-height: 1; }
+  .lh-title-l { line-height: 1.25; }
+  .lh-copy-l  { line-height: 1.5; }
+}
+</code>
+</pre>
+
+</article>
