@@ -1,8 +1,305 @@
 ---
 layout: design-system
-title: Grid
+title: Grid (Floats)
 permalink: /grid/
 ---
 <article class="mv4">
   {% include title.html text=page.title %}
+  <p class="measure lh-copy">
+    You can combine display, float, padding, and widths to contstruct a wide variedy of fluid grids.
+  </p>
+
+  <p class="measure lh-copy">
+    Floats may be set on any element, but it will only affect elements
+    that aren't absolutely positioned. When you float an element
+    you inherently set its display to block.
+  </p>
+  <p class="measure lh-copy">
+    There are only three values that can be declared for float: left, right, or none. These three base classes are very easy to memorize: fl, fr, fn.
+  </p>
+   <h3 class="f5 code">.fl</h3>
+   <div class="cf">
+     <div class="fl bg-black-05">Float Left</div>
+   </div>
+   <h3 class="f5 code">.fr</h3>
+   <div class="cf">
+     <div class="fr bg-black-05">Float Right</div>
+   </div>
+   <h3 class="f5 code">.fn</h3>
+   <div class="fn bg-black-05 mb4">Float None</div>
+
+   {% include css-reference-header.html
+     title="Clears"
+     url="http://cssreference.io/property/clear/"
+   %}
+
+   <p class="measure lh-copy">
+     When floats are used for layouts - they need a clearfix solution. This helps prevent
+     layout problems caused by the elements being removed from the block context of the
+     surrounding elements.
+   </p>
+
+   <p class="measure lh-copy">
+     This example shows two floated elements wrapped in an element with a 4px solid red border.
+     In the top version where the floats are cleared, the red element wraps around the elements.
+     In the second example - the parent element is collapsed and the two floated elements sit outside of it.
+     It should be noted you don't have to clear floated elements that are inside another floated element.
+   </p>
+   <div class="cf" style="outline: 8px solid red;">
+     <div class="fl w-50 pv4" style="background: rgba(0,20,120,.6)"></div>
+     <div class="fl w-50 pv4" style="background: rgba(0,50,80,.6)"></div>
+   </div>
+   <h3 class="f6">UnCleared Floats</h3>
+   <div style="outline: 8px solid red;">
+     <div class="fl w-50 pv4" style="background: rgba(0,20,120,.6)"></div>
+     <div class="fl w-50 pv4" style="background: rgba(0,50,80,.6)"></div>
+   </div>
+  <div class="cf"></div>
+
+  <h4 class="f6 mt4">Fixed Columns</h4>
+  <section class="cf pv2">
+    <div class="fl w-100 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-100 pa2</code></div>
+    </div>
+    <div class="fl w-90 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-90 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-80 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-80 pa2</code></div>
+    </div>
+    <div class="fl w-20 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
+    </div>
+    <div class="fl w-75 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-75 pa2</code></div>
+    </div>
+    <div class="fl w-25 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
+    </div>
+    <div class="fl w-70 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-70 pa2</code></div>
+    </div>
+    <div class="fl w-30 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-30 pa2</code></div>
+    </div>
+    <div class="fl w-60 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-60 pa2</code></div>
+    </div>
+    <div class="fl w-40 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-40 pa2</code></div>
+    </div>
+    <div class="fl w-50 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-50 pa2</code></div>
+    </div>
+    <div class="fl w-50 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-50 pa2</code></div>
+    </div>
+    <div class="fl w-third pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-third pa2</code></div>
+    </div>
+    <div class="fl w-third pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-third pa2</code></div>
+    </div>
+    <div class="fl w-third pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-third pa2</code></div>
+    </div>
+    <div class="fl w-third pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-third pa2</code></div>
+    </div>
+    <div class="fl w-two-thirds pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-two-thirds pa2</code></div>
+    </div>
+    <div class="fl w-25 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
+    </div>
+    <div class="fl w-25 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
+    </div>
+    <div class="fl w-25 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
+    </div>
+    <div class="fl w-25 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
+    </div>
+    <div class="fl w-20 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
+    </div>
+    <div class="fl w-20 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
+    </div>
+    <div class="fl w-20 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
+    </div>
+    <div class="fl w-20 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
+    </div>
+    <div class="fl w-20 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+    <div class="fl w-10 pa2">
+      <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
+    </div>
+  </section>
+  <h4 class="f6 mb2">Two Columns - Collapsing</h4>
+
+  <code class="f6 pre">
+&lt;div class="cf"&gt;
+  &lt;div class="fl w-100 w-50-ns pa2"&gt;
+    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-100 w-50-ns pa2"&gt;
+    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  </code>
+  <div class="cf">
+    <div class="fl w-100 w-50-ns pa2">
+      <div class="outline bg-white tc pv4"></div>
+    </div>
+    <div class="fl w-100 w-50-ns pa2">
+      <div class="outline bg-white tc pv4"></div>
+    </div>
+  </div>
+  <h4 class="f6 mb2">Three Columns - Collapse to Single</h4>
+  <code class="f6 pre">
+&lt;div class="cf"&gt;
+  &lt;div class="fl w-100 w-third-ns pa2"&gt;
+    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-100 w-third-ns pa2"&gt;
+    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-100 w-third-ns pa2"&gt;
+    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  </code>
+  <div class="cf">
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+  </div>
+  <h4 class="f6 mb2">Three Columns - Collapse to Mixed</h4>
+  <code class="f6 pre">
+  &lt;div class="cf"&gt;
+    &lt;div class="fl w-100 w-third-ns pa2"&gt;
+      &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="fl w-50 w-third-ns pa2"&gt;
+      &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="fl w-50 w-third-ns pa2"&gt;
+      &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  </code>
+  <div class="cf">
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white tc pv4"></div>
+    </div>
+    <div class="fl w-50 w-third-ns pa2">
+      <div class="outline bg-white tc pv4"></div>
+    </div>
+    <div class="fl w-50 w-third-ns pa2">
+      <div class="outline bg-white tc pv4"></div>
+    </div>
+  </div>
+  <h4 class="f6 mb2">Four Columns - Collapse to single</h4>
+  <code class="f6 pre">
+&lt;div class="cf"&gt;
+  &lt;div class="fl w-100 w-25-ns pa2"&gt;
+    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-100 w-25-ns pa2"&gt;
+    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-100 w-25-ns pa2"&gt;
+    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="fl w-100 w-25-ns pa2"&gt;
+    &lt;div class="outline bg-white pv4"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  </code>
+  <div class="cf">
+    <div class="fl w-100 w-25-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-25-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-25-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-25-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+  </div>
+  <h4 class="f6 mb2">Four Columns - Collapse to Mixed</h4>
+  <code class="f6 pre">
+&lt;div class="cf"&gt;
+&lt;div class="fl w-100 w-25-ns pa2"&gt;
+  &lt;div class="outline bg-white tc pv4"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="fl w-third w-25-ns pa2"&gt;
+  &lt;div class="outline bg-white tc pv4"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="fl w-third w-25-ns pa2"&gt;
+  &lt;div class="outline bg-white tc pv4"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="fl w-third w-25-ns pa2"&gt;
+  &lt;div class="outline bg-white tc pv4"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+  </code>
+  <div class="cf">
+    <div class="fl w-100 w-25-ns pa2">
+      <div class="outline bg-white tc pv4"></div>
+    </div>
+    <div class="fl w-third w-25-ns pa2">
+      <div class="outline bg-white tc pv4"></div>
+    </div>
+    <div class="fl w-third w-25-ns pa2">
+      <div class="outline bg-white tc pv4"></div>
+    </div>
+    <div class="fl w-third w-25-ns pa2">
+      <div class="outline bg-white tc pv4"></div>
+    </div>
+  </div>
 </article>

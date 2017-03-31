@@ -5,18 +5,18 @@ permalink: /media-queries/
 ---
 <article class="mv4">
   {% include title.html text=page.title %}
-  <p class="measure-wide lh-copy">
-    This is a mobile first library, so the classes you first apply to an element should be the styles for mobile devices. Responsive Designs are achieved with each CSS class defaulting to mobile screens, and then responsive class suffix flags to change the styles across the 3 Media Queries.
-  <p>
-  <p class="measure-wide lh-copy">
-    Nearly every class in the library has these modifiers.
+  <p class="measure lh-copy">
+    This is a mobile first library, so the classes you apply to an element should be the styles for mobile sizes. Responsive Designs are achieved with class suffix flags to change the styles across our 3 Media Queries. Nearly every class in the library has these modifiers.
   <p>
 
   <h3 class="f5 code">
     -ns
   </h3>
-  <p class="measure-wide lh-copy">
-    the first suffix stands for "NOT SMALL", which means everything BUT the phone. Often our designs look good on both Medium (Tablet) and Large (Desktop) screens, so we add this suffix to the style that needs to be on M and Large screens.
+  <p class="measure lh-copy">
+    The first suffix stands for "NOT SMALL", which means everything BUT the phone.
+  <p>
+  <p class="measure lh-copy">
+    Often our designs look good on both Medium (Tablet) and Large (Desktop) screens, so we add this suffix to the style that needs to be on Medium and Large screens.
   <p>
 
 <pre>
@@ -30,16 +30,24 @@ permalink: /media-queries/
   <h3 class="f5 code">
     -m
   <h3>
-  <p class="measure-wide lh-copy">
-    Sometimes you need something to change between tablet and desktop, and that's what the media <span class="code">-m</span> suffix is for.
+  <p class="measure lh-copy">
+    Sometimes you need something to change between tablet and desktop, and that's what the media -m suffix is for.
   <p>
 
   <h3 class="f5 code">
     -l
   <h3>
-  <p class="measure-wide lh-copy">
-    Finally the <span class="code">-l</span> suffix will render the class only on desktop or larger screens.
+  <p class="measure lh-copy">
+    Finally the -l suffix will render the class only on desktop or larger screens.
   <p>
+
+<pre>
+<code class="f7 code">
+&lt;h1 class="f4 f2-m f1-l"&gt;
+  This header defaults to font scale 4 on mobile, 2 on tablets and 3 on desktop
+&lt;/h1&gt;
+</code>
+</pre>
 
 <pre>
 <code class="f7 code">

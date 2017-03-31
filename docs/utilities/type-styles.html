@@ -5,24 +5,20 @@ permalink: /type-styles/
 ---
 <article class="mv4">
   {% include title.html text=page.title %}
-  <h3 class="measure f5 lh-copy">
+  <p class="measure lh-copy">
     Single purpose classes to set the font-style of any element at any breakpoint.
-  </h3>
+  </p>
 
-  <div class="inline-flex items-center">
-    <p class="measure f4 lh-copy">
-      Font Style
-    </p>
-    <div class="ml3">
-      {% include reference-button.html url="http://cssreference.io/property/font-style/"%}
-    </div>
-  </div>
+  {% include css-reference-header.html
+    title="Font Style"
+    url="http://cssreference.io/property/font-style/"
+  %}
 
   <div class="mb4">
     <code class="f6">
       .i
     </code>
-    <p class="i mb4">
+    <p class="i mb4 measure lh-copy">
       Readers want what is important to be clearly laid out; they will not read what is too troublesome.
     </p>
     <code class="f6">
@@ -34,14 +30,10 @@ permalink: /type-styles/
   </div>
 
 
-<div class="inline-flex items-center">
-  <p class="measure f4 lh-copy">
-    Text Align
-  </p>
-  <div class="ml3">
-    {% include reference-button.html url="http://cssreference.io/property/text-align/"%}
-  </div>
-</div>
+  {% include css-reference-header.html
+    title="Text Align"
+    url="http://cssreference.io/property/text-align/"
+  %}
 
 <div class="mb4">
   <code class="f6">.tl</code>
@@ -58,14 +50,10 @@ permalink: /type-styles/
   </p>
 </div>
 
-<div class="inline-flex items-center">
-  <p class="measure f4 lh-copy">
-    Text Transform
-  </p>
-  <div class="ml3">
-    {% include reference-button.html url="http://cssreference.io/property/text-transform/"%}
-  </div>
-</div>
+{% include css-reference-header.html
+  title="Text Transform"
+  url="http://cssreference.io/property/text-transform/"
+%}
 
 <div class="mb4">
   <code class="f6">.ttu</code>
@@ -82,14 +70,10 @@ permalink: /type-styles/
   </p>
 </div>
 
-<div class="inline-flex items-center">
-  <p class="measure f4 lh-copy">
-    Text Decoration
-  </p>
-  <div class="ml3">
-    {% include reference-button.html url="http://cssreference.io/property/text-decoration/"%}
-  </div>
-</div>
+{% include css-reference-header.html
+  title="Text Decoration"
+  url="http://cssreference.io/property/text-decoration/"
+%}
 
 <div class="mb4">
   <code class="f6">.no-underline</code>
@@ -111,7 +95,7 @@ permalink: /type-styles/
   <div class="w-25 h5 bg-black flex flex-column items-center justify-center">
     <div class="tc">
       <h3 class="f1 anti-aliased futura-heavy white ma1">.anti-aliased</h3>
-      <h3 class="f1 futura-heavy white ma1">subpixel rendering</h3>
+      <h3 class="f1 futura-heavy white ma1">subpixel</h3>
     </div>
   </div>
 </div>

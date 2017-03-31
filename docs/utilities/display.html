@@ -1,0 +1,111 @@
+---
+layout: design-system
+title: Display
+permalink: /display/
+---
+<article class="mv4">
+  {% include title.html text=page.title %}
+  <p class="measure lh-copy">
+    Single purpose classes for setting the display of an element at any breakpoint.
+  </p>
+  {% include css-reference-header.html
+    url="http://cssreference.io/property/dislpay/"
+  %}
+  <h3 class="f5 pt4">Block</h3>
+<code class="f6 db">
+  .db { display: block; }
+</code>
+<code class="f6">
+&lt;span class="db"&gt;&lt;/span&gt;
+</code>
+  <p class="measure lh-copy">Block will inherently set width to 100% of its parent element. It will also cause a line break, even if the declared width doesn't take up the full width of the parent.</p>
+  <div class="db bg-black-10 mb2">
+    block
+  </div>
+  <div class="db bg-black-10 mb2 mw4">
+    block
+  </div>
+
+  <h3 class="f5 pt4">Inline-Block</h3>
+  <code class="f6 db">.dib { display: inline-block; }</code>
+  <code class="f6">
+            &lt;span class="dib"&gt;&lt;/span&gt;
+          </code>
+  <p class="measure lh-copy">
+    Inline-block will wrap around content inline. It also allows you to set height and width properties on the element, which display inline does not allow you to do. It does render the white-space inbeween elements, so if you set width: 25% to four elements
+    they will not just render as a 4 column layout by default.
+  </p>
+  <div class="dib bg-black-10 mb2">
+    display: inline-block
+  </div>
+  <div class="dib bg-black-10 mb2">
+    display: inline-block
+  </div>
+  <div class="dib bg-black-10 mb2">
+    display: inline-block
+  </div>
+  <div class="dib bg-black-10 mb2">
+    display: inline-block
+  </div>
+
+  <h3 class="f5 pt4">Inline</h3>
+  <code class="f6 db">.di { display: inline; }</code>
+  <code class="f6">
+            &lt;div class="di"&gt;&lt;/div&gt;
+          </code>
+  <p class="measure lh-copy">
+    Set content inline. Inline doesn't respect height or width values. It does not render white space between elements.
+  </p>
+  <div class="di bg-black-10 mb2">
+    display: inline
+  </div>
+  <div class="di bg-black-10 mb2">
+    display: inline
+  </div>
+  <div class="di bg-black-10 mb2">
+    display: inline
+  </div>
+  <div class="di bg-black-10 mb2">
+    display: inline
+  </div>
+
+  <h3 class="f5">Table</h3>
+  <code class="f6 db">.dt { display: table; } <br> .dtc { display: table-cell; } </code>
+  <code class="f6">
+            &lt;div class="dt"&gt;<br>
+            &nbsp;&nbsp;  &lt;div class="dtc"&gt;&lt;/div&gt;<br>
+            &nbsp;&nbsp;  &lt;div class="dtc"&gt;&lt;/div&gt;<br>
+            &lt;/div&gt;
+          </code>
+  <p class="measure lh-copy">
+    The display table can be combined with display table-cell to render a table without table markup. This can be useful for vertically aligning content or for auto-calculating a variable number of table cells. To auto-calculate even widths for all cells,
+    you must extend display table with <code>.dt--fixed</code> to set table-layout: fixed.
+  </p>
+  <div class="dt bg-black-10 mb2 w-100">
+    <div class="dtc v-mid pa1 bg-black-10">display</div>
+    <div class="dtc v-mid pa1 bg-black-20">table</div>
+    <div class="dtc v-mid pa1 bg-black-10">will automatically</div>
+    <div class="dtc v-mid pa1 bg-black-20">compute cell width</div>
+  </div>
+  <h3 class="f5 pt4">Table</h3>
+  <code class="f6">
+            &lt;div class="dt dt--fixed w-100"&gt;<br>
+            &nbsp;&nbsp;  &lt;div class="dtc"&gt;&lt;/div&gt;<br>
+            &nbsp;&nbsp;  &lt;div class="dtc"&gt;&lt;/div&gt;<br>
+            &lt;/div&gt;
+          </code>
+  <div class="dt dt--fixed bg-black-10 mb2 w-100">
+    <div class="dtc v-mid pa1 bg-black-10">display table</div>
+    <div class="dtc v-mid pa1 bg-black-20">with table-layout: fixed</div>
+    <div class="dtc v-mid pa1 bg-black-10">will automatically</div>
+    <div class="dtc v-mid pa1 bg-black-20">make every cell the same width regardless of the content</div>
+  </div>
+  <h3 class="f5 pt4">None</h3>
+  <code class="f6 db">.dn { display: none; }</code>
+  <code class="f6">
+            &lt;div class="dn"&gt;&lt;/div&gt;
+          </code>
+  <p class="measure lh-copy">
+    You can set the display of any element to none by tacking on the <code class="code">dn</code> class.
+  </p>
+</article>
