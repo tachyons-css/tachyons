@@ -5,6 +5,10 @@ permalink: /grayscale/
 ---
 <article class="mv4">
   {% include title.html text=page.title %}
+  <div class="mv4 f5">
+    <p>Colors can be applied to backgrounds of an element with the .bg prefix, or can apply color to the text of the element with just its name.</p>
+    <p>Black and white opacities are similar, but their convention is their name, with the level of opacity.
+  </div>
   <table class="border-collapse w-100" cellspacing="0" cellpadding="0">
     <tbody class="black-60">
       <tr>
@@ -166,39 +170,61 @@ permalink: /grayscale/
   </table>
 <pre>
 <code class="f7 lh-copy">
---black: #000;
---near-black: #222;
---dark-gray:#4a4a4a;
---mid-gray:#666;
---gray: #888;
---silver: #999;
---light-silver: #aaa;
---moon-gray: #ccc;
---light-gray: #e0e0e0;
---near-white: #f9f9f9;
---white: #fff;
+.bg-black {         background-color: var(--black); }
+.bg-near-black {    background-color: var(--near-black); }
+.bg-dark-gray {     background-color: var(--dark-gray); }
+.bg-mid-gray {      background-color: var(--mid-gray); }
+.bg-gray {          background-color: var(--gray); }
+.bg-silver  {       background-color: var(--silver); }
+.bg-light-silver {  background-color: var(--light-silver); }
+.bg-moon-gray {     background-color: var(--moon-gray); }
+.bg-light-gray {    background-color: var(--light-gray); }
+.bg-near-white {    background-color: var(--near-white); }
+.bg-white {         background-color: var(--white); }
+.bg-transparent {   background-color: var(--transparent); }
 
---black-90: rgba(0,0,0,.9);
---black-80: rgba(0,0,0,.8);
---black-70: rgba(0,0,0,.7);
---black-60: rgba(0,0,0,.6);
---black-50: rgba(0,0,0,.5);
---black-40: rgba(0,0,0,.4);
---black-30: rgba(0,0,0,.3);
---black-20: rgba(0,0,0,.2);
---black-10: rgba(0,0,0,.1);
---black-05: rgba(0,0,0,.05);
+.black-90 { color: var(--black-90); }
+.black-80 { color: var(--black-80); }
+.black-70 { color: var(--black-70); }
+.black-60 { color: var(--black-60); }
+.black-50 { color: var(--black-50); }
+.black-40 { color: var(--black-40); }
+.black-30 { color: var(--black-30); }
+.black-20 { color: var(--black-20); }
+.black-10 { color: var(--black-10); }
+.black-05 { color: var(--black-05); }
 
---white-90: rgba(255,255,255,.9);
---white-80: rgba(255,255,255,.8);
---white-70: rgba(255,255,255,.7);
---white-60: rgba(255,255,255,.6);
---white-50: rgba(255,255,255,.5);
---white-40: rgba(255,255,255,.4);
---white-30: rgba(255,255,255,.3);
---white-20: rgba(255,255,255,.2);
---white-10: rgba(255,255,255,.1);
+.bg-black-90 { background-color: var(--black-90); }
+.bg-black-80 { background-color: var(--black-80); }
+.bg-black-70 { background-color: var(--black-70); }
+.bg-black-60 { background-color: var(--black-60); }
+.bg-black-50 { background-color: var(--black-50); }
+.bg-black-40 { background-color: var(--black-40); }
+.bg-black-30 { background-color: var(--black-30); }
+.bg-black-20 { background-color: var(--black-20); }
+.bg-black-10 { background-color: var(--black-10); }
+.bg-black-05 { background-color: var(--black-05); }
 
+
+.bg-white-90 {background-color: var(--white-90); }
+.bg-white-80 {background-color: var(--white-80); }
+.bg-white-70 {background-color: var(--white-70); }
+.bg-white-60 {background-color: var(--white-60); }
+.bg-white-50 {background-color: var(--white-50); }
+.bg-white-40 {background-color: var(--white-40); }
+.bg-white-30 {background-color: var(--white-30); }
+.bg-white-20 {background-color: var(--white-20); }
+.bg-white-10 {background-color: var(--white-10); }
+
+.white-90 { color: var(--white-90); }
+.white-80 { color: var(--white-80); }
+.white-70 { color: var(--white-70); }
+.white-60 { color: var(--white-60); }
+.white-50 { color: var(--white-50); }
+.white-40 { color: var(--white-40); }
+.white-30 { color: var(--white-30); }
+.white-20 { color: var(--white-20); }
+.white-10 { color: var(--white-10); }
 </code>
 </pre>
 </article>

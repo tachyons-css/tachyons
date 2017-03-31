@@ -1,49 +1,93 @@
 ---
 layout: design-system
-title: Fender Design System
+title: Design System
 permalink: /home/
 ---
 <article class="mv4">
   {% include title.html text=page.title %}
-  <p class="measure lh-copy athelas pl2 bn bl-l bw2 b--black-40 mb4">
+  <p class="measure lh-copy athelas f5 pl2 bn bl-l bw2 b--black-40 mb4">
     "an edgeless surface of unknown proportions comprised of small, individual, and variable elements from multiple vantages assembled into a readable whole that documents a moment"
     <span class="db mt4">
       Frank Chimero - <i><a class="blue dim link" href="https://frankchimero.com/writing/the-webs-grain/">The Web's Grain</a></i> (a worthwhile read)</span>
   </p>
-  <p class="measure-wide lh-copy source-sans">
-    In the Fender Design System (based on Tachyons.io), components are styled on the template level with a Declarative CSS system.
+  <p class="measure-wide lh-copy">
+    In our design system (based on Tachyons.io), components are styled on the template level with Declarative CSS.
   </p>
-  <p class="measure-wide lh-copy source-sans">
-    Small, atomic, and reusable CSS classes correspond to well defined and responsive CSS properties based on a 16px REM scaling system. They are composed together to create components and layouts.
+  <p class="measure-wide lh-copy">
+    Small, atomic, and reusable CSS classes correspond to well defined and responsive CSS properties (based on a 16px REM scaling system). They are composed together to quickly and easily create consistent, scalable components and layouts.
   </p>
+
+  <p class="measure-wide lh-copy">
+    Responsive Designs are achieved with each CSS class defaulting to mobile screens, with responsive class suffix flags to change the styles across the 3 Media Queries. See more in <a href="/media-queries/" class="blue dim link">Media Queries</a>.
 
   <h3>Example:</h3>
 <pre class="pa2 bg-near-white overflow-auto">
-  <code class="f8">
-&lt;div class="b--gray ba br-pill flex h2 overflow-hidden w4"&gt;
-  &lt;button class="bn bg-green flex justify-center w-50"&gt;
-    &lt;span class="f7 futura-heavy tracked-light ttu white"&gt;On&lt;/span&gt;
-  &lt;/button&gt;
-  &lt;button class="bn bg-light-gray flex justify-center w-50 shadow-2"&gt;
-    &lt;span class="f7 futura-heavy gray tracked-light ttu"&gt;Off&lt;/span&gt;
-  &lt;/button&gt;
+  <code class="f7 code">
+&lt;div class="toggle-switch"&gt;
+  &lt;div class="b--gray ba br-pill flex h2 overflow-hidden w4"&gt;
+    &lt;button class="bn bg-light-gray shadow-2 w-50 z-1"&gt;
+      &lt;span class="f7 futura-heavy gray tracked-light ttu"&gt;Off&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class="bn bg-green w-50"&gt;
+      &lt;span class="f7 futura-heavy tracked-light ttu white"&gt;On&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
   </code>
 </pre>
 
   <h3>Result:</h3>
 
+<div class="toggle-switch">
   <div class="b--gray ba br-pill flex h2 overflow-hidden w4">
-    <button class="bn bg-green flex justify-center w-50">
-      <span class="f7 futura-heavy tracked-light ttu white">On</span>
-    </button>
-    <button class="bn bg-light-gray flex justify-center w-50 shadow-2">
+    <button class="bn bg-light-gray shadow-2 w-50 z-1">
       <span class="f7 futura-heavy gray tracked-light ttu">Off</span>
     </button>
+    <button class="bn bg-green w-50">
+      <span class="f7 futura-heavy tracked-light ttu white">On</span>
+    </button>
   </div>
+</div>
 
-  <h2 class="mt4">Responsive Design</h2>
-  <p class="measure-wide lh-copy source-sans">
-    Responsive Designs are achieved with each CSS class defaulting to mobile screens, with responsive class suffix flags to change the styles across the 3 Media Queries. See more in <a href="/media-queries/" class="blue dim link">Media Queries</a>.
-  </p>
+<p class="measure-wide lh-copy">
+  So you think about what you want your component to look like, and then declare what properties make up that component.
+</p>
+<p class="measure-wide lh-copy">
+  The outer container div holding our two buttons has a gray border, border all sides, border radius of 'pill', displays it with flexbox, has a height of 2 (2rem = 32px), its overflow is hidden (or ), and a width of 4 (4rem = 64px)
+</p>
+<p class="measure-wide lh-copy">
+  Can you extrapolate what the button and span classes mean?
+</p>
+<p class="measure-wide lh-copy">
+  Then, you can think about what states look like, by figuring out what the differences in properties are.
+</p>
+
+<div class="toggle-switch mt4">
+  <div class="b--gray ba br-pill flex h2 overflow-hidden w4">
+    <button class="bn bg-red w-50">
+      <span class="f7 futura-heavy tracked-light ttu white">Off</span>
+    </button>
+    <button class="bn bg-light-gray shadow-2 w-50 z-1">
+      <span class="f7 futura-heavy tracked-light ttu gray">On</span>
+    </button>
+  </div>
+</div>
+
+<pre class="pa2 bg-near-white overflow-auto">
+  <code class="f8">
+&lt;div class="toggle-switch"&gt;
+  &lt;div class="b--gray ba br-pill flex h2 overflow-hidden w4"&gt;
+    &lt;button class="bn bg-red w-50"&gt;
+      &lt;span class="f7 futura-heavy tracked-light ttu white"&gt;Off&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class="bn bg-light-gray shadow-2 w-50 z-1"&gt;
+      &lt;span class="f7 futura-heavy tracked-light ttu gray"&gt;On&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  </code>
+</pre>
+
+
+
 </article>
