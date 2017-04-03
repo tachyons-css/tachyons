@@ -153,6 +153,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * https://windtoday.co
 * http://claudio.netlify.com
 * http://devday-ar.com
+* http://mrmrs.io/mnml
 * http://mrmrs.io/up
 * http://mrmrs.io/profile/
 * http://mrmrs.io/gradients
@@ -160,7 +161,6 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://mrmrs.io/beats/
 * http://mrmrs.io/writing
 * http://mrmrs.cc
-* http://mn-ml.cc
 * https://fontawesome.com
 
 And of course...

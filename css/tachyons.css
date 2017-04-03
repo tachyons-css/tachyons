@@ -141,7 +141,7 @@ svg:not(:root) { overflow: hidden; }
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-button, input, optgroup, select, textarea { font-family: sans-serif; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
+button, input, optgroup, select, textarea { font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -453,6 +453,7 @@ img { max-width: 100%; }
 .b--washed-yellow { border-color: #fffceb; }
 .b--washed-red { border-color: #ffdfdf; }
 .b--transparent { border-color: transparent; }
+.b--inherit { border-color: inherit; }
 /*
 
    BORDER RADIUS
@@ -1173,6 +1174,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .washed-green { color: #e8fdf5; }
 .washed-yellow { color: #fffceb; }
 .washed-red { color: #ffdfdf; }
+.color-inherit { color: inherit; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
 .bg-black-70 { background-color: rgba( 0, 0, 0, .7 ); }
@@ -1230,6 +1232,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-washed-green { background-color: #e8fdf5; }
 .bg-washed-yellow { background-color: #fffceb; }
 .bg-washed-red { background-color: #ffdfdf; }
+.bg-inherit { background-color: inherit; }
 /* 
   
    SKINS:PSEUDO
@@ -1296,6 +1299,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-white-20:focus { color: rgba( 255, 255, 255, .2 ); }
 .hover-white-10:hover { color: rgba( 255, 255, 255, .1 ); }
 .hover-white-10:focus { color: rgba( 255, 255, 255, .1 ); }
+.hover-inherit:hover, .hover-inherit:focus { color: inherit; }
 .hover-bg-black:hover { background-color: #000; }
 .hover-bg-black:focus { background-color: #000; }
 .hover-bg-near-black:hover { background-color: #111; }
@@ -1456,6 +1460,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-washed-yellow:focus { background-color: #fffceb; }
 .hover-bg-washed-red:hover { background-color: #ffdfdf; }
 .hover-bg-washed-red:focus { background-color: #ffdfdf; }
+.hover-bg-inherit:hover, .hover-bg-inherit:focus { background-color: inherit; }
 /* Variables */
 /*
    SPACING
@@ -1754,6 +1759,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
      4 = 4th step in size scale
      5 = 5th step in size scale
      6 = 6th step in size scale
+     7 = 7th step in size scale
 
    Media Query Extensions:
      -ns = not-small
@@ -1775,6 +1781,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .f4 { font-size: 1.25rem; }
 .f5 { font-size: 1rem; }
 .f6 { font-size: .875rem; }
+.f7 { font-size: .75rem; }
+/* Small and hard to read for many people so use with extreme caution */
 /*
 
    TYPOGRAPHY
@@ -1801,7 +1809,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    UTILITIES
 
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
+/* Equivalent to .overflow-y-scroll */
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
 /*
@@ -1866,8 +1880,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 .dim { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.dim:hover, .dim:focus { opacity: .5; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.dim:active { opacity: .8; -webkit-transition: opacity .15s ease-out; transition: opacity .15s ease-out; }
+.dim:hover, .dim:focus { -webkit-backface-visibility: hidden; backface-visibility: hidden; opacity: .5; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.dim:active { -webkit-backface-visibility: hidden; backface-visibility: hidden; opacity: .8; -webkit-transition: opacity .15s ease-out; transition: opacity .15s ease-out; }
 /*
 
   Animate opacity to 100% on hover by adding the glow class.
@@ -2455,12 +2469,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .f4-ns { font-size: 1.25rem; }
  .f5-ns { font-size: 1rem; }
  .f6-ns { font-size: .875rem; }
+ .f7-ns { font-size: .75rem; }
  .measure-ns { max-width: 30em; }
  .measure-wide-ns { max-width: 34em; }
  .measure-narrow-ns { max-width: 20em; }
  .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-ns { font-variant: small-caps; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+ .center-ns { margin-right: auto; margin-left: auto; }
  .clip-ns { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-ns { white-space: normal; }
  .nowrap-ns { white-space: nowrap; }
@@ -2494,9 +2510,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .outline-m { outline: 1px solid; }
  .outline-transparent-m { outline: 1px solid transparent; }
  .outline-0-m { outline: 0; }
- .outline-l { outline: 1px solid; }
- .outline-transparent-l { outline: 1px solid transparent; }
- .outline-0-l { outline: 0; }
  .ba-m { border-style: solid; border-width: 1px; }
  .bt-m { border-top-style: solid; border-top-width: 1px; }
  .br-m { border-right-style: solid; border-right-width: 1px; }
@@ -2868,12 +2881,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .f4-m { font-size: 1.25rem; }
  .f5-m { font-size: 1rem; }
  .f6-m { font-size: .875rem; }
+ .f7-m { font-size: .75rem; }
  .measure-m { max-width: 30em; }
  .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-m { font-variant: small-caps; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+ .center-m { margin-right: auto; margin-left: auto; }
  .clip-m { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-m { white-space: normal; }
  .nowrap-m { white-space: nowrap; }
@@ -2904,6 +2919,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bg-right-l { background-repeat: no-repeat; background-position: center right; }
  .bg-bottom-l { background-repeat: no-repeat; background-position: bottom center; }
  .bg-left-l { background-repeat: no-repeat; background-position: center left; }
+ .outline-l { outline: 1px solid; }
+ .outline-transparent-l { outline: 1px solid transparent; }
+ .outline-0-l { outline: 0; }
  .ba-l { border-style: solid; border-width: 1px; }
  .bt-l { border-top-style: solid; border-top-width: 1px; }
  .br-l { border-right-style: solid; border-right-width: 1px; }
@@ -3275,12 +3293,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .f4-l { font-size: 1.25rem; }
  .f5-l { font-size: 1rem; }
  .f6-l { font-size: .875rem; }
+ .f7-l { font-size: .75rem; }
  .measure-l { max-width: 30em; }
  .measure-wide-l { max-width: 34em; }
  .measure-narrow-l { max-width: 20em; }
  .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .small-caps-l { font-variant: small-caps; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+ .center-l { margin-right: auto; margin-left: auto; }
  .clip-l { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-l { white-space: normal; }
  .nowrap-l { white-space: nowrap; }
