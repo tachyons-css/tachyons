@@ -50,7 +50,7 @@
 .orange { color: var(--orange); }
 .gold { color: var(--gold); }
 .yellow { color: var(--yellow); }
-.yellow { color: var(--dark-yellow); }
+.dark-yellow { color: var(--dark-yellow); }
 .light-yellow { color: var(--light-yellow); }
 .purple { color: var(--purple); }
 .light-purple { color: var(--light-purple); }

@@ -1167,7 +1167,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .orange { color: #e85a00; }
 .gold { color: #e08a00; }
 .yellow { color: #ffd700; }
-.yellow { color: #febb31; }
+.dark-yellow { color: #febb31; }
 .light-yellow { color: #fbf1a9; }
 .purple { color: #6e3d99; }
 .light-purple { color: #a463f2; }
