@@ -2,12 +2,12 @@
 
   BACKGROUND GRADIENTS
 
-  Media Query Extensions:
-   -ns = not-small
-   -m  = medium
-   -l  = large
-
  */
+
+.bg-gradient-white-10-to-light-gray {
+  background: var(--white);
+  background: linear-gradient(to bottom, var(--white-10), var(--light-gray));
+}
 
 .bg-gradient-near-black-to-dark-gray {
   background: var(--near-black);
@@ -22,58 +22,4 @@
 .bg-gradient-white-to-light-gray {
   background:  var(--white);
   background: linear-gradient(to bottom, var(--white), var(--light-gray));
-}
-
-@media (--breakpoint-not-small) {
-  .bg-gradient-near-black-to-dark-gray-ns {
-    background: var(--near-black);
-    background: linear-gradient(to bottom, var(--near-black) 50%, var(--dark-gray) 100%);
-  }
-
-  .bg-gradient-light-gray-to-white-ns {
-    background: var(--white);
-    background: linear-gradient(1deg, var(--white), var(--light-gray));
-  }
-
-  .bg-gradient-white-to-light-gray-ns {
-    background:  var(--white);
-    background: linear-gradient(to bottom, var(--white), var(--light-gray));
-  }
-
-}
-
-@media (--breakpoint-medium) {
-  .bg-gradient-near-black-to-dark-gray-m {
-    background: var(--near-black);
-    background: linear-gradient(to bottom, var(--near-black) 50%, var(--dark-gray) 100%);
-  }
-
-  .bg-gradient-light-gray-to-white-m {
-    background: var(--white);
-    background: linear-gradient(1deg, var(--white), var(--light-gray));
-  }
-
-  .bg-gradient-white-to-light-gray-m {
-    background:  var(--white);
-    background: linear-gradient(to bottom, var(--white), var(--light-gray));
-  }
-
-}
-
-@media (--breakpoint-large) {
-  .bg-gradient-near-black-to-dark-gray-l {
-    background: var(--near-black);
-    background: linear-gradient(to bottom, var(--near-black) 50%, var(--dark-gray) 100%);
-  }
-
-  .bg-gradient-light-gray-to-white-l {
-    background: var(--white);
-    background: linear-gradient(1deg, var(--white), var(--light-gray));
-  }
-
-  .bg-gradient-white-to-light-gray-l {
-    background:  var(--white);
-    background: linear-gradient(to bottom, var(--white), var(--light-gray));
-  }
-
 }

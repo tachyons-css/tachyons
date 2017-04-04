@@ -1083,12 +1083,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
   BACKGROUND GRADIENTS
 
-  Media Query Extensions:
-   -ns = not-small
-   -m  = medium
-   -l  = large
-
  */
+.bg-gradient-white-10-to-light-gray { background: #fff; background: -webkit-linear-gradient( top, rgba( 255, 255, 255, .1 ), #e0e0e0 ); background: linear-gradient( to bottom, rgba( 255, 255, 255, .1 ), #e0e0e0 ); }
 .bg-gradient-near-black-to-dark-gray { background: #222; background: -webkit-linear-gradient( top, #222 50%, #4a4a4a 100% ); background: linear-gradient( to bottom, #222 50%, #4a4a4a 100% ); }
 .bg-gradient-light-gray-to-white { background: #fff; background: -webkit-linear-gradient( 89deg, #fff, #e0e0e0 ); background: linear-gradient( 1deg, #fff, #e0e0e0 ); }
 .bg-gradient-white-to-light-gray { background: #fff; background: -webkit-linear-gradient( top, #fff, #e0e0e0 ); background: linear-gradient( to bottom, #fff, #e0e0e0 ); }
@@ -2325,9 +2321,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .relative-ns { position: relative; }
  .absolute-ns { position: absolute; }
  .fixed-ns { position: fixed; }
- .bg-gradient-near-black-to-dark-gray-ns { background: #222; background: -webkit-linear-gradient( top, #222 50%, #4a4a4a 100% ); background: linear-gradient( to bottom, #222 50%, #4a4a4a 100% ); }
- .bg-gradient-light-gray-to-white-ns { background: #fff; background: -webkit-linear-gradient( 89deg, #fff, #e0e0e0 ); background: linear-gradient( 1deg, #fff, #e0e0e0 ); }
- .bg-gradient-white-to-light-gray-ns { background: #fff; background: -webkit-linear-gradient( top, #fff, #e0e0e0 ); background: linear-gradient( to bottom, #fff, #e0e0e0 ); }
  .rotate-45-ns { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
  .rotate-90-ns { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
  .rotate-135-ns { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
@@ -2743,9 +2736,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .relative-m { position: relative; }
  .absolute-m { position: absolute; }
  .fixed-m { position: fixed; }
- .bg-gradient-near-black-to-dark-gray-m { background: #222; background: -webkit-linear-gradient( top, #222 50%, #4a4a4a 100% ); background: linear-gradient( to bottom, #222 50%, #4a4a4a 100% ); }
- .bg-gradient-light-gray-to-white-m { background: #fff; background: -webkit-linear-gradient( 89deg, #fff, #e0e0e0 ); background: linear-gradient( 1deg, #fff, #e0e0e0 ); }
- .bg-gradient-white-to-light-gray-m { background: #fff; background: -webkit-linear-gradient( top, #fff, #e0e0e0 ); background: linear-gradient( to bottom, #fff, #e0e0e0 ); }
  .rotate-45-m { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
  .rotate-90-m { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
  .rotate-135-m { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
@@ -3155,9 +3145,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .relative-l { position: relative; }
  .absolute-l { position: absolute; }
  .fixed-l { position: fixed; }
- .bg-gradient-near-black-to-dark-gray-l { background: #222; background: -webkit-linear-gradient( top, #222 50%, #4a4a4a 100% ); background: linear-gradient( to bottom, #222 50%, #4a4a4a 100% ); }
- .bg-gradient-light-gray-to-white-l { background: #fff; background: -webkit-linear-gradient( 89deg, #fff, #e0e0e0 ); background: linear-gradient( 1deg, #fff, #e0e0e0 ); }
- .bg-gradient-white-to-light-gray-l { background: #fff; background: -webkit-linear-gradient( top, #fff, #e0e0e0 ); background: linear-gradient( to bottom, #fff, #e0e0e0 ); }
  .rotate-45-l { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
  .rotate-90-l { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
  .rotate-135-l { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
