@@ -141,6 +141,8 @@
 .hover-gold:focus { color: var(--gold); }
 .hover-yellow:hover,
 .hover-yellow:focus { color: var(--yellow); }
+.hover-dark-yellow:hover,
+.hover-dark-yellow:focus { color: var(--dark-yellow); }
 .hover-light-yellow:hover,
 .hover-light-yellow:focus { color: var(--light-yellow); }
 .hover-purple:hover,
@@ -193,6 +195,8 @@
 .hover-bg-gold:focus { background-color: var(--gold); }
 .hover-bg-yellow:hover,
 .hover-bg-yellow:focus { background-color: var(--yellow); }
+.hover-bg-dark-yellow:hover,
+.hover-bg-dark-yellow:focus { background-color: var(--dark-yellow); }
 .hover-bg-light-yellow:hover,
 .hover-bg-light-yellow:focus { background-color: var(--light-yellow); }
 .hover-bg-purple:hover,

@@ -62,6 +62,7 @@
 .b--orange { border-color: var(--orange); }
 .b--gold { border-color: var(--gold); }
 .b--yellow { border-color: var(--yellow); }
+.b--dark-yellow { border-color: var(--dark-yellow); }
 .b--light-yellow { border-color: var(--light-yellow); }
 .b--purple { border-color: var(--purple); }
 .b--light-purple { border-color: var(--light-purple); }
