@@ -19,108 +19,88 @@
 
  */
 
-.bg-center { 
-  background-repeat: no-repeat;
-  background-position: center center; 
+.bg-center {
+  background-position: center center;
 }
 
-.bg-top {    
-  background-repeat: no-repeat; 
-  background-position: top center;    
+.bg-top {
+  background-position: top center;
 }
 
-.bg-right {  
-  background-repeat: no-repeat; 
-  background-position: center right;  
+.bg-right {
+  background-position: center right;
 }
 
-.bg-bottom { 
-  background-repeat: no-repeat; 
-  background-position: bottom center; 
+.bg-bottom {
+  background-position: bottom center;
 }
 
-.bg-left {   
-  background-repeat: no-repeat; 
-  background-position: center left;   
+.bg-left {
+  background-position: center left;
 }
 
 @media (--breakpoint-not-small) {
-  .bg-center-ns { 
-    background-repeat: no-repeat;
-    background-position: center center; 
+  .bg-center-ns {
+    background-position: center center;
   }
 
-  .bg-top-ns {    
-    background-repeat: no-repeat; 
-    background-position: top center;    
+  .bg-top-ns {
+    background-position: top center;
   }
 
-  .bg-right-ns {  
-    background-repeat: no-repeat; 
-    background-position: center right;  
+  .bg-right-ns {
+    background-position: center right;
   }
 
-  .bg-bottom-ns { 
-    background-repeat: no-repeat; 
-    background-position: bottom center; 
+  .bg-bottom-ns {
+    background-position: bottom center;
   }
 
-  .bg-left-ns {   
-    background-repeat: no-repeat; 
-    background-position: center left;   
+  .bg-left-ns {
+    background-position: center left;
   }
 }
 
 @media (--breakpoint-medium) {
-  .bg-center-m { 
-    background-repeat: no-repeat;
-    background-position: center center; 
+  .bg-center-m {
+    background-position: center center;
   }
 
-  .bg-top-m {    
-    background-repeat: no-repeat; 
-    background-position: top center;    
+  .bg-top-m {
+    background-position: top center;
   }
 
-  .bg-right-m {  
-    background-repeat: no-repeat; 
-    background-position: center right;  
+  .bg-right-m {
+    background-position: center right;
   }
 
-  .bg-bottom-m { 
-    background-repeat: no-repeat; 
-    background-position: bottom center; 
+  .bg-bottom-m {
+    background-position: bottom center;
   }
 
-  .bg-left-m {   
-    background-repeat: no-repeat; 
-    background-position: center left;   
+  .bg-left-m {
+    background-position: center left;
   }
 }
 
 @media (--breakpoint-large) {
   .bg-center-l { 
-    background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
   }
 
-  .bg-top-l {    
-    background-repeat: no-repeat; 
-    background-position: top center;    
+  .bg-top-l {
+    background-position: top center;
   }
 
-  .bg-right-l {  
-    background-repeat: no-repeat; 
-    background-position: center right;  
+  .bg-right-l {
+    background-position: center right;
   }
 
-  .bg-bottom-l { 
-    background-repeat: no-repeat; 
-    background-position: bottom center; 
+  .bg-bottom-l {
+    background-position: bottom center;
   }
 
-  .bg-left-l {   
-    background-repeat: no-repeat; 
-    background-position: center left;   
+  .bg-left-l {
+    background-position: center left;
   }
 }
