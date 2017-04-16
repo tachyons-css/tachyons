@@ -118,7 +118,6 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://rene.jon.gold
 * https://tinychime.github.io/jekyons/
 * http://prnt.cc
-* http://spenhar.com
 * http://randoma11y.com
 * http://www.csspurge.com
 * http://clrs.cc
