@@ -132,7 +132,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 * http://comics.hongkonggong.com/
 * https://accessmyinfo.hk/#/
 * https://accessmyinfo.org/#/
-* http://rene.jon.gold
+* https://metalsmith-resume.lowmess.com/
 * http://randoma11y.com
 * http://designbytyping.com
 * http://colepeters.com
