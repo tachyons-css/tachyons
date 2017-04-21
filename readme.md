@@ -60,6 +60,14 @@ cd tachyons
 npm install
 ```
 
+### Viewport Preparation
+Add the following viewport meta in the `<head></head>` of your html, for the media queries to work :
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+
 #### Dev
 
 If you want to just use everything in tachyons/src as a jumping off point and
