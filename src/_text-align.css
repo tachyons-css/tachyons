@@ -7,9 +7,10 @@
     t = text-align
 
   Modifiers
+    c = center
+    j = justify
     l = left
     r = right
-    c = center
 
   Media Query Extensions:
     -ns = not-small
@@ -18,25 +19,29 @@
 
 */
 
+.tc  { text-align: center; }
+.tj  { text-align: justify; }
 .tl  { text-align: left; }
 .tr  { text-align: right; }
-.tc  { text-align: center; }
 
 @media (--breakpoint-not-small) {
+  .tc-ns  { text-align: center; }
+  .tj-ns  { text-align: justify; }
   .tl-ns  { text-align: left; }
   .tr-ns  { text-align: right; }
-  .tc-ns  { text-align: center; }
 }
 
 @media (--breakpoint-medium) {
+  .tc-m  { text-align: center; }
+  .tj-m  { text-align: justify; }
   .tl-m  { text-align: left; }
   .tr-m  { text-align: right; }
-  .tc-m  { text-align: center; }
 }
 
 @media (--breakpoint-large) {
+  .tc-l  { text-align: center; }
+  .tj-l  { text-align: justify; }
   .tl-l  { text-align: left; }
   .tr-l  { text-align: right; }
-  .tc-l  { text-align: center; }
 }
 
