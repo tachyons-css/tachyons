@@ -65,6 +65,7 @@
 @import './_skins';
 @import './_skins-pseudo';
 @import './_spacing';
+@import './_svg-colors.css';
 @import './_negative-margins';
 @import './_tables';
 @import './_text-decoration';

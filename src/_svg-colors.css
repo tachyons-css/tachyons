@@ -1,0 +1,158 @@
+/*
+
+   SVG COLORS
+   Docs: http://tachyons.io/docs/themes/borders/
+
+   SVG colors are used to color SVG strokes and fills, sharing the color
+   variables used in the other Tachyons color modules.
+
+   If none of these are specified the default browser stroke and fill colors
+   will apply.
+
+   Base:
+     ss = Svg Stroke
+     sf = Svg Fill
+
+   Modifiers:
+   --color-name = each color variable name is also a border color name
+
+*/
+
+/* SVG stroke colors */
+
+.ss--black {        stroke: var(--black); }
+.ss--near-black {   stroke: var(--near-black); }
+.ss--dark-gray {    stroke: var(--dark-gray); }
+.ss--mid-gray {     stroke: var(--mid-gray); }
+.ss--gray {         stroke: var(--gray); }
+.ss--silver {       stroke: var(--silver); }
+.ss--light-silver { stroke: var(--light-silver); }
+.ss--moon-gray {    stroke: var(--moon-gray); }
+.ss--light-gray {   stroke: var(--light-gray); }
+.ss--near-white {   stroke: var(--near-white); }
+.ss--white {        stroke: var(--white); }
+
+.ss--white-90 {   stroke: var(--white-90); }
+.ss--white-80 {   stroke: var(--white-80); }
+.ss--white-70 {   stroke: var(--white-70); }
+.ss--white-60 {   stroke: var(--white-60); }
+.ss--white-50 {   stroke: var(--white-50); }
+.ss--white-40 {   stroke: var(--white-40); }
+.ss--white-30 {   stroke: var(--white-30); }
+.ss--white-20 {   stroke: var(--white-20); }
+.ss--white-10 {   stroke: var(--white-10); }
+.ss--white-05 {   stroke: var(--white-05); }
+.ss--white-025 {   stroke: var(--white-025); }
+.ss--white-0125 {   stroke: var(--white-0125); }
+
+.ss--black-90 {   stroke: var(--black-90); }
+.ss--black-80 {   stroke: var(--black-80); }
+.ss--black-70 {   stroke: var(--black-70); }
+.ss--black-60 {   stroke: var(--black-60); }
+.ss--black-50 {   stroke: var(--black-50); }
+.ss--black-40 {   stroke: var(--black-40); }
+.ss--black-30 {   stroke: var(--black-30); }
+.ss--black-20 {   stroke: var(--black-20); }
+.ss--black-10 {   stroke: var(--black-10); }
+.ss--black-05 {   stroke: var(--black-05); }
+.ss--black-025 {   stroke: var(--black-025); }
+.ss--black-0125 {   stroke: var(--black-0125); }
+
+.ss--dark-red { stroke: var(--dark-red); }
+.ss--red { stroke: var(--red); }
+.ss--light-red { stroke: var(--light-red); }
+.ss--orange { stroke: var(--orange); }
+.ss--gold { stroke: var(--gold); }
+.ss--yellow { stroke: var(--yellow); }
+.ss--light-yellow { stroke: var(--light-yellow); }
+.ss--purple { stroke: var(--purple); }
+.ss--light-purple { stroke: var(--light-purple); }
+.ss--dark-pink { stroke: var(--dark-pink); }
+.ss--hot-pink { stroke: var(--hot-pink); }
+.ss--pink { stroke: var(--pink); }
+.ss--light-pink { stroke: var(--light-pink); }
+.ss--dark-green { stroke: var(--dark-green); }
+.ss--green { stroke: var(--green); }
+.ss--light-green { stroke: var(--light-green); }
+.ss--navy { stroke: var(--navy); }
+.ss--dark-blue { stroke: var(--dark-blue); }
+.ss--blue { stroke: var(--blue); }
+.ss--light-blue { stroke: var(--light-blue); }
+.ss--lightest-blue { stroke: var(--lightest-blue); }
+.ss--washed-blue { stroke: var(--washed-blue); }
+.ss--washed-green { stroke: var(--washed-green); }
+.ss--washed-yellow { stroke: var(--washed-yellow); }
+.ss--washed-red { stroke: var(--washed-red); }
+
+.ss--transparent { stroke: var(--transparent); }
+.ss--inherit { stroke: inherit; }
+
+
+/* SVG fill colors */
+
+.sf--black {        fill: var(--black); }
+.sf--near-black {   fill: var(--near-black); }
+.sf--dark-gray {    fill: var(--dark-gray); }
+.sf--mid-gray {     fill: var(--mid-gray); }
+.sf--gray {         fill: var(--gray); }
+.sf--silver {       fill: var(--silver); }
+.sf--light-silver { fill: var(--light-silver); }
+.sf--moon-gray {    fill: var(--moon-gray); }
+.sf--light-gray {   fill: var(--light-gray); }
+.sf--near-white {   fill: var(--near-white); }
+.sf--white {        fill: var(--white); }
+
+.sf--white-90 {   fill: var(--white-90); }
+.sf--white-80 {   fill: var(--white-80); }
+.sf--white-70 {   fill: var(--white-70); }
+.sf--white-60 {   fill: var(--white-60); }
+.sf--white-50 {   fill: var(--white-50); }
+.sf--white-40 {   fill: var(--white-40); }
+.sf--white-30 {   fill: var(--white-30); }
+.sf--white-20 {   fill: var(--white-20); }
+.sf--white-10 {   fill: var(--white-10); }
+.sf--white-05 {   fill: var(--white-05); }
+.sf--white-025 {   fill: var(--white-025); }
+.sf--white-0125 {   fill: var(--white-0125); }
+
+.sf--black-90 {   fill: var(--black-90); }
+.sf--black-80 {   fill: var(--black-80); }
+.sf--black-70 {   fill: var(--black-70); }
+.sf--black-60 {   fill: var(--black-60); }
+.sf--black-50 {   fill: var(--black-50); }
+.sf--black-40 {   fill: var(--black-40); }
+.sf--black-30 {   fill: var(--black-30); }
+.sf--black-20 {   fill: var(--black-20); }
+.sf--black-10 {   fill: var(--black-10); }
+.sf--black-05 {   fill: var(--black-05); }
+.sf--black-025 {   fill: var(--black-025); }
+.sf--black-0125 {   fill: var(--black-0125); }
+
+.sf--dark-red { fill: var(--dark-red); }
+.sf--red { fill: var(--red); }
+.sf--light-red { fill: var(--light-red); }
+.sf--orange { fill: var(--orange); }
+.sf--gold { fill: var(--gold); }
+.sf--yellow { fill: var(--yellow); }
+.sf--light-yellow { fill: var(--light-yellow); }
+.sf--purple { fill: var(--purple); }
+.sf--light-purple { fill: var(--light-purple); }
+.sf--dark-pink { fill: var(--dark-pink); }
+.sf--hot-pink { fill: var(--hot-pink); }
+.sf--pink { fill: var(--pink); }
+.sf--light-pink { fill: var(--light-pink); }
+.sf--dark-green { fill: var(--dark-green); }
+.sf--green { fill: var(--green); }
+.sf--light-green { fill: var(--light-green); }
+.sf--navy { fill: var(--navy); }
+.sf--dark-blue { fill: var(--dark-blue); }
+.sf--blue { fill: var(--blue); }
+.sf--light-blue { fill: var(--light-blue); }
+.sf--lightest-blue { fill: var(--lightest-blue); }
+.sf--washed-blue { fill: var(--washed-blue); }
+.sf--washed-green { fill: var(--washed-green); }
+.sf--washed-yellow { fill: var(--washed-yellow); }
+.sf--washed-red { fill: var(--washed-red); }
+
+.sf--transparent { fill: var(--transparent); }
+.sf--inherit { fill: inherit; }
