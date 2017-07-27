@@ -21,9 +21,9 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "globby": "^6.0.0",
+    "globby": "^6.1.0",
     "immutable-css-cli": "^1.1.1",
-    "lerna": "2.0.0-beta.26",
+    "lerna": "2.0.0",
     "normalize.css": "^7.0.0",
     "strip-css-comments": "^3.0.0",
     "tachyons-cli": "^1.0.11",
