@@ -1,0 +1,40 @@
+{
+  "name": "tachyons-display-verbose",
+  "version": "1.0.0",
+  "style": "tachyons-display-verbose.css",
+  "homepage": "http://github.com/tachyons-css/tachyons-display-verbose",
+  "description": "Performance based css module.",
+  "keywords": [
+    "postcss",
+    "display",
+    "css",
+    "design",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tachyons-css/tachyons-display-verbose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tachyons-css/tachyons-display-verbose/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^0.6.1",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-display-verbose.css > css/tachyons-display-verbose.css",
+    "build:minify": "tachyons src/tachyons-display-verbose.css --minify > css/tachyons-display-verbose.min.css",
+    "build:docs": "tachyons src/tachyons-display-verbose.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

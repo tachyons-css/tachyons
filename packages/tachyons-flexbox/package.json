@@ -1,0 +1,35 @@
+{
+  "name": "tachyons-flexbox",
+  "description": "Flexbox CSS module for Tachyons",
+  "version": "2.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-flexbox.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "flexbox"
+  ],
+  "repository": "tachyons-css/tachyons-flexbox",
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-flexbox.css > css/tachyons-flexbox.css",
+    "build:minify": "tachyons src/tachyons-flexbox.css --minify > css/tachyons-flexbox.min.css",
+    "build:docs": "tachyons src/tachyons-flexbox.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

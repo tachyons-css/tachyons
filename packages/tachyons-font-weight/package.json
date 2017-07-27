@@ -1,0 +1,37 @@
+{
+  "name": "tachyons-font-weight",
+  "version": "5.0.0",
+  "style": "src/tachyons-font-weight.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-font-weight",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-font-weight.css > css/tachyons-font-weight.css",
+    "build:minify": "tachyons src/tachyons-font-weight.css --minify > css/tachyons-font-weight.min.css",
+    "build:docs": "tachyons src/tachyons-font-weight.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "metadata": {
+    "category": "typography",
+    "isCore": true
+  }
+}

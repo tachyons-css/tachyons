@@ -1,0 +1,29 @@
+/*
+
+   BACKGROUND SIZE
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+/*
+  Often used in combination with background image set as an inline style
+  on an html element.
+*/
+.cover { background-size: cover; }
+.contain { background-size: contain; }
+@media screen and (min-width: 30em) {
+ .cover-ns { background-size: cover; }
+ .contain-ns { background-size: contain; }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+ .cover-m { background-size: cover; }
+ .contain-m { background-size: contain; }
+}
+@media screen and (min-width: 60em) {
+ .cover-l { background-size: cover; }
+ .contain-l { background-size: contain; }
+}
+

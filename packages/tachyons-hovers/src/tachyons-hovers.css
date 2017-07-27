@@ -1,0 +1,93 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+/*
+
+  HOVER EFFECTS
+
+
+*/
+
+/*
+
+  Dim element on hover by adding the dim class.
+
+*/
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+.dim:hover,
+.dim:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+.dim:active {
+  opacity: .8; transition: opacity .15s ease-out;
+}
+
+/*
+
+  Hide child & reveal on hover:
+
+  Put the hide-child class on a parent element and any nested element with the
+  child class will be hidden and displayed on hover or focus.
+
+  <div class="hide-child">
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+  </div>
+*/
+
+.hide-child .child {
+  opacity: 0;
+  transition: opacity .15s ease-in;
+}
+.hide-child:hover  .child,
+.hide-child:focus  .child,
+.hide-child:active .child {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.underline-hover:hover,
+.underline-hover:focus {
+  text-decoration: underline;
+}
+
+/* Can combine this with overflow-hidden to make background images grow on hover
+ * even if you are using background-size: cover */
+
+.grow {
+  transition: transform .2s;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05);
+}
+
+.grow-large {
+  transition: transform .2s;
+}
+
+.grow-large:hover,
+.grow-large:focus {
+  transform: scale(1.2);
+}
+
+/* Add pointer on hover */
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+/* Add shadow on hover */
+
+.shadow-hover:hover,
+.shadow-hover:focus {
+  box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 );
+}
+

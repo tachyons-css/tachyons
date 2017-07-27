@@ -1,0 +1,38 @@
+{
+  "name": "tachyons-letter-spacing",
+  "version": "3.0.0",
+  "style": "src/tachyons-letter-spacing.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-letter-spacing",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-letter-spacing.css > css/tachyons-letter-spacing.css",
+    "build:minify": "tachyons src/tachyons-letter-spacing.css --minify > css/tachyons-letter-spacing.min.css",
+    "build:docs": "tachyons src/tachyons-letter-spacing.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "metadata": {
+    "category": "typography",
+    "isCore": true,
+    "nickName": "tracking"
+  }
+}
