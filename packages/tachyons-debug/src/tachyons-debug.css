@@ -1,3 +1,15 @@
+/* 
+ 
+  DEBUG (PESTICIDE)
+  Docs: http://tachyons.io/docs/debug/
+
+  This is a partial you have to manually include in your
+  build file. It places a different colored outline on 
+  each element which can help you debug layout issues.
+  There is also a handy chrome extension that can 
+  be found at http://pesticide.io
+
+*/
 
 body {        outline: 1px solid  #2980B9!important; }
 article {     outline: 1px solid  #3498DB!important; }

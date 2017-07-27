@@ -1,0 +1,36 @@
+{
+  "name": "tachyons-rotations",
+  "description": "Css for setting the rotation of an element.",
+  "version": "1.0.4",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-rotations.css",
+  "main": "src/tachyons-rotations.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "base"
+  ],
+  "repository": "tachyons-css/tachyons-rotations",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.11",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-rotations.css > css/tachyons-rotations.css",
+    "build:minify": "tachyons src/tachyons-rotations.css --minify > css/tachyons-rotations.min.css",
+    "build:docs": "tachyons src/tachyons-rotations.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

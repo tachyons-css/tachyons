@@ -5,7 +5,9 @@ const stripComments = require('strip-css-comments')
 const pattern = [
   'src/**/*.css',
   '!src/tachyons.css',
-  '!src/_debug_children.css',
+  '!src/_debug-children.css',
+  '!src/_debug-grid.css',
+  '!src/_nested.css',
   '!src/_normalize.css',
   '!src/_media-queries.css',
   '!src/_module-template.css'

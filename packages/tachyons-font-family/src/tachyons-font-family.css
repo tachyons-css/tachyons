@@ -1,6 +1,7 @@
 /*
 
    FONT FAMILY GROUPS
+   Docs: http://tachyons.io/docs/typography/font-family/
 
 */
 
@@ -8,7 +9,7 @@
 .sans-serif {
   font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
-               helvetica, 'helvetica neue',
+               'helvetica neue', helvetica,
                ubuntu,
                roboto, noto,
                'segoe ui', arial,
@@ -60,6 +61,12 @@ code, .code {
 
 
 /* Serif Typefaces */
+
+.athelas {
+  font-family: athelas,
+               georgia,
+               serif;
+}
 
 .georgia {
   font-family: georgia,

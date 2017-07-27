@@ -1,10 +1,13 @@
+
+
+
 @custom-media --breakpoint-not-small screen and (min-width: 30em);
 @custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-
 /*
 
    BORDER RADIUS
+   Docs: http://tachyons.io/docs/themes/border-radius/
 
    Base:
      br   = border-radius
@@ -15,8 +18,10 @@
      2    = 2nd step in scale
      3    = 3rd step in scale
      4    = 4th step in scale
-     -100 = 100%
 
+   Literal values:
+     -100 = 100%
+     -pill = 9999px
 
    Media Query Extensions:
      -ns = not-small
@@ -31,6 +36,7 @@
   .br3 {        border-radius: .5rem; }
   .br4 {        border-radius: 1rem; }
   .br-100 {     border-radius: 100%; }
+  .br-pill {    border-radius: 9999px; }
   .br--bottom {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
@@ -55,6 +61,7 @@
   .br3-ns {     border-radius: .5rem; }
   .br4-ns {     border-radius: 1rem; }
   .br-100-ns {  border-radius: 100%; }
+  .br-pill-ns { border-radius: 9999px; }
   .br--bottom-ns {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
@@ -80,6 +87,7 @@
   .br3-m {     border-radius: .5rem; }
   .br4-m {     border-radius: 1rem; }
   .br-100-m {  border-radius: 100%; }
+  .br-pill-m { border-radius: 9999px; }
   .br--bottom-m {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
@@ -105,6 +113,7 @@
   .br3-l {     border-radius: .5rem; }
   .br4-l {     border-radius: 1rem; }
   .br-100-l {  border-radius: 100%; }
+  .br-pill-l { border-radius: 9999px; }
   .br--bottom-l {
       border-top-left-radius: 0;
       border-top-right-radius: 0;

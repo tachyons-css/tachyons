@@ -6,6 +6,8 @@
    Grayscale
    - Solids
    - Transparencies
+   Colors
+
 */
 
 :root {
@@ -49,18 +51,22 @@
  --white-025: rgba(255,255,255,.025);
  --white-0125: rgba(255,255,255,.0125);
 
-  --dark-red:  #f00008;
-  --red:  #ff3223;
-  --orange:  #f3a801;
-  --gold:  #f2c800;
-  --yellow:  #ffde37;
-  --purple:  #7d5da9;
-  --light-purple:  #8d4f92;
-  --hot-pink: #d62288;
-  --dark-pink:  #c64774;
-  --pink:  #f49cc8;
-  --dark-green:  #006C71;
-  --green:  #41D69F;
+  --dark-red:  #e7040f;
+  --red:  #ff4136;
+  --light-red:  #ff725c;
+  --orange:  #ff6300;
+  --gold:  #ffb700;
+  --yellow:  #ffd700;
+  --light-yellow:  #fbf1a9;
+  --purple:  #5e2ca5;
+  --light-purple:  #a463f2;
+  --dark-pink:  #d5008f;
+  --hot-pink: #ff41b4;
+  --pink:  #ff80cc;
+  --light-pink:  #ffa3d7;
+  --dark-green:  #137752;
+  --green:  #19a974;
+  --light-green:  #9eebcf;
   --navy:  #001b44;
   --dark-blue:  #00449e;
   --blue:  #357edd;
@@ -68,9 +74,7 @@
   --lightest-blue:  #cdecff;
   --washed-blue:  #f6fffe;
   --washed-green:  #e8fdf5;
-  --washed-yellow:  #fff8d5;
-  --light-pink:  #efa4b8;
-  --light-yellow:  #f3dd70;
-  --light-red:  #ffd3c0;
+  --washed-yellow:  #fffceb;
+  --washed-red:  #ffdfdf;
 
 }

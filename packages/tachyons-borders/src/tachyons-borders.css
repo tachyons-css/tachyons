@@ -1,18 +1,29 @@
+
+
+
 @custom-media --breakpoint-not-small screen and (min-width: 30em);
 @custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-
 /*
 
-   BORDER BASE
+    BORDERS
+    Docs: http://tachyons.io/docs/themes/borders/
 
-   Legend
+    Base:
+      b = border
 
-   a = all
-   t = top
-   r = right
-   b = bottom
-   l = left
+    Modifiers:
+      a = all
+      t = top
+      r = right
+      b = bottom
+      l = left
+      n = none
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 

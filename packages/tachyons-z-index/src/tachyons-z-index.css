@@ -1,12 +1,30 @@
 /*
 
-  Tachyons
-  z-index
+  Z-INDEX
 
-  DOCUMENTATION
+  Base
+    z = z-index
+
+  Modifiers
+    -0 = literal value 0
+    -1 = literal value 1
+    -2 = literal value 2
+    -3 = literal value 3
+    -4 = literal value 4
+    -5 = literal value 5
+    -999 = literal value 999
+    -9999 = literal value 9999
+
+    -max = largest accepted z-index value as integer
+
+    -inherit = string value inherit
+    -initial = string value initial
+    -unset = string value unset
 
   MDN: https://developer.mozilla.org/en/docs/Web/CSS/z-index
   Spec: http://www.w3.org/TR/CSS2/zindex.html
+  Articles:
+    https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
 
   Tips on extending:
   There might be a time worth using negative z-index values.
