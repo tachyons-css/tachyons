@@ -2,11 +2,30 @@
 
 ### 5.0.0
 
+First and foremost, we've introduced an official changelog for v5 of Tachyons.
+We want to ensure that anyone can quickly check out what's changed for each version.
+Especially because, as we all know, semver for css is nebulous at best.
+
+##### Breaking changes
+
 - Remove `ns` mq
+
+TODO: Thorough description as to how this change will affect users.
+
+##### Other changes
+
+The majority of changes for v5 are changing how things work behind the scenes.
+We've sought out automating everything that can be possibly automated.
+With a project as ambitious as Tachyons is, having to manually update, version and deploy became quite a chore.
+
+Now its `npm run` :tada:.
+
 - Monorepo build process
+- `npm run pkg` - to update css for all modules
+- Automatic git updates to modules via CI
+- Tests for all packages, including linting and rendering
 - All the docs
 - Better build scripts
-- etc.
 
 ### 4.2.1
 
