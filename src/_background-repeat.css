@@ -1,0 +1,45 @@
+/*
+
+    BACKGROUND REPEAT
+
+    Base:
+    bg = background
+
+    Modifiers:
+    -repeat = repeat
+    -no-repeat = no-repeat
+    -repeat-x = repeat-x
+    -repeat-y = repeat-y
+
+    Media Query Extensions:
+      -ns = not-small
+      -m  = medium
+      -l  = large
+
+ */
+
+.bg-no-repeat { background-repeat: no-repeat; }
+.bg-repeat { background-repeat: repeat; }
+.bg-repeat-x { background-repeat: repeat-x; }
+.bg-repeat-y { background-repeat: repeat-y; }
+
+@media (--breakpoint-not-small) {
+  .bg-no-repeat-ns { background-repeat: no-repeat; }
+  .bg-repeat-ns { background-repeat: repeat; }
+  .bg-repeat-x-ns { background-repeat: repeat-x; }
+  .bg-repeat-y-ns { background-repeat: repeat-y; }
+}
+
+@media (--breakpoint-medium) {
+  .bg-no-repeat-m { background-repeat: no-repeat; }
+  .bg-repeat-m { background-repeat: repeat; }
+  .bg-repeat-x-m { background-repeat: repeat-x; }
+  .bg-repeat-y-m { background-repeat: repeat-y; }
+}
+
+@media (--breakpoint-large) {
+  .bg-no-repeat-l { background-repeat: no-repeat; }
+  .bg-repeat-l { background-repeat: repeat; }
+  .bg-repeat-x-l { background-repeat: repeat-x; }
+  .bg-repeat-y-l { background-repeat: repeat-y; }
+}
