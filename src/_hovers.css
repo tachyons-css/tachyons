@@ -133,6 +133,7 @@
 .shadow-hover::after {
   content: '';
   box-shadow: 0px 0px 16px 2px rgba( 0, 0, 0, .2 );
+  border-radius: inherit;
   opacity: 0;
   position: absolute;
   top: 0;
