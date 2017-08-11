@@ -1,0 +1,75 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
+/*
+
+   DISPLAY
+
+   Base:
+    d = display
+
+   Modifiers:
+    n     = none
+    b     = block
+    ib    = inline-block
+    it    = inline-table
+    t     = table
+    tc    = table-cell
+    tr    = table-row
+    tcol  = table-column
+    tcolg = table-column-group
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.display-none {     display: none; }
+.display-inline {     display: inline; }
+.display-block {     display: block; }
+.display-inline-block {    display: inline-block; }
+.display-inline-table {    display: inline-table; }
+.display-table {     display: table; }
+.display-table-cell {    display: table-cell; }
+.display-table-column {  display: table-column; }
+.display-table-column-group { display: table-column-group; }
+
+@media (--breakpoint-not-small) {
+  .display-none-ns {     display: none; }
+  .display-inline-ns {     display: inline; }
+  .display-block-ns {     display: block; }
+  .display-inline-block-ns {    display: inline-block; }
+  .display-inline-table-ns {    display: inline-table; }
+  .display-table-ns {     display: table; }
+  .display-table-cell-ns {    display: table-cell; }
+  .display-table-column-ns {  display: table-column; }
+  .display-table-column-group-ns { display: table-column-group; }
+}
+
+@media (--breakpoint-medium) {
+  .display-none-m {     display: none; }
+  .display-inline-m {     display: inline; }
+  .display-block-m {     display: block; }
+  .display-inline-block-m {    display: inline-block; }
+  .display-inline-table-m {    display: inline-table; }
+  .display-table-m {     display: table; }
+  .display-table-cell-m {    display: table-cell; }
+  .display-table-column-m {  display: table-column; }
+  .display-table-column-group-m { display: table-column-group; }
+}
+
+@media (--breakpoint-large) {
+  .display-none-l {     display: none; }
+  .display-inline-l {     display: inline; }
+  .display-block-l {     display: block; }
+  .display-inline-block-l {    display: inline-block; }
+  .display-inline-table-l {    display: inline-table; }
+  .display-table-l {     display: table; }
+  .display-table-cell-l {    display: table-cell; }
+  .display-table-column-l {  display: table-column; }
+  .display-table-column-group-l { display: table-column-group; }
+}
+

@@ -1,0 +1,35 @@
+{
+  "name": "tachyons-negative-margins",
+  "description": "negative-margins CSS module for Tachyons",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-negative-margins.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "negative-margins"
+  ],
+  "repository": "tachyons-css/tachyons-negative-margins",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.11",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-negative-margins.css > css/tachyons-negative-margins.css",
+    "build:minify": "tachyons src/tachyons-negative-margins.css --minify > css/tachyons-negative-margins.min.css",
+    "build:docs": "tachyons src/tachyons-negative-margins.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

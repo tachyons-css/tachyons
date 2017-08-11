@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+      tachyons display
+    </title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>tachyons display</h1>
+    <h2>Examples</h2>
+
+    <div class="dn">.dn {     display: none; }</div>
+    <div class="di">.di {     display: inline; }</div>
+    <div class="db">.db {     display: block; }</div>
+    <div class="dib">.dib {    display: inline-block; }</div>
+    <div class="dit">.dit {    display: inline-table; }</div>
+    <div class="dt">.dt {     display: table; }</div>
+    <div class="dtc">.dtc {    display: table-cell; }</div>
+    <div class="dtcol">.dtcol {  display: table-column; }</div>
+    <div class="dtcolg">.dtcolg { display: table-column-group; }</div>
+    <div class="dn-ns">.dn-ns {     display: none; }</div>
+    <div class="di-ns">.di-ns {     display: inline; }</div>
+    <div class="db-ns">.db-ns {     display: block; }</div>
+    <div class="dib-ns">.dib-ns {    display: inline-block; }</div>
+    <div class="dit-ns">.dit-ns {    display: inline-table; }</div>
+    <div class="dt-ns">.dt-ns {     display: table; }</div>
+    <div class="dtc-ns">.dtc-ns {    display: table-cell; }</div>
+    <div class="dtcol-ns">.dtcol-ns {  display: table-column; }</div>
+    <div class="dtcolg-ns">.dtcolg-ns { display: table-column-group; }</div>
+    <div class="dn-m">.dn-m {     display: none; }</div>
+    <div class="di-m">.di-m {     display: inline; }</div>
+    <div class="db-m">.db-m {     display: block; }</div>
+    <div class="dib-m">.dib-m {    display: inline-block; }</div>
+    <div class="dit-m">.dit-m {    display: inline-table; }</div>
+    <div class="dt-m">.dt-m {     display: table; }</div>
+    <div class="dtc-m">.dtc-m {    display: table-cell; }</div>
+    <div class="dtcol-m">.dtcol-m {  display: table-column; }</div>
+    <div class="dtcolg-m">.dtcolg-m { display: table-column-group; }</div>
+    <div class="dn-l">.dn-l {     display: none; }</div>
+    <div class="di-l">.di-l {     display: inline; }</div>
+    <div class="db-l">.db-l {     display: block; }</div>
+    <div class="dib-l">.dib-l {    display: inline-block; }</div>
+    <div class="dit-l">.dit-l {    display: inline-table; }</div>
+    <div class="dt-l">.dt-l {     display: table; }</div>
+    <div class="dtc-l">.dtc-l {    display: table-cell; }</div>
+    <div class="dtcol-l">.dtcol-l {  display: table-column; }</div>
+    <div class="dtcolg-l">.dtcolg-l { display: table-column-group; }</div>
+    <pre>
+<code>
+/*
+
+   DISPLAY
+
+   - Mobile First
+   - Breakpoint: not-small
+   - Breakpoint: medium
+   - Breakpoint: large
+
+*/
+
+.dn {     display: none; }
+.di {     display: inline; }
+.db {     display: block; }
+.dib {    display: inline-block; }
+.dit {    display: inline-table; }
+.dt {     display: table; }
+.dtc {    display: table-cell; }
+.dtcol {  display: table-column; }
+.dtcolg { display: table-column-group; }
+
+@include break(not-small) {
+  .dn-ns {     display: none; }
+  .di-ns {     display: inline; }
+  .db-ns {     display: block; }
+  .dib-ns {    display: inline-block; }
+  .dit-ns {    display: inline-table; }
+  .dt-ns {     display: table; }
+  .dtc-ns {    display: table-cell; }
+  .dtcol-ns {  display: table-column; }
+  .dtcolg-ns { display: table-column-group; }
+}
+
+@include break(medium) {
+  .dn-m {     display: none; }
+  .di-m {     display: inline; }
+  .db-m {     display: block; }
+  .dib-m {    display: inline-block; }
+  .dit-m {    display: inline-table; }
+  .dt-m {     display: table; }
+  .dtc-m {    display: table-cell; }
+  .dtcol-m {  display: table-column; }
+  .dtcolg-m { display: table-column-group; }
+}
+
+@include break(large) {
+  .dn-l {     display: none; }
+  .di-l {     display: inline; }
+  .db-l {     display: block; }
+  .dib-l {    display: inline-block; }
+  .dit-l {    display: inline-table; }
+  .dt-l {     display: table; }
+  .dtc-l {    display: table-cell; }
+  .dtcol-l {  display: table-column; }
+  .dtcolg-l { display: table-column-group; }
+}
+</code>
+</pre>
+    <a href="http://npmjs.org/package/tachyons-display" title="tachyons-display">View package on npm</a>
+  </body>
+</html>

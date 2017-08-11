@@ -1,0 +1,34 @@
+{
+  "name": "tachyons-utilities",
+  "version": "1.2.5",
+  "style": "src/tachyons-utilities.css",
+  "description": "Performance based css module.",
+  "isCore": true,
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-utilities",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-utilities.css > css/tachyons-utilities.css",
+    "build:minify": "tachyons src/tachyons-utilities.css --minify > css/tachyons-utilities.min.css",
+    "build:docs": "tachyons src/tachyons-utilities.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

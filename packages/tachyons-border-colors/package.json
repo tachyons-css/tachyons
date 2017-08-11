@@ -1,0 +1,34 @@
+{
+  "name": "tachyons-border-colors",
+  "version": "4.1.3",
+  "style": "src/tachyons-border-colors.css",
+  "homepage": "http://github.com/tachyons-css/tachyons-border-colors",
+  "description": "Performance based css module.",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tachyons-css/tachyons-border-colors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tachyons-css/tachyons-border-colors/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-border-colors.css > css/tachyons-border-colors.css",
+    "build:minify": "tachyons src/tachyons-border-colors.css --minify > css/tachyons-border-colors.min.css",
+    "build:docs": "tachyons src/tachyons-border-colors.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2",
+    "watch": "^0.19.1"
+  }
+}

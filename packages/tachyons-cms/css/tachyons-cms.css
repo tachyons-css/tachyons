@@ -1,0 +1,16 @@
+/*
+
+  Tachyons
+  CMS
+
+*/
+.nested-copy-line-height p, .nested-copy-line-height ul,
+.nested-copy-line-height ol { line-height: 1.5; }
+.nested-headline-line-height h1, .nested-headline-line-height h2,
+.nested-headline-line-height h3, .nested-headline-line-height h4,
+.nested-headline-line-height h5, .nested-headline-line-height h6 { line-height: 1.3; }
+.nested-list-reset ul, .nested-list-reset ol { padding-left: 0; margin-left: 0; list-style-type: none; }
+.nested-copy-indent p+p { text-indent: 1em; }
+.nested-copy-seperator p+p { margin-top: 1.5em; }
+.nested-img img { width: 100%; max-width: 100%; display: block; }
+

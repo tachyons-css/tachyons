@@ -1,0 +1,36 @@
+{
+  "name": "tachyons-forms",
+  "version": "3.0.4",
+  "style": "src/tachyons-forms.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "forms",
+    "design"
+  ],
+  "repository": "tachyons-css/tachyons-forms",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-forms.css > css/tachyons-forms.css",
+    "build:minify": "tachyons src/tachyons-forms.css --minify > css/tachyons-forms.min.css",
+    "build:docs": "tachyons src/tachyons-forms.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "metadata": {
+    "category": "elements",
+    "isCore": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "tachyons-background-size",
+  "description": "Background size CSS module for Tachyons",
+  "version": "5.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-background-size.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-module",
+    "tachyons-css",
+    "css",
+    "background-size"
+  ],
+  "repository": "tachyons-css/tachyons-background-size",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tachyons-cli": "^1.0.2",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-background-size.css > css/tachyons-background-size.css",
+    "build:minify": "tachyons src/tachyons-background-size.css --minify > css/tachyons-background-size.min.css",
+    "build:docs": "tachyons src/tachyons-background-size.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "metadata": {
+    "category": "theming",
+    "isCore": true
+  }
+}

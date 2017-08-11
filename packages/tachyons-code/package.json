@@ -1,0 +1,35 @@
+{
+  "name": "tachyons-code",
+  "description": "Tachyons module for code",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-code.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "code"
+  ],
+  "repository": "tachyons-css/tachyons-code",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^0.6.1",
+    "watch": "^0.19.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-code.css > css/tachyons-code.css",
+    "build:minify": "tachyons src/tachyons-code.css --minify > css/tachyons-code.min.css",
+    "build:docs": "tachyons src/tachyons-code.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}
