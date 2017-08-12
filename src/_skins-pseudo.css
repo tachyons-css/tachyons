@@ -75,8 +75,8 @@
 .hover-bg-near-black:focus { background-color: var(--near-black); }
 .hover-bg-dark-gray:hover, 
 .hover-bg-dark-gray:focus { background-color: var(--dark-gray); }
-.hover-bg-dark-gray:focus, 
-.hover-bg-mid-gray:hover { background-color: var(--mid-gray); }
+.hover-bg-mid-gray:hover, 
+.hover-bg-mid-gray:focus { background-color: var(--mid-gray); }
 .hover-bg-gray:hover, 
 .hover-bg-gray:focus { background-color: var(--gray); }
 .hover-bg-silver:hover, 
