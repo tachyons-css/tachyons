@@ -71,6 +71,7 @@
 * http://maxogden.github.io/screencat/
 * http://numenta.com
 * https://windtoday.co
+* https://crunchbangplusplus.org
 * http://claudio.netlify.com
 * http://devday-ar.com
 * https://zoneii.github.io
@@ -78,3 +79,6 @@
 * http://jonshort.me
 * https://nuxtjs.org
 * http://devgame.surge.sh
+* https://scottmathson.me
+* https://podviaznikov.com
+* https://hero-patterns.lowmess.com
