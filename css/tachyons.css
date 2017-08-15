@@ -1,4 +1,4 @@
-/*! TACHYONS v4.8.0 | http://tachyons.io */
+/*! TACHYONS v4.8.1 | http://tachyons.io */
 /*
  *
  *      ________            ______
@@ -691,7 +691,6 @@ img { max-width: 100%; }
 .flex-wrap-reverse { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
 .flex-column-reverse { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
 .flex-row-reverse { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
-.flex-wrap-reverse { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
 .items-start { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
 .items-end { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
 .items-center { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -2185,7 +2184,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .flex-wrap-reverse-ns { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
  .flex-column-reverse-ns { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
  .flex-row-reverse-ns { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
- .flex-wrap-reverse-ns { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
  .items-start-ns { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
  .items-end-ns { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
  .items-center-ns { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -2605,7 +2603,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .flex-wrap-reverse-m { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
  .flex-column-reverse-m { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
  .flex-row-reverse-m { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
- .flex-wrap-reverse-m { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
  .items-start-m { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
  .items-end-m { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
  .items-center-m { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -3025,7 +3022,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .flex-wrap-reverse-l { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
  .flex-column-reverse-l { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
  .flex-row-reverse-l { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
- .flex-wrap-reverse-l { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
  .items-start-l { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
  .items-end-l { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
  .items-center-l { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
