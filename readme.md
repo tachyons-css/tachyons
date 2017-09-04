@@ -101,7 +101,10 @@ We love letting the community see what people are building so please add your li
 **Featured Sites**
 
 * https://interfacelovers.com
+* https://npmjs.com
+* https://womenwho.design
 * https://friendstalkfrontend.com
+* https://play.webvr.rocks
 * https://gohugo.io
 * https://coralproject.net
 * http://www.philipyoungg.com
