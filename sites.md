@@ -79,7 +79,7 @@
 * http://jonshort.me
 * https://nuxtjs.org
 * http://devgame.surge.sh
-* https://scottmathson.me
+* https://scottmathson.com
 * https://podviaznikov.com
 * https://hero-patterns.lowmess.com
 * https://colinwilson.uk
