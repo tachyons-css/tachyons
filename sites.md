@@ -85,3 +85,4 @@
 * https://colinwilson.uk
 * https://grodziski.com
 * https://hatchloyalty.com
+* http://www.spokesman.com/
