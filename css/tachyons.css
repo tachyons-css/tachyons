@@ -1917,7 +1917,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .grow-large:hover, .grow-large:focus { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
 .grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
 /* Add pointer on hover */
-.pointer:hover { cursor: pointer; }
+.pointer { cursor: pointer; }
 /* 
    Add shadow on hover.
 
