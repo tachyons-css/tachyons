@@ -89,3 +89,5 @@
 * https://enveloop.studio
 * http://tylerdeitz.com
 * https://www.dcdesignweek.org/
+* https://tribekampala.com
+
