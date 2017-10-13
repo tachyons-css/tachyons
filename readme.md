@@ -122,6 +122,14 @@ We love letting the community see what people are building so please add your li
 And of course...
 * http://tachyons.io
 
+## Sponsors
+
+Development of Tachyons is supported by
+
+* [Digital Ocean](https://digitalocean.com)
+* [DWYL](https://dwly.com)
+* [VTEX](https://lab.vtex.com)
+
 ## Help
 
 If you have a question or need help feel free to [open an issue here](https://github.com/tachyons-css/tachyons/issues/new) or jump into the [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com).
