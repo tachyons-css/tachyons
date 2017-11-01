@@ -1,10 +1,15 @@
-# tachyons-opacity 1.1.10
 
-Tachyons CSS module for setting opacity
 
-#### Stats
+# OPACITY
 
-167 | 13 | 13
+### Docs
+
+http://tachyons.io/docs/themes/opacity/
+
+
+### Stats
+
+172 | 13 | 13
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +18,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-opacity
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +29,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-opacity
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-opacity.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +44,7 @@ git clone git@github.com:tachyons-css/tachyons-opacity.git
 Import the css module
 
 ```css
-@import "tachyons-opacity";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +60,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-opacity@1.1.10/css/tachyons-opacity.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +68,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-opacity">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,11 +79,13 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-    OPACITY
-    Docs: http://tachyons.io/docs/themes/opacity/
+  # OPACITY
 
+  ### Docs
+
+  http://tachyons.io/docs/themes/opacity/
 */
 .o-100 { opacity: 1; }
 .o-90 { opacity: .9; }

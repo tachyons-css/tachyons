@@ -1,36 +1,44 @@
-/*
+/*!!!
 
-  Z-INDEX
+  # Z-INDEX
 
-  Base
-    z = z-index
+  ### Base
 
-  Modifiers
-    -0 = literal value 0
-    -1 = literal value 1
-    -2 = literal value 2
-    -3 = literal value 3
-    -4 = literal value 4
-    -5 = literal value 5
-    -999 = literal value 999
-    -9999 = literal value 9999
+  z = z-index
 
-    -max = largest accepted z-index value as integer
+  ### Modifiers
 
-    -inherit = string value inherit
-    -initial = string value initial
-    -unset = string value unset
+  - -0 = literal value 0
+  - -1 = literal value 1
+  - -2 = literal value 2
+  - -3 = literal value 3
+  - -4 = literal value 4
+  - -5 = literal value 5
+  - -999 = literal value 999
+  - -9999 = literal value 9999
 
-  MDN: https://developer.mozilla.org/en/docs/Web/CSS/z-index
-  Spec: http://www.w3.org/TR/CSS2/zindex.html
-  Articles:
-    https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
+  - `-max` = largest accepted z-index value as integer
 
-  Tips on extending:
+  - `-inherit` = string value inherit
+  - `-initial` = string value initial
+  - `-unset` = string value unset
+
+  ### MDN
+
+  https://developer.mozilla.org/en/docs/Web/CSS/z-index
+
+  ### Spec
+
+  http://www.w3.org/TR/CSS2/zindex.html
+
+  ### Articles:
+  https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
+
+  ### Tips on extending
+
   There might be a time worth using negative z-index values.
   Or if you are using tachyons with another project, you might need to
   adjust these values to suit your needs.
-
 */
 .z-0 { z-index: 0; }
 .z-1 { z-index: 1; }

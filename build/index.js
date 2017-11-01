@@ -14,7 +14,10 @@ const pattern = [
   '!src/_code.css' // TODO: make this a module
 ]
 
-const mq = stripComments(fs.readFileSync('src/_media-queries.css', 'utf8'))
+const mq = stripComments(
+  fs.readFileSync('src/_media-queries.css', 'utf8'),
+  { preserve: false }
+)
 
 globby(pattern)
   .then(paths => paths.forEach(processPackage))

@@ -24,7 +24,7 @@
     "immutable-css-cli": "^1.1.1",
     "lerna": "^2.4.0",
     "strip-css-comments": "^3.0.0",
-    "tachyons-cli": "^1.0.11",
+    "tachyons-cli": "^1.1.0",
     "watch": "^1.0.2"
   },
   "license": "MIT",
@@ -45,6 +45,6 @@
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:watch": "watch \"npm run build\" ./src/",
-    "dev:update": "node build"
+    "dev:update": "node build && lerna run build"
   }
 }

@@ -1,10 +1,10 @@
-# tachyons-outlines 1.0.3
+# tachyons 4.9.0
 
-Tachyons module for setting outlines
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-189 | 12 | 12
+229 | 9 | 9
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-outlines
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-outlines
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-outlines.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-outlines.git
 Import the css module
 
 ```css
-@import "tachyons-outlines";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-outlines@1.0.3/css/tachyons-outlines.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-outlines">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,23 +74,26 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-  OUTLINES
+  # OUTLINES
 
+  Set transparent outline on elements.
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .outline { outline: 1px solid; }
 .outline-transparent { outline: 1px solid transparent; }
 .outline-0 { outline: 0; }
-@media screen and (min-width: 48em) {
- .outline-ns { outline: 1px solid; }
- .outline-transparent-ns { outline: 1px solid transparent; }
- .outline-0-ns { outline: 0; }
-}
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) {
  .outline-m { outline: 1px solid; }
  .outline-transparent-m { outline: 1px solid transparent; }
  .outline-0-m { outline: 0; }
+}
+@media screen and (min-width: 60em) {
  .outline-l { outline: 1px solid; }
  .outline-transparent-l { outline: 1px solid transparent; }
  .outline-0-l { outline: 0; }

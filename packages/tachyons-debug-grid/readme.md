@@ -1,8 +1,8 @@
-# tachyons-debug-grid 1.1.0
+# tachyons 4.9.0
 
-Base CSS module for Tachyons
+Functional CSS for humans
 
-#### Stats
+### Stats
 
 2070 | 4 | 4
 ---|---|---
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-debug-grid
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-debug-grid
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-debug-grid.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-debug-grid.git
 Import the css module
 
 ```css
-@import "tachyons-debug-grid";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-debug-grid@1.1.0/css/tachyons-debug-grid.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-debug-grid">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development

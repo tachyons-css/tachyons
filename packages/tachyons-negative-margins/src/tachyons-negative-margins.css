@@ -3,35 +3,36 @@
 
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-/*
-   NEGATIVE MARGINS
+/*!!!
 
-   Base:
-     n = negative
+  # NEGATIVE MARGINS
 
-   Modifiers:
-     a = all
-     t = top
-     r = right
-     b = bottom
-     l = left
+  ### Base
 
-     1 = 1st step in spacing scale
-     2 = 2nd step in spacing scale
-     3 = 3rd step in spacing scale
-     4 = 4th step in spacing scale
-     5 = 5th step in spacing scale
-     6 = 6th step in spacing scale
-     7 = 7th step in spacing scale
+  `n` = negative
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Modifiers
 
+  - a = all
+  - t = top
+  - r = right
+  - b = bottom
+  - l = left
+
+  - 1 = 1st step in spacing scale
+  - 2 = 2nd step in spacing scale
+  - 3 = 3rd step in spacing scale
+  - 4 = 4th step in spacing scale
+  - 5 = 5th step in spacing scale
+  - 6 = 6th step in spacing scale
+  - 7 = 7th step in spacing scale
+
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
-
-
 
 .na1 { margin: -var(--spacing-extra-small); }
 .na2 { margin: -var(--spacing-small); }
@@ -72,50 +73,6 @@
 .nt5 { margin-top: -var(--spacing-extra-large); }
 .nt6 { margin-top: -var(--spacing-extra-extra-large); }
 .nt7 { margin-top: -var(--spacing-extra-extra-extra-large); }
-
-@media (--breakpoint-not-small) {
-
-  .na1-ns { margin: -var(--spacing-extra-small); }
-  .na2-ns { margin: -var(--spacing-small); }
-  .na3-ns { margin: -var(--spacing-medium); }
-  .na4-ns { margin: -var(--spacing-large); }
-  .na5-ns { margin: -var(--spacing-extra-large); }
-  .na6-ns { margin: -var(--spacing-extra-extra-large); }
-  .na7-ns { margin: -var(--spacing-extra-extra-extra-large); }
-
-  .nl1-ns { margin-left: -var(--spacing-extra-small); }
-  .nl2-ns { margin-left: -var(--spacing-small); }
-  .nl3-ns { margin-left: -var(--spacing-medium); }
-  .nl4-ns { margin-left: -var(--spacing-large); }
-  .nl5-ns { margin-left: -var(--spacing-extra-large); }
-  .nl6-ns { margin-left: -var(--spacing-extra-extra-large); }
-  .nl7-ns { margin-left: -var(--spacing-extra-extra-extra-large); }
-
-  .nr1-ns { margin-right: -var(--spacing-extra-small); }
-  .nr2-ns { margin-right: -var(--spacing-small); }
-  .nr3-ns { margin-right: -var(--spacing-medium); }
-  .nr4-ns { margin-right: -var(--spacing-large); }
-  .nr5-ns { margin-right: -var(--spacing-extra-large); }
-  .nr6-ns { margin-right: -var(--spacing-extra-extra-large); }
-  .nr7-ns { margin-right: -var(--spacing-extra-extra-extra-large); }
-
-  .nb1-ns { margin-bottom: -var(--spacing-extra-small); }
-  .nb2-ns { margin-bottom: -var(--spacing-small); }
-  .nb3-ns { margin-bottom: -var(--spacing-medium); }
-  .nb4-ns { margin-bottom: -var(--spacing-large); }
-  .nb5-ns { margin-bottom: -var(--spacing-extra-large); }
-  .nb6-ns { margin-bottom: -var(--spacing-extra-extra-large); }
-  .nb7-ns { margin-bottom: -var(--spacing-extra-extra-extra-large); }
-
-  .nt1-ns { margin-top: -var(--spacing-extra-small); }
-  .nt2-ns { margin-top: -var(--spacing-small); }
-  .nt3-ns { margin-top: -var(--spacing-medium); }
-  .nt4-ns { margin-top: -var(--spacing-large); }
-  .nt5-ns { margin-top: -var(--spacing-extra-large); }
-  .nt6-ns { margin-top: -var(--spacing-extra-extra-large); }
-  .nt7-ns { margin-top: -var(--spacing-extra-extra-extra-large); }
-
-}
 
 @media (--breakpoint-medium) {
   .na1-m { margin: -var(--spacing-extra-small); }
@@ -201,4 +158,3 @@
   .nt6-l { margin-top: -var(--spacing-extra-extra-large); }
   .nt7-l { margin-top: -var(--spacing-extra-extra-extra-large); }
 }
-

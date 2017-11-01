@@ -1,10 +1,10 @@
-# tachyons-line-height 3.0.1
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-273 | 12 | 12
+254 | 9 | 9
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-line-height
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-line-height
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-line-height.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-line-height.git
 Import the css module
 
 ```css
-@import "tachyons-line-height";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-line-height@3.0.1/css/tachyons-line-height.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-line-height">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,26 +74,23 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   LINE HEIGHT / LEADING
-   Docs: http://tachyons.io/docs/typography/line-height
+  # LINE HEIGHT / LEADING
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Docs
 
+  http://tachyons.io/docs/typography/line-height
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .lh-solid { line-height: 1; }
 .lh-title { line-height: 1.25; }
 .lh-copy { line-height: 1.5; }
 @media screen and (min-width: 30em) {
- .lh-solid-ns { line-height: 1; }
- .lh-title-ns { line-height: 1.25; }
- .lh-copy-ns { line-height: 1.5; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .lh-solid-m { line-height: 1; }
  .lh-title-m { line-height: 1.25; }
  .lh-copy-m { line-height: 1.5; }

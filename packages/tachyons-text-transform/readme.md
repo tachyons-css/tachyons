@@ -1,10 +1,10 @@
-# tachyons-text-transform 4.0.5
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-210 | 16 | 16
+311 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-text-transform
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-text-transform
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-text-transform.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-text-transform.git
 Import the css module
 
 ```css
-@import "tachyons-text-transform";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-text-transform@4.0.5/css/tachyons-text-transform.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-text-transform">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,22 +74,35 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   TEXT TRANSFORM
+  # TEXT TRANSFORM
 
+  ### Docs
+
+  http://tachyons.io/docs/typography/text-transform/
+
+  ### Base
+
+  tt = text-transform
+
+  ### Modifiers
+
+  - c = capitalize
+  - l = lowercase
+  - u = uppercase
+  - n = none
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .ttc { text-transform: capitalize; }
 .ttl { text-transform: lowercase; }
 .ttu { text-transform: uppercase; }
 .ttn { text-transform: none; }
 @media screen and (min-width: 30em) {
- .ttc-ns { text-transform: capitalize; }
- .ttl-ns { text-transform: lowercase; }
- .ttu-ns { text-transform: uppercase; }
- .ttn-ns { text-transform: none; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .ttc-m { text-transform: capitalize; }
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }

@@ -1,33 +1,36 @@
-/* 
-  
-   SKINS:PSEUDO
+/*!!!
 
-   Customize the color of an element when
-   it is focused or hovered over.
- 
+  # SKINS:PSEUDO
+
+  Customize the color of an element when
+  it is focused or hovered over.
+
+  ### Docs
+
+  http://tachyons.io/docs/themes/skins-pseudo/
  */
 
-.hover-black:hover, 
+.hover-black:hover,
 .hover-black:focus { color: var(--black); }
-.hover-near-black:hover, 
+.hover-near-black:hover,
 .hover-near-black:focus { color: var(--near-black); }
-.hover-dark-gray:hover, 
+.hover-dark-gray:hover,
 .hover-dark-gray:focus { color: var(--dark-gray); }
-.hover-mid-gray:hover, 
+.hover-mid-gray:hover,
 .hover-mid-gray:focus { color: var(--mid-gray); }
-.hover-gray:hover, 
+.hover-gray:hover,
 .hover-gray:focus { color: var(--gray); }
-.hover-silver:hover, 
+.hover-silver:hover,
 .hover-silver:focus { color: var(--silver); }
-.hover-light-silver:hover, 
+.hover-light-silver:hover,
 .hover-light-silver:focus { color: var(--light-silver); }
-.hover-moon-gray:hover, 
+.hover-moon-gray:hover,
 .hover-moon-gray:focus { color: var(--moon-gray); }
-.hover-light-gray:hover, 
+.hover-light-gray:hover,
 .hover-light-gray:focus { color: var(--light-gray); }
-.hover-near-white:hover, 
+.hover-near-white:hover,
 .hover-near-white:focus { color: var(--near-white); }
-.hover-white:hover, 
+.hover-white:hover,
 .hover-white:focus { color: var(--white); }
 
 .hover-black-90:hover,
@@ -69,29 +72,29 @@
 .hover-inherit:hover,
 .hover-inherit:focus { color: inherit; }
 
-.hover-bg-black:hover, 
+.hover-bg-black:hover,
 .hover-bg-black:focus { background-color: var(--black); }
-.hover-bg-near-black:hover, 
+.hover-bg-near-black:hover,
 .hover-bg-near-black:focus { background-color: var(--near-black); }
-.hover-bg-dark-gray:hover, 
+.hover-bg-dark-gray:hover,
 .hover-bg-dark-gray:focus { background-color: var(--dark-gray); }
-.hover-bg-mid-gray:hover, 
+.hover-bg-mid-gray:hover,
 .hover-bg-mid-gray:focus { background-color: var(--mid-gray); }
-.hover-bg-gray:hover, 
+.hover-bg-gray:hover,
 .hover-bg-gray:focus { background-color: var(--gray); }
-.hover-bg-silver:hover, 
+.hover-bg-silver:hover,
 .hover-bg-silver:focus { background-color: var(--silver); }
-.hover-bg-light-silver:hover, 
+.hover-bg-light-silver:hover,
 .hover-bg-light-silver:focus { background-color: var(--light-silver); }
-.hover-bg-moon-gray:hover, 
+.hover-bg-moon-gray:hover,
 .hover-bg-moon-gray:focus { background-color: var(--moon-gray); }
-.hover-bg-light-gray:hover, 
+.hover-bg-light-gray:hover,
 .hover-bg-light-gray:focus { background-color: var(--light-gray); }
-.hover-bg-near-white:hover, 
+.hover-bg-near-white:hover,
 .hover-bg-near-white:focus { background-color: var(--near-white); }
-.hover-bg-white:hover, 
+.hover-bg-white:hover,
 .hover-bg-white:focus { background-color: var(--white); }
-.hover-bg-transparent:hover, 
+.hover-bg-transparent:hover,
 .hover-bg-transparent:focus { background-color: var(--transparent); }
 
 .hover-bg-black-90:hover,

@@ -1,8 +1,10 @@
-/*
+/*!!!
 
-   FONT FAMILY GROUPS
-   Docs: http://tachyons.io/docs/typography/font-family/
+   # FONT FAMILY GROUPS
 
+   ### Docs
+
+   http://tachyons.io/docs/typography/font-family/
 */
 
 
@@ -97,4 +99,3 @@ code, .code {
   font-family: baskerville,
                serif;
 }
-

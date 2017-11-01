@@ -1,2 +1,9 @@
-.link{text-decoration:none}.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}
+/*!!!
+
+  # LINKS
+
+  ### Docs
+
+  http://tachyons.io/docs/elements/links/
+*/.link{text-decoration:none}.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}.link:focus{outline:1px dotted currentColor}
 

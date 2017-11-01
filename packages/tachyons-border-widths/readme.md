@@ -1,10 +1,10 @@
-# tachyons-border-widths 3.0.0
+# tachyons 4.9.0
 
-Border width CSS module for Tachyons
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-424 | 40 | 40
+422 | 30 | 30
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-border-widths
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,76 +24,80 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-border-widths
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-border-widths.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
 ```css
-@import "tachyons-border-widths";
+@import "tachyons";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-border-widths@3.0.0/css/tachyons-border-widths.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-border-widths">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
-/*
+/*!!!
 
-   BORDER WIDTHS
+  # BORDER WIDTHS
 
-   Base:
-     bw = border-width
+  ### Docs
 
-   Modifiers:
-     0 = 0 width border
-     1 = 1st step in border-width scale
-     2 = 2nd step in border-width scale
-     3 = 3rd step in border-width scale
-     4 = 4th step in border-width scale
-     5 = 5th step in border-width scale
+  http://tachyons.io/docs/themes/borders/
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Base
 
+  `bw` = border-width
+
+  ### Modifiers
+  - 0 = 0 width border
+  - 1 = 1st step in border-width scale
+  - 2 = 2nd step in border-width scale
+  - 3 = 3rd step in border-width scale
+  - 4 = 4th step in border-width scale
+  - 5 = 5th step in border-width scale
+
+  ### Media Query Extensions
+
+   -m  = medium
+   -l  = large
 */
 .bw0 { border-width: 0; }
 .bw1 { border-width: .125rem; }
@@ -101,23 +105,12 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .bw3 { border-width: .5rem; }
 .bw4 { border-width: 1rem; }
 .bw5 { border-width: 2rem; }
+/* Resets */
 .bt-0 { border-top-width: 0; }
 .br-0 { border-right-width: 0; }
 .bb-0 { border-bottom-width: 0; }
 .bl-0 { border-left-width: 0; }
 @media screen and (min-width: 30em) {
- .bw0-ns { border-width: 0; }
- .bw1-ns { border-width: .125rem; }
- .bw2-ns { border-width: .25rem; }
- .bw3-ns { border-width: .5rem; }
- .bw4-ns { border-width: 1rem; }
- .bw5-ns { border-width: 2rem; }
- .bt-0-ns { border-top-width: 0; }
- .br-0-ns { border-right-width: 0; }
- .bb-0-ns { border-bottom-width: 0; }
- .bl-0-ns { border-left-width: 0; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .bw0-m { border-width: 0; }
  .bw1-m { border-width: .125rem; }
  .bw2-m { border-width: .25rem; }

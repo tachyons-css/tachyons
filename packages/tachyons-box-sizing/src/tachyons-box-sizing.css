@@ -1,7 +1,9 @@
-/*
- 
-  BOX SIZING
+/*!!!
 
+  # BOX SIZING
+
+  Box sizing doesn't use the `*` selector in order
+  to improve performance.
 */
 
 html,
@@ -27,7 +29,7 @@ dl,
 dt,
 dd,
 textarea,
-table, 
+table,
 td,
 th,
 tr,
@@ -40,4 +42,3 @@ input[type="url"],
 .border-box {
   box-sizing: border-box;
 }
-

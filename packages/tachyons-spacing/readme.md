@@ -1,10 +1,10 @@
-# tachyons-spacing 6.0.0
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-2273 | 448 | 576
+1907 | 336 | 432
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-spacing
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,88 +24,96 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-spacing
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-spacing.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
 ```css
-@import "tachyons-spacing";
+@import "tachyons";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-spacing@6.0.0/css/tachyons-spacing.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-spacing">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
-/* Variables */
-/* Spacing Scale - based on a ratio of 1:2 */
-/* Media Queries */
-/*
-   SPACING
+/*!!!
 
-   An eight step powers of two scale ranging from 0 to 16rem.
-   Namespaces are composable and thus highly grockable - check the legend below
+  # SPACING
 
-   Legend:
+  An eight step powers of two scale ranging from 0 to 16rem.
 
-   p = padding
-   m = margin
+  ### Docs
 
-   a = all
-   h = horizontal
-   v = vertical
-   t = top
-   r = right
-   b = bottom
-   l = left
+  http://tachyons.io/docs/layout/spacing/
 
-   0 = none
-   1 = 1st step in spacing scale
-   2 = 2nd step in spacing scale
-   3 = 3rd step in spacing scale
-   4 = 4th step in spacing scale
-   5 = 5th step in spacing scale
-   6 = 6th step in spacing scale
-   7 = 7th step in spacing scale
+  ### Base
 
+  - p = padding
+  - m = margin
+
+  ### Modifiers
+
+  - a = all
+  - h = horizontal
+  - v = vertical
+  - t = top
+  - r = right
+  - b = bottom
+  - l = left
+
+  - 0 = none
+  - 1 = 1st step in spacing scale
+  - 2 = 2nd step in spacing scale
+  - 3 = 3rd step in spacing scale
+  - 4 = 4th step in spacing scale
+  - 5 = 5th step in spacing scale
+  - 6 = 6th step in spacing scale
+  - 7 = 7th step in spacing scale
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
+/* Variables */
 .pa0 { padding: 0; }
 .pa1 { padding: .25rem; }
 .pa2 { padding: .5rem; }
@@ -219,120 +227,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .mh6 { margin-left: 8rem; margin-right: 8rem; }
 .mh7 { margin-left: 16rem; margin-right: 16rem; }
 @media screen and (min-width: 30em) {
- .pa0-ns { padding: 0; }
- .pa1-ns { padding: .25rem; }
- .pa2-ns { padding: .5rem; }
- .pa3-ns { padding: 1rem; }
- .pa4-ns { padding: 2rem; }
- .pa5-ns { padding: 4rem; }
- .pa6-ns { padding: 8rem; }
- .pa7-ns { padding: 16rem; }
- .pl0-ns { padding-left: 0; }
- .pl1-ns { padding-left: .25rem; }
- .pl2-ns { padding-left: .5rem; }
- .pl3-ns { padding-left: 1rem; }
- .pl4-ns { padding-left: 2rem; }
- .pl5-ns { padding-left: 4rem; }
- .pl6-ns { padding-left: 8rem; }
- .pl7-ns { padding-left: 16rem; }
- .pr0-ns { padding-right: 0; }
- .pr1-ns { padding-right: .25rem; }
- .pr2-ns { padding-right: .5rem; }
- .pr3-ns { padding-right: 1rem; }
- .pr4-ns { padding-right: 2rem; }
- .pr5-ns { padding-right: 4rem; }
- .pr6-ns { padding-right: 8rem; }
- .pr7-ns { padding-right: 16rem; }
- .pb0-ns { padding-bottom: 0; }
- .pb1-ns { padding-bottom: .25rem; }
- .pb2-ns { padding-bottom: .5rem; }
- .pb3-ns { padding-bottom: 1rem; }
- .pb4-ns { padding-bottom: 2rem; }
- .pb5-ns { padding-bottom: 4rem; }
- .pb6-ns { padding-bottom: 8rem; }
- .pb7-ns { padding-bottom: 16rem; }
- .pt0-ns { padding-top: 0; }
- .pt1-ns { padding-top: .25rem; }
- .pt2-ns { padding-top: .5rem; }
- .pt3-ns { padding-top: 1rem; }
- .pt4-ns { padding-top: 2rem; }
- .pt5-ns { padding-top: 4rem; }
- .pt6-ns { padding-top: 8rem; }
- .pt7-ns { padding-top: 16rem; }
- .pv0-ns { padding-top: 0; padding-bottom: 0; }
- .pv1-ns { padding-top: .25rem; padding-bottom: .25rem; }
- .pv2-ns { padding-top: .5rem; padding-bottom: .5rem; }
- .pv3-ns { padding-top: 1rem; padding-bottom: 1rem; }
- .pv4-ns { padding-top: 2rem; padding-bottom: 2rem; }
- .pv5-ns { padding-top: 4rem; padding-bottom: 4rem; }
- .pv6-ns { padding-top: 8rem; padding-bottom: 8rem; }
- .pv7-ns { padding-top: 16rem; padding-bottom: 16rem; }
- .ph0-ns { padding-left: 0; padding-right: 0; }
- .ph1-ns { padding-left: .25rem; padding-right: .25rem; }
- .ph2-ns { padding-left: .5rem; padding-right: .5rem; }
- .ph3-ns { padding-left: 1rem; padding-right: 1rem; }
- .ph4-ns { padding-left: 2rem; padding-right: 2rem; }
- .ph5-ns { padding-left: 4rem; padding-right: 4rem; }
- .ph6-ns { padding-left: 8rem; padding-right: 8rem; }
- .ph7-ns { padding-left: 16rem; padding-right: 16rem; }
- .ma0-ns { margin: 0; }
- .ma1-ns { margin: .25rem; }
- .ma2-ns { margin: .5rem; }
- .ma3-ns { margin: 1rem; }
- .ma4-ns { margin: 2rem; }
- .ma5-ns { margin: 4rem; }
- .ma6-ns { margin: 8rem; }
- .ma7-ns { margin: 16rem; }
- .ml0-ns { margin-left: 0; }
- .ml1-ns { margin-left: .25rem; }
- .ml2-ns { margin-left: .5rem; }
- .ml3-ns { margin-left: 1rem; }
- .ml4-ns { margin-left: 2rem; }
- .ml5-ns { margin-left: 4rem; }
- .ml6-ns { margin-left: 8rem; }
- .ml7-ns { margin-left: 16rem; }
- .mr0-ns { margin-right: 0; }
- .mr1-ns { margin-right: .25rem; }
- .mr2-ns { margin-right: .5rem; }
- .mr3-ns { margin-right: 1rem; }
- .mr4-ns { margin-right: 2rem; }
- .mr5-ns { margin-right: 4rem; }
- .mr6-ns { margin-right: 8rem; }
- .mr7-ns { margin-right: 16rem; }
- .mb0-ns { margin-bottom: 0; }
- .mb1-ns { margin-bottom: .25rem; }
- .mb2-ns { margin-bottom: .5rem; }
- .mb3-ns { margin-bottom: 1rem; }
- .mb4-ns { margin-bottom: 2rem; }
- .mb5-ns { margin-bottom: 4rem; }
- .mb6-ns { margin-bottom: 8rem; }
- .mb7-ns { margin-bottom: 16rem; }
- .mt0-ns { margin-top: 0; }
- .mt1-ns { margin-top: .25rem; }
- .mt2-ns { margin-top: .5rem; }
- .mt3-ns { margin-top: 1rem; }
- .mt4-ns { margin-top: 2rem; }
- .mt5-ns { margin-top: 4rem; }
- .mt6-ns { margin-top: 8rem; }
- .mt7-ns { margin-top: 16rem; }
- .mv0-ns { margin-top: 0; margin-bottom: 0; }
- .mv1-ns { margin-top: .25rem; margin-bottom: .25rem; }
- .mv2-ns { margin-top: .5rem; margin-bottom: .5rem; }
- .mv3-ns { margin-top: 1rem; margin-bottom: 1rem; }
- .mv4-ns { margin-top: 2rem; margin-bottom: 2rem; }
- .mv5-ns { margin-top: 4rem; margin-bottom: 4rem; }
- .mv6-ns { margin-top: 8rem; margin-bottom: 8rem; }
- .mv7-ns { margin-top: 16rem; margin-bottom: 16rem; }
- .mh0-ns { margin-left: 0; margin-right: 0; }
- .mh1-ns { margin-left: .25rem; margin-right: .25rem; }
- .mh2-ns { margin-left: .5rem; margin-right: .5rem; }
- .mh3-ns { margin-left: 1rem; margin-right: 1rem; }
- .mh4-ns { margin-left: 2rem; margin-right: 2rem; }
- .mh5-ns { margin-left: 4rem; margin-right: 4rem; }
- .mh6-ns { margin-left: 8rem; margin-right: 8rem; }
- .mh7-ns { margin-left: 16rem; margin-right: 16rem; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .pa0-m { padding: 0; }
  .pa1-m { padding: .25rem; }
  .pa2-m { padding: .5rem; }

@@ -1,10 +1,10 @@
-# tachyons-aspect-ratios 1.0.0
+# tachyons 4.9.0
 
-Css for setting the aspect ratio of an element.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-723 | 52 | 84
+709 | 39 | 63
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-aspect-ratios
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-aspect-ratios
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-aspect-ratios.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-aspect-ratios.git
 Import the css module
 
 ```css
-@import "tachyons-aspect-ratios";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-aspect-ratios@1.0.0/css/tachyons-aspect-ratios.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-aspect-ratios">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,23 +74,28 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   ASPECT RATIOS
+  # ASPECT RATIOS
 
+  This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
+  Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
+  Make sure there are no height and width attributes on the embedded media.
+  Adapted from: https://github.com/suitcss/components-flex-embed
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
+
+  ### Example
+
+  ```html
+  <div class="aspect-ratio aspect-ratio--16x9">
+  <iframe class="aspect-ratio--object"></iframe>
+  </div>
+  ```
 */
-/* This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
- * Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
- * Make sure there are no height and width attributes on the embedded media.
- * Adapted from: https://github.com/suitcss/components-flex-embed
- *
- * Example:
- *
- * <div class="aspect-ratio aspect-ratio--16x9">
- *  <iframe class="aspect-ratio--object"></iframe>
- * </div>
- *
- * */
 .aspect-ratio { height: 0; position: relative; }
 .aspect-ratio--16x9 { padding-bottom: 56.25%; }
 .aspect-ratio--9x16 { padding-bottom: 177.77%; }
@@ -105,21 +110,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .aspect-ratio--1x1 { padding-bottom: 100%; }
 .aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 @media screen and (min-width: 30em) {
- .aspect-ratio-ns { height: 0; position: relative; }
- .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
- .aspect-ratio--9x16-ns { padding-bottom: 177.77%; }
- .aspect-ratio--4x3-ns { padding-bottom: 75%; }
- .aspect-ratio--3x4-ns { padding-bottom: 133.33%; }
- .aspect-ratio--6x4-ns { padding-bottom: 66.6%; }
- .aspect-ratio--4x6-ns { padding-bottom: 150%; }
- .aspect-ratio--8x5-ns { padding-bottom: 62.5%; }
- .aspect-ratio--5x8-ns { padding-bottom: 160%; }
- .aspect-ratio--7x5-ns { padding-bottom: 71.42%; }
- .aspect-ratio--5x7-ns { padding-bottom: 140%; }
- .aspect-ratio--1x1-ns { padding-bottom: 100%; }
- .aspect-ratio--object-ns { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .aspect-ratio-m { height: 0; position: relative; }
  .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
  .aspect-ratio--9x16-m { padding-bottom: 177.77%; }

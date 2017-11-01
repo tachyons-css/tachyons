@@ -1,7 +1,15 @@
-/*
+/*!!!
 
-   TYPOGRAPHY
+  # TYPOGRAPHY
 
+  ### Docs
+
+  http://tachyons.io/docs/typography/measure/
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 /* Measure is limited to ~66 characters */
 .measure { max-width: 30em; }
@@ -15,14 +23,6 @@
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 @media screen and (min-width: 30em) {
- .measure-ns { max-width: 30em; }
- .measure-wide-ns { max-width: 34em; }
- .measure-narrow-ns { max-width: 20em; }
- .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
- .small-caps-ns { font-variant: small-caps; }
- .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .measure-m { max-width: 30em; }
  .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }

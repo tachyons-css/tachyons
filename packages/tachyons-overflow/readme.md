@@ -1,10 +1,10 @@
-# tachyons-overflow 4.0.5
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-347 | 48 | 48
+349 | 36 | 36
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-overflow
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-overflow
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-overflow.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-overflow.git
 Import the css module
 
 ```css
-@import "tachyons-overflow";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-overflow@4.0.5/css/tachyons-overflow.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-overflow">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,10 +74,14 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-    OVERFLOW
+  # OVERFLOW
 
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
  */
 .overflow-visible { overflow: visible; }
 .overflow-hidden { overflow: hidden; }
@@ -92,20 +96,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .overflow-y-scroll { overflow-y: scroll; }
 .overflow-y-auto { overflow-y: auto; }
 @media screen and (min-width: 30em) {
- .overflow-visible-ns { overflow: visible; }
- .overflow-hidden-ns { overflow: hidden; }
- .overflow-scroll-ns { overflow: scroll; }
- .overflow-auto-ns { overflow: auto; }
- .overflow-x-visible-ns { overflow-x: visible; }
- .overflow-x-hidden-ns { overflow-x: hidden; }
- .overflow-x-scroll-ns { overflow-x: scroll; }
- .overflow-x-auto-ns { overflow-x: auto; }
- .overflow-y-visible-ns { overflow-y: visible; }
- .overflow-y-hidden-ns { overflow-y: hidden; }
- .overflow-y-scroll-ns { overflow-y: scroll; }
- .overflow-y-auto-ns { overflow-y: auto; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .overflow-visible-m { overflow: visible; }
  .overflow-hidden-m { overflow: hidden; }
  .overflow-scroll-m { overflow: scroll; }

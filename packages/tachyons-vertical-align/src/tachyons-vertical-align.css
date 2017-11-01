@@ -3,28 +3,20 @@
 
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-/*
+/*!!!
 
-   VERTICAL ALIGN
+  # VERTICAL ALIGN
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Media Query Extensions
 
+  - `-m` = medium
+  - `-l` = large
 */
 
 .v-base     { vertical-align: baseline; }
 .v-mid      { vertical-align: middle; }
 .v-top      { vertical-align: top; }
 .v-btm      { vertical-align: bottom; }
-
-@media (--breakpoint-not-small) {
-  .v-base-ns     { vertical-align: baseline; }
-  .v-mid-ns      { vertical-align: middle; }
-  .v-top-ns      { vertical-align: top; }
-  .v-btm-ns      { vertical-align: bottom; }
-}
 
 @media (--breakpoint-medium) {
   .v-base-m     { vertical-align: baseline; }

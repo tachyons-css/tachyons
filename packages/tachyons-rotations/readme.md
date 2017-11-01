@@ -1,10 +1,10 @@
-# tachyons-rotations 1.0.4
+# tachyons 4.9.0
 
-Css for setting the rotation of an element.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-363 | 28 | 56
+335 | 21 | 42
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-rotations
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-rotations
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-rotations.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-rotations.git
 Import the css module
 
 ```css
-@import "tachyons-rotations";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-rotations@1.0.4/css/tachyons-rotations.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-rotations">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,12 +74,16 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   ROTATIONS
+  # ROTATIONS
 
-   Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
+  Rotate elements.
 
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .rotate-45 { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
 .rotate-90 { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
@@ -89,15 +93,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .rotate-270 { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
 .rotate-315 { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
 @media screen and (min-width: 30em) {
- .rotate-45-ns { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
- .rotate-90-ns { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
- .rotate-135-ns { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
- .rotate-180-ns { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
- .rotate-225-ns { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
- .rotate-270-ns { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
- .rotate-315-ns { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .rotate-45-m { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
  .rotate-90-m { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
  .rotate-135-m { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }

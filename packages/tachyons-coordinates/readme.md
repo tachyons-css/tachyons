@@ -1,10 +1,10 @@
-# tachyons-coordinates 4.0.0
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-519 | 84 | 96
+594 | 63 | 72
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-coordinates
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,62 +24,85 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-coordinates
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-coordinates.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
 ```css
-@import "tachyons-coordinates";
+@import "tachyons";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-coordinates@4.0.0/css/tachyons-coordinates.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-coordinates">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
-/*
+/*!!!
 
-   COORDINATES
+  # COORDINATES
 
-   Use in combination with the position module.
+  Use in combination with the position module.
 
+  ### Docs
+
+  http://tachyons.io/docs/layout/position/
+
+  ### Base
+
+  - top
+  - bottom
+  - right
+  - left
+
+  ### Modifiers
+
+  - `-0`  = literal value 0
+  - `-1`  = literal value 1
+  - `-2`  = literal value 2
+  - `--1` = literal value -1
+  - `--2` = literal value -2
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .top-0 { top: 0; }
 .right-0 { right: 0; }
@@ -103,29 +126,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .left--2 { left: -2rem; }
 .absolute--fill { top: 0; right: 0; bottom: 0; left: 0; }
 @media screen and (min-width: 30em) {
- .top-0-ns { top: 0; }
- .left-0-ns { left: 0; }
- .right-0-ns { right: 0; }
- .bottom-0-ns { bottom: 0; }
- .top-1-ns { top: 1rem; }
- .left-1-ns { left: 1rem; }
- .right-1-ns { right: 1rem; }
- .bottom-1-ns { bottom: 1rem; }
- .top-2-ns { top: 2rem; }
- .left-2-ns { left: 2rem; }
- .right-2-ns { right: 2rem; }
- .bottom-2-ns { bottom: 2rem; }
- .top--1-ns { top: -1rem; }
- .right--1-ns { right: -1rem; }
- .bottom--1-ns { bottom: -1rem; }
- .left--1-ns { left: -1rem; }
- .top--2-ns { top: -2rem; }
- .right--2-ns { right: -2rem; }
- .bottom--2-ns { bottom: -2rem; }
- .left--2-ns { left: -2rem; }
- .absolute--fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .top-0-m { top: 0; }
  .left-0-m { left: 0; }
  .right-0-m { right: 0; }
