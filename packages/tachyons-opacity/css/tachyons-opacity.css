@@ -1,8 +1,10 @@
-/*
+/*!!!
 
-    OPACITY
-    Docs: http://tachyons.io/docs/themes/opacity/
+  # OPACITY
 
+  ### Docs
+
+  http://tachyons.io/docs/themes/opacity/
 */
 .o-100 { opacity: 1; }
 .o-90 { opacity: .9; }

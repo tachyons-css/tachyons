@@ -3,16 +3,18 @@
 
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-/*
+/*!!!
 
-   POSITIONING
-   Docs: http://tachyons.io/docs/layout/position/
+  # POSITIONING
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Docs
 
+  http://tachyons.io/docs/layout/position/
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 
 .static { position: static; }

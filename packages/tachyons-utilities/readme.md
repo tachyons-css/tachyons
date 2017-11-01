@@ -1,10 +1,10 @@
-# tachyons-utilities 2.0.1
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-111 | 2 | 3
+256 | 10 | 13
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-utilities
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-utilities
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-utilities.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-utilities.git
 Import the css module
 
 ```css
-@import "tachyons-utilities";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-utilities@2.0.1/css/tachyons-utilities.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-utilities">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,13 +74,30 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   UTILITIES
+  # UTILITIES
 
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
+/* Equivalent to .overflow-y-scroll */
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
+.mr-auto { margin-right: auto; }
+.ml-auto { margin-left: auto; }
+@media screen and (min-width: 30em) {
+ .center-m { margin-right: auto; margin-left: auto; }
+ .mr-auto-m { margin-right: auto; }
+ .ml-auto-m { margin-left: auto; }
+}
+@media screen and (min-width: 60em) {
+ .center-l { margin-right: auto; margin-left: auto; }
+ .mr-auto-l { margin-right: auto; }
+ .ml-auto-l { margin-left: auto; }
+}
 ```
 
 ## Contributing

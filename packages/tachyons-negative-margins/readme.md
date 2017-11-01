@@ -1,10 +1,10 @@
-# tachyons-negative-margins 1.0.0
+# tachyons 4.9.0
 
-negative-margins CSS module for Tachyons
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-716 | 140 | 140
+598 | 105 | 105
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-negative-margins
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-negative-margins
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-negative-margins.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-negative-margins.git
 Import the css module
 
 ```css
-@import "tachyons-negative-margins";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-negative-margins@1.0.0/css/tachyons-negative-margins.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-negative-margins">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,32 +74,35 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
-   TACHYONS - NEGATIVE MARGINS
+/*!!!
 
-   Base:
-     n = negative
+  # NEGATIVE MARGINS
 
-   Modifiers:
-     a = all
-     t = top
-     r = right
-     b = bottom
-     l = left
+  ### Base
 
-     1 = 1st step in spacing scale
-     2 = 2nd step in spacing scale
-     3 = 3rd step in spacing scale
-     4 = 4th step in spacing scale
-     5 = 5th step in spacing scale
-     6 = 6th step in spacing scale
-     7 = 7th step in spacing scale
+  `n` = negative
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Modifiers
 
+  - a = all
+  - t = top
+  - r = right
+  - b = bottom
+  - l = left
+
+  - 1 = 1st step in spacing scale
+  - 2 = 2nd step in spacing scale
+  - 3 = 3rd step in spacing scale
+  - 4 = 4th step in spacing scale
+  - 5 = 5th step in spacing scale
+  - 6 = 6th step in spacing scale
+  - 7 = 7th step in spacing scale
+
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .na1 { margin: undefined; }
 .na2 { margin: undefined; }
@@ -137,43 +140,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .nt6 { margin-top: undefined; }
 .nt7 { margin-top: undefined; }
 @media screen and (min-width: 30em) {
- .na1-ns { margin: undefined; }
- .na2-ns { margin: undefined; }
- .na3-ns { margin: undefined; }
- .na4-ns { margin: undefined; }
- .na5-ns { margin: undefined; }
- .na6-ns { margin: undefined; }
- .na7-ns { margin: undefined; }
- .nl1-ns { margin-left: undefined; }
- .nl2-ns { margin-left: undefined; }
- .nl3-ns { margin-left: undefined; }
- .nl4-ns { margin-left: undefined; }
- .nl5-ns { margin-left: undefined; }
- .nl6-ns { margin-left: undefined; }
- .nl7-ns { margin-left: undefined; }
- .nr1-ns { margin-right: undefined; }
- .nr2-ns { margin-right: undefined; }
- .nr3-ns { margin-right: undefined; }
- .nr4-ns { margin-right: undefined; }
- .nr5-ns { margin-right: undefined; }
- .nr6-ns { margin-right: undefined; }
- .nr7-ns { margin-right: undefined; }
- .nb1-ns { margin-bottom: undefined; }
- .nb2-ns { margin-bottom: undefined; }
- .nb3-ns { margin-bottom: undefined; }
- .nb4-ns { margin-bottom: undefined; }
- .nb5-ns { margin-bottom: undefined; }
- .nb6-ns { margin-bottom: undefined; }
- .nb7-ns { margin-bottom: undefined; }
- .nt1-ns { margin-top: undefined; }
- .nt2-ns { margin-top: undefined; }
- .nt3-ns { margin-top: undefined; }
- .nt4-ns { margin-top: undefined; }
- .nt5-ns { margin-top: undefined; }
- .nt6-ns { margin-top: undefined; }
- .nt7-ns { margin-top: undefined; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .na1-m { margin: undefined; }
  .na2-m { margin: undefined; }
  .na3-m { margin: undefined; }

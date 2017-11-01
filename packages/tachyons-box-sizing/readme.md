@@ -1,10 +1,14 @@
-# tachyons-box-sizing 3.1.7
 
-Performance based css module.
 
-#### Stats
+# BOX SIZING
 
-223 | 35 | 1
+Box sizing doesn't use the `*` selector in order
+to improve performance.
+
+
+### Stats
+
+292 | 39 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +17,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-box-sizing
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +28,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-box-sizing
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-box-sizing.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +43,7 @@ git clone git@github.com:tachyons-css/tachyons-box-sizing.git
 Import the css module
 
 ```css
-@import "tachyons-box-sizing";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +59,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-box-sizing@3.1.7/css/tachyons-box-sizing.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +67,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-box-sizing">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,12 +78,16 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
-  Box Sizing
+/*!!!
+
+  # BOX SIZING
+
+  Box sizing doesn't use the `*` selector in order
+  to improve performance.
 */
 html, body, div, article, section, main, footer, header, form, fieldset, legend,
-pre, code, p, a, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, textarea,
-input[type="email"], input[type="number"], input[type="password"],
+pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, textarea, table,
+td, th, tr, input[type="email"], input[type="number"], input[type="password"],
 input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 ```
 

@@ -1,10 +1,10 @@
-# tachyons-borders 3.0.0
+# tachyons 4.9.0
 
-Performance-first css module for styling borders.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-308 | 24 | 48
+369 | 18 | 36
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-borders
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,68 +24,81 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-borders
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-borders.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
 ```css
-@import "tachyons-borders";
+@import "tachyons";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-borders@3.0.0/css/tachyons-borders.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-borders">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
-/*
+/*!!!
 
-   BORDER BASE
+  # BORDERS
 
-   Legend
+  ### Docs
 
-   a = all
-   t = top
-   r = right
-   b = bottom
-   l = left
+  http://tachyons.io/docs/themes/borders/
 
+  ### Base
+
+  - `b` = border
+
+  ### Modifiers
+
+  - a = all
+  - t = top
+  - r = right
+  - b = bottom
+  - l = left
+  - n = none
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l`= large
 */
 .ba { border-style: solid; border-width: 1px; }
 .bt { border-top-style: solid; border-top-width: 1px; }
@@ -94,14 +107,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .bl { border-left-style: solid; border-left-width: 1px; }
 .bn { border-style: none; border-width: 0; }
 @media screen and (min-width: 30em) {
- .ba-ns { border-style: solid; border-width: 1px; }
- .bt-ns { border-top-style: solid; border-top-width: 1px; }
- .br-ns { border-right-style: solid; border-right-width: 1px; }
- .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
- .bl-ns { border-left-style: solid; border-left-width: 1px; }
- .bn-ns { border-style: none; border-width: 0; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .ba-m { border-style: solid; border-width: 1px; }
  .bt-m { border-top-style: solid; border-top-width: 1px; }
  .br-m { border-right-style: solid; border-right-width: 1px; }

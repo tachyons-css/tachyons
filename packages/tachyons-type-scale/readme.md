@@ -1,10 +1,10 @@
-# tachyons-type-scale 6.1.0
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-531 | 44 | 36
+554 | 33 | 27
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-type-scale
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-type-scale
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-type-scale.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-type-scale.git
 Import the css module
 
 ```css
-@import "tachyons-type-scale";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-type-scale@6.1.0/css/tachyons-type-scale.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-type-scale">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,30 +74,39 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   TYPE SCALE
-   Docs: http://tachyons.io/docs/typography/scale/
+  # TYPE SCALE
 
-   Base:
-    f = font-size
+  ### Docs
 
-   Modifiers
-     1 = 1st step in size scale
-     2 = 2nd step in size scale
-     3 = 3rd step in size scale
-     4 = 4th step in size scale
-     5 = 5th step in size scale
-     6 = 6th step in size scale
-     7 = 7th step in size scale
+  http://tachyons.io/docs/typography/scale/
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Base
 
+  f = font-size
+
+  ### Modifiers
+
+  - 1 = 1st step in size scale
+  - 2 = 2nd step in size scale
+  - 3 = 3rd step in size scale
+  - 4 = 4th step in size scale
+  - 5 = 5th step in size scale
+  - 6 = 6th step in size scale
+  - 7 = 7th step in size scale
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
-/* For Hero Titles */
+/*
+ * For Hero/Marketing Titles
+ *
+ * These generally are too large for mobile
+ * so be careful using them on smaller screens.
+ * */
 .f-6, .f-headline { font-size: 6rem; }
 .f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
@@ -110,17 +119,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .f7 { font-size: .75rem; }
 /* Small and hard to read for many people so use with extreme caution */
 @media screen and (min-width: 30em) {
- .f-6-ns, .f-headline-ns { font-size: 6rem; }
- .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
- .f1-ns { font-size: 3rem; }
- .f2-ns { font-size: 2.25rem; }
- .f3-ns { font-size: 1.5rem; }
- .f4-ns { font-size: 1.25rem; }
- .f5-ns { font-size: 1rem; }
- .f6-ns { font-size: .875rem; }
- .f7-ns { font-size: .75rem; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .f-6-m, .f-headline-m { font-size: 6rem; }
  .f-5-m, .f-subheadline-m { font-size: 5rem; }
  .f1-m { font-size: 3rem; }

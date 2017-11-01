@@ -1,10 +1,10 @@
-# tachyons-border-radius 5.0.1
+# tachyons 4.9.0
 
-Border radius CSS module for Tachyons
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-498 | 44 | 60
+499 | 33 | 45
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-border-radius
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,78 +24,85 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-border-radius
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-border-radius.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
 ```css
-@import "tachyons-border-radius";
+@import "tachyons";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-border-radius@5.0.1/css/tachyons-border-radius.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-border-radius">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
-/*
+/*!!!
 
-   BORDER RADIUS
+  # BORDER RADIUS
 
-   Base:
-     br   = border-radius
+  ### Docs
 
-   Modifiers:
-     0    = 0/none
-     1    = 1st step in scale
-     2    = 2nd step in scale
-     3    = 3rd step in scale
-     4    = 4th step in scale
-     -100 = 100%
-     -pill = 9999px
+  http://tachyons.io/docs/themes/border-radius/
 
+  ### Base
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  `br` = border-radius
 
+  ### Modifiers
+
+  - 0 = 0/none
+  - 1 = 1st step in scale
+  - 2 = 2nd step in scale
+  - 3 = 3rd step in scale
+  - 4 = 4th step in scale
+
+  ### Literal values
+
+  - `-100` = 100%
+  - `-pill` = 9999px
+
+  ### Media Query Extensions
+
+   - `-m` = medium
+   - `-l` = large
 */
 .br0 { border-radius: 0; }
 .br1 { border-radius: .125rem; }
@@ -109,19 +116,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 @media screen and (min-width: 30em) {
- .br0-ns { border-radius: 0; }
- .br1-ns { border-radius: .125rem; }
- .br2-ns { border-radius: .25rem; }
- .br3-ns { border-radius: .5rem; }
- .br4-ns { border-radius: 1rem; }
- .br-100-ns { border-radius: 100%; }
- .br-pill-ns { border-radius: 9999px; }
- .br--bottom-ns { border-top-left-radius: 0; border-top-right-radius: 0; }
- .br--top-ns { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
- .br--right-ns { border-top-left-radius: 0; border-bottom-left-radius: 0; }
- .br--left-ns { border-top-right-radius: 0; border-bottom-right-radius: 0; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .br0-m { border-radius: 0; }
  .br1-m { border-radius: .125rem; }
  .br2-m { border-radius: .25rem; }

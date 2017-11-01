@@ -1,10 +1,10 @@
-# tachyons-word-break 3.0.0
+# tachyons 4.9.0
 
-Tachyons CSS module of utilities for setting word-break
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-187 | 12 | 12
+224 | 9 | 9
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-word-break
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,70 +24,73 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-word-break
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-word-break.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
 ```css
-@import "tachyons-word-break";
+@import "tachyons";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-word-break@3.0.0/css/tachyons-word-break.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-word-break">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
-/*
+/*!!!
 
-  WORD BREAK
+  # WORD BREAK
 
+  ### Base
+
+  word = word-break
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .word-normal { word-break: normal; }
 .word-wrap { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
 @media screen and (min-width: 30em) {
- .word-normal-ns { word-break: normal; }
- .word-wrap-ns { word-break: break-all; }
- .word-nowrap-ns { word-break: keep-all; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .word-normal-m { word-break: normal; }
  .word-wrap-m { word-break: break-all; }
  .word-nowrap-m { word-break: keep-all; }

@@ -1,137 +1,128 @@
-/*
+/*!!!
 
-   Tachyons
-   COLOR VARIABLES
+  # SKINS
 
-   Grayscale
-   - Solids
-   - Transparencies
-   Colors
+  ### Docs
 
-*/
-/*
+  http://tachyons.io/docs/themes/skins/
 
-   SKINS
-   Docs: http://tachyons.io/docs/themes/skins/
-
-   Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
-
+  Classes for setting foreground and background colors on elements.
+  If you haven't declared a border color, but set border on an element, it will
+  be set to the current text color.
 */
 /* Text colors */
-.black-90 { color: rgba( 0, 0, 0, .9 ); }
-.black-80 { color: rgba( 0, 0, 0, .8 ); }
-.black-70 { color: rgba( 0, 0, 0, .7 ); }
-.black-60 { color: rgba( 0, 0, 0, .6 ); }
-.black-50 { color: rgba( 0, 0, 0, .5 ); }
-.black-40 { color: rgba( 0, 0, 0, .4 ); }
-.black-30 { color: rgba( 0, 0, 0, .3 ); }
-.black-20 { color: rgba( 0, 0, 0, .2 ); }
-.black-10 { color: rgba( 0, 0, 0, .1 ); }
-.black-05 { color: rgba( 0, 0, 0, .05 ); }
-.white-90 { color: rgba( 255, 255, 255, .9 ); }
-.white-80 { color: rgba( 255, 255, 255, .8 ); }
-.white-70 { color: rgba( 255, 255, 255, .7 ); }
-.white-60 { color: rgba( 255, 255, 255, .6 ); }
-.white-50 { color: rgba( 255, 255, 255, .5 ); }
-.white-40 { color: rgba( 255, 255, 255, .4 ); }
-.white-30 { color: rgba( 255, 255, 255, .3 ); }
-.white-20 { color: rgba( 255, 255, 255, .2 ); }
-.white-10 { color: rgba( 255, 255, 255, .1 ); }
-.black { color: #000; }
-.near-black { color: #111; }
-.dark-gray { color: #333; }
-.mid-gray { color: #555; }
-.gray { color: #777; }
-.silver { color: #999; }
-.light-silver { color: #aaa; }
-.moon-gray { color: #ccc; }
-.light-gray { color: #eee; }
-.near-white { color: #f4f4f4; }
-.white { color: #fff; }
-.dark-red { color: #e7040f; }
-.red { color: #ff4136; }
-.light-red { color: #ff725c; }
-.orange { color: #ff6300; }
-.gold { color: #ffb700; }
-.yellow { color: #ffd700; }
-.light-yellow { color: #fbf1a9; }
-.purple { color: #5e2ca5; }
-.light-purple { color: #a463f2; }
-.dark-pink { color: #d5008f; }
-.hot-pink { color: #ff41b4; }
-.pink { color: #ff80cc; }
-.light-pink { color: #ffa3d7; }
-.dark-green { color: #137752; }
-.green { color: #19a974; }
-.light-green { color: #9eebcf; }
-.navy { color: #001b44; }
-.dark-blue { color: #00449e; }
-.blue { color: #357edd; }
-.light-blue { color: #96ccff; }
-.lightest-blue { color: #cdecff; }
-.washed-blue { color: #f6fffe; }
-.washed-green { color: #e8fdf5; }
-.washed-yellow { color: #fffceb; }
-.washed-red { color: #ffdfdf; }
+.black-90 { color: undefined; }
+.black-80 { color: undefined; }
+.black-70 { color: undefined; }
+.black-60 { color: undefined; }
+.black-50 { color: undefined; }
+.black-40 { color: undefined; }
+.black-30 { color: undefined; }
+.black-20 { color: undefined; }
+.black-10 { color: undefined; }
+.black-05 { color: undefined; }
+.white-90 { color: undefined; }
+.white-80 { color: undefined; }
+.white-70 { color: undefined; }
+.white-60 { color: undefined; }
+.white-50 { color: undefined; }
+.white-40 { color: undefined; }
+.white-30 { color: undefined; }
+.white-20 { color: undefined; }
+.white-10 { color: undefined; }
+.black { color: undefined; }
+.near-black { color: undefined; }
+.dark-gray { color: undefined; }
+.mid-gray { color: undefined; }
+.gray { color: undefined; }
+.silver { color: undefined; }
+.light-silver { color: undefined; }
+.moon-gray { color: undefined; }
+.light-gray { color: undefined; }
+.near-white { color: undefined; }
+.white { color: undefined; }
+.dark-red { color: undefined; }
+.red { color: undefined; }
+.light-red { color: undefined; }
+.orange { color: undefined; }
+.gold { color: undefined; }
+.yellow { color: undefined; }
+.light-yellow { color: undefined; }
+.purple { color: undefined; }
+.light-purple { color: undefined; }
+.dark-pink { color: undefined; }
+.hot-pink { color: undefined; }
+.pink { color: undefined; }
+.light-pink { color: undefined; }
+.dark-green { color: undefined; }
+.green { color: undefined; }
+.light-green { color: undefined; }
+.navy { color: undefined; }
+.dark-blue { color: undefined; }
+.blue { color: undefined; }
+.light-blue { color: undefined; }
+.lightest-blue { color: undefined; }
+.washed-blue { color: undefined; }
+.washed-green { color: undefined; }
+.washed-yellow { color: undefined; }
+.washed-red { color: undefined; }
 .color-inherit { color: inherit; }
-.bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
-.bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
-.bg-black-70 { background-color: rgba( 0, 0, 0, .7 ); }
-.bg-black-60 { background-color: rgba( 0, 0, 0, .6 ); }
-.bg-black-50 { background-color: rgba( 0, 0, 0, .5 ); }
-.bg-black-40 { background-color: rgba( 0, 0, 0, .4 ); }
-.bg-black-30 { background-color: rgba( 0, 0, 0, .3 ); }
-.bg-black-20 { background-color: rgba( 0, 0, 0, .2 ); }
-.bg-black-10 { background-color: rgba( 0, 0, 0, .1 ); }
-.bg-black-05 { background-color: rgba( 0, 0, 0, .05 ); }
-.bg-white-90 { background-color: rgba( 255, 255, 255, .9 ); }
-.bg-white-80 { background-color: rgba( 255, 255, 255, .8 ); }
-.bg-white-70 { background-color: rgba( 255, 255, 255, .7 ); }
-.bg-white-60 { background-color: rgba( 255, 255, 255, .6 ); }
-.bg-white-50 { background-color: rgba( 255, 255, 255, .5 ); }
-.bg-white-40 { background-color: rgba( 255, 255, 255, .4 ); }
-.bg-white-30 { background-color: rgba( 255, 255, 255, .3 ); }
-.bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
-.bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
+.bg-black-90 { background-color: undefined; }
+.bg-black-80 { background-color: undefined; }
+.bg-black-70 { background-color: undefined; }
+.bg-black-60 { background-color: undefined; }
+.bg-black-50 { background-color: undefined; }
+.bg-black-40 { background-color: undefined; }
+.bg-black-30 { background-color: undefined; }
+.bg-black-20 { background-color: undefined; }
+.bg-black-10 { background-color: undefined; }
+.bg-black-05 { background-color: undefined; }
+.bg-white-90 { background-color: undefined; }
+.bg-white-80 { background-color: undefined; }
+.bg-white-70 { background-color: undefined; }
+.bg-white-60 { background-color: undefined; }
+.bg-white-50 { background-color: undefined; }
+.bg-white-40 { background-color: undefined; }
+.bg-white-30 { background-color: undefined; }
+.bg-white-20 { background-color: undefined; }
+.bg-white-10 { background-color: undefined; }
 /* Background colors */
-.bg-black { background-color: #000; }
-.bg-near-black { background-color: #111; }
-.bg-dark-gray { background-color: #333; }
-.bg-mid-gray { background-color: #555; }
-.bg-gray { background-color: #777; }
-.bg-silver { background-color: #999; }
-.bg-light-silver { background-color: #aaa; }
-.bg-moon-gray { background-color: #ccc; }
-.bg-light-gray { background-color: #eee; }
-.bg-near-white { background-color: #f4f4f4; }
-.bg-white { background-color: #fff; }
-.bg-transparent { background-color: transparent; }
-.bg-dark-red { background-color: #e7040f; }
-.bg-red { background-color: #ff4136; }
-.bg-light-red { background-color: #ff725c; }
-.bg-orange { background-color: #ff6300; }
-.bg-gold { background-color: #ffb700; }
-.bg-yellow { background-color: #ffd700; }
-.bg-light-yellow { background-color: #fbf1a9; }
-.bg-purple { background-color: #5e2ca5; }
-.bg-light-purple { background-color: #a463f2; }
-.bg-dark-pink { background-color: #d5008f; }
-.bg-hot-pink { background-color: #ff41b4; }
-.bg-pink { background-color: #ff80cc; }
-.bg-light-pink { background-color: #ffa3d7; }
-.bg-dark-green { background-color: #137752; }
-.bg-green { background-color: #19a974; }
-.bg-light-green { background-color: #9eebcf; }
-.bg-navy { background-color: #001b44; }
-.bg-dark-blue { background-color: #00449e; }
-.bg-blue { background-color: #357edd; }
-.bg-light-blue { background-color: #96ccff; }
-.bg-lightest-blue { background-color: #cdecff; }
-.bg-washed-blue { background-color: #f6fffe; }
-.bg-washed-green { background-color: #e8fdf5; }
-.bg-washed-yellow { background-color: #fffceb; }
-.bg-washed-red { background-color: #ffdfdf; }
+.bg-black { background-color: undefined; }
+.bg-near-black { background-color: undefined; }
+.bg-dark-gray { background-color: undefined; }
+.bg-mid-gray { background-color: undefined; }
+.bg-gray { background-color: undefined; }
+.bg-silver { background-color: undefined; }
+.bg-light-silver { background-color: undefined; }
+.bg-moon-gray { background-color: undefined; }
+.bg-light-gray { background-color: undefined; }
+.bg-near-white { background-color: undefined; }
+.bg-white { background-color: undefined; }
+.bg-transparent { background-color: undefined; }
+.bg-dark-red { background-color: undefined; }
+.bg-red { background-color: undefined; }
+.bg-light-red { background-color: undefined; }
+.bg-orange { background-color: undefined; }
+.bg-gold { background-color: undefined; }
+.bg-yellow { background-color: undefined; }
+.bg-light-yellow { background-color: undefined; }
+.bg-purple { background-color: undefined; }
+.bg-light-purple { background-color: undefined; }
+.bg-dark-pink { background-color: undefined; }
+.bg-hot-pink { background-color: undefined; }
+.bg-pink { background-color: undefined; }
+.bg-light-pink { background-color: undefined; }
+.bg-dark-green { background-color: undefined; }
+.bg-green { background-color: undefined; }
+.bg-light-green { background-color: undefined; }
+.bg-navy { background-color: undefined; }
+.bg-dark-blue { background-color: undefined; }
+.bg-blue { background-color: undefined; }
+.bg-light-blue { background-color: undefined; }
+.bg-lightest-blue { background-color: undefined; }
+.bg-washed-blue { background-color: undefined; }
+.bg-washed-green { background-color: undefined; }
+.bg-washed-yellow { background-color: undefined; }
+.bg-washed-red { background-color: undefined; }
 .bg-inherit { background-color: inherit; }
 

@@ -1,33 +1,34 @@
-/*
+/*!!!
 
-   BORDER STYLES
+  # BORDER STYLES
 
-   Base:
-     bs = border-style
+  Depends on base border module in `_borders.css`
 
-   Modifiers:
-     none   = none
-     dotted = dotted
-     dashed = dashed
-     solid  = solid
+  ### Docs
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  http://tachyons.io/docs/themes/borders/
 
+  ### Base
+
+  `b` = border-style
+
+  ### Modifiers
+
+  - `--none` = none
+  - `--dotted` = dotted
+  - `--dashed` = dashed
+  - `--solid`  = solid
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
  */
 .b--dotted { border-style: dotted; }
 .b--dashed { border-style: dashed; }
 .b--solid { border-style: solid; }
 .b--none { border-style: none; }
 @media screen and (min-width: 30em) {
- .b--dotted-ns { border-style: dotted; }
- .b--dashed-ns { border-style: dashed; }
- .b--solid-ns { border-style: solid; }
- .b--none-ns { border-style: none; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .b--dotted-m { border-style: dotted; }
  .b--dashed-m { border-style: dashed; }
  .b--solid-m { border-style: solid; }

@@ -1,10 +1,10 @@
-# tachyons-text-align 3.1.0
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-354 | 16 | 16
+297 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-text-align
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-text-align
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-text-align.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-text-align.git
 Import the css module
 
 ```css
-@import "tachyons-text-align";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-text-align@3.1.0/css/tachyons-text-align.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-text-align">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,39 +74,35 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-  TEXT ALIGN
+  # TEXT ALIGN
 
-  Docs: http://tachyons.io/docs/typography/text-align/
-  Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+  ### Docs
 
-  Base
-    t = text-align
+  http://tachyons.io/docs/typography/text-align/
 
-  Modifiers
-    l = left
-    r = right
-    c = center
-    j = justify
+  ### Base
 
-  Media Query Extensions:
-    -ns = not-small
-    -m  = medium
-    -l  = large
+  t = text-align
 
+  ### Modifiers
+
+  - l = left
+  - r = right
+  - c = center
+  - j = justify
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .tl { text-align: left; }
 .tr { text-align: right; }
 .tc { text-align: center; }
 .tj { text-align: justify; }
 @media screen and (min-width: 30em) {
- .tl-ns { text-align: left; }
- .tr-ns { text-align: right; }
- .tc-ns { text-align: center; }
- .tj-ns { text-align: justify; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .tl-m { text-align: left; }
  .tr-m { text-align: right; }
  .tc-m { text-align: center; }

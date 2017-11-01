@@ -3,27 +3,23 @@
 
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-/*
+/*!!!
 
-   LETTER SPACING
-   Docs: http://tachyons.io/docs/typography/tracking/
+  # LETTER SPACING
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Docs
 
+  http://tachyons.io/docs/typography/tracking/
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 
 .tracked       { letter-spacing:  .1em; }
 .tracked-tight { letter-spacing: -.05em; }
 .tracked-mega  { letter-spacing:  .25em; }
-
-@media (--breakpoint-not-small) {
-  .tracked-ns       { letter-spacing:  .1em; }
-  .tracked-tight-ns { letter-spacing: -.05em; }
-  .tracked-mega-ns  { letter-spacing:  .25em; }
-}
 
 @media (--breakpoint-medium) {
   .tracked-m       { letter-spacing:  .1em; }

@@ -1,10 +1,10 @@
-# tachyons-typography 3.0.5
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-460 | 24 | 40
+514 | 18 | 30
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-typography
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-typography
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-typography.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-typography.git
 Import the css module
 
 ```css
-@import "tachyons-typography";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-typography@3.0.5/css/tachyons-typography.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-typography">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,10 +74,18 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   TYPOGRAPHY
+  # TYPOGRAPHY
 
+  ### Docs
+
+  http://tachyons.io/docs/typography/measure/
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 /* Measure is limited to ~66 characters */
 .measure { max-width: 30em; }
@@ -91,14 +99,6 @@ Running `$ npm start` will process the source css and place the built css in the
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 @media screen and (min-width: 30em) {
- .measure-ns { max-width: 30em; }
- .measure-wide-ns { max-width: 34em; }
- .measure-narrow-ns { max-width: 20em; }
- .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
- .small-caps-ns { font-variant: small-caps; }
- .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .measure-m { max-width: 30em; }
  .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }

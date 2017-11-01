@@ -1,19 +1,17 @@
-/*
+/*!!!
 
-   VERTICAL ALIGN
+  # VERTICAL ALIGN
 
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .v-base { vertical-align: baseline; }
 .v-mid { vertical-align: middle; }
 .v-top { vertical-align: top; }
 .v-btm { vertical-align: bottom; }
 @media screen and (min-width: 30em) {
- .v-base-ns { vertical-align: baseline; }
- .v-mid-ns { vertical-align: middle; }
- .v-top-ns { vertical-align: top; }
- .v-btm-ns { vertical-align: bottom; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .v-base-m { vertical-align: baseline; }
  .v-mid-m { vertical-align: middle; }
  .v-top-m { vertical-align: top; }

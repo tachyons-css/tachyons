@@ -3,10 +3,16 @@
 
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-/*
+/*!!!
 
-   ROTATIONS
+  # ROTATIONS
 
+  Rotate elements.
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 
 .rotate-45 { transform: rotate(45deg); }
@@ -16,16 +22,6 @@
 .rotate-225 { transform: rotate(225deg); }
 .rotate-270 { transform: rotate(270deg); }
 .rotate-315 { transform: rotate(315deg); }
-
-@media (--breakpoint-not-small){
-  .rotate-45-ns { transform: rotate(45deg); }
-  .rotate-90-ns { transform: rotate(90deg); }
-  .rotate-135-ns { transform: rotate(135deg); }
-  .rotate-180-ns { transform: rotate(180deg); }
-  .rotate-225-ns { transform: rotate(225deg); }
-  .rotate-270-ns { transform: rotate(270deg); }
-  .rotate-315-ns { transform: rotate(315deg); }
-}
 
 @media (--breakpoint-medium){
   .rotate-45-m { transform: rotate(45deg); }

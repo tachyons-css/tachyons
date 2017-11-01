@@ -3,25 +3,22 @@
 
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-/*
+/*!!!
 
-   FONT STYLE
-   Docs: http://tachyons.io/docs/typography/font-style/
+  # FONT STYLE
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Docs
 
+  http://tachyons.io/docs/typography/font-style/
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l`= large
 */
 
 .i         { font-style: italic; }
 .fs-normal { font-style: normal; }
-
-@media (--breakpoint-not-small) {
-  .i-ns       { font-style: italic; }
-  .fs-normal-ns     { font-style: normal; }
-}
 
 @media (--breakpoint-medium) {
   .i-m       { font-style: italic; }

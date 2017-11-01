@@ -3,15 +3,14 @@
 
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-/*
+/*!!!
 
-   UTILITIES
+  # UTILITIES
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Media Query Extensions
 
+  - `-m` = medium
+  - `-l` = large
 */
 
 /* Equivalent to .overflow-y-scroll */
@@ -26,15 +25,6 @@
 
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left:  auto; }
-
-@media (--breakpoint-not-small){
-  .center-ns {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .mr-auto-ns { margin-right: auto; }
-  .ml-auto-ns { margin-left:  auto; }
-}
 
 @media (--breakpoint-medium){
   .center-m {

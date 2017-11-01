@@ -1,10 +1,10 @@
-# tachyons-max-widths 4.0.5
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-346 | 44 | 44
+497 | 33 | 33
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-max-widths
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-max-widths
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-max-widths.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-max-widths.git
 Import the css module
 
 ```css
-@import "tachyons-max-widths";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-max-widths@4.0.5/css/tachyons-max-widths.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-max-widths">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,10 +74,38 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   MAX WIDTHS
+  # MAX WIDTHS
 
+  ### Docs
+
+  http://tachyons.io/docs/layout/max-widths/
+
+  ### Base
+
+  `mw` = max-width
+
+  ### Modifiers
+
+  - 1 = 1st step in width scale
+  - 2 = 2nd step in width scale
+  - 3 = 3rd step in width scale
+  - 4 = 4th step in width scale
+  - 5 = 5th step in width scale
+  - 6 = 6st step in width scale
+  - 7 = 7nd step in width scale
+  - 8 = 8rd step in width scale
+  - 9 = 9th step in width scale
+
+  - `-100` = literal value 100%
+
+  - `-none` = string value none
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 /* Max Width Percentages */
 .mw-100 { max-width: 100%; }
@@ -94,19 +122,6 @@ Running `$ npm start` will process the source css and place the built css in the
 /* Max Width String Properties */
 .mw-none { max-width: none; }
 @media screen and (min-width: 30em) {
- .mw-100-ns { max-width: 100%; }
- .mw1-ns { max-width: 1rem; }
- .mw2-ns { max-width: 2rem; }
- .mw3-ns { max-width: 4rem; }
- .mw4-ns { max-width: 8rem; }
- .mw5-ns { max-width: 16rem; }
- .mw6-ns { max-width: 32rem; }
- .mw7-ns { max-width: 48rem; }
- .mw8-ns { max-width: 64rem; }
- .mw9-ns { max-width: 96rem; }
- .mw-none-ns { max-width: none; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .mw-100-m { max-width: 100%; }
  .mw1-m { max-width: 1rem; }
  .mw2-m { max-width: 2rem; }

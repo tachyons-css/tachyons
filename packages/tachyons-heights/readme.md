@@ -1,10 +1,10 @@
-# tachyons-heights 6.1.0
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-712 | 68 | 68
+661 | 51 | 51
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-heights
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-heights
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-heights.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-heights.git
 Import the css module
 
 ```css
-@import "tachyons-heights";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-heights@6.1.0/css/tachyons-heights.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-heights">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,37 +74,41 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   HEIGHTS
-   Docs: http://tachyons.io/docs/layout/heights/
+  # HEIGHTS
 
-   Base:
-     h = height
-     min-h = min-height
-     min-vh = min-height vertical screen height
-     vh = vertical screen height
+  ### Docs
 
-   Modifiers
-     1 = 1st step in height scale
-     2 = 2nd step in height scale
-     3 = 3rd step in height scale
-     4 = 4th step in height scale
-     5 = 5th step in height scale
+  http://tachyons.io/docs/layout/heights/
 
-     -25   = literal value 25%
-     -50   = literal value 50%
-     -75   = literal value 75%
-     -100  = literal value 100%
+  ### Base
 
-     -auto = string value of auto
-     -inherit = string value of inherit
+  - h = height
+  - min-h = min-height
+  - min-vh = min-height vertical screen height
+  - vh = vertical screen height
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Modifiers
 
+   - 1 = 1st step in height scale
+   - 2 = 2nd step in height scale
+   - 3 = 3rd step in height scale
+   - 4 = 4th step in height scale
+   - 5 = 5th step in height scale
+
+   - `-25`   = literal value 25%
+   - `-50`   = literal value 50%
+   - `-75`   = literal value 75%
+   - `-100`  = literal value 100%
+
+   - `-auto` = string value of auto
+   - `-inherit` = string value of inherit
+
+   ### Media Query Extensions
+
+   - `-m` = medium
+   - `-l` = large
 */
 /* Height Scale */
 .h1 { height: 1rem; }
@@ -128,25 +132,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .h-auto { height: auto; }
 .h-inherit { height: inherit; }
 @media screen and (min-width: 30em) {
- .h1-ns { height: 1rem; }
- .h2-ns { height: 2rem; }
- .h3-ns { height: 4rem; }
- .h4-ns { height: 8rem; }
- .h5-ns { height: 16rem; }
- .h-25-ns { height: 25%; }
- .h-50-ns { height: 50%; }
- .h-75-ns { height: 75%; }
- .h-100-ns { height: 100%; }
- .min-h-100-ns { min-height: 100%; }
- .vh-25-ns { height: 25vh; }
- .vh-50-ns { height: 50vh; }
- .vh-75-ns { height: 75vh; }
- .vh-100-ns { height: 100vh; }
- .min-vh-100-ns { min-height: 100vh; }
- .h-auto-ns { height: auto; }
- .h-inherit-ns { height: inherit; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }
@@ -156,7 +141,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .h-50-m { height: 50%; }
  .h-75-m { height: 75%; }
  .h-100-m { height: 100%; }
- .min-h-100-ns { min-height: 100%; }
+ .min-h-100-m { min-height: 100%; }
  .vh-25-m { height: 25vh; }
  .vh-50-m { height: 50vh; }
  .vh-75-m { height: 75vh; }
@@ -180,7 +165,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .vh-50-l { height: 50vh; }
  .vh-75-l { height: 75vh; }
  .vh-100-l { height: 100vh; }
- .min-vh-100-m { min-height: 100vh; }
+ .min-vh-100-l { min-height: 100vh; }
  .h-auto-l { height: auto; }
  .h-inherit-l { height: inherit; }
 }

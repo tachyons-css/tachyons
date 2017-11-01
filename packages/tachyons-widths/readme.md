@@ -1,10 +1,10 @@
-# tachyons-widths 5.2.1
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-770 | 88 | 88
+710 | 66 | 66
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-widths
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-widths
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-widths.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-widths.git
 Import the css module
 
 ```css
-@import "tachyons-widths";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-widths@5.2.1/css/tachyons-widths.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-widths">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,43 +74,50 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-   WIDTHS
-   Docs: http://tachyons.io/docs/layout/widths/
+  # WIDTHS
 
-   Base:
-     w = width
+  ### Docs
 
-   Modifiers
-     1 = 1st step in width scale
-     2 = 2nd step in width scale
-     3 = 3rd step in width scale
-     4 = 4th step in width scale
-     5 = 5th step in width scale
+  http://tachyons.io/docs/layout/widths/
 
-     -10  = literal value 10%
-     -20  = literal value 20%
-     -25  = literal value 25%
-     -33  = literal value 33%
-     -34  = literal value 34%
-     -40  = literal value 40%
-     -50  = literal value 50%
-     -60  = literal value 60%
-     -75  = literal value 75%
-     -80  = literal value 80%
-     -100 = literal value 100%
+  ### Base
 
-     -third = 100% / 3 (Not supported in opera mini or IE8)
-     -two-thirds = 100% / 1.5 (Not supported in opera mini or IE8)
-     -auto  = string value auto
+  w = width
+
+  ### Modifiers
+
+  - 1 = 1st step in width scale
+  - 2 = 2nd step in width scale
+  - 3 = 3rd step in width scale
+  - 4 = 4th step in width scale
+  - 5 = 5th step in width scale
+
+  - -10  = literal value 10%
+  - -20  = literal value 20%
+  - -25  = literal value 25%
+  - -30  = literal value 30%
+  - -33  = literal value 33%
+  - -34  = literal value 34%
+  - -40  = literal value 40%
+  - -50  = literal value 50%
+  - -60  = literal value 60%
+  - -70  = literal value 70%
+  - -75  = literal value 75%
+  - -80  = literal value 80%
+  - -90  = literal value 90%
+  - -100 = literal value 100%
+
+  - `-third` = 100% / 3 (Not supported in opera mini or IE8)
+  - `-two-thirds` = 100% / 1.5 (Not supported in opera mini or IE8)
+  - `-auto` = string value auto
 
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Media Query Extensions
 
+  - `-m` = medium
+  - `-l` = large
 */
 /* Width Scale */
 .w1 { width: 1rem; }
@@ -136,30 +143,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .w-two-thirds { width: calc( 100% / 1.5 ); }
 .w-auto { width: auto; }
 @media screen and (min-width: 30em) {
- .w1-ns { width: 1rem; }
- .w2-ns { width: 2rem; }
- .w3-ns { width: 4rem; }
- .w4-ns { width: 8rem; }
- .w5-ns { width: 16rem; }
- .w-10-ns { width: 10%; }
- .w-20-ns { width: 20%; }
- .w-25-ns { width: 25%; }
- .w-30-ns { width: 30%; }
- .w-33-ns { width: 33%; }
- .w-34-ns { width: 34%; }
- .w-40-ns { width: 40%; }
- .w-50-ns { width: 50%; }
- .w-60-ns { width: 60%; }
- .w-70-ns { width: 70%; }
- .w-75-ns { width: 75%; }
- .w-80-ns { width: 80%; }
- .w-90-ns { width: 90%; }
- .w-100-ns { width: 100%; }
- .w-third-ns { width: calc( 100% / 3 ); }
- .w-two-thirds-ns { width: calc( 100% / 1.5 ); }
- .w-auto-ns { width: auto; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .w1-m { width: 1rem; }
  .w2-m { width: 2rem; }
  .w3-m { width: 4rem; }

@@ -1,10 +1,10 @@
-# tachyons-display 5.0.0
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-534 | 48 | 52
+519 | 36 | 39
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-display
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,79 +24,84 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-display
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-display.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
 ```css
-@import "tachyons-display";
+@import "tachyons";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-display@5.0.0/css/tachyons-display.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-display">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
-/*
+/*!!!
 
-   DISPLAY
+  # DISPLAY
 
-   Base:
-    d = display
+  ### Docs
 
-   Modifiers:
-    n     = none
-    b     = block
-    ib    = inline-block
-    it    = inline-table
-    t     = table
-    tc    = table-cell
-    tr    = table-row
-    tcol  = table-column
-    tcolg = table-column-group
+  http://tachyons.io/docs/layout/display
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Base
 
+  `d` = display
+
+  ### Modifiers
+
+  - n = none
+  - b = block
+  - ib = inline-block
+  - it = inline-table
+  - t = table
+  - tc = table-cell
+  - t-row = table-row
+  -t-columm = table-column
+  - t-column-group = table-column-group
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .dn { display: none; }
 .di { display: inline; }
@@ -115,20 +120,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 */
 .dt--fixed { table-layout: fixed; width: 100%; }
 @media screen and (min-width: 30em) {
- .dn-ns { display: none; }
- .di-ns { display: inline; }
- .db-ns { display: block; }
- .dib-ns { display: inline-block; }
- .dit-ns { display: inline-table; }
- .dt-ns { display: table; }
- .dtc-ns { display: table-cell; }
- .dt-row-ns { display: table-row; }
- .dt-row-group-ns { display: table-row-group; }
- .dt-column-ns { display: table-column; }
- .dt-column-group-ns { display: table-column-group; }
- .dt--fixed-ns { table-layout: fixed; width: 100%; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .dn-m { display: none; }
  .di-m { display: inline; }
  .db-m { display: block; }

@@ -1,2 +1,30 @@
-.fl{float:left}.fl,.fr{_display:inline}.fr{float:right}.fn{float:none}@media screen and (min-width:30em){.fl-ns{float:left}.fl-ns,.fr-ns{display:inline}.fr-ns{float:right}.fn-ns{float:none}}@media screen and (min-width:30em) and (max-width:60em){.fl-m{float:left}.fl-m,.fr-m{display:inline}.fr-m{float:right}.fn-m{float:none}}@media screen and (min-width:60em){.fl-l{float:left}.fl-l,.fr-l{display:inline}.fr-l{float:right}.fn-l{float:none}}
+/*!!!
+
+  # FLOATS
+
+  Floated elements are automatically rendered as block level elements.
+  Setting floats to display inline will fix the double margin bug in
+  ie6. You know... just in case.
+
+  Don't forget to clearfix your floats with `.cf`
+
+  ### Docs
+
+  http://tachyons.io/docs/layout/floats/
+
+  ### Base
+
+  `f` = float
+
+  ### Modifiers
+
+  - l = left
+  - r = right
+  - n = none
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
+*/.fl{float:left}.fl,.fr{_display:inline}.fr{float:right}.fn{float:none}@media screen and (min-width:30em){.fl-m{float:left}.fl-m,.fr-m{display:inline}.fr-m{float:right}.fn-m{float:none}}@media screen and (min-width:60em){.fl-l{float:left}.fl-l,.fr-l{display:inline}.fr-l{float:right}.fn-l{float:none}}
 

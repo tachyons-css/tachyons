@@ -1,10 +1,10 @@
-# tachyons-flexbox 2.1.0
+# tachyons 4.9.0
 
-Flexbox CSS module for Tachyons
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-1662 | 184 | 516
+1527 | 138 | 387
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-flexbox
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-flexbox
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-flexbox.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-flexbox.git
 Import the css module
 
 ```css
-@import "tachyons-flexbox";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-flexbox@2.1.0/css/tachyons-flexbox.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-flexbox">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,15 +74,18 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-  FLEXBOX
+  # FLEXBOX
 
-  Media Query Extensions:
-   -ns = not-small
-   -m  = medium
-   -l  = large
+  ### Docs
 
+  http://tachyons.io/docs/layout/flexbox/
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .inline-flex { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
@@ -133,54 +136,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .flex-shrink-0 { -ms-flex-negative: 0; flex-shrink: 0; }
 .flex-shrink-1 { -ms-flex-negative: 1; flex-shrink: 1; }
 @media screen and (min-width: 30em) {
- .flex-ns { display: -webkit-box; display: -ms-flexbox; display: flex; }
- .inline-flex-ns { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
- .flex-auto-ns { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
- .flex-none-ns { -webkit-box-flex: 0; -ms-flex: none; flex: none; }
- .flex-column-ns { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
- .flex-row-ns { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
- .flex-wrap-ns { -ms-flex-wrap: wrap; flex-wrap: wrap; }
- .flex-nowrap-ns { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
- .flex-wrap-reverse-ns { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
- .flex-column-reverse-ns { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
- .flex-row-reverse-ns { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
- .items-start-ns { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
- .items-end-ns { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
- .items-center-ns { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
- .items-baseline-ns { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
- .items-stretch-ns { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
- .self-start-ns { -ms-flex-item-align: start; align-self: flex-start; }
- .self-end-ns { -ms-flex-item-align: end; align-self: flex-end; }
- .self-center-ns { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
- .self-baseline-ns { -ms-flex-item-align: baseline; align-self: baseline; }
- .self-stretch-ns { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
- .justify-start-ns { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
- .justify-end-ns { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
- .justify-center-ns { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
- .justify-between-ns { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
- .justify-around-ns { -ms-flex-pack: distribute; justify-content: space-around; }
- .content-start-ns { -ms-flex-line-pack: start; align-content: flex-start; }
- .content-end-ns { -ms-flex-line-pack: end; align-content: flex-end; }
- .content-center-ns { -ms-flex-line-pack: center; align-content: center; }
- .content-between-ns { -ms-flex-line-pack: justify; align-content: space-between; }
- .content-around-ns { -ms-flex-line-pack: distribute; align-content: space-around; }
- .content-stretch-ns { -ms-flex-line-pack: stretch; align-content: stretch; }
- .order-0-ns { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; }
- .order-1-ns { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
- .order-2-ns { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
- .order-3-ns { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
- .order-4-ns { -webkit-box-ordinal-group: 5; -ms-flex-order: 4; order: 4; }
- .order-5-ns { -webkit-box-ordinal-group: 6; -ms-flex-order: 5; order: 5; }
- .order-6-ns { -webkit-box-ordinal-group: 7; -ms-flex-order: 6; order: 6; }
- .order-7-ns { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
- .order-8-ns { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
- .order-last-ns { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999; }
- .flex-grow-0-ns { -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; }
- .flex-grow-1-ns { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
- .flex-shrink-0-ns { -ms-flex-negative: 0; flex-shrink: 0; }
- .flex-shrink-1-ns { -ms-flex-negative: 1; flex-shrink: 1; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .flex-m { display: -webkit-box; display: -ms-flexbox; display: flex; }
  .inline-flex-m { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
  .flex-auto-m { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }

@@ -3,40 +3,37 @@
 
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-/*
+/*!!!
 
-   BORDER STYLES
-   Docs: http://tachyons.io/docs/themes/borders/
+  # BORDER STYLES
 
-   Depends on base border module in _borders.css
+  Depends on base border module in `_borders.css`
 
-   Base:
-     b = border-style
+  ### Docs
 
-   Modifiers:
-     --none   = none
-     --dotted = dotted
-     --dashed = dashed
-     --solid  = solid
+  http://tachyons.io/docs/themes/borders/
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Base
 
+  `b` = border-style
+
+  ### Modifiers
+
+  - `--none` = none
+  - `--dotted` = dotted
+  - `--dashed` = dashed
+  - `--solid`  = solid
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
  */
 
 .b--dotted { border-style: dotted; }
 .b--dashed { border-style: dashed; }
 .b--solid {  border-style: solid; }
 .b--none {   border-style: none; }
-
-@media (--breakpoint-not-small) {
-  .b--dotted-ns { border-style: dotted; }
-  .b--dashed-ns { border-style: dashed; }
-  .b--solid-ns {  border-style: solid; }
-  .b--none-ns {   border-style: none; }
-}
 
 @media (--breakpoint-medium) {
   .b--dotted-m { border-style: dotted; }

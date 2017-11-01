@@ -1,10 +1,10 @@
-# tachyons-position 6.0.6
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-210 | 16 | 16
+263 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-position
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,12 +24,12 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-position
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-position.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ git clone git@github.com:tachyons-css/tachyons-position.git
 Import the css module
 
 ```css
-@import "tachyons-position";
+@import "tachyons";
 ```
 
 Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-position@6.0.6/css/tachyons-position.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -63,7 +63,7 @@ The built css is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-position">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
@@ -74,22 +74,24 @@ Running `$ npm start` will process the source css and place the built css in the
 ## The css
 
 ```css
-/*
+/*!!!
 
-    POSITIONING
+  # POSITIONING
 
- */
+  ### Docs
+
+  http://tachyons.io/docs/layout/position/
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
+*/
 .static { position: static; }
 .relative { position: relative; }
 .absolute { position: absolute; }
 .fixed { position: fixed; }
 @media screen and (min-width: 30em) {
- .static-ns { position: static; }
- .relative-ns { position: relative; }
- .absolute-ns { position: absolute; }
- .fixed-ns { position: fixed; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .static-m { position: static; }
  .relative-m { position: relative; }
  .absolute-m { position: absolute; }

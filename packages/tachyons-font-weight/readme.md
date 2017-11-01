@@ -1,10 +1,10 @@
-# tachyons-font-weight 5.0.0
+# tachyons 4.9.0
 
-Performance based css module.
+Functional CSS for humans
 
-#### Stats
+### Stats
 
-299 | 44 | 44
+411 | 33 | 33
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,7 +13,7 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-font-weight
+npm install --save-dev tachyons
 ```
 
 Learn more about using css installed with npm:
@@ -24,60 +24,84 @@ Learn more about using css installed with npm:
 
 http:
 ```
-git clone https://github.com/tachyons-css/tachyons-font-weight
+git clone https://github.com/tachyons-css/tachyons
 ```
 
 ssh:
 ```
-git clone git@github.com:tachyons-css/tachyons-font-weight.git
+git clone git@github.com:tachyons-css/tachyons.git
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
 ```css
-@import "tachyons-font-weight";
+@import "tachyons";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
 ##### CDN
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-font-weight@5.0.0/css/tachyons-font-weight.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
 ```
 
 ##### Locally
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-font-weight">
+<link rel="stylesheet" href="path/to/module/css/tachyons">
 ```
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
-/*
+/*!!!
 
-   FONT WEIGHT
+  # FONT WEIGHT
 
+  ### Docs
+
+  http://tachyons.io/docs/typography/font-weight/
+
+  ### Base
+
+  `fw` = font-weight
+
+  ### Modifiers
+
+  - 1 = literal value 100
+  - 2 = literal value 200
+  - 3 = literal value 300
+  - 4 = literal value 400
+  - 5 = literal value 500
+  - 6 = literal value 600
+  - 7 = literal value 700
+  - 8 = literal value 800
+  - 9 = literal value 900
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 .normal { font-weight: normal; }
 .b { font-weight: bold; }
@@ -91,19 +115,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .fw8 { font-weight: 800; }
 .fw9 { font-weight: 900; }
 @media screen and (min-width: 30em) {
- .normal-ns { font-weight: normal; }
- .b-ns { font-weight: bold; }
- .fw1-ns { font-weight: 100; }
- .fw2-ns { font-weight: 200; }
- .fw3-ns { font-weight: 300; }
- .fw4-ns { font-weight: 400; }
- .fw5-ns { font-weight: 500; }
- .fw6-ns { font-weight: 600; }
- .fw7-ns { font-weight: 700; }
- .fw8-ns { font-weight: 800; }
- .fw9-ns { font-weight: 900; }
-}
-@media screen and (min-width: 30em) and (max-width: 60em) {
  .normal-m { font-weight: normal; }
  .b-m { font-weight: bold; }
  .fw1-m { font-weight: 100; }

@@ -3,26 +3,21 @@
 
 @custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-/*
+/*!!!
 
-   OUTLINES
+  # OUTLINES
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  Set transparent outline on elements.
 
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 
 .outline { outline: 1px solid; }
 .outline-transparent { outline: 1px solid transparent; }
 .outline-0 { outline: 0; }
-
-@media (--breakpoint-not-small) {
-  .outline-ns { outline: 1px solid; }
-  .outline-transparent-ns { outline: 1px solid transparent; }
-  .outline-0-ns { outline: 0; }
-}
 
 @media (--breakpoint-medium) {
   .outline-m { outline: 1px solid; }
