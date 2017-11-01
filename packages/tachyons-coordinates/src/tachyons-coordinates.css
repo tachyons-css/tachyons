@@ -1,12 +1,32 @@
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
-@custom-media --breakpoint-large screen and (min-width: 60em);
 
+
+
+@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
 /*
 
    COORDINATES
+   Docs: http://tachyons.io/docs/layout/position/
 
    Use in combination with the position module.
+
+   Base:
+     top
+     bottom
+     right
+     left
+
+   Modifiers:
+     -0  = literal value 0
+     -1  = literal value 1
+     -2  = literal value 2
+     --1 = literal value -1
+     --2 = literal value -2
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 

@@ -1,13 +1,12 @@
 
-/* Media Query Variables */
 
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
+
+@custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
-
 /*
 
    FLOATS
+   http://tachyons.io/docs/layout/floats/
 
    1. Floated elements are automatically rendered as block level elements.
       Setting floats to display inline will fix the double margin bug in

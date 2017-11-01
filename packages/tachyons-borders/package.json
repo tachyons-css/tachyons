@@ -1,0 +1,40 @@
+{
+  "name": "tachyons-borders",
+  "version": "3.0.4",
+  "style": "src/tachyons-borders.css",
+  "main": "src/tachyons-borders.css",
+  "description": "Performance-first css module for styling borders.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "tachyons-borders",
+    "css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-borders",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-borders.css > css/tachyons-borders.css",
+    "build:minify": "tachyons src/tachyons-borders.css --minify > css/tachyons-borders.min.css",
+    "build:docs": "tachyons src/tachyons-borders.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "devDependencies": {
+    "tachyons-cli": "^1.0.10",
+    "watch": "^1.0.1"
+  },
+  "metadata": {
+    "category": "theming",
+    "isCore": true
+  }
+}

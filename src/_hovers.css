@@ -1,16 +1,37 @@
 /*
 
-  HOVER EFFECTS
-  Docs: http://tachyons.io/docs/themes/hovers/
+  # HOVER EFFECTS
 
-    - Dim
-    - Glow
-    - Hide Child
-    - Underline text
-    - Grow
-    - Pointer
-    - Shadow
+  ### Docs
 
+  http://tachyons.io/docs/themes/hovers/
+
+  ### Base
+
+  - `dim` - Dim element on hover
+  - `glow` - Animate opacity to 100% on hover
+  - `hide-child` - Hide child & reveal on hover
+  - `underline-hover` - Underline text on hover
+  - `grow` - Grow element on hover
+  - `pointer` - Show cursor: pointer on hover
+  - `shadow` - Show shadow on hover
+  - `bg-animate` - Animate background color on hover
+
+  ### Examples
+
+  ##### Hide child & reveal on hover
+
+  Put the hide-child class on a parent element and any nested element with the
+  child class will be hidden and displayed on hover or focus.
+
+  ```html
+  <div class="hide-child">
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+  </div>
+  ```
 */
 
 /*
@@ -117,11 +138,11 @@
   cursor: pointer;
 }
 
-/* 
+/*
    Add shadow on hover.
 
-   Performant box-shadow animation pattern from 
-   http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 */
 
 .shadow-hover {
@@ -149,12 +170,11 @@
   opacity: 1;
 }
 
-/* Combine with classes in skins and skins-pseudo for 
+/* Combine with classes in skins and skins-pseudo for
  * many different transition possibilities. */
 
 .bg-animate,
 .bg-animate:hover,
 .bg-animate:focus {
-  transition: background-color .15s ease-in-out; 
+  transition: background-color .15s ease-in-out;
 }
-

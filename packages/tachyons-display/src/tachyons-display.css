@@ -1,10 +1,12 @@
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
-@custom-media --breakpoint-large screen and (min-width: 60em);
 
+
+
+@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
 /*
 
    DISPLAY
+   Docs: http://tachyons.io/docs/layout/display
 
    Base:
     d = display
@@ -16,9 +18,9 @@
     it    = inline-table
     t     = table
     tc    = table-cell
-    tr    = table-row
-    tcol  = table-column
-    tcolg = table-column-group
+    t-row          = table-row
+    t-columm       = table-column
+    t-column-group = table-column-group
 
    Media Query Extensions:
      -ns = not-small

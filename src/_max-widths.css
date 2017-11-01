@@ -1,32 +1,35 @@
 /*
 
-   MAX WIDTHS
-   Docs: http://tachyons.io/docs/layout/max-widths/
+  # MAX WIDTHS
 
-   Base:
-     mw = max-width
+  ### Docs
 
-   Modifiers
-     1 = 1st step in width scale
-     2 = 2nd step in width scale
-     3 = 3rd step in width scale
-     4 = 4th step in width scale
-     5 = 5th step in width scale
-     6 = 6st step in width scale
-     7 = 7nd step in width scale
-     8 = 8rd step in width scale
-     9 = 9th step in width scale
+  http://tachyons.io/docs/layout/max-widths/
 
-     -100 = literal value 100%
+  ### Base
 
-     -none  = string value none
+  `mw` = max-width
 
+  ### Modifiers
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  - 1 = 1st step in width scale
+  - 2 = 2nd step in width scale
+  - 3 = 3rd step in width scale
+  - 4 = 4th step in width scale
+  - 5 = 5th step in width scale
+  - 6 = 6st step in width scale
+  - 7 = 7nd step in width scale
+  - 8 = 8rd step in width scale
+  - 9 = 9th step in width scale
 
+  - `-100` = literal value 100%
+
+  - `-none` = string value none
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 
 /* Max Width Percentages */
@@ -48,22 +51,6 @@
 /* Max Width String Properties */
 
 .mw-none { max-width: none; }
-
-@media (--breakpoint-not-small) {
-  .mw-100-ns  { max-width: 100%; }
-
-  .mw1-ns  {  max-width: 1rem; }
-  .mw2-ns  {  max-width: 2rem; }
-  .mw3-ns  {  max-width: 4rem; }
-  .mw4-ns  {  max-width: 8rem; }
-  .mw5-ns  {  max-width: 16rem; }
-  .mw6-ns  {  max-width: 32rem; }
-  .mw7-ns  {  max-width: 48rem; }
-  .mw8-ns  {  max-width: 64rem; }
-  .mw9-ns  {  max-width: 96rem; }
-
-  .mw-none-ns { max-width: none; }
-}
 
 @media (--breakpoint-medium) {
   .mw-100-m  { max-width: 100%; }

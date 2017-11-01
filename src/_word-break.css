@@ -1,26 +1,20 @@
 /*
 
-  WORD BREAK
+  # WORD BREAK
 
-   Base:
-     word = word-break
+  ### Base
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  word = word-break
 
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 
 .word-normal { word-break: normal; }
 .word-wrap { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
-
-@media (--breakpoint-not-small) {
-  .word-normal-ns { word-break: normal; }
-  .word-wrap-ns { word-break: break-all; }
-  .word-nowrap-ns { word-break: keep-all; }
-}
 
 @media (--breakpoint-medium) {
   .word-normal-m { word-break: normal; }
@@ -33,4 +27,3 @@
   .word-wrap-l { word-break: break-all; }
   .word-nowrap-l { word-break: keep-all; }
 }
-

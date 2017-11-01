@@ -1,10 +1,19 @@
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
-@custom-media --breakpoint-large screen and (min-width: 60em);
 
+
+
+@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
 /*
 
   WORD BREAK
+
+   Base:
+     word = word-break
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 

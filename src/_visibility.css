@@ -1,12 +1,11 @@
 /*
 
-   VISIBILITY
+  # VISIBILITY
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Media Query Extensions
 
+  - `-m` = medium
+  - `-l` = large
 */
 
 
@@ -20,15 +19,6 @@
   _position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
-}
-
-@media (--breakpoint-not-small) {
-  .clip-ns {
-    position: fixed !important;
-    _position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-  }
 }
 
 @media (--breakpoint-medium) {
@@ -48,4 +38,3 @@
     clip: rect(1px, 1px, 1px, 1px);
   }
 }
-

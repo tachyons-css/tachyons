@@ -1,33 +1,29 @@
 /*
 
-   BORDER COLORS
-   Docs: http://tachyons.io/docs/themes/borders/
+  # BORDER COLORS
 
-   Border colors can be used to extend the base
-   border classes ba,bt,bb,br,bl found in the _borders.css file.
 
-   The base border class by default will set the color of the border
-   to that of the current text color. These classes are for the cases
-   where you desire for the text and border colors to be different.
+  Border colors can be used to extend the base
+  border classes ba,bt,bb,br,bl found in the _borders.css file.
 
-   Base:
-     b = border
+  The base border class by default will set the color of the border
+  to that of the current text color. These classes are for the cases
+  where you desire for the text and border colors to be different.
 
-   Modifiers:
-   --color-name = each color variable name is also a border color name
+  ### Docs
 
+  http://tachyons.io/docs/themes/borders/
+
+  ### Base
+
+  `b` = border
+
+  ### Modifiers
+
+  - `--color-name` = black, white and their alpha colors are available
 */
 
 .b--black {        border-color: var(--black); }
-.b--near-black {   border-color: var(--near-black); }
-.b--dark-gray {    border-color: var(--dark-gray); }
-.b--mid-gray {     border-color: var(--mid-gray); }
-.b--gray {         border-color: var(--gray); }
-.b--silver {       border-color: var(--silver); }
-.b--light-silver { border-color: var(--light-silver); }
-.b--moon-gray {    border-color: var(--moon-gray); }
-.b--light-gray {   border-color: var(--light-gray); }
-.b--near-white {   border-color: var(--near-white); }
 .b--white {        border-color: var(--white); }
 
 .b--white-90 {   border-color: var(--white-90); }
@@ -55,32 +51,6 @@
 .b--black-05 {   border-color: var(--black-05); }
 .b--black-025 {   border-color: var(--black-025); }
 .b--black-0125 {   border-color: var(--black-0125); }
-
-.b--dark-red { border-color: var(--dark-red); }
-.b--red { border-color: var(--red); }
-.b--light-red { border-color: var(--light-red); }
-.b--orange { border-color: var(--orange); }
-.b--gold { border-color: var(--gold); }
-.b--yellow { border-color: var(--yellow); }
-.b--light-yellow { border-color: var(--light-yellow); }
-.b--purple { border-color: var(--purple); }
-.b--light-purple { border-color: var(--light-purple); }
-.b--dark-pink { border-color: var(--dark-pink); }
-.b--hot-pink { border-color: var(--hot-pink); }
-.b--pink { border-color: var(--pink); }
-.b--light-pink { border-color: var(--light-pink); }
-.b--dark-green { border-color: var(--dark-green); }
-.b--green { border-color: var(--green); }
-.b--light-green { border-color: var(--light-green); }
-.b--navy { border-color: var(--navy); }
-.b--dark-blue { border-color: var(--dark-blue); }
-.b--blue { border-color: var(--blue); }
-.b--light-blue { border-color: var(--light-blue); }
-.b--lightest-blue { border-color: var(--lightest-blue); }
-.b--washed-blue { border-color: var(--washed-blue); }
-.b--washed-green { border-color: var(--washed-green); }
-.b--washed-yellow { border-color: var(--washed-yellow); }
-.b--washed-red { border-color: var(--washed-red); }
 
 .b--transparent { border-color: var(--transparent); }
 .b--inherit { border-color: inherit; }

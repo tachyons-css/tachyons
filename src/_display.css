@@ -1,27 +1,31 @@
 /*
 
-   DISPLAY
-   Docs: http://tachyons.io/docs/layout/display
+  # DISPLAY
 
-   Base:
-    d = display
+  ### Docs
 
-   Modifiers:
-    n     = none
-    b     = block
-    ib    = inline-block
-    it    = inline-table
-    t     = table
-    tc    = table-cell
-    t-row          = table-row
-    t-columm       = table-column
-    t-column-group = table-column-group
+  http://tachyons.io/docs/layout/display
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Base
 
+  `d` = display
+
+  ### Modifiers
+
+  - n = none
+  - b = block
+  - ib = inline-block
+  - it = inline-table
+  - t = table
+  - tc = table-cell
+  - t-row = table-row
+  -t-columm = table-column
+  - t-column-group = table-column-group
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 
 .dn {              display: none; }
@@ -43,25 +47,6 @@
 .dt--fixed {
   table-layout: fixed;
   width: 100%;
-}
-
-@media (--breakpoint-not-small) {
-  .dn-ns {              display: none; }
-  .di-ns {              display: inline; }
-  .db-ns {              display: block; }
-  .dib-ns {             display: inline-block; }
-  .dit-ns {             display: inline-table; }
-  .dt-ns {              display: table; }
-  .dtc-ns {             display: table-cell; }
-  .dt-row-ns {          display: table-row; }
-  .dt-row-group-ns {    display: table-row-group; }
-  .dt-column-ns {       display: table-column; }
-  .dt-column-group-ns { display: table-column-group; }
-
-  .dt--fixed-ns {
-    table-layout: fixed;
-    width: 100%;
-  }
 }
 
 @media (--breakpoint-medium) {
@@ -101,4 +86,3 @@
     width: 100%;
   }
 }
-

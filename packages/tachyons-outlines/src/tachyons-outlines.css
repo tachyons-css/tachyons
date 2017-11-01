@@ -1,10 +1,16 @@
-@custom-media --breakpoint-not-small screen and (min-width: 48em);
-@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
-@custom-media --breakpoint-large screen and (min-width: 64em);
 
+
+
+@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
 /*
 
-  OUTLINES
+   OUTLINES
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
@@ -24,7 +30,7 @@
   .outline-0-m { outline: 0; }
 }
 
-@media (--breakpoint-medium) {
+@media (--breakpoint-large) {
   .outline-l { outline: 1px solid; }
   .outline-transparent-l { outline: 1px solid transparent; }
   .outline-0-l { outline: 0; }

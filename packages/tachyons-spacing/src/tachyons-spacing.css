@@ -1,6 +1,10 @@
+
+
+
+@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
 /* Variables */
 
-/* Spacing Scale - based on a ratio of 1:2 */
 :root {
   --spacing-none: 0;
   --spacing-extra-small: .25rem;
@@ -12,39 +16,38 @@
   --spacing-extra-extra-extra-large: 16rem;
 }
 
-/* Media Queries */
-
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
-@custom-media --breakpoint-large screen and (min-width: 60em);
-
 /*
    SPACING
+   Docs: http://tachyons.io/docs/layout/spacing/
 
    An eight step powers of two scale ranging from 0 to 16rem.
-   Namespaces are composable and thus highly grockable - check the legend below
 
-   Legend:
+   Base:
+     p = padding
+     m = margin
 
-   p = padding
-   m = margin
+   Modifiers:
+     a = all
+     h = horizontal
+     v = vertical
+     t = top
+     r = right
+     b = bottom
+     l = left
 
-   a = all
-   h = horizontal
-   v = vertical
-   t = top
-   r = right
-   b = bottom
-   l = left
+     0 = none
+     1 = 1st step in spacing scale
+     2 = 2nd step in spacing scale
+     3 = 3rd step in spacing scale
+     4 = 4th step in spacing scale
+     5 = 5th step in spacing scale
+     6 = 6th step in spacing scale
+     7 = 7th step in spacing scale
 
-   0 = none
-   1 = 1st step in spacing scale
-   2 = 2nd step in spacing scale
-   3 = 3rd step in spacing scale
-   4 = 4th step in spacing scale
-   5 = 5th step in spacing scale
-   6 = 6th step in spacing scale
-   7 = 7th step in spacing scale
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
