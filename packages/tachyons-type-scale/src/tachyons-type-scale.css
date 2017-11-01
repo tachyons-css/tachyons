@@ -1,7 +1,8 @@
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
-@custom-media --breakpoint-large screen and (min-width: 60em);
 
+
+
+@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
 /*
 
    TYPE SCALE
@@ -23,10 +24,15 @@
      -ns = not-small
      -m  = medium
      -l  = large
-
 */
 
-/* For Hero Titles */
+/*
+ * For Hero/Marketing Titles
+ *
+ * These generally are too large for mobile
+ * so be careful using them on smaller screens.
+ * */
+
 .f-6,
 .f-headline {
   font-size: 6rem;
@@ -36,7 +42,9 @@
   font-size: 5rem;
 }
 
+
 /* Type Scale */
+
 .f1 { font-size: 3rem; }
 .f2 { font-size: 2.25rem; }
 .f3 { font-size: 1.5rem; }

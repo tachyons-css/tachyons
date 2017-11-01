@@ -1,12 +1,15 @@
 /*
 
-  FLEXBOX
+  # FLEXBOX
 
-  Media Query Extensions:
-   -ns = not-small
-   -m  = medium
-   -l  = large
+  ### Docs
 
+  http://tachyons.io/docs/layout/flexbox/
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 
 .flex { display: flex; }
@@ -72,64 +75,6 @@
 .flex-shrink-0 { flex-shrink: 0; }
 .flex-shrink-1 { flex-shrink: 1; }
 
-@media (--breakpoint-not-small) {
-  .flex-ns { display: flex; }
-  .inline-flex-ns { display: inline-flex; }
-  .flex-auto-ns {
-    flex: 1 1 auto;
-    min-width: 0; /* 1 */
-    min-height: 0; /* 1 */
-  }
-  .flex-none-ns { flex: none; }
-  .flex-column-ns { flex-direction: column; }
-  .flex-row-ns { flex-direction: row; }
-  .flex-wrap-ns { flex-wrap: wrap; }
-  .flex-nowrap-ns { flex-wrap: nowrap; }
-  .flex-wrap-reverse-ns { flex-wrap: wrap-reverse; }
-  .flex-column-reverse-ns { flex-direction: column-reverse; }
-  .flex-row-reverse-ns { flex-direction: row-reverse; }
-  .items-start-ns { align-items: flex-start; }
-  .items-end-ns { align-items: flex-end; }
-  .items-center-ns { align-items: center; }
-  .items-baseline-ns { align-items: baseline; }
-  .items-stretch-ns { align-items: stretch; }
-
-  .self-start-ns { align-self: flex-start; }
-  .self-end-ns { align-self: flex-end; }
-  .self-center-ns { align-self: center; }
-  .self-baseline-ns { align-self: baseline; }
-  .self-stretch-ns { align-self: stretch; }
-
-  .justify-start-ns { justify-content: flex-start; }
-  .justify-end-ns { justify-content: flex-end; }
-  .justify-center-ns { justify-content: center; }
-  .justify-between-ns { justify-content: space-between; }
-  .justify-around-ns { justify-content: space-around; }
-
-  .content-start-ns { align-content: flex-start; }
-  .content-end-ns { align-content: flex-end; }
-  .content-center-ns { align-content: center; }
-  .content-between-ns { align-content: space-between; }
-  .content-around-ns { align-content: space-around; }
-  .content-stretch-ns { align-content: stretch; }
-
-  .order-0-ns { order: 0; }
-  .order-1-ns { order: 1; }
-  .order-2-ns { order: 2; }
-  .order-3-ns { order: 3; }
-  .order-4-ns { order: 4; }
-  .order-5-ns { order: 5; }
-  .order-6-ns { order: 6; }
-  .order-7-ns { order: 7; }
-  .order-8-ns { order: 8; }
-  .order-last-ns { order: 99999; }
-
-  .flex-grow-0-ns { flex-grow: 0; }
-  .flex-grow-1-ns { flex-grow: 1; }
-
-  .flex-shrink-0-ns { flex-shrink: 0; }
-  .flex-shrink-1-ns { flex-shrink: 1; }
-}
 @media (--breakpoint-medium) {
   .flex-m { display: flex; }
   .inline-flex-m { display: inline-flex; }

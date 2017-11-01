@@ -1,13 +1,15 @@
 /*
 
-   POSITIONING
-   Docs: http://tachyons.io/docs/layout/position/
+  # POSITIONING
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+  ### Docs
 
+  http://tachyons.io/docs/layout/position/
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
 
 .static { position: static; }

@@ -1,12 +1,22 @@
 /*
 
-   CLEARFIX
-   http://tachyons.io/docs/layout/clearfix/
+  # CLEARFIX
 
+  ### Docs
+
+  http://tachyons.io/docs/layout/clearfix/
+
+  ### Based on
+
+  Nicolas Gallagher's clerfix solution
+  http://nicolasgallagher.com/micro-clearfix-hack/
+
+
+  ### Media Query Extensions
+
+  - `-m` = medium
+  - `-l` = large
 */
-
-/* Nicolas Gallaghers Clearfix solution
-   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 
 .cf:before,
 .cf:after { content: " "; display: table; }
@@ -17,13 +27,6 @@
 .cr { clear: right; }
 .cb { clear: both; }
 .cn { clear: none; }
-
-@media (--breakpoint-not-small) {
-  .cl-ns { clear: left; }
-  .cr-ns { clear: right; }
-  .cb-ns { clear: both; }
-  .cn-ns { clear: none; }
-}
 
 @media (--breakpoint-medium) {
   .cl-m { clear: left; }

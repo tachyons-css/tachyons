@@ -1,10 +1,12 @@
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
-@custom-media --breakpoint-large screen and (min-width: 60em);
 
+
+
+@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
 /*
 
    BORDER WIDTHS
+   Docs: http://tachyons.io/docs/themes/borders/
 
    Base:
      bw = border-width
@@ -31,6 +33,7 @@
 .bw4 { border-width: 1rem; }
 .bw5 { border-width: 2rem; }
 
+/* Resets */
 .bt-0 { border-top-width: 0; }
 .br-0 { border-right-width: 0; }
 .bb-0 { border-bottom-width: 0; }

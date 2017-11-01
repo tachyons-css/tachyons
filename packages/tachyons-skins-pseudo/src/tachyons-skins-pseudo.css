@@ -1,83 +1,3 @@
-/*
-
-   Tachyons
-   COLOR VARIABLES
-
-   Grayscale
-   - Solids
-   - Transparencies
-   Colors
-
-*/
-
-:root {
-  --black: #000;
-  --near-black: #111;
-  --dark-gray:#333;
-  --mid-gray:#555;
-  --gray: #777;
-  --silver: #999;
-  --light-silver: #aaa;
-  --moon-gray: #ccc;
-  --light-gray: #eee;
-  --near-white: #f4f4f4;
-  --white: #fff;
-
-  --transparent:transparent;
-
- --black-90: rgba(0,0,0,.9);
- --black-80: rgba(0,0,0,.8);
- --black-70: rgba(0,0,0,.7);
- --black-60: rgba(0,0,0,.6);
- --black-50: rgba(0,0,0,.5);
- --black-40: rgba(0,0,0,.4);
- --black-30: rgba(0,0,0,.3);
- --black-20: rgba(0,0,0,.2);
- --black-10: rgba(0,0,0,.1);
- --black-05: rgba(0,0,0,.05);
- --black-025: rgba(0,0,0,.025);
- --black-0125: rgba(0,0,0,.0125);
-
- --white-90: rgba(255,255,255,.9);
- --white-80: rgba(255,255,255,.8);
- --white-70: rgba(255,255,255,.7);
- --white-60: rgba(255,255,255,.6);
- --white-50: rgba(255,255,255,.5);
- --white-40: rgba(255,255,255,.4);
- --white-30: rgba(255,255,255,.3);
- --white-20: rgba(255,255,255,.2);
- --white-10: rgba(255,255,255,.1);
- --white-05: rgba(255,255,255,.05);
- --white-025: rgba(255,255,255,.025);
- --white-0125: rgba(255,255,255,.0125);
-
-  --dark-red:  #e7040f;
-  --red:  #ff4136;
-  --light-red:  #ff725c;
-  --orange:  #ff6300;
-  --gold:  #ffb700;
-  --yellow:  #ffd700;
-  --light-yellow:  #fbf1a9;
-  --purple:  #5e2ca5;
-  --light-purple:  #a463f2;
-  --dark-pink:  #d5008f;
-  --hot-pink: #ff41b4;
-  --pink:  #ff80cc;
-  --light-pink:  #ffa3d7;
-  --dark-green:  #137752;
-  --green:  #19a974;
-  --light-green:  #9eebcf;
-  --navy:  #001b44;
-  --dark-blue:  #00449e;
-  --blue:  #357edd;
-  --light-blue:  #96ccff;
-  --lightest-blue:  #cdecff;
-  --washed-blue:  #f6fffe;
-  --washed-green:  #e8fdf5;
-  --washed-yellow:  #fffceb;
-  --washed-red:  #ffdfdf;
-
-}
 /* 
   
    SKINS:PSEUDO
@@ -110,14 +30,53 @@
 .hover-white:hover, 
 .hover-white:focus { color: var(--white); }
 
+.hover-black-90:hover,
+.hover-black-90:focus { color: var(--black-90); }
+.hover-black-80:hover,
+.hover-black-80:focus { color: var(--black-80); }
+.hover-black-70:hover,
+.hover-black-70:focus { color: var(--black-70); }
+.hover-black-60:hover,
+.hover-black-60:focus { color: var(--black-60); }
+.hover-black-50:hover,
+.hover-black-50:focus { color: var(--black-50); }
+.hover-black-40:hover,
+.hover-black-40:focus { color: var(--black-40); }
+.hover-black-30:hover,
+.hover-black-30:focus { color: var(--black-30); }
+.hover-black-20:hover,
+.hover-black-20:focus { color: var(--black-20); }
+.hover-black-10:hover,
+.hover-black-10:focus { color: var(--black-10); }
+.hover-white-90:hover,
+.hover-white-90:focus { color: var(--white-90); }
+.hover-white-80:hover,
+.hover-white-80:focus { color: var(--white-80); }
+.hover-white-70:hover,
+.hover-white-70:focus { color: var(--white-70); }
+.hover-white-60:hover,
+.hover-white-60:focus { color: var(--white-60); }
+.hover-white-50:hover,
+.hover-white-50:focus { color: var(--white-50); }
+.hover-white-40:hover,
+.hover-white-40:focus { color: var(--white-40); }
+.hover-white-30:hover,
+.hover-white-30:focus { color: var(--white-30); }
+.hover-white-20:hover,
+.hover-white-20:focus { color: var(--white-20); }
+.hover-white-10:hover,
+.hover-white-10:focus { color: var(--white-10); }
+.hover-inherit:hover,
+.hover-inherit:focus { color: inherit; }
+
 .hover-bg-black:hover, 
 .hover-bg-black:focus { background-color: var(--black); }
 .hover-bg-near-black:hover, 
 .hover-bg-near-black:focus { background-color: var(--near-black); }
 .hover-bg-dark-gray:hover, 
 .hover-bg-dark-gray:focus { background-color: var(--dark-gray); }
-.hover-bg-dark-gray:focus, 
-.hover-bg-mid-gray:hover { background-color: var(--mid-gray); }
+.hover-bg-mid-gray:hover, 
+.hover-bg-mid-gray:focus { background-color: var(--mid-gray); }
 .hover-bg-gray:hover, 
 .hover-bg-gray:focus { background-color: var(--gray); }
 .hover-bg-silver:hover, 
@@ -134,6 +93,43 @@
 .hover-bg-white:focus { background-color: var(--white); }
 .hover-bg-transparent:hover, 
 .hover-bg-transparent:focus { background-color: var(--transparent); }
+
+.hover-bg-black-90:hover,
+.hover-bg-black-90:focus { background-color: var(--black-90); }
+.hover-bg-black-80:hover,
+.hover-bg-black-80:focus { background-color: var(--black-80); }
+.hover-bg-black-70:hover,
+.hover-bg-black-70:focus { background-color: var(--black-70); }
+.hover-bg-black-60:hover,
+.hover-bg-black-60:focus { background-color: var(--black-60); }
+.hover-bg-black-50:hover,
+.hover-bg-black-50:focus { background-color: var(--black-50); }
+.hover-bg-black-40:hover,
+.hover-bg-black-40:focus { background-color: var(--black-40); }
+.hover-bg-black-30:hover,
+.hover-bg-black-30:focus { background-color: var(--black-30); }
+.hover-bg-black-20:hover,
+.hover-bg-black-20:focus { background-color: var(--black-20); }
+.hover-bg-black-10:hover,
+.hover-bg-black-10:focus { background-color: var(--black-10); }
+.hover-bg-white-90:hover,
+.hover-bg-white-90:focus { background-color: var(--white-90); }
+.hover-bg-white-80:hover,
+.hover-bg-white-80:focus { background-color: var(--white-80); }
+.hover-bg-white-70:hover,
+.hover-bg-white-70:focus { background-color: var(--white-70); }
+.hover-bg-white-60:hover,
+.hover-bg-white-60:focus { background-color: var(--white-60); }
+.hover-bg-white-50:hover,
+.hover-bg-white-50:focus { background-color: var(--white-50); }
+.hover-bg-white-40:hover,
+.hover-bg-white-40:focus { background-color: var(--white-40); }
+.hover-bg-white-30:hover,
+.hover-bg-white-30:focus { background-color: var(--white-30); }
+.hover-bg-white-20:hover,
+.hover-bg-white-20:focus { background-color: var(--white-20); }
+.hover-bg-white-10:hover,
+.hover-bg-white-10:focus { background-color: var(--white-10); }
 
 .hover-dark-red:hover,
 .hover-dark-red:focus { color: var(--dark-red); }
@@ -236,4 +232,5 @@
 .hover-bg-washed-yellow:focus { background-color: var(--washed-yellow); }
 .hover-bg-washed-red:hover,
 .hover-bg-washed-red:focus { background-color: var(--washed-red); }
-
+.hover-bg-inherit:hover,
+.hover-bg-inherit:focus { background-color: inherit; }

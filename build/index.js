@@ -10,7 +10,8 @@ const pattern = [
   '!src/_nested.css',
   '!src/_normalize.css',
   '!src/_media-queries.css',
-  '!src/_module-template.css'
+  '!src/_module-template.css',
+  '!src/_code.css' // TODO: make this a module
 ]
 
 const mq = stripComments(fs.readFileSync('src/_media-queries.css', 'utf8'))

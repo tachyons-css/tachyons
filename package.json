@@ -45,13 +45,7 @@
     "mutations": "immutable-css src/tachyons.css --strict",
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-<<<<<<< HEAD
-    "build:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
-    "build:watch": "watch \"npm run build\" ./src/"
-=======
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch \"npm run build\" ./src/",
-    "dev:update-packages": "node build"
->>>>>>> Init lerna, move all modules to dir
+    "build:watch": "watch \"npm run build\" ./src/"
   }
 }

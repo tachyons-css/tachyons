@@ -1,6 +1,6 @@
 /*
 
-  CUSTOM MEDIA QUERIES
+  # CUSTOM MEDIA QUERIES
 
   Media query values can be changed to fit your own content.
   There are no magic bullets when it comes to media query width values.
@@ -8,14 +8,13 @@
   the needs of your content. You can also add additional media queries,
   or remove some of the existing ones.
 
+  The media queries are min-width based meaning that the medium
+  breakpoints apply to all devices that are the medium min-width
+  or larger.
+
   These media queries can be referenced like so:
 
-  @media (--breakpoint-not-small) {
-    .medium-and-larger-specific-style {
-      background-color: red;
-    }
-  }
-
+  ```css
   @media (--breakpoint-medium) {
     .medium-screen-specific-style {
       background-color: red;
@@ -27,10 +26,10 @@
       background-color: red;
     }
   }
+  ```
 
 */
 
 /* Media Queries */
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
+@custom-media --breakpoint-medium screen and (min-width: 30em);
 @custom-media --breakpoint-large screen and (min-width: 60em);

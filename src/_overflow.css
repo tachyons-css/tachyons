@@ -1,12 +1,11 @@
 /*
 
-    OVERFLOW
+  # OVERFLOW
 
-    Media Query Extensions:
-      -ns = not-small
-      -m  = medium
-      -l  = large
+  ### Media Query Extensions
 
+  - `-m` = medium
+  - `-l` = large
  */
 
 .overflow-visible { overflow: visible; }
@@ -23,22 +22,6 @@
 .overflow-y-hidden { overflow-y: hidden; }
 .overflow-y-scroll { overflow-y: scroll; }
 .overflow-y-auto { overflow-y: auto; }
-
-@media (--breakpoint-not-small) {
-  .overflow-visible-ns { overflow: visible; }
-  .overflow-hidden-ns { overflow: hidden; }
-  .overflow-scroll-ns { overflow: scroll; }
-  .overflow-auto-ns { overflow: auto; }
-  .overflow-x-visible-ns { overflow-x: visible; }
-  .overflow-x-hidden-ns { overflow-x: hidden; }
-  .overflow-x-scroll-ns { overflow-x: scroll; }
-  .overflow-x-auto-ns { overflow-x: auto; }
-
-  .overflow-y-visible-ns { overflow-y: visible; }
-  .overflow-y-hidden-ns { overflow-y: hidden; }
-  .overflow-y-scroll-ns { overflow-y: scroll; }
-  .overflow-y-auto-ns { overflow-y: auto; }
-}
 
 @media (--breakpoint-medium) {
   .overflow-visible-m { overflow: visible; }
