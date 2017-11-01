@@ -19,15 +19,15 @@
     "responsive",
     "performance"
   ],
-  "license": "MIT",
   "devDependencies": {
-    "copy-files": "^0.1.0",
+    "globby": "^6.1.0",
     "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^7.0.0",
-    "tachyons-modules": "^1.1.10",
+    "lerna": "^2.4.0",
+    "strip-css-comments": "^3.0.0",
     "tachyons-cli": "^1.0.11",
     "watch": "^1.0.2"
   },
+  "license": "MIT",
   "contributors": [
     {
       "name": "adam morse",
@@ -44,6 +44,7 @@
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch \"npm run build\" ./src/"
+    "build:watch": "watch \"npm run build\" ./src/",
+    "dev:update-packages": "node build"
   }
 }

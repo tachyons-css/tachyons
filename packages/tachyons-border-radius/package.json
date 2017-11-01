@@ -1,0 +1,41 @@
+{
+  "name": "tachyons-border-radius",
+  "description": "Border radius CSS module for Tachyons",
+  "version": "5.1.3",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-border-radius.css",
+  "main": "src/tachyons-border-radius.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "border-radius"
+  ],
+  "repository": "tachyons-css/tachyons-border-radius",
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.10",
+    "watch": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-border-radius.css > css/tachyons-border-radius.css",
+    "build:minify": "tachyons src/tachyons-border-radius.css --minify > css/tachyons-border-radius.min.css",
+    "build:docs": "tachyons src/tachyons-border-radius.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "dependencies": {},
+  "metadata": {
+    "category": "theming",
+    "isCore": true
+  }
+}

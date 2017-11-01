@@ -1,0 +1,39 @@
+{
+  "name": "tachyons-typography",
+  "version": "3.0.5",
+  "style": "src/tachyons-typography.css",
+  "main": "src/tachyons-typography.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-typography",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.11",
+    "watch": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-typography.css > css/tachyons-typography.css",
+    "build:minify": "tachyons src/tachyons-typography.css --minify > css/tachyons-typography.min.css",
+    "build:docs": "tachyons src/tachyons-typography.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "metadata": {
+    "category": "typography",
+    "isCore": true,
+    "nickName": "measure"
+  }
+}
