@@ -1,0 +1,38 @@
+{
+  "name": "tachyons-border-widths",
+  "description": "Border width CSS module for Tachyons",
+  "version": "3.0.4",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-border-widths.css",
+  "main": "src/tachyons-border-widths.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "border-width",
+    "border",
+    "widths"
+  ],
+  "repository": "tachyons-css/tachyons-border-widths",
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.10",
+    "watch": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-border-widths.css > css/tachyons-border-widths.css",
+    "build:minify": "tachyons src/tachyons-border-widths.css --minify > css/tachyons-border-widths.min.css",
+    "build:docs": "tachyons src/tachyons-border-widths.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

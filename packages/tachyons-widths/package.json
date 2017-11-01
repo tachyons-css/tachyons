@@ -1,0 +1,38 @@
+{
+  "name": "tachyons-widths",
+  "version": "5.2.1",
+  "style": "src/tachyons-widths.css",
+  "main": "src/tachyons-widths.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-widths",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.11",
+    "watch": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-widths.css > css/tachyons-widths.css",
+    "build:minify": "tachyons src/tachyons-widths.css --minify > css/tachyons-widths.min.css",
+    "build:docs": "tachyons src/tachyons-widths.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  },
+  "metadata": {
+    "category": "layout",
+    "isCore": true
+  }
+}

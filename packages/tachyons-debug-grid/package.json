@@ -1,0 +1,36 @@
+{
+  "name": "tachyons-debug-grid",
+  "description": "Base CSS module for Tachyons",
+  "version": "1.2.3",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-debug-grid.css",
+  "main": "src/tachyons-debug-grid.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "base"
+  ],
+  "repository": "tachyons-css/tachyons-debug-grid",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.10",
+    "watch": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-debug-grid.css > css/tachyons-debug-grid.css",
+    "build:minify": "tachyons src/tachyons-debug-grid.css --minify > css/tachyons-debug-grid.min.css",
+    "build:docs": "tachyons src/tachyons-debug-grid.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

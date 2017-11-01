@@ -1,0 +1,50 @@
+@custom-media --breakpoint-not-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+
+/*
+
+   VISIBILITY
+
+*/
+
+
+/*
+    Text that is hidden but accessible
+    Ref: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*/
+
+.clip {
+  position: fixed !important;
+  _position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (--breakpoint-not-small) {
+  .clip-ns {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
+@media (--breakpoint-medium) {
+  .clip-m {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
+@media (--breakpoint-large) {
+  .clip-l {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+

@@ -1,0 +1,20 @@
+/*
+
+   FONT STYLE
+
+*/
+.i { font-style: italic; }
+.fs-normal { font-style: normal; }
+@media screen and (min-width: 30em) {
+ .i-ns { font-style: italic; }
+ .fs-normal-ns { font-style: normal; }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+ .i-m { font-style: italic; }
+ .fs-normal-m { font-style: normal; }
+}
+@media screen and (min-width: 60em) {
+ .i-l { font-style: italic; }
+ .fs-normal-l { font-style: normal; }
+}
+
