@@ -11,25 +11,41 @@
 
 */
 
-.strike       { text-decoration: line-through; }
-.underline    { text-decoration: underline; }
-.no-underline { text-decoration: none; }
+.strike           { text-decoration: line-through; }
+.underline        { text-decoration: underline; }
+.underline-double { text-decoration: underline double; }
+.underline-dotted { text-decoration: underline dotted; }
+.underline-dashed { text-decoration: underline dashed; }
+.underline-wavy   { text-decoration: underline wavy; }
+.no-underline     { text-decoration: none; }
 
 
 @media (--breakpoint-not-small) {
-  .strike-ns       { text-decoration: line-through; }
-  .underline-ns    { text-decoration: underline; }
-  .no-underline-ns { text-decoration: none; }
+  .strike-ns           { text-decoration: line-through; }
+  .underline-ns        { text-decoration: underline; }
+  .underline-double-ns { text-decoration: underline double; }
+  .underline-dotted-ns { text-decoration: underline dotted; }
+  .underline-dashed-ns { text-decoration: underline dashed; }
+  .underline-wavy-ns   { text-decoration: underline wavy; }
+  .no-underline-ns     { text-decoration: none; }
 }
 
 @media (--breakpoint-medium) {
-  .strike-m       { text-decoration: line-through; }
-  .underline-m    { text-decoration: underline; }
-  .no-underline-m { text-decoration: none; }
+  .strike-m           { text-decoration: line-through; }
+  .underline-m        { text-decoration: underline; }
+  .underline-double-m { text-decoration: underline double; }
+  .underline-dotted-m { text-decoration: underline dotted; }
+  .underline-dashed-m { text-decoration: underline dashed; }
+  .underline-wavy-m   { text-decoration: underline wavy; }
+  .no-underline-m     { text-decoration: none; }
 }
 
 @media (--breakpoint-large) {
-  .strike-l       { text-decoration: line-through; }
-  .underline-l {    text-decoration: underline; }
-  .no-underline-l { text-decoration: none; }
+  .strike-l           { text-decoration: line-through; }
+  .underline-l        { text-decoration: underline; }
+  .underline-double-l { text-decoration: underline double; }
+  .underline-dotted-l { text-decoration: underline dotted; }
+  .underline-dashed-l { text-decoration: underline dashed; }
+  .underline-wavy-l   { text-decoration: underline wavy; }
+  .no-underline-l     { text-decoration: none; }
 }
