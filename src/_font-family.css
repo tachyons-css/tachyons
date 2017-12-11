@@ -9,10 +9,11 @@
 .sans-serif {
   font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
-               'helvetica neue', helvetica,
+               'segoe ui',
                ubuntu,
                roboto, noto,
-               'segoe ui', arial,
+               'helvetica neue', helvetica,
+               arial,
                sans-serif;
 }
 
