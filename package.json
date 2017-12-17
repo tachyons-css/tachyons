@@ -1,15 +1,16 @@
 {
   "name": "tachyons",
-  "version": "4.9.1",
-  "description": "Functional CSS for humans",
-  "author": "mrmrs",
+  "version": "4.9.0",
+  "private": true,
+  "description": "Custom styles for Buoy Symptoms A-Z. Based off Tachyons.",
+  "author": "Buoy Dev Team",
   "style": "css/tachyons.min.css",
   "main": "css/tachyons.css",
   "files": [
     "css",
     "src"
   ],
-  "repository": "tachyons-css/tachyons",
+  "repository": "tachyons-buoy",
   "keywords": [
     "css",
     "oocss",
@@ -28,16 +29,6 @@
     "tachyons-cli": "^1.0.11",
     "watch": "^1.0.2"
   },
-  "contributors": [
-    {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
-    }
-  ],
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
