@@ -1,6 +1,6 @@
-# TACHYONS
+# Buoy Symptoms A-Z Styles
 
-Functional css for humans.
+Based off Tachyons library.
 
 Quickly build and design new UI without writing css.
 
@@ -16,24 +16,9 @@ Quickly build and design new UI without writing css.
 * Css shouldn't impede accessibility or the default functionality of Html
 * You should send the smallest possible amount of code to the user
 
-## Features
-
-* Mobile-first css architecture
-* 490 accessible color combinations
-* 8px baseline grid
-* Multiple debugging utilities to reduce layout struggles
-* Single-purpose class structure
-* Optimized for maximum gzip compression
-* Lightweight (~14kB)
-* Usable across projects
-* Growing open source component library
-* Works well with plain html, react, ember, angular, rails, and more
-* Infinitely nestable responsive grid system
-* Built with Postcss
-
 ## Getting started
 
-Docs can be found at http://tachyons.io/docs
+Tachyons Docs can be found at http://tachyons.io/docs
 The modules are generally pretty small and thus quick and easy to read.
 
 ### Use the CDN
@@ -93,43 +78,6 @@ generate and organize the documentation for components as demonstrated at http:/
 
 Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/master/code-of-conduct.md) for contributors.
 
-## Tachyons in Production
-
-A longer list of sites that use tachyons in production can be found in sites.md
-We love letting the community see what people are building so please add your link to sites.md in a PR or by opening an issue if you're willing to share to your site or project.
-
-**Featured Sites**
-
-* https://interfacelovers.com
-* https://npmjs.com
-* https://womenwho.design
-* https://friendstalkfrontend.com
-* https://play.webvr.rocks
-* https://gohugo.io
-* https://coralproject.net
-* http://www.philipyoungg.com
-* https://gitpoint.co
-* https://2017.nodeconf.com.ar
-* https://goldenstaterecord.com
-* http://hicuties.com
-* https://urlbox.io
-* https://fontawesome.com
-* https://purple3.herokuapp.com
-* http://blunt.af/tachy.app/
-* https://fenderdigital.github.io/css-utilities/intro/
-* https://play.cash
-
-And of course...
-* http://tachyons.io
-
-## Sponsors
-
-Development of Tachyons is supported by
-
-* [Digital Ocean](https://digitalocean.com)
-* [DWYL](https://dwyl.com)
-* [VTEX](https://lab.vtex.com)
-* [Manifold](https://manifold.co)
 
 ## Help
 
