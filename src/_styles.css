@@ -6,3 +6,46 @@
 
 */
 
+/* Custom partials */
+@import './_fonts.css';
+@import './_amp.css';
+@import './_buttons.css';
+@import './_columns.css';
+
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: SlatePro-Light, SlatePro, sans-serif;
+  font-size: 16px;
+  line-height: 1.33;
+}
+
+
+h1,
+h2,
+h3 {
+  margin: 0 0 var(--spacing-medium) 0;
+  color: var(--blue);
+  font-family: 'bree-serif', serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Body copy size (18px) */
+p,
+dt,
+dd,
+li {
+  font-size: 1.125rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+section>h1,
+section>h2 {
+  border-top: 1px solid var(--light-gray);
+  padding-top: var(--spacing-large);
+}
