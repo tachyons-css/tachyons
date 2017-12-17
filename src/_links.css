@@ -5,21 +5,31 @@
 
 */
 
+a,
 .link {
+  color: var(--blue);
   text-decoration: none;
   transition: color .15s ease-in;
 }
 
+a:link,
+a:visited,
 .link:link,
 .link:visited {
   transition: color .15s ease-in;
 }
+
+a:hover,
 .link:hover   {
   transition: color .15s ease-in;
 }
+
+a:active,
 .link:active  {
   transition: color .15s ease-in;
 }
+
+a:focus,
 .link:focus   {
   transition: color .15s ease-in;
   outline: 1px dotted currentColor;
