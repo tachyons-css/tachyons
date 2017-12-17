@@ -1,0 +1,18 @@
+/*
+
+   AMP
+   Custom styles for AMP elements
+
+*/
+
+/* 
+ * Fallback Image Overrides
+*/
+amp-img div[fallback] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--near-white);
+  border: solid 1px var(--light-gray);
+  height: 30vh;
+}
