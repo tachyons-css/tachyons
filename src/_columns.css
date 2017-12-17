@@ -1,0 +1,23 @@
+/*
+ 
+  COLUMNS
+  Custom Buoy columns
+
+*/
+
+@media (--breakpoint-medium) {
+  .col2-m {
+    column-count: 2;
+    column-gap: var(--spacing-large);
+    column-width: 50%;
+  }
+}
+
+@media (--breakpoint-large) {
+  .col3-l {
+    column-count: 3;
+    column-gap: var(--spacing-large);
+    column-width: calc(100% / 3);
+  }
+}
+
