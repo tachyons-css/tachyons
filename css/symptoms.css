@@ -733,26 +733,19 @@ a:focus, .link:focus { transition: color .15s ease-in; outline: 1px dotted curre
 
 */
 /* Text colors */
+.black { color: #000; }
 .dark-gray { color: #8a8a8d; }
-.mid-gray { color: undefined; }
-.gray { color: #777; }
-.light-gray { color: #dfdfdf; }
 .white { color: #fff; }
-.dark-blue { color: #00449e; }
 .blue { color: #00adef; }
 .light-blue { color: #d0f0fc; }
 /* Background colors */
-.bg-dark-gray { background-color: #8a8a8d; }
-.bg-mid-gray { background-color: undefined; }
-.bg-gray { background-color: #777; }
 .bg-light-gray { background-color: #dfdfdf; }
 .bg-near-white { background-color: #f4f4f4; }
 .bg-white { background-color: #fff; }
 .bg-transparent { background-color: transparent; }
-.bg-dark-blue { background-color: #00449e; }
-.bg-blue { background-color: #00adef; }
 .bg-light-blue { background-color: #d0f0fc; }
-.bg-lightest-blue { background-color: undefined; }
+.bg-dark-blue { background-color: #008ec4; }
+.bg-blue { background-color: #00adef; }
 /* Variables */
 /*
    SPACING
