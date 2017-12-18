@@ -1,6 +1,6 @@
 # Buoy Symptoms A-Z Styles
 
-Based off Tachyons library.
+Customized CSS styles for Symptom A-Z pages. Based off Tachyons library. Tachyons Docs can be found at http://tachyons.io/docs.
 
 Quickly build and design new UI without writing css.
 
@@ -13,37 +13,33 @@ Quickly build and design new UI without writing css.
 * It should be easy to change any interface or part of an interface without breaking any existing interfaces
 * Doing one thing extremely well promotes reusability and reduces repetition
 * Documentation helps promote reusability and shared knowledge
-* Css shouldn't impede accessibility or the default functionality of Html
+* CSS shouldn't impede accessibility or the default functionality of Html
 * You should send the smallest possible amount of code to the user
 
 ## Getting started
 
-Tachyons Docs can be found at http://tachyons.io/docs
-The modules are generally pretty small and thus quick and easy to read.
+Working between two repositories is quite easy! Follow these steps if you need to modify any CSS.
 
-### Use the CDN
-
-The quickest and easiest way to start using tachyons is to include a reference
-to the minified file in the head of your html file.
-
-You can always grab the latest version with
-```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
-```
-You can also specify a specific version. The latest version is 4.9.1
-```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css">
-```
-
-### Local Setup
-
-Clone the repo from github and install dependencies through npm.
+1. Clone the repo from github and install dependencies through npm.
 
 ```
-git clone https://github.com/tachyons-css/tachyons.git
-cd tachyons
+git clone https://github.com/misscs/symptomcss.git
+cd symptomcss
 npm install
 ```
+
+2. Create a local link. This is the sauce that allows you to seemlessly work with local packages.
+
+```
+npm link
+```
+
+3. Naviagate to Symptom A-Z repo and add new link
+
+```
+npm link @buoy/symptomcss
+```
+
 
 #### Dev
 
@@ -66,22 +62,25 @@ If you want to check that a class hasn't been redefined or 'mutated' there is a 
 
 ```npm run mutations```
 
+## Debugging
+
+If you need access to full tachyons library, include a reference
+to the minified file in the head of your html file.
+
+You can always grab the latest version with
+```html
+<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+```
+You can also specify a specific version. The latest version is 4.9.0
+```html
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css">
+```
+
+
 ## Docs
 The tachyons docs located at http://tachyons.io are all open source and located at https://github.com/tachyons-css/tachyons-css.github.io
 
-You can clone the docs and use them as a template for documenting your own design system / patterns / components.
-While not everything is automated, the component library generation makes it extremely easy to
-generate and organize the documentation for components as demonstrated at http://tachyons.io/components
-
-
-## Contributing
-
-Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/master/code-of-conduct.md) for contributors.
-
-
-## Help
-
-If you have a question or need help feel free to [open an issue here](https://github.com/tachyons-css/tachyons/issues/new) or jump into the [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com).
+If you have a question with Tachyons, or need help, feel free to [open an issue here](https://github.com/tachyons-css/tachyons/issues/new) or jump into the [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com).
 
 ## License
 
