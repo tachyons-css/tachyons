@@ -11,26 +11,18 @@
 
 /* Text colors */
 
-.black {         color: var(--black); }
-.near-black {    color: var(--near-black); }
 .dark-gray {     color: var(--dark-gray); }
 .mid-gray {      color: var(--mid-gray); }
 .gray {          color: var(--gray); }
 .light-gray {    color: var(--light-gray); }
-.near-white {    color: var(--near-white); }
 .white {         color: var(--white); }
 
 .dark-blue { color: var(--dark-blue); }
 .blue { color: var(--blue); }
 .light-blue { color: var(--light-blue); }
-.lightest-blue { color: var(--lightest-blue); }
-.washed-blue { color: var(--washed-blue); }
-.color-inherit { color: inherit; }
 
 /* Background colors */
 
-.bg-black {         background-color: var(--black); }
-.bg-near-black {    background-color: var(--near-black); }
 .bg-dark-gray {     background-color: var(--dark-gray); }
 .bg-mid-gray {      background-color: var(--mid-gray); }
 .bg-gray {          background-color: var(--gray); }
@@ -43,4 +35,3 @@
 .bg-blue { background-color: var(--blue); }
 .bg-light-blue { background-color: var(--light-blue); }
 .bg-lightest-blue { background-color: var(--lightest-blue); }
-.bg-inherit { background-color: inherit; }
