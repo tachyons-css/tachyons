@@ -27,6 +27,26 @@
 .bw3 { border-width: .5rem; }
 .bw4 { border-width: 1rem; }
 .bw5 { border-width: 2rem; }
+.btw1 { border-top-width: .125rem; }
+.btw2 { border-top-width: .25rem; }
+.btw3 { border-top-width: .5rem; }
+.btw4 { border-top-width: 1rem; }
+.btw5 { border-top-width: 2rem; }
+.brw1 { border-right-width: .125rem; }
+.brw2 { border-right-width: .25rem; }
+.brw3 { border-right-width: .5rem; }
+.brw4 { border-right-width: 1rem; }
+.brw5 { border-right-width: 2rem; }
+.bbw1 { border-bottom-width: .125rem; }
+.bbw2 { border-bottom-width: .25rem; }
+.bbw3 { border-bottom-width: .5rem; }
+.bbw4 { border-bottom-width: 1rem; }
+.bbw5 { border-bottom-width: 2rem; }
+.blw1 { border-left-width: .125rem; }
+.blw2 { border-left-width: .25rem; }
+.blw3 { border-left-width: .5rem; }
+.blw4 { border-left-width: 1rem; }
+.blw5 { border-left-width: 2rem; }
 
 /* Resets */
 .bt-0 { border-top-width: 0; }
@@ -41,6 +61,26 @@
   .bw3-ns { border-width: .5rem; }
   .bw4-ns { border-width: 1rem; }
   .bw5-ns { border-width: 2rem; }
+  .btw1-ns { border-top-width: .125rem; }
+  .btw2-ns { border-top-width: .25rem; }
+  .btw3-ns { border-top-width: .5rem; }
+  .btw4-ns { border-top-width: 1rem; }
+  .btw5-ns { border-top-width: 2rem; }
+  .brw1-ns { border-right-width: .125rem; }
+  .brw2-ns { border-right-width: .25rem; }
+  .brw3-ns { border-right-width: .5rem; }
+  .brw4-ns { border-right-width: 1rem; }
+  .brw5-ns { border-right-width: 2rem; }
+  .bbw1-ns { border-bottom-width: .125rem; }
+  .bbw2-ns { border-bottom-width: .25rem; }
+  .bbw3-ns { border-bottom-width: .5rem; }
+  .bbw4-ns { border-bottom-width: 1rem; }
+  .bbw5-ns { border-bottom-width: 2rem; }
+  .blw1-ns { border-left-width: .125rem; }
+  .blw2-ns { border-left-width: .25rem; }
+  .blw3-ns { border-left-width: .5rem; }
+  .blw4-ns { border-left-width: 1rem; }
+  .blw5-ns { border-left-width: 2rem; }
   .bt-0-ns { border-top-width: 0; }
   .br-0-ns { border-right-width: 0; }
   .bb-0-ns { border-bottom-width: 0; }
@@ -54,6 +94,26 @@
   .bw3-m { border-width: .5rem; }
   .bw4-m { border-width: 1rem; }
   .bw5-m { border-width: 2rem; }
+  .btw1-m { border-top-width: .125rem; }
+  .btw2-m { border-top-width: .25rem; }
+  .btw3-m { border-top-width: .5rem; }
+  .btw4-m { border-top-width: 1rem; }
+  .btw5-m { border-top-width: 2rem; }
+  .brw1-m { border-right-width: .125rem; }
+  .brw2-m { border-right-width: .25rem; }
+  .brw3-m { border-right-width: .5rem; }
+  .brw4-m { border-right-width: 1rem; }
+  .brw5-m { border-right-width: 2rem; }
+  .bbw1-m { border-bottom-width: .125rem; }
+  .bbw2-m { border-bottom-width: .25rem; }
+  .bbw3-m { border-bottom-width: .5rem; }
+  .bbw4-m { border-bottom-width: 1rem; }
+  .bbw5-m { border-bottom-width: 2rem; }
+  .blw1-m { border-left-width: .125rem; }
+  .blw2-m { border-left-width: .25rem; }
+  .blw3-m { border-left-width: .5rem; }
+  .blw4-m { border-left-width: 1rem; }
+  .blw5-m { border-left-width: 2rem; }
   .bt-0-m { border-top-width: 0; }
   .br-0-m { border-right-width: 0; }
   .bb-0-m { border-bottom-width: 0; }
@@ -67,6 +127,26 @@
   .bw3-l { border-width: .5rem; }
   .bw4-l { border-width: 1rem; }
   .bw5-l { border-width: 2rem; }
+  .btw1-l { border-top-width: .125rem; }
+  .btw2-l { border-top-width: .25rem; }
+  .btw3-l { border-top-width: .5rem; }
+  .btw4-l { border-top-width: 1rem; }
+  .btw5-l { border-top-width: 2rem; }
+  .brw1-l { border-right-width: .125rem; }
+  .brw2-l { border-right-width: .25rem; }
+  .brw3-l { border-right-width: .5rem; }
+  .brw4-l { border-right-width: 1rem; }
+  .brw5-l { border-right-width: 2rem; }
+  .bbw1-l { border-bottom-width: .125rem; }
+  .bbw2-l { border-bottom-width: .25rem; }
+  .bbw3-l { border-bottom-width: .5rem; }
+  .bbw4-l { border-bottom-width: 1rem; }
+  .bbw5-l { border-bottom-width: 2rem; }
+  .blw1-l { border-left-width: .125rem; }
+  .blw2-l { border-left-width: .25rem; }
+  .blw3-l { border-left-width: .5rem; }
+  .blw4-l { border-left-width: 1rem; }
+  .blw5-l { border-left-width: 2rem; }
   .bt-0-l { border-top-width: 0; }
   .br-0-l { border-right-width: 0; }
   .bb-0-l { border-bottom-width: 0; }
