@@ -1,0 +1,13 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+dd {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

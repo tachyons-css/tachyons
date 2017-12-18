@@ -1,15 +1,13 @@
 {
-  "name": "tachyons",
-  "version": "4.9.0",
-  "description": "Functional CSS for humans",
-  "author": "mrmrs",
-  "style": "css/tachyons.min.css",
-  "main": "css/tachyons.css",
-  "files": [
-    "css",
-    "src"
-  ],
-  "repository": "tachyons-css/tachyons",
+  "name": "@buoy/symptomcss",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Custom styles for Buoy Symptoms A-Z. Based off Tachyons.",
+  "author": "Buoy Team <engineering@buoyhealth.com>",
+  "style": "css/symptoms.min.css",
+  "main": "css/symptoms.css",
+  "files": ["css", "src"],
+  "repository": "misscs/taychons",
   "keywords": [
     "css",
     "oocss",
@@ -28,22 +26,12 @@
     "tachyons-cli": "^1.0.11",
     "watch": "^1.0.2"
   },
-  "contributors": [
-    {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
-    }
-  ],
   "scripts": {
     "start": "npm run build:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
+    "mutations": "immutable-css src/symptoms.css --strict",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:css": "tachyons src/symptoms.css > css/symptoms.css",
+    "build:minify": "tachyons src/symptoms.css -m > css/symptoms.min.css",
     "build:watch": "watch \"npm run build\" ./src/"
   }
 }

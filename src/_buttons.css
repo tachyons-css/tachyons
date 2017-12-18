@@ -1,0 +1,32 @@
+/*
+ 
+  BUTTONS
+  Custom Buoy buttons
+
+  Use .btn class on <a> or <button>.
+
+*/
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button,
+.btn {
+  font-family: SlatePro, sans-serif;
+  padding: var(--spacing-small) var(--spacing-medium);
+  font-size: 1.125rem;
+  border-radius: 0.25rem;
+  border: solid 1px var(--blue);
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--blue);
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-ghost {
+  background-color: var(--white);
+  color: var(--blue);
+}
