@@ -1,6 +1,6 @@
 {
   "name": "@buoy/symptomcss",
-  "version": "1.0.0",
+  "version": "5.0.0",
   "private": true,
   "description": "Custom styles for Buoy Symptoms A-Z. Based off Tachyons.",
   "author": "Buoy Team <engineering@buoyhealth.com>",
