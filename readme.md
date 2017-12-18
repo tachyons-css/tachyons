@@ -1,4 +1,4 @@
-# Buoy Symptoms A-Z Styles
+# Buoy Symptomcss: Styles from A-Z
 
 Customized CSS styles for Symptom A-Z pages. Based off Tachyons library. Tachyons Docs can be found at http://tachyons.io/docs.
 
@@ -40,12 +40,9 @@ npm link
 npm link @buoy/symptomcss
 ```
 
+### Dev
 
-#### Dev
-
-If you want to just use everything in tachyons/src as a jumping off point and
-edit all the code yourself, you can compile all of your wonderful changes by
-running
+Compile all of your wonderful changes by running
 
 ```npm start```
 
@@ -61,6 +58,10 @@ If you'd like to just build the css once without watching the src directory run
 If you want to check that a class hasn't been redefined or 'mutated' there is a linter to check that all of the classes have only been defined once. This can be useful if you are using another library or have written some of your own css and want to make sure there are no naming collisions. To do this run the command
 
 ```npm run mutations```
+
+### Releasing new version
+
+_@todo_
 
 ## Debugging
 
