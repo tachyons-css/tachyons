@@ -44,6 +44,10 @@
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch \"npm run build\" ./src/"
+    "build:watch": "watch \"npm run build\" ./src/",
+    "build:amp-css": "tachyons src/tachyons-amp.css > amp-build/tachyons-amp.css",
+    "build:amp-min": "tachyons src/tachyons-amp.css -m > amp-build/tachyons-amp.min.css",
+    "build:amp": "npm run build:amp-css && npm run build:amp-min",
+    "test": "node validate.js"
   }
 }
