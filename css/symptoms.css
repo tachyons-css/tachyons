@@ -1197,6 +1197,23 @@ p, dt, dd, li { font-size: 1.125rem; }
 dt { font-weight: bold; }
 section>h1 { border-top: 1px solid #dfdfdf; padding-top: 2rem; }
 section>h2 { border-top: 1px solid #dfdfdf; padding-top: 2rem; }
+hr { height: 1px; border: 0; border-top: 1px solid #dfdfdf; }
+/* 
+  * Page Structure
+  * Implemented using CSS Grid
+  * Browsers that don't support CSS grid use float fallbacks. Float classes
+  * applied using tacyhons.
+*/
+.page-header { grid-column: 1 / -1; }
+/* 
+  * Need for float fallbacks. Could not put a class on the element beccause
+  it conflicted with flexbox classes.
+*/
+.page-footer { clear: both; }
+/* Reset widths if grid friendly browser  */
+@supports ((display: -ms-grid) or (display: grid)) {
+ .page-content, .page-aside { width: auto; }
+}
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
@@ -2133,5 +2150,8 @@ section>h2 { border-top: 1px solid #dfdfdf; padding-top: 2rem; }
  .mr-auto-l { margin-right: auto; }
  .ml-auto-l { margin-left: auto; }
  .col3-l { -webkit-column-count: 3; column-count: 3; -webkit-column-gap: 2rem; column-gap: 2rem; -webkit-column-width: calc( 100% / 3 ); column-width: calc( 100% / 3 ); }
+}
+@media screen and (min-width: 48em) {
+ .page-wrapper { display: -ms-grid; display: grid; -ms-grid-columns: 5fr 3fr; grid-template-columns: 5fr 3fr; grid-gap: 26px; }
 }
 
