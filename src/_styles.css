@@ -49,3 +49,44 @@ section>h2 {
   border-top: 1px solid var(--light-gray);
   padding-top: var(--spacing-large);
 }
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--light-gray);
+}
+
+/* 
+  * Page Structure
+  * Implemented using CSS Grid
+  * Browsers that don't support CSS grid use float fallbacks. Float classes
+  * applied using tacyhons.
+*/
+
+@media screen and (min-width: 48em) {
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-gap: 26px;
+  }
+}
+
+.page-header {
+  grid-column: 1 / -1;
+}
+
+/* 
+  * Need for float fallbacks. Could not put a class on the element beccause
+  it conflicted with flexbox classes.
+*/
+.page-footer {
+  clear: both;
+}
+
+/* Reset widths if grid friendly browser  */
+@supports (display: grid) {
+  .page-content,
+  .page-aside {
+    width: auto; 
+  }
+}
