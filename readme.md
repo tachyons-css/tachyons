@@ -1,3 +1,152 @@
+# tachyons-amp v4.9.0 build
+[![Build Status](https://travis-ci.org/zerodevx/tachyons-amp.svg?branch=master)](https://travis-ci.org/zerodevx/tachyons-amp)
+
+A barebones AMP-compatible TACHYONS build.
+
+Conforming to [Google's Accelerated Mobile Pages, or AMP, project](https://www.ampproject.org/) CSS specs, *external stylesheets*, the `!important` qualifier, and the `behavior` and `-moz-binding` properties are disallowed. Furthermore, the custom CSS should not exceed a *50kb* size limit.
+
+This convenience build aims to provide a CSS snippet that passes AMP validation, while providing a reduced set of the most-used features from the original [TACHYONS](http://tachyons.io/) (as much as possible).
+
+## Usage
+
+The [minified build](https://raw.githubusercontent.com/zerodevx/tachyons-amp/master/amp-build/tachyons-amp.min.css) is located in the [./amp-build](https://github.com/zerodevx/tachyons-amp/tree/master/amp-build) directory.
+
+Simply copy & paste into your AMP HTML's `<style amp-custom>` tag.
+
+## Build it yourself
+
+1. Clone this repo and install dependencies.
+
+    git clone https://github.com/zerodevx/tachyons-amp.git && cd tachyons-amp && npm install
+
+2. Edit which modules to include from [./src/tachyons-amp.css](https://github.com/zerodevx/tachyons-amp/tree/master/src/tachyons-amp.css).
+
+    vim ./src/tachyons-amp.css
+
+3. Build.
+
+    npm run build:amp
+
+4. Validate.
+
+    npm run test
+
+
+## What's included
+
+A subset of 31 modules are included.
+
+#### Global and Normalization Modules (8)
+
+* src/_normalize.css
+* src/_box-sizing.css
+* src/_code.css
+* src/_forms.css
+* src/_lists.css
+* src/_links.css
+* src/_utilities.css
+* src/_media-queries.css
+
+#### Positioning and Layout Stuff (10)
+
+* src/_coordinates.css
+* src/_display.css
+* src/_floats.css
+* src/_position.css
+* src/_spacing.css
+* src/_clears.css
+* src/_heights.css
+* src/_widths.css
+* src/_max-widths.css
+* src/_flexbox.css
+
+#### Typography Stuff (8)
+
+* src/_font-style.css
+* src/_font-weight.css
+* src/_letter-spacing.css
+* src/_line-height.css
+* src/_text-align.css
+* src/_type-scale.css
+* src/_typography.css
+* src/_white-space.css
+
+#### Borders (4)
+
+* src/_borders.css
+* src/_border-radius.css
+* src/_border-style.css
+* src/_border-widths.css
+
+#### Miscellaneous (1)
+
+* src/_box-shadow.css
+
+
+## Why TACHYONS with AMP?
+
+It's atomic, has good documentation, and is actively maintained. Atomic (or functional) CSS works well with AMP, because 80% of what you'll probably need is generalised into 20% of reusable well-defined style classes. Also, the web should be as semantic as possible - so something like this:
+
+```html
+<div class="this-is-a-grid it-should-wrap it-should-center blue-background">
+  <div class="this-is-an-item red-background">Item 1</div>
+  <div class="this-is-an-item yellow-background">Item 2</div>
+  <div class="this-is-an-item orange-background">Item 3</div>
+</div>
+```
+
+probably trumps this:
+
+```html
+<style>
+  .class1 {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: blue;
+  }
+  .class2 {
+    -ms-flex: 1 1 0.000000001px;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-basis: 0.000000001px;
+    flex-basis: 0.000000001px;
+    background-color: red;
+  }
+  .class3 {
+    -ms-flex: 1 1 0.000000001px;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-basis: 0.000000001px;
+    flex-basis: 0.000000001px;
+    background-color: yellow;
+  }
+  .class2 {
+    -ms-flex: 1 1 0.000000001px;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-basis: 0.000000001px;
+    flex-basis: 0.000000001px;
+    background-color: orange;
+  }
+</style>
+...
+<div class="class1">
+  <div class="class2">Item 1</div>
+  <div class="class3">Item 2</div>
+  <div class="class4">Item 3</div>
+<div>
+```
+
+Read more about [TACHYONS](https://github.com/tachyons-css/tachyons) below:
+
+
 # TACHYONS
 
 Functional css for humans.
