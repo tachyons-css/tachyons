@@ -237,7 +237,7 @@ template { display: none; }
  */
 [hidden] { display: none; }
 /* Reset */
-body, p { margin: 0; padding: 0; }
+body, p, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
 ul, ol, dd { list-style-type: none; margin: 0; padding: 0; }
 /* Modules */
 /*
@@ -310,6 +310,19 @@ img { max-width: 100%; }
 .b--blue { border-color: #00adef; }
 .b--transparent { border-color: transparent; }
 .b--inherit { border-color: inherit; }
+/*
+
+   BORDER RADIUS
+   Docs: http://tachyons.io/docs/themes/border-radius/
+
+   Base:
+     br   = border-radius
+
+   Literal values:
+     -100 = 100%
+
+*/
+.br-100 { border-radius: 100%; }
 /*
 
    COORDINATES
