@@ -1,3 +1,4 @@
+* https://pylon.design
 * https://gohugo.io
 * https://interfacelovers.com
 * https://friendstalkfrontend.com
@@ -20,7 +21,7 @@
 * https://segment.com
 * http://hicuties.com
 * https://urlbox.io
-* https://loronarecords.com 
+* https://loronarecords.com
 * https://community.algolia.com/wordpress/
 * http://studiocraft.cc
 * http://samueldregan.com
