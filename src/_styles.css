@@ -75,14 +75,6 @@ hr {
   grid-column: 1 / -1;
 }
 
-/* 
-  * Need for float fallbacks. Could not put a class on the element beccause
-  it conflicted with flexbox classes.
-*/
-.page-footer {
-  clear: both;
-}
-
 /* Reset widths if grid friendly browser  */
 @supports (display: grid) {
   .page-content,
