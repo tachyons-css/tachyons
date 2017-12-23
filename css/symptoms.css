@@ -376,15 +376,7 @@ img { max-width: 100%; }
    http://tachyons.io/docs/layout/clearfix/
 
 */
-/* Nicolas Gallaghers Clearfix solution
-   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.cf:before, .cf:after { content: " "; display: table; }
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
-.cl { clear: left; }
-.cr { clear: right; }
 .cb { clear: both; }
-.cn { clear: none; }
 /*
 
    DISPLAY
@@ -1212,11 +1204,6 @@ hr { height: 1px; border: 0; border-top: 1px solid #dfdfdf; }
   * applied using tacyhons.
 */
 .page-header { grid-column: 1 / -1; }
-/* 
-  * Need for float fallbacks. Could not put a class on the element beccause
-  it conflicted with flexbox classes.
-*/
-.page-footer { clear: both; }
 /* Reset widths if grid friendly browser  */
 @supports ((display: -ms-grid) or (display: grid)) {
  .page-content, .page-aside { width: auto; }
@@ -1299,10 +1286,6 @@ hr { height: 1px; border: 0; border-top: 1px solid #dfdfdf; }
  .bottom--2-ns { bottom: -2rem; }
  .left--2-ns { left: -2rem; }
  .absolute--fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
- .cl-ns { clear: left; }
- .cr-ns { clear: right; }
- .cb-ns { clear: both; }
- .cn-ns { clear: none; }
  .dn-ns { display: none; }
  .di-ns { display: inline; }
  .db-ns { display: block; }
@@ -1594,10 +1577,6 @@ hr { height: 1px; border: 0; border-top: 1px solid #dfdfdf; }
  .bottom--2-m { bottom: -2rem; }
  .left--2-m { left: -2rem; }
  .absolute--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
- .cl-m { clear: left; }
- .cr-m { clear: right; }
- .cb-m { clear: both; }
- .cn-m { clear: none; }
  .dn-m { display: none; }
  .di-m { display: inline; }
  .db-m { display: block; }
@@ -1890,10 +1869,6 @@ hr { height: 1px; border: 0; border-top: 1px solid #dfdfdf; }
  .bottom--2-l { bottom: -2rem; }
  .left--2-l { left: -2rem; }
  .absolute--fill-l { top: 0; right: 0; bottom: 0; left: 0; }
- .cl-l { clear: left; }
- .cr-l { clear: right; }
- .cb-l { clear: both; }
- .cn-l { clear: none; }
  .dn-l { display: none; }
  .di-l { display: inline; }
  .db-l { display: block; }
