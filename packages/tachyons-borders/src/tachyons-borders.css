@@ -1,21 +1,22 @@
-
-
-
-@custom-media --breakpoint-medium screen and (min-width: 30em);
-@custom-media --breakpoint-large screen and (min-width: 60em);
 /*!!!
 
   # BORDERS
 
-  ### Docs
+  There is a base border module that can be extended with the border-width,
+  border-color, border-style modules. By default you don’t need to set a
+  border color. It will just inherit whatever the text color is for that
+  dom node. You can target any side to put a border on ie. top, right,
+  bottom, left.
+
+  ## Docs
 
   http://tachyons.io/docs/themes/borders/
 
-  ### Base
+  ## Base
 
   - `b` = border
 
-  ### Modifiers
+  ## Modifiers
 
   - a = all
   - t = top
@@ -24,18 +25,53 @@
   - l = left
   - n = none
 
-  ### Media Query Extensions
+  ## Media Query Extensions
 
   - `-m` = medium
   - `-l`= large
+
+  ## Examples
+
+  ### Border
+
+  ```.html
+  <div class="ba pv3 bg-washed-blue"></div>
+  ```
+
+  ### Border top
+
+  ```.html
+  <div class="bt pv3 bg-washed-blue"></div>
+  ```
+
+  ### Border right
+
+  ```.html
+  <div class="br pv3 bg-washed-blue"></div>
+  ```
+
+  ### Border bottom
+
+  ```.html
+  <div class="bb pv3 bg-washed-blue"></div>
+  ```
+
+  ### Border left
+
+  ```.html
+  <div class="bl pv3 bg-washed-blue"></div>
+  ```
 */
 
-  .ba { border-style: solid; border-width: 1px; }
-  .bt { border-top-style: solid; border-top-width: 1px; }
-  .br { border-right-style: solid; border-right-width: 1px; }
-  .bb { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl { border-left-style: solid; border-left-width: 1px; }
-  .bn { border-style: none; border-width: 0; }
+@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+
+.ba { border-style: solid; border-width: 1px; }
+.bt { border-top-style: solid; border-top-width: 1px; }
+.br { border-right-style: solid; border-right-width: 1px; }
+.bb { border-bottom-style: solid; border-bottom-width: 1px; }
+.bl { border-left-style: solid; border-left-width: 1px; }
+.bn { border-style: none; border-width: 0; }
 
 @media (--breakpoint-medium) {
   .ba-m { border-style: solid; border-width: 1px; }
