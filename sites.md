@@ -94,3 +94,4 @@
 * https://gaest.com
 * https://aravindh.net
 * https://www.starklabs.io/
+* http://stoaters.com
