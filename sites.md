@@ -1,4 +1,3 @@
-* https://pylon.design
 * https://gohugo.io
 * https://interfacelovers.com
 * https://friendstalkfrontend.com
@@ -95,3 +94,4 @@
 * https://gaest.com
 * https://aravindh.net
 * https://www.starklabs.io/
+* https://pylon.design
