@@ -20,7 +20,7 @@
 * https://segment.com
 * http://hicuties.com
 * https://urlbox.io
-* https://loronarecords.com 
+* https://loronarecords.com
 * https://community.algolia.com/wordpress/
 * http://studiocraft.cc
 * http://samueldregan.com
@@ -94,3 +94,4 @@
 * https://gaest.com
 * https://aravindh.net
 * https://www.starklabs.io/
+* https://pylon.design
