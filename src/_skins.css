@@ -11,13 +11,19 @@
 
 /* Text colors */
 
-.black {     color: var(--black); }
 .dark-gray {     color: var(--dark-gray); }
+.mid-gray {      color: var(--mid-gray); }
+.gray {          color: var(--gray); }
+.light-gray {    color: var(--light-gray); }
 .white {         color: var(--white); }
 .blue { color: var(--blue); }
 .light-blue { color: var(--light-blue); }
 
 /* Background colors */
+
+.bg-dark-gray {     background-color: var(--dark-gray); }
+.bg-mid-gray {      background-color: var(--mid-gray); }
+.bg-gray {          background-color: var(--gray); }
 .bg-light-gray {    background-color: var(--light-gray); }
 .bg-near-white {    background-color: var(--near-white); }
 .bg-white {         background-color: var(--white); }
@@ -26,3 +32,5 @@
 .bg-light-blue { background-color: var(--light-blue); }
 .bg-dark-blue { background-color: var(--dark-blue); }
 .bg-blue { background-color: var(--blue); }
+.bg-light-blue { background-color: var(--light-blue); }
+.bg-lightest-blue { background-color: var(--lightest-blue); }
