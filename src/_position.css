@@ -10,17 +10,28 @@
 
 */
 
-.fixed  { position: fixed; }
-.relative { position: relative; }
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
 
 @media (--breakpoint-not-small) {
-  .fixed-ns  { position: fixed; }
+  .fixed-ns {
+    position: fixed;
+  }
 }
 
 @media (--breakpoint-medium) {
-  .fixed-m  { position: fixed; }
+  .fixed-m {
+    position: fixed;
+  }
 }
 
 @media (--breakpoint-large) {
-  .fixed-l  { position: fixed; }
+  .fixed-l {
+    position: fixed;
+  }
 }
