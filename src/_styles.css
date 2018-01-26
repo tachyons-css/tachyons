@@ -75,22 +75,42 @@ section>h2 {
   * applied using tacyhons.
 */
 
+  .page-wrapper {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 22px;
+  }
+  
+  .page-header {
+    grid-column: 1 / -1;
+  }
+  
+  .page-header {
+    grid-row: 1;
+  }
+  
+  .page-aside-cta {
+    grid-row: 2;
+  }
+  
+  .page-content {
+    grid-row: 3;
+  }
+  
 @media screen and (min-width: 48em) {
   .page-wrapper {
-    display: grid;
     grid-template-columns: 5fr 3fr;
-    grid-gap: 26px;
+    grid-template-rows: auto auto;
+    grid-column-gap: 26px;
+  }
+  
+  .page-aside-cta {
+    grid-column: 2;
+  }
+
+  .page-content {
+    grid-column: 1;
+    grid-row: 2;
   }
 }
 
-.page-header {
-  grid-column: 1 / -1;
-}
-
-/* Reset widths if grid friendly browser  */
-@supports (display: grid) {
-  .page-content,
-  .page-aside {
-    width: auto; 
-  }
-}
