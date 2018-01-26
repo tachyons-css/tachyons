@@ -11,6 +11,7 @@
 */
 
 .fixed  { position: fixed; }
+.relative { position: relative; }
 
 @media (--breakpoint-not-small) {
   .fixed-ns  { position: fixed; }
