@@ -51,11 +51,22 @@ section>h2 {
   padding-top: var(--spacing-large);
 }
 
-hr {
-  height: 1px;
-  border: 0;
-  border-top: 1px solid var(--light-gray);
+
+/* 
+  * Add a triangle to the first CTA
+*/
+
+.page-aside-cta:before {
+  content: " ";
+  border: .7rem solid transparent;
+  border-top-color: #fff;
+  border-width: .7rem 1.05rem 0;
+  left: 45%;
+  position: absolute;
+  top: 0;
+  transition: border-width .3s;
 }
+
 
 /* 
   * Page Structure
