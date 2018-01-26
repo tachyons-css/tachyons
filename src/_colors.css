@@ -12,16 +12,14 @@
 
 :root {
   --black: #000;
-  --dark-gray:#8a8a8d;
+  --dark-gray: #8a8a8d;
   --gray: #777;
   --light-gray: #dfdfdf;
   --near-white: #f4f4f4;
   --white: #fff;
-
-  --transparent:transparent;
-
-  --dark-blue : #008ec4;
-  --blue : #00adef;
-  --light-blue : #d0f0fc;
+  --transparent: transparent;
+  --dark-blue: #008ec4;
+  --blue: #00adef;
+  --light-blue: #d0f0fc;
   --lightest-blue: rgba(208, 240, 252, 0.5);
 }
