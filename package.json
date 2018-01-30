@@ -10,7 +10,10 @@
     "css",
     "src"
   ],
-  "repository": "BuoyHealth/symptomcss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BuoyHealth/symptomcss.git"
+  },
   "keywords": [
     "css",
     "oocss",
