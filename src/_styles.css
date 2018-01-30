@@ -6,12 +6,14 @@
 
 */
 
+
 /* Custom partials */
+
 @import './_fonts.css';
 @import './_amp.css';
 @import './_buttons.css';
 @import './_columns.css';
-
+@import './_grid.css';
 
 html {
   -ms-text-size-adjust: 100%;
@@ -20,7 +22,6 @@ html {
   font-size: 16px;
   line-height: 1.33;
 }
-
 
 h1,
 h2,
@@ -32,7 +33,9 @@ h3 {
   font-weight: 300;
 }
 
+
 /* Body copy size (18px) */
+
 p,
 dt,
 dd,
@@ -50,11 +53,22 @@ section>h2 {
   padding-top: var(--spacing-large);
 }
 
-hr {
-  height: 1px;
-  border: 0;
-  border-top: 1px solid var(--light-gray);
+
+/* 
+  * Add a triangle to the first CTA
+*/
+
+.page-aside-cta:before {
+  content: " ";
+  border: .7rem solid transparent;
+  border-top-color: #fff;
+  border-width: .7rem 1.05rem 0;
+  left: 45%;
+  position: absolute;
+  top: 0;
+  transition: border-width .3s;
 }
+
 
 /* 
   * Page Structure
@@ -63,22 +77,39 @@ hr {
   * applied using tacyhons.
 */
 
-@media screen and (min-width: 48em) {
-  .page-wrapper {
-    display: grid;
-    grid-template-columns: 5fr 3fr;
-    grid-gap: 26px;
-  }
+.page-wrapper {
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 22px;
 }
 
 .page-header {
   grid-column: 1 / -1;
 }
 
-/* Reset widths if grid friendly browser  */
-@supports (display: grid) {
-  .page-content,
-  .page-aside {
-    width: auto; 
+.page-header {
+  grid-row: 1;
+}
+
+.page-aside-cta {
+  grid-row: 2;
+}
+
+.page-content {
+  grid-row: 3;
+}
+
+@media screen and (min-width: 48em) {
+  .page-wrapper {
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 26px;
+  }
+  .page-aside-cta {
+    grid-column: 2;
+  }
+  .page-content {
+    grid-column: 1;
+    grid-row: 2;
   }
 }
