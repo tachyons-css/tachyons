@@ -5,21 +5,11 @@
 
 */
 @font-face {
-  font-family: 'SlatePro';
-  src: url('/fonts/3013B9_0_0.woff2') format('woff2'), url('/fonts/3013B9_0_0.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'SlatePro-Bold';
-  src: url('/fonts/3013B9_1_0.woff2') format('woff2'), url('/fonts/3013B9_1_0.woff') format('woff');
-}
-
-@font-face {
   font-family: 'SlatePro-Medium';
-  src: url('/fonts/3013B9_2_0.woff2') format('woff2'), url('/fonts/3013B9_2_0.woff') format('woff');
+  src: url('/static/fonts/3013B9_2_0.woff2') format('woff2'), url('/static/fonts/3013B9_2_0.woff') format('woff');
 }
 
 @font-face {
   font-family: 'SlatePro-Light';
-  src: url('/fonts/3013B9_3_0.woff2') format('woff2'), url('/fonts/3013B9_3_0.woff') format('woff');
+  src: url('/static/fonts/3013B9_3_0.woff2') format('woff2'), url('/static/fonts/3013B9_3_0.woff') format('woff');
 }
