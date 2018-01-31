@@ -32,8 +32,9 @@
 
 /* Sans-Serif Typefaces */
 
-.slate-pro {
-  font-family: SlatePro, sans-serif;
+.slate-pro-medium {
+  font-family: SlatePro-Medium,
+  sans-serif;
 }
 
 .slate-pro-light {
