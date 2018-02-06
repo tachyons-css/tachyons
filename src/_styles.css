@@ -69,6 +69,19 @@ section>h2 {
   transition: border-width .3s;
 }
 
+/* 
+  * Sets link styles for ArticleItem
+*/
+
+.article-item-link,
+.article-item-link:link,
+.article-item-link:visited {
+  color: var(--black);
+}
+
+.article-item-link:hover {
+  color: var(--blue);
+}
 
 /* 
   * Page Structure
@@ -79,7 +92,7 @@ section>h2 {
 
 .page-wrapper {
   grid-template-columns: auto;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-row-gap: 22px;
 }
 
@@ -95,21 +108,40 @@ section>h2 {
   grid-row: 2;
 }
 
-.page-content {
+.section-welcome {
   grid-row: 3;
+}
+
+.page-content {
+  grid-row: 4;
 }
 
 @media screen and (min-width: 48em) {
   .page-wrapper {
     grid-template-columns: 5fr 3fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto 200px auto;
     grid-column-gap: 26px;
   }
+
   .page-aside-cta {
     grid-column: 2;
   }
+
   .page-content {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
   }
+
+  .section-welcome {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: start;
+  }
+
+  .section-related-articles  {
+    grid-column: 2;
+    grid-row: 3;
+    padding: 0;
+  }
+
 }
