@@ -69,6 +69,19 @@ section>h2 {
   transition: border-width .3s;
 }
 
+/* 
+  * Sets link styles for ArticleItem
+*/
+
+.article-item-link,
+.article-item-link:link,
+.article-item-link:visited {
+  color: var(--black);
+}
+
+.article-item-link:hover {
+  color: var(--blue);
+}
 
 /* 
   * Page Structure
