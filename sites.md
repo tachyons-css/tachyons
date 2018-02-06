@@ -97,3 +97,4 @@
 * https://pylon.design
 * https://lasttramfrom.com/
 * https://www.stepahead.de
+* https://cryptocurrencyjobs.co/
