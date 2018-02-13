@@ -4,9 +4,11 @@
    Docs: http://tachyons.io/docs/elements/links/
 
 */
+@import './_colors.css';
 
 a {
   text-decoration: none;
+  color: var(--blue);;
 }
 
 .link {

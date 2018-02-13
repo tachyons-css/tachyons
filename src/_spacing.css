@@ -5,10 +5,10 @@
   --spacing-extra-small: .25rem;
   --spacing-small: .5rem;
   --spacing-medium: 1rem;
-  --spacing-large: 2rem;
-  --spacing-extra-large: 4rem;
-  --spacing-extra-extra-large: 8rem;
-  --spacing-extra-extra-extra-large: 16rem;
+  --spacing-large: 1.5rem;
+  --spacing-extra-large: 2rem;
+  --spacing-extra-extra-large: 4rem;
+  --spacing-extra-extra-extra-large: 8rem;
 }
 
 /*
@@ -260,6 +260,12 @@
   margin-left: var(--spacing-medium);
   margin-right: var(--spacing-medium);
 }
+
+.mh3-reverse {
+  margin-left: -var(--spacing-medium);
+  margin-right: -var(--spacing-medium);
+}
+
 .mh4   {
   margin-left: var(--spacing-large);
   margin-right: var(--spacing-large);
@@ -486,6 +492,12 @@
     margin-left: var(--spacing-large);
     margin-right: var(--spacing-large);
   }
+
+  .mh4-ns-reverse {
+    margin-left: -var(--spacing-large);
+    margin-right: -var(--spacing-large);
+  }
+
   .mh5-ns   {
     margin-left: var(--spacing-extra-large);
     margin-right: var(--spacing-extra-large);

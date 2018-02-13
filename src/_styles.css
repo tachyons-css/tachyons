@@ -18,7 +18,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: SlatePro-Light, SlatePro, sans-serif;
+  font-family: roboto, open-sans;
   font-size: 16px;
   line-height: 1.33;
 }
@@ -28,7 +28,6 @@ h2,
 h3 {
   margin: 0 0 var(--spacing-medium) 0;
   color: var(--blue);
-  font-family: 'bree-serif', serif;
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -57,7 +56,6 @@ section>h2 {
 /* 
   * Add a triangle to the first CTA
 */
-
 .page-aside-cta:before {
   content: " ";
   border: .7rem solid transparent;

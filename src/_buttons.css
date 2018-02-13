@@ -14,7 +14,6 @@ button {
 
 button,
 .btn {
-  font-family: SlatePro, sans-serif;
   padding: var(--spacing-small) var(--spacing-medium);
   font-size: 1.125rem;
   border-radius: 0.25rem;
