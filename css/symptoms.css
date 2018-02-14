@@ -1068,10 +1068,10 @@ a { text-decoration: none; color: #00adef; }
 .f-6, .f-headline { font-size: 6rem; }
 .f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
-.f1 { font-size: 3rem; }
+.f1 { font-size: 2.25rem; }
 .f2 { font-size: 2rem; }
 .f3 { font-size: 1.75rem; }
-.f4 { font-size: 1.25rem; }
+.f4 { font-size: 1.375rem; }
 .f5 { font-size: 1.125rem; }
 /* 18px */
 .f6 { font-size: 1rem; }
@@ -1091,13 +1091,13 @@ a { text-decoration: none; color: #00adef; }
 
 */
 /* Measure is limited to ~66 characters */
-.measure { max-width: 30em; }
+.measure { max-width: 30rem; }
 /* Measure is limited to ~80 characters */
-.measure-wide { max-width: 34em; }
+.measure-wide { max-width: 34rem; }
 /* Measure is limited to ~45 characters */
-.measure-narrow { max-width: 20em; }
+.measure-narrow { max-width: 20rem; }
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
-.indent { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+.indent { text-indent: 1rem; margin-top: 0; margin-bottom: 0; }
 .small-caps { font-variant: small-caps; }
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -1206,8 +1206,8 @@ amp-img div[fallback] { display: -webkit-box; display: -ms-flexbox; display: fle
   Use .btn class on <a> or <button>.
 
 */
-button { padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
-.btn { padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
+button { font-size: .875rem; padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
+.btn { font-size: .875rem; padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
 .btn-ghost { background-color: #fff; color: #00adef; }
 /*
  
@@ -1230,18 +1230,18 @@ button { padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; 
 .grid-self-end { -ms-flex-item-align: end; -ms-grid-row-align: end; align-self: end; }
 .grid-self-center { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
 .items-left { -webkit-box-align: left; -ms-flex-align: left; align-items: left; }
-html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: roboto, sans-serif; font-size: 16px; line-height: 1.3; }
-h1 { margin: 0 0 1rem 0; color: #00adef; font-weight: 300; letter-spacing: .02rem; }
-h2 { margin: 0 0 1rem 0; color: #00adef; font-weight: 300; letter-spacing: .02rem; }
-h3 { margin: 0 0 1rem 0; color: #00adef; font-weight: 300; letter-spacing: .02rem; }
-h2 { font-size: 1.75rem; }
-h3 { font-size: 1.375rem; color: #111; }
+html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: roboto, sans-serif; font-size: 16px; line-height: 1.3; letter-spacing: .02rem; }
+h1 { color: #00adef; font-weight: 300; }
+h2 { color: #00adef; font-weight: 300; }
+h3 { color: #00adef; font-weight: 300; }
+h2 { padding-top: 2rem; padding-bottom: 1rem; font-size: 1.75rem; }
+h3 { font-size: 1.375rem; color: #111; padding-bottom: .5rem; }
 /* Body copy size (18px) */
-p, dt, dd, li { font-size: 1.125rem; font-weight: 300; letter-spacing: .02rem; }
-dt { font-weight: bold; }
-section>h1 { border-top: 1px solid #dfdfdf; padding-top: 1.5rem; }
-section>h2 { border-top: 1px solid #dfdfdf; padding-top: 1.5rem; }
-.bottom-cta { background: url( /images/CTA-bottom-fullwidth.svg ) 50% 50% no-repeat; }
+p, dt, dd, li { font-size: 1rem; font-weight: 300; }
+p { margin-bottom: 1rem; line-height: 1.4; }
+section h1 { border-top: 1px solid #dfdfdf; }
+section h2 { border-top: 1px solid #dfdfdf; }
+.bottom-cta { background: url( /images/CTA-bottom-fullwidth.svg ) 50% 50% no-repeat; background-size: cover; }
 /* 
   * Add a triangle to the first CTA
 */
@@ -1303,6 +1303,9 @@ section>h2 { border-top: 1px solid #dfdfdf; padding-top: 1.5rem; }
 /* @import './_debug-grid'; */
 /* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
+@media (min-width: 48rem) {
+ .bt-double-column { border-top-style: solid; border-top-width: 1px; }
+}
 @media screen and (min-width: 30em) {
  .ba-ns { border-style: solid; border-width: 1px; }
  .bt-ns { border-top-style: solid; border-top-width: 1px; }
@@ -1578,17 +1581,17 @@ section>h2 { border-top: 1px solid #dfdfdf; padding-top: 1.5rem; }
  .ttn-ns { text-transform: none; }
  .f-6-ns, .f-headline-ns { font-size: 6rem; }
  .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
- .f1-ns { font-size: 3rem; }
+ .f1-ns { font-size: 2.25rem; }
  .f2-ns { font-size: 2rem; }
  .f3-ns { font-size: 1.75rem; }
  .f4-ns { font-size: 1.25rem; }
  .f5-ns { font-size: 1.125rem; }
  .f6-ns { font-size: 1rem; }
  .f7-ns { font-size: .875rem; }
- .measure-ns { max-width: 30em; }
- .measure-wide-ns { max-width: 34em; }
- .measure-narrow-ns { max-width: 20em; }
- .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+ .measure-ns { max-width: 30rem; }
+ .measure-wide-ns { max-width: 34rem; }
+ .measure-narrow-ns { max-width: 20rem; }
+ .indent-ns { text-indent: 1rem; margin-top: 0; margin-bottom: 0; }
  .small-caps-ns { font-variant: small-caps; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .center-ns { margin-right: auto; margin-left: auto; }
@@ -1869,23 +1872,24 @@ section>h2 { border-top: 1px solid #dfdfdf; padding-top: 1.5rem; }
  .ttn-m { text-transform: none; }
  .f-6-m, .f-headline-m { font-size: 6rem; }
  .f-5-m, .f-subheadline-m { font-size: 5rem; }
- .f1-m { font-size: 3rem; }
+ .f1-m { font-size: 2.25rem; }
  .f2-m { font-size: 2rem; }
  .f3-m { font-size: 1.75rem; }
  .f4-m { font-size: 1.25rem; }
  .f5-m { font-size: 1.125rem; }
  .f6-m { font-size: 1rem; }
  .f7-m { font-size: .875rem; }
- .measure-m { max-width: 30em; }
- .measure-wide-m { max-width: 34em; }
- .measure-narrow-m { max-width: 20em; }
- .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+ .measure-m { max-width: 30rem; }
+ .measure-wide-m { max-width: 34rem; }
+ .measure-narrow-m { max-width: 20rem; }
+ .indent-m { text-indent: 1rem; margin-top: 0; margin-bottom: 0; }
  .small-caps-m { font-variant: small-caps; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .center-m { margin-right: auto; margin-left: auto; }
  .mr-auto-m { margin-right: auto; }
  .ml-auto-m { margin-left: auto; }
  .col2-m { -webkit-column-count: 2; column-count: 2; -webkit-column-gap: 1.5rem; column-gap: 1.5rem; -webkit-column-width: 50%; column-width: 50%; }
+ .col5-m { -webkit-column-count: 2; column-count: 2; -webkit-column-gap: 3rem; column-gap: 3rem; -webkit-column-width: 50%; column-width: 50%; }
 }
 @media screen and (min-width: 60em) {
  .ba-l { border-style: solid; border-width: 1px; }
@@ -2161,7 +2165,7 @@ section>h2 { border-top: 1px solid #dfdfdf; padding-top: 1.5rem; }
  .ttn-l { text-transform: none; }
  .f-6-l, .f-headline-l { font-size: 6rem; }
  .f-5-l, .f-subheadline-l { font-size: 5rem; }
- .f1-l { font-size: 3rem; }
+ .f1-l { font-size: 2.25rem; }
  .f2-l { font-size: 2rem; }
  .f3-l { font-size: 1.75rem; }
  .f4-l { font-size: 1.25rem; }
@@ -2178,9 +2182,10 @@ section>h2 { border-top: 1px solid #dfdfdf; padding-top: 1.5rem; }
  .mr-auto-l { margin-right: auto; }
  .ml-auto-l { margin-left: auto; }
  .col3-l { -webkit-column-count: 3; column-count: 3; -webkit-column-gap: 1.5rem; column-gap: 1.5rem; -webkit-column-width: calc( 100% / 3 ); column-width: calc( 100% / 3 ); }
+ .col5-l { -webkit-column-count: 3; column-count: 3; -webkit-column-gap: 3rem; column-gap: 3rem; -webkit-column-width: calc( 100% / 3 ); column-width: calc( 100% / 3 ); }
 }
 @media screen and (min-width: 48em) {
- .page-wrapper { -ms-grid-columns: 5fr 3fr; grid-template-columns: 5fr 3fr; grid-column-gap: 26px; }
+ .page-wrapper { -ms-grid-columns: 5fr 3fr; grid-template-columns: 5fr 3fr; grid-column-gap: 40px; }
  .page-aside-cta { -ms-grid-column: 2; grid-column: 2; }
  .page-content { -ms-grid-column: 1; grid-column: 1; -ms-grid-row: 2; grid-row: 2; }
  .section-related-articles { -ms-grid-column: 2; grid-column: 2; -ms-grid-row: 3; grid-row: 3; padding: 0; }

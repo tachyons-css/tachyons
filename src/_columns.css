@@ -11,12 +11,25 @@
     column-gap: var(--spacing-large);
     column-width: 50%;
   }
+
+  .col5-m {
+    column-count: 2;
+    column-gap: var(--spacing-extra-extra-large);
+    column-width: 50%;
+  }
+
 }
 
 @media (--breakpoint-large) {
   .col3-l {
     column-count: 3;
     column-gap: var(--spacing-large);
+    column-width: calc(100% / 3);
+  }
+
+  .col5-l {
+    column-count: 3;
+    column-gap: var(--spacing-extra-extra-large);
     column-width: calc(100% / 3);
   }
 }

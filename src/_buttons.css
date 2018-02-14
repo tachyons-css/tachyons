@@ -15,6 +15,7 @@ button {
 
 button,
 .btn {
+  font-size: 0.875rem;
   padding: var(--spacing-small) var(--spacing-medium);
   border-radius: 0.25rem;
   border: solid 1px var(--blue);
