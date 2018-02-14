@@ -18,9 +18,9 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: roboto, open-sans;
+  font-family: roboto, sans-serif;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.3;
 }
 
 h1,
@@ -28,10 +28,18 @@ h2,
 h3 {
   margin: 0 0 var(--spacing-medium) 0;
   color: var(--blue);
-  font-size: 1.5rem;
   font-weight: 300;
+  letter-spacing: 0.02rem;
 }
 
+h2{
+  font-size: 1.75rem;
+}
+
+h3{
+  font-size: 1.375rem;
+  color: var(--black);
+}
 
 /* Body copy size (18px) */
 
@@ -40,6 +48,8 @@ dt,
 dd,
 li {
   font-size: 1.125rem;
+  font-weight: 300;
+  letter-spacing: 0.02rem;
 }
 
 dt {
@@ -52,10 +62,14 @@ section>h2 {
   padding-top: var(--spacing-large);
 }
 
+.bottom-cta{
+  background: url(/images/CTA-bottom-fullwidth.svg) 50% 50% no-repeat;
+}
 
 /* 
   * Add a triangle to the first CTA
 */
+
 .page-aside-cta:before {
   content: " ";
   border: .7rem solid transparent;
@@ -91,7 +105,6 @@ section>h2 {
 .page-wrapper {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
-  grid-row-gap: 22px;
 }
 
 .page-header {
@@ -106,18 +119,14 @@ section>h2 {
   grid-row: 2;
 }
 
-.section-welcome {
+.page-content {
   grid-row: 3;
 }
 
-.page-content {
-  grid-row: 4;
-}
 
 @media screen and (min-width: 48em) {
   .page-wrapper {
     grid-template-columns: 5fr 3fr;
-    grid-template-rows: auto 200px auto;
     grid-column-gap: 26px;
   }
 
@@ -127,13 +136,7 @@ section>h2 {
 
   .page-content {
     grid-column: 1;
-    grid-row: 3;
-  }
-
-  .section-welcome {
-    grid-column: 1;
     grid-row: 2;
-    align-self: start;
   }
 
   .section-related-articles  {

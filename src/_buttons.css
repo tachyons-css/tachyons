@@ -6,6 +6,7 @@
   Use .btn class on <a> or <button>.
 
 */
+@import "_type-scale.css"
 
 button {
   -webkit-appearance: none;
@@ -15,7 +16,6 @@ button {
 button,
 .btn {
   padding: var(--spacing-small) var(--spacing-medium);
-  font-size: 1.125rem;
   border-radius: 0.25rem;
   border: solid 1px var(--blue);
   cursor: pointer;
