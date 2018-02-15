@@ -38,7 +38,7 @@ h2{
 }
 
 h3{
-  font-size: 1.375rem;
+  font-size: 1.5rem;
   color: var(--black);
   padding-bottom: var(--spacing-small);
 }
@@ -49,10 +49,10 @@ p,
 dt,
 dd,
 li {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 300;
 }
-p{margin-bottom: var(--spacing-medium); line-height: 1.4;}
+p{margin-bottom: var(--spacing-medium); line-height: 1.5;}
 section h1,
 section h2 {
   border-top: 1px solid var(--light-gray);

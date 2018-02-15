@@ -691,7 +691,7 @@ a { text-decoration: none; color: #00adef; }
 .mw4 { max-width: 8rem; }
 .mw5 { max-width: 16rem; }
 .mw6 { max-width: 32rem; }
-.mw7 { max-width: 48rem; }
+.mw7 { max-width: 44rem; }
 .mw8 { max-width: 64rem; }
 .mw9 { max-width: 96rem; }
 /* Max Width String Properties */
@@ -1206,8 +1206,8 @@ amp-img div[fallback] { display: -webkit-box; display: -ms-flexbox; display: fle
   Use .btn class on <a> or <button>.
 
 */
-button { font-size: .875rem; padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
-.btn { font-size: .875rem; padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
+button { font-size: 1rem; padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
+.btn { font-size: 1rem; padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
 .btn-ghost { background-color: #fff; color: #00adef; }
 /*
  
@@ -1235,10 +1235,10 @@ h1 { color: #00adef; font-weight: 300; }
 h2 { color: #00adef; font-weight: 300; }
 h3 { color: #00adef; font-weight: 300; }
 h2 { padding-top: 2rem; padding-bottom: 1rem; font-size: 1.75rem; }
-h3 { font-size: 1.375rem; color: #111; padding-bottom: .5rem; }
+h3 { font-size: 1.5rem; color: #111; padding-bottom: .5rem; }
 /* Body copy size (18px) */
-p, dt, dd, li { font-size: 1rem; font-weight: 300; }
-p { margin-bottom: 1rem; line-height: 1.4; }
+p, dt, dd, li { font-size: 1.125rem; font-weight: 300; }
+p { margin-bottom: 1rem; line-height: 1.5; }
 section h1 { border-top: 1px solid #dfdfdf; }
 section h2 { border-top: 1px solid #dfdfdf; }
 .bottom-cta { background: url( /images/CTA-bottom-fullwidth.svg ) 50% 50% no-repeat; background-size: cover; }
@@ -1416,7 +1416,7 @@ section h2 { border-top: 1px solid #dfdfdf; }
  .mw4-ns { max-width: 8rem; }
  .mw5-ns { max-width: 16rem; }
  .mw6-ns { max-width: 32rem; }
- .mw7-ns { max-width: 48rem; }
+ .mw7-ns { max-width: 44rem; }
  .mw8-ns { max-width: 64rem; }
  .mw9-ns { max-width: 96rem; }
  .mw-none-ns { max-width: none; }
@@ -1708,7 +1708,7 @@ section h2 { border-top: 1px solid #dfdfdf; }
  .mw4-m { max-width: 8rem; }
  .mw5-m { max-width: 16rem; }
  .mw6-m { max-width: 32rem; }
- .mw7-m { max-width: 48rem; }
+ .mw7-m { max-width: 44rem; }
  .mw8-m { max-width: 64rem; }
  .mw9-m { max-width: 96rem; }
  .mw-none-m { max-width: none; }
@@ -2001,7 +2001,7 @@ section h2 { border-top: 1px solid #dfdfdf; }
  .mw4-l { max-width: 8rem; }
  .mw5-l { max-width: 16rem; }
  .mw6-l { max-width: 32rem; }
- .mw7-l { max-width: 48rem; }
+ .mw7-l { max-width: 44rem; }
  .mw8-l { max-width: 64rem; }
  .mw9-l { max-width: 96rem; }
  .mw-none-l { max-width: none; }
