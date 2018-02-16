@@ -28,12 +28,6 @@
   .bl { border-left-style: solid; border-left-width: 1px; }
   .bn { border-style: none; border-width: 0; }
 
-  @media (min-width: 48rem) {
-    .bt-double-column {
-      border-top-style: solid; border-top-width: 1px; 
-    }
-  }
-
 
 @media (--breakpoint-not-small) {
   .ba-ns { border-style: solid; border-width: 1px; }
@@ -51,6 +45,10 @@
   .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
   .bl-m { border-left-style: solid; border-left-width: 1px; }
   .bn-m { border-style: none; border-width: 0; }
+}
+
+@media (--breakpoint-not-medium) {
+  .bt-nm { border-top-style: solid; border-top-width: 1px; }
 }
 
 @media (--breakpoint-large) {

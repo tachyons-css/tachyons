@@ -121,7 +121,7 @@ section h2 {
 }
 
 
-@media screen and (min-width: 48em) {
+@media (--breakpoint-not-medium) {
   .page-wrapper {
     grid-template-columns: 5fr 3fr;
     grid-column-gap: 40px;
