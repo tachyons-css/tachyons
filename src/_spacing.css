@@ -493,7 +493,7 @@
     margin-right: var(--spacing-large);
   }
 
-  .mh4-ns-reverse {
+  .mh4-reverse-ns {
     margin-left: -var(--spacing-large);
     margin-right: -var(--spacing-large);
   }

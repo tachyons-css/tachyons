@@ -1173,6 +1173,7 @@ amp-img div[fallback] { display: -webkit-box; display: -ms-flexbox; display: fle
   Use .btn class on <a> or <button>.
 
 */
+button { -webkit-appearance: none; -moz-appearance: none; }
 button { font-size: 1rem; padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
 .btn { font-size: 1rem; padding: .5rem 1rem; border-radius: .25rem; border: solid 1px #00adef; cursor: pointer; color: #fff; background-color: #00adef; display: inline-block; text-align: center; }
 .btn-ghost { background-color: #fff; color: #00adef; }
@@ -1501,7 +1502,7 @@ section h2 { border-top: 1px solid #dfdfdf; }
  .mh2-ns { margin-left: .5rem; margin-right: .5rem; }
  .mh3-ns { margin-left: 1rem; margin-right: 1rem; }
  .mh4-ns { margin-left: 1.5rem; margin-right: 1.5rem; }
- .mh4-ns-reverse { margin-left: -1.5rem; margin-right: -1.5rem; }
+ .mh4-reverse-ns { margin-left: -1.5rem; margin-right: -1.5rem; }
  .mh5-ns { margin-left: 2rem; margin-right: 2rem; }
  .mh6-ns { margin-left: 3rem; margin-right: 3rem; }
  .mh7-ns { margin-left: 8rem; margin-right: 8rem; }
@@ -1795,8 +1796,7 @@ section h2 { border-top: 1px solid #dfdfdf; }
  .center-m { margin-right: auto; margin-left: auto; }
  .mr-auto-m { margin-right: auto; }
  .ml-auto-m { margin-left: auto; }
- .col2-m { -webkit-column-count: 2; column-count: 2; -webkit-column-gap: 1.5rem; column-gap: 1.5rem; -webkit-column-width: 50%; column-width: 50%; }
- .col5-m { -webkit-column-count: 2; column-count: 2; -webkit-column-gap: 3rem; column-gap: 3rem; -webkit-column-width: 50%; column-width: 50%; }
+ .col2-m { -webkit-column-count: 2; column-count: 2; -webkit-column-gap: 3rem; column-gap: 3rem; -webkit-column-width: 50%; column-width: 50%; }
 }
 @media screen and (min-width: 60em) {
  .ba-l { border-style: solid; border-width: 1px; }
@@ -2058,8 +2058,7 @@ section h2 { border-top: 1px solid #dfdfdf; }
  .center-l { margin-right: auto; margin-left: auto; }
  .mr-auto-l { margin-right: auto; }
  .ml-auto-l { margin-left: auto; }
- .col3-l { -webkit-column-count: 3; column-count: 3; -webkit-column-gap: 1.5rem; column-gap: 1.5rem; -webkit-column-width: calc( 100% / 3 ); column-width: calc( 100% / 3 ); }
- .col5-l { -webkit-column-count: 3; column-count: 3; -webkit-column-gap: 3rem; column-gap: 3rem; -webkit-column-width: calc( 100% / 3 ); column-width: calc( 100% / 3 ); }
+ .col3-l { -webkit-column-count: 3; column-count: 3; -webkit-column-gap: 3rem; column-gap: 3rem; -webkit-column-width: calc( 100% / 3 ); column-width: calc( 100% / 3 ); }
 }
 @media screen and (min-width: 48em) {
  .page-wrapper { -ms-grid-columns: 5fr 3fr; grid-template-columns: 5fr 3fr; grid-column-gap: 40px; }

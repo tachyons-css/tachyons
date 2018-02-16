@@ -6,8 +6,6 @@
   Use .btn class on <a> or <button>.
 
 */
-@import "_type-scale.css"
-
 button {
   -webkit-appearance: none;
   -moz-appearance: none;
