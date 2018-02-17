@@ -82,12 +82,18 @@ If you want to check that a class hasn't been redefined or 'mutated' there is a 
 ```npm run mutations```
 
 ## Docs
+
 The tachyons docs located at http://tachyons.io are all open source and located at https://github.com/tachyons-css/tachyons-css.github.io
 
 You can clone the docs and use them as a template for documenting your own design system / patterns / components.
 While not everything is automated, the component library generation makes it extremely easy to
 generate and organize the documentation for components as demonstrated at http://tachyons.io/components
 
+### Community Resources
+
+- [DWYL Learn Tachyons](https://github.com/dwyl/learn-tachyons): Learn how to use Tachyons to craft beautiful, responsive, functional and fast UI with minimal CSS
+- [Tachyons TLDR](https://tachyons-tldr.now.sh/#/classes): Quick lookup for Tachyons classes, scales and color palette
+- [Tachyons Pro](https://tachyons.pro/): Fun quiz for memorizing class names
 
 ## Contributing
 
