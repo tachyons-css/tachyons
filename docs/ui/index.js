@@ -32,16 +32,27 @@ export const TitleLink = ({ href = '#!', subtext, text, ...props }) => (
   </Link>
 )
 
+export const BigQuote = ({ quote, author, work }) => (
+  <blockquote className="f5 f4-m f2-l black-70 lh-copy mh0 pv4 ph3 bt bb bw1 b--black-05 mv4 mv5-ns db">
+    <p className="baskerville fw1 measure center">“{quote}”</p>
+    <p className="dark-gray f5 f4-m f2-l center measure">
+      <span className="f6">
+        —{author}, <cite>{work}</cite>
+      </span>
+    </p>
+  </blockquote>
+)
+
 export const md = {
-  h1: props => <h1 className='f6 ttu tracked mt0' {...props} />,
-  h2: props => <h2 className='f5 mt4 pb2 bb' {...props} />,
-  h3: props => <h3 className='f5 mt4' {...props} />,
-  p: props => <p className='measure f5 lh-copy' {...props} />,
-  ul: props => <ul className='pl3' {...props} />,
-  li: props => <li className='lh-copy ml2' {...props} />,
+  h1: props => <h1 className="f6 ttu tracked mt0" {...props} />,
+  h2: props => <h2 className="f5 mt4 pb2 bb" {...props} />,
+  h3: props => <h3 className="f5 mt4" {...props} />,
+  p: props => <p className="measure f5 lh-copy" {...props} />,
+  ul: props => <ul className="pl3" {...props} />,
+  li: props => <li className="lh-copy ml2" {...props} />,
   a: ({ href, ...props }) => (
     <Link href={href}>
-      <a className='dim link blue' {...props} />
+      <a className="dim link blue" {...props} />
     </Link>
   ),
   code: Editor

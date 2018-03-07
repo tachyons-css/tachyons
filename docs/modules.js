@@ -4,8 +4,7 @@ const { readFileSync, writeFileSync } = require('fs')
 
 const { dependencies } = require('./package.json')
 
-const px = Object
-  .keys(dependencies)
+const px = Object.keys(dependencies)
   .filter(m => /^tachyons-/.test(m))
   .filter(m => !/^tachyons-(colors|generator|styles)/.test(m))
   .map(async m => {
@@ -36,10 +35,11 @@ const px = Object
     }
   })
 
-Promise
-  .all(px)
-  .then(modules => {
-    const reduced = modules.reduce((acc, m) => Object.assign(acc, { [m.name]: m }), {})
+Promise.all(px).then(modules => {
+  const reduced = modules.reduce(
+    (acc, m) => Object.assign(acc, { [m.name]: m }),
+    {}
+  )
 
-    writeFileSync('data.json', JSON.stringify({ modules: reduced }, null, 2))
-  })
+  writeFileSync('data.json', JSON.stringify({ modules: reduced }, null, 2))
+})

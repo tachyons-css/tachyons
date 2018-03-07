@@ -5,14 +5,14 @@ import he from 'he'
 const isDotHTML = (cx = '') => /language-\.html/.test(cx)
 
 class Editor extends Component {
-	constructor (props) {
-		super()
+  constructor(props) {
+    super()
 
-		this.state = {
+    this.state = {
       shouldLiveEdit: isDotHTML(props.className),
-			html: props.children[0] || ''
-		}
-	}
+      html: props.children[0] || ''
+    }
+  }
 
   handleChange = e => {
     this.setState({
@@ -20,28 +20,28 @@ class Editor extends Component {
     })
   }
 
-	render () {
-		if (!this.state.shouldLiveEdit) {
-			return <code {...this.props} />
-		}
+  render() {
+    if (!this.state.shouldLiveEdit) {
+      return <code {...this.props} />
+    }
 
-		return (
-			<div>
+    return (
+      <div>
         <textarea
           rows={1}
-          className='w-100 bn code black-70 ph0 mb2 input-reset'
+          className="w-100 bn code black-70 ph0 mb2 input-reset"
           value={this.state.html}
           onChange={this.handleChange}
         />
-				<div
-					className='sans-serif'
+        <div
+          className="sans-serif ws-normal"
           dangerouslySetInnerHTML={{
             __html: he.decode(this.state.html)
           }}
         />
-			</div>
-		)
-	}
+      </div>
+    )
+  }
 }
 
 export default Editor
