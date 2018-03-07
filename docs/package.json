@@ -1,0 +1,110 @@
+{
+  "private": true,
+  "name": "tachyons-docs",
+  "version": "5.0.0-1",
+  "description": "Documentation for Tachyons -- a performant, mobile-first, and 100% responsive modular css framework.",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "lint": "prettier *.js ui/*.js pages/*.js --write --no-semi --single-quote"
+  },
+  "repository": "tachyons-css/docs",
+  "author": "mrmrs",
+  "license": "MIT",
+  "dependencies": {
+    "@compositor/markdown": "^0.1.1",
+    "classnames": "^2.2.5",
+    "next": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "tachyons": "^4.9.1",
+    "tachyons-aspect-ratios": "^1.0.1",
+    "tachyons-background-position": "^1.0.3",
+    "tachyons-background-size": "^5.0.5",
+    "tachyons-border-colors": "^4.2.3",
+    "tachyons-border-radius": "^5.1.3",
+    "tachyons-border-style": "^4.0.4",
+    "tachyons-border-widths": "^3.0.4",
+    "tachyons-borders": "^3.0.4",
+    "tachyons-box-shadow": "^2.0.4",
+    "tachyons-box-sizing": "^3.2.2",
+    "tachyons-clears": "^3.0.4",
+    "tachyons-colors": "^5.3.3",
+    "tachyons-coordinates": "^4.0.4",
+    "tachyons-debug": "^1.1.10",
+    "tachyons-debug-children": "^1.0.0",
+    "tachyons-debug-grid": "^1.2.3",
+    "tachyons-display": "^5.0.4",
+    "tachyons-flexbox": "^2.1.0",
+    "tachyons-floats": "^3.0.4",
+    "tachyons-font-family": "^4.3.3",
+    "tachyons-font-style": "^4.0.4",
+    "tachyons-font-weight": "^5.0.4",
+    "tachyons-forms": "^3.1.3",
+    "tachyons-generator": "^0.21.0",
+    "tachyons-heights": "^6.1.3",
+    "tachyons-hovers": "^2.5.1",
+    "tachyons-images": "^1.0.11",
+    "tachyons-letter-spacing": "^3.0.4",
+    "tachyons-line-height": "^3.0.6",
+    "tachyons-links": "^3.0.10",
+    "tachyons-lists": "^2.0.12",
+    "tachyons-max-widths": "^4.0.5",
+    "tachyons-negative-margins": "^1.0.0",
+    "tachyons-opacity": "^1.1.10",
+    "tachyons-outlines": "^1.0.3",
+    "tachyons-overflow": "^4.0.5",
+    "tachyons-position": "^6.0.6",
+    "tachyons-rotations": "^1.0.4",
+    "tachyons-skins": "^4.1.0",
+    "tachyons-skins-pseudo": "^1.0.4",
+    "tachyons-spacing": "^6.0.4",
+    "tachyons-styles": "^0.3.4",
+    "tachyons-tables": "^1.0.7",
+    "tachyons-text-align": "^3.1.0",
+    "tachyons-text-decoration": "^4.0.5",
+    "tachyons-text-transform": "^4.0.5",
+    "tachyons-type-scale": "^6.1.0",
+    "tachyons-typography": "^3.0.5",
+    "tachyons-utilities": "^2.0.1",
+    "tachyons-vertical-align": "^4.0.5",
+    "tachyons-visibility": "^2.0.5",
+    "tachyons-white-space": "^4.0.6",
+    "tachyons-widths": "^5.2.1",
+    "tachyons-word-break": "^3.0.4",
+    "tachyons-z-index": "^1.0.9"
+  },
+  "contributors": [
+    {
+      "name": "adam morse",
+      "email": "hi@mrmrs.cc"
+    },
+    {
+      "name": "john otander",
+      "url": "http://johnotander.com"
+    },
+    {
+      "name": "robert forloine",
+      "url": "http://www.sndsgn.com"
+    },
+    {
+      "name": "david potsiadlo",
+      "url": "http://www.davidpots.com/"
+    },
+    {
+      "name": "tyler benziger",
+      "url": "http://tybenz.com"
+    },
+    {
+      "name": "lachlan campbell",
+      "url": "http://lachlanjc.me",
+      "email": "lachlan.campbell@icloud.com"
+    }
+  ],
+  "devDependencies": {
+    "@compositor/markdown-loader": "0.1.0",
+    "prettier": "^1.11.1",
+    "webpack": "^4.1.1"
+  }
+}
