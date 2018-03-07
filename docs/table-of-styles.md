@@ -483,43 +483,21 @@ img | max-width: 100% | images
 .fl-l | float: left;<br />display: inline | floats
 .fr-l | float: right;<br />display: inline | floats
 .fn-l | float: none | floats
-.sans-serif | font-family: -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif | font-family
-.serif | font-family: georgia,
-               times,
-               serif | font-family
+.sans-serif | font-family: -apple-system, BlinkMacSystemFont,<br />               'avenir next', avenir,<br />               'helvetica neue', helvetica,<br />               ubuntu,<br />               roboto, noto,<br />               'segoe ui', arial,<br />               sans-serif | font-family
+.serif | font-family: georgia,<br />               times,<br />               serif | font-family
 .system-sans-serif | font-family: sans-serif | font-family
 .system-serif | font-family: serif | font-family
-code, .code | font-family: Consolas,
-               monaco,
-               monospace | font-family
-.courier | font-family: 'Courier Next',
-               courier,
-               monospace | font-family
-.helvetica | font-family: 'helvetica neue', helvetica,
-               sans-serif | font-family
-.avenir | font-family: 'avenir next', avenir,
-               sans-serif | font-family
-.athelas | font-family: athelas,
-               georgia,
-               serif | font-family
-.georgia | font-family: georgia,
-               serif | font-family
-.times | font-family: times,
-               serif | font-family
-.bodoni | font-family: "Bodoni MT",
-                serif | font-family
-.calisto | font-family: "Calisto MT",
-                serif | font-family
-.garamond | font-family: garamond,
-               serif | font-family
-.baskerville | font-family: baskerville,
-               serif | font-family
+code, .code | font-family: Consolas,<br />               monaco,<br />               monospace | font-family
+.courier | font-family: 'Courier Next',<br />               courier,<br />               monospace | font-family
+.helvetica | font-family: 'helvetica neue', helvetica,<br />               sans-serif | font-family
+.avenir | font-family: 'avenir next', avenir,<br />               sans-serif | font-family
+.athelas | font-family: athelas,<br />               georgia,<br />               serif | font-family
+.georgia | font-family: georgia,<br />               serif | font-family
+.times | font-family: times,<br />               serif | font-family
+.bodoni | font-family: "Bodoni MT",<br />                serif | font-family
+.calisto | font-family: "Calisto MT",<br />                serif | font-family
+.garamond | font-family: garamond,<br />               serif | font-family
+.baskerville | font-family: baskerville,<br />               serif | font-family
 .i | font-style: italic | font-style
 .fs-normal | font-style: normal | font-style
 .i-m | font-style: italic | font-style
