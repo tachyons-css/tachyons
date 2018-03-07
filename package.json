@@ -2,9 +2,8 @@
   "name": "tachyons",
   "version": "4.9.1",
   "description": "Functional CSS for humans",
-  "author": "mrmrs",
-  "style": "css/tachyons.min.css",
-  "main": "css/tachyons.css",
+  "author": "Adam Morse",
+  "main": "src/tachyons.css",
   "files": [
     "css",
     "src"
@@ -20,22 +19,18 @@
     "performance"
   ],
   "devDependencies": {
-    "globby": "^6.1.0",
+    "globby": "^8.0.1",
     "immutable-css-cli": "^1.1.1",
-    "lerna": "^2.4.0",
+    "lerna": "^2.9.0",
     "strip-css-comments": "^3.0.0",
-    "tachyons-cli": "^1.1.0",
+    "tachyons-cli": "^1.3.0",
     "watch": "^1.0.2"
   },
   "license": "MIT",
   "contributors": [
     {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
+      "name": "John Otander",
+      "url": "https://twitter.com/4lpine"
     }
   ],
   "scripts": {
