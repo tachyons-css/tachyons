@@ -69,3 +69,7 @@ Tachyons has some basic utilities for styling tables that are easy to customize 
   </tbody>
 </table>
 ```
+
+## Reference
+
+- [MDN - Table](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)

@@ -13,7 +13,7 @@ Tachyons has some basic form control resets to remove default styles for mobile 
 </form>
 ```
 
-## References
+## Reference
 
 - [MDN - Css Hover](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Ahover)
 - [MDN - Css Focus](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Afocus)

@@ -23,7 +23,7 @@ The image below is 720 pixels wide, it will fill its container until the contain
 <img src="http://tachyons.io/img/under-canvas.jpg" class="mw-100" alt="night sky over water">
 ```
 
-## References
+## Reference
 
 - [MDN - HTML Images](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 - [MDN - Css Images](https://developer.mozilla.org/en-US/docs/Web/CSS/image)
