@@ -1,4 +1,4 @@
 node_modules
-npm-debug.log
 .DS_STORE
 *.swp
+.next
