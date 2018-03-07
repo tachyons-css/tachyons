@@ -7,7 +7,7 @@ const options = {
   from: srcFile
 }
 
-const writeTables = async () => {
+const writeTable = async () => {
   const data = await cssTable(css, options)
 
   const selectors = data.map(d => {
@@ -17,12 +17,10 @@ const writeTables = async () => {
       return
     }
 
-    console.log(moduleName)
-
     return [
-      d.selector,
-      d.declarations.join('<br />'),
-      moduleName
+      d.selector.replace(/\n/g, '<br />'),
+      d.declarations.join(';<br />'),
+      `${moduleName}`
     ].join(' | ')
   })
 
@@ -33,7 +31,7 @@ Here is a list of each class in Tachyons along with corresponding styles.
 
 Selectors | Declarations | Module
 --------- | ------------ | ------
-${selectors.filter(Boolean)}`)
+${selectors.filter(Boolean).join('\n')}`)
 }
 
-writeTables()
+writeTable()
