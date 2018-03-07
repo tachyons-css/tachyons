@@ -15,8 +15,11 @@
   "dependencies": {
     "@compositor/markdown": "^0.1.1",
     "classnames": "^2.2.5",
+    "he": "^1.1.1",
+    "htmltojsx": "^0.3.0",
     "next": "^5.0.0",
     "react": "^16.2.0",
+    "react-contenteditable": "^2.0.7",
     "react-dom": "^16.2.0",
     "tachyons": "^4.9.1",
     "tachyons-aspect-ratios": "^1.0.1",

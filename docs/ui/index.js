@@ -2,9 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 
 import Container from './Container'
+import Editor from './Editor'
 import Flex from './Flex'
 
-export { Container, Flex }
+export { Container, Flex, Editor }
 
 export const NavLink = ({ href = '#!', m = 'l', ...props }) => (
   <Link href={href}>
@@ -42,5 +43,6 @@ export const md = {
     <Link href={href}>
       <a className='dim link blue' {...props} />
     </Link>
-  )
+  ),
+  code: Editor
 }
