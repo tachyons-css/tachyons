@@ -13,27 +13,23 @@
 */
 
 .static { position: static; }
-.relative  { position: relative; }
-.absolute  { position: absolute; }
-.fixed  { position: fixed; }
-
-@media (--breakpoint-not-small) {
-  .static-ns { position: static; }
-  .relative-ns  { position: relative; }
-  .absolute-ns  { position: absolute; }
-  .fixed-ns  { position: fixed; }
-}
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.sticky { position: sticky; }
 
 @media (--breakpoint-medium) {
   .static-m { position: static; }
-  .relative-m  { position: relative; }
-  .absolute-m  { position: absolute; }
-  .fixed-m  { position: fixed; }
+  .relative-m { position: relative; }
+  .absolute-m { position: absolute; }
+  .fixed-m { position: fixed; }
+  .sticky-m { position: sticky; }
 }
 
 @media (--breakpoint-large) {
   .static-l { position: static; }
-  .relative-l  { position: relative; }
-  .absolute-l  { position: absolute; }
-  .fixed-l  { position: fixed; }
+  .relative-l { position: relative; }
+  .absolute-l { position: absolute; }
+  .fixed-l { position: fixed; }
+  .sticky-l { position: sticky; }
 }

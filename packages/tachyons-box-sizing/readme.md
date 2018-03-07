@@ -8,7 +8,7 @@ to improve performance.
 
 ### Stats
 
-292 | 39 | 1
+319 | 44 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -59,7 +59,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -85,9 +85,10 @@ Running `$ npm start` will process the source css and place the built css in the
   Box sizing doesn't use the `*` selector in order
   to improve performance.
 */
-html, body, div, article, section, main, footer, header, form, fieldset, legend,
-pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, textarea, table,
-td, th, tr, input[type="email"], input[type="number"], input[type="password"],
+html, body, div, article, aside, section, main, nav, footer, header, form,
+fieldset, legend, pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt,
+dd, blockquote, figcaption, figure, textarea, table, td, th, tr,
+input[type="email"], input[type="number"], input[type="password"],
 input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 ```
 

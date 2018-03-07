@@ -26,5 +26,5 @@
 
   - `-m` = medium
   - `-l` = large
-*/.fl{float:left}.fl,.fr{_display:inline}.fr{float:right}.fn{float:none}@media screen and (min-width:30em){.fl-m{float:left}.fl-m,.fr-m{display:inline}.fr-m{float:right}.fn-m{float:none}}@media screen and (min-width:60em){.fl-l{float:left}.fl-l,.fr-l{display:inline}.fr-l{float:right}.fn-l{float:none}}
+*/.fl{float:left}.fl,.fr{_display:inline}.fr{float:right}.fn{float:none}@media screen and (min-width:30em){.fl-m{float:left}.fl-m,.fr-m{_display:inline}.fr-m{float:right}.fn-m{float:none}}@media screen and (min-width:60em){.fl-l{float:left}.fl-l,.fr-l{_display:inline}.fr-l{float:right}.fn-l{float:none}}
 

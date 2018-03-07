@@ -1,10 +1,10 @@
-# tachyons 4.9.0
+# tachyons 5.0.0-1
 
 Functional CSS for humans
 
 ### Stats
 
-263 | 12 | 12
+294 | 15 | 18
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -91,17 +91,20 @@ Running `$ npm start` will process the source css and place the built css in the
 .relative { position: relative; }
 .absolute { position: absolute; }
 .fixed { position: fixed; }
+.sticky { position: -webkit-sticky; position: sticky; }
 @media screen and (min-width: 30em) {
  .static-m { position: static; }
  .relative-m { position: relative; }
  .absolute-m { position: absolute; }
  .fixed-m { position: fixed; }
+ .sticky-m { position: -webkit-sticky; position: sticky; }
 }
 @media screen and (min-width: 60em) {
  .static-l { position: static; }
  .relative-l { position: relative; }
  .absolute-l { position: absolute; }
  .fixed-l { position: fixed; }
+ .sticky-l { position: -webkit-sticky; position: sticky; }
 }
 ```
 

@@ -31,13 +31,13 @@
 .fr { float: right; _display: inline; }
 .fn { float: none; }
 @media screen and (min-width: 30em) {
- .fl-m { float: left; display: inline; }
- .fr-m { float: right; display: inline; }
+ .fl-m { float: left; _display: inline; }
+ .fr-m { float: right; _display: inline; }
  .fn-m { float: none; }
 }
 @media screen and (min-width: 60em) {
- .fl-l { float: left; display: inline; }
- .fr-l { float: right; display: inline; }
+ .fl-l { float: left; _display: inline; }
+ .fr-l { float: right; _display: inline; }
  .fn-l { float: none; }
 }
 
