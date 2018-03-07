@@ -13,7 +13,7 @@ const writeTable = async () => {
   const selectors = data.map(d => {
     const moduleName = d.moduleName.split('/_')[1].replace('.css', '')
 
-    if (moduleName === 'normalize') {
+    if (moduleName === 'normalize' || moduleName === 'debug-grid') {
       return
     }
 
