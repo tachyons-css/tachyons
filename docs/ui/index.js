@@ -30,3 +30,17 @@ export const TitleLink = ({ href = '#!', subtext, text, ...props }) => (
     </a>
   </Link>
 )
+
+export const md = {
+  h1: props => <h1 className='f6 ttu tracked mt0' {...props} />,
+  h2: props => <h2 className='f5 mt4 pb2 bb' {...props} />,
+  h3: props => <h3 className='f5 mt4' {...props} />,
+  p: props => <p className='measure f5 lh-copy' {...props} />,
+  ul: props => <ul className='pl3' {...props} />,
+  li: props => <li className='lh-copy ml2' {...props} />,
+  a: ({ href, ...props }) => (
+    <Link href={href}>
+      <a className='dim link blue' {...props} />
+    </Link>
+  )
+}

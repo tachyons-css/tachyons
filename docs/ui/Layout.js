@@ -4,7 +4,7 @@ import { version } from '../package.json'
 import Header from './Header'
 import Footer from './Footer'
 
-export default ({ title = 'TACHYONS - Css Toolkit', children }) => (
+export default ({ title = 'TACHYONS - Css Toolkit', className = '', children }) => (
   <div className="w-100 sans-serif">
     <title>{title}</title>
     <link
@@ -13,6 +13,9 @@ export default ({ title = 'TACHYONS - Css Toolkit', children }) => (
     />
 
     <Header version={version} />
-    <main>{children}</main>
+    <main
+      className={className}
+      children={children}
+    />
   </div>
 )
