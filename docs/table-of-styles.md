@@ -4,10 +4,8 @@ Here is a list of each class in Tachyons along with corresponding styles.
 
 Selectors | Declarations | Module
 --------- | ------------ | ------
-html,<br />body,<br />div,<br />article,<br />aside,<br />section,<br />main,<br />nav,<br />footer,<br />header,<br />form,<br />fieldset,<br />legend,<br />pre,<br />code,<br />a,<br />h1,h2,h3,h4,h5,h6,<br />p,<br />ul,<br />ol,<br />li,<br />dl,<br />dt,<br />dd,<br />blockquote,<br />figcaption,<br />figure,<br />textarea,<br />table,<br />td,<br />th,<br />tr,<br />input[type="email"],<br />input[type="number"],<br />input[type="password"],<br />input[type="tel"],<br />input[type="text"],<br />input[type="url"],<br />.border-box | box-sizing: border-box | box-sizing
-.aspect-ratio | height: 0;<br />position: relative | aspect-ratios
-.aspect-ratio--16x9 | padding-bottom: 56.25% | aspect-ratios
-.aspect-ratio--9x16 | padding-bottom: 177.77% | aspect-ratios
+.aspect-ratio--8x5-m | padding-bottom: 62.5% | aspect-ratios
+.aspect-ratio--3x4-l | padding-bottom: 133.33% | aspect-ratios
 .aspect-ratio--4x3 | padding-bottom: 75% | aspect-ratios
 .aspect-ratio--3x4 | padding-bottom: 133.33% | aspect-ratios
 .aspect-ratio--6x4 | padding-bottom: 66.6% | aspect-ratios
@@ -25,7 +23,7 @@ html,<br />body,<br />div,<br />article,<br />aside,<br />section,<br />main,<br
 .aspect-ratio--3x4-m | padding-bottom: 133.33% | aspect-ratios
 .aspect-ratio--6x4-m | padding-bottom: 66.6% | aspect-ratios
 .aspect-ratio--4x6-m | padding-bottom: 150% | aspect-ratios
-.aspect-ratio--8x5-m | padding-bottom: 62.5% | aspect-ratios
+.aspect-ratio--9x16 | padding-bottom: 177.77% | aspect-ratios
 .aspect-ratio--5x8-m | padding-bottom: 160% | aspect-ratios
 .aspect-ratio--7x5-m | padding-bottom: 71.42% | aspect-ratios
 .aspect-ratio--5x7-m | padding-bottom: 140% | aspect-ratios
@@ -35,7 +33,7 @@ html,<br />body,<br />div,<br />article,<br />aside,<br />section,<br />main,<br
 .aspect-ratio--16x9-l | padding-bottom: 56.25% | aspect-ratios
 .aspect-ratio--9x16-l | padding-bottom: 177.77% | aspect-ratios
 .aspect-ratio--4x3-l | padding-bottom: 75% | aspect-ratios
-.aspect-ratio--3x4-l | padding-bottom: 133.33% | aspect-ratios
+.aspect-ratio--16x9 | padding-bottom: 56.25% | aspect-ratios
 .aspect-ratio--6x4-l | padding-bottom: 66.6% | aspect-ratios
 .aspect-ratio--4x6-l | padding-bottom: 150% | aspect-ratios
 .aspect-ratio--8x5-l | padding-bottom: 62.5% | aspect-ratios
@@ -44,13 +42,13 @@ html,<br />body,<br />div,<br />article,<br />aside,<br />section,<br />main,<br
 .aspect-ratio--5x7-l | padding-bottom: 140% | aspect-ratios
 .aspect-ratio--1x1-l | padding-bottom: 100% | aspect-ratios
 .aspect-ratio--object-l | position: absolute;<br />top: 0;<br />right: 0;<br />bottom: 0;<br />left: 0;<br />width: 100%;<br />height: 100%;<br />z-index: 100 | aspect-ratios
-img | max-width: 100% | images
-.cover | background-size: cover | background-size
-.contain | background-size: contain | background-size
-.cover-m | background-size: cover | background-size
-.contain-m | background-size: contain | background-size
-.cover-l | background-size: cover | background-size
-.contain-l | background-size: contain | background-size
+.aspect-ratio | height: 0;<br />position: relative | aspect-ratios
+.bg-bottom-l | background-repeat: no-repeat;<br />background-position: bottom center | background-position
+.bg-right-l | background-repeat: no-repeat;<br />background-position: center right | background-position
+.bg-top-l | background-repeat: no-repeat;<br />background-position: top center | background-position
+.bg-center-l | background-repeat: no-repeat;<br />background-position: center center | background-position
+.bg-left-l | background-repeat: no-repeat;<br />background-position: center left | background-position
+.bg-left-m | background-repeat: no-repeat;<br />background-position: center left | background-position
 .bg-center | background-repeat: no-repeat;<br />background-position: center center | background-position
 .bg-top | background-repeat: no-repeat;<br />background-position: top center | background-position
 .bg-right | background-repeat: no-repeat;<br />background-position: center right | background-position
@@ -60,39 +58,13 @@ img | max-width: 100% | images
 .bg-top-m | background-repeat: no-repeat;<br />background-position: top center | background-position
 .bg-right-m | background-repeat: no-repeat;<br />background-position: center right | background-position
 .bg-bottom-m | background-repeat: no-repeat;<br />background-position: bottom center | background-position
-.bg-left-m | background-repeat: no-repeat;<br />background-position: center left | background-position
-.bg-center-l | background-repeat: no-repeat;<br />background-position: center center | background-position
-.bg-top-l | background-repeat: no-repeat;<br />background-position: top center | background-position
-.bg-right-l | background-repeat: no-repeat;<br />background-position: center right | background-position
-.bg-bottom-l | background-repeat: no-repeat;<br />background-position: bottom center | background-position
-.bg-left-l | background-repeat: no-repeat;<br />background-position: center left | background-position
-.outline | outline: 1px solid | outlines
-.outline-transparent | outline: 1px solid transparent | outlines
-.outline-0 | outline: 0 | outlines
-.outline-m | outline: 1px solid | outlines
-.outline-transparent-m | outline: 1px solid transparent | outlines
-.outline-0-m | outline: 0 | outlines
-.outline-l | outline: 1px solid | outlines
-.outline-transparent-l | outline: 1px solid transparent | outlines
-.outline-0-l | outline: 0 | outlines
-.ba | border-style: solid;<br />border-width: 1px | borders
-.bt | border-top-style: solid;<br />border-top-width: 1px | borders
-.br | border-right-style: solid;<br />border-right-width: 1px | borders
-.bb | border-bottom-style: solid;<br />border-bottom-width: 1px | borders
-.bl | border-left-style: solid;<br />border-left-width: 1px | borders
-.bn | border-style: none;<br />border-width: 0 | borders
-.ba-m | border-style: solid;<br />border-width: 1px | borders
-.bt-m | border-top-style: solid;<br />border-top-width: 1px | borders
-.br-m | border-right-style: solid;<br />border-right-width: 1px | borders
-.bb-m | border-bottom-style: solid;<br />border-bottom-width: 1px | borders
-.bl-m | border-left-style: solid;<br />border-left-width: 1px | borders
-.bn-m | border-style: none;<br />border-width: 0 | borders
-.ba-l | border-style: solid;<br />border-width: 1px | borders
-.bt-l | border-top-style: solid;<br />border-top-width: 1px | borders
-.br-l | border-right-style: solid;<br />border-right-width: 1px | borders
-.bb-l | border-bottom-style: solid;<br />border-bottom-width: 1px | borders
-.bl-l | border-left-style: solid;<br />border-left-width: 1px | borders
-.bn-l | border-style: none;<br />border-width: 0 | borders
+.contain-l | background-size: contain | background-size
+.contain-m | background-size: contain | background-size
+.cover-m | background-size: cover | background-size
+.contain | background-size: contain | background-size
+.cover | background-size: cover | background-size
+.cover-l | background-size: cover | background-size
+.b--black-05 | border-color: var(--black-05) | border-colors
 .b--black | border-color: var(--black) | border-colors
 .b--white | border-color: var(--white) | border-colors
 .b--white-90 | border-color: var(--white-90) | border-colors
@@ -116,11 +88,30 @@ img | max-width: 100% | images
 .b--black-30 | border-color: var(--black-30) | border-colors
 .b--black-20 | border-color: var(--black-20) | border-colors
 .b--black-10 | border-color: var(--black-10) | border-colors
-.b--black-05 | border-color: var(--black-05) | border-colors
 .b--black-025 | border-color: var(--black-025) | border-colors
 .b--black-0125 | border-color: var(--black-0125) | border-colors
 .b--transparent | border-color: var(--transparent) | border-colors
 .b--inherit | border-color: inherit | border-colors
+.br2-l | border-radius: .25rem | border-radius
+.br1-l | border-radius: .125rem | border-radius
+.br0-l | border-radius: 0 | border-radius
+.br--left-m | border-top-right-radius: 0;<br />border-bottom-right-radius: 0 | border-radius
+.br--right-m | border-top-left-radius: 0;<br />border-bottom-left-radius: 0 | border-radius
+.br--top-m | border-bottom-left-radius: 0;<br />border-bottom-right-radius: 0 | border-radius
+.br--bottom-m | border-top-left-radius: 0;<br />border-top-right-radius: 0 | border-radius
+.br-pill-m | border-radius: 9999px | border-radius
+.br-100-m | border-radius: 100% | border-radius
+.br4-m | border-radius: 1rem | border-radius
+.br3-m | border-radius: .5rem | border-radius
+.br--left-l | border-top-right-radius: 0;<br />border-bottom-right-radius: 0 | border-radius
+.br--right-l | border-top-left-radius: 0;<br />border-bottom-left-radius: 0 | border-radius
+.br--top-l | border-bottom-left-radius: 0;<br />border-bottom-right-radius: 0 | border-radius
+.br--bottom-l | border-top-left-radius: 0;<br />border-top-right-radius: 0 | border-radius
+.br2-m | border-radius: .25rem | border-radius
+.br-pill-l | border-radius: 9999px | border-radius
+.br-100-l | border-radius: 100% | border-radius
+.br4-l | border-radius: 1rem | border-radius
+.br3-l | border-radius: .5rem | border-radius
 .br0 | border-radius: 0 | border-radius
 .br1 | border-radius: .125rem | border-radius
 .br2 | border-radius: .25rem | border-radius
@@ -134,51 +125,49 @@ img | max-width: 100% | images
 .br--left | border-top-right-radius: 0;<br />border-bottom-right-radius: 0 | border-radius
 .br0-m | border-radius: 0 | border-radius
 .br1-m | border-radius: .125rem | border-radius
-.br2-m | border-radius: .25rem | border-radius
-.br3-m | border-radius: .5rem | border-radius
-.br4-m | border-radius: 1rem | border-radius
-.br-100-m | border-radius: 100% | border-radius
-.br-pill-m | border-radius: 9999px | border-radius
-.br--bottom-m | border-top-left-radius: 0;<br />border-top-right-radius: 0 | border-radius
-.br--top-m | border-bottom-left-radius: 0;<br />border-bottom-right-radius: 0 | border-radius
-.br--right-m | border-top-left-radius: 0;<br />border-bottom-left-radius: 0 | border-radius
-.br--left-m | border-top-right-radius: 0;<br />border-bottom-right-radius: 0 | border-radius
-.br0-l | border-radius: 0 | border-radius
-.br1-l | border-radius: .125rem | border-radius
-.br2-l | border-radius: .25rem | border-radius
-.br3-l | border-radius: .5rem | border-radius
-.br4-l | border-radius: 1rem | border-radius
-.br-100-l | border-radius: 100% | border-radius
-.br-pill-l | border-radius: 9999px | border-radius
-.br--bottom-l | border-top-left-radius: 0;<br />border-top-right-radius: 0 | border-radius
-.br--top-l | border-bottom-left-radius: 0;<br />border-bottom-right-radius: 0 | border-radius
-.br--right-l | border-top-left-radius: 0;<br />border-bottom-left-radius: 0 | border-radius
-.br--left-l | border-top-right-radius: 0;<br />border-bottom-right-radius: 0 | border-radius
-.b--dotted | border-style: dotted | border-style
+.b--dashed-m | border-style: dashed | border-style
+.b--none-l | border-style: none | border-style
 .b--dashed | border-style: dashed | border-style
 .b--solid | border-style: solid | border-style
 .b--none | border-style: none | border-style
 .b--dotted-m | border-style: dotted | border-style
-.b--dashed-m | border-style: dashed | border-style
+.b--dotted | border-style: dotted | border-style
 .b--solid-m | border-style: solid | border-style
 .b--none-m | border-style: none | border-style
 .b--dotted-l | border-style: dotted | border-style
 .b--dashed-l | border-style: dashed | border-style
 .b--solid-l | border-style: solid | border-style
-.b--none-l | border-style: none | border-style
+.bw5 | border-width: 2rem | border-widths
+.br-0-m | border-right-width: 0 | border-widths
+.bt-0-m | border-top-width: 0 | border-widths
+.bw5-m | border-width: 2rem | border-widths
+.bw4-m | border-width: 1rem | border-widths
+.bw3-m | border-width: .5rem | border-widths
+.bw2-ns | border-width: .25rem | border-widths
+.bb-0-l | border-bottom-width: 0 | border-widths
+.br-0-l | border-right-width: 0 | border-widths
+.bt-0-l | border-top-width: 0 | border-widths
+.bw5-l | border-width: 2rem | border-widths
+.bw4-l | border-width: 1rem | border-widths
+.bw3-l | border-width: .5rem | border-widths
+.bw2-l | border-width: .25rem | border-widths
+.bw1-l | border-width: .125rem | border-widths
+.bw0-l | border-width: 0 | border-widths
+.bl-0-m | border-left-width: 0 | border-widths
+.bb-0-m | border-bottom-width: 0 | border-widths
 .bw0 | border-width: 0 | border-widths
 .bw1 | border-width: .125rem | border-widths
 .bw2 | border-width: .25rem | border-widths
 .bw3 | border-width: .5rem | border-widths
 .bw4 | border-width: 1rem | border-widths
-.bw5 | border-width: 2rem | border-widths
+.bw2-m | border-width: .25rem | border-widths
 .bt-0 | border-top-width: 0 | border-widths
 .br-0 | border-right-width: 0 | border-widths
 .bb-0 | border-bottom-width: 0 | border-widths
 .bl-0 | border-left-width: 0 | border-widths
 .bw0-ns | border-width: 0 | border-widths
 .bw1-ns | border-width: .125rem | border-widths
-.bw2-ns | border-width: .25rem | border-widths
+.bw1-m | border-width: .125rem | border-widths
 .bw3-ns | border-width: .5rem | border-widths
 .bw4-ns | border-width: 1rem | border-widths
 .bw5-ns | border-width: 2rem | border-widths
@@ -187,25 +176,26 @@ img | max-width: 100% | images
 .bb-0-ns | border-bottom-width: 0 | border-widths
 .bl-0-ns | border-left-width: 0 | border-widths
 .bw0-m | border-width: 0 | border-widths
-.bw1-m | border-width: .125rem | border-widths
-.bw2-m | border-width: .25rem | border-widths
-.bw3-m | border-width: .5rem | border-widths
-.bw4-m | border-width: 1rem | border-widths
-.bw5-m | border-width: 2rem | border-widths
-.bt-0-m | border-top-width: 0 | border-widths
-.br-0-m | border-right-width: 0 | border-widths
-.bb-0-m | border-bottom-width: 0 | border-widths
-.bl-0-m | border-left-width: 0 | border-widths
-.bw0-l | border-width: 0 | border-widths
-.bw1-l | border-width: .125rem | border-widths
-.bw2-l | border-width: .25rem | border-widths
-.bw3-l | border-width: .5rem | border-widths
-.bw4-l | border-width: 1rem | border-widths
-.bw5-l | border-width: 2rem | border-widths
-.bt-0-l | border-top-width: 0 | border-widths
-.br-0-l | border-right-width: 0 | border-widths
-.bb-0-l | border-bottom-width: 0 | border-widths
 .bl-0-l | border-left-width: 0 | border-widths
+.bn-l | border-style: none;<br />border-width: 0 | borders
+.ba | border-style: solid;<br />border-width: 1px | borders
+.bt | border-top-style: solid;<br />border-top-width: 1px | borders
+.br | border-right-style: solid;<br />border-right-width: 1px | borders
+.bb | border-bottom-style: solid;<br />border-bottom-width: 1px | borders
+.bl | border-left-style: solid;<br />border-left-width: 1px | borders
+.bn | border-style: none;<br />border-width: 0 | borders
+.ba-m | border-style: solid;<br />border-width: 1px | borders
+.bl-l | border-left-style: solid;<br />border-left-width: 1px | borders
+.br-m | border-right-style: solid;<br />border-right-width: 1px | borders
+.bb-m | border-bottom-style: solid;<br />border-bottom-width: 1px | borders
+.bl-m | border-left-style: solid;<br />border-left-width: 1px | borders
+.bn-m | border-style: none;<br />border-width: 0 | borders
+.ba-l | border-style: solid;<br />border-width: 1px | borders
+.bt-l | border-top-style: solid;<br />border-top-width: 1px | borders
+.br-l | border-right-style: solid;<br />border-right-width: 1px | borders
+.bb-l | border-bottom-style: solid;<br />border-bottom-width: 1px | borders
+.bt-m | border-top-style: solid;<br />border-top-width: 1px | borders
+.shadow-5-l | box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ) | box-shadow
 .shadow-1 | box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ) | box-shadow
 .shadow-2 | box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ) | box-shadow
 .shadow-3 | box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ) | box-shadow
@@ -220,17 +210,24 @@ img | max-width: 100% | images
 .shadow-2-l | box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ) | box-shadow
 .shadow-3-l | box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ) | box-shadow
 .shadow-4-l | box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ) | box-shadow
-.shadow-5-l | box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ) | box-shadow
+html,<br />body,<br />div,<br />article,<br />aside,<br />section,<br />main,<br />nav,<br />footer,<br />header,<br />form,<br />fieldset,<br />legend,<br />pre,<br />code,<br />a,<br />h1,h2,h3,h4,h5,h6,<br />p,<br />ul,<br />ol,<br />li,<br />dl,<br />dt,<br />dd,<br />blockquote,<br />figcaption,<br />figure,<br />textarea,<br />table,<br />td,<br />th,<br />tr,<br />input[type="email"],<br />input[type="number"],<br />input[type="password"],<br />input[type="tel"],<br />input[type="text"],<br />input[type="url"],<br />.border-box | box-sizing: border-box | box-sizing
+.cb-m | clear: both | clears
+.cn-l | clear: none | clears
+.cr-m | clear: right | clears
+.cb-l | clear: both | clears
+.cr-l | clear: right | clears
+.cl-l | clear: left | clears
+.cn-m | clear: none | clears
+.cl-m | clear: left | clears
+.cn | clear: none | clears
+.cb | clear: both | clears
+.cr | clear: right | clears
+.cl | clear: left | clears
+.cf | zoom: 1 | clears
+.cf:after | clear: both | clears
+.cf:before,<br />.cf:after | content: " ";<br />display: table | clears
 .pre | overflow-x: auto;<br />overflow-y: hidden;<br />overflow: scroll | code
-.top-0 | top: 0 | coordinates
-.right-0 | right: 0 | coordinates
-.bottom-0 | bottom: 0 | coordinates
-.left-0 | left: 0 | coordinates
-.top-1 | top: 1rem | coordinates
-.right-1 | right: 1rem | coordinates
-.bottom-1 | bottom: 1rem | coordinates
-.left-1 | left: 1rem | coordinates
-.top-2 | top: 2rem | coordinates
+.top-0-l | top: 0 | coordinates
 .right-2 | right: 2rem | coordinates
 .bottom-2 | bottom: 2rem | coordinates
 .left-2 | left: 2rem | coordinates
@@ -264,7 +261,7 @@ img | max-width: 100% | images
 .bottom--2-m | bottom: -2rem | coordinates
 .left--2-m | left: -2rem | coordinates
 .absolute--fill-m | top: 0;<br />right: 0;<br />bottom: 0;<br />left: 0 | coordinates
-.top-0-l | top: 0 | coordinates
+.top-2 | top: 2rem | coordinates
 .left-0-l | left: 0 | coordinates
 .right-0-l | right: 0 | coordinates
 .bottom-0-l | bottom: 0 | coordinates
@@ -285,21 +282,37 @@ img | max-width: 100% | images
 .bottom--2-l | bottom: -2rem | coordinates
 .left--2-l | left: -2rem | coordinates
 .absolute--fill-l | top: 0;<br />right: 0;<br />bottom: 0;<br />left: 0 | coordinates
-.cf:before,<br />.cf:after | content: " ";<br />display: table | clears
-.cf:after | clear: both | clears
-.cf | zoom: 1 | clears
-.cl | clear: left | clears
-.cr | clear: right | clears
-.cb | clear: both | clears
-.cn | clear: none | clears
-.cl-m | clear: left | clears
-.cr-m | clear: right | clears
-.cb-m | clear: both | clears
-.cn-m | clear: none | clears
-.cl-l | clear: left | clears
-.cr-l | clear: right | clears
-.cb-l | clear: both | clears
-.cn-l | clear: none | clears
+.bottom-1 | bottom: 1rem | coordinates
+.right-1 | right: 1rem | coordinates
+.top-1 | top: 1rem | coordinates
+.left-0 | left: 0 | coordinates
+.bottom-0 | bottom: 0 | coordinates
+.right-0 | right: 0 | coordinates
+.top-0 | top: 0 | coordinates
+.left-1 | left: 1rem | coordinates
+.debug * | outline: 1px solid gold | debug-children
+.debug-white * | outline: 1px solid white | debug-children
+.debug-black * | outline: 1px solid black | debug-children
+.dib-l | display: inline-block | display
+.db-l | display: block | display
+.di-l | display: inline | display
+.dn-l | display: none | display
+.dt--fixed-m | table-layout: fixed;<br />width: 100% | display
+.dt-column-group-m | display: table-column-group | display
+.dt-column-m | display: table-column | display
+.dt-row-group-m | display: table-row-group | display
+.dt-row-m | display: table-row | display
+.dtc-m | display: table-cell | display
+.dt-m | display: table | display
+.dt--fixed-l | table-layout: fixed;<br />width: 100% | display
+.dt-column-group-l | display: table-column-group | display
+.dit-m | display: inline-table | display
+.dt-column-l | display: table-column | display
+.dt-row-group-l | display: table-row-group | display
+.dt-row-l | display: table-row | display
+.dtc-l | display: table-cell | display
+.dt-l | display: table | display
+.dit-l | display: inline-table | display
 .dn | display: none | display
 .di | display: inline | display
 .db | display: block | display
@@ -316,26 +329,16 @@ img | max-width: 100% | images
 .di-m | display: inline | display
 .db-m | display: block | display
 .dib-m | display: inline-block | display
-.dit-m | display: inline-table | display
-.dt-m | display: table | display
-.dtc-m | display: table-cell | display
-.dt-row-m | display: table-row | display
-.dt-row-group-m | display: table-row-group | display
-.dt-column-m | display: table-column | display
-.dt-column-group-m | display: table-column-group | display
-.dt--fixed-m | table-layout: fixed;<br />width: 100% | display
-.dn-l | display: none | display
-.di-l | display: inline | display
-.db-l | display: block | display
-.dib-l | display: inline-block | display
-.dit-l | display: inline-table | display
-.dt-l | display: table | display
-.dtc-l | display: table-cell | display
-.dt-row-l | display: table-row | display
-.dt-row-group-l | display: table-row-group | display
-.dt-column-l | display: table-column | display
-.dt-column-group-l | display: table-column-group | display
-.dt--fixed-l | table-layout: fixed;<br />width: 100% | display
+.items-center-m | align-items: center | flexbox
+.justify-around-l | justify-content: space-around | flexbox
+.flex-shrink-0-l | flex-shrink: 0 | flexbox
+.flex-grow-1-l | flex-grow: 1 | flexbox
+.flex-grow-0-l | flex-grow: 0 | flexbox
+.order-last-l | order: 99999 | flexbox
+.order-8-l | order: 8 | flexbox
+.order-7-l | order: 7 | flexbox
+.order-6-l | order: 6 | flexbox
+.order-5-l | order: 5 | flexbox
 .flex | display: flex | flexbox
 .inline-flex | display: inline-flex | flexbox
 .flex-auto | flex: 1 1 auto;<br />min-width: 0;<br />min-height: 0 | flexbox
@@ -395,7 +398,7 @@ img | max-width: 100% | images
 .flex-row-reverse-m | flex-direction: row-reverse | flexbox
 .items-start-m | align-items: flex-start | flexbox
 .items-end-m | align-items: flex-end | flexbox
-.items-center-m | align-items: center | flexbox
+.flex-shrink-1-l | flex-shrink: 1 | flexbox
 .items-baseline-m | align-items: baseline | flexbox
 .items-stretch-m | align-items: stretch | flexbox
 .self-start-m | align-self: flex-start | flexbox
@@ -453,7 +456,7 @@ img | max-width: 100% | images
 .justify-end-l | justify-content: flex-end | flexbox
 .justify-center-l | justify-content: center | flexbox
 .justify-between-l | justify-content: space-between | flexbox
-.justify-around-l | justify-content: space-around | flexbox
+.order-4-l | order: 4 | flexbox
 .content-start-l | align-content: flex-start | flexbox
 .content-end-l | align-content: flex-end | flexbox
 .content-center-l | align-content: center | flexbox
@@ -464,27 +467,17 @@ img | max-width: 100% | images
 .order-1-l | order: 1 | flexbox
 .order-2-l | order: 2 | flexbox
 .order-3-l | order: 3 | flexbox
-.order-4-l | order: 4 | flexbox
-.order-5-l | order: 5 | flexbox
-.order-6-l | order: 6 | flexbox
-.order-7-l | order: 7 | flexbox
-.order-8-l | order: 8 | flexbox
-.order-last-l | order: 99999 | flexbox
-.flex-grow-0-l | flex-grow: 0 | flexbox
-.flex-grow-1-l | flex-grow: 1 | flexbox
-.flex-shrink-0-l | flex-shrink: 0 | flexbox
-.flex-shrink-1-l | flex-shrink: 1 | flexbox
-.fl | float: left;<br />display: inline | floats
-.fr | float: right;<br />display: inline | floats
-.fn | float: none | floats
-.fl-m | float: left;<br />display: inline | floats
-.fr-m | float: right;<br />display: inline | floats
-.fn-m | float: none | floats
 .fl-l | float: left;<br />display: inline | floats
+.fn-m | float: none | floats
+.fr-m | float: right;<br />display: inline | floats
+.fl-m | float: left;<br />display: inline | floats
+.fn | float: none | floats
+.fr | float: right;<br />display: inline | floats
+.fl | float: left;<br />display: inline | floats
 .fr-l | float: right;<br />display: inline | floats
 .fn-l | float: none | floats
+.bodoni | font-family: "Bodoni MT",<br />                serif | font-family
 .sans-serif | font-family: -apple-system, BlinkMacSystemFont,<br />               'avenir next', avenir,<br />               'helvetica neue', helvetica,<br />               ubuntu,<br />               roboto, noto,<br />               'segoe ui', arial,<br />               sans-serif | font-family
-.serif | font-family: georgia,<br />               times,<br />               serif | font-family
 .system-sans-serif | font-family: sans-serif | font-family
 .system-serif | font-family: serif | font-family
 code, .code | font-family: Consolas,<br />               monaco,<br />               monospace | font-family
@@ -494,7 +487,7 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .athelas | font-family: athelas,<br />               georgia,<br />               serif | font-family
 .georgia | font-family: georgia,<br />               serif | font-family
 .times | font-family: times,<br />               serif | font-family
-.bodoni | font-family: "Bodoni MT",<br />                serif | font-family
+.serif | font-family: georgia,<br />               times,<br />               serif | font-family
 .calisto | font-family: "Calisto MT",<br />                serif | font-family
 .garamond | font-family: garamond,<br />               serif | font-family
 .baskerville | font-family: baskerville,<br />               serif | font-family
@@ -504,13 +497,14 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .fs-normal-m | font-style: normal | font-style
 .i-l | font-style: italic | font-style
 .fs-normal-l | font-style: normal | font-style
+.fw5 | font-weight: 500 | font-weight
 .normal | font-weight: normal | font-weight
 .b | font-weight: bold | font-weight
 .fw1 | font-weight: 100 | font-weight
 .fw2 | font-weight: 200 | font-weight
 .fw3 | font-weight: 300 | font-weight
 .fw4 | font-weight: 400 | font-weight
-.fw5 | font-weight: 500 | font-weight
+.b-l | font-weight: bold | font-weight
 .fw6 | font-weight: 600 | font-weight
 .fw7 | font-weight: 700 | font-weight
 .fw8 | font-weight: 800 | font-weight
@@ -527,7 +521,6 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .fw8-m | font-weight: 800 | font-weight
 .fw9-m | font-weight: 900 | font-weight
 .normal-l | font-weight: normal | font-weight
-.b-l | font-weight: bold | font-weight
 .fw1-l | font-weight: 100 | font-weight
 .fw2-l | font-weight: 200 | font-weight
 .fw3-l | font-weight: 300 | font-weight
@@ -539,6 +532,25 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .fw9-l | font-weight: 900 | font-weight
 .input-reset | -webkit-appearance: none;<br />-moz-appearance: none | forms
 .button-reset::-moz-focus-inner,<br />.input-reset::-moz-focus-inner | border: 0;<br />padding: 0 | forms
+.h-auto-l | height: auto | heights
+.min-vh-100-l | min-height: 100vh | heights
+.vh-100-l | height: 100vh | heights
+.vh-75-l | height: 75vh | heights
+.vh-50-l | height: 50vh | heights
+.vh-25-l | height: 25vh | heights
+.min-h-100-l | min-height: 100% | heights
+.h-auto-m | height: auto | heights
+.h-100-l | height: 100% | heights
+.h-75-l | height: 75% | heights
+.h-50-l | height: 50% | heights
+.h-25-l | height: 25% | heights
+.h5-l | height: 16rem | heights
+.h4-l | height: 8rem | heights
+.h3-l | height: 4rem | heights
+.h2-l | height: 2rem | heights
+.h1-l | height: 1rem | heights
+.h-inherit-m | height: inherit | heights
+.h-inherit-l | height: inherit | heights
 .h1 | height: 1rem | heights
 .h2 | height: 2rem | heights
 .h3 | height: 4rem | heights
@@ -571,43 +583,44 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .vh-75-m | height: 75vh | heights
 .vh-100-m | height: 100vh | heights
 .min-vh-100-m | min-height: 100vh | heights
-.h-auto-m | height: auto | heights
-.h-inherit-m | height: inherit | heights
-.h1-l | height: 1rem | heights
-.h2-l | height: 2rem | heights
-.h3-l | height: 4rem | heights
-.h4-l | height: 8rem | heights
-.h5-l | height: 16rem | heights
-.h-25-l | height: 25% | heights
-.h-50-l | height: 50% | heights
-.h-75-l | height: 75% | heights
-.h-100-l | height: 100% | heights
-.min-h-100-l | min-height: 100% | heights
-.vh-25-l | height: 25vh | heights
-.vh-50-l | height: 50vh | heights
-.vh-75-l | height: 75vh | heights
-.vh-100-l | height: 100vh | heights
-.min-vh-100-l | min-height: 100vh | heights
-.h-auto-l | height: auto | heights
-.h-inherit-l | height: inherit | heights
+.grow:hover,<br />.grow:focus | transform: scale(1.05) | hovers
+.bg-animate,<br />.bg-animate:hover,<br />.bg-animate:focus | transition: background-color .15s ease-in-out | hovers
+.dim | opacity: 1;<br />transition: opacity .15s ease-in | hovers
+.glow | transition: opacity .15s ease-in | hovers
+.glow:hover,<br />.glow:focus | opacity: 1;<br />transition: opacity .15s ease-in | hovers
+.hide-child .child | opacity: 0;<br />transition: opacity .15s ease-in | hovers
+.hide-child:hover  .child,<br />.hide-child:focus  .child,<br />.hide-child:active .child | opacity: 1;<br />transition: opacity .15s ease-in | hovers
+.underline-hover:hover,<br />.underline-hover:focus | text-decoration: underline | hovers
+.grow | -moz-osx-font-smoothing: grayscale;<br />backface-visibility: hidden;<br />transform: translateZ(0);<br />transition: transform 0.25s ease-out | hovers
+.dim:active | opacity: .8;<br />transition: opacity .15s ease-out | hovers
+.grow:active | transform: scale(.90) | hovers
+.grow-large | -moz-osx-font-smoothing: grayscale;<br />backface-visibility: hidden;<br />transform: translateZ(0);<br />transition: transform .25s ease-in-out | hovers
+.grow-large:hover,<br />.grow-large:focus | transform: scale(1.2) | hovers
+.grow-large:active | transform: scale(.95) | hovers
+.pointer:hover | cursor: pointer | hovers
+.shadow-hover | cursor: pointer;<br />position: relative;<br />transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) | hovers
+.shadow-hover::after | content: '';<br />box-shadow: 0px 0px 16px 2px rgba( 0, 0, 0, .2 );<br />border-radius: inherit;<br />opacity: 0;<br />position: absolute;<br />top: 0;<br />left: 0;<br />width: 100%;<br />height: 100%;<br />z-index: -1;<br />transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) | hovers
+.shadow-hover:hover::after,<br />.shadow-hover:focus::after | opacity: 1 | hovers
+.dim:hover,<br />.dim:focus | opacity: .5;<br />transition: opacity .15s ease-in | hovers
+img | max-width: 100% | images
 .tracked | letter-spacing: .1em | letter-spacing
 .tracked-tight | letter-spacing: -.05em | letter-spacing
-.tracked-mega | letter-spacing: .25em | letter-spacing
 .tracked-m | letter-spacing: .1em | letter-spacing
 .tracked-tight-m | letter-spacing: -.05em | letter-spacing
 .tracked-mega-m | letter-spacing: .25em | letter-spacing
 .tracked-l | letter-spacing: .1em | letter-spacing
 .tracked-tight-l | letter-spacing: -.05em | letter-spacing
 .tracked-mega-l | letter-spacing: .25em | letter-spacing
-.lh-solid | line-height: 1 | line-height
+.tracked-mega | letter-spacing: .25em | letter-spacing
+.lh-copy-l | line-height: 1.5 | line-height
 .lh-title | line-height: 1.25 | line-height
-.lh-copy | line-height: 1.5 | line-height
 .lh-solid-m | line-height: 1 | line-height
-.lh-title-m | line-height: 1.25 | line-height
+.lh-solid | line-height: 1 | line-height
 .lh-copy-m | line-height: 1.5 | line-height
 .lh-solid-l | line-height: 1 | line-height
 .lh-title-l | line-height: 1.25 | line-height
-.lh-copy-l | line-height: 1.5 | line-height
+.lh-copy | line-height: 1.5 | line-height
+.lh-title-m | line-height: 1.25 | line-height
 .link | text-decoration: none;<br />transition: color .15s ease-in | links
 .link:link,<br />.link:visited | transition: color .15s ease-in | links
 .link:hover | transition: color .15s ease-in | links
@@ -618,7 +631,7 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .mw1 | max-width: 1rem | max-widths
 .mw2 | max-width: 2rem | max-widths
 .mw3 | max-width: 4rem | max-widths
-.mw4 | max-width: 8rem | max-widths
+.mw-none-l | max-width: none | max-widths
 .mw5 | max-width: 16rem | max-widths
 .mw6 | max-width: 32rem | max-widths
 .mw7 | max-width: 48rem | max-widths
@@ -646,93 +659,142 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .mw7-l | max-width: 48rem | max-widths
 .mw8-l | max-width: 64rem | max-widths
 .mw9-l | max-width: 96rem | max-widths
-.mw-none-l | max-width: none | max-widths
-.w1 | width: 1rem | widths
-.w2 | width: 2rem | widths
-.w3 | width: 4rem | widths
-.w4 | width: 8rem | widths
-.w5 | width: 16rem | widths
-.w-10 | width: 10% | widths
-.w-20 | width: 20% | widths
-.w-25 | width: 25% | widths
-.w-30 | width: 30% | widths
-.w-33 | width: 33% | widths
-.w-34 | width: 34% | widths
-.w-40 | width: 40% | widths
-.w-50 | width: 50% | widths
-.w-60 | width: 60% | widths
-.w-70 | width: 70% | widths
-.w-75 | width: 75% | widths
-.w-80 | width: 80% | widths
-.w-90 | width: 90% | widths
-.w-100 | width: 100% | widths
-.w-third | width: calc(100% / 3) | widths
-.w-two-thirds | width: calc(100% / 1.5) | widths
-.w-auto | width: auto | widths
-.w1-m | width: 1rem | widths
-.w2-m | width: 2rem | widths
-.w3-m | width: 4rem | widths
-.w4-m | width: 8rem | widths
-.w5-m | width: 16rem | widths
-.w-10-m | width: 10% | widths
-.w-20-m | width: 20% | widths
-.w-25-m | width: 25% | widths
-.w-30-m | width: 30% | widths
-.w-33-m | width: 33% | widths
-.w-34-m | width: 34% | widths
-.w-40-m | width: 40% | widths
-.w-50-m | width: 50% | widths
-.w-60-m | width: 60% | widths
-.w-70-m | width: 70% | widths
-.w-75-m | width: 75% | widths
-.w-80-m | width: 80% | widths
-.w-90-m | width: 90% | widths
-.w-100-m | width: 100% | widths
-.w-third-m | width: calc(100% / 3) | widths
-.w-two-thirds-m | width: calc(100% / 1.5) | widths
-.w-auto-m | width: auto | widths
-.w1-l | width: 1rem | widths
-.w2-l | width: 2rem | widths
-.w3-l | width: 4rem | widths
-.w4-l | width: 8rem | widths
-.w5-l | width: 16rem | widths
-.w-10-l | width: 10% | widths
-.w-20-l | width: 20% | widths
-.w-25-l | width: 25% | widths
-.w-30-l | width: 30% | widths
-.w-33-l | width: 33% | widths
-.w-34-l | width: 34% | widths
-.w-40-l | width: 40% | widths
-.w-50-l | width: 50% | widths
-.w-60-l | width: 60% | widths
-.w-70-l | width: 70% | widths
-.w-75-l | width: 75% | widths
-.w-80-l | width: 80% | widths
-.w-90-l | width: 90% | widths
-.w-100-l | width: 100% | widths
-.w-third-l | width: calc(100% / 3) | widths
-.w-two-thirds-l | width: calc(100% / 1.5) | widths
-.w-auto-l | width: auto | widths
-.overflow-visible | overflow: visible | overflow
-.overflow-hidden | overflow: hidden | overflow
-.overflow-scroll | overflow: scroll | overflow
-.overflow-auto | overflow: auto | overflow
-.overflow-x-visible | overflow-x: visible | overflow
-.overflow-x-hidden | overflow-x: hidden | overflow
-.overflow-x-scroll | overflow-x: scroll | overflow
-.overflow-x-auto | overflow-x: auto | overflow
-.overflow-y-visible | overflow-y: visible | overflow
-.overflow-y-hidden | overflow-y: hidden | overflow
-.overflow-y-scroll | overflow-y: scroll | overflow
-.overflow-y-auto | overflow-y: auto | overflow
-.overflow-visible-m | overflow: visible | overflow
-.overflow-hidden-m | overflow: hidden | overflow
-.overflow-scroll-m | overflow: scroll | overflow
-.overflow-auto-m | overflow: auto | overflow
-.overflow-x-visible-m | overflow-x: visible | overflow
-.overflow-x-hidden-m | overflow-x: hidden | overflow
-.overflow-x-scroll-m | overflow-x: scroll | overflow
-.overflow-x-auto-m | overflow-x: auto | overflow
+.mw4 | max-width: 8rem | max-widths
+.nb4-l | margin-bottom: -var(--spacing-large) | negative-margins
+.nb3-l | margin-bottom: -var(--spacing-medium) | negative-margins
+.nb2-l | margin-bottom: -var(--spacing-small) | negative-margins
+.nb1-l | margin-bottom: -var(--spacing-extra-small) | negative-margins
+.nr7-l | margin-right: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nr6-l | margin-right: -var(--spacing-extra-extra-large) | negative-margins
+.nt4 | margin-top: -var(--spacing-large) | negative-margins
+.nt7-l | margin-top: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nt6-l | margin-top: -var(--spacing-extra-extra-large) | negative-margins
+.nt5-l | margin-top: -var(--spacing-extra-large) | negative-margins
+.nt4-l | margin-top: -var(--spacing-large) | negative-margins
+.nt3-l | margin-top: -var(--spacing-medium) | negative-margins
+.nt2-l | margin-top: -var(--spacing-small) | negative-margins
+.nt1-l | margin-top: -var(--spacing-extra-small) | negative-margins
+.nb7-l | margin-bottom: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nb6-l | margin-bottom: -var(--spacing-extra-extra-large) | negative-margins
+.nb5-l | margin-bottom: -var(--spacing-extra-large) | negative-margins
+.nr5-l | margin-right: -var(--spacing-extra-large) | negative-margins
+.nr4-l | margin-right: -var(--spacing-large) | negative-margins
+.nr3-l | margin-right: -var(--spacing-medium) | negative-margins
+.nr2-l | margin-right: -var(--spacing-small) | negative-margins
+.nr1-l | margin-right: -var(--spacing-extra-small) | negative-margins
+.nl7-l | margin-left: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nl6-l | margin-left: -var(--spacing-extra-extra-large) | negative-margins
+.nl5-l | margin-left: -var(--spacing-extra-large) | negative-margins
+.nl4-l | margin-left: -var(--spacing-large) | negative-margins
+.nl3-l | margin-left: -var(--spacing-medium) | negative-margins
+.nl2-l | margin-left: -var(--spacing-small) | negative-margins
+.nl1-l | margin-left: -var(--spacing-extra-small) | negative-margins
+.na7-l | margin: -var(--spacing-extra-extra-extra-large) | negative-margins
+.na6-l | margin: -var(--spacing-extra-extra-large) | negative-margins
+.na5-l | margin: -var(--spacing-extra-large) | negative-margins
+.na4-l | margin: -var(--spacing-large) | negative-margins
+.na3-l | margin: -var(--spacing-medium) | negative-margins
+.na2-l | margin: -var(--spacing-small) | negative-margins
+.na1-l | margin: -var(--spacing-extra-small) | negative-margins
+.nt7-m | margin-top: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nt6-m | margin-top: -var(--spacing-extra-extra-large) | negative-margins
+.nt5-m | margin-top: -var(--spacing-extra-large) | negative-margins
+.nt4-m | margin-top: -var(--spacing-large) | negative-margins
+.nt3-m | margin-top: -var(--spacing-medium) | negative-margins
+.nt2-m | margin-top: -var(--spacing-small) | negative-margins
+.nt1-m | margin-top: -var(--spacing-extra-small) | negative-margins
+.nb7-m | margin-bottom: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nb6-m | margin-bottom: -var(--spacing-extra-extra-large) | negative-margins
+.nb5-m | margin-bottom: -var(--spacing-extra-large) | negative-margins
+.nb4-m | margin-bottom: -var(--spacing-large) | negative-margins
+.nb3-m | margin-bottom: -var(--spacing-medium) | negative-margins
+.nb2-m | margin-bottom: -var(--spacing-small) | negative-margins
+.nb1-m | margin-bottom: -var(--spacing-extra-small) | negative-margins
+.nr7-m | margin-right: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nr6-m | margin-right: -var(--spacing-extra-extra-large) | negative-margins
+.nr5-m | margin-right: -var(--spacing-extra-large) | negative-margins
+.nr4-m | margin-right: -var(--spacing-large) | negative-margins
+.nr3-m | margin-right: -var(--spacing-medium) | negative-margins
+.nr2-m | margin-right: -var(--spacing-small) | negative-margins
+.nr1-m | margin-right: -var(--spacing-extra-small) | negative-margins
+.nl7-m | margin-left: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nl6-m | margin-left: -var(--spacing-extra-extra-large) | negative-margins
+.nl5-m | margin-left: -var(--spacing-extra-large) | negative-margins
+.nl4-m | margin-left: -var(--spacing-large) | negative-margins
+.nl3-m | margin-left: -var(--spacing-medium) | negative-margins
+.nl2-m | margin-left: -var(--spacing-small) | negative-margins
+.nl1-m | margin-left: -var(--spacing-extra-small) | negative-margins
+.na7-m | margin: -var(--spacing-extra-extra-extra-large) | negative-margins
+.na6-m | margin: -var(--spacing-extra-extra-large) | negative-margins
+.na5-m | margin: -var(--spacing-extra-large) | negative-margins
+.na4-m | margin: -var(--spacing-large) | negative-margins
+.na3-m | margin: -var(--spacing-medium) | negative-margins
+.na2-m | margin: -var(--spacing-small) | negative-margins
+.na1-m | margin: -var(--spacing-extra-small) | negative-margins
+.nt7 | margin-top: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nt6 | margin-top: -var(--spacing-extra-extra-large) | negative-margins
+.nt5 | margin-top: -var(--spacing-extra-large) | negative-margins
+.nt3 | margin-top: -var(--spacing-medium) | negative-margins
+.nt2 | margin-top: -var(--spacing-small) | negative-margins
+.nt1 | margin-top: -var(--spacing-extra-small) | negative-margins
+.nb7 | margin-bottom: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nb6 | margin-bottom: -var(--spacing-extra-extra-large) | negative-margins
+.nb5 | margin-bottom: -var(--spacing-extra-large) | negative-margins
+.nb4 | margin-bottom: -var(--spacing-large) | negative-margins
+.nb3 | margin-bottom: -var(--spacing-medium) | negative-margins
+.nb2 | margin-bottom: -var(--spacing-small) | negative-margins
+.nb1 | margin-bottom: -var(--spacing-extra-small) | negative-margins
+.nr7 | margin-right: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nr6 | margin-right: -var(--spacing-extra-extra-large) | negative-margins
+.nr5 | margin-right: -var(--spacing-extra-large) | negative-margins
+.nr4 | margin-right: -var(--spacing-large) | negative-margins
+.nr3 | margin-right: -var(--spacing-medium) | negative-margins
+.nr2 | margin-right: -var(--spacing-small) | negative-margins
+.nr1 | margin-right: -var(--spacing-extra-small) | negative-margins
+.nl7 | margin-left: -var(--spacing-extra-extra-extra-large) | negative-margins
+.nl6 | margin-left: -var(--spacing-extra-extra-large) | negative-margins
+.nl5 | margin-left: -var(--spacing-extra-large) | negative-margins
+.nl4 | margin-left: -var(--spacing-large) | negative-margins
+.nl3 | margin-left: -var(--spacing-medium) | negative-margins
+.nl2 | margin-left: -var(--spacing-small) | negative-margins
+.nl1 | margin-left: -var(--spacing-extra-small) | negative-margins
+.na7 | margin: -var(--spacing-extra-extra-extra-large) | negative-margins
+.na6 | margin: -var(--spacing-extra-extra-large) | negative-margins
+.na5 | margin: -var(--spacing-extra-large) | negative-margins
+.na4 | margin: -var(--spacing-large) | negative-margins
+.na3 | margin: -var(--spacing-medium) | negative-margins
+.na2 | margin: -var(--spacing-small) | negative-margins
+.na1 | margin: -var(--spacing-extra-small) | negative-margins
+.nested-links a:hover,<br />.nested-links a:focus | color: var(--light-blue);<br />transition: color .15s ease-in | nested
+.nested-links a | color: var(--blue);<br />transition: color .15s ease-in | nested
+.nested-img img | width: 100%;<br />max-width: 100%;<br />display: block | nested
+.nested-copy-separator p+p | margin-top: 1.5em | nested
+.nested-copy-indent p+p | text-indent: 1em;<br />margin-top: 0;<br />margin-bottom: 0 | nested
+.nested-list-reset ul,<br />.nested-list-reset ol | padding-left: 0;<br />margin-left: 0;<br />list-style-type: none | nested
+.nested-headline-line-height h1,<br />.nested-headline-line-height h2,<br />.nested-headline-line-height h3,<br />.nested-headline-line-height h4,<br />.nested-headline-line-height h5,<br />.nested-headline-line-height h6 | line-height: 1.25 | nested
+.nested-copy-line-height p,<br />.nested-copy-line-height ul,<br />.nested-copy-line-height ol | line-height: 1.5 | nested
+.o-0 | opacity: 0 | opacity
+.o-05 | opacity: .05 | opacity
+.o-10 | opacity: .1 | opacity
+.o-20 | opacity: .2 | opacity
+.o-30 | opacity: .3 | opacity
+.o-40 | opacity: .4 | opacity
+.o-50 | opacity: .5 | opacity
+.o-60 | opacity: .6 | opacity
+.o-70 | opacity: .7 | opacity
+.o-80 | opacity: .8 | opacity
+.o-025 | opacity: .025 | opacity
+.o-100 | opacity: 1 | opacity
+.o-90 | opacity: .9 | opacity
+.outline | outline: 1px solid | outlines
+.outline-transparent | outline: 1px solid transparent | outlines
+.outline-0 | outline: 0 | outlines
+.outline-m | outline: 1px solid | outlines
+.outline-transparent-m | outline: 1px solid transparent | outlines
+.outline-0-m | outline: 0 | outlines
+.outline-l | outline: 1px solid | outlines
+.outline-transparent-l | outline: 1px solid transparent | outlines
+.outline-0-l | outline: 0 | outlines
 .overflow-y-visible-m | overflow-y: visible | overflow
 .overflow-y-hidden-m | overflow-y: hidden | overflow
 .overflow-y-scroll-m | overflow-y: scroll | overflow
@@ -749,15 +811,35 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .overflow-y-hidden-l | overflow-y: hidden | overflow
 .overflow-y-scroll-l | overflow-y: scroll | overflow
 .overflow-y-auto-l | overflow-y: auto | overflow
+.overflow-hidden-m | overflow: hidden | overflow
+.overflow-auto-m | overflow: auto | overflow
+.overflow-x-visible-m | overflow-x: visible | overflow
+.overflow-x-hidden-m | overflow-x: hidden | overflow
+.overflow-x-scroll-m | overflow-x: scroll | overflow
+.overflow-x-auto-m | overflow-x: auto | overflow
+.overflow-visible | overflow: visible | overflow
+.overflow-hidden | overflow: hidden | overflow
+.overflow-scroll | overflow: scroll | overflow
+.overflow-auto | overflow: auto | overflow
+.overflow-x-visible | overflow-x: visible | overflow
+.overflow-x-hidden | overflow-x: hidden | overflow
+.overflow-x-scroll | overflow-x: scroll | overflow
+.overflow-x-auto | overflow-x: auto | overflow
+.overflow-y-visible | overflow-y: visible | overflow
+.overflow-y-hidden | overflow-y: hidden | overflow
+.overflow-y-scroll | overflow-y: scroll | overflow
+.overflow-y-auto | overflow-y: auto | overflow
+.overflow-visible-m | overflow: visible | overflow
+.overflow-scroll-m | overflow: scroll | overflow
+.static-m | position: static | position
 .static | position: static | position
-.relative | position: relative | position
 .absolute | position: absolute | position
 .fixed | position: fixed | position
 .static-ns | position: static | position
 .relative-ns | position: relative | position
 .absolute-ns | position: absolute | position
 .fixed-ns | position: fixed | position
-.static-m | position: static | position
+.relative | position: relative | position
 .relative-m | position: relative | position
 .absolute-m | position: absolute | position
 .fixed-m | position: fixed | position
@@ -765,21 +847,9 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .relative-l | position: relative | position
 .absolute-l | position: absolute | position
 .fixed-l | position: fixed | position
-.o-100 | opacity: 1 | opacity
-.o-90 | opacity: .9 | opacity
-.o-80 | opacity: .8 | opacity
-.o-70 | opacity: .7 | opacity
-.o-60 | opacity: .6 | opacity
-.o-50 | opacity: .5 | opacity
-.o-40 | opacity: .4 | opacity
-.o-30 | opacity: .3 | opacity
-.o-20 | opacity: .2 | opacity
-.o-10 | opacity: .1 | opacity
-.o-05 | opacity: .05 | opacity
-.o-025 | opacity: .025 | opacity
-.o-0 | opacity: 0 | opacity
-.rotate-45 | transform: rotate(45deg) | rotations
 .rotate-90 | transform: rotate(90deg) | rotations
+.rotate-45 | transform: rotate(45deg) | rotations
+.rotate-315-l | transform: rotate(315deg) | rotations
 .rotate-135 | transform: rotate(135deg) | rotations
 .rotate-180 | transform: rotate(180deg) | rotations
 .rotate-225 | transform: rotate(225deg) | rotations
@@ -798,156 +868,6 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .rotate-180-l | transform: rotate(180deg) | rotations
 .rotate-225-l | transform: rotate(225deg) | rotations
 .rotate-270-l | transform: rotate(270deg) | rotations
-.rotate-315-l | transform: rotate(315deg) | rotations
-.black-90 | color: var(--black-90) | skins
-.black-80 | color: var(--black-80) | skins
-.black-70 | color: var(--black-70) | skins
-.black-60 | color: var(--black-60) | skins
-.black-50 | color: var(--black-50) | skins
-.black-40 | color: var(--black-40) | skins
-.black-30 | color: var(--black-30) | skins
-.black-20 | color: var(--black-20) | skins
-.black-10 | color: var(--black-10) | skins
-.black-05 | color: var(--black-05) | skins
-.white-90 | color: var(--white-90) | skins
-.white-80 | color: var(--white-80) | skins
-.white-70 | color: var(--white-70) | skins
-.white-60 | color: var(--white-60) | skins
-.white-50 | color: var(--white-50) | skins
-.white-40 | color: var(--white-40) | skins
-.white-30 | color: var(--white-30) | skins
-.white-20 | color: var(--white-20) | skins
-.white-10 | color: var(--white-10) | skins
-.black | color: var(--black) | skins
-.near-black | color: var(--near-black) | skins
-.dark-gray | color: var(--dark-gray) | skins
-.mid-gray | color: var(--mid-gray) | skins
-.gray | color: var(--gray) | skins
-.silver | color: var(--silver) | skins
-.light-silver | color: var(--light-silver) | skins
-.moon-gray | color: var(--moon-gray) | skins
-.light-gray | color: var(--light-gray) | skins
-.near-white | color: var(--near-white) | skins
-.white | color: var(--white) | skins
-.dark-red | color: var(--dark-red) | skins
-.red | color: var(--red) | skins
-.light-red | color: var(--light-red) | skins
-.orange | color: var(--orange) | skins
-.gold | color: var(--gold) | skins
-.yellow | color: var(--yellow) | skins
-.light-yellow | color: var(--light-yellow) | skins
-.purple | color: var(--purple) | skins
-.light-purple | color: var(--light-purple) | skins
-.dark-pink | color: var(--dark-pink) | skins
-.hot-pink | color: var(--hot-pink) | skins
-.pink | color: var(--pink) | skins
-.light-pink | color: var(--light-pink) | skins
-.dark-green | color: var(--dark-green) | skins
-.green | color: var(--green) | skins
-.light-green | color: var(--light-green) | skins
-.navy | color: var(--navy) | skins
-.dark-blue | color: var(--dark-blue) | skins
-.blue | color: var(--blue) | skins
-.light-blue | color: var(--light-blue) | skins
-.lightest-blue | color: var(--lightest-blue) | skins
-.washed-blue | color: var(--washed-blue) | skins
-.washed-green | color: var(--washed-green) | skins
-.washed-yellow | color: var(--washed-yellow) | skins
-.washed-red | color: var(--washed-red) | skins
-.color-inherit | color: inherit | skins
-.bg-black-90 | background-color: var(--black-90) | skins
-.bg-black-80 | background-color: var(--black-80) | skins
-.bg-black-70 | background-color: var(--black-70) | skins
-.bg-black-60 | background-color: var(--black-60) | skins
-.bg-black-50 | background-color: var(--black-50) | skins
-.bg-black-40 | background-color: var(--black-40) | skins
-.bg-black-30 | background-color: var(--black-30) | skins
-.bg-black-20 | background-color: var(--black-20) | skins
-.bg-black-10 | background-color: var(--black-10) | skins
-.bg-black-05 | background-color: var(--black-05) | skins
-.bg-white-90 | background-color: var(--white-90) | skins
-.bg-white-80 | background-color: var(--white-80) | skins
-.bg-white-70 | background-color: var(--white-70) | skins
-.bg-white-60 | background-color: var(--white-60) | skins
-.bg-white-50 | background-color: var(--white-50) | skins
-.bg-white-40 | background-color: var(--white-40) | skins
-.bg-white-30 | background-color: var(--white-30) | skins
-.bg-white-20 | background-color: var(--white-20) | skins
-.bg-white-10 | background-color: var(--white-10) | skins
-.bg-black | background-color: var(--black) | skins
-.bg-near-black | background-color: var(--near-black) | skins
-.bg-dark-gray | background-color: var(--dark-gray) | skins
-.bg-mid-gray | background-color: var(--mid-gray) | skins
-.bg-gray | background-color: var(--gray) | skins
-.bg-silver | background-color: var(--silver) | skins
-.bg-light-silver | background-color: var(--light-silver) | skins
-.bg-moon-gray | background-color: var(--moon-gray) | skins
-.bg-light-gray | background-color: var(--light-gray) | skins
-.bg-near-white | background-color: var(--near-white) | skins
-.bg-white | background-color: var(--white) | skins
-.bg-transparent | background-color: var(--transparent) | skins
-.bg-dark-red | background-color: var(--dark-red) | skins
-.bg-red | background-color: var(--red) | skins
-.bg-light-red | background-color: var(--light-red) | skins
-.bg-orange | background-color: var(--orange) | skins
-.bg-gold | background-color: var(--gold) | skins
-.bg-yellow | background-color: var(--yellow) | skins
-.bg-light-yellow | background-color: var(--light-yellow) | skins
-.bg-purple | background-color: var(--purple) | skins
-.bg-light-purple | background-color: var(--light-purple) | skins
-.bg-dark-pink | background-color: var(--dark-pink) | skins
-.bg-hot-pink | background-color: var(--hot-pink) | skins
-.bg-pink | background-color: var(--pink) | skins
-.bg-light-pink | background-color: var(--light-pink) | skins
-.bg-dark-green | background-color: var(--dark-green) | skins
-.bg-green | background-color: var(--green) | skins
-.bg-light-green | background-color: var(--light-green) | skins
-.bg-navy | background-color: var(--navy) | skins
-.bg-dark-blue | background-color: var(--dark-blue) | skins
-.bg-blue | background-color: var(--blue) | skins
-.bg-light-blue | background-color: var(--light-blue) | skins
-.bg-lightest-blue | background-color: var(--lightest-blue) | skins
-.bg-washed-blue | background-color: var(--washed-blue) | skins
-.bg-washed-green | background-color: var(--washed-green) | skins
-.bg-washed-yellow | background-color: var(--washed-yellow) | skins
-.bg-washed-red | background-color: var(--washed-red) | skins
-.bg-inherit | background-color: inherit | skins
-.hover-black:hover,<br />.hover-black:focus | color: var(--black) | skins-pseudo
-.hover-near-black:hover,<br />.hover-near-black:focus | color: var(--near-black) | skins-pseudo
-.hover-dark-gray:hover,<br />.hover-dark-gray:focus | color: var(--dark-gray) | skins-pseudo
-.hover-mid-gray:hover,<br />.hover-mid-gray:focus | color: var(--mid-gray) | skins-pseudo
-.hover-gray:hover,<br />.hover-gray:focus | color: var(--gray) | skins-pseudo
-.hover-silver:hover,<br />.hover-silver:focus | color: var(--silver) | skins-pseudo
-.hover-light-silver:hover,<br />.hover-light-silver:focus | color: var(--light-silver) | skins-pseudo
-.hover-moon-gray:hover,<br />.hover-moon-gray:focus | color: var(--moon-gray) | skins-pseudo
-.hover-light-gray:hover,<br />.hover-light-gray:focus | color: var(--light-gray) | skins-pseudo
-.hover-near-white:hover,<br />.hover-near-white:focus | color: var(--near-white) | skins-pseudo
-.hover-white:hover,<br />.hover-white:focus | color: var(--white) | skins-pseudo
-.hover-black-90:hover,<br />.hover-black-90:focus | color: var(--black-90) | skins-pseudo
-.hover-black-80:hover,<br />.hover-black-80:focus | color: var(--black-80) | skins-pseudo
-.hover-black-70:hover,<br />.hover-black-70:focus | color: var(--black-70) | skins-pseudo
-.hover-black-60:hover,<br />.hover-black-60:focus | color: var(--black-60) | skins-pseudo
-.hover-black-50:hover,<br />.hover-black-50:focus | color: var(--black-50) | skins-pseudo
-.hover-black-40:hover,<br />.hover-black-40:focus | color: var(--black-40) | skins-pseudo
-.hover-black-30:hover,<br />.hover-black-30:focus | color: var(--black-30) | skins-pseudo
-.hover-black-20:hover,<br />.hover-black-20:focus | color: var(--black-20) | skins-pseudo
-.hover-black-10:hover,<br />.hover-black-10:focus | color: var(--black-10) | skins-pseudo
-.hover-white-90:hover,<br />.hover-white-90:focus | color: var(--white-90) | skins-pseudo
-.hover-white-80:hover,<br />.hover-white-80:focus | color: var(--white-80) | skins-pseudo
-.hover-white-70:hover,<br />.hover-white-70:focus | color: var(--white-70) | skins-pseudo
-.hover-white-60:hover,<br />.hover-white-60:focus | color: var(--white-60) | skins-pseudo
-.hover-white-50:hover,<br />.hover-white-50:focus | color: var(--white-50) | skins-pseudo
-.hover-white-40:hover,<br />.hover-white-40:focus | color: var(--white-40) | skins-pseudo
-.hover-white-30:hover,<br />.hover-white-30:focus | color: var(--white-30) | skins-pseudo
-.hover-white-20:hover,<br />.hover-white-20:focus | color: var(--white-20) | skins-pseudo
-.hover-white-10:hover,<br />.hover-white-10:focus | color: var(--white-10) | skins-pseudo
-.hover-inherit:hover,<br />.hover-inherit:focus | color: inherit | skins-pseudo
-.hover-bg-black:hover,<br />.hover-bg-black:focus | background-color: var(--black) | skins-pseudo
-.hover-bg-near-black:hover,<br />.hover-bg-near-black:focus | background-color: var(--near-black) | skins-pseudo
-.hover-bg-dark-gray:hover,<br />.hover-bg-dark-gray:focus | background-color: var(--dark-gray) | skins-pseudo
-.hover-bg-mid-gray:hover,<br />.hover-bg-mid-gray:focus | background-color: var(--mid-gray) | skins-pseudo
-.hover-bg-gray:hover,<br />.hover-bg-gray:focus | background-color: var(--gray) | skins-pseudo
-.hover-bg-silver:hover,<br />.hover-bg-silver:focus | background-color: var(--silver) | skins-pseudo
 .hover-bg-light-silver:hover,<br />.hover-bg-light-silver:focus | background-color: var(--light-silver) | skins-pseudo
 .hover-bg-moon-gray:hover,<br />.hover-bg-moon-gray:focus | background-color: var(--moon-gray) | skins-pseudo
 .hover-bg-light-gray:hover,<br />.hover-bg-light-gray:focus | background-color: var(--light-gray) | skins-pseudo
@@ -966,7 +886,6 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .hover-bg-white-90:hover,<br />.hover-bg-white-90:focus | background-color: var(--white-90) | skins-pseudo
 .hover-bg-white-80:hover,<br />.hover-bg-white-80:focus | background-color: var(--white-80) | skins-pseudo
 .hover-bg-white-70:hover,<br />.hover-bg-white-70:focus | background-color: var(--white-70) | skins-pseudo
-.hover-bg-white-60:hover,<br />.hover-bg-white-60:focus | background-color: var(--white-60) | skins-pseudo
 .hover-bg-white-50:hover,<br />.hover-bg-white-50:focus | background-color: var(--white-50) | skins-pseudo
 .hover-bg-white-40:hover,<br />.hover-bg-white-40:focus | background-color: var(--white-40) | skins-pseudo
 .hover-bg-white-30:hover,<br />.hover-bg-white-30:focus | background-color: var(--white-30) | skins-pseudo
@@ -986,7 +905,7 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .hover-pink:hover,<br />.hover-pink:focus | color: var(--pink) | skins-pseudo
 .hover-light-pink:hover,<br />.hover-light-pink:focus | color: var(--light-pink) | skins-pseudo
 .hover-dark-green:hover,<br />.hover-dark-green:focus | color: var(--dark-green) | skins-pseudo
-.hover-green:hover,<br />.hover-green:focus | color: var(--green) | skins-pseudo
+.hover-black:hover,<br />.hover-black:focus | color: var(--black) | skins-pseudo
 .hover-light-green:hover,<br />.hover-light-green:focus | color: var(--light-green) | skins-pseudo
 .hover-navy:hover,<br />.hover-navy:focus | color: var(--navy) | skins-pseudo
 .hover-dark-blue:hover,<br />.hover-dark-blue:focus | color: var(--dark-blue) | skins-pseudo
@@ -1023,79 +942,156 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .hover-bg-washed-yellow:hover,<br />.hover-bg-washed-yellow:focus | background-color: var(--washed-yellow) | skins-pseudo
 .hover-bg-washed-red:hover,<br />.hover-bg-washed-red:focus | background-color: var(--washed-red) | skins-pseudo
 .hover-bg-inherit:hover,<br />.hover-bg-inherit:focus | background-color: inherit | skins-pseudo
-.pa0 | padding: var(--spacing-none) | spacing
-.pa1 | padding: var(--spacing-extra-small) | spacing
-.pa2 | padding: var(--spacing-small) | spacing
-.pa3 | padding: var(--spacing-medium) | spacing
-.pa4 | padding: var(--spacing-large) | spacing
-.pa5 | padding: var(--spacing-extra-large) | spacing
-.pa6 | padding: var(--spacing-extra-extra-large) | spacing
-.pa7 | padding: var(--spacing-extra-extra-extra-large) | spacing
-.pl0 | padding-left: var(--spacing-none) | spacing
-.pl1 | padding-left: var(--spacing-extra-small) | spacing
-.pl2 | padding-left: var(--spacing-small) | spacing
-.pl3 | padding-left: var(--spacing-medium) | spacing
-.pl4 | padding-left: var(--spacing-large) | spacing
-.pl5 | padding-left: var(--spacing-extra-large) | spacing
-.pl6 | padding-left: var(--spacing-extra-extra-large) | spacing
-.pl7 | padding-left: var(--spacing-extra-extra-extra-large) | spacing
-.pr0 | padding-right: var(--spacing-none) | spacing
-.pr1 | padding-right: var(--spacing-extra-small) | spacing
-.pr2 | padding-right: var(--spacing-small) | spacing
-.pr3 | padding-right: var(--spacing-medium) | spacing
-.pr4 | padding-right: var(--spacing-large) | spacing
-.pr5 | padding-right: var(--spacing-extra-large) | spacing
-.pr6 | padding-right: var(--spacing-extra-extra-large) | spacing
-.pr7 | padding-right: var(--spacing-extra-extra-extra-large) | spacing
-.pb0 | padding-bottom: var(--spacing-none) | spacing
-.pb1 | padding-bottom: var(--spacing-extra-small) | spacing
-.pb2 | padding-bottom: var(--spacing-small) | spacing
-.pb3 | padding-bottom: var(--spacing-medium) | spacing
-.pb4 | padding-bottom: var(--spacing-large) | spacing
-.pb5 | padding-bottom: var(--spacing-extra-large) | spacing
-.pb6 | padding-bottom: var(--spacing-extra-extra-large) | spacing
-.pb7 | padding-bottom: var(--spacing-extra-extra-extra-large) | spacing
-.pt0 | padding-top: var(--spacing-none) | spacing
-.pt1 | padding-top: var(--spacing-extra-small) | spacing
-.pt2 | padding-top: var(--spacing-small) | spacing
-.pt3 | padding-top: var(--spacing-medium) | spacing
-.pt4 | padding-top: var(--spacing-large) | spacing
-.pt5 | padding-top: var(--spacing-extra-large) | spacing
-.pt6 | padding-top: var(--spacing-extra-extra-large) | spacing
-.pt7 | padding-top: var(--spacing-extra-extra-extra-large) | spacing
-.pv0 | padding-top: var(--spacing-none);<br />padding-bottom: var(--spacing-none) | spacing
-.pv1 | padding-top: var(--spacing-extra-small);<br />padding-bottom: var(--spacing-extra-small) | spacing
-.pv2 | padding-top: var(--spacing-small);<br />padding-bottom: var(--spacing-small) | spacing
-.pv3 | padding-top: var(--spacing-medium);<br />padding-bottom: var(--spacing-medium) | spacing
-.pv4 | padding-top: var(--spacing-large);<br />padding-bottom: var(--spacing-large) | spacing
-.pv5 | padding-top: var(--spacing-extra-large);<br />padding-bottom: var(--spacing-extra-large) | spacing
-.pv6 | padding-top: var(--spacing-extra-extra-large);<br />padding-bottom: var(--spacing-extra-extra-large) | spacing
-.pv7 | padding-top: var(--spacing-extra-extra-extra-large);<br />padding-bottom: var(--spacing-extra-extra-extra-large) | spacing
-.ph0 | padding-left: var(--spacing-none);<br />padding-right: var(--spacing-none) | spacing
-.ph1 | padding-left: var(--spacing-extra-small);<br />padding-right: var(--spacing-extra-small) | spacing
-.ph2 | padding-left: var(--spacing-small);<br />padding-right: var(--spacing-small) | spacing
-.ph3 | padding-left: var(--spacing-medium);<br />padding-right: var(--spacing-medium) | spacing
-.ph4 | padding-left: var(--spacing-large);<br />padding-right: var(--spacing-large) | spacing
-.ph5 | padding-left: var(--spacing-extra-large);<br />padding-right: var(--spacing-extra-large) | spacing
-.ph6 | padding-left: var(--spacing-extra-extra-large);<br />padding-right: var(--spacing-extra-extra-large) | spacing
-.ph7 | padding-left: var(--spacing-extra-extra-extra-large);<br />padding-right: var(--spacing-extra-extra-extra-large) | spacing
-.ma0 | margin: var(--spacing-none) | spacing
-.ma1 | margin: var(--spacing-extra-small) | spacing
-.ma2 | margin: var(--spacing-small) | spacing
-.ma3 | margin: var(--spacing-medium) | spacing
-.ma4 | margin: var(--spacing-large) | spacing
-.ma5 | margin: var(--spacing-extra-large) | spacing
-.ma6 | margin: var(--spacing-extra-extra-large) | spacing
-.ma7 | margin: var(--spacing-extra-extra-extra-large) | spacing
-.ml0 | margin-left: var(--spacing-none) | spacing
-.ml1 | margin-left: var(--spacing-extra-small) | spacing
-.ml2 | margin-left: var(--spacing-small) | spacing
-.ml3 | margin-left: var(--spacing-medium) | spacing
-.ml4 | margin-left: var(--spacing-large) | spacing
-.ml5 | margin-left: var(--spacing-extra-large) | spacing
-.ml6 | margin-left: var(--spacing-extra-extra-large) | spacing
-.ml7 | margin-left: var(--spacing-extra-extra-extra-large) | spacing
-.mr0 | margin-right: var(--spacing-none) | spacing
+.hover-bg-white-60:hover,<br />.hover-bg-white-60:focus | background-color: var(--white-60) | skins-pseudo
+.hover-near-black:hover,<br />.hover-near-black:focus | color: var(--near-black) | skins-pseudo
+.hover-dark-gray:hover,<br />.hover-dark-gray:focus | color: var(--dark-gray) | skins-pseudo
+.hover-mid-gray:hover,<br />.hover-mid-gray:focus | color: var(--mid-gray) | skins-pseudo
+.hover-gray:hover,<br />.hover-gray:focus | color: var(--gray) | skins-pseudo
+.hover-silver:hover,<br />.hover-silver:focus | color: var(--silver) | skins-pseudo
+.hover-light-silver:hover,<br />.hover-light-silver:focus | color: var(--light-silver) | skins-pseudo
+.hover-moon-gray:hover,<br />.hover-moon-gray:focus | color: var(--moon-gray) | skins-pseudo
+.hover-light-gray:hover,<br />.hover-light-gray:focus | color: var(--light-gray) | skins-pseudo
+.hover-near-white:hover,<br />.hover-near-white:focus | color: var(--near-white) | skins-pseudo
+.hover-white:hover,<br />.hover-white:focus | color: var(--white) | skins-pseudo
+.hover-black-90:hover,<br />.hover-black-90:focus | color: var(--black-90) | skins-pseudo
+.hover-black-80:hover,<br />.hover-black-80:focus | color: var(--black-80) | skins-pseudo
+.hover-black-70:hover,<br />.hover-black-70:focus | color: var(--black-70) | skins-pseudo
+.hover-black-60:hover,<br />.hover-black-60:focus | color: var(--black-60) | skins-pseudo
+.hover-black-50:hover,<br />.hover-black-50:focus | color: var(--black-50) | skins-pseudo
+.hover-black-40:hover,<br />.hover-black-40:focus | color: var(--black-40) | skins-pseudo
+.hover-black-30:hover,<br />.hover-black-30:focus | color: var(--black-30) | skins-pseudo
+.hover-black-20:hover,<br />.hover-black-20:focus | color: var(--black-20) | skins-pseudo
+.hover-black-10:hover,<br />.hover-black-10:focus | color: var(--black-10) | skins-pseudo
+.hover-white-90:hover,<br />.hover-white-90:focus | color: var(--white-90) | skins-pseudo
+.hover-white-80:hover,<br />.hover-white-80:focus | color: var(--white-80) | skins-pseudo
+.hover-white-70:hover,<br />.hover-white-70:focus | color: var(--white-70) | skins-pseudo
+.hover-white-60:hover,<br />.hover-white-60:focus | color: var(--white-60) | skins-pseudo
+.hover-white-50:hover,<br />.hover-white-50:focus | color: var(--white-50) | skins-pseudo
+.hover-white-40:hover,<br />.hover-white-40:focus | color: var(--white-40) | skins-pseudo
+.hover-white-30:hover,<br />.hover-white-30:focus | color: var(--white-30) | skins-pseudo
+.hover-white-20:hover,<br />.hover-white-20:focus | color: var(--white-20) | skins-pseudo
+.hover-white-10:hover,<br />.hover-white-10:focus | color: var(--white-10) | skins-pseudo
+.hover-inherit:hover,<br />.hover-inherit:focus | color: inherit | skins-pseudo
+.hover-bg-black:hover,<br />.hover-bg-black:focus | background-color: var(--black) | skins-pseudo
+.hover-bg-near-black:hover,<br />.hover-bg-near-black:focus | background-color: var(--near-black) | skins-pseudo
+.hover-bg-dark-gray:hover,<br />.hover-bg-dark-gray:focus | background-color: var(--dark-gray) | skins-pseudo
+.hover-bg-mid-gray:hover,<br />.hover-bg-mid-gray:focus | background-color: var(--mid-gray) | skins-pseudo
+.hover-bg-gray:hover,<br />.hover-bg-gray:focus | background-color: var(--gray) | skins-pseudo
+.hover-bg-silver:hover,<br />.hover-bg-silver:focus | background-color: var(--silver) | skins-pseudo
+.hover-green:hover,<br />.hover-green:focus | color: var(--green) | skins-pseudo
+.bg-washed-green | background-color: var(--washed-green) | skins
+.bg-washed-yellow | background-color: var(--washed-yellow) | skins
+.bg-washed-red | background-color: var(--washed-red) | skins
+.bg-inherit | background-color: inherit | skins
+.light-yellow | color: var(--light-yellow) | skins
+.dark-pink | color: var(--dark-pink) | skins
+.hot-pink | color: var(--hot-pink) | skins
+.pink | color: var(--pink) | skins
+.light-pink | color: var(--light-pink) | skins
+.dark-green | color: var(--dark-green) | skins
+.green | color: var(--green) | skins
+.light-green | color: var(--light-green) | skins
+.navy | color: var(--navy) | skins
+.dark-blue | color: var(--dark-blue) | skins
+.blue | color: var(--blue) | skins
+.light-blue | color: var(--light-blue) | skins
+.lightest-blue | color: var(--lightest-blue) | skins
+.washed-blue | color: var(--washed-blue) | skins
+.washed-green | color: var(--washed-green) | skins
+.washed-yellow | color: var(--washed-yellow) | skins
+.washed-red | color: var(--washed-red) | skins
+.color-inherit | color: inherit | skins
+.bg-black-90 | background-color: var(--black-90) | skins
+.bg-black-80 | background-color: var(--black-80) | skins
+.bg-black-70 | background-color: var(--black-70) | skins
+.bg-black-60 | background-color: var(--black-60) | skins
+.bg-black-50 | background-color: var(--black-50) | skins
+.bg-black-40 | background-color: var(--black-40) | skins
+.bg-black-30 | background-color: var(--black-30) | skins
+.bg-black-20 | background-color: var(--black-20) | skins
+.bg-black-10 | background-color: var(--black-10) | skins
+.bg-black-05 | background-color: var(--black-05) | skins
+.bg-white-90 | background-color: var(--white-90) | skins
+.bg-white-80 | background-color: var(--white-80) | skins
+.bg-white-70 | background-color: var(--white-70) | skins
+.bg-white-60 | background-color: var(--white-60) | skins
+.bg-white-50 | background-color: var(--white-50) | skins
+.bg-white-40 | background-color: var(--white-40) | skins
+.bg-white-30 | background-color: var(--white-30) | skins
+.yellow | color: var(--yellow) | skins
+.purple | color: var(--purple) | skins
+.gold | color: var(--gold) | skins
+.orange | color: var(--orange) | skins
+.light-red | color: var(--light-red) | skins
+.red | color: var(--red) | skins
+.dark-red | color: var(--dark-red) | skins
+.white | color: var(--white) | skins
+.near-white | color: var(--near-white) | skins
+.light-gray | color: var(--light-gray) | skins
+.moon-gray | color: var(--moon-gray) | skins
+.light-silver | color: var(--light-silver) | skins
+.silver | color: var(--silver) | skins
+.gray | color: var(--gray) | skins
+.mid-gray | color: var(--mid-gray) | skins
+.bg-white-20 | background-color: var(--white-20) | skins
+.bg-white-10 | background-color: var(--white-10) | skins
+.bg-black | background-color: var(--black) | skins
+.bg-near-black | background-color: var(--near-black) | skins
+.bg-dark-gray | background-color: var(--dark-gray) | skins
+.bg-mid-gray | background-color: var(--mid-gray) | skins
+.bg-gray | background-color: var(--gray) | skins
+.bg-silver | background-color: var(--silver) | skins
+.bg-light-silver | background-color: var(--light-silver) | skins
+.bg-moon-gray | background-color: var(--moon-gray) | skins
+.bg-light-gray | background-color: var(--light-gray) | skins
+.bg-near-white | background-color: var(--near-white) | skins
+.bg-white | background-color: var(--white) | skins
+.bg-transparent | background-color: var(--transparent) | skins
+.bg-dark-red | background-color: var(--dark-red) | skins
+.bg-red | background-color: var(--red) | skins
+.bg-light-red | background-color: var(--light-red) | skins
+.bg-orange | background-color: var(--orange) | skins
+.dark-gray | color: var(--dark-gray) | skins
+.bg-gold | background-color: var(--gold) | skins
+.light-purple | color: var(--light-purple) | skins
+.bg-yellow | background-color: var(--yellow) | skins
+.bg-light-yellow | background-color: var(--light-yellow) | skins
+.bg-purple | background-color: var(--purple) | skins
+.bg-light-purple | background-color: var(--light-purple) | skins
+.bg-dark-pink | background-color: var(--dark-pink) | skins
+.bg-hot-pink | background-color: var(--hot-pink) | skins
+.bg-pink | background-color: var(--pink) | skins
+.bg-light-pink | background-color: var(--light-pink) | skins
+.bg-dark-green | background-color: var(--dark-green) | skins
+.bg-green | background-color: var(--green) | skins
+.bg-light-green | background-color: var(--light-green) | skins
+.bg-navy | background-color: var(--navy) | skins
+.bg-dark-blue | background-color: var(--dark-blue) | skins
+.bg-blue | background-color: var(--blue) | skins
+.bg-light-blue | background-color: var(--light-blue) | skins
+.bg-lightest-blue | background-color: var(--lightest-blue) | skins
+.bg-washed-blue | background-color: var(--washed-blue) | skins
+.black-90 | color: var(--black-90) | skins
+.black-80 | color: var(--black-80) | skins
+.black-70 | color: var(--black-70) | skins
+.black-60 | color: var(--black-60) | skins
+.black-50 | color: var(--black-50) | skins
+.black-40 | color: var(--black-40) | skins
+.black-30 | color: var(--black-30) | skins
+.black-20 | color: var(--black-20) | skins
+.black-10 | color: var(--black-10) | skins
+.black-05 | color: var(--black-05) | skins
+.white-90 | color: var(--white-90) | skins
+.white-80 | color: var(--white-80) | skins
+.white-70 | color: var(--white-70) | skins
+.white-60 | color: var(--white-60) | skins
+.white-50 | color: var(--white-50) | skins
+.white-40 | color: var(--white-40) | skins
+.white-30 | color: var(--white-30) | skins
+.white-20 | color: var(--white-20) | skins
+.white-10 | color: var(--white-10) | skins
+.black | color: var(--black) | skins
+.near-black | color: var(--near-black) | skins
 .mr1 | margin-right: var(--spacing-extra-small) | spacing
 .mr2 | margin-right: var(--spacing-small) | spacing
 .mr3 | margin-right: var(--spacing-medium) | spacing
@@ -1232,7 +1228,7 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .mt6-m | margin-top: var(--spacing-extra-extra-large) | spacing
 .mt7-m | margin-top: var(--spacing-extra-extra-extra-large) | spacing
 .mv0-m | margin-top: var(--spacing-none);<br />margin-bottom: var(--spacing-none) | spacing
-.mv1-m | margin-top: var(--spacing-extra-small);<br />margin-bottom: var(--spacing-extra-small) | spacing
+.pa0 | padding: var(--spacing-none) | spacing
 .mv2-m | margin-top: var(--spacing-small);<br />margin-bottom: var(--spacing-small) | spacing
 .mv3-m | margin-top: var(--spacing-medium);<br />margin-bottom: var(--spacing-medium) | spacing
 .mv4-m | margin-top: var(--spacing-large);<br />margin-bottom: var(--spacing-large) | spacing
@@ -1359,118 +1355,100 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .mh5-l | margin-left: var(--spacing-extra-large);<br />margin-right: var(--spacing-extra-large) | spacing
 .mh6-l | margin-left: var(--spacing-extra-extra-large);<br />margin-right: var(--spacing-extra-extra-large) | spacing
 .mh7-l | margin-left: var(--spacing-extra-extra-extra-large);<br />margin-right: var(--spacing-extra-extra-extra-large) | spacing
-.na1 | margin: -var(--spacing-extra-small) | negative-margins
-.na2 | margin: -var(--spacing-small) | negative-margins
-.na3 | margin: -var(--spacing-medium) | negative-margins
-.na4 | margin: -var(--spacing-large) | negative-margins
-.na5 | margin: -var(--spacing-extra-large) | negative-margins
-.na6 | margin: -var(--spacing-extra-extra-large) | negative-margins
-.na7 | margin: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nl1 | margin-left: -var(--spacing-extra-small) | negative-margins
-.nl2 | margin-left: -var(--spacing-small) | negative-margins
-.nl3 | margin-left: -var(--spacing-medium) | negative-margins
-.nl4 | margin-left: -var(--spacing-large) | negative-margins
-.nl5 | margin-left: -var(--spacing-extra-large) | negative-margins
-.nl6 | margin-left: -var(--spacing-extra-extra-large) | negative-margins
-.nl7 | margin-left: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nr1 | margin-right: -var(--spacing-extra-small) | negative-margins
-.nr2 | margin-right: -var(--spacing-small) | negative-margins
-.nr3 | margin-right: -var(--spacing-medium) | negative-margins
-.nr4 | margin-right: -var(--spacing-large) | negative-margins
-.nr5 | margin-right: -var(--spacing-extra-large) | negative-margins
-.nr6 | margin-right: -var(--spacing-extra-extra-large) | negative-margins
-.nr7 | margin-right: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nb1 | margin-bottom: -var(--spacing-extra-small) | negative-margins
-.nb2 | margin-bottom: -var(--spacing-small) | negative-margins
-.nb3 | margin-bottom: -var(--spacing-medium) | negative-margins
-.nb4 | margin-bottom: -var(--spacing-large) | negative-margins
-.nb5 | margin-bottom: -var(--spacing-extra-large) | negative-margins
-.nb6 | margin-bottom: -var(--spacing-extra-extra-large) | negative-margins
-.nb7 | margin-bottom: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nt1 | margin-top: -var(--spacing-extra-small) | negative-margins
-.nt2 | margin-top: -var(--spacing-small) | negative-margins
-.nt3 | margin-top: -var(--spacing-medium) | negative-margins
-.nt4 | margin-top: -var(--spacing-large) | negative-margins
-.nt5 | margin-top: -var(--spacing-extra-large) | negative-margins
-.nt6 | margin-top: -var(--spacing-extra-extra-large) | negative-margins
-.nt7 | margin-top: -var(--spacing-extra-extra-extra-large) | negative-margins
-.na1-m | margin: -var(--spacing-extra-small) | negative-margins
-.na2-m | margin: -var(--spacing-small) | negative-margins
-.na3-m | margin: -var(--spacing-medium) | negative-margins
-.na4-m | margin: -var(--spacing-large) | negative-margins
-.na5-m | margin: -var(--spacing-extra-large) | negative-margins
-.na6-m | margin: -var(--spacing-extra-extra-large) | negative-margins
-.na7-m | margin: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nl1-m | margin-left: -var(--spacing-extra-small) | negative-margins
-.nl2-m | margin-left: -var(--spacing-small) | negative-margins
-.nl3-m | margin-left: -var(--spacing-medium) | negative-margins
-.nl4-m | margin-left: -var(--spacing-large) | negative-margins
-.nl5-m | margin-left: -var(--spacing-extra-large) | negative-margins
-.nl6-m | margin-left: -var(--spacing-extra-extra-large) | negative-margins
-.nl7-m | margin-left: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nr1-m | margin-right: -var(--spacing-extra-small) | negative-margins
-.nr2-m | margin-right: -var(--spacing-small) | negative-margins
-.nr3-m | margin-right: -var(--spacing-medium) | negative-margins
-.nr4-m | margin-right: -var(--spacing-large) | negative-margins
-.nr5-m | margin-right: -var(--spacing-extra-large) | negative-margins
-.nr6-m | margin-right: -var(--spacing-extra-extra-large) | negative-margins
-.nr7-m | margin-right: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nb1-m | margin-bottom: -var(--spacing-extra-small) | negative-margins
-.nb2-m | margin-bottom: -var(--spacing-small) | negative-margins
-.nb3-m | margin-bottom: -var(--spacing-medium) | negative-margins
-.nb4-m | margin-bottom: -var(--spacing-large) | negative-margins
-.nb5-m | margin-bottom: -var(--spacing-extra-large) | negative-margins
-.nb6-m | margin-bottom: -var(--spacing-extra-extra-large) | negative-margins
-.nb7-m | margin-bottom: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nt1-m | margin-top: -var(--spacing-extra-small) | negative-margins
-.nt2-m | margin-top: -var(--spacing-small) | negative-margins
-.nt3-m | margin-top: -var(--spacing-medium) | negative-margins
-.nt4-m | margin-top: -var(--spacing-large) | negative-margins
-.nt5-m | margin-top: -var(--spacing-extra-large) | negative-margins
-.nt6-m | margin-top: -var(--spacing-extra-extra-large) | negative-margins
-.nt7-m | margin-top: -var(--spacing-extra-extra-extra-large) | negative-margins
-.na1-l | margin: -var(--spacing-extra-small) | negative-margins
-.na2-l | margin: -var(--spacing-small) | negative-margins
-.na3-l | margin: -var(--spacing-medium) | negative-margins
-.na4-l | margin: -var(--spacing-large) | negative-margins
-.na5-l | margin: -var(--spacing-extra-large) | negative-margins
-.na6-l | margin: -var(--spacing-extra-extra-large) | negative-margins
-.na7-l | margin: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nl1-l | margin-left: -var(--spacing-extra-small) | negative-margins
-.nl2-l | margin-left: -var(--spacing-small) | negative-margins
-.nl3-l | margin-left: -var(--spacing-medium) | negative-margins
-.nl4-l | margin-left: -var(--spacing-large) | negative-margins
-.nl5-l | margin-left: -var(--spacing-extra-large) | negative-margins
-.nl6-l | margin-left: -var(--spacing-extra-extra-large) | negative-margins
-.nl7-l | margin-left: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nr1-l | margin-right: -var(--spacing-extra-small) | negative-margins
-.nr2-l | margin-right: -var(--spacing-small) | negative-margins
-.nr3-l | margin-right: -var(--spacing-medium) | negative-margins
-.nr4-l | margin-right: -var(--spacing-large) | negative-margins
-.nr5-l | margin-right: -var(--spacing-extra-large) | negative-margins
-.nr6-l | margin-right: -var(--spacing-extra-extra-large) | negative-margins
-.nr7-l | margin-right: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nb1-l | margin-bottom: -var(--spacing-extra-small) | negative-margins
-.nb2-l | margin-bottom: -var(--spacing-small) | negative-margins
-.nb3-l | margin-bottom: -var(--spacing-medium) | negative-margins
-.nb4-l | margin-bottom: -var(--spacing-large) | negative-margins
-.nb5-l | margin-bottom: -var(--spacing-extra-large) | negative-margins
-.nb6-l | margin-bottom: -var(--spacing-extra-extra-large) | negative-margins
-.nb7-l | margin-bottom: -var(--spacing-extra-extra-extra-large) | negative-margins
-.nt1-l | margin-top: -var(--spacing-extra-small) | negative-margins
-.nt2-l | margin-top: -var(--spacing-small) | negative-margins
-.nt3-l | margin-top: -var(--spacing-medium) | negative-margins
-.nt4-l | margin-top: -var(--spacing-large) | negative-margins
-.nt5-l | margin-top: -var(--spacing-extra-large) | negative-margins
-.nt6-l | margin-top: -var(--spacing-extra-extra-large) | negative-margins
-.nt7-l | margin-top: -var(--spacing-extra-extra-extra-large) | negative-margins
+.pa1 | padding: var(--spacing-extra-small) | spacing
+.pa2 | padding: var(--spacing-small) | spacing
+.pa3 | padding: var(--spacing-medium) | spacing
+.pa4 | padding: var(--spacing-large) | spacing
+.pa5 | padding: var(--spacing-extra-large) | spacing
+.pa6 | padding: var(--spacing-extra-extra-large) | spacing
+.pa7 | padding: var(--spacing-extra-extra-extra-large) | spacing
+.pl0 | padding-left: var(--spacing-none) | spacing
+.pl1 | padding-left: var(--spacing-extra-small) | spacing
+.pl2 | padding-left: var(--spacing-small) | spacing
+.pl3 | padding-left: var(--spacing-medium) | spacing
+.pl4 | padding-left: var(--spacing-large) | spacing
+.pl5 | padding-left: var(--spacing-extra-large) | spacing
+.pl6 | padding-left: var(--spacing-extra-extra-large) | spacing
+.pl7 | padding-left: var(--spacing-extra-extra-extra-large) | spacing
+.pr0 | padding-right: var(--spacing-none) | spacing
+.pr1 | padding-right: var(--spacing-extra-small) | spacing
+.pr2 | padding-right: var(--spacing-small) | spacing
+.pr3 | padding-right: var(--spacing-medium) | spacing
+.pr4 | padding-right: var(--spacing-large) | spacing
+.pr5 | padding-right: var(--spacing-extra-large) | spacing
+.pr6 | padding-right: var(--spacing-extra-extra-large) | spacing
+.pr7 | padding-right: var(--spacing-extra-extra-extra-large) | spacing
+.pb0 | padding-bottom: var(--spacing-none) | spacing
+.pb1 | padding-bottom: var(--spacing-extra-small) | spacing
+.pb2 | padding-bottom: var(--spacing-small) | spacing
+.pb3 | padding-bottom: var(--spacing-medium) | spacing
+.pb4 | padding-bottom: var(--spacing-large) | spacing
+.pb5 | padding-bottom: var(--spacing-extra-large) | spacing
+.pb6 | padding-bottom: var(--spacing-extra-extra-large) | spacing
+.pb7 | padding-bottom: var(--spacing-extra-extra-extra-large) | spacing
+.pt0 | padding-top: var(--spacing-none) | spacing
+.pt1 | padding-top: var(--spacing-extra-small) | spacing
+.pt2 | padding-top: var(--spacing-small) | spacing
+.pt3 | padding-top: var(--spacing-medium) | spacing
+.pt4 | padding-top: var(--spacing-large) | spacing
+.pt5 | padding-top: var(--spacing-extra-large) | spacing
+.pt6 | padding-top: var(--spacing-extra-extra-large) | spacing
+.pt7 | padding-top: var(--spacing-extra-extra-extra-large) | spacing
+.pv0 | padding-top: var(--spacing-none);<br />padding-bottom: var(--spacing-none) | spacing
+.pv1 | padding-top: var(--spacing-extra-small);<br />padding-bottom: var(--spacing-extra-small) | spacing
+.pv2 | padding-top: var(--spacing-small);<br />padding-bottom: var(--spacing-small) | spacing
+.pv3 | padding-top: var(--spacing-medium);<br />padding-bottom: var(--spacing-medium) | spacing
+.pv4 | padding-top: var(--spacing-large);<br />padding-bottom: var(--spacing-large) | spacing
+.pv5 | padding-top: var(--spacing-extra-large);<br />padding-bottom: var(--spacing-extra-large) | spacing
+.pv6 | padding-top: var(--spacing-extra-extra-large);<br />padding-bottom: var(--spacing-extra-extra-large) | spacing
+.pv7 | padding-top: var(--spacing-extra-extra-extra-large);<br />padding-bottom: var(--spacing-extra-extra-extra-large) | spacing
+.ph0 | padding-left: var(--spacing-none);<br />padding-right: var(--spacing-none) | spacing
+.ph1 | padding-left: var(--spacing-extra-small);<br />padding-right: var(--spacing-extra-small) | spacing
+.ph2 | padding-left: var(--spacing-small);<br />padding-right: var(--spacing-small) | spacing
+.ph3 | padding-left: var(--spacing-medium);<br />padding-right: var(--spacing-medium) | spacing
+.ph4 | padding-left: var(--spacing-large);<br />padding-right: var(--spacing-large) | spacing
+.ph5 | padding-left: var(--spacing-extra-large);<br />padding-right: var(--spacing-extra-large) | spacing
+.ph6 | padding-left: var(--spacing-extra-extra-large);<br />padding-right: var(--spacing-extra-extra-large) | spacing
+.ph7 | padding-left: var(--spacing-extra-extra-extra-large);<br />padding-right: var(--spacing-extra-extra-extra-large) | spacing
+.ma0 | margin: var(--spacing-none) | spacing
+.ma1 | margin: var(--spacing-extra-small) | spacing
+.ma2 | margin: var(--spacing-small) | spacing
+.ma3 | margin: var(--spacing-medium) | spacing
+.ma4 | margin: var(--spacing-large) | spacing
+.ma5 | margin: var(--spacing-extra-large) | spacing
+.ma6 | margin: var(--spacing-extra-extra-large) | spacing
+.ma7 | margin: var(--spacing-extra-extra-extra-large) | spacing
+.ml0 | margin-left: var(--spacing-none) | spacing
+.ml1 | margin-left: var(--spacing-extra-small) | spacing
+.ml2 | margin-left: var(--spacing-small) | spacing
+.ml3 | margin-left: var(--spacing-medium) | spacing
+.ml4 | margin-left: var(--spacing-large) | spacing
+.ml5 | margin-left: var(--spacing-extra-large) | spacing
+.ml6 | margin-left: var(--spacing-extra-extra-large) | spacing
+.ml7 | margin-left: var(--spacing-extra-extra-extra-large) | spacing
+.mr0 | margin-right: var(--spacing-none) | spacing
+.mv1-m | margin-top: var(--spacing-extra-small);<br />margin-bottom: var(--spacing-extra-small) | spacing
+.stripe-light:nth-child(odd) | background-color: var(--white-10) | tables
+.stripe-dark:nth-child(odd) | background-color: var(--black-10) | tables
+.striped--near-white:nth-child(odd) | background-color: var(--near-white) | tables
+.striped--light-gray:nth-child(odd) | background-color: var(--light-gray) | tables
 .collapse | border-collapse: collapse;<br />border-spacing: 0 | tables
 .striped--light-silver:nth-child(odd) | background-color: var(--light-silver) | tables
 .striped--moon-gray:nth-child(odd) | background-color: var(--moon-gray) | tables
-.striped--light-gray:nth-child(odd) | background-color: var(--light-gray) | tables
-.striped--near-white:nth-child(odd) | background-color: var(--near-white) | tables
-.stripe-light:nth-child(odd) | background-color: var(--white-10) | tables
-.stripe-dark:nth-child(odd) | background-color: var(--black-10) | tables
+.tr | text-align: right | text-align
+.tl-l | text-align: left | text-align
+.tj-l | text-align: justify | text-align
+.tc-l | text-align: center | text-align
+.tj-m | text-align: justify | text-align
+.tl | text-align: left | text-align
+.tr-l | text-align: right | text-align
+.tc | text-align: center | text-align
+.tj | text-align: justify | text-align
+.tl-m | text-align: left | text-align
+.tr-m | text-align: right | text-align
+.tc-m | text-align: center | text-align
+.underline-l | text-decoration: underline | text-decoration
+.no-underline-l | text-decoration: none | text-decoration
 .strike | text-decoration: line-through | text-decoration
 .underline | text-decoration: underline | text-decoration
 .no-underline | text-decoration: none | text-decoration
@@ -1478,62 +1456,47 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .underline-m | text-decoration: underline | text-decoration
 .no-underline-m | text-decoration: none | text-decoration
 .strike-l | text-decoration: line-through | text-decoration
-.underline-l | text-decoration: underline | text-decoration
-.no-underline-l | text-decoration: none | text-decoration
-.tl | text-align: left | text-align
-.tr | text-align: right | text-align
-.tc | text-align: center | text-align
-.tj | text-align: justify | text-align
-.tl-m | text-align: left | text-align
-.tr-m | text-align: right | text-align
-.tc-m | text-align: center | text-align
-.tj-m | text-align: justify | text-align
-.tl-l | text-align: left | text-align
-.tr-l | text-align: right | text-align
-.tc-l | text-align: center | text-align
-.tj-l | text-align: justify | text-align
-.ttc | text-transform: capitalize | text-transform
 .ttl | text-transform: lowercase | text-transform
+.ttn-l | text-transform: none | text-transform
+.ttc-l | text-transform: capitalize | text-transform
+.ttl-l | text-transform: lowercase | text-transform
+.ttu-l | text-transform: uppercase | text-transform
+.ttc | text-transform: capitalize | text-transform
+.ttn-m | text-transform: none | text-transform
 .ttu | text-transform: uppercase | text-transform
 .ttn | text-transform: none | text-transform
 .ttc-m | text-transform: capitalize | text-transform
 .ttl-m | text-transform: lowercase | text-transform
 .ttu-m | text-transform: uppercase | text-transform
-.ttn-m | text-transform: none | text-transform
-.ttc-l | text-transform: capitalize | text-transform
-.ttl-l | text-transform: lowercase | text-transform
-.ttu-l | text-transform: uppercase | text-transform
-.ttn-l | text-transform: none | text-transform
-.f-6,<br />.f-headline | font-size: 6rem | type-scale
-.f-5,<br />.f-subheadline | font-size: 5rem | type-scale
-.f1 | font-size: 3rem | type-scale
-.f2 | font-size: 2.25rem | type-scale
-.f3 | font-size: 1.5rem | type-scale
-.f4 | font-size: 1.25rem | type-scale
-.f5 | font-size: 1rem | type-scale
-.f6 | font-size: .875rem | type-scale
-.f7 | font-size: .75rem | type-scale
-.f-6-m,<br />  .f-headline-m | font-size: 6rem | type-scale
-.f-5-m,<br />  .f-subheadline-m | font-size: 5rem | type-scale
-.f1-m | font-size: 3rem | type-scale
-.f2-m | font-size: 2.25rem | type-scale
 .f3-m | font-size: 1.5rem | type-scale
-.f4-m | font-size: 1.25rem | type-scale
-.f5-m | font-size: 1rem | type-scale
-.f6-m | font-size: .875rem | type-scale
-.f7-m | font-size: .75rem | type-scale
-.f-6-l,<br />  .f-headline-l | font-size: 6rem | type-scale
-.f-5-l,<br />  .f-subheadline-l | font-size: 5rem | type-scale
-.f1-l | font-size: 3rem | type-scale
-.f2-l | font-size: 2.25rem | type-scale
-.f3-l | font-size: 1.5rem | type-scale
-.f4-l | font-size: 1.25rem | type-scale
-.f5-l | font-size: 1rem | type-scale
-.f6-l | font-size: .875rem | type-scale
+.f2-m | font-size: 2.25rem | type-scale
+.f1-m | font-size: 3rem | type-scale
+.f-5-m,<br />  .f-subheadline-m | font-size: 5rem | type-scale
+.f-6-m,<br />  .f-headline-m | font-size: 6rem | type-scale
+.f7 | font-size: .75rem | type-scale
+.f6 | font-size: .875rem | type-scale
+.f5 | font-size: 1rem | type-scale
+.f4 | font-size: 1.25rem | type-scale
+.f3 | font-size: 1.5rem | type-scale
+.f2 | font-size: 2.25rem | type-scale
+.f1 | font-size: 3rem | type-scale
+.f-5,<br />.f-subheadline | font-size: 5rem | type-scale
+.f-6,<br />.f-headline | font-size: 6rem | type-scale
 .f7-l | font-size: .75rem | type-scale
-.measure | max-width: 30em | typography
-.measure-wide | max-width: 34em | typography
-.measure-narrow | max-width: 20em | typography
+.f6-l | font-size: .875rem | type-scale
+.f5-l | font-size: 1rem | type-scale
+.f4-l | font-size: 1.25rem | type-scale
+.f3-l | font-size: 1.5rem | type-scale
+.f2-l | font-size: 2.25rem | type-scale
+.f1-l | font-size: 3rem | type-scale
+.f-5-l,<br />  .f-subheadline-l | font-size: 5rem | type-scale
+.f-6-l,<br />  .f-headline-l | font-size: 6rem | type-scale
+.f7-m | font-size: .75rem | type-scale
+.f6-m | font-size: .875rem | type-scale
+.f5-m | font-size: 1rem | type-scale
+.f4-m | font-size: 1.25rem | type-scale
+.small-caps-m | font-variant: small-caps | typography
+.measure-narrow-l | max-width: 20em | typography
 .indent | text-indent: 1em;<br />margin-top: 0;<br />margin-bottom: 0 | typography
 .small-caps | font-variant: small-caps | typography
 .truncate | white-space: nowrap;<br />overflow: hidden;<br />text-overflow: ellipsis | typography
@@ -1541,14 +1504,15 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .measure-wide-m | max-width: 34em | typography
 .measure-narrow-m | max-width: 20em | typography
 .indent-m | text-indent: 1em;<br />margin-top: 0;<br />margin-bottom: 0 | typography
-.small-caps-m | font-variant: small-caps | typography
+.measure-narrow | max-width: 20em | typography
 .truncate-m | white-space: nowrap;<br />overflow: hidden;<br />text-overflow: ellipsis | typography
 .measure-l | max-width: 30em | typography
 .measure-wide-l | max-width: 34em | typography
-.measure-narrow-l | max-width: 20em | typography
+.measure-wide | max-width: 34em | typography
 .indent-l | text-indent: 1em;<br />margin-top: 0;<br />margin-bottom: 0 | typography
 .small-caps-l | font-variant: small-caps | typography
 .truncate-l | white-space: nowrap;<br />overflow: hidden;<br />text-overflow: ellipsis | typography
+.measure | max-width: 30em | typography
 .overflow-container | overflow-y: scroll | utilities
 .center | margin-right: auto;<br />margin-left: auto | utilities
 .mr-auto | margin-right: auto | utilities
@@ -1559,69 +1523,105 @@ code, .code | font-family: Consolas,<br />               monaco,<br />          
 .center-l | margin-right: auto;<br />margin-left: auto | utilities
 .mr-auto-l | margin-right: auto | utilities
 .ml-auto-l | margin-left: auto | utilities
-.clip | position: fixed;<br />position: absolute;<br />clip: rect(1px 1px 1px 1px);<br />clip: rect(1px, 1px, 1px, 1px) | visibility
-.clip-m | position: fixed;<br />position: absolute;<br />clip: rect(1px 1px 1px 1px);<br />clip: rect(1px, 1px, 1px, 1px) | visibility
-.clip-l | position: fixed;<br />position: absolute;<br />clip: rect(1px 1px 1px 1px);<br />clip: rect(1px, 1px, 1px, 1px) | visibility
-.ws-normal | white-space: normal | white-space
-.nowrap | white-space: nowrap | white-space
-.pre | white-space: pre | white-space
-.ws-normal-m | white-space: normal | white-space
-.nowrap-m | white-space: nowrap | white-space
-.pre-m | white-space: pre | white-space
-.ws-normal-l | white-space: normal | white-space
-.nowrap-l | white-space: nowrap | white-space
-.pre-l | white-space: pre | white-space
-.v-base | vertical-align: baseline | vertical-align
-.v-mid | vertical-align: middle | vertical-align
-.v-top | vertical-align: top | vertical-align
-.v-btm | vertical-align: bottom | vertical-align
-.v-base-m | vertical-align: baseline | vertical-align
-.v-mid-m | vertical-align: middle | vertical-align
-.v-top-m | vertical-align: top | vertical-align
-.v-btm-m | vertical-align: bottom | vertical-align
-.v-base-l | vertical-align: baseline | vertical-align
-.v-mid-l | vertical-align: middle | vertical-align
-.v-top-l | vertical-align: top | vertical-align
 .v-btm-l | vertical-align: bottom | vertical-align
-.dim | opacity: 1;<br />transition: opacity .15s ease-in | hovers
-.dim:hover,<br />.dim:focus | opacity: .5;<br />transition: opacity .15s ease-in | hovers
-.dim:active | opacity: .8;<br />transition: opacity .15s ease-out | hovers
-.glow | transition: opacity .15s ease-in | hovers
-.glow:hover,<br />.glow:focus | opacity: 1;<br />transition: opacity .15s ease-in | hovers
-.hide-child .child | opacity: 0;<br />transition: opacity .15s ease-in | hovers
-.hide-child:hover  .child,<br />.hide-child:focus  .child,<br />.hide-child:active .child | opacity: 1;<br />transition: opacity .15s ease-in | hovers
-.underline-hover:hover,<br />.underline-hover:focus | text-decoration: underline | hovers
-.grow | -moz-osx-font-smoothing: grayscale;<br />backface-visibility: hidden;<br />transform: translateZ(0);<br />transition: transform 0.25s ease-out | hovers
-.grow:hover,<br />.grow:focus | transform: scale(1.05) | hovers
-.grow:active | transform: scale(.90) | hovers
-.grow-large | -moz-osx-font-smoothing: grayscale;<br />backface-visibility: hidden;<br />transform: translateZ(0);<br />transition: transform .25s ease-in-out | hovers
-.grow-large:hover,<br />.grow-large:focus | transform: scale(1.2) | hovers
-.grow-large:active | transform: scale(.95) | hovers
-.pointer:hover | cursor: pointer | hovers
-.shadow-hover | cursor: pointer;<br />position: relative;<br />transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) | hovers
-.shadow-hover::after | content: '';<br />box-shadow: 0px 0px 16px 2px rgba( 0, 0, 0, .2 );<br />border-radius: inherit;<br />opacity: 0;<br />position: absolute;<br />top: 0;<br />left: 0;<br />width: 100%;<br />height: 100%;<br />z-index: -1;<br />transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) | hovers
-.shadow-hover:hover::after,<br />.shadow-hover:focus::after | opacity: 1 | hovers
-.bg-animate,<br />.bg-animate:hover,<br />.bg-animate:focus | transition: background-color .15s ease-in-out | hovers
-.z-0 | z-index: 0 | z-index
-.z-1 | z-index: 1 | z-index
-.z-2 | z-index: 2 | z-index
-.z-3 | z-index: 3 | z-index
-.z-4 | z-index: 4 | z-index
-.z-5 | z-index: 5 | z-index
-.z-999 | z-index: 999 | z-index
-.z-9999 | z-index: 9999 | z-index
-.z-max | z-index: 2147483647 | z-index
-.z-inherit | z-index: inherit | z-index
-.z-initial | z-index: initial | z-index
+.v-top-l | vertical-align: top | vertical-align
+.v-mid-l | vertical-align: middle | vertical-align
+.v-base-l | vertical-align: baseline | vertical-align
+.v-btm-m | vertical-align: bottom | vertical-align
+.v-top-m | vertical-align: top | vertical-align
+.v-mid-m | vertical-align: middle | vertical-align
+.v-base-m | vertical-align: baseline | vertical-align
+.v-btm | vertical-align: bottom | vertical-align
+.v-top | vertical-align: top | vertical-align
+.v-mid | vertical-align: middle | vertical-align
+.v-base | vertical-align: baseline | vertical-align
+.clip-l | position: fixed;<br />position: absolute;<br />clip: rect(1px 1px 1px 1px);<br />clip: rect(1px, 1px, 1px, 1px) | visibility
+.clip-m | position: fixed;<br />position: absolute;<br />clip: rect(1px 1px 1px 1px);<br />clip: rect(1px, 1px, 1px, 1px) | visibility
+.clip | position: fixed;<br />position: absolute;<br />clip: rect(1px 1px 1px 1px);<br />clip: rect(1px, 1px, 1px, 1px) | visibility
+.nowrap | white-space: nowrap | white-space
+.nowrap-m | white-space: nowrap | white-space
+.ws-normal-m | white-space: normal | white-space
+.nowrap-l | white-space: nowrap | white-space
+.ws-normal | white-space: normal | white-space
+.pre-l | white-space: pre | white-space
+.ws-normal-l | white-space: normal | white-space
+.pre-m | white-space: pre | white-space
+.pre | white-space: pre | white-space
+.w-40 | width: 40% | widths
+.w-34 | width: 34% | widths
+.w-33 | width: 33% | widths
+.w-30 | width: 30% | widths
+.w1 | width: 1rem | widths
+.w2 | width: 2rem | widths
+.w3 | width: 4rem | widths
+.w4 | width: 8rem | widths
+.w5 | width: 16rem | widths
+.w-10 | width: 10% | widths
+.w-20 | width: 20% | widths
+.w-34-m | width: 34% | widths
+.w-30-m | width: 30% | widths
+.w-33-m | width: 33% | widths
+.w-25-m | width: 25% | widths
+.w-20-m | width: 20% | widths
+.w-10-m | width: 10% | widths
+.w5-m | width: 16rem | widths
+.w4-m | width: 8rem | widths
+.w3-m | width: 4rem | widths
+.w2-m | width: 2rem | widths
+.w1-m | width: 1rem | widths
+.w-auto | width: auto | widths
+.w-two-thirds | width: calc(100% / 1.5) | widths
+.w-third | width: calc(100% / 3) | widths
+.w-100 | width: 100% | widths
+.w-90 | width: 90% | widths
+.w-80 | width: 80% | widths
+.w-75 | width: 75% | widths
+.w-70 | width: 70% | widths
+.w-60 | width: 60% | widths
+.w-50 | width: 50% | widths
+.w-40-m | width: 40% | widths
+.w-50-m | width: 50% | widths
+.w-60-m | width: 60% | widths
+.w-70-m | width: 70% | widths
+.w-75-m | width: 75% | widths
+.w-80-m | width: 80% | widths
+.w-90-m | width: 90% | widths
+.w-100-m | width: 100% | widths
+.w-third-m | width: calc(100% / 3) | widths
+.w-two-thirds-m | width: calc(100% / 1.5) | widths
+.w-auto-m | width: auto | widths
+.w1-l | width: 1rem | widths
+.w2-l | width: 2rem | widths
+.w3-l | width: 4rem | widths
+.w4-l | width: 8rem | widths
+.w5-l | width: 16rem | widths
+.w-10-l | width: 10% | widths
+.w-20-l | width: 20% | widths
+.w-25-l | width: 25% | widths
+.w-auto-l | width: auto | widths
+.w-two-thirds-l | width: calc(100% / 1.5) | widths
+.w-third-l | width: calc(100% / 3) | widths
+.w-100-l | width: 100% | widths
+.w-90-l | width: 90% | widths
+.w-80-l | width: 80% | widths
+.w-75-l | width: 75% | widths
+.w-70-l | width: 70% | widths
+.w-60-l | width: 60% | widths
+.w-50-l | width: 50% | widths
+.w-40-l | width: 40% | widths
+.w-34-l | width: 34% | widths
+.w-30-l | width: 30% | widths
+.w-33-l | width: 33% | widths
+.w-25 | width: 25% | widths
 .z-unset | z-index: unset | z-index
-.nested-copy-line-height p,<br />.nested-copy-line-height ul,<br />.nested-copy-line-height ol | line-height: 1.5 | nested
-.nested-headline-line-height h1,<br />.nested-headline-line-height h2,<br />.nested-headline-line-height h3,<br />.nested-headline-line-height h4,<br />.nested-headline-line-height h5,<br />.nested-headline-line-height h6 | line-height: 1.25 | nested
-.nested-list-reset ul,<br />.nested-list-reset ol | padding-left: 0;<br />margin-left: 0;<br />list-style-type: none | nested
-.nested-copy-indent p+p | text-indent: 1em;<br />margin-top: 0;<br />margin-bottom: 0 | nested
-.nested-copy-separator p+p | margin-top: 1.5em | nested
-.nested-img img | width: 100%;<br />max-width: 100%;<br />display: block | nested
-.nested-links a | color: var(--blue);<br />transition: color .15s ease-in | nested
-.nested-links a:hover,<br />.nested-links a:focus | color: var(--light-blue);<br />transition: color .15s ease-in | nested
-.debug * | outline: 1px solid gold | debug-children
-.debug-white * | outline: 1px solid white | debug-children
-.debug-black * | outline: 1px solid black | debug-children
+.z-inherit | z-index: inherit | z-index
+.z-max | z-index: 2147483647 | z-index
+.z-9999 | z-index: 9999 | z-index
+.z-999 | z-index: 999 | z-index
+.z-initial | z-index: initial | z-index
+.z-4 | z-index: 4 | z-index
+.z-3 | z-index: 3 | z-index
+.z-2 | z-index: 2 | z-index
+.z-1 | z-index: 1 | z-index
+.z-0 | z-index: 0 | z-index
+.z-5 | z-index: 5 | z-index

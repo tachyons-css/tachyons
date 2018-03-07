@@ -10,7 +10,13 @@ const options = {
 const writeTable = async () => {
   const data = await cssTable(css, options)
 
-  const selectors = data.map(d => {
+  const selectors = data
+    .sort((a, b) => {
+      if (a.moduleName < b.moduleName) return -1;
+      if (a.moduleName > b.moduleName) return 1;
+      return 0;
+    })
+    .map(d => {
     const moduleName = d.moduleName.split('/_')[1].replace('.css', '')
 
     if (moduleName === 'normalize' || moduleName === 'debug-grid') {
