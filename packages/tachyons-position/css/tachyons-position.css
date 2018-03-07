@@ -15,16 +15,19 @@
 .relative { position: relative; }
 .absolute { position: absolute; }
 .fixed { position: fixed; }
+.sticky { position: -webkit-sticky; position: sticky; }
 @media screen and (min-width: 30em) {
  .static-m { position: static; }
  .relative-m { position: relative; }
  .absolute-m { position: absolute; }
  .fixed-m { position: fixed; }
+ .sticky-m { position: -webkit-sticky; position: sticky; }
 }
 @media screen and (min-width: 60em) {
  .static-l { position: static; }
  .relative-l { position: relative; }
  .absolute-l { position: absolute; }
  .fixed-l { position: fixed; }
+ .sticky-l { position: -webkit-sticky; position: sticky; }
 }
 
