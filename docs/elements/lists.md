@@ -27,6 +27,6 @@ It can be combined with `pl0` to remove the default padding on lists.
 </ol>
 ```
 
-## References
+## Reference
 
 - [MDN - list-style-type](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type)

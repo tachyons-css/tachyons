@@ -44,7 +44,7 @@ You can add any background color from the skins-pseudo module.
 <a href="#" class="link black bg-animate hover-bg-light-blue">link text</a>
 ```
 
-## References
+## Reference
 
 - [MDN - Css Hover](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Ahover)
 - [MDN - Css Focus](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Afocus)
