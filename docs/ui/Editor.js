@@ -34,6 +34,7 @@ class Editor extends Component {
           onChange={this.handleChange}
         />
 				<div
+					className='sans-serif'
           dangerouslySetInnerHTML={{
             __html: he.decode(this.state.html)
           }}
