@@ -1,5 +1,7 @@
 # Images
 
+Using `width` and `max-width` classes, you can control the sizing of images responsively.
+
 ## Examples
 
 ### Large image
