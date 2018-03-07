@@ -1,12 +1,14 @@
 const path = require('path')
-
+const cssTable = require('css-table')
 const { readFileSync, writeFileSync } = require('fs')
 
 const { dependencies } = require('./package.json')
 
-const modules = Object.keys(dependencies)
+const px = Object
+  .keys(dependencies)
   .filter(m => /^tachyons-/.test(m))
-  .reduce((acc, m) => {
+  .filter(m => !/^tachyons-(colors|generator|styles)/.test(m))
+  .map(async m => {
     const pkg = require(`${m}/package.json`)
     const readme = readFileSync(
       path.resolve('node_modules', m, 'readme.md'),
@@ -21,16 +23,23 @@ const modules = Object.keys(dependencies)
       'utf8'
     )
 
-    return Object.assign(acc, {
-      [m]: {
-        name: m,
-        version: pkg.version,
-        metadata: pkg.tachyons || {},
-        readme,
-        src,
-        css
-      }
-    })
-  }, {})
+    const tableOfStyles = await cssTable(css, { from: m })
 
-writeFileSync('data.json', JSON.stringify({ modules }, null, 2))
+    return {
+      name: m,
+      version: pkg.version,
+      metadata: pkg.tachyons || {},
+      tableOfStyles,
+      readme,
+      src,
+      css
+    }
+  })
+
+Promise
+  .all(px)
+  .then(modules => {
+    const reduced = modules.reduce((acc, m) => Object.assign(acc, { [m.name]: m }), {})
+
+    writeFileSync('data.json', JSON.stringify({ modules: reduced }, null, 2))
+  })

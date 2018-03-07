@@ -7,7 +7,8 @@
     "build": "next build",
     "dev": "next",
     "start": "next start",
-    "lint": "prettier *.js ui/*.js pages/*.js --write --no-semi --single-quote"
+    "lint": "prettier *.js ui/*.js pages/*.js --write --no-semi --single-quote",
+    "prepare": "node modules"
   },
   "repository": "tachyons-css/docs",
   "author": "mrmrs",
@@ -45,7 +46,6 @@
     "tachyons-font-style": "^4.0.4",
     "tachyons-font-weight": "^5.0.4",
     "tachyons-forms": "^3.1.3",
-    "tachyons-generator": "^0.21.0",
     "tachyons-heights": "^6.1.3",
     "tachyons-hovers": "^2.5.1",
     "tachyons-images": "^1.0.11",
@@ -63,7 +63,6 @@
     "tachyons-skins": "^4.1.0",
     "tachyons-skins-pseudo": "^1.0.4",
     "tachyons-spacing": "^6.0.4",
-    "tachyons-styles": "^0.3.4",
     "tachyons-tables": "^1.0.7",
     "tachyons-text-align": "^3.1.0",
     "tachyons-text-decoration": "^4.0.5",
@@ -107,6 +106,7 @@
   ],
   "devDependencies": {
     "@compositor/markdown-loader": "0.1.0",
+    "css-table": "^0.1.0",
     "prettier": "^1.11.1",
     "webpack": "^4.1.1"
   }
