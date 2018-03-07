@@ -19,6 +19,7 @@
     "performance"
   ],
   "devDependencies": {
+    "css-table": "^0.1.0",
     "globby": "^8.0.1",
     "immutable-css-cli": "^1.1.1",
     "normalize.css": "^8.0.0",
