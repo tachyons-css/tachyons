@@ -19,7 +19,7 @@ const writeTable = async () => {
 
     return [
       d.selector.replace(/\n/g, '<br />'),
-      d.declarations.join(';<br />'),
+      d.declarations.join(';<br />').replace(/\n/g, '<br />'),
       `${moduleName}`
     ].join(' | ')
   })
