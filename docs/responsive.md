@@ -17,10 +17,11 @@ It's important to note that since all classes are functional, responsive variant
 Let's consider the class `.db` which declares `display: block;`:
 
 - `db`: The base class which targets all viewports
+- `db-s`: Targets small, medium and large viewports
 - `db-m`: Targets all medium and large viewports
 - `db-l`: Targets only large viewports
 
-As you can see, `-m` and `-l` are appended to the class in order to target specific viewport sizes.
+As you can see, `-s`, `-m` and `-l` are appended to the class in order to target specific viewport sizes.
 
 ## Mobile-first architecture
 
@@ -34,6 +35,11 @@ If you take a look at the following Tachyons source css we can see this concept 
 ```css
 /* Parsed by all devices */
 .dn { display: none; }
+
+/* Parsed by small, medium and large devices */
+@media (--breakpoint-small) {
+  .dn-s { display: none; }
+}
 
 /* Parsed by medium and large devices */
 @media (--breakpoint-medium) {
@@ -54,14 +60,15 @@ It's also a lot more fun to design in the browser by composing classes to target
 
 ## Visibility matrix
 
-Classes | All Devices | Medium Devices | Large Devices
-------- | ----------- | -------------- | -------------
-`.dn` | Hidden | Hidden | Hidden
-`.dn-m` | Visible | Hidden | Hidden
-`.dn-l` | Visible | Visible | Hidden
-`.dn .db-l` | Hidden | Hidden | Visible
-`.dn .db-m` | Hidden | Visible | Visible
-`.dn .db-m .dn-l` | Hidden | Visible | Hidden
+Classes | Extra Small Devices | Small Devices | Medium Devices | Large Devices
+------- | ----------- | ------------- | -------------- | -------------
+`.dn` | Hidden | Hidden | Hidden | Hidden
+`.dn-s` | Visible | Hidden | Hidden | Hidden
+`.dn-m` | Visible | Visible | Hidden | Hidden
+`.dn-l` | Visible | Visible | Visible | Hidden
+`.dn .db-l` | Hidden | Hidden | Hidden | Visible
+`.dn .db-m` | Hidden | Hidden | Visible | Visible
+`.dn .db-m .dn-l` | Hidden | Hidden | Visible | Hidden
 
 ## Reference
 
