@@ -4,7 +4,7 @@ import { ComponentsProvider } from '@compositor/markdown'
 import Layout from './Layout'
 import Container from './Container'
 import NavElements from './NavElements'
-import data from '../data.json'
+import data from './data.json'
 import { md } from './'
 
 export default Component => ({ title, ...props }) => (
