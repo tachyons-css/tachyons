@@ -9,6 +9,7 @@ import { md } from './'
 
 export default Component => ({ title, ...props }) => (
   <ComponentsProvider components={md}>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons-gradients@0.0.1/css/tachyons-gradients.min.css" />
     <Layout title={title}>
       <NavElements />
       <Container padding={true} className="black-70">
