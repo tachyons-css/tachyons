@@ -39,6 +39,8 @@ Class | Step | Value
 `.w4` | 4 | `8rem`
 `.w5` | 5 | `16rem`
 
+For a more in depth description of why and how Tachyons uses scales can be found on the [scales page](scales.md).
+
 #### Literal value
 
 Literal values map to pixel, percentage or string values.
