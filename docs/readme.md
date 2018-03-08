@@ -1,9 +1,5 @@
 # Tachyons Docs
 
-Welcome to the Tachyons docs!
-
-## How the docs work
-
 The docs use MDX, React, and the next framework.
 
 #### Directory structure
