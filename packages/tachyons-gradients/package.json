@@ -1,0 +1,35 @@
+{
+  "name": "tachyons-gradients",
+  "version": "0.0.1",
+  "style": "src/tachyons-gradients.css",
+  "main": "src/tachyons-gradients.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "tachyons-addon"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-gradients",
+  "author": {
+    "name": "johno",
+    "email": "johnotander@gmail.com",
+    "url": "http://johnotander.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.10",
+    "watch": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-gradients.css > css/tachyons-gradients.css",
+    "build:minify": "tachyons src/tachyons-gradients.css --minify > css/tachyons-gradients.min.css",
+    "build:docs": "tachyons src/tachyons-gradients.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}
