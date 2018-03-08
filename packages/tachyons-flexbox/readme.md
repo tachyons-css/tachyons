@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-1099 | 138 | 144
+1034 | 144 | 144
 ---|---|---
 bytes | selectors | declarations
 
@@ -89,9 +89,9 @@ Running `$ npm start` will process the source css and place the built css in the
 */
 .flex { display: flex; }
 .inline-flex { display: inline-flex; }
-/* 1. Fix for Chrome 44 bug.
- * https://code.google.com/p/chromium/issues/detail?id=506893 */
-.flex-auto { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
+.flex-1 { flex: 1; }
+.flex-auto { flex: 1 1 auto; }
+.flex-initial { flex: initial; }
 .flex-none { flex: none; }
 .flex-column { flex-direction: column; }
 .flex-row { flex-direction: row; }
@@ -138,7 +138,9 @@ Running `$ npm start` will process the source css and place the built css in the
 @media screen and (min-width: 30em) {
  .flex-m { display: flex; }
  .inline-flex-m { display: inline-flex; }
- .flex-auto-m { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
+ .flex-1-m { flex: 1; }
+ .flex-auto-m { flex: 1 1 auto; }
+ .flex-initial-m { flex: initial; }
  .flex-none-m { flex: none; }
  .flex-column-m { flex-direction: column; }
  .flex-row-m { flex-direction: row; }
@@ -186,7 +188,9 @@ Running `$ npm start` will process the source css and place the built css in the
 @media screen and (min-width: 60em) {
  .flex-l { display: flex; }
  .inline-flex-l { display: inline-flex; }
- .flex-auto-l { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
+ .flex-1-l { flex: 1; }
+ .flex-auto-l { flex: 1 1 auto; }
+ .flex-initial-l { flex: initial; }
  .flex-none-l { flex: none; }
  .flex-column-l { flex-direction: column; }
  .flex-row-l { flex-direction: row; }
