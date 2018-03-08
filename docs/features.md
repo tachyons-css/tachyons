@@ -72,18 +72,3 @@ A flexible plugin framework for [post-processing css](https://github.com/postcss
 Tachyons is meant to be edited and customized to meet the needs of your project.
 It’s just css. It isn’t precious.
 Don’t be afraid to change: class names, media queries, breakpoints, or values.
-
-***
-
-* Mobile-first css architecture
-* 490 accessible color combinations
-* 8px baseline grid
-* Multiple debugging utilities to reduce layout struggles
-* Single-purpose class structure
-* Optimized for maximum gzip compression
-* Lightweight (~14kB)
-* Usable across projects
-* Growing open source component library
-* Works well with plain html, react, ember, angular, rails, and more
-* Infinitely nestable responsive grid system
-* Built with Postcss
