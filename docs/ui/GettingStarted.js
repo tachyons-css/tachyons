@@ -7,7 +7,7 @@ export default ({ version }) => (
   >
     <div className="mw9 center">
       <h1 className="mt0 f5 f3-ns">Getting Started</h1>
-      <p className="f5 measure lh-copy">
+      <p className="f5 measure lh-copy mb2">
         Copy the line of code below and paste it in the head of the html file(s)
         you want to include tachyons in.
       </p>
@@ -19,7 +19,7 @@ export default ({ version }) => (
           &lt;link rel='stylesheet' href='https://unpkg.com/tachyons@{version}/css/tachyons.min.css'/&gt;
         </code>
       </pre>
-      <p className="mt4">
+      <p className="mt4 mb2">
         <b>or</b> install via npm
       </p>
       <pre className="pre black-70 overflow-auto">
@@ -30,17 +30,16 @@ export default ({ version }) => (
           npm install --save-dev tachyons@{version}
         </code>
       </pre>
-      <p className="mt4">
+      <p className="mt4 mb2">
         <b>or</b> grab all the source files and build+develop locally
       </p>
-      <pre className="pre overflow-auto">
+      <pre className="pre lh-copy overflow-auto bg-black-70 f6 washed-green pa2 dib">
         <code
-          className="code f6 dib pa2 bg-black-70 washed-green"
-          style={{ fontSize: '14px' }}
-        >
-          git clone git@github.com:tachyons-css/tachyons.git cd tachyons npm
-          install &amp;&amp; npm start
-        </code>
+          children={`git clone https://github.com/tachyons-css/tachyons
+cd tachyons
+npm install
+npm start`}
+        />
       </pre>
       <h3 className="f5 f3-ns mt4 fw6">Prototyping template</h3>
       <p className="lh-copy measure f6">
