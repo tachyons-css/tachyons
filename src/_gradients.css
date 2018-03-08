@@ -1,0 +1,46 @@
+/*!!!
+
+  # Gradients
+
+  All gradients cut and pasted from cssgradient.io ;)
+
+  ### Docs
+
+  http://tachyons.io/docs/themes/gradients/
+
+  ### Base
+
+  `gradient` = background-color
+
+  ### Modifiers
+
+  - `-gradient-name` = dark-blue, lily, aqua, etc
+*/
+
+.gradient-dark-blue {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.gradient-charcoal {
+  background: linear-gradient(90deg, rgba(44,56,68,1) 0%, rgba(23,32,42,1) 100%);
+}
+
+.gradient-moon-gray {
+  background: linear-gradient(211deg, rgba(234,236,238,1) 0%, rgba(234,236,238,1) 100%);
+}
+
+.gradient-lily {
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.gradient-aqua {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.gradient-purple {
+  background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+
+.gradient-green {
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
