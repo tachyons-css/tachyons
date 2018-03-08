@@ -1,4 +1,4 @@
-# [WIP] Class Naming
+# Class Naming
 
 A lot of inspiration for Tachyons classes comes from unix.
 
