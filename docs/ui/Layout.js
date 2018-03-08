@@ -18,5 +18,6 @@ export default ({
 
     <Header version={version} />
     <main className={className} children={children} />
+    <Footer />
   </div>
 )

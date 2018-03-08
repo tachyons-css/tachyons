@@ -79,10 +79,8 @@ export default ({ version }) => (
             <iframe
               className="aspect-ratio--object"
               src="https://player.vimeo.com/video/174698456"
-              frameborder="0"
-              webkitallowfullscreen=""
-              mozallowfullscreen=""
-              allowfullscreen=""
+              frameBorder="0"
+              allowFullScreen=""
             />
           </div>
         </div>
