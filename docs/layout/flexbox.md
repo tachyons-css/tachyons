@@ -283,6 +283,117 @@ Pack items from the end with `items-end`.
 </div>
 ```
 
+## Advanced
+
+In the following example, there is a parent list (`ul` element) using the `flex` class to stack its elements horizontally, and then there's the `flex-auto` class applied to each vertical column, in an attempt to evenly distribute them along the full container width.
+
+However, by taking a closer look (i.e. using Chrome DevTools) we can see that each column has different widths, which might not be the visual result we expected.
+
+```.html
+<ul class="flex list ma0 pa0">
+  <li class="flex-auto mr4 pa3 bg-lightest-blue">
+    <h2 class="ma0 mb3 pb2 bb">Column One</h2>
+    <ul class="pb5">
+      <li>
+        <p>Variable fonts and parametric fonts are tools that will undeniably revolutionize responsive web type.
+      </p></li>
+      <li>
+        <p>They will allow graphic and web designers to explore shapes and sizes on their own and to tailor typefaces to their needs.
+        </p>
+      </li>
+      <li>
+        <p>Let’s learn the ins and outs of these new tools and how to take control of our typography.
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li class="flex-auto mr4 pa3 bg-lightest-blue">
+    <h2 class="ma0 mb3 pb2 bb">Column Two</h2>
+    <ul class="pb5">
+      <li>
+        <p>Still, it feels like digital typography is behind physical typography on a range of issues, not so much in the diversity or quality of design, but in the huge fragmentation of screen media.
+      </p></li>
+      <li>
+        <p>For print design, a cast of physical fonts could be optimized depending on the sizes and shapes of the letters to increase readability.
+        </p>
+      </li>
+      <li>
+        <p>Once the fonts were produced, the result was the same every time; you got exactly what you paid for.
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li class="flex-auto pa3 bg-lightest-blue">
+    <h2 class="ma0 mb3 pb2 bb">Column Three</h2>
+    <ul class="pb5">
+      <li>
+        <p>On a screen, it’s a lot more complicated. Once you’re lost in a forest of DPI values and different renderers, what the user gets is all up in the air.
+      </p></li>
+      <li>
+        <p>And because type designers have little incentive to produce different optical sizes, a lot of digital typefaces include only a couple of them, which hinders the readability of web typography.
+        </p>
+      </li>
+    </ul>
+  </li>
+</ul>
+</section>
+```
+
+### Using `flex-1`
+
+When equal width columns are desired, we can make use of `flex-1` which sets flex shorthand value to `1`, translating `flex` properties into: `flex-grow: 1; flex-shrink: 1; flex-basis: 0%;`.
+
+The key aspect here is that, by setting flex-basis property to `0%`, we are not enforcing width on the affected element, deferring that responsibility to the grow and shrink properties, which in this case, are equally set to `1`.
+
+```.html
+<ul class="flex list ma0 pa0">
+  <li class="flex-1 mr4 pa3 bg-lightest-blue">
+    <h2 class="ma0 mb3 pb2 bb">Column One</h2>
+    <ul class="pb5">
+      <li>
+        <p>Variable fonts and parametric fonts are tools that will undeniably revolutionize responsive web type.
+      </p></li>
+      <li>
+        <p>They will allow graphic and web designers to explore shapes and sizes on their own and to tailor typefaces to their needs.
+        </p>
+      </li>
+      <li>
+        <p>Let’s learn the ins and outs of these new tools and how to take control of our typography.
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li class="flex-1 mr4 pa3 bg-lightest-blue">
+    <h2 class="ma0 mb3 pb2 bb">Column Two</h2>
+    <ul class="pb5">
+      <li>
+        <p>Still, it feels like digital typography is behind physical typography on a range of issues, not so much in the diversity or quality of design, but in the huge fragmentation of screen media.
+      </p></li>
+      <li>
+        <p>For print design, a cast of physical fonts could be optimized depending on the sizes and shapes of the letters to increase readability.
+        </p>
+      </li>
+      <li>
+        <p>Once the fonts were produced, the result was the same every time; you got exactly what you paid for.
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li class="flex-1 pa3 bg-lightest-blue">
+    <h2 class="ma0 mb3 pb2 bb">Column Three</h2>
+    <ul class="pb5">
+      <li>
+        <p>On a screen, it’s a lot more complicated. Once you’re lost in a forest of DPI values and different renderers, what the user gets is all up in the air.
+      </p></li>
+      <li>
+        <p>And because type designers have little incentive to produce different optical sizes, a lot of digital typefaces include only a couple of them, which hinders the readability of web typography.
+        </p>
+      </li>
+    </ul>
+  </li>
+</ul>
+```
+
 ## Reference
 
 - [MDN - Flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)

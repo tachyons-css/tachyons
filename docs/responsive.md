@@ -1,6 +1,6 @@
 # Responsive
 
-Tachyons css is responsive to the core.
+Tachyons css is responsive from the ground up.
 The majority of classes include responsive variants that target different breakpoints.
 It's important to note that since all classes are functional, responsive variants have different names using media query naming conventions.
 
