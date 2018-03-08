@@ -6,6 +6,10 @@ import Layout from '../ui/Layout'
 import Nav from '../ui/NavHome'
 import Hero from '../ui/Hero'
 import GettingStarted from '../ui/GettingStarted'
+import StartUsing from '../ui/StartUsing'
+import Testimonials from '../testimonials.md'
+import Principles from '../principles.md'
+import Features from '../features.md'
 
 export default () => (
   <Layout>
@@ -14,6 +18,10 @@ export default () => (
         <Nav />
         <Hero version={version} />
         <GettingStarted version={version} />
+        <Principles />
+        <Features />
+        <StartUsing />
+        <Testimonials />
       </article>
     </section>
   </Layout>
