@@ -62,3 +62,7 @@ Classes | All Devices | Medium Devices | Large Devices
 `.dn .db-l` | Hidden | Hidden | Visible
 `.dn .db-m` | Hidden | Visible | Visible
 `.dn .db-m .dn-l` | Hidden | Visible | Hidden
+
+## Reference
+
+- http://mrmrs.github.io/writing/2014/08/18/mobile-first-css/
