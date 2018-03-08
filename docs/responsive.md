@@ -2,7 +2,7 @@
 
 Tachyons css is responsive to the core.
 The majority of classes include responsive variants that target different breakpoints.
-It's important to note that since all classes are functional, responsive variants have different names using a media query naming conventions.
+It's important to note that since all classes are functional, responsive variants have different names using media query naming conventions.
 
 ```.html
 <div class="pa3 bg-black white">
