@@ -1,5 +1,17 @@
 # Tachyons Docs
 
+Welcome to the Tachyons docs!
+
+## How the docs work
+
+The docs use MDX, React, and the next framework.
+
+#### Directory structure
+
+- `docs/`: markdown documentation, ui components, and react pages
+- `docs/pages/`: react specific pages served by the docs app
+- `docs/ui/`: components used by the app and imported by some docs content
+
 ## Installation
 
 ```sh
@@ -13,3 +25,8 @@ npm i
 ```sh
 npm run dev
 ```
+
+## Related
+
+- https://github.com/c8r/markdown
+- https://github.com/zeit/next.js
