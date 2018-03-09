@@ -7,7 +7,12 @@ import FontSizes from '../ui/FontSizes'
 <ScaleHero />
 
 <BigQuote
-  quote={JSON.stringify(props)}
+  quote={`
+    The simplest scale is a single note, and sticking with a single note draws more attention to other parameters, such as rhythm and inflection…
+    In the sixteenth century, a series of common sizes developed among European typographers, and the series survived with little change and few additions for 400 years…
+    This is the typographic equivalent of the diatonic scale.
+  `}
+  author='Robert Bringhurst'
   work='The Elements of Typographic Style'
 />
 

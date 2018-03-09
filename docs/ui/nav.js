@@ -4,6 +4,10 @@ export const docs = [
     slug: 'overview',
     items: [
       {
+        title: 'What is it?',
+        href: '/docs/introduction'
+      },
+      {
         title: 'Getting Started',
         href: '/docs/overview/getting-started'
       },
@@ -28,7 +32,7 @@ export const docs = [
         href: '/docs/overview/responsive'
       },
       {
-        title: 'Scales',
+        title: 'Designing with Scales',
         href: '/docs/overview/scales'
       },
       {
@@ -104,7 +108,7 @@ export const docs = [
         href: '/docs/themes/skins'
       },
       {
-        title: 'Skins animations',
+        title: 'Skins Animations',
         href: '/docs/themes/skins-pseudo'
       },
       {
