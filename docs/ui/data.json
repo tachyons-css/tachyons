@@ -6320,6 +6320,65 @@
       "src": "/*\n\n   FORMS\n   \n*/\n\n.input-reset {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n}\n\n.button-reset::-moz-focus-inner,\n.input-reset::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n",
       "css": "/*\n\n   FORMS\n   \n*/\n.input-reset { -webkit-appearance: none; -moz-appearance: none; }\n.button-reset::-moz-focus-inner, .input-reset::-moz-focus-inner { border: 0; padding: 0; }\n\n"
     },
+    "tachyons-gradients": {
+      "name": "tachyons-gradients",
+      "version": "0.0.1",
+      "metadata": {},
+      "tableOfStyles": [
+        {
+          "selector": ".gradient-dark-blue",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-gradients",
+          "declarations": [
+            "background: linear-gradient( 90deg, #4b6cb7 0%, #182848 100% )"
+          ]
+        },
+        {
+          "selector": ".gradient-charcoal",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-gradients",
+          "declarations": [
+            "background: linear-gradient( 90deg, rgba( 44, 56, 68, 1 ) 0%, rgba( 23, 32, 42, 1 ) 100% )"
+          ]
+        },
+        {
+          "selector": ".gradient-moon-gray",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-gradients",
+          "declarations": [
+            "background: linear-gradient( 211deg, rgba( 234, 236, 238, 1 ) 0%, rgba( 234, 236, 238, 1 ) 100% )"
+          ]
+        },
+        {
+          "selector": ".gradient-lily",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-gradients",
+          "declarations": [
+            "background: linear-gradient( 90deg, #efd5ff 0%, #515ada 100% )"
+          ]
+        },
+        {
+          "selector": ".gradient-aqua",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-gradients",
+          "declarations": [
+            "background: linear-gradient( 90deg, #00d2ff 0%, #3a47d5 100% )"
+          ]
+        },
+        {
+          "selector": ".gradient-purple",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-gradients",
+          "declarations": [
+            "background: linear-gradient( 90deg, #3f2b96 0%, #a8c0ff 100% )"
+          ]
+        },
+        {
+          "selector": ".gradient-green",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-gradients",
+          "declarations": [
+            "background: linear-gradient( 90deg, #9ebd13 0%, #008552 100% )"
+          ]
+        }
+      ],
+      "readme": "\n\n# Gradients\n\nAll gradients cut and pasted from cssgradient.io ;)\n\n### Docs\n\nhttp://tachyons.io/docs/themes/gradients/\n\n### Base\n\n`gradient` = background-color\n\n### Modifiers\n\n- `-gradient-name` = dark-blue, lily, aqua, etc\n\n\n### Stats\n\n374 | 7 | 7\n---|---|---\nbytes | selectors | declarations\n\n## Installation\n\n#### With [npm](https://npmjs.com)\n\n```\nnpm install --save-dev tachyons\n```\n\nLearn more about using css installed with npm:\n* https://webpack.github.io/docs/stylesheets.html\n* https://github.com/defunctzombie/npm-css\n\n#### With Git\n\nhttp:\n```\ngit clone https://github.com/tachyons-css/tachyons\n```\n\nssh:\n```\ngit clone git@github.com:tachyons-css/tachyons.git\n```\n\n## Usage\n\n#### Using with [Postcss](https://github.com/postcss/postcss)\n\nImport the css module\n\n```css\n@import \"tachyons\";\n```\n\nThen process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)\n\n```sh\n$ npm i -g tachyons-cli\n$ tachyons path/to/css-file.css > dist/t.css\n```\n\n#### Using the css\n\n##### CDN\nThe easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:\n\n```\n<link rel=\"stylesheet\" href=\"http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css\" />\n```\n\n##### Locally\nThe built css is located in the `css` directory. It contains an unminified and minified version.\nYou can either cut and paste that css or link to it directly in your html.\n\n```html\n<link rel=\"stylesheet\" href=\"path/to/module/css/tachyons\">\n```\n\n#### Development\n\nThe source css files can be found in the `src` directory.\nRunning `$ npm start` will process the source css and place the built css in the `css` directory.\n\n## The css\n\n```css\n/*!!!\n\n  # Gradients\n\n  All gradients cut and pasted from cssgradient.io ;)\n\n  ### Docs\n\n  http://tachyons.io/docs/themes/gradients/\n\n  ### Base\n\n  `gradient` = background-color\n\n  ### Modifiers\n\n  - `-gradient-name` = dark-blue, lily, aqua, etc\n*/\n.gradient-dark-blue { background: linear-gradient( 90deg, #4b6cb7 0%, #182848 100% ); }\n.gradient-charcoal { background: linear-gradient( 90deg, rgba( 44, 56, 68, 1 ) 0%, rgba( 23, 32, 42, 1 ) 100% ); }\n.gradient-moon-gray { background: linear-gradient( 211deg, rgba( 234, 236, 238, 1 ) 0%, rgba( 234, 236, 238, 1 ) 100% ); }\n.gradient-lily { background: linear-gradient( 90deg, #efd5ff 0%, #515ada 100% ); }\n.gradient-aqua { background: linear-gradient( 90deg, #00d2ff 0%, #3a47d5 100% ); }\n.gradient-purple { background: linear-gradient( 90deg, #3f2b96 0%, #a8c0ff 100% ); }\n.gradient-green { background: linear-gradient( 90deg, #9ebd13 0%, #008552 100% ); }\n```\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n\n## Authors\n\n* [mrmrs](http://mrmrs.io)\n* [johno](http://johnotander.com)\n\n## License\n\nISC\n\n",
+      "src": "/*!!!\n\n  # Gradients\n\n  All gradients cut and pasted from cssgradient.io ;)\n\n  ### Docs\n\n  http://tachyons.io/docs/themes/gradients/\n\n  ### Base\n\n  `gradient` = background-color\n\n  ### Modifiers\n\n  - `-gradient-name` = dark-blue, lily, aqua, etc\n*/\n\n.gradient-dark-blue {\n  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);\n}\n\n.gradient-charcoal {\n  background: linear-gradient(90deg, rgba(44,56,68,1) 0%, rgba(23,32,42,1) 100%);\n}\n\n.gradient-moon-gray {\n  background: linear-gradient(211deg, rgba(234,236,238,1) 0%, rgba(234,236,238,1) 100%);\n}\n\n.gradient-lily {\n  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);\n}\n\n.gradient-aqua {\n  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);\n}\n\n.gradient-purple {\n  background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);\n}\n\n.gradient-green {\n  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);\n}\n",
+      "css": "/*!!!\n\n  # Gradients\n\n  All gradients cut and pasted from cssgradient.io ;)\n\n  ### Docs\n\n  http://tachyons.io/docs/themes/gradients/\n\n  ### Base\n\n  `gradient` = background-color\n\n  ### Modifiers\n\n  - `-gradient-name` = dark-blue, lily, aqua, etc\n*/\n.gradient-dark-blue { background: linear-gradient( 90deg, #4b6cb7 0%, #182848 100% ); }\n.gradient-charcoal { background: linear-gradient( 90deg, rgba( 44, 56, 68, 1 ) 0%, rgba( 23, 32, 42, 1 ) 100% ); }\n.gradient-moon-gray { background: linear-gradient( 211deg, rgba( 234, 236, 238, 1 ) 0%, rgba( 234, 236, 238, 1 ) 100% ); }\n.gradient-lily { background: linear-gradient( 90deg, #efd5ff 0%, #515ada 100% ); }\n.gradient-aqua { background: linear-gradient( 90deg, #00d2ff 0%, #3a47d5 100% ); }\n.gradient-purple { background: linear-gradient( 90deg, #3f2b96 0%, #a8c0ff 100% ); }\n.gradient-green { background: linear-gradient( 90deg, #9ebd13 0%, #008552 100% ); }\n\n"
+    },
     "tachyons-heights": {
       "name": "tachyons-heights",
       "version": "6.1.3",

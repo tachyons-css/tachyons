@@ -120,6 +120,10 @@ export const docs = [
         href: '/docs/themes/box-shadow'
       },
       {
+        title: 'Gradients',
+        href: '/docs/themes/gradients'
+      },
+      {
         title: 'Opacity',
         href: '/docs/themes/opacity'
       },
@@ -135,7 +139,7 @@ export const docs = [
     items: [
       {
         title: 'Type Scale',
-        href: '/docs/typography/type-scale'
+        href: '/docs/typography/scale'
       },
       {
         title: 'Measure',
