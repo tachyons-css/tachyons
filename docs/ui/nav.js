@@ -1,6 +1,7 @@
 export const docs = [
   {
     title: 'Overview of Tachyons',
+    slug: 'overview',
     items: [
       {
         title: 'Getting Started',
@@ -34,6 +35,7 @@ export const docs = [
   },
   {
     title: 'Layout',
+    slug: 'layout',
     items: [
       {
         title: 'Grid',
@@ -91,6 +93,7 @@ export const docs = [
   },
   {
     title: 'Theming',
+    slug: 'themes',
     items: [
       {
         title: 'Skins',
@@ -128,6 +131,7 @@ export const docs = [
   },
   {
     title: 'Typography',
+    slug: 'typography',
     items: [
       {
         title: 'Type Scale',
@@ -181,6 +185,7 @@ export const docs = [
   },
   {
     title: 'Elements',
+    slug: 'elements',
     items: [
       {
         title: 'Images',
