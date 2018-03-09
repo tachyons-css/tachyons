@@ -29,7 +29,7 @@ export const docs = [
       },
       {
         title: 'Table of Styles',
-        href: '/docs/overview/table-of-styles'
+        href: '/docs/table-of-styles'
       }
     ]
   },
