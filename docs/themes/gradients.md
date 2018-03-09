@@ -1,5 +1,7 @@
 # Gradients
 
+![Addon](https://img.shields.io/badge/TACHYONS%20ADDON-✓-brightgreen.svg?longCache=true&style=for-the-badge)
+
 Tachyons includes a gradients addon.
 
 ## Examples
