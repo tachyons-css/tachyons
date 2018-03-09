@@ -16,16 +16,16 @@ export default ({ version }) => (
         />
 
         <Flex is="nav">
-          <NavLink title="Documentation" href="/docs/">
+          <NavLink title="Documentation" href="/docs">
             Docs
           </NavLink>
           <NavLink title="Components" href="/components/">
             Components
           </NavLink>
-          <NavLink title="Gallery of sites built with Tachyons" to="/gallery/">
+          <NavLink title="Gallery of sites built with Tachyons" to="/gallery">
             Gallery
           </NavLink>
-          <NavLink title="Resources" href="/resources/">
+          <NavLink title="Resources" href="/resources">
             Resources
           </NavLink>
           <NavLink
