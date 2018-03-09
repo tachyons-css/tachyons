@@ -301,3 +301,7 @@ You can combine display, float, padding, and widths to construct a wide variety 
   </div>
 </div>
 ```
+
+### Reference
+
+[MDN - Width property](https://developer.mozilla.org/en-US/docs/Web/css/width)
