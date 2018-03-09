@@ -85,12 +85,12 @@ export const EditOnGitHub = ({ url }) => (
 
 export const md = {
   h1: props => <h1 className="f6 ttu tracked mt0" {...props} />,
-  h2: props => <h2 className="f2 lh-title mt4 mb2" {...props} />,
-  h3: props => <h3 className="f3 lh-title mt4 mb2" {...props} />,
-  h4: props => <h3 className="f4 lh-title mt4 mb2" {...props} />,
-  h5: props => <h3 className="f5 lh-title mid-gray mt4 mb2" {...props} />,
-  h6: props => <h3 className="f6 lh-title mid-gray mt4 mb2" {...props} />,
-  p: props => <p className="measure f5 lh-copy" {...props} />,
+  h2: props => <h2 className="f3 lh-title mt4 mb2" {...props} />,
+  h3: props => <h3 className="f4 lh-title mt4 mb2" {...props} />,
+  h4: props => <h3 className="f5 lh-title mt4 mb2" {...props} />,
+  h5: props => <h3 className="f6 lh-title mid-gray mt4 mb2" {...props} />,
+  h6: props => <h3 className="f7 lh-title mid-gray mt4 mb2" {...props} />,
+  p: props => <p className="measure-wide f5 lh-copy" {...props} />,
   ul: props => <ul className="pl3" {...props} />,
   li: props => <li className="lh-copy ml2" {...props} />,
   table: props => <table className="collapse" {...props} />,
