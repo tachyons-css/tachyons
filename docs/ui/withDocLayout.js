@@ -3,6 +3,7 @@ import { ComponentsProvider } from '@compositor/markdown'
 
 import Layout from './Layout'
 import Container from './Container'
+import NavDocs from './NavDocs'
 import NavElements from './NavElements'
 import data from './data.json'
 import { md, EditOnGitHub } from './'
@@ -23,6 +24,11 @@ export default (Component, metadata = {}) => ({ title, ...props }) => (
         <Component data={data} {...props} />
       </Container>
       {metadata.editUrl ? <EditOnGitHub url={metadata.editUrl} /> : null}
+      {metadata.skipDocsNav ? null : (
+        <Container padding={true} className="black-70 pv4">
+          <NavDocs />
+        </Container>
+      )}
     </Layout>
   </ComponentsProvider>
 )
