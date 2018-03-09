@@ -8,6 +8,10 @@ export const docs = [
         href: '/docs/overview/getting-started'
       },
       {
+        title: 'Installation',
+        href: '/docs/overview/installation'
+      },
+      {
         title: 'Customizing',
         href: '/docs/overview/customizing'
       },
@@ -120,10 +124,6 @@ export const docs = [
         href: '/docs/themes/box-shadow'
       },
       {
-        title: 'Gradients',
-        href: '/docs/themes/gradients'
-      },
-      {
         title: 'Opacity',
         href: '/docs/themes/opacity'
       },
@@ -210,6 +210,16 @@ export const docs = [
       {
         title: 'Tables',
         href: '/docs/elements/tables'
+      }
+    ]
+  },
+  {
+    title: 'Addons',
+    slug: 'addons',
+    items: [
+      {
+        title: 'Gradients',
+        href: '/docs/addons/gradients'
       }
     ]
   }
