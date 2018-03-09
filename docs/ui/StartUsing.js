@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default () => (
-  <section className="tc pv5 bb bt b--black-10 bg-washed-blue">
+  <section className="tc pv5 bt b--black-10">
     <div className="ph3 ph5-ns">
       <h3 className="f5 fw6 ttu tracked black-70 mb4">Start using Tachyons</h3>
       <a
