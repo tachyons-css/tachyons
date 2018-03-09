@@ -15,14 +15,15 @@ export default ({ nav }) => {
       <Container
         className="nowrap"
         padding={true}
-        children={subNav.items.map(item =>
+        children={subNav.items.map(item => (
           <NavLink
-            m='r'
+            m="r"
+            activeClassName="black"
             key={item.title}
             children={item.title}
             {...item}
           />
-        )}
+        ))}
       />
     </header>
   )

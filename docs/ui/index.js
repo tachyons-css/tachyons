@@ -7,14 +7,30 @@ import Flex from './Flex'
 
 export { Container, Flex, Editor }
 
-export const NavLink = ({ href = '#!', m = 'l', ...props }) => (
-  <Link href={href}>
-    <a
-      className={`f6 fw6 hover-blue link black-70 m${m}2 m${m}3-m m${m}4-l dib`}
-      {...props}
-    />
-  </Link>
-)
+export const NavLink = ({
+  href = '#!',
+  m = 'l',
+  activeClassName = '',
+  ...props
+}) => {
+  let path = ''
+  if (typeof window !== 'undefined') {
+    path = window.location.pathname
+  }
+
+  const isActive = path === href
+
+  const cx = [
+    `f6 fw6 hover-blue link black-70 m${m}2 m${m}3-m m${m}4-l dib`,
+    isActive ? activeClassName : ''
+  ].join(' ')
+
+  return (
+    <Link href={href}>
+      <a className={cx} {...props} />
+    </Link>
+  )
+}
 
 export const TitleLink = ({ href = '#!', subtext, text, ...props }) => (
   <Link href={href}>
