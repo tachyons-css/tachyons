@@ -16,7 +16,7 @@ This css property is often used for achieving overlapping layouts like a dropdow
 </div>
 ```
 
-It's important to note that `z-index` can only be applied when an element is _within_ a stacking context.
+It's important to note that `z-index` can only be applied when an element is _within_ a stacking context (often relative/absolute elements).
 
 ## Reference
 
