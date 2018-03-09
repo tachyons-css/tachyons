@@ -70,6 +70,16 @@ Classes | Extra Small Devices | Small Devices | Medium Devices | Large Devices
 `.dn .db-m` | Hidden | Hidden | Visible | Visible
 `.dn .db-m .dn-l` | Hidden | Hidden | Visible | Hidden
 
+## Customizing variables
+
+Tachyons uses custom media variables to specify breakpoints.
+This allows you to update the variable in one place and update the breakpoints for all modules
+
+Name | Default | Class Modifier | Declaration
+---- | ------- | -------------- | -----------
+`breakpoint-medium` | `min-width: 30em` | `-m` | `@custom-media --breakpoint-medium screen and (min-width: 30em);`
+`breakpoint-large` | `min-width: 60em` | `-l` | `@custom-media --breakpoint-large screen and (min-width: 60em);`
+
 ## Reference
 
 - http://mrmrs.github.io/writing/2014/08/18/mobile-first-css/
