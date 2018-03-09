@@ -1,6 +1,9 @@
 # Class Naming
 
 A lot of inspiration for Tachyons classes comes from unix.
+They're also the result of a lot of user testing with people of different background and levels of experience.
+Tachyons classes attempt to be terse yet explicit.
+They follow a convention that users can also intuit once they learn the patterns.
 
 Tachyons classes never use any special characters that have to be escaped.
 This is by design, ensuring source code can be searched without escaping characters.
@@ -96,7 +99,7 @@ This dependence is indicated with the `--` delimiter.
 By appending `-m` or `-l` to a class you can target specific viewport sizes.
 For a more in depth view of how media queries work in Tachyons, check out the [responsive page](responsive.md).
 
-## Property to base mapping
+## Base to property mapping
 
 Base | Property | Example class
 ---- | -------- | -------------
