@@ -173,59 +173,6 @@ export default () => (
         a question in our slack channel. We’re here to try and help make
         designing in the browser fun.
       </p>
-      <div className="pt4 cf mw5">
-        <script async="" src="//www.google-analytics.com/analytics.js" />
-        <script
-          async=""
-          type="text/javascript"
-          src="//cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=tachyonsio"
-          id="_carbonads_js"
-        />
-        <div id="carbonads">
-          <span>
-            <span className="fl w-100 border-box">
-              <a
-                href="//srv.carbonads.net/ads/click/x/GTND42QJCE7IL2QLCV74YKQMC6BDCK7NFTBDEZ3JCWYIVKJMCYYIEKQKC6BI423IF6BDTK3EHJNCLSIZZRLCP7I35MNFV?segment=placement:tachyonsio;&amp;encredirect=https%3A%2F%2Fad.doubleclick.net%2Fddm%2Ftrackclk%2FN5295.1676840CARBONADS.COM%2FB10444636.207316239%3Bdc_trk_aid%3D407009849%3Bdc_trk_cid%3D75142946%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D"
-                className="carbon-img"
-                target="_blank"
-                rel="noopener"
-              >
-                <img
-                  src="https://pro.buysellads.com/p/manage/asset/id/58085"
-                  alt=""
-                  border="0"
-                  height="100"
-                  width="130"
-                  style={{ maxWidth: '130px', display: 'none' }}
-                />
-              </a>
-              <a
-                href="//srv.carbonads.net/ads/click/x/GTND42QJCE7IL2QLCV74YKQMC6BDCK7NFTBDEZ3JCWYIVKJMCYYIEKQKC6BI423IF6BDTK3EHJNCLSIZZRLCP7I35MNFV?segment=placement:tachyonsio;&amp;encredirect=https%3A%2F%2Fad.doubleclick.net%2Fddm%2Ftrackclk%2FN5295.1676840CARBONADS.COM%2FB10444636.207316239%3Bdc_trk_aid%3D407009849%3Bdc_trk_cid%3D75142946%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D"
-                className="fl w-50 pl1 border-box f7"
-                target="_blank"
-                rel="noopener"
-              >
-                Learn and build on GCP for free. Try it free today.
-              </a>
-            </span>
-            <a
-              href="http://carbonads.net/?utm_source=tachyonsio&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon"
-              className="carbon-poweredby"
-              target="_blank"
-              rel="noopener"
-            >
-              ads via Carbon
-            </a>
-            <img
-              src="https://ad.doubleclick.net/ddm/trackimp/N5295.1676840CARBONADS.COM/B10444636.207316239;dc_trk_aid=407009849;dc_trk_cid=75142946;ord=151439449;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"
-              border="0"
-              height="1"
-              width="1"
-              style={{ display: 'none' }}
-            />
-          </span>
-        </div>
-      </div>
       <small className="f6 measure db lh-copy mt5">
         A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
         that always moves faster than light. The word comes from the Greek:
