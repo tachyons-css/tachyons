@@ -4,5 +4,6 @@ import withDocLayout from '../../../ui/withDocLayout'
 import Gradients from '../../../themes/gradients.md'
 
 export default withDocLayout(Gradients, {
+  addons: ['tachyons-gradients'],
   editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/themes/gradients.md'
 })
