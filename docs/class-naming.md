@@ -87,3 +87,8 @@ Class | Value | Full Declaration
 
 By appending `-m` or `-l` to a class you can target specific viewport sizes.
 For a more in depth view of how media queries work in Tachyons, check out the [responsive page](responsive.md).
+
+## Property to base mapping
+
+Base | Property | Example class
+---- | -------- | -------------
