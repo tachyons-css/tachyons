@@ -176,7 +176,7 @@ export default () => (
         />
         <div id="carbonads">
           <span>
-            <span className='fl w-100 border-box'>
+            <span className="fl w-100 border-box">
               <a
                 href="//srv.carbonads.net/ads/click/x/GTND42QJCE7IL2QLCV74YKQMC6BDCK7NFTBDEZ3JCWYIVKJMCYYIEKQKC6BI423IF6BDTK3EHJNCLSIZZRLCP7I35MNFV?segment=placement:tachyonsio;&amp;encredirect=https%3A%2F%2Fad.doubleclick.net%2Fddm%2Ftrackclk%2FN5295.1676840CARBONADS.COM%2FB10444636.207316239%3Bdc_trk_aid%3D407009849%3Bdc_trk_cid%3D75142946%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D"
                 className="carbon-img"

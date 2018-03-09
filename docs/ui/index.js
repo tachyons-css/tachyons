@@ -43,17 +43,15 @@ export const BigQuote = ({ quote, author, work }) => (
   </blockquote>
 )
 
-export const EditOnGitHub = ({ url }) =>
+export const EditOnGitHub = ({ url }) => (
   <div className="bg-green white pv3 pv5-m pv5-l mt4">
     <Container padding={true}>
-      <Flex wrap={true} alignItems='center'>
+      <Flex wrap={true} alignItems="center">
         <div className="flex-grow-1">
-          <h4 className="f3 mv0">
-            Notice an issue with these docs?
-          </h4>
+          <h4 className="f3 mv0">Notice an issue with these docs?</h4>
           <p className="f5 lh-copy o-80 measure mb0 mt2">
-            You can edit directly on GitHub and send us a PR to fix typos or add missing documentation.
-            Every contribution counts!
+            You can edit directly on GitHub and send us a PR to fix typos or add
+            missing documentation. Every contribution counts!
           </p>
         </div>
 
@@ -67,6 +65,7 @@ export const EditOnGitHub = ({ url }) =>
       </Flex>
     </Container>
   </div>
+)
 
 export const md = {
   h1: props => <h1 className="f6 ttu tracked mt0" {...props} />,

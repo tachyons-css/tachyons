@@ -9,16 +9,20 @@ import { md, EditOnGitHub } from './'
 
 export default (Component, metadata = {}) => ({ title, ...props }) => (
   <ComponentsProvider components={md}>
-    <link rel="stylesheet" href="https://unpkg.com/tachyons-gradients@0.0.1/css/tachyons-gradients.min.css" />
+    {metadata.addons
+      ? metadata.addons.map(addon => (
+          <link
+            rel="stylesheet"
+            href={`https://unpkg.com/${addon}/css/${addon}.min.css`}
+          />
+        ))
+      : null}
     <Layout title={title}>
       <NavElements />
       <Container padding={true} className="black-70">
         <Component data={data} {...props} />
       </Container>
-      {metadata.editUrl
-        ? <EditOnGitHub url={metadata.editUrl} />
-        : null
-      }
+      {metadata.editUrl ? <EditOnGitHub url={metadata.editUrl} /> : null}
     </Layout>
   </ComponentsProvider>
 )
