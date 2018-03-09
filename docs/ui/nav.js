@@ -90,6 +90,10 @@ export const docs = [
         href: '/docs/layout/position'
       },
       {
+        title: 'Z Index',
+        href: '/docs/layout/z-index'
+      },
+      {
         title: 'Debugging',
         href: '/docs/layout/debug'
       },
