@@ -85,8 +85,11 @@ export const EditOnGitHub = ({ url }) => (
 
 export const md = {
   h1: props => <h1 className="f6 ttu tracked mt0" {...props} />,
-  h2: props => <h2 className="f5 mt4 pb2 bb" {...props} />,
-  h3: props => <h3 className="f5 mt4" {...props} />,
+  h2: props => <h2 className="f2 lh-title mt4 mb2" {...props} />,
+  h3: props => <h3 className="f3 lh-title mt4 mb2" {...props} />,
+  h4: props => <h3 className="f4 lh-title mt4 mb2" {...props} />,
+  h5: props => <h3 className="f5 lh-title mid-gray mt4 mb2" {...props} />,
+  h6: props => <h3 className="f6 lh-title mid-gray mt4 mb2" {...props} />,
   p: props => <p className="measure f5 lh-copy" {...props} />,
   ul: props => <ul className="pl3" {...props} />,
   li: props => <li className="lh-copy ml2" {...props} />,
@@ -98,5 +101,6 @@ export const md = {
       <a className="dim link blue" {...props} />
     </Link>
   ),
-  code: Editor
+  code: Editor,
+  pre: props => <pre className='black f5 pre pa3 overflow-auto bl bw2 b--black' {...props} />
 }
