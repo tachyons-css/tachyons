@@ -6,7 +6,7 @@ It's important to note that since all classes are functional, responsive variant
 
 ```.html
 <div class="pa3 bg-black white">
-  <span class="dn-m">Small</span>
+  <span class="dn-m dn-l">Small</span>
   <span class="dn db-m dn-l">Medium</span>
   <span class="dn db-l">Large</span>
 </div>
