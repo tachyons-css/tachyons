@@ -41,5 +41,5 @@ Promise.all(px).then(modules => {
     {}
   )
 
-  writeFileSync('data.json', JSON.stringify({ modules: reduced }, null, 2))
+  writeFileSync('ui/data.json', JSON.stringify({ modules: reduced }, null, 2))
 })
