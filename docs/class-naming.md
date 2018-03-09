@@ -19,6 +19,37 @@ It's often the property or an abbreviated version of the property.
 
 For widths, the base is `w`, and all width based classes (`w2`, `w-50-m`, etc.) are prefixed with `w`.
 
+### Positioning
+
+Particular classes can target a side or sides of an element.
+For example, the spacing module for margin and padding has the ability to target all sides, a side, and even horizontal or vertical sides.
+
+Position is declared with a/l/r/t/b/h/v which follows directly after the base name.
+
+#### Padding example
+
+Class | Position | Description
+----- | -------- | -----------
+`.pa1` | All (a) | Adds padding to all sides
+`.pl1` | Left (l) | Adds padding to the left side
+`.pr1` | Right (r) | Adds padding to the right side
+`.pt1` | Top (t) | Adds padding to the top
+`.pb1` | Bottom (b) | Adds padding to the bottom
+`.ph1` | Horizontal (h) | Adds padding to the left and right sides
+`.pv1` | Vertical (v) | Adds padding to the top and bottom
+
+#### Border example
+
+Class | Position | Description
+----- | -------- | -----------
+`.ba` | All (a) | Adds a border to all sides
+`.bl` | Left (l) | Adds a border to the left side
+`.br` | Right (r) | Adds a border to the right side
+`.bt` | Top (t) | Adds a border to the top
+`.bb` | Bottom (b) | Adds a border to the bottom
+
+Note: Not all modules with positioning support horizontal and vertical shorthands.
+
 ### Modifiers
 
 Modifiers refer to the value that the class references.
