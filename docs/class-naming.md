@@ -83,6 +83,14 @@ Class | Value | Full Declaration
 `.w-10` | `10%` | `width: 10%;`
 `w-third` | `calc(100% / 3)` | `width: calc(100% / 3);`
 
+#### Dependent modifiers
+
+There are some modifiers that are dependent on the existence of another class.
+One such dependent modifier is `.b--black-10`.
+The class would have no effect without a border (`.ba`, `.bl`, `.br`, `.bt`, `.bb`).
+
+This dependence is indicated with the `--` delimiter.
+
 ## Responsive class naming
 
 By appending `-m` or `-l` to a class you can target specific viewport sizes.
@@ -92,3 +100,45 @@ For a more in depth view of how media queries work in Tachyons, check out the [r
 
 Base | Property | Example class
 ---- | -------- | -------------
+`bg` | `background-repeat` | `bg-center`
+`outline` | `outline` | `outline-0`
+`b` | `border` | `.ba`
+`b` | `border-color` | `b--black-10`
+`br` | `border-radius` | `br3`
+`b` | `border-style` | `b--dotted`
+`bw` | `border-width` | `bw2`
+`shadow` | `box-shadow` | `shadow-1`
+`top` | `top` | `top-0`
+`right` | `right` | `right-1`
+`left` | `left` | `left-2`
+`bottom` | `bottom` | `bottom-0`
+`c` | `clear` | `cl`
+`d` | `display` | `dn`
+`flex` | `flex` | `flex-1`
+`items` | `align-items` | `items-center`
+`self` | `align-self` | `self-stretch`
+`justify` | `justify-content` | `justify-between`
+`content` | `align-content` | `content-center`
+`order` | `order` | `order-3`
+`flex-grow` | `flex-grow` | `flex-grow-1`
+`flex-shrink` | `flex-shrink` | `flex-shrink-0`
+`f` | `float` | `fl`
+`fw` | `font-weight` | `fw2`
+`f` | `font-size` | `f3`
+`h` | `height` | `h-100`
+`lh` | `line-height` | `lh-solid`
+`mw` | `max-width` | `mw4`
+`w` | `width` | `w-25`
+`overflow` | `overflow` | `overflow-x-hidden`
+`o` | `opacity` | `o-20`
+`rotate` | `transform` | `rotate-90`
+`bg` | `background-color` | `bg-red`
+`hover` | `&:hover color` | `hover-mid-gray`
+`hover-bg` | `&:hover background-color` | `hover-bg-light-blue`
+`p` | `padding` | `ph5`
+`m` | `margin` | `ma2`
+`n` | `negative-margin` | `nt3`
+`t` | `text-align` | `tr`
+`tt` | `text-transform` | `ttu`
+`v` | `vertical-align` | `v-mid`
+`z` | `z-index` | `z-5`
