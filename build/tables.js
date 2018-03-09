@@ -25,8 +25,8 @@ const writeTable = async () => {
 
     return [
       d.selector.replace(/\n/g, '<br />'),
-      d.declarations.join(';<br />').replace(/\n/g, '<br />'),
-      `${moduleName}`
+      d.declarations.join(';<br />').replace(/\n/g, '<br />') + ';',
+      `[${moduleName}](https://npmjs.com/packages/tachyons-${moduleName})`
     ].join(' | ')
   })
 
