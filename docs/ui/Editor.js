@@ -8,9 +8,12 @@ class Editor extends Component {
   constructor(props) {
     super()
 
+    const html = props.children[0] || ''
+
     this.state = {
-      shouldLiveEdit: isDotHTML(props.className),
-      html: props.children[0] || ''
+      html,
+      lines: html.split(/\n/).length,
+      shouldLiveEdit: isDotHTML(props.className)
     }
   }
 
@@ -28,7 +31,7 @@ class Editor extends Component {
     return (
       <div>
         <textarea
-          rows={1}
+          rows={this.state.lines}
           className="w-100 bn code black-70 ph0 mb2 input-reset"
           value={this.state.html}
           onChange={this.handleChange}
