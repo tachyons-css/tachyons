@@ -11,5 +11,6 @@ const DocsIndex = () => (
 )
 
 export default withDocLayout(DocsIndex, {
-  skipDocsNav: true
+  skipDocsNav: true,
+  title: 'TACHYONS / Docs'
 })

@@ -4,7 +4,7 @@ import { ComponentsProvider } from '@compositor/markdown'
 import Layout from './Layout'
 import Container from './Container'
 import NavDocs from './NavDocs'
-import NavElements from './NavElements'
+import SubNav from './SubNav'
 import data from './data.json'
 import { md, EditOnGitHub } from './'
 
@@ -18,8 +18,8 @@ export default (Component, metadata = {}) => ({ title, ...props }) => (
           />
         ))
       : null}
-    <Layout title={title}>
-      <NavElements />
+    <Layout title={title || metadata.title}>
+      <SubNav nav={metadata.subNav} />
       <Container padding={true} className="black-70">
         <Component data={data} {...props} />
       </Container>
