@@ -1,6 +1,8 @@
-// TODO: Clean up redundant media queries on lines 35, 36, 41, 47, 57, 64, 65, 81
+// TODO: Clean up redundant media queries on line 72
 
 import React from 'react';
+
+import { Container } from '../ui';
 import Layout from '../ui/Layout';
 
 function carbonStyles() {
@@ -60,9 +62,9 @@ export default () => (
         </div>
       </div>
     </header>
-    <div>
-      <div className="w-100 flex-m flex-l items-center-m items-center-l pv5">
-        <div className="w-50-m w-50-l tl pl3">
+    <Container padding={true}>
+      <div className="w-100 flex-l items-center-l pv5">
+        <div className="w-50-l tl pl3">
           <div className="f5 center measure pr4">
             <h2 className="b f3 lh-title measure">
               Align elements on an 8 or 16px grid.
@@ -73,7 +75,7 @@ export default () => (
               sketch. This chrome extensions allows you to toggle the outline on
               elements and switch between an 8 and 16px grid in the background.
             </p>
-            <div className="tc tl-m tl-l">
+            <div className="tc tl-l">
               <a
                 href="https://chrome.google.com/webstore/detail/tachyons-x-ray/lbepbkiknibiobnbanhggglkmpkbdiim"
                 className="blue grow ba ph3 pv2 br1 bw1 mt4 dib no-underline"
@@ -83,15 +85,15 @@ export default () => (
             </div>
           </div>
         </div>
-        <div className="w-50-m w-50-l pt2 pt0-m pt0-l mt4 mt0-m mt0-l ph3">
+        <div className="w-50-l pt2 pt0-l mt4 mt0-l ph3">
           <img
             src="https://s3-us-west-1.amazonaws.com/tachyonsio/img/xray.gif"
             className="w-100 db mw6 center"
           />
         </div>
       </div>
-      <div className="ph3 flex-m flex-l items-center-m items-center-l pb5">
-        <div className="w-100 w-50-m w-50-l">
+      <div className="ph3 flex-l items-center-l pb5">
+        <div className="w-100 w-50-l">
           <div className="f5 measure center pr4">
             <h2 className="b f3 lh-title measure">The code</h2>
             <p className="lh-copy measure">
@@ -107,7 +109,7 @@ export default () => (
             </p>
           </div>
         </div>
-        <div className="w-100 w-50-m w-50-l pr3-m pr5-l">
+        <div className="w-100 w-50-l pr3-m pr5-l">
           <pre className="overflow-auto bg-navy light-blue br2 pa3">
             <code style={{ fontSize: '12px' }}>{`          
   /*
@@ -125,7 +127,7 @@ export default () => (
           </pre>
         </div>
       </div>
-    </div>
+    </Container>
     <style jsx>{`
       .bg-xray {
         background-color: rgba(0, 180, 249, 0.4);
