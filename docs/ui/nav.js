@@ -228,6 +228,10 @@ export const docs = [
       {
         title: 'Gradients',
         href: '/docs/addons/gradients'
+      },
+      {
+        title: 'Nudge',
+        href: '/docs/addons/nudge'
       }
     ]
   }
