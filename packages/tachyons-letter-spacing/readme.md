@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-260 | 9 | 9
+281 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,21 +76,27 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # LETTER SPACING
+# LETTER SPACING
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/tracking/
+http://tachyons.io/docs/typography/tracking/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .tracked { letter-spacing: .1em; }
 .tracked-tight { letter-spacing: -.05em; }
 .tracked-mega { letter-spacing: .25em; }
 @media screen and (min-width: 30em) {
+ .tracked-s { letter-spacing: .1em; }
+ .tracked-tight-s { letter-spacing: -.05em; }
+ .tracked-mega-s { letter-spacing: .25em; }
+}
+@media screen and (min-width: 48em) {
  .tracked-m { letter-spacing: .1em; }
  .tracked-tight-m { letter-spacing: -.05em; }
  .tracked-mega-m { letter-spacing: .25em; }

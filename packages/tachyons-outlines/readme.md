@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-229 | 9 | 9
+250 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,19 +76,25 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # OUTLINES
+# OUTLINES
 
-  Set transparent outline on elements.
+Set transparent outline on elements.
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .outline { outline: 1px solid; }
 .outline-transparent { outline: 1px solid transparent; }
 .outline-0 { outline: 0; }
 @media screen and (min-width: 30em) {
+ .outline-s { outline: 1px solid; }
+ .outline-transparent-s { outline: 1px solid transparent; }
+ .outline-0-s { outline: 0; }
+}
+@media screen and (min-width: 48em) {
  .outline-m { outline: 1px solid; }
  .outline-transparent-m { outline: 1px solid transparent; }
  .outline-0-m { outline: 0; }

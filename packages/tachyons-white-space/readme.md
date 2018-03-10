@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-211 | 9 | 9
+235 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,17 +76,23 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # WHITE SPACE
+# WHITE SPACE
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .ws-normal { white-space: normal; }
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
 @media screen and (min-width: 30em) {
+ .ws-normal-s { white-space: normal; }
+ .nowrap-s { white-space: nowrap; }
+ .pre-s { white-space: pre; }
+}
+@media screen and (min-width: 48em) {
  .ws-normal-m { white-space: normal; }
  .nowrap-m { white-space: nowrap; }
  .pre-m { white-space: pre; }

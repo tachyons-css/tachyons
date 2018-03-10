@@ -2,9 +2,7 @@
 
 # BORDER COLORS
 
-
-Border colors can be used to extend the base
-border classes ba,bt,bb,br,bl found in the _borders.css file.
+Border colors can be used to extend the base border classes ba,bt,bb,br,bl found in the _borders.css file.
 
 The base border class by default will set the color of the border
 to that of the current text color. These classes are for the cases
@@ -25,7 +23,7 @@ http://tachyons.io/docs/themes/borders/
 
 ### Stats
 
-444 | 28 | 28
+438 | 28 | 28
 ---|---|---
 bytes | selectors | declarations
 
@@ -97,27 +95,25 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # BORDER COLORS
+# BORDER COLORS
 
+Border colors can be used to extend the base border classes ba,bt,bb,br,bl found in the _borders.css file.
 
-  Border colors can be used to extend the base
-  border classes ba,bt,bb,br,bl found in the _borders.css file.
+The base border class by default will set the color of the border
+to that of the current text color. These classes are for the cases
+where you desire for the text and border colors to be different.
 
-  The base border class by default will set the color of the border
-  to that of the current text color. These classes are for the cases
-  where you desire for the text and border colors to be different.
+### Docs
 
-  ### Docs
+http://tachyons.io/docs/themes/borders/
 
-  http://tachyons.io/docs/themes/borders/
+### Base
 
-  ### Base
+`b` = border
 
-  `b` = border
+### Modifiers
 
-  ### Modifiers
-
-  - `--color-name` = black, white and their alpha colors are available
+- `--color-name` = black, white and their alpha colors are available
 */
 .b--black { border-color: undefined; }
 .b--white { border-color: undefined; }

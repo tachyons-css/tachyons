@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-224 | 9 | 9
+242 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,21 +76,26 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # WORD BREAK
+# WORD BREAK
 
-  ### Base
+### Base
 
-  word = word-break
+word = word-break
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-m` = medium
+- `-l` = large
 */
 .word-normal { word-break: normal; }
 .word-wrap { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
 @media screen and (min-width: 30em) {
+ .word-normal-s { word-break: normal; }
+ .word-wrap-s { word-break: break-all; }
+ .word-nowrap-s { word-break: keep-all; }
+}
+@media screen and (min-width: 48em) {
  .word-normal-m { word-break: normal; }
  .word-wrap-m { word-break: break-all; }
  .word-nowrap-m { word-break: keep-all; }

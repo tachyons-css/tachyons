@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-338 | 12 | 12
+362 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,35 +76,42 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # BORDER STYLES
+# BORDER STYLES
 
-  Depends on base border module in `_borders.css`
+Depends on base border module in `_borders.css`
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/borders/
+http://tachyons.io/docs/themes/borders/
 
-  ### Base
+### Base
 
-  `b` = border-style
+`b` = border-style
 
-  ### Modifiers
+### Modifiers
 
-  - `--none` = none
-  - `--dotted` = dotted
-  - `--dashed` = dashed
-  - `--solid`  = solid
+- `--none` = none
+- `--dotted` = dotted
+- `--dashed` = dashed
+- `--solid`  = solid
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
  */
 .b--dotted { border-style: dotted; }
 .b--dashed { border-style: dashed; }
 .b--solid { border-style: solid; }
 .b--none { border-style: none; }
 @media screen and (min-width: 30em) {
+ .b--dotted-s { border-style: dotted; }
+ .b--dashed-s { border-style: dashed; }
+ .b--solid-s { border-style: solid; }
+ .b--none-s { border-style: none; }
+}
+@media screen and (min-width: 48em) {
  .b--dotted-m { border-style: dotted; }
  .b--dashed-m { border-style: dashed; }
  .b--solid-m { border-style: solid; }

@@ -1,10 +1,11 @@
 /*!!!
 
-  # UTILITIES
+# UTILITIES
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
-*/.overflow-container{overflow-y:scroll}.center{margin-left:auto}.center,.mr-auto{margin-right:auto}.ml-auto{margin-left:auto}@media screen and (min-width:30em){.center-m{margin-left:auto}.center-m,.mr-auto-m{margin-right:auto}.ml-auto-m{margin-left:auto}}@media screen and (min-width:60em){.center-l{margin-left:auto}.center-l,.mr-auto-l{margin-right:auto}.ml-auto-l{margin-left:auto}}
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/.overflow-container{overflow-y:scroll}.center{margin-left:auto}.center,.mr-auto{margin-right:auto}.ml-auto{margin-left:auto}@media screen and (min-width:30em){.center-s{margin-left:auto}.center-s,.mr-auto-s{margin-right:auto}.ml-auto-s{margin-left:auto}}@media screen and (min-width:48em){.center-m{margin-left:auto}.center-m,.mr-auto-m{margin-right:auto}.ml-auto-m{margin-left:auto}}@media screen and (min-width:60em){.center-l{margin-left:auto}.center-l,.mr-auto-l{margin-right:auto}.ml-auto-l{margin-left:auto}}
 

@@ -1,52 +1,54 @@
 
 
 
-@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
 /*!!!
 
-  # WIDTHS
+# WIDTHS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/widths/
+http://tachyons.io/docs/layout/widths/
 
-  ### Base
+### Base
 
-  w = width
+w = width
 
-  ### Modifiers
+### Modifiers
 
-  - 1 = 1st step in width scale
-  - 2 = 2nd step in width scale
-  - 3 = 3rd step in width scale
-  - 4 = 4th step in width scale
-  - 5 = 5th step in width scale
+- 1 = 1st step in width scale
+- 2 = 2nd step in width scale
+- 3 = 3rd step in width scale
+- 4 = 4th step in width scale
+- 5 = 5th step in width scale
 
-  - -10  = literal value 10%
-  - -20  = literal value 20%
-  - -25  = literal value 25%
-  - -30  = literal value 30%
-  - -33  = literal value 33%
-  - -34  = literal value 34%
-  - -40  = literal value 40%
-  - -50  = literal value 50%
-  - -60  = literal value 60%
-  - -70  = literal value 70%
-  - -75  = literal value 75%
-  - -80  = literal value 80%
-  - -90  = literal value 90%
-  - -100 = literal value 100%
+- -10  = literal value 10%
+- -20  = literal value 20%
+- -25  = literal value 25%
+- -30  = literal value 30%
+- -33  = literal value 33%
+- -34  = literal value 34%
+- -40  = literal value 40%
+- -50  = literal value 50%
+- -60  = literal value 60%
+- -70  = literal value 70%
+- -75  = literal value 75%
+- -80  = literal value 80%
+- -90  = literal value 90%
+- -100 = literal value 100%
 
-  - `-third` = 100% / 3 (Not supported in opera mini or IE8)
-  - `-two-thirds` = 100% / 1.5 (Not supported in opera mini or IE8)
-  - `-auto` = string value auto
+- `-third` = 100% / 3 (Not supported in opera mini or IE8)
+- `-two-thirds` = 100% / 1.5 (Not supported in opera mini or IE8)
+- `-auto` = string value auto
 
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 /* Width Scale */
@@ -75,6 +77,31 @@
 .w-third { width: calc(100% / 3); }
 .w-two-thirds { width: calc(100% / 1.5); }
 .w-auto { width: auto; }
+
+@media (--breakpoint-small) {
+  .w1-s {      width: 1rem; }
+  .w2-s {      width: 2rem; }
+  .w3-s {      width: 4rem; }
+  .w4-s {      width: 8rem; }
+  .w5-s {      width: 16rem; }
+  .w-10-s { width:  10%; }
+  .w-20-s { width:  20%; }
+  .w-25-s { width:  25%; }
+  .w-30-s { width:  30%; }
+  .w-33-s { width:  33%; }
+  .w-34-s { width:  34%; }
+  .w-40-s { width:  40%; }
+  .w-50-s { width:  50%; }
+  .w-60-s { width:  60%; }
+  .w-70-s { width:  70%; }
+  .w-75-s { width:  75%; }
+  .w-80-s { width:  80%; }
+  .w-90-s { width:  90%; }
+  .w-100-s { width: 100%; }
+  .w-third-s { width: calc(100% / 3); }
+  .w-two-thirds-s { width: calc(100% / 1.5); }
+  .w-auto-s {    width: auto; }
+}
 
 @media (--breakpoint-medium) {
   .w1-m {      width: 1rem; }

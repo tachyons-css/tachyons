@@ -9,7 +9,7 @@ http://tachyons.io/docs/elements/lists/
 
 ### Stats
 
-114 | 1 | 1
+111 | 1 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,11 +81,11 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # LISTS
+# LISTS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/elements/lists/
+http://tachyons.io/docs/elements/lists/
 */
 .list { list-style-type: none; }
 ```

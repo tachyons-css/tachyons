@@ -1,11 +1,12 @@
 /*!!!
 
-  # UTILITIES
+# UTILITIES
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 /* Equivalent to .overflow-y-scroll */
 .overflow-container { overflow-y: scroll; }
@@ -13,6 +14,11 @@
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left: auto; }
 @media screen and (min-width: 30em) {
+ .center-s { margin-right: auto; margin-left: auto; }
+ .mr-auto-s { margin-right: auto; }
+ .ml-auto-s { margin-left: auto; }
+}
+@media screen and (min-width: 48em) {
  .center-m { margin-right: auto; margin-left: auto; }
  .mr-auto-m { margin-right: auto; }
  .ml-auto-m { margin-left: auto; }

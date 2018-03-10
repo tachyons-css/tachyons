@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-237 | 12 | 12
+260 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,18 +76,25 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # VERTICAL ALIGN
+# VERTICAL ALIGN
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .v-base { vertical-align: baseline; }
 .v-mid { vertical-align: middle; }
 .v-top { vertical-align: top; }
 .v-btm { vertical-align: bottom; }
 @media screen and (min-width: 30em) {
+ .v-base-s { vertical-align: baseline; }
+ .v-mid-s { vertical-align: middle; }
+ .v-top-s { vertical-align: top; }
+ .v-btm-s { vertical-align: bottom; }
+}
+@media screen and (min-width: 48em) {
  .v-base-m { vertical-align: baseline; }
  .v-mid-m { vertical-align: middle; }
  .v-top-m { vertical-align: top; }

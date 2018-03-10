@@ -1,9 +1,9 @@
 /*!!!
 
-  # TABLES
+# TABLES
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/elements/tables/
+http://tachyons.io/docs/elements/tables/
 */.collapse{border-collapse:collapse;border-spacing:0}.stripe-dark:nth-child(odd),.stripe-light:nth-child(odd),.striped--light-gray:nth-child(odd),.striped--light-silver:nth-child(odd),.striped--moon-gray:nth-child(odd),.striped--near-white:nth-child(odd){background-color:undefined}
 

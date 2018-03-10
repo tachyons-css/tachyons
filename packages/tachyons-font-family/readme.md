@@ -9,7 +9,7 @@ http://tachyons.io/docs/typography/font-family/
 
 ### Stats
 
-444 | 16 | 15
+443 | 16 | 15
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,11 +81,11 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-   # FONT FAMILY GROUPS
+ # FONT FAMILY GROUPS
 
-   ### Docs
+ ### Docs
 
-   http://tachyons.io/docs/typography/font-family/
+ http://tachyons.io/docs/typography/font-family/
 */
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }

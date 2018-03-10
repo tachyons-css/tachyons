@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-349 | 36 | 36
+396 | 48 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,12 +76,13 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # OVERFLOW
+# OVERFLOW
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
  */
 .overflow-visible { overflow: visible; }
 .overflow-hidden { overflow: hidden; }
@@ -96,6 +97,20 @@ Running `$ npm start` will process the source css and place the built css in the
 .overflow-y-scroll { overflow-y: scroll; }
 .overflow-y-auto { overflow-y: auto; }
 @media screen and (min-width: 30em) {
+ .overflow-visible-s { overflow: visible; }
+ .overflow-hidden-s { overflow: hidden; }
+ .overflow-scroll-s { overflow: scroll; }
+ .overflow-auto-s { overflow: auto; }
+ .overflow-x-visible-s { overflow-x: visible; }
+ .overflow-x-hidden-s { overflow-x: hidden; }
+ .overflow-x-scroll-s { overflow-x: scroll; }
+ .overflow-x-auto-s { overflow-x: auto; }
+ .overflow-y-visible-s { overflow-y: visible; }
+ .overflow-y-hidden-s { overflow-y: hidden; }
+ .overflow-y-scroll-s { overflow-y: scroll; }
+ .overflow-y-auto-s { overflow-y: auto; }
+}
+@media screen and (min-width: 48em) {
  .overflow-visible-m { overflow: visible; }
  .overflow-hidden-m { overflow: hidden; }
  .overflow-scroll-m { overflow: scroll; }

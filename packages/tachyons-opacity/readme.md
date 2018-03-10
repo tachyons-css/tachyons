@@ -9,7 +9,7 @@ http://tachyons.io/docs/themes/opacity/
 
 ### Stats
 
-172 | 13 | 13
+171 | 13 | 13
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,11 +81,11 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # OPACITY
+# OPACITY
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/opacity/
+http://tachyons.io/docs/themes/opacity/
 */
 .o-100 { opacity: 1; }
 .o-90 { opacity: .9; }

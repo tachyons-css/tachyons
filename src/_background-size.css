@@ -1,22 +1,37 @@
 /*!!!
 
-  # BACKGROUND SIZE
+# BACKGROUND SIZE
 
-  Often used in combination with background image set as an inline style
-  on an html element.
+Often used in combination with background image set as an inline style
+on an html element.
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/background-size/
+http://tachyons.io/docs/themes/background-size/
 
-  ### Media Query Extensions
+### Base
 
-  - `-m` = medium
-  - `-l`= large
+- bg = background-size
+
+### Modifiers
+
+- cover    = cover
+- contain  = contain
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l`= large
 */
 
 .cover { background-size: cover!important; }
 .contain { background-size: contain!important; }
+
+@media (--breakpoint-small) {
+  .cover-s { background-size: cover!important; }
+  .contain-s { background-size: contain!important; }
+}
 
 @media (--breakpoint-medium) {
   .cover-m { background-size: cover!important; }

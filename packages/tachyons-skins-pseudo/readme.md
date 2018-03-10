@@ -1,18 +1,18 @@
 
 
- # SKINS:PSEUDO
+# SKINS:PSEUDO
 
- Customize the color of an element when
- it is focused or hovered over.
+Customize the color of an element when
+it is focused or hovered over.
 
- ### Docs
+### Docs
 
- http://tachyons.io/docs/themes/skins-pseudo/
+http://tachyons.io/docs/themes/skins-pseudo/
 
 
 ### Stats
 
-961 | 222 | 220
+958 | 222 | 220
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,14 +84,14 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # SKINS:PSEUDO
+# SKINS:PSEUDO
 
-  Customize the color of an element when
-  it is focused or hovered over.
+Customize the color of an element when
+it is focused or hovered over.
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/skins-pseudo/
+http://tachyons.io/docs/themes/skins-pseudo/
  */
 .hover-black:hover { color: undefined; }
 .hover-black:focus { color: undefined; }

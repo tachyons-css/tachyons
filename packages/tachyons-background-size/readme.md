@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-299 | 6 | 6
+316 | 8 | 8
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,23 +76,28 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # BACKGROUND SIZE
+# BACKGROUND SIZE
 
-  Often used in combination with background image set as an inline style
-  on an html element.
+Often used in combination with background image set as an inline style
+on an html element.
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/background-size/
+http://tachyons.io/docs/themes/background-size/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l`= large
+- `-s` = small
+- `-m` = medium
+- `-l`= large
 */
 .cover { background-size: cover !important; }
 .contain { background-size: contain !important; }
 @media screen and (min-width: 30em) {
+ .cover-s { background-size: cover !important; }
+ .contain-s { background-size: contain !important; }
+}
+@media screen and (min-width: 48em) {
  .cover-m { background-size: cover !important; }
  .contain-m { background-size: contain !important; }
 }

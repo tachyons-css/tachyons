@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-311 | 12 | 12
+334 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,33 +76,40 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # TEXT TRANSFORM
+# TEXT TRANSFORM
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/text-transform/
+http://tachyons.io/docs/typography/text-transform/
 
-  ### Base
+### Base
 
-  tt = text-transform
+tt = text-transform
 
-  ### Modifiers
+### Modifiers
 
-  - c = capitalize
-  - l = lowercase
-  - u = uppercase
-  - n = none
+- c = capitalize
+- l = lowercase
+- u = uppercase
+- n = none
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .ttc { text-transform: capitalize; }
 .ttl { text-transform: lowercase; }
 .ttu { text-transform: uppercase; }
 .ttn { text-transform: none; }
 @media screen and (min-width: 30em) {
+ .ttc-s { text-transform: capitalize; }
+ .ttl-s { text-transform: lowercase; }
+ .ttu-s { text-transform: uppercase; }
+ .ttn-s { text-transform: none; }
+}
+@media screen and (min-width: 48em) {
  .ttc-m { text-transform: capitalize; }
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }

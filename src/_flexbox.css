@@ -1,15 +1,16 @@
 /*!!!
 
-  # FLEXBOX
+# FLEXBOX
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/flexbox/
+http://tachyons.io/docs/layout/flexbox/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .flex { display: flex; }
@@ -69,6 +70,63 @@
 
 .flex-shrink-0 { flex-shrink: 0; }
 .flex-shrink-1 { flex-shrink: 1; }
+
+@media (--breakpoint-small) {
+  .flex-s { display: flex; }
+  .inline-flex-s { display: inline-flex; }
+  .flex-1-s { flex: 1; }
+  .flex-auto-s { flex: 1 1 auto; }
+  .flex-initial-s { flex: initial; }
+  .flex-none-s { flex: none; }
+  .flex-column-s { flex-direction: column; }
+  .flex-row-s     { flex-direction: row; }
+  .flex-wrap-s { flex-wrap: wrap; }
+  .flex-nowrap-s { flex-wrap: nowrap; }
+  .flex-wrap-reverse-s { flex-wrap: wrap-reverse; }
+  .flex-column-reverse-s { flex-direction: column-reverse; }
+  .flex-row-reverse-s { flex-direction: row-reverse; }
+  .items-start-s { align-items: flex-start; }
+  .items-end-s { align-items: flex-end; }
+  .items-center-s { align-items: center; }
+  .items-baseline-s { align-items: baseline; }
+  .items-stretch-s { align-items: stretch; }
+
+  .self-start-s { align-self: flex-start; }
+  .self-end-s { align-self: flex-end; }
+  .self-center-s { align-self: center; }
+  .self-baseline-s { align-self: baseline; }
+  .self-stretch-s { align-self: stretch; }
+
+  .justify-start-s { justify-content: flex-start; }
+  .justify-end-s { justify-content: flex-end; }
+  .justify-center-s { justify-content: center; }
+  .justify-between-s { justify-content: space-between; }
+  .justify-around-s { justify-content: space-around; }
+
+  .content-start-s { align-content: flex-start; }
+  .content-end-s { align-content: flex-end; }
+  .content-center-s { align-content: center; }
+  .content-between-s { align-content: space-between; }
+  .content-around-s { align-content: space-around; }
+  .content-stretch-s { align-content: stretch; }
+
+  .order-0-s { order: 0; }
+  .order-1-s { order: 1; }
+  .order-2-s { order: 2; }
+  .order-3-s { order: 3; }
+  .order-4-s { order: 4; }
+  .order-5-s { order: 5; }
+  .order-6-s { order: 6; }
+  .order-7-s { order: 7; }
+  .order-8-s { order: 8; }
+  .order-last-s { order: 99999; }
+
+  .flex-grow-0-s { flex-grow: 0; }
+  .flex-grow-1-s { flex-grow: 1; }
+
+  .flex-shrink-0-s { flex-shrink: 0; }
+  .flex-shrink-1-s { flex-shrink: 1; }
+}
 
 @media (--breakpoint-medium) {
   .flex-m { display: flex; }
