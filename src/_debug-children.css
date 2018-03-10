@@ -1,13 +1,13 @@
 /*!!!
 
-  # DEBUG CHILDREN
+# DEBUG CHILDREN
 
-  Add the debug class to any element to see outlines on its
-  children.
+Add the debug class to any element to see outlines on its
+children.
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/debug/
+http://tachyons.io/docs/debug/
 */
 
 .debug * { outline: 1px solid gold; }

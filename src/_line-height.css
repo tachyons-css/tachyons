@@ -1,20 +1,27 @@
 /*!!!
 
-  # LINE HEIGHT / LEADING
+# LINE HEIGHT / LEADING
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/line-height
+http://tachyons.io/docs/typography/line-height
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
-  .lh-solid { line-height: 1; }
-  .lh-title { line-height: 1.25; }
-  .lh-copy  { line-height: 1.5; }
+.lh-solid { line-height: 1; }
+.lh-title { line-height: 1.25; }
+.lh-copy  { line-height: 1.5; }
+
+@media (--breakpoint-small) {
+  .lh-solid-s { line-height: 1; }
+  .lh-title-s { line-height: 1.25; }
+  .lh-copy-s  { line-height: 1.5; }
+}
 
 @media (--breakpoint-medium) {
   .lh-solid-m { line-height: 1; }
