@@ -3,6 +3,10 @@
 ![Addon](https://img.shields.io/badge/TACHYONS%20ADDON-✓-brightgreen.svg?longCache=true&style=for-the-badge)
 
 Tachyons includes a gradients addon.
+The gradients are intended to be sensible defaults for most projects.
+They've been created by the extremely talented folks at [cssgradient.io](https://cssgradient.io).
+
+These provided gradients are a starting point for projects, we expect most projects customize this addon for their own needs.
 
 ## Examples
 
