@@ -1,32 +1,33 @@
 /*!!!
 
-  # COORDINATES
+# COORDINATES
 
-  Use in combination with the position module.
+Use in combination with the position module.
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/position/
+http://tachyons.io/docs/layout/position/
 
-  ### Base
+### Base
 
-  - top
-  - bottom
-  - right
-  - left
+- top
+- bottom
+- right
+- left
 
-  ### Modifiers
+### Modifiers
 
-  - `-0`  = literal value 0
-  - `-1`  = literal value 1
-  - `-2`  = literal value 2
-  - `--1` = literal value -1
-  - `--2` = literal value -2
+- `-0`  = literal value 0
+- `-1`  = literal value 1
+- `-2`  = literal value 2
+- `--1` = literal value -1
+- `--2` = literal value -2
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .top-0    { top:    0; }
@@ -59,6 +60,35 @@
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+@media (--breakpoint-small) {
+  .top-0-s     { top:   0; }
+  .left-0-s    { left:  0; }
+  .right-0-s   { right: 0; }
+  .bottom-0-s  { bottom: 0; }
+  .top-1-s     { top:   1rem; }
+  .left-1-s    { left:  1rem; }
+  .right-1-s   { right: 1rem; }
+  .bottom-1-s  { bottom: 1rem; }
+  .top-2-s     { top:   2rem; }
+  .left-2-s    { left:  2rem; }
+  .right-2-s   { right: 2rem; }
+  .bottom-2-s  { bottom: 2rem; }
+  .top--1-s    { top:    -1rem; }
+  .right--1-s  { right:  -1rem; }
+  .bottom--1-s { bottom: -1rem; }
+  .left--1-s   { left:   -1rem; }
+  .top--2-s    { top:    -2rem; }
+  .right--2-s  { right:  -2rem; }
+  .bottom--2-s { bottom: -2rem; }
+  .left--2-s   { left:   -2rem; }
+  .absolute--fill-s {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 @media (--breakpoint-medium) {
