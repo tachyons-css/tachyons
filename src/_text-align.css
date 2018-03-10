@@ -1,32 +1,40 @@
 /*!!!
 
-  # TEXT ALIGN
+# TEXT ALIGN
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/text-align/
+http://tachyons.io/docs/typography/text-align/
 
-  ### Base
+### Base
 
-  t = text-align
+t = text-align
 
-  ### Modifiers
+### Modifiers
 
-  - l = left
-  - r = right
-  - c = center
-  - j = justify
+- l = left
+- r = right
+- c = center
+- j = justify
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .tl  { text-align: left; }
 .tr  { text-align: right; }
 .tc  { text-align: center; }
 .tj  { text-align: justify; }
+
+@media (--breakpoint-small) {
+  .tl-s  { text-align: left; }
+  .tr-s  { text-align: right; }
+  .tc-s  { text-align: center; }
+  .tj-s  { text-align: justify; }
+}
 
 @media (--breakpoint-medium) {
   .tl-m  { text-align: left; }

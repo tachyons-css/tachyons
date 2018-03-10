@@ -26,17 +26,17 @@ child class will be hidden and displayed on hover or focus.
 
 ```html
 <div class="hide-child">
-  <div class="child"> Hidden until hover or focus </div>
-  <div class="child"> Hidden until hover or focus </div>
-  <div class="child"> Hidden until hover or focus </div>
-  <div class="child"> Hidden until hover or focus </div>
+<div class="child"> Hidden until hover or focus </div>
+<div class="child"> Hidden until hover or focus </div>
+<div class="child"> Hidden until hover or focus </div>
+<div class="child"> Hidden until hover or focus </div>
 </div>
 ```
 
 
 ### Stats
 
-1133 | 29 | 55
+1142 | 29 | 55
 ---|---|---
 bytes | selectors | declarations
 
@@ -108,38 +108,38 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # HOVER EFFECTS
+# HOVER EFFECTS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/hovers/
+http://tachyons.io/docs/themes/hovers/
 
-  ### Base
+### Base
 
-  - `dim` - Dim element on hover
-  - `glow` - Animate opacity to 100% on hover
-  - `hide-child` - Hide child & reveal on hover
-  - `underline-hover` - Underline text on hover
-  - `grow` - Grow element on hover
-  - `pointer` - Show cursor: pointer on hover
-  - `shadow` - Show shadow on hover
-  - `bg-animate` - Animate background color on hover
+- `dim` - Dim element on hover
+- `glow` - Animate opacity to 100% on hover
+- `hide-child` - Hide child & reveal on hover
+- `underline-hover` - Underline text on hover
+- `grow` - Grow element on hover
+- `pointer` - Show cursor: pointer on hover
+- `shadow` - Show shadow on hover
+- `bg-animate` - Animate background color on hover
 
-  ### Examples
+### Examples
 
-  ##### Hide child & reveal on hover
+##### Hide child & reveal on hover
 
-  Put the hide-child class on a parent element and any nested element with the
-  child class will be hidden and displayed on hover or focus.
+Put the hide-child class on a parent element and any nested element with the
+child class will be hidden and displayed on hover or focus.
 
-  ```html
-  <div class="hide-child">
-    <div class="child"> Hidden until hover or focus </div>
-    <div class="child"> Hidden until hover or focus </div>
-    <div class="child"> Hidden until hover or focus </div>
-    <div class="child"> Hidden until hover or focus </div>
-  </div>
-  ```
+```html
+<div class="hide-child">
+  <div class="child"> Hidden until hover or focus </div>
+  <div class="child"> Hidden until hover or focus </div>
+  <div class="child"> Hidden until hover or focus </div>
+  <div class="child"> Hidden until hover or focus </div>
+</div>
+```
 */
 /*
 

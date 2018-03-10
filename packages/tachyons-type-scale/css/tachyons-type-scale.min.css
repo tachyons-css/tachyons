@@ -1,28 +1,29 @@
 /*!!!
 
-  # TYPE SCALE
+# TYPE SCALE
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/scale/
+http://tachyons.io/docs/typography/scale/
 
-  ### Base
+### Base
 
-  f = font-size
+f = font-size
 
-  ### Modifiers
+### Modifiers
 
-  - 1 = 1st step in size scale
-  - 2 = 2nd step in size scale
-  - 3 = 3rd step in size scale
-  - 4 = 4th step in size scale
-  - 5 = 5th step in size scale
-  - 6 = 6th step in size scale
-  - 7 = 7th step in size scale
+- 1 = 1st step in size scale
+- 2 = 2nd step in size scale
+- 3 = 3rd step in size scale
+- 4 = 4th step in size scale
+- 5 = 5th step in size scale
+- 6 = 6th step in size scale
+- 7 = 7th step in size scale
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
-*/.f-6,.f-headline{font-size:6rem}.f-5,.f-subheadline{font-size:5rem}.f1{font-size:3rem}.f2{font-size:2.25rem}.f3{font-size:1.5rem}.f4{font-size:1.25rem}.f5{font-size:1rem}.f6{font-size:.875rem}.f7{font-size:.75rem}@media screen and (min-width:30em){.f-6-m,.f-headline-m{font-size:6rem}.f-5-m,.f-subheadline-m{font-size:5rem}.f1-m{font-size:3rem}.f2-m{font-size:2.25rem}.f3-m{font-size:1.5rem}.f4-m{font-size:1.25rem}.f5-m{font-size:1rem}.f6-m{font-size:.875rem}.f7-m{font-size:.75rem}}@media screen and (min-width:60em){.f-6-l,.f-headline-l{font-size:6rem}.f-5-l,.f-subheadline-l{font-size:5rem}.f1-l{font-size:3rem}.f2-l{font-size:2.25rem}.f3-l{font-size:1.5rem}.f4-l{font-size:1.25rem}.f5-l{font-size:1rem}.f6-l{font-size:.875rem}.f7-l{font-size:.75rem}}
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/.f-6,.f-headline{font-size:6rem}.f-5,.f-subheadline{font-size:5rem}.f1{font-size:3rem}.f2{font-size:2.25rem}.f3{font-size:1.5rem}.f4{font-size:1.25rem}.f5{font-size:1rem}.f6{font-size:.875rem}.f7{font-size:.75rem}@media screen and (min-width:30em){.f-6-s,.f-headline-s{font-size:6rem}.f-5-s,.f-subheadline-s{font-size:5rem}.f1-s{font-size:3rem}.f2-s{font-size:2.25rem}.f3-s{font-size:1.5rem}.f4-s{font-size:1.25rem}.f5-s{font-size:1rem}.f6-s{font-size:.875rem}.f7-s{font-size:.75rem}}@media screen and (min-width:48em){.f-6-m,.f-headline-m{font-size:6rem}.f-5-m,.f-subheadline-m{font-size:5rem}.f1-m{font-size:3rem}.f2-m{font-size:2.25rem}.f3-m{font-size:1.5rem}.f4-m{font-size:1.25rem}.f5-m{font-size:1rem}.f6-m{font-size:.875rem}.f7-m{font-size:.75rem}}@media screen and (min-width:60em){.f-6-l,.f-headline-l{font-size:6rem}.f-5-l,.f-subheadline-l{font-size:5rem}.f1-l{font-size:3rem}.f2-l{font-size:2.25rem}.f3-l{font-size:1.5rem}.f4-l{font-size:1.25rem}.f5-l{font-size:1rem}.f6-l{font-size:.875rem}.f7-l{font-size:.75rem}}
 

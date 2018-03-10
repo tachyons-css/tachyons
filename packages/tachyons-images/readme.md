@@ -9,7 +9,7 @@ http://tachyons.io/docs/elements/images/
 
 ### Stats
 
-133 | 1 | 1
+132 | 1 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,11 +81,11 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # IMAGES
+# IMAGES
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/elements/images/
+http://tachyons.io/docs/elements/images/
 */
 /* Responsive images! */
 img { max-width: 100%; }

@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-499 | 33 | 45
+543 | 44 | 60
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,33 +76,34 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # BORDER RADIUS
+# BORDER RADIUS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/border-radius/
+http://tachyons.io/docs/themes/border-radius/
 
-  ### Base
+### Base
 
-  `br` = border-radius
+`br` = border-radius
 
-  ### Modifiers
+### Modifiers
 
-  - 0 = 0/none
-  - 1 = 1st step in scale
-  - 2 = 2nd step in scale
-  - 3 = 3rd step in scale
-  - 4 = 4th step in scale
+- 0 = 0/none
+- 1 = 1st step in scale
+- 2 = 2nd step in scale
+- 3 = 3rd step in scale
+- 4 = 4th step in scale
 
-  ### Literal values
+### Literal values
 
-  - `-100` = 100%
-  - `-pill` = 9999px
+- `-100` = 100%
+- `-pill` = 9999px
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-   - `-m` = medium
-   - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .br0 { border-radius: 0; }
 .br1 { border-radius: .125rem; }
@@ -116,6 +117,19 @@ Running `$ npm start` will process the source css and place the built css in the
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 @media screen and (min-width: 30em) {
+ .br0-s { border-radius: 0; }
+ .br1-s { border-radius: .125rem; }
+ .br2-s { border-radius: .25rem; }
+ .br3-s { border-radius: .5rem; }
+ .br4-s { border-radius: 1rem; }
+ .br-100-s { border-radius: 100%; }
+ .br-pill-s { border-radius: 9999px; }
+ .br--bottom-s { border-top-left-radius: 0; border-top-right-radius: 0; }
+ .br--top-s { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+ .br--right-s { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+ .br--left-s { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+}
+@media screen and (min-width: 48em) {
  .br0-m { border-radius: 0; }
  .br1-m { border-radius: .125rem; }
  .br2-m { border-radius: .25rem; }

@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-342 | 15 | 30
+369 | 20 | 40
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,24 +76,25 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # BACKGROUND POSITION
+# BACKGROUND POSITION
 
-  ### Base
+### Base
 
-  `bg` = background
+`bg` = background
 
-  ### Modifiers
+### Modifiers
 
-  - `-center` = center center
-  - `-top` = top center
-  - `-right` = center right
-  - `-bottom` = bottom center
-  - `-left` = center left
+- `-center` = center center
+- `-top` = top center
+- `-right` = center right
+- `-bottom` = bottom center
+- `-left` = center left
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l`= large
+- `-s` = small
+- `-m` = medium
+- `-l`= large
 */
 .bg-center { background-repeat: no-repeat; background-position: center center; }
 .bg-top { background-repeat: no-repeat; background-position: top center; }
@@ -101,6 +102,13 @@ Running `$ npm start` will process the source css and place the built css in the
 .bg-bottom { background-repeat: no-repeat; background-position: bottom center; }
 .bg-left { background-repeat: no-repeat; background-position: center left; }
 @media screen and (min-width: 30em) {
+ .bg-center-s { background-repeat: no-repeat; background-position: center center; }
+ .bg-top-s { background-repeat: no-repeat; background-position: top center; }
+ .bg-right-s { background-repeat: no-repeat; background-position: center right; }
+ .bg-bottom-s { background-repeat: no-repeat; background-position: bottom center; }
+ .bg-left-s { background-repeat: no-repeat; background-position: center left; }
+}
+@media screen and (min-width: 48em) {
  .bg-center-m { background-repeat: no-repeat; background-position: center center; }
  .bg-top-m { background-repeat: no-repeat; background-position: top center; }
  .bg-right-m { background-repeat: no-repeat; background-position: center right; }

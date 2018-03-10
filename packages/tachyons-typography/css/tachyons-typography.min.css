@@ -1,14 +1,15 @@
 /*!!!
 
-  # TYPOGRAPHY
+# TYPOGRAPHY
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/measure/
+http://tachyons.io/docs/typography/measure/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
-*/.measure{max-width:30em}.measure-wide{max-width:34em}.measure-narrow{max-width:20em}.indent{text-indent:1em;margin-top:0;margin-bottom:0}.small-caps{font-variant:small-caps}.truncate{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media screen and (min-width:30em){.measure-m{max-width:30em}.measure-wide-m{max-width:34em}.measure-narrow-m{max-width:20em}.indent-m{text-indent:1em;margin-top:0;margin-bottom:0}.small-caps-m{font-variant:small-caps}.truncate-m{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}@media screen and (min-width:60em){.measure-l{max-width:30em}.measure-wide-l{max-width:34em}.measure-narrow-l{max-width:20em}.indent-l{text-indent:1em;margin-top:0;margin-bottom:0}.small-caps-l{font-variant:small-caps}.truncate-l{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/.measure{max-width:30em}.measure-wide{max-width:34em}.measure-narrow{max-width:20em}.indent{text-indent:1em;margin-top:0;margin-bottom:0}.small-caps{font-variant:small-caps}.truncate{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media screen and (min-width:30em){.measure-s{max-width:30em}.measure-wide-s{max-width:34em}.measure-narrow-s{max-width:20em}.indent-s{text-indent:1em;margin-top:0;margin-bottom:0}.small-caps-s{font-variant:small-caps}.truncate-s{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}@media screen and (min-width:48em){.measure-m{max-width:30em}.measure-wide-m{max-width:34em}.measure-narrow-m{max-width:20em}.indent-m{text-indent:1em;margin-top:0;margin-bottom:0}.small-caps-m{font-variant:small-caps}.truncate-m{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}@media screen and (min-width:60em){.measure-l{max-width:30em}.measure-wide-l{max-width:34em}.measure-narrow-l{max-width:20em}.indent-l{text-indent:1em;margin-top:0;margin-bottom:0}.small-caps-l{font-variant:small-caps}.truncate-l{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
 

@@ -15,7 +15,7 @@ http://tachyons.io/docs/debug/
 
 ### Stats
 
-1163 | 99 | 99
+1159 | 99 | 99
 ---|---|---
 bytes | selectors | declarations
 
@@ -87,17 +87,17 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # DEBUG (PESTICIDE)
+# DEBUG (PESTICIDE)
 
-  This is a partial you have to manually include in your
-  build file. It places a different colored outline on
-  each element which can help you debug layout issues.
-  There is also a handy chrome extension that can
-  be found at http://pesticide.io
+This is a partial you have to manually include in your
+build file. It places a different colored outline on
+each element which can help you debug layout issues.
+There is also a handy chrome extension that can
+be found at http://pesticide.io
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/debug/
+http://tachyons.io/docs/debug/
 */
 body { outline: 1px solid #2980b9 !important; }
 article { outline: 1px solid #3498db !important; }

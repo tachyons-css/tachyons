@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-554 | 33 | 27
+591 | 44 | 36
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,30 +76,31 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # TYPE SCALE
+# TYPE SCALE
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/scale/
+http://tachyons.io/docs/typography/scale/
 
-  ### Base
+### Base
 
-  f = font-size
+f = font-size
 
-  ### Modifiers
+### Modifiers
 
-  - 1 = 1st step in size scale
-  - 2 = 2nd step in size scale
-  - 3 = 3rd step in size scale
-  - 4 = 4th step in size scale
-  - 5 = 5th step in size scale
-  - 6 = 6th step in size scale
-  - 7 = 7th step in size scale
+- 1 = 1st step in size scale
+- 2 = 2nd step in size scale
+- 3 = 3rd step in size scale
+- 4 = 4th step in size scale
+- 5 = 5th step in size scale
+- 6 = 6th step in size scale
+- 7 = 7th step in size scale
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 /*
  * For Hero/Marketing Titles
@@ -119,6 +120,17 @@ Running `$ npm start` will process the source css and place the built css in the
 .f7 { font-size: .75rem; }
 /* Small and hard to read for many people so use with extreme caution */
 @media screen and (min-width: 30em) {
+ .f-6-s, .f-headline-s { font-size: 6rem; }
+ .f-5-s, .f-subheadline-s { font-size: 5rem; }
+ .f1-s { font-size: 3rem; }
+ .f2-s { font-size: 2.25rem; }
+ .f3-s { font-size: 1.5rem; }
+ .f4-s { font-size: 1.25rem; }
+ .f5-s { font-size: 1rem; }
+ .f6-s { font-size: .875rem; }
+ .f7-s { font-size: .75rem; }
+}
+@media screen and (min-width: 48em) {
  .f-6-m, .f-headline-m { font-size: 6rem; }
  .f-5-m, .f-subheadline-m { font-size: 5rem; }
  .f1-m { font-size: 3rem; }

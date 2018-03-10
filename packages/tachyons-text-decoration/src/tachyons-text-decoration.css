@@ -1,25 +1,33 @@
 
 
 
-@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
 /*!!!
 
-  # TEXT DECORATION
+# TEXT DECORATION
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/text-decoration/
+http://tachyons.io/docs/typography/text-decoration/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .strike       { text-decoration: line-through; }
 .underline    { text-decoration: underline; }
 .no-underline { text-decoration: none; }
+
+@media (--breakpoint-small) {
+  .strike-s       { text-decoration: line-through; }
+  .underline-s    { text-decoration: underline; }
+  .no-underline-s { text-decoration: none; }
+}
 
 @media (--breakpoint-medium) {
   .strike-m       { text-decoration: line-through; }

@@ -9,7 +9,7 @@ http://tachyons.io/docs/elements/forms/
 
 ### Stats
 
-174 | 3 | 4
+173 | 3 | 4
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,11 +81,11 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # FORMS
+# FORMS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/elements/forms/
+http://tachyons.io/docs/elements/forms/
 */
 .input-reset { -webkit-appearance: none; -moz-appearance: none; }
 .button-reset::-moz-focus-inner, .input-reset::-moz-focus-inner { border: 0; padding: 0; }

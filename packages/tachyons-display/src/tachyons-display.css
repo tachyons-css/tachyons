@@ -1,36 +1,38 @@
 
 
 
-@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
 /*!!!
 
-  # DISPLAY
+# DISPLAY
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/display
+http://tachyons.io/docs/layout/display
 
-  ### Base
+### Base
 
-  `d` = display
+`d` = display
 
-  ### Modifiers
+### Modifiers
 
-  - n = none
-  - b = block
-  - ib = inline-block
-  - it = inline-table
-  - t = table
-  - tc = table-cell
-  - t-row = table-row
-  -t-columm = table-column
-  - t-column-group = table-column-group
+- n = none
+- b = block
+- ib = inline-block
+- it = inline-table
+- t = table
+- tc = table-cell
+- t-row = table-row
+-t-columm = table-column
+- t-column-group = table-column-group
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .dn {              display: none; }
@@ -52,6 +54,25 @@
 .dt--fixed {
   table-layout: fixed;
   width: 100%;
+}
+
+@media (--breakpoint-small) {
+  .dn-s {              display: none; }
+  .di-s {              display: inline; }
+  .db-s {              display: block; }
+  .dib-s {             display: inline-block; }
+  .dit-s {             display: inline-table; }
+  .dt-s {              display: table; }
+  .dtc-s {             display: table-cell; }
+  .dt-row-s {          display: table-row; }
+  .dt-row-group-s {    display: table-row-group; }
+  .dt-column-s {       display: table-column; }
+  .dt-column-group-s { display: table-column-group; }
+
+  .dt--fixed-s {
+    table-layout: fixed;
+    width: 100%;
+  }
 }
 
 @media (--breakpoint-medium) {

@@ -81,11 +81,11 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # LINKS
+# LINKS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/elements/links/
+http://tachyons.io/docs/elements/links/
 */
 .link { text-decoration: none; transition: color .15s ease-in; }
 .link:link, .link:visited { transition: color .15s ease-in; }

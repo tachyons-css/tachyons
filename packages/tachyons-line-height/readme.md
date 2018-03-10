@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-254 | 9 | 9
+272 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,21 +76,27 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # LINE HEIGHT / LEADING
+# LINE HEIGHT / LEADING
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/line-height
+http://tachyons.io/docs/typography/line-height
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .lh-solid { line-height: 1; }
 .lh-title { line-height: 1.25; }
 .lh-copy { line-height: 1.5; }
 @media screen and (min-width: 30em) {
+ .lh-solid-s { line-height: 1; }
+ .lh-title-s { line-height: 1.25; }
+ .lh-copy-s { line-height: 1.5; }
+}
+@media screen and (min-width: 48em) {
  .lh-solid-m { line-height: 1; }
  .lh-title-m { line-height: 1.25; }
  .lh-copy-m { line-height: 1.5; }

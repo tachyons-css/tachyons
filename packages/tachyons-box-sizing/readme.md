@@ -8,7 +8,7 @@ to improve performance.
 
 ### Stats
 
-319 | 44 | 1
+316 | 44 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -80,10 +80,10 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # BOX SIZING
+# BOX SIZING
 
-  Box sizing doesn't use the `*` selector in order
-  to improve performance.
+Box sizing doesn't use the `*` selector in order
+to improve performance.
 */
 html, body, div, article, aside, section, main, nav, footer, header, form,
 fieldset, legend, pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt,

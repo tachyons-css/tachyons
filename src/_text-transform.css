@@ -1,32 +1,40 @@
 /*!!!
 
-  # TEXT TRANSFORM
+# TEXT TRANSFORM
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/text-transform/
+http://tachyons.io/docs/typography/text-transform/
 
-  ### Base
+### Base
 
-  tt = text-transform
+tt = text-transform
 
-  ### Modifiers
+### Modifiers
 
-  - c = capitalize
-  - l = lowercase
-  - u = uppercase
-  - n = none
+- c = capitalize
+- l = lowercase
+- u = uppercase
+- n = none
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .ttc { text-transform: capitalize; }
 .ttl { text-transform: lowercase; }
 .ttu { text-transform: uppercase; }
 .ttn { text-transform: none; }
+
+@media (--breakpoint-small) {
+  .ttc-s { text-transform: capitalize; }
+  .ttl-s { text-transform: lowercase; }
+  .ttu-s { text-transform: uppercase; }
+  .ttn-s { text-transform: none; }
+}
 
 @media (--breakpoint-medium) {
   .ttc-m { text-transform: capitalize; }

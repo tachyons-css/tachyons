@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-598 | 105 | 105
+705 | 140 | 140
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,33 +76,34 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # NEGATIVE MARGINS
+# NEGATIVE MARGINS
 
-  ### Base
+### Base
 
-  `n` = negative
+`n` = negative
 
-  ### Modifiers
+### Modifiers
 
-  - a = all
-  - t = top
-  - r = right
-  - b = bottom
-  - l = left
+- a = all
+- t = top
+- r = right
+- b = bottom
+- l = left
 
-  - 1 = 1st step in spacing scale
-  - 2 = 2nd step in spacing scale
-  - 3 = 3rd step in spacing scale
-  - 4 = 4th step in spacing scale
-  - 5 = 5th step in spacing scale
-  - 6 = 6th step in spacing scale
-  - 7 = 7th step in spacing scale
+- 1 = 1st step in spacing scale
+- 2 = 2nd step in spacing scale
+- 3 = 3rd step in spacing scale
+- 4 = 4th step in spacing scale
+- 5 = 5th step in spacing scale
+- 6 = 6th step in spacing scale
+- 7 = 7th step in spacing scale
 
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .na1 { margin: undefined; }
 .na2 { margin: undefined; }
@@ -140,6 +141,43 @@ Running `$ npm start` will process the source css and place the built css in the
 .nt6 { margin-top: undefined; }
 .nt7 { margin-top: undefined; }
 @media screen and (min-width: 30em) {
+ .na1-s { margin: undefined; }
+ .na2-s { margin: undefined; }
+ .na3-s { margin: undefined; }
+ .na4-s { margin: undefined; }
+ .na5-s { margin: undefined; }
+ .na6-s { margin: undefined; }
+ .na7-s { margin: undefined; }
+ .nl1-s { margin-left: undefined; }
+ .nl2-s { margin-left: undefined; }
+ .nl3-s { margin-left: undefined; }
+ .nl4-s { margin-left: undefined; }
+ .nl5-s { margin-left: undefined; }
+ .nl6-s { margin-left: undefined; }
+ .nl7-s { margin-left: undefined; }
+ .nr1-s { margin-right: undefined; }
+ .nr2-s { margin-right: undefined; }
+ .nr3-s { margin-right: undefined; }
+ .nr4-s { margin-right: undefined; }
+ .nr5-s { margin-right: undefined; }
+ .nr6-s { margin-right: undefined; }
+ .nr7-s { margin-right: undefined; }
+ .nb1-s { margin-bottom: undefined; }
+ .nb2-s { margin-bottom: undefined; }
+ .nb3-s { margin-bottom: undefined; }
+ .nb4-s { margin-bottom: undefined; }
+ .nb5-s { margin-bottom: undefined; }
+ .nb6-s { margin-bottom: undefined; }
+ .nb7-s { margin-bottom: undefined; }
+ .nt1-s { margin-top: undefined; }
+ .nt2-s { margin-top: undefined; }
+ .nt3-s { margin-top: undefined; }
+ .nt4-s { margin-top: undefined; }
+ .nt5-s { margin-top: undefined; }
+ .nt6-s { margin-top: undefined; }
+ .nt7-s { margin-top: undefined; }
+}
+@media screen and (min-width: 48em) {
  .na1-m { margin: undefined; }
  .na2-m { margin: undefined; }
  .na3-m { margin: undefined; }

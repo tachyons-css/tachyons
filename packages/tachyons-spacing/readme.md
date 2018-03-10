@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-1907 | 336 | 432
+2327 | 448 | 576
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,42 +76,43 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # SPACING
+# SPACING
 
-  An eight step powers of two scale ranging from 0 to 16rem.
+An eight step powers of two scale ranging from 0 to 16rem.
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/spacing/
+http://tachyons.io/docs/layout/spacing/
 
-  ### Base
+### Base
 
-  - p = padding
-  - m = margin
+- p = padding
+- m = margin
 
-  ### Modifiers
+### Modifiers
 
-  - a = all
-  - h = horizontal
-  - v = vertical
-  - t = top
-  - r = right
-  - b = bottom
-  - l = left
+- a = all
+- h = horizontal
+- v = vertical
+- t = top
+- r = right
+- b = bottom
+- l = left
 
-  - 0 = none
-  - 1 = 1st step in spacing scale
-  - 2 = 2nd step in spacing scale
-  - 3 = 3rd step in spacing scale
-  - 4 = 4th step in spacing scale
-  - 5 = 5th step in spacing scale
-  - 6 = 6th step in spacing scale
-  - 7 = 7th step in spacing scale
+- 0 = none
+- 1 = 1st step in spacing scale
+- 2 = 2nd step in spacing scale
+- 3 = 3rd step in spacing scale
+- 4 = 4th step in spacing scale
+- 5 = 5th step in spacing scale
+- 6 = 6th step in spacing scale
+- 7 = 7th step in spacing scale
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 /* Variables */
 .pa0 { padding: 0; }
@@ -227,6 +228,120 @@ Running `$ npm start` will process the source css and place the built css in the
 .mh6 { margin-left: 8rem; margin-right: 8rem; }
 .mh7 { margin-left: 16rem; margin-right: 16rem; }
 @media screen and (min-width: 30em) {
+ .pa0-s { padding: 0; }
+ .pa1-s { padding: .25rem; }
+ .pa2-s { padding: .5rem; }
+ .pa3-s { padding: undefined; }
+ .pa4-s { padding: 2rem; }
+ .pa5-s { padding: 4rem; }
+ .pa6-s { padding: 8rem; }
+ .pa7-s { padding: 16rem; }
+ .pl0-s { padding-left: 0; }
+ .pl1-s { padding-left: .25rem; }
+ .pl2-s { padding-left: .5rem; }
+ .pl3-s { padding-left: undefined; }
+ .pl4-s { padding-left: 2rem; }
+ .pl5-s { padding-left: 4rem; }
+ .pl6-s { padding-left: 8rem; }
+ .pl7-s { padding-left: 16rem; }
+ .pr0-s { padding-right: 0; }
+ .pr1-s { padding-right: .25rem; }
+ .pr2-s { padding-right: .5rem; }
+ .pr3-s { padding-right: undefined; }
+ .pr4-s { padding-right: 2rem; }
+ .pr5-s { padding-right: 4rem; }
+ .pr6-s { padding-right: 8rem; }
+ .pr7-s { padding-right: 16rem; }
+ .pb0-s { padding-bottom: 0; }
+ .pb1-s { padding-bottom: .25rem; }
+ .pb2-s { padding-bottom: .5rem; }
+ .pb3-s { padding-bottom: undefined; }
+ .pb4-s { padding-bottom: 2rem; }
+ .pb5-s { padding-bottom: 4rem; }
+ .pb6-s { padding-bottom: 8rem; }
+ .pb7-s { padding-bottom: 16rem; }
+ .pt0-s { padding-top: 0; }
+ .pt1-s { padding-top: .25rem; }
+ .pt2-s { padding-top: .5rem; }
+ .pt3-s { padding-top: undefined; }
+ .pt4-s { padding-top: 2rem; }
+ .pt5-s { padding-top: 4rem; }
+ .pt6-s { padding-top: 8rem; }
+ .pt7-s { padding-top: 16rem; }
+ .pv0-s { padding-top: 0; padding-bottom: 0; }
+ .pv1-s { padding-top: .25rem; padding-bottom: .25rem; }
+ .pv2-s { padding-top: .5rem; padding-bottom: .5rem; }
+ .pv3-s { padding-top: undefined; padding-bottom: undefined; }
+ .pv4-s { padding-top: 2rem; padding-bottom: 2rem; }
+ .pv5-s { padding-top: 4rem; padding-bottom: 4rem; }
+ .pv6-s { padding-top: 8rem; padding-bottom: 8rem; }
+ .pv7-s { padding-top: 16rem; padding-bottom: 16rem; }
+ .ph0-s { padding-left: 0; padding-right: 0; }
+ .ph1-s { padding-left: .25rem; padding-right: .25rem; }
+ .ph2-s { padding-left: .5rem; padding-right: .5rem; }
+ .ph3-s { padding-left: undefined; padding-right: undefined; }
+ .ph4-s { padding-left: 2rem; padding-right: 2rem; }
+ .ph5-s { padding-left: 4rem; padding-right: 4rem; }
+ .ph6-s { padding-left: 8rem; padding-right: 8rem; }
+ .ph7-s { padding-left: 16rem; padding-right: 16rem; }
+ .ma0-s { margin: 0; }
+ .ma1-s { margin: .25rem; }
+ .ma2-s { margin: .5rem; }
+ .ma3-s { margin: undefined; }
+ .ma4-s { margin: 2rem; }
+ .ma5-s { margin: 4rem; }
+ .ma6-s { margin: 8rem; }
+ .ma7-s { margin: 16rem; }
+ .ml0-s { margin-left: 0; }
+ .ml1-s { margin-left: .25rem; }
+ .ml2-s { margin-left: .5rem; }
+ .ml3-s { margin-left: undefined; }
+ .ml4-s { margin-left: 2rem; }
+ .ml5-s { margin-left: 4rem; }
+ .ml6-s { margin-left: 8rem; }
+ .ml7-s { margin-left: 16rem; }
+ .mr0-s { margin-right: 0; }
+ .mr1-s { margin-right: .25rem; }
+ .mr2-s { margin-right: .5rem; }
+ .mr3-s { margin-right: undefined; }
+ .mr4-s { margin-right: 2rem; }
+ .mr5-s { margin-right: 4rem; }
+ .mr6-s { margin-right: 8rem; }
+ .mr7-s { margin-right: 16rem; }
+ .mb0-s { margin-bottom: 0; }
+ .mb1-s { margin-bottom: .25rem; }
+ .mb2-s { margin-bottom: .5rem; }
+ .mb3-s { margin-bottom: undefined; }
+ .mb4-s { margin-bottom: 2rem; }
+ .mb5-s { margin-bottom: 4rem; }
+ .mb6-s { margin-bottom: 8rem; }
+ .mb7-s { margin-bottom: 16rem; }
+ .mt0-s { margin-top: 0; }
+ .mt1-s { margin-top: .25rem; }
+ .mt2-s { margin-top: .5rem; }
+ .mt3-s { margin-top: undefined; }
+ .mt4-s { margin-top: 2rem; }
+ .mt5-s { margin-top: 4rem; }
+ .mt6-s { margin-top: 8rem; }
+ .mt7-s { margin-top: 16rem; }
+ .mv0-s { margin-top: 0; margin-bottom: 0; }
+ .mv1-s { margin-top: .25rem; margin-bottom: .25rem; }
+ .mv2-s { margin-top: .5rem; margin-bottom: .5rem; }
+ .mv3-s { margin-top: undefined; margin-bottom: undefined; }
+ .mv4-s { margin-top: 2rem; margin-bottom: 2rem; }
+ .mv5-s { margin-top: 4rem; margin-bottom: 4rem; }
+ .mv6-s { margin-top: 8rem; margin-bottom: 8rem; }
+ .mv7-s { margin-top: 16rem; margin-bottom: 16rem; }
+ .mh0-s { margin-left: 0; margin-right: 0; }
+ .mh1-s { margin-left: .25rem; margin-right: .25rem; }
+ .mh2-s { margin-left: .5rem; margin-right: .5rem; }
+ .mh3-s { margin-left: undefined; margin-right: undefined; }
+ .mh4-s { margin-left: 2rem; margin-right: 2rem; }
+ .mh5-s { margin-left: 4rem; margin-right: 4rem; }
+ .mh6-s { margin-left: 8rem; margin-right: 8rem; }
+ .mh7-s { margin-left: 16rem; margin-right: 16rem; }
+}
+@media screen and (min-width: 48em) {
  .pa0-m { padding: 0; }
  .pa1-m { padding: .25rem; }
  .pa2-m { padding: .5rem; }

@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-369 | 18 | 36
+395 | 24 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,29 +76,30 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # BORDERS
+# BORDERS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/borders/
+http://tachyons.io/docs/themes/borders/
 
-  ### Base
+### Base
 
-  - `b` = border
+- `b` = border
 
-  ### Modifiers
+### Modifiers
 
-  - a = all
-  - t = top
-  - r = right
-  - b = bottom
-  - l = left
-  - n = none
+- a = all
+- t = top
+- r = right
+- b = bottom
+- l = left
+- n = none
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l`= large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .ba { border-style: solid; border-width: 1px; }
 .bt { border-top-style: solid; border-top-width: 1px; }
@@ -107,6 +108,14 @@ Running `$ npm start` will process the source css and place the built css in the
 .bl { border-left-style: solid; border-left-width: 1px; }
 .bn { border-style: none; border-width: 0; }
 @media screen and (min-width: 30em) {
+ .ba-s { border-style: solid; border-width: 1px; }
+ .bt-s { border-top-style: solid; border-top-width: 1px; }
+ .br-s { border-right-style: solid; border-right-width: 1px; }
+ .bb-s { border-bottom-style: solid; border-bottom-width: 1px; }
+ .bl-s { border-left-style: solid; border-left-width: 1px; }
+ .bn-s { border-style: none; border-width: 0; }
+}
+@media screen and (min-width: 48em) {
  .ba-m { border-style: solid; border-width: 1px; }
  .bt-m { border-top-style: solid; border-top-width: 1px; }
  .br-m { border-right-style: solid; border-right-width: 1px; }

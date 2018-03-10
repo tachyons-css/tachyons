@@ -1,15 +1,16 @@
 /*!!!
 
-  # TYPOGRAPHY
+# TYPOGRAPHY
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/measure/
+http://tachyons.io/docs/typography/measure/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 
@@ -46,6 +47,31 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media (--breakpoint-small) {
+  .measure-s {
+    max-width: 30em;
+  }
+  .measure-wide-s {
+    max-width: 34em;
+  }
+  .measure-narrow-s {
+    max-width: 20em;
+  }
+  .indent-s {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .small-caps-s {
+    font-variant: small-caps;
+  }
+  .truncate-s {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 @media (--breakpoint-medium) {

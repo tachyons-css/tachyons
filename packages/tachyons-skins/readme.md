@@ -13,7 +13,7 @@ be set to the current text color.
 
 ### Stats
 
-693 | 113 | 113
+690 | 113 | 113
 ---|---|---
 bytes | selectors | declarations
 
@@ -85,15 +85,15 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # SKINS
+# SKINS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/skins/
+http://tachyons.io/docs/themes/skins/
 
-  Classes for setting foreground and background colors on elements.
-  If you haven't declared a border color, but set border on an element, it will
-  be set to the current text color.
+Classes for setting foreground and background colors on elements.
+If you haven't declared a border color, but set border on an element, it will
+be set to the current text color.
 */
 /* Text colors */
 .black-90 { color: undefined; }
