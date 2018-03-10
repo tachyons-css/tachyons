@@ -13,11 +13,11 @@ Tachyons also provides an alpha scale for the standard opacity range for both bl
 ### Border base
 
 ```.html
-<div class="ba bg-washed-blue pa3 mw6 mb3">All</div>
-<div class="bt bg-washed-blue pa3 mw6 mb3">Top</div>
-<div class="bb bg-washed-blue pa3 mw6 mb3">Bottom</div>
-<div class="bl bg-washed-blue pa3 mw6 mb3">Left</div>
-<div class="br bg-washed-blue pa3 mw6 mb3">Right</div>
+<div class="ba bg-washed-blue dib pa3 mw6 mr3 mb3">All</div>
+<div class="bt bg-washed-blue dib pa3 mw6 mr3 mb3">Top</div>
+<div class="bb bg-washed-blue dib pa3 mw6 mr3 mb3">Bottom</div>
+<div class="bl bg-washed-blue dib pa3 mw6 mr3 mb3">Left</div>
+<div class="br bg-washed-blue dib pa3 mw6 mr3 mb3">Right</div>
 ```
 
 ### Border style
