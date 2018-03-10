@@ -26,11 +26,9 @@ You can dim any element on hover and focus with the dim element. Not just text. 
 ### Reveal Children on Hover
 
 ```.html
-<a href="#" style="background-image: url(http://mrmrs.github.io/images/0010.jpg);
-      class="link mw5 dt hide-child br2 cover bg-center" ">
-  <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5">
-    Card title
-  </span>
+<a href="#" class="link mw5 dt hide-child br2 cover bg-center"
+            style="background-image: url(http://mrmrs.github.io/photos/012.jpg); ">
+  <span class="white b dtc v-mid w-100 h-100 child bg-black-40 pa5 br2">This is some card content</span>
 </a>
 ```
 
