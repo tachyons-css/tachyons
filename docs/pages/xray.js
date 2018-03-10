@@ -1,7 +1,6 @@
 // TODO: Clean up redundant media queries on lines 35, 36, 41, 47, 57, 64, 65, 81
 
 import React from 'react';
-import Head from 'next/head';
 import Layout from '../ui/Layout';
 
 function carbonStyles() {
@@ -38,10 +37,7 @@ function carbonStyles() {
 }
 
 export default () => (
-  <Layout>
-    <Head>
-      <title>X-RAY</title>
-    </Head>
+  <Layout title="X-RAY">
     <header
       className="bg-near-black cover relative"
       style={{ backgroundImage: 'url(http://i.giphy.com/zHZWKipjmTLA4.gif)' }}
