@@ -4,6 +4,39 @@ import React from 'react';
 import Head from 'next/head';
 import Layout from '../ui/Layout';
 
+function carbonStyles() {
+  return {
+    __html: `<style>
+    .carbon-poweredby {
+      width: 100%;
+      font-size: 12px;
+      float: left;
+    }
+    .carbon-wrap {
+      float: left;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .carbon-img {
+      float: left;
+      width: 50%;
+      box-sizing: border-box;
+    }
+    .carbon-text {
+      float: left;
+      width: 50%;
+      padding-left: 16px;
+      box-sizing: border-box;
+      font-size: 12px;
+    }
+    #carbonads a:link {
+      text-decoration: none !important;
+      color: #222 !important;
+    }
+  </style>`
+  };
+}
+
 export default () => (
   <Layout>
     <Head>
@@ -31,7 +64,7 @@ export default () => (
         </div>
       </div>
     </header>
-    <main role="main">
+    <div>
       <div className="w-100 flex-m flex-l items-center-m items-center-l pv5">
         <div className="w-50-m w-50-l tl pl3">
           <div className="f5 center measure pr4">
@@ -96,34 +129,8 @@ export default () => (
           </pre>
         </div>
       </div>
-    </main>
+    </div>
     <style jsx>{`
-      .carbon-poweredby {
-        width: 100%;
-        font-size: 12px;
-        float: left;
-      }
-      .carbon-wrap {
-        float: left;
-        width: 100%;
-        box-sizing: border-box;
-      }
-      .carbon-img {
-        float: left;
-        width: 50%;
-        box-sizing: border-box;
-      }
-      .carbon-text {
-        float: left;
-        width: 50%;
-        padding-left: 16px;
-        box-sizing: border-box;
-        font-size: 12px;
-      }
-      #carbonads a:link {
-        text-decoration: none !important;
-        color: #222 !important;
-      }
       .bg-xray {
         background-color: rgba(0, 180, 249, 0.4);
       }
@@ -133,5 +140,6 @@ export default () => (
         }
       }
     `}</style>
+    <span dangerouslySetInnerHTML={carbonStyles()} />
   </Layout>
 );
