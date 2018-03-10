@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-335 | 21 | 42
+366 | 28 | 56
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,14 +76,15 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # ROTATIONS
+# ROTATIONS
 
-  Rotate elements.
+Rotate elements.
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .rotate-45 { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
 .rotate-90 { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
@@ -93,6 +94,15 @@ Running `$ npm start` will process the source css and place the built css in the
 .rotate-270 { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
 .rotate-315 { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
 @media screen and (min-width: 30em) {
+ .rotate-45-s { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+ .rotate-90-s { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+ .rotate-135-s { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+ .rotate-180-s { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+ .rotate-225-s { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+ .rotate-270-s { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+ .rotate-315-s { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
+}
+@media screen and (min-width: 48em) {
  .rotate-45-m { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
  .rotate-90-m { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
  .rotate-135-m { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }

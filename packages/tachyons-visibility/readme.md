@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-307 | 3 | 12
+321 | 4 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,12 +76,13 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # VISIBILITY
+# VISIBILITY
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 /*
     Text that is hidden but accessible
@@ -89,6 +90,9 @@ Running `$ npm start` will process the source css and place the built css in the
 */
 .clip { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 @media screen and (min-width: 30em) {
+ .clip-s { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
+}
+@media screen and (min-width: 48em) {
  .clip-m { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 }
 @media screen and (min-width: 60em) {

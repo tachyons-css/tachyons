@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-350 | 16 | 16
+372 | 20 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,22 +76,23 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # CLEARFIX
+# CLEARFIX
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/clearfix/
+http://tachyons.io/docs/layout/clearfix/
 
-  ### Based on
+### Based on
 
-  Nicolas Gallagher's clerfix solution
-  http://nicolasgallagher.com/micro-clearfix-hack/
+Nicolas Gallagher's clerfix solution
+http://nicolasgallagher.com/micro-clearfix-hack/
 
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .cf:before, .cf:after { content: " "; display: table; }
 .cf:after { clear: both; }
@@ -101,6 +102,12 @@ Running `$ npm start` will process the source css and place the built css in the
 .cb { clear: both; }
 .cn { clear: none; }
 @media screen and (min-width: 30em) {
+ .cl-s { clear: left; }
+ .cr-s { clear: right; }
+ .cb-s { clear: both; }
+ .cn-s { clear: none; }
+}
+@media screen and (min-width: 48em) {
  .cl-m { clear: left; }
  .cr-m { clear: right; }
  .cb-m { clear: both; }

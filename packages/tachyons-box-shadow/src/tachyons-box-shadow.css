@@ -1,20 +1,22 @@
 
 
 
-@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
 /*!!!
 
-  # BOX SHADOW
+# BOX SHADOW
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/box-shadow/
+http://tachyons.io/docs/themes/box-shadow/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l`= large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .shadow-1 { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
@@ -22,6 +24,14 @@
 .shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
 .shadow-4 { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
 .shadow-5 { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+
+@media (--breakpoint-small) {
+  .shadow-1-s { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-2-s { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-3-s { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-4-s { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-5-s { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+}
 
 @media (--breakpoint-medium) {
   .shadow-1-m { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }

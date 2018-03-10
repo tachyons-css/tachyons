@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-256 | 10 | 13
+274 | 13 | 17
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,12 +76,13 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # UTILITIES
+# UTILITIES
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 /* Equivalent to .overflow-y-scroll */
 .overflow-container { overflow-y: scroll; }
@@ -89,6 +90,11 @@ Running `$ npm start` will process the source css and place the built css in the
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left: auto; }
 @media screen and (min-width: 30em) {
+ .center-s { margin-right: auto; margin-left: auto; }
+ .mr-auto-s { margin-right: auto; }
+ .ml-auto-s { margin-left: auto; }
+}
+@media screen and (min-width: 48em) {
  .center-m { margin-right: auto; margin-left: auto; }
  .mr-auto-m { margin-right: auto; }
  .ml-auto-m { margin-left: auto; }

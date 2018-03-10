@@ -7,7 +7,7 @@ Add custom styles here.
 
 ### Stats
 
-65 | 0 | 0
+64 | 0 | 0
 ---|---|---
 bytes | selectors | declarations
 
@@ -79,9 +79,9 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # STYLES
+# STYLES
 
-  Add custom styles here.
+Add custom styles here.
 */
 ```
 

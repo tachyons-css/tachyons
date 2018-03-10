@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-231 | 6 | 6
+247 | 8 | 8
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,20 +76,25 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # FONT STYLE
+# FONT STYLE
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/font-style/
+http://tachyons.io/docs/typography/font-style/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l`= large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .i { font-style: italic; }
 .fs-normal { font-style: normal; }
 @media screen and (min-width: 30em) {
+ .i-s { font-style: italic; }
+ .fs-normal-s { font-style: normal; }
+}
+@media screen and (min-width: 48em) {
  .i-m { font-style: italic; }
  .fs-normal-m { font-style: normal; }
 }

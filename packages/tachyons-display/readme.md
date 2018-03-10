@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-519 | 36 | 39
+566 | 48 | 52
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,32 +76,33 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # DISPLAY
+# DISPLAY
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/display
+http://tachyons.io/docs/layout/display
 
-  ### Base
+### Base
 
-  `d` = display
+`d` = display
 
-  ### Modifiers
+### Modifiers
 
-  - n = none
-  - b = block
-  - ib = inline-block
-  - it = inline-table
-  - t = table
-  - tc = table-cell
-  - t-row = table-row
-  -t-columm = table-column
-  - t-column-group = table-column-group
+- n = none
+- b = block
+- ib = inline-block
+- it = inline-table
+- t = table
+- tc = table-cell
+- t-row = table-row
+-t-columm = table-column
+- t-column-group = table-column-group
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .dn { display: none; }
 .di { display: inline; }
@@ -120,6 +121,20 @@ Running `$ npm start` will process the source css and place the built css in the
 */
 .dt--fixed { table-layout: fixed; width: 100%; }
 @media screen and (min-width: 30em) {
+ .dn-s { display: none; }
+ .di-s { display: inline; }
+ .db-s { display: block; }
+ .dib-s { display: inline-block; }
+ .dit-s { display: inline-table; }
+ .dt-s { display: table; }
+ .dtc-s { display: table-cell; }
+ .dt-row-s { display: table-row; }
+ .dt-row-group-s { display: table-row-group; }
+ .dt-column-s { display: table-column; }
+ .dt-column-group-s { display: table-column-group; }
+ .dt--fixed-s { table-layout: fixed; width: 100%; }
+}
+@media screen and (min-width: 48em) {
  .dn-m { display: none; }
  .di-m { display: inline; }
  .db-m { display: block; }

@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-294 | 15 | 18
+319 | 20 | 24
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,16 +76,17 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # POSITIONING
+# POSITIONING
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/position/
+http://tachyons.io/docs/layout/position/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .static { position: static; }
 .relative { position: relative; }
@@ -93,6 +94,13 @@ Running `$ npm start` will process the source css and place the built css in the
 .fixed { position: fixed; }
 .sticky { position: -webkit-sticky; position: sticky; }
 @media screen and (min-width: 30em) {
+ .static-s { position: static; }
+ .relative-s { position: relative; }
+ .absolute-s { position: absolute; }
+ .fixed-s { position: fixed; }
+ .sticky-s { position: -webkit-sticky; position: sticky; }
+}
+@media screen and (min-width: 48em) {
  .static-m { position: static; }
  .relative-m { position: relative; }
  .absolute-m { position: absolute; }

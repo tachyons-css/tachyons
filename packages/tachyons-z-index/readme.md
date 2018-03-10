@@ -43,7 +43,7 @@ adjust these values to suit your needs.
 
 ### Stats
 
-520 | 12 | 12
+513 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -115,45 +115,45 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # Z-INDEX
+# Z-INDEX
 
-  ### Base
+### Base
 
-  z = z-index
+z = z-index
 
-  ### Modifiers
+### Modifiers
 
-  - -0 = literal value 0
-  - -1 = literal value 1
-  - -2 = literal value 2
-  - -3 = literal value 3
-  - -4 = literal value 4
-  - -5 = literal value 5
-  - -999 = literal value 999
-  - -9999 = literal value 9999
+- -0 = literal value 0
+- -1 = literal value 1
+- -2 = literal value 2
+- -3 = literal value 3
+- -4 = literal value 4
+- -5 = literal value 5
+- -999 = literal value 999
+- -9999 = literal value 9999
 
-  - `-max` = largest accepted z-index value as integer
+- `-max` = largest accepted z-index value as integer
 
-  - `-inherit` = string value inherit
-  - `-initial` = string value initial
-  - `-unset` = string value unset
+- `-inherit` = string value inherit
+- `-initial` = string value initial
+- `-unset` = string value unset
 
-  ### MDN
+### MDN
 
-  https://developer.mozilla.org/en/docs/Web/CSS/z-index
+https://developer.mozilla.org/en/docs/Web/CSS/z-index
 
-  ### Spec
+### Spec
 
-  http://www.w3.org/TR/CSS2/zindex.html
+http://www.w3.org/TR/CSS2/zindex.html
 
-  ### Articles:
-  https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
+### Articles:
+https://philipwalton.com/articles/what-no-one-told-you-about-z-index/
 
-  ### Tips on extending
+### Tips on extending
 
-  There might be a time worth using negative z-index values.
-  Or if you are using tachyons with another project, you might need to
-  adjust these values to suit your needs.
+There might be a time worth using negative z-index values.
+Or if you are using tachyons with another project, you might need to
+adjust these values to suit your needs.
 */
 .z-0 { z-index: 0; }
 .z-1 { z-index: 1; }

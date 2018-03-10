@@ -1,20 +1,20 @@
 /*!!!
 
-  # Gradients
+# [ADDON] GRADIENTS
 
-  All gradients cut and pasted from cssgradient.io ;)
+All gradients cut and pasted from cssgradient.io ;)
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/gradients/
+http://tachyons.io/docs/themes/gradients/
 
-  ### Base
+### Base
 
-  `gradient` = background-color
+`gradient` = background-color
 
-  ### Modifiers
+### Modifiers
 
-  - `-gradient-name` = dark-blue, lily, aqua, etc
+- `-gradient-name` = dark-blue, lily, aqua, etc
 */
 .gradient-dark-blue { background: linear-gradient( 90deg, #4b6cb7 0%, #182848 100% ); }
 .gradient-charcoal { background: linear-gradient( 90deg, rgba( 44, 56, 68, 1 ) 0%, rgba( 23, 32, 42, 1 ) 100% ); }

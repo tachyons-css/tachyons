@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-411 | 33 | 33
+458 | 44 | 44
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,32 +76,33 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # FONT WEIGHT
+# FONT WEIGHT
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/typography/font-weight/
+http://tachyons.io/docs/typography/font-weight/
 
-  ### Base
+### Base
 
-  `fw` = font-weight
+`fw` = font-weight
 
-  ### Modifiers
+### Modifiers
 
-  - 1 = literal value 100
-  - 2 = literal value 200
-  - 3 = literal value 300
-  - 4 = literal value 400
-  - 5 = literal value 500
-  - 6 = literal value 600
-  - 7 = literal value 700
-  - 8 = literal value 800
-  - 9 = literal value 900
+- 1 = literal value 100
+- 2 = literal value 200
+- 3 = literal value 300
+- 4 = literal value 400
+- 5 = literal value 500
+- 6 = literal value 600
+- 7 = literal value 700
+- 8 = literal value 800
+- 9 = literal value 900
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .normal { font-weight: normal; }
 .b { font-weight: bold; }
@@ -115,6 +116,19 @@ Running `$ npm start` will process the source css and place the built css in the
 .fw8 { font-weight: 800; }
 .fw9 { font-weight: 900; }
 @media screen and (min-width: 30em) {
+ .normal-s { font-weight: normal; }
+ .b-s { font-weight: bold; }
+ .fw1-s { font-weight: 100; }
+ .fw2-s { font-weight: 200; }
+ .fw3-s { font-weight: 300; }
+ .fw4-s { font-weight: 400; }
+ .fw5-s { font-weight: 500; }
+ .fw6-s { font-weight: 600; }
+ .fw7-s { font-weight: 700; }
+ .fw8-s { font-weight: 800; }
+ .fw9-s { font-weight: 900; }
+}
+@media screen and (min-width: 48em) {
  .normal-m { font-weight: normal; }
  .b-m { font-weight: bold; }
  .fw1-m { font-weight: 100; }

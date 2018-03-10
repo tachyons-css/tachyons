@@ -1,26 +1,28 @@
 
 
 
-@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
 /*!!!
 
-  # CLEARFIX
+# CLEARFIX
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/clearfix/
+http://tachyons.io/docs/layout/clearfix/
 
-  ### Based on
+### Based on
 
-  Nicolas Gallagher's clerfix solution
-  http://nicolasgallagher.com/micro-clearfix-hack/
+Nicolas Gallagher's clerfix solution
+http://nicolasgallagher.com/micro-clearfix-hack/
 
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .cf:before,
@@ -32,6 +34,13 @@
 .cr { clear: right; }
 .cb { clear: both; }
 .cn { clear: none; }
+
+@media (--breakpoint-small) {
+  .cl-s { clear: left; }
+  .cr-s { clear: right; }
+  .cb-s { clear: both; }
+  .cn-s { clear: none; }
+}
 
 @media (--breakpoint-medium) {
   .cl-m { clear: left; }

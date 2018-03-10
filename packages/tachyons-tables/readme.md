@@ -9,7 +9,7 @@ http://tachyons.io/docs/elements/tables/
 
 ### Stats
 
-212 | 7 | 8
+208 | 7 | 8
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,11 +81,11 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # TABLES
+# TABLES
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/elements/tables/
+http://tachyons.io/docs/elements/tables/
 */
 .collapse { border-collapse: collapse; border-spacing: 0; }
 .striped--light-silver:nth-child(odd) { background-color: undefined; }

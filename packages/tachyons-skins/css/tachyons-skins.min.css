@@ -1,13 +1,13 @@
 /*!!!
 
-  # SKINS
+# SKINS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/skins/
+http://tachyons.io/docs/themes/skins/
 
-  Classes for setting foreground and background colors on elements.
-  If you haven't declared a border color, but set border on an element, it will
-  be set to the current text color.
+Classes for setting foreground and background colors on elements.
+If you haven't declared a border color, but set border on an element, it will
+be set to the current text color.
 */.black,.black-05,.black-10,.black-20,.black-30,.black-40,.black-50,.black-60,.black-70,.black-80,.black-90,.blue,.dark-blue,.dark-gray,.dark-green,.dark-pink,.dark-red,.gold,.gray,.green,.hot-pink,.light-blue,.light-gray,.light-green,.light-pink,.light-purple,.light-red,.light-silver,.light-yellow,.lightest-blue,.mid-gray,.moon-gray,.navy,.near-black,.near-white,.orange,.pink,.purple,.red,.silver,.washed-blue,.washed-green,.washed-red,.washed-yellow,.white,.white-10,.white-20,.white-30,.white-40,.white-50,.white-60,.white-70,.white-80,.white-90,.yellow{color:undefined}.color-inherit{color:inherit}.bg-black,.bg-black-05,.bg-black-10,.bg-black-20,.bg-black-30,.bg-black-40,.bg-black-50,.bg-black-60,.bg-black-70,.bg-black-80,.bg-black-90,.bg-blue,.bg-dark-blue,.bg-dark-gray,.bg-dark-green,.bg-dark-pink,.bg-dark-red,.bg-gold,.bg-gray,.bg-green,.bg-hot-pink,.bg-light-blue,.bg-light-gray,.bg-light-green,.bg-light-pink,.bg-light-purple,.bg-light-red,.bg-light-silver,.bg-light-yellow,.bg-lightest-blue,.bg-mid-gray,.bg-moon-gray,.bg-navy,.bg-near-black,.bg-near-white,.bg-orange,.bg-pink,.bg-purple,.bg-red,.bg-silver,.bg-transparent,.bg-washed-blue,.bg-washed-green,.bg-washed-red,.bg-washed-yellow,.bg-white,.bg-white-10,.bg-white-20,.bg-white-30,.bg-white-40,.bg-white-50,.bg-white-60,.bg-white-70,.bg-white-80,.bg-white-90,.bg-yellow{background-color:undefined}.bg-inherit{background-color:inherit}
 

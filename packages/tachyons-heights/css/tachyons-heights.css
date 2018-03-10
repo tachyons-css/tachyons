@@ -1,38 +1,39 @@
 /*!!!
 
-  # HEIGHTS
+# HEIGHTS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/heights/
+http://tachyons.io/docs/layout/heights/
 
-  ### Base
+### Base
 
-  - h = height
-  - min-h = min-height
-  - min-vh = min-height vertical screen height
-  - vh = vertical screen height
+- h = height
+- min-h = min-height
+- min-vh = min-height vertical screen height
+- vh = vertical screen height
 
-  ### Modifiers
+### Modifiers
 
-   - 1 = 1st step in height scale
-   - 2 = 2nd step in height scale
-   - 3 = 3rd step in height scale
-   - 4 = 4th step in height scale
-   - 5 = 5th step in height scale
+- 1 = 1st step in height scale
+- 2 = 2nd step in height scale
+- 3 = 3rd step in height scale
+- 4 = 4th step in height scale
+- 5 = 5th step in height scale
 
-   - `-25`   = literal value 25%
-   - `-50`   = literal value 50%
-   - `-75`   = literal value 75%
-   - `-100`  = literal value 100%
+- `-25`   = literal value 25%
+- `-50`   = literal value 50%
+- `-75`   = literal value 75%
+- `-100`  = literal value 100%
 
-   - `-auto` = string value of auto
-   - `-inherit` = string value of inherit
+- `-auto` = string value of auto
+- `-inherit` = string value of inherit
 
-   ### Media Query Extensions
+### Media Query Extensions
 
-   - `-m` = medium
-   - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 /* Height Scale */
 .h1 { height: 1rem; }
@@ -56,6 +57,25 @@
 .h-auto { height: auto; }
 .h-inherit { height: inherit; }
 @media screen and (min-width: 30em) {
+ .h1-s { height: 1rem; }
+ .h2-s { height: 2rem; }
+ .h3-s { height: 4rem; }
+ .h4-s { height: 8rem; }
+ .h5-s { height: 16rem; }
+ .h-25-s { height: 25%; }
+ .h-50-s { height: 50%; }
+ .h-75-s { height: 75%; }
+ .h-100-s { height: 100%; }
+ .min-h-100-s { min-height: 100%; }
+ .vh-25-s { height: 25vh; }
+ .vh-50-s { height: 50vh; }
+ .vh-75-s { height: 75vh; }
+ .vh-100-s { height: 100vh; }
+ .min-vh-100-s { min-height: 100vh; }
+ .h-auto-s { height: auto; }
+ .h-inherit-s { height: inherit; }
+}
+@media screen and (min-width: 48em) {
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }

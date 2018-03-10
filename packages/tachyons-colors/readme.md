@@ -11,7 +11,7 @@
 
 ### Stats
 
-138 | 0 | 0
+137 | 0 | 0
 ---|---|---
 bytes | selectors | declarations
 
@@ -83,13 +83,13 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # COLOR VARIABLES
+# COLOR VARIABLES
 
-  ### Grayscale
+### Grayscale
 
-  - Solids
-  - Transparencies for black and white, 0-100
-  - Custom colors based on palx
+- Solids
+- Transparencies for black and white, 0-100
+- Custom colors based on palx
 */
 ```
 

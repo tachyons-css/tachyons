@@ -1,32 +1,35 @@
 
 
 
-@custom-media --breakpoint-medium screen and (min-width: 30em);
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
 /*!!!
 
-  # BORDER WIDTHS
+# BORDER WIDTHS
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/borders/
+http://tachyons.io/docs/themes/borders/
 
-  ### Base
+### Base
 
-  `bw` = border-width
+`bw` = border-width
 
-  ### Modifiers
-  - 0 = 0 width border
-  - 1 = 1st step in border-width scale
-  - 2 = 2nd step in border-width scale
-  - 3 = 3rd step in border-width scale
-  - 4 = 4th step in border-width scale
-  - 5 = 5th step in border-width scale
+### Modifiers
 
-  ### Media Query Extensions
+- 0 = 0 width border
+- 1 = 1st step in border-width scale
+- 2 = 2nd step in border-width scale
+- 3 = 3rd step in border-width scale
+- 4 = 4th step in border-width scale
+- 5 = 5th step in border-width scale
 
-   -m  = medium
-   -l  = large
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .bw0 { border-width: 0; }
@@ -42,17 +45,17 @@
 .bb-0 { border-bottom-width: 0; }
 .bl-0 { border-left-width: 0; }
 
-@media (--breakpoint-not-small) {
-  .bw0-ns { border-width: 0; }
-  .bw1-ns { border-width: .125rem; }
-  .bw2-ns { border-width: .25rem; }
-  .bw3-ns { border-width: .5rem; }
-  .bw4-ns { border-width: 1rem; }
-  .bw5-ns { border-width: 2rem; }
-  .bt-0-ns { border-top-width: 0; }
-  .br-0-ns { border-right-width: 0; }
-  .bb-0-ns { border-bottom-width: 0; }
-  .bl-0-ns { border-left-width: 0; }
+@media (--breakpoint-small) {
+  .bw0-s { border-width: 0; }
+  .bw1-s { border-width: .125rem; }
+  .bw2-s { border-width: .25rem; }
+  .bw3-s { border-width: .5rem; }
+  .bw4-s { border-width: 1rem; }
+  .bw5-s { border-width: 2rem; }
+  .bt-0-s { border-top-width: 0; }
+  .br-0-s { border-right-width: 0; }
+  .bb-0-s { border-bottom-width: 0; }
+  .bl-0-s { border-left-width: 0; }
 }
 
 @media (--breakpoint-medium) {

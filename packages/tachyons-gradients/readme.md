@@ -1,6 +1,6 @@
 
 
-# Gradients
+# [ADDON] GRADIENTS
 
 All gradients cut and pasted from cssgradient.io ;)
 
@@ -19,7 +19,7 @@ http://tachyons.io/docs/themes/gradients/
 
 ### Stats
 
-374 | 7 | 7
+392 | 7 | 7
 ---|---|---
 bytes | selectors | declarations
 
@@ -91,21 +91,21 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # Gradients
+# [ADDON] GRADIENTS
 
-  All gradients cut and pasted from cssgradient.io ;)
+All gradients cut and pasted from cssgradient.io ;)
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/gradients/
+http://tachyons.io/docs/themes/gradients/
 
-  ### Base
+### Base
 
-  `gradient` = background-color
+`gradient` = background-color
 
-  ### Modifiers
+### Modifiers
 
-  - `-gradient-name` = dark-blue, lily, aqua, etc
+- `-gradient-name` = dark-blue, lily, aqua, etc
 */
 .gradient-dark-blue { background: linear-gradient( 90deg, #4b6cb7 0%, #182848 100% ); }
 .gradient-charcoal { background: linear-gradient( 90deg, rgba( 44, 56, 68, 1 ) 0%, rgba( 23, 32, 42, 1 ) 100% ); }

@@ -1,34 +1,35 @@
 /*!!!
 
-  # Nudge
+# [ADDON] NUDGE
 
-  Nudge the position of an element by a pixel or two
+Nudge the position of an element by a pixel or two
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/nudge/
+http://tachyons.io/docs/layout/nudge/
 
-  ### Base
+### Base
 
-  - nudge
+- nudge
 
-  ### Modifiers
+### Modifiers
 
-  - t = top
-  - r = right
-  - b = bottom
-  - l = left
+- t = top
+- r = right
+- b = bottom
+- l = left
 
-  - `1`  = literal value 1px
-  - `2`  = literal value 2px
-  - `3`  = literal value 3px
-  - `4`  = literal value 4px
-  - `5`  = literal value 5px
+- `1`  = literal value 1px
+- `2`  = literal value 2px
+- `3`  = literal value 3px
+- `4`  = literal value 4px
+- `5`  = literal value 5px
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .nudge-top-1 { top: 1px; }
 .nudge-top-2 { top: 2px; }
@@ -51,6 +52,28 @@
 .nudge-left-4 { left: 4px; }
 .nudge-left-5 { left: 5px; }
 @media screen and (min-width: 30em) {
+ .nudge-top-1-s { top: 1px; }
+ .nudge-top-2-s { top: 2px; }
+ .nudge-top-3-s { top: 3px; }
+ .nudge-top-4-s { top: 4px; }
+ .nudge-top-5-s { top: 5px; }
+ .nudge-right-1-s { right: 1px; }
+ .nudge-right-2-s { right: 2px; }
+ .nudge-right-3-s { right: 3px; }
+ .nudge-right-4-s { right: 4px; }
+ .nudge-right-5-s { right: 5px; }
+ .nudge-bottom-1-s { bottom: 1px; }
+ .nudge-bottom-2-s { bottom: 2px; }
+ .nudge-bottom-3-s { bottom: 3px; }
+ .nudge-bottom-4-s { bottom: 4px; }
+ .nudge-bottom-5-s { bottom: 5px; }
+ .nudge-left-1-s { left: 1px; }
+ .nudge-left-2-s { left: 2px; }
+ .nudge-left-3-s { left: 3px; }
+ .nudge-left-4-s { left: 4px; }
+ .nudge-left-5-s { left: 5px; }
+}
+@media screen and (min-width: 48em) {
  .nudge-top-1-m { top: 1px; }
  .nudge-top-2-m { top: 2px; }
  .nudge-top-3-m { top: 3px; }

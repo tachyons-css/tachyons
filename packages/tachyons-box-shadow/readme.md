@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-298 | 15 | 15
+323 | 20 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,16 +76,17 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # BOX SHADOW
+# BOX SHADOW
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/themes/box-shadow/
+http://tachyons.io/docs/themes/box-shadow/
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l`= large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .shadow-1 { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-2 { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
@@ -93,6 +94,13 @@ Running `$ npm start` will process the source css and place the built css in the
 .shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
 .shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
 @media screen and (min-width: 30em) {
+ .shadow-1-s { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-2-s { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-3-s { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
+ .shadow-4-s { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-5-s { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+}
+@media screen and (min-width: 48em) {
  .shadow-1-m { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
  .shadow-2-m { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
  .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }

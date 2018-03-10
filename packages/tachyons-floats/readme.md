@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-410 | 9 | 15
+425 | 12 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -76,37 +76,43 @@ Running `$ npm start` will process the source css and place the built css in the
 ```css
 /*!!!
 
-  # FLOATS
+# FLOATS
 
-  Floated elements are automatically rendered as block level elements.
-  Setting floats to display inline will fix the double margin bug in
-  ie6. You know... just in case.
+Floated elements are automatically rendered as block level elements.
+Setting floats to display inline will fix the double margin bug in
+ie6. You know... just in case.
 
-  Don't forget to clearfix your floats with `.cf`
+Don't forget to clearfix your floats with `.cf`
 
-  ### Docs
+### Docs
 
-  http://tachyons.io/docs/layout/floats/
+http://tachyons.io/docs/layout/floats/
 
-  ### Base
+### Base
 
-  `f` = float
+`f` = float
 
-  ### Modifiers
+### Modifiers
 
-  - l = left
-  - r = right
-  - n = none
+- l = left
+- r = right
+- n = none
 
-  ### Media Query Extensions
+### Media Query Extensions
 
-  - `-m` = medium
-  - `-l` = large
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 .fl { float: left; _display: inline; }
 .fr { float: right; _display: inline; }
 .fn { float: none; }
 @media screen and (min-width: 30em) {
+ .fl-s { float: left; _display: inline; }
+ .fr-s { float: right; _display: inline; }
+ .fn-s { float: none; }
+}
+@media screen and (min-width: 48em) {
  .fl-m { float: left; _display: inline; }
  .fr-m { float: right; _display: inline; }
  .fn-m { float: none; }
