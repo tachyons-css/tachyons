@@ -1,4 +1,4 @@
-# Debug
+# Debugging Grids
 
 Tachyons comes with two convenient modules to help debug layout issues you might be having.
 

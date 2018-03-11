@@ -58,17 +58,35 @@ export const MobileNavLink = ({
 }
 
 export const TimesIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <line x1="18" y1="6" x2="6" y2="18"/>
-    <line x1="6" y1="6" x2="18" y2="18"/>
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <line x1="18" y1="6" x2="6" y2="18" />
+    <line x1="6" y1="6" x2="18" y2="18" />
   </svg>
 )
 
 export const HamburgerIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <line x1="3" y1="12" x2="21" y2="12"/>
-    <line x1="3" y1="6" x2="21" y2="6"/>
-    <line x1="3" y1="18" x2="21" y2="18"/>
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <line x1="3" y1="12" x2="21" y2="12" />
+    <line x1="3" y1="6" x2="21" y2="6" />
+    <line x1="3" y1="18" x2="21" y2="18" />
   </svg>
 )
 
@@ -86,6 +104,20 @@ export const TitleLink = ({ href = '#!', subtext, text, ...props }) => (
       )}
     </a>
   </Link>
+)
+
+export const Alert = ({ icon, title, description }) => (
+  <div className="bl bw3 orange bg-near-white pa4 mw7 flex">
+    <img
+      src="https://icon.now.sh/warning/ff6300"
+      alt="warning-icon"
+      className="h2 w2 mr3"
+    />
+    <div>
+      <h4 className="f5 fw6 mv0 black">{title}</h4>
+      <p className="f6 lh-copy black-80 mv0 measure-wide">{description}</p>
+    </div>
+  </div>
 )
 
 export const BigQuote = ({ quote, author, work }) => (
@@ -134,7 +166,12 @@ export const md = {
   ul: props => <ul className="pl3" {...props} />,
   li: props => <li className="lh-copy ml2" {...props} />,
   table: props => <table className="collapse" {...props} />,
-  th: props => <th className="f7 tracked ttu tl bb bt b--black-10 bg-near-white pa2" {...props} />,
+  th: props => (
+    <th
+      className="f7 tracked ttu tl bb bt b--black-10 bg-near-white pa2"
+      {...props}
+    />
+  ),
   td: props => <td className="pa2 bb b--black-05 black" {...props} />,
   a: ({ href, ...props }) => (
     <Link href={href}>
@@ -142,5 +179,10 @@ export const md = {
     </Link>
   ),
   code: Editor,
-  pre: props => <pre className='black f5 pre pa3 overflow-auto bl bw2 b--black' {...props} />
+  pre: props => (
+    <pre
+      className="black f5 pre pa3 overflow-auto bl bw2 b--black"
+      {...props}
+    />
+  )
 }

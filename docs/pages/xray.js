@@ -1,9 +1,9 @@
 // TODO: Clean up redundant media queries on line 72
 
-import React from 'react';
+import React from 'react'
 
-import { Container } from '../ui';
-import Layout from '../ui/Layout';
+import { Container } from '../ui'
+import Layout from '../ui/Layout'
 
 function carbonStyles() {
   return {
@@ -35,7 +35,7 @@ function carbonStyles() {
       color: #222 !important;
     }
   </style>`
-  };
+  }
 }
 
 export default () => (
@@ -140,4 +140,4 @@ export default () => (
     `}</style>
     <span dangerouslySetInnerHTML={carbonStyles()} />
   </Layout>
-);
+)

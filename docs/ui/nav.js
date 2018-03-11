@@ -42,32 +42,42 @@ export const docs = [
     ]
   },
   {
+    title: 'Grid',
+    slug: 'grid',
+    items: [
+      {
+        title: 'Flexbox',
+        href: '/docs/grid/flexbox'
+      },
+      {
+        title: 'Responsive',
+        href: '/docs/grid/responsive'
+      },
+      {
+        title: 'Nesting',
+        href: '/docs/grid/nesting'
+      },
+      {
+        title: 'Floats-Based',
+        href: '/docs/grid/floats'
+      },
+      {
+        title: 'Table-Based',
+        href: '/docs/grid/tables'
+      },
+      {
+        title: 'Debugging',
+        href: '/docs/grid/debug'
+      }
+    ]
+  },
+  {
     title: 'Layout',
     slug: 'layout',
     items: [
       {
-        title: 'Grid',
-        href: '/docs/layout/grid'
-      },
-      {
-        title: 'Flexbox',
-        href: '/docs/layout/flexbox'
-      },
-      {
-        title: 'Box Sizing',
-        href: '/docs/layout/box-sizing'
-      },
-      {
         title: 'Spacing',
         href: '/docs/layout/spacing'
-      },
-      {
-        title: 'Floats',
-        href: '/docs/layout/floats'
-      },
-      {
-        title: 'Clearfix',
-        href: '/docs/layout/clearfix'
       },
       {
         title: 'Display',
@@ -86,6 +96,18 @@ export const docs = [
         href: '/docs/layout/heights'
       },
       {
+        title: 'Box Sizing',
+        href: '/docs/layout/box-sizing'
+      },
+      {
+        title: 'Floats',
+        href: '/docs/layout/floats'
+      },
+      {
+        title: 'Clearfix',
+        href: '/docs/layout/clearfix'
+      },
+      {
         title: 'Position',
         href: '/docs/layout/position'
       },
@@ -94,16 +116,8 @@ export const docs = [
         href: '/docs/layout/aspect-ratios'
       },
       {
-        title: 'Z Index',
+        title: 'Z-Index',
         href: '/docs/layout/z-index'
-      },
-      {
-        title: 'Debugging',
-        href: '/docs/layout/debug'
-      },
-      {
-        title: 'Debug with grid',
-        href: '/docs/layout/debug-grid'
       }
     ]
   },

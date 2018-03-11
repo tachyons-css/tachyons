@@ -22,7 +22,7 @@ class Examples extends Component {
       <div>
         <div
           className="mb3"
-          children={this.props.examples.map(example =>
+          children={this.props.examples.map(example => (
             <span
               key={example}
               className="pv1 ph2 mr3 f7 fw6 ba b--black-30 mid-gray bg-white sans-serif pointer"
@@ -31,7 +31,7 @@ class Examples extends Component {
               }}
               children={example}
             />
-          )}
+          ))}
         />
 
         <div
@@ -41,10 +41,7 @@ class Examples extends Component {
           }}
         />
 
-        <Highlight
-          innerHtml={true}
-          children={html}
-        />
+        <Highlight innerHtml={true} children={html} />
       </div>
     )
   }
