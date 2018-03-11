@@ -6,7 +6,7 @@
   "scripts": {
     "start": "next start",
     "build": "next build",
-    "deploy": "now --public",
+    "deploy": "rm -rf node_modules && rm -rf .next && now --public",
     "dev": "next",
     "lint": "prettier *.js ui/*.js pages/*.js --write --no-semi --single-quote",
     "prepare": "node modules"
