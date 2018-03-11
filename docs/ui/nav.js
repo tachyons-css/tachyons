@@ -63,7 +63,7 @@ export const docs = [
       },
       {
         title: 'Table-Based',
-        href: '/docs/grid/table'
+        href: '/docs/grid/tables'
       },
       {
         title: 'Debugging',
