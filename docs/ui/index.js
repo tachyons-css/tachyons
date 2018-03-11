@@ -106,6 +106,20 @@ export const TitleLink = ({ href = '#!', subtext, text, ...props }) => (
   </Link>
 )
 
+export const Alert = ({ icon, title, description }) => (
+  <div className="bl bw3 orange bg-near-white pa4 mw7 flex">
+    <img
+      src="https://icon.now.sh/warning/ff6300"
+      alt="warning-icon"
+      className="h2 w2 mr3"
+    />
+    <div>
+      <h4 className="f5 fw6 mv0 black">{title}</h4>
+      <p className="f6 lh-copy black-80 mv0 measure-wide">{description}</p>
+    </div>
+  </div>
+)
+
 export const BigQuote = ({ quote, author, work }) => (
   <blockquote className="f5 f4-m f2-l black-70 lh-copy mh0 pv4 ph3 bt bb bw1 b--black-05 mv4 mv5-ns db">
     <p className="baskerville fw1 measure center">“{quote}”</p>

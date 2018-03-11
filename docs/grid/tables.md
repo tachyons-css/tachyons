@@ -1,4 +1,14 @@
+import { Alert } from '../ui'
+
 # Table-Based Grid
+
+<Alert
+  title='Legacy grid technique'
+  description={`
+    This grid layout technique is primarily for legacy browsers and projects.
+    It's preferable to use flexbox whenever possible.
+  `}
+/>
 
 You can combine `display`, `table`, and `widths` to construct a wide variety of grids.
 
