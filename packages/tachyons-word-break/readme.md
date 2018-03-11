@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-242 | 12 | 12
+272 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -80,7 +80,13 @@ Running `$ npm start` will process the source css and place the built css in the
 
 ### Base
 
-word = word-break
+- word = word-break
+
+### Modifiers
+
+- `-normal` = normal
+- `-wrap`   = break-all
+- `-nowrap` = keep-all
 
 ### Media Query Extensions
 

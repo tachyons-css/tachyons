@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-535 | 44 | 44
+534 | 44 | 44
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,7 +84,7 @@ http://tachyons.io/docs/layout/max-widths/
 
 ### Base
 
-`mw` = max-width
+- mw = max-width
 
 ### Modifiers
 

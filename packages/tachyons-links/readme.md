@@ -6,10 +6,13 @@
 
 http://tachyons.io/docs/elements/links/
 
+### Base
+- link
+
 
 ### Stats
 
-196 | 6 | 7
+203 | 6 | 7
 ---|---|---
 bytes | selectors | declarations
 
@@ -86,6 +89,9 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Docs
 
 http://tachyons.io/docs/elements/links/
+
+### Base
+- link
 */
 .link { text-decoration: none; transition: color .15s ease-in; }
 .link:link, .link:visited { transition: color .15s ease-in; }

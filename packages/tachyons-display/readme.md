@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-566 | 48 | 52
+564 | 48 | 52
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,7 +84,7 @@ http://tachyons.io/docs/layout/display
 
 ### Base
 
-`d` = display
+- d = display
 
 ### Modifiers
 
@@ -95,7 +95,7 @@ http://tachyons.io/docs/layout/display
 - t = table
 - tc = table-cell
 - t-row = table-row
--t-columm = table-column
+- t-columm = table-column
 - t-column-group = table-column-group
 
 ### Media Query Extensions

@@ -90,7 +90,7 @@ http://tachyons.io/docs/layout/floats/
 
 ### Base
 
-`f` = float
+- f = float
 
 ### Modifiers
 

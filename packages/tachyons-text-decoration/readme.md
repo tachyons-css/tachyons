@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-284 | 12 | 12
+321 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,6 +81,12 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Docs
 
 http://tachyons.io/docs/typography/text-decoration/
+
+### Base
+
+- strike = line-through
+- underline = underline
+- no-underline = string value 'none'
 
 ### Media Query Extensions
 

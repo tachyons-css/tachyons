@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-272 | 12 | 12
+318 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,6 +81,16 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Docs
 
 http://tachyons.io/docs/typography/line-height
+
+### Base
+
+- lh = line height
+
+### Literal Values
+
+- `-solid` = literal value 1
+- `-title` = literal value 1.25
+- `-copy`  = literal value 1.5
 
 ### Media Query Extensions
 

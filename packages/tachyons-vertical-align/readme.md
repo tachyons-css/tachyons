@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-260 | 16 | 16
+304 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -77,6 +77,17 @@ Running `$ npm start` will process the source css and place the built css in the
 /*!!!
 
 # VERTICAL ALIGN
+
+### Base
+
+- v = vertical-align
+
+### Modifiers
+
+- `-base` = baseline
+- `-mid`  = middle
+- `-top`  = top
+- `-btm`  = bottom
 
 ### Media Query Extensions
 

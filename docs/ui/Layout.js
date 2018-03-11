@@ -15,6 +15,10 @@ export default ({
       rel="stylesheet"
       href="https://file-bglcsbsfyd.now.sh/"
     />
+    <link
+      rel="stylesheet"
+      href="https://file-zlngimivyb.now.sh"
+    />
 
     <Header version={version} />
     <main className={className} children={children} />

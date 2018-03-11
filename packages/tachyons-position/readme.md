@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-319 | 20 | 24
+341 | 20 | 24
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,6 +81,14 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Docs
 
 http://tachyons.io/docs/layout/position/
+
+### Base
+
+- static
+- relative
+- absolute
+- fixed
+- sticky
 
 ### Media Query Extensions
 

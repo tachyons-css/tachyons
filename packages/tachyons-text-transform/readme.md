@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-334 | 16 | 16
+333 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,7 +84,7 @@ http://tachyons.io/docs/typography/text-transform/
 
 ### Base
 
-tt = text-transform
+- tt = text-transform
 
 ### Modifiers
 

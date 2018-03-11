@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-235 | 12 | 12
+262 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -77,6 +77,12 @@ Running `$ npm start` will process the source css and place the built css in the
 /*!!!
 
 # WHITE SPACE
+
+### Base
+
+- ws-normal = white-space normal
+- nowrap = white-space nowrap
+- pre = white-space pre
 
 ### Media Query Extensions
 

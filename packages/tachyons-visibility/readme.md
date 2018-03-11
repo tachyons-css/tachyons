@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-321 | 4 | 16
+330 | 4 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -77,6 +77,10 @@ Running `$ npm start` will process the source css and place the built css in the
 /*!!!
 
 # VISIBILITY
+
+### Base 
+
+- clip
 
 ### Media Query Extensions
 

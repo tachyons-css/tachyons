@@ -2,6 +2,17 @@
 
 # VERTICAL ALIGN
 
+### Base
+
+- v = vertical-align
+
+### Modifiers
+
+- `-base` = baseline
+- `-mid`  = middle
+- `-top`  = top
+- `-btm`  = bottom
+
 ### Media Query Extensions
 
 - `-s` = small

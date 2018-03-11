@@ -6,10 +6,23 @@
 
 http://tachyons.io/docs/elements/tables/
 
+### Base
+
+- collapse = border collapse
+- striped = striped table
+
+### Modifiers
+- `-light` = light stripes
+- `-dark` = dark stripes
+- `--light-silver` = light-silver stripes
+- `--moon-gray` = moon-gray stripes
+- `--light-gray` = light-gray stripes
+- `--near-white` = near-white stripes
+
 
 ### Stats
 
-208 | 7 | 8
+291 | 7 | 8
 ---|---|---
 bytes | selectors | declarations
 
@@ -86,6 +99,19 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Docs
 
 http://tachyons.io/docs/elements/tables/
+
+### Base
+
+- collapse = border collapse
+- striped = striped table
+
+### Modifiers
+- `-light` = light stripes
+- `-dark` = dark stripes
+- `--light-silver` = light-silver stripes
+- `--moon-gray` = moon-gray stripes
+- `--light-gray` = light-gray stripes
+- `--near-white` = near-white stripes
 */
 .collapse { border-collapse: collapse; border-spacing: 0; }
 .striped--light-silver:nth-child(odd) { background-color: undefined; }

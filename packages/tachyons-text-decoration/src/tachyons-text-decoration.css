@@ -12,6 +12,12 @@
 
 http://tachyons.io/docs/typography/text-decoration/
 
+### Base
+
+- strike = line-through
+- underline = underline
+- no-underline = string value 'none'
+
 ### Media Query Extensions
 
 - `-s` = small
