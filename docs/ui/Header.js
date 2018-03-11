@@ -1,41 +1,84 @@
-import React from 'react'
+import { Component }  from 'react'
 
 import Container from './Container'
 import Flex from './Flex'
-import { NavLink, TitleLink } from './'
+import { NavLink, MobileNavLink, TitleLink, HamburgerIcon, TimesIcon } from './'
+import { header } from './nav'
 
-export default ({ version }) => (
-  <header className="pv3">
-    <Container padding={true}>
-      <Flex justify="between" alignItems="center">
-        <TitleLink
-          href="/"
-          title="Home"
-          text="Tachyons"
-          subtext={`v${version}`}
-        />
+class Header extends Component {
+  constructor () {
+    super()
 
-        <Flex is="nav">
-          <NavLink title="Documentation" href="/docs">
-            Docs
-          </NavLink>
-          <NavLink title="Components" href="/components/">
-            Components
-          </NavLink>
-          <NavLink title="Gallery of sites built with Tachyons" to="/gallery">
-            Gallery
-          </NavLink>
-          <NavLink title="Resources" href="/resources">
-            Resources
-          </NavLink>
-          <NavLink
-            title="Tachyons on GitHub"
-            href="http://github.com/tachyons-css/tachyons/"
-          >
-            GitHub
-          </NavLink>
-        </Flex>
-      </Flex>
-    </Container>
-  </header>
-)
+    this.state = {
+      mobileMenuOpen: false
+    }    
+  }
+  
+  toggleMenu () {
+    this.setState({
+      mobileMenuOpen: !this.state.mobileMenuOpen
+    })
+  }
+
+  navigation (device = 'desktop') {
+    const components = {
+      mobile: MobileNavLink,
+      desktop: NavLink
+    }
+
+    const LinkType = components[device]
+
+    return (
+      <div>
+        {
+          header.map((link, index) => {
+            return (
+              <LinkType title={link.title} href={link.href} key={index}>
+                { link.label }
+              </LinkType>
+            )
+          })
+        }
+      </div>
+    )
+  }
+
+  render () {
+    const { version } = this.props
+    const icon = this.state.mobileMenuOpen ? <TimesIcon/> : <HamburgerIcon/>
+    
+    return (
+      <header>
+        <div className="pv3">
+          <Container padding={true}>
+            <Flex justify="between" alignItems="center">
+              <TitleLink
+                href="/"
+                title="Home"
+                text="Tachyons"
+                subtext={`v${version}`}
+              />
+
+              <div className="flex dn-m">
+                <button className="button-reset bn bg-transparent flex items-center" onClick={this.toggleMenu.bind(this)}>
+                  { icon }
+                </button>
+              </div>
+              <div className="dn flex-m">
+                { this.navigation('desktop') }
+              </div>
+
+            </Flex>
+          </Container>
+        </div>
+        { this.state.mobileMenuOpen && <nav className="bg-near-white pv1 dn-m">
+          <Container padding={true}>
+            { this.navigation('mobile') }
+          </Container>
+        </nav> }
+      </header>
+    )
+  }
+}
+
+export default Header

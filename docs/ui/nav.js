@@ -240,3 +240,31 @@ export const docs = [
     ]
   }
 ]
+
+export const header = [
+  {
+    title: 'Documentation',
+    label: 'Documentation',
+    href: '/docs'
+  },
+  {
+    title: 'Components',
+    label: 'Components',
+    href: '/components/'
+  },
+  {
+    title: 'Gallery of sites built with Tachyons',
+    label: 'Gallery',
+    href: '/gallery'
+  },
+  {
+    title: 'Resources',
+    label: 'Resources',
+    href: '/resources'
+  },
+  {
+    title: 'Tachyons on GitHub',
+    label: 'GitHub',
+    href: 'http://github.com/tachyons-css/tachyons/'
+  }
+]
