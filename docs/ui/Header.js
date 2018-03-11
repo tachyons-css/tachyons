@@ -3,40 +3,14 @@ import { Component }  from 'react'
 import Container from './Container'
 import Flex from './Flex'
 import { NavLink, MobileNavLink, TitleLink, HamburgerIcon, TimesIcon } from './'
+import { header } from './nav'
 
 class Header extends Component {
   constructor () {
     super()
 
     this.state = {
-      mobileMenuOpen: false,
-      links: [
-        {
-          title: 'Documentation',
-          label: 'Documentation',
-          href: '/docs'
-        },
-        {
-          title: 'Components',
-          label: 'Components',
-          href: '/components/'
-        },
-        {
-          title: 'Gallery of sites built with Tachyons',
-          label: 'Gallery',
-          href: '/gallery'
-        },
-        {
-          title: 'Resources',
-          label: 'Resources',
-          href: '/resources'
-        },
-        {
-          title: 'Tachyons on GitHub',
-          label: 'GitHub',
-          href: 'http://github.com/tachyons-css/tachyons/'
-        }
-      ]
+      mobileMenuOpen: false
     }    
   }
   
@@ -57,7 +31,7 @@ class Header extends Component {
     return (
       <div>
         {
-          this.state.links.map((link, index) => {
+          header.map((link, index) => {
             return (
               <LinkType title={link.title} href={link.href} key={index}>
                 { link.label }
