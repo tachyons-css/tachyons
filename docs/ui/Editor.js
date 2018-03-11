@@ -42,12 +42,7 @@ class Editor extends Component {
     }
 
     if (this.state.metadata.highlight) {
-      return (
-        <Highlight
-          innerHtml={true}
-          children={this.state.html}
-        />
-      )
+      return <Highlight innerHtml={true} children={this.state.html} />
     }
 
     if (!this.state.shouldLiveEdit) {
