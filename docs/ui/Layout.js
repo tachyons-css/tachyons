@@ -13,7 +13,7 @@ export default ({
     <title>{title}</title>
     <link
       rel="stylesheet"
-      href="https://unpkg.com/tachyons/css/tachyons.min.css"
+      href="https://file-bglcsbsfyd.now.sh/"
     />
 
     <Header version={version} />
