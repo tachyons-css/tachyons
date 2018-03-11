@@ -4,9 +4,10 @@
   "version": "5.0.0-1",
   "description": "Documentation for Tachyons -- a performant, mobile-first, and 100% responsive modular css framework.",
   "scripts": {
-    "build": "next build",
-    "dev": "next",
     "start": "next start",
+    "build": "next build",
+    "deploy": "now --public",
+    "dev": "next",
     "lint": "prettier *.js ui/*.js pages/*.js --write --no-semi --single-quote",
     "prepare": "node modules"
   },
