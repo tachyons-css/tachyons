@@ -8,6 +8,15 @@ children.
 ### Docs
 
 http://tachyons.io/docs/debug/
+
+### Base
+
+- debug
+
+### Modifiers
+
+- `-white` = white outline
+- `-black` = black outline
 */
 
 .debug * { outline: 1px solid gold; }
