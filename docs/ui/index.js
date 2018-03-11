@@ -32,6 +32,64 @@ export const NavLink = ({
   )
 }
 
+export const MobileNavLink = ({
+  href = '#!',
+  m = 'l',
+  activeClassName = '',
+  ...props
+}) => {
+  let path = ''
+  if (typeof window !== 'undefined') {
+    path = window.location.pathname
+  }
+
+  const isActive = path === href
+
+  const cx = [
+    `f6 fw6 hover-blue link black-70 db mv3`,
+    isActive ? activeClassName : ''
+  ].join(' ')
+
+  return (
+    <Link href={href}>
+      <a className={cx} {...props} />
+    </Link>
+  )
+}
+
+export const TimesIcon = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <line x1="18" y1="6" x2="6" y2="18" />
+    <line x1="6" y1="6" x2="18" y2="18" />
+  </svg>
+)
+
+export const HamburgerIcon = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <line x1="3" y1="12" x2="21" y2="12" />
+    <line x1="3" y1="6" x2="21" y2="6" />
+    <line x1="3" y1="18" x2="21" y2="18" />
+  </svg>
+)
+
 export const TitleLink = ({ href = '#!', subtext, text, ...props }) => (
   <Link href={href}>
     <a className="dib f5 f4-ns fw6 link black-70" {...props}>
@@ -94,7 +152,12 @@ export const md = {
   ul: props => <ul className="pl3" {...props} />,
   li: props => <li className="lh-copy ml2" {...props} />,
   table: props => <table className="collapse" {...props} />,
-  th: props => <th className="f7 tracked ttu tl bb bt b--black-10 bg-near-white pa2" {...props} />,
+  th: props => (
+    <th
+      className="f7 tracked ttu tl bb bt b--black-10 bg-near-white pa2"
+      {...props}
+    />
+  ),
   td: props => <td className="pa2 bb b--black-05 black" {...props} />,
   a: ({ href, ...props }) => (
     <Link href={href}>
@@ -102,5 +165,10 @@ export const md = {
     </Link>
   ),
   code: Editor,
-  pre: props => <pre className='black f5 pre pa3 overflow-auto bl bw2 b--black' {...props} />
+  pre: props => (
+    <pre
+      className="black f5 pre pa3 overflow-auto bl bw2 b--black"
+      {...props}
+    />
+  )
 }

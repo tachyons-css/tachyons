@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import Highlight from 'react-highlight'
 import isPresent from 'is-present'
+import classNames from 'classnames'
 import matter from 'gray-matter'
 import he from 'he'
 
+import { Flex } from './'
 import Examples from './Examples'
 
 const isDotHTML = (cx = '') => /language-\.html/.test(cx)
@@ -39,7 +41,7 @@ class Editor extends Component {
       )
     }
 
-    if (!this.state.shouldLiveEdit) {
+    if (this.state.metadata.highlight) {
       return (
         <Highlight
           innerHtml={true}
@@ -48,22 +50,37 @@ class Editor extends Component {
       )
     }
 
+    if (!this.state.shouldLiveEdit) {
+      return <code {...this.props} />
+    }
+
+    const textAreaCx = classNames(
+      'w-100 bn code black-70 ph0 mb2 input-reset',
+      {
+        'w-50-m w-50-l': this.state.metadata.sideBySide
+      }
+    )
+
+    const previewCx = classNames('w-100 sans-serif ws-normal', {
+      'w-50-m w-50-l': this.state.metadata.sideBySide
+    })
+
     return (
-      <div>
+      <Flex wrap={true} alignItems={this.state.metadata.alignItems}>
         <textarea
           rows={this.state.lines}
-          className="w-100 bn code black-70 ph0 mb2 input-reset"
+          className={textAreaCx}
           value={this.state.html}
           onChange={this.handleChange}
         />
 
         <div
-          className="sans-serif ws-normal"
+          className={previewCx}
           dangerouslySetInnerHTML={{
             __html: he.decode(this.state.html)
           }}
         />
-      </div>
+      </Flex>
     )
   }
 }

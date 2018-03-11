@@ -1,4 +1,4 @@
-import React from 'react'
+import { Component } from 'react'
 
 import Container from './Container'
 import Flex from './Flex'
@@ -6,7 +6,7 @@ import { NavLink, MobileNavLink, TitleLink, HamburgerIcon, TimesIcon } from './'
 import { header } from './nav'
 
 class Header extends Component {
-  constructor () {
+  constructor() {
     super()
 
     this.state = {
@@ -14,13 +14,13 @@ class Header extends Component {
     }
   }
 
-  toggleMenu () {
+  toggleMenu() {
     this.setState({
       mobileMenuOpen: !this.state.mobileMenuOpen
     })
   }
 
-  navigation (device = 'desktop') {
+  navigation(device = 'desktop') {
     const components = {
       mobile: MobileNavLink,
       desktop: NavLink
@@ -30,22 +30,20 @@ class Header extends Component {
 
     return (
       <div>
-        {
-          header.map((link, index) => {
-            return (
-              <LinkType title={link.title} href={link.href} key={index}>
-                { link.label }
-              </LinkType>
-            )
-          })
-        }
+        {header.map((link, index) => {
+          return (
+            <LinkType title={link.title} href={link.href} key={index}>
+              {link.label}
+            </LinkType>
+          )
+        })}
       </div>
     )
   }
 
-  render () {
+  render() {
     const { version } = this.props
-    const icon = this.state.mobileMenuOpen ? <TimesIcon/> : <HamburgerIcon/>
+    const icon = this.state.mobileMenuOpen ? <TimesIcon /> : <HamburgerIcon />
 
     return (
       <header>
@@ -60,22 +58,22 @@ class Header extends Component {
               />
 
               <div className="flex dn-m">
-                <button className="button-reset bn bg-transparent flex items-center" onClick={this.toggleMenu.bind(this)}>
-                  { icon }
+                <button
+                  className="button-reset bn bg-transparent flex items-center"
+                  onClick={this.toggleMenu.bind(this)}
+                >
+                  {icon}
                 </button>
               </div>
-              <div className="dn flex-m">
-                { this.navigation('desktop') }
-              </div>
-
+              <div className="dn flex-m">{this.navigation('desktop')}</div>
             </Flex>
           </Container>
         </div>
-        { this.state.mobileMenuOpen && <nav className="bg-near-white pv1 dn-m">
-          <Container padding={true}>
-            { this.navigation('mobile') }
-          </Container>
-        </nav> }
+        {this.state.mobileMenuOpen && (
+          <nav className="bg-near-white pv1 dn-m">
+            <Container padding={true}>{this.navigation('mobile')}</Container>
+          </nav>
+        )}
       </header>
     )
   }
