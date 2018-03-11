@@ -20,7 +20,7 @@ class Editor extends Component {
     this.state = {
       html: content,
       metadata: data,
-      lines: content.split(/\n/).length,
+      lines: data.rows || content.split(/\n/).length,
       shouldLiveEdit: isDotHTML(props.className) || data.editable
     }
   }
