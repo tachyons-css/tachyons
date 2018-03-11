@@ -6,12 +6,20 @@ The `z` in the css property signifies the three-dimensional z axis that is used 
 This css property is often used for achieving overlapping layouts like a dropdown.
 
 ```.html
+---
+examples:
+  - z-max
+  - z-0
+  - z-1
+  - z-2
+  - z-999
+---
 <div class="pa4 ba h5">
   <div class="relative">
-    <div class="absolute top-0 left-0 pa4 bg-near-white z-5">z-5</div>
+    <div class="absolute top-0 left-0 pa4 bg-near-white z-3">z-3</div>
     <div class="absolute top-1 left-1 pa4 bg-mid-gray white z-2">z-2</div>
     <div class="absolute top-2 left-2 pa4 bg-black white z-1">z-1</div>
-    <div class="absolute top-1 ml5 pa4 f7 bg-light-red z-max dtc v-mid">z-max</div>
+    <div class="absolute top-1 ml5 pa4 f7 bg-light-red {{EXAMPLE}} dtc v-mid">{{EXAMPLE}}</div>
   </div>
 </div>
 ```
