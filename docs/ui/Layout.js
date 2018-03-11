@@ -15,6 +15,10 @@ export default ({
       rel="stylesheet"
       href="https://unpkg.com/tachyons/css/tachyons.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://file-zlngimivyb.now.sh"
+    />
 
     <Header version={version} />
     <main className={className} children={children} />
