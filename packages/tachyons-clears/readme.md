@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-372 | 20 | 20
+413 | 20 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -87,6 +87,17 @@ http://tachyons.io/docs/layout/clearfix/
 Nicolas Gallagher's clerfix solution
 http://nicolasgallagher.com/micro-clearfix-hack/
 
+### Base
+
+- c = clear
+
+### Modifiers
+
+- f = clearfix
+- l = left
+- r = right
+- b = both
+- n = none
 
 ### Media Query Extensions
 

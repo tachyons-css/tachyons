@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-538 | 24 | 40
+588 | 24 | 40
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,6 +81,14 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Docs
 
 http://tachyons.io/docs/typography/measure/
+
+### Base 
+- measure = max-width 30em
+- measure-wide = max-width 34em
+- measure-narrow = max-width 20em
+- indent = indent
+- small-caps = small caps
+- truncate = truncate
 
 ### Media Query Extensions
 

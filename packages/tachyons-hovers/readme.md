@@ -8,14 +8,14 @@ http://tachyons.io/docs/themes/hovers/
 
 ### Base
 
-- `dim` - Dim element on hover
-- `glow` - Animate opacity to 100% on hover
-- `hide-child` - Hide child & reveal on hover
-- `underline-hover` - Underline text on hover
-- `grow` - Grow element on hover
-- `pointer` - Show cursor: pointer on hover
-- `shadow` - Show shadow on hover
-- `bg-animate` - Animate background color on hover
+- dim - Dim element on hover
+- glow - Animate opacity to 100% on hover
+- hide-child - Hide child & reveal on hover
+- underline-hover - Underline text on hover
+- grow - Grow element on hover
+- pointer - Show cursor: pointer on hover
+- shadow - Show shadow on hover
+- bg-animate - Animate background color on hover
 
 ### Examples
 
@@ -36,7 +36,7 @@ child class will be hidden and displayed on hover or focus.
 
 ### Stats
 
-1142 | 29 | 55
+1135 | 29 | 55
 ---|---|---
 bytes | selectors | declarations
 
@@ -116,14 +116,14 @@ http://tachyons.io/docs/themes/hovers/
 
 ### Base
 
-- `dim` - Dim element on hover
-- `glow` - Animate opacity to 100% on hover
-- `hide-child` - Hide child & reveal on hover
-- `underline-hover` - Underline text on hover
-- `grow` - Grow element on hover
-- `pointer` - Show cursor: pointer on hover
-- `shadow` - Show shadow on hover
-- `bg-animate` - Animate background color on hover
+- dim - Dim element on hover
+- glow - Animate opacity to 100% on hover
+- hide-child - Hide child & reveal on hover
+- underline-hover - Underline text on hover
+- grow - Grow element on hover
+- pointer - Show cursor: pointer on hover
+- shadow - Show shadow on hover
+- bg-animate - Animate background color on hover
 
 ### Examples
 

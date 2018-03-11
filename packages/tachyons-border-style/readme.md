@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-362 | 16 | 16
+361 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -86,7 +86,7 @@ http://tachyons.io/docs/themes/borders/
 
 ### Base
 
-`b` = border-style
+- b = border-style
 
 ### Modifiers
 

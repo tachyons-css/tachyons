@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-705 | 140 | 140
+703 | 140 | 140
 ---|---|---
 bytes | selectors | declarations
 
@@ -80,7 +80,7 @@ Running `$ npm start` will process the source css and place the built css in the
 
 ### Base
 
-`n` = negative
+- n = negative
 
 ### Modifiers
 
@@ -97,7 +97,6 @@ Running `$ npm start` will process the source css and place the built css in the
 - 5 = 5th step in spacing scale
 - 6 = 6th step in spacing scale
 - 7 = 7th step in spacing scale
-
 
 ### Media Query Extensions
 

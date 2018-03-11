@@ -1,10 +1,30 @@
 /*!!!
 
- # FONT FAMILY GROUPS
+# FONT FAMILY GROUPS
 
- ### Docs
+### Docs
 
- http://tachyons.io/docs/typography/font-family/
+http://tachyons.io/docs/typography/font-family/
+
+### Base
+
+- sans-serif
+- system-sans-serif
+- avenir
+- helvetica
+
+- serif
+- system-serif
+- athelas
+- baskerville
+- bodoni
+- calisto
+- garamond
+- georgia
+- times
+
+- code
+- courier
 */
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }

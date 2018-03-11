@@ -5,6 +5,19 @@
 ### Docs
 
 http://tachyons.io/docs/elements/tables/
+
+### Base
+
+- collapse = border collapse
+- striped = striped table
+
+### Modifiers
+- `-light` = light stripes
+- `-dark` = dark stripes
+- `--light-silver` = light-silver stripes
+- `--moon-gray` = moon-gray stripes
+- `--light-gray` = light-gray stripes
+- `--near-white` = near-white stripes
 */
 
 .collapse {

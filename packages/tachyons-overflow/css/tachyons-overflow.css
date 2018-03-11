@@ -2,6 +2,19 @@
 
 # OVERFLOW
 
+### Base
+
+- overflow
+- overflow-x
+- overflow-y
+
+### Modifiers
+
+- `-visible`
+- `-hidden`
+- `-scroll`
+- `-auto`
+
 ### Media Query Extensions
 
 - `-s` = small

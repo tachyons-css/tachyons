@@ -9,6 +9,11 @@ on an html element.
 
 http://tachyons.io/docs/themes/background-size/
 
+### Base
+
+- cover    = cover
+- contain  = contain
+
 ### Media Query Extensions
 
 - `-s` = small

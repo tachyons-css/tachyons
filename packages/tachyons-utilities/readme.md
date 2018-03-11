@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-274 | 13 | 17
+317 | 13 | 17
 ---|---|---
 bytes | selectors | declarations
 
@@ -77,6 +77,13 @@ Running `$ npm start` will process the source css and place the built css in the
 /*!!!
 
 # UTILITIES
+
+### Base
+
+- overflow-container = horizontal scroll
+- center = margin auto
+- mr-auto = margin-right auto
+- ml-auto = margin-left auto
 
 ### Media Query Extensions
 

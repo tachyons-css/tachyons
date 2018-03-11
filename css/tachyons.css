@@ -262,6 +262,25 @@ Adapted from: https://github.com/suitcss/components-flex-embed
 
 https://tachyons.io/docs/layout/aspect-ratios
 
+### Base
+
+- aspect-ratio = aspect ratio
+
+### Modifiers
+
+- `--16x9` = 16x9
+- `--9x16` = 9x16
+- `--4x3` = 4x3
+- `--3x4` = 3x4
+- `--6x4` = 6x4
+- `--4x6` = 4x6
+- `--8x5` = 8x5
+- `--5x8` = 5x8
+- `--7x5` = 7x5
+- `--5x7` = 5x7
+- `--1x1` = 1x1
+- `--object` = object
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -312,10 +331,6 @@ http://tachyons.io/docs/themes/background-size/
 
 ### Base
 
-- bg = background-size
-
-### Modifiers
-
 - cover    = cover
 - contain  = contain
 
@@ -333,7 +348,7 @@ http://tachyons.io/docs/themes/background-size/
 
 ### Base
 
-`bg` = background
+- bg = background
 
 ### Modifiers
 
@@ -360,6 +375,15 @@ http://tachyons.io/docs/themes/background-size/
 
 Set transparent outline on elements.
 
+### Base
+
+- outline = outline
+
+### Modifiers
+
+- `-0` = literal value 0
+- `-transparent` = transparent outline
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -379,7 +403,7 @@ http://tachyons.io/docs/themes/borders/
 
 ### Base
 
-- `b` = border
+- b = border
 
 ### Modifiers
 
@@ -418,7 +442,7 @@ http://tachyons.io/docs/themes/borders/
 
 ### Base
 
-`b` = border
+- b = border
 
 ### Modifiers
 
@@ -462,7 +486,7 @@ http://tachyons.io/docs/themes/border-radius/
 
 ### Base
 
-`br` = border-radius
+- br = border-radius
 
 ### Modifiers
 
@@ -506,7 +530,7 @@ http://tachyons.io/docs/themes/borders/
 
 ### Base
 
-`b` = border-style
+- b = border-style
 
 ### Modifiers
 
@@ -535,7 +559,7 @@ http://tachyons.io/docs/themes/borders/
 
 ### Base
 
-`bw` = border-width
+- bw = border-width
 
 ### Modifiers
 
@@ -570,6 +594,18 @@ http://tachyons.io/docs/themes/borders/
 ### Docs
 
 http://tachyons.io/docs/themes/box-shadow/
+
+### Base
+
+- shadow
+
+### Modifiers
+
+- `-1` = offset 0px 0px 4px 2px
+- `-2` = offset 0px 0px 8px 2px
+- `-3` = offset 2px 2px 4px 2px
+- `-4` = offset 2px 2px 8px 0px
+- `-5` = offset 4px 4px 8px 0px
 
 ### Media Query Extensions
 
@@ -652,6 +688,17 @@ http://tachyons.io/docs/layout/clearfix/
 Nicolas Gallagher's clerfix solution
 http://nicolasgallagher.com/micro-clearfix-hack/
 
+### Base
+
+- c = clear
+
+### Modifiers
+
+- f = clearfix
+- l = left
+- r = right
+- b = both
+- n = none
 
 ### Media Query Extensions
 
@@ -676,7 +723,7 @@ http://tachyons.io/docs/layout/display
 
 ### Base
 
-`d` = display
+- d = display
 
 ### Modifiers
 
@@ -687,7 +734,7 @@ http://tachyons.io/docs/layout/display
 - t = table
 - tc = table-cell
 - t-row = table-row
--t-columm = table-column
+- t-columm = table-column
 - t-column-group = table-column-group
 
 ### Media Query Extensions
@@ -790,7 +837,7 @@ http://tachyons.io/docs/layout/floats/
 
 ### Base
 
-`f` = float
+- f = float
 
 ### Modifiers
 
@@ -809,11 +856,31 @@ http://tachyons.io/docs/layout/floats/
 .fn { float: none; }
 /*!!!
 
- # FONT FAMILY GROUPS
+# FONT FAMILY GROUPS
 
- ### Docs
+### Docs
 
- http://tachyons.io/docs/typography/font-family/
+http://tachyons.io/docs/typography/font-family/
+
+### Base
+
+- sans-serif
+- system-sans-serif
+- avenir
+- helvetica
+
+- serif
+- system-serif
+- athelas
+- baskerville
+- bodoni
+- calisto
+- garamond
+- georgia
+- times
+
+- code
+- courier
 */
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }
@@ -842,6 +909,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 http://tachyons.io/docs/typography/font-style/
 
+### Base
+
+- i = italic
+- fs-normal = normal
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -860,7 +932,7 @@ http://tachyons.io/docs/typography/font-weight/
 
 ### Base
 
-`fw` = font-weight
+- fw = font-weight
 
 ### Modifiers
 
@@ -873,6 +945,11 @@ http://tachyons.io/docs/typography/font-weight/
 - 7 = literal value 700
 - 8 = literal value 800
 - 9 = literal value 900
+
+### Literal Values
+
+- b = bold
+- normal = normal
 
 ### Media Query Extensions
 
@@ -967,6 +1044,15 @@ http://tachyons.io/docs/layout/heights/
 
 http://tachyons.io/docs/typography/tracking/
 
+### Base
+
+- tracked
+
+### Literal Values
+
+- `-tight`
+- `-mega`
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -984,6 +1070,16 @@ http://tachyons.io/docs/typography/tracking/
 
 http://tachyons.io/docs/typography/line-height
 
+### Base
+
+- lh = line height
+
+### Literal Values
+
+- `-solid` = literal value 1
+- `-title` = literal value 1.25
+- `-copy`  = literal value 1.5
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -1000,6 +1096,9 @@ http://tachyons.io/docs/typography/line-height
 ### Docs
 
 http://tachyons.io/docs/elements/links/
+
+### Base
+- link
 */
 .link { text-decoration: none; transition: color .15s ease-in; }
 .link:link, .link:visited { transition: color .15s ease-in; }
@@ -1013,6 +1112,10 @@ http://tachyons.io/docs/elements/links/
 ### Docs
 
 http://tachyons.io/docs/elements/lists/
+
+### Base
+
+- list
 */
 .list { list-style-type: none; }
 /*!!!
@@ -1025,7 +1128,7 @@ http://tachyons.io/docs/layout/max-widths/
 
 ### Base
 
-`mw` = max-width
+- mw = max-width
 
 ### Modifiers
 
@@ -1073,7 +1176,7 @@ http://tachyons.io/docs/layout/widths/
 
 ### Base
 
-w = width
+- w = width
 
 ### Modifiers
 
@@ -1136,6 +1239,19 @@ w = width
 
 # OVERFLOW
 
+### Base
+
+- overflow
+- overflow-x
+- overflow-y
+
+### Modifiers
+
+- `-visible`
+- `-hidden`
+- `-scroll`
+- `-auto`
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -1162,6 +1278,14 @@ w = width
 
 http://tachyons.io/docs/layout/position/
 
+### Base
+
+- static
+- relative
+- absolute
+- fixed
+- sticky
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -1180,6 +1304,26 @@ http://tachyons.io/docs/layout/position/
 ### Docs
 
 http://tachyons.io/docs/themes/opacity/
+
+### Base
+
+- o = opacity
+
+### Modifiers
+
+- `-100` = literal value 1
+- `-90`  = literal value .9
+- `-80`  = literal value .8
+- `-70`  = literal value .7
+- `-60`  = literal value .6
+- `-50`  = literal value .5
+- `-40`  = literal value .4
+- `-30`  = literal value .3
+- `-20`  = literal value .2
+- `-10`  = literal value .1
+- `-05`  = literal value .05
+- `-025` = literal value .025
+- `-0`   = literal value 0
 */
 .o-100 { opacity: 1; }
 .o-90 { opacity: .9; }
@@ -1199,6 +1343,20 @@ http://tachyons.io/docs/themes/opacity/
 # ROTATIONS
 
 Rotate elements.
+
+### Base
+
+- rotate
+
+### Modifiers
+
+- `-45` = literal value 45deg
+- `-90` = literal value 90deg
+- `-135` = literal value 135deg
+- `-180` = literal value 180deg
+- `-225` = literal value 225deg
+- `-270` = literal value 270deg
+- `-315` = literal value 315deg
 
 ### Media Query Extensions
 
@@ -1730,7 +1888,7 @@ http://tachyons.io/docs/layout/spacing/
 
 ### Base
 
-`n` = negative
+- n = negative
 
 ### Modifiers
 
@@ -1747,7 +1905,6 @@ http://tachyons.io/docs/layout/spacing/
 - 5 = 5th step in spacing scale
 - 6 = 6th step in spacing scale
 - 7 = 7th step in spacing scale
-
 
 ### Media Query Extensions
 
@@ -1797,6 +1954,19 @@ http://tachyons.io/docs/layout/spacing/
 ### Docs
 
 http://tachyons.io/docs/elements/tables/
+
+### Base
+
+- collapse = border collapse
+- striped = striped table
+
+### Modifiers
+- `-light` = light stripes
+- `-dark` = dark stripes
+- `--light-silver` = light-silver stripes
+- `--moon-gray` = moon-gray stripes
+- `--light-gray` = light-gray stripes
+- `--near-white` = near-white stripes
 */
 .collapse { border-collapse: collapse; border-spacing: 0; }
 .striped--light-silver:nth-child(odd) { background-color: #aaa; }
@@ -1812,6 +1982,12 @@ http://tachyons.io/docs/elements/tables/
 ### Docs
 
 http://tachyons.io/docs/typography/text-decoration/
+
+### Base
+
+- strike = line-through
+- underline = underline
+- no-underline = string value 'none'
 
 ### Media Query Extensions
 
@@ -1861,7 +2037,7 @@ http://tachyons.io/docs/typography/text-transform/
 
 ### Base
 
-tt = text-transform
+- tt = text-transform
 
 ### Modifiers
 
@@ -1890,7 +2066,7 @@ http://tachyons.io/docs/typography/scale/
 
 ### Base
 
-f = font-size
+- f = font-size
 
 ### Modifiers
 
@@ -1933,6 +2109,14 @@ f = font-size
 
 http://tachyons.io/docs/typography/measure/
 
+### Base 
+- measure = max-width 30em
+- measure-wide = max-width 34em
+- measure-narrow = max-width 20em
+- indent = indent
+- small-caps = small caps
+- truncate = truncate
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -1954,6 +2138,13 @@ http://tachyons.io/docs/typography/measure/
 
 # UTILITIES
 
+### Base
+
+- overflow-container = horizontal scroll
+- center = margin auto
+- mr-auto = margin-right auto
+- ml-auto = margin-left auto
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -1968,6 +2159,10 @@ http://tachyons.io/docs/typography/measure/
 /*!!!
 
 # VISIBILITY
+
+### Base 
+
+- clip
 
 ### Media Query Extensions
 
@@ -1984,6 +2179,12 @@ http://tachyons.io/docs/typography/measure/
 
 # WHITE SPACE
 
+### Base
+
+- ws-normal = white-space normal
+- nowrap = white-space nowrap
+- pre = white-space pre
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -1996,6 +2197,17 @@ http://tachyons.io/docs/typography/measure/
 /*!!!
 
 # VERTICAL ALIGN
+
+### Base
+
+- v = vertical-align
+
+### Modifiers
+
+- `-base` = baseline
+- `-mid`  = middle
+- `-top`  = top
+- `-btm`  = bottom
 
 ### Media Query Extensions
 
@@ -2017,14 +2229,14 @@ http://tachyons.io/docs/themes/hovers/
 
 ### Base
 
-- `dim` - Dim element on hover
-- `glow` - Animate opacity to 100% on hover
-- `hide-child` - Hide child & reveal on hover
-- `underline-hover` - Underline text on hover
-- `grow` - Grow element on hover
-- `pointer` - Show cursor: pointer on hover
-- `shadow` - Show shadow on hover
-- `bg-animate` - Animate background color on hover
+- dim - Dim element on hover
+- glow - Animate opacity to 100% on hover
+- hide-child - Hide child & reveal on hover
+- underline-hover - Underline text on hover
+- grow - Grow element on hover
+- pointer - Show cursor: pointer on hover
+- shadow - Show shadow on hover
+- bg-animate - Animate background color on hover
 
 ### Examples
 
@@ -2102,7 +2314,7 @@ child class will be hidden and displayed on hover or focus.
 
 ### Base
 
-z = z-index
+- z = z-index
 
 ### Modifiers
 
@@ -2235,6 +2447,15 @@ children.
 ### Docs
 
 http://tachyons.io/docs/debug/
+
+### Base
+
+- debug
+
+### Modifiers
+
+- `-white` = white outline
+- `-black` = black outline
 */
 .debug * { outline: 1px solid gold; }
 .debug-white * { outline: 1px solid white; }
@@ -2250,6 +2471,16 @@ Just tack one of these classes onto a parent element.
 ### Docs
 
 http://tachyons.io/docs/debug-grid/
+
+### Base
+
+- debug-grid
+
+### Modifiers
+
+- `-16` = 16px grid
+- `-8-solid` = solid 8px grid
+- `-16-solid` = solid 16px grid
 */
 .debug-grid { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFElEQVR4AWPAC97/9x0eCsAEPgwAVLshdpENIxcAAAAASUVORK5CYII= ) repeat top left; }
 .debug-grid-16 { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR4AWOgCLz/b0epAa6UGuBOqQHOQHLUgFEDnAbcBZ4UGwDOkiCnkIhdgNgNxAYAiYlD+8sEuo8AAAAASUVORK5CYII= ) repeat top left; }

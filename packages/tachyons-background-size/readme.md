@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-316 | 8 | 8
+335 | 8 | 8
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,6 +84,11 @@ on an html element.
 ### Docs
 
 http://tachyons.io/docs/themes/background-size/
+
+### Base
+
+- cover    = cover
+- contain  = contain
 
 ### Media Query Extensions
 

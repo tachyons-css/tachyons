@@ -84,7 +84,7 @@ http://tachyons.io/docs/layout/widths/
 
 ### Base
 
-w = width
+- w = width
 
 ### Modifiers
 

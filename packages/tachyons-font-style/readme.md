@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-247 | 8 | 8
+261 | 8 | 8
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,6 +81,11 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Docs
 
 http://tachyons.io/docs/typography/font-style/
+
+### Base
+
+- i = italic
+- fs-normal = normal
 
 ### Media Query Extensions
 

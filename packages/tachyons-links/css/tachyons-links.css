@@ -5,6 +5,9 @@
 ### Docs
 
 http://tachyons.io/docs/elements/links/
+
+### Base
+- link
 */
 .link { text-decoration: none; transition: color .15s ease-in; }
 .link:link, .link:visited { transition: color .15s ease-in; }
