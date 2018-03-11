@@ -34,7 +34,7 @@ export const NavLink = ({
 
 export const TitleLink = ({ href = '#!', subtext, text, ...props }) => (
   <Link href={href}>
-    <a className="dib f5 f4-ns fw6 mt0 mb1 link black-70" {...props}>
+    <a className="dib f5 f4-ns fw6 link black-70" {...props}>
       {text}
 
       {subtext && (
