@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
-import ContentEditable from 'react-contenteditable'
+import Highlight from 'react-highlight'
+import isPresent from 'is-present'
+import matter from 'gray-matter'
 import he from 'he'
+
+import Examples from './Examples'
 
 const isDotHTML = (cx = '') => /language-\.html/.test(cx)
 
@@ -8,12 +12,14 @@ class Editor extends Component {
   constructor(props) {
     super()
 
-    const html = props.children[0] || ''
+    const code = props.children[0] || ''
+    const { content, data = {} } = matter(code)
 
     this.state = {
-      html,
-      lines: html.split(/\n/).length,
-      shouldLiveEdit: isDotHTML(props.className)
+      html: content,
+      metadata: data,
+      lines: content.split(/\n/).length,
+      shouldLiveEdit: isDotHTML(props.className) || data.editable
     }
   }
 
@@ -24,8 +30,22 @@ class Editor extends Component {
   }
 
   render() {
+    if (isPresent(this.state.metadata.examples)) {
+      return (
+        <Examples
+          examples={this.state.metadata.examples}
+          html={this.state.html}
+        />
+      )
+    }
+
     if (!this.state.shouldLiveEdit) {
-      return <code {...this.props} />
+      return (
+        <Highlight
+          innerHtml={true}
+          children={this.state.html}
+        />
+      )
     }
 
     return (
@@ -36,6 +56,7 @@ class Editor extends Component {
           value={this.state.html}
           onChange={this.handleChange}
         />
+
         <div
           className="sans-serif ws-normal"
           dangerouslySetInnerHTML={{
