@@ -9,128 +9,52 @@ Don't forget to wrap `float`ed elements with the clearfix(`.cf`).
 
 ## Examples
 
+Below is a list of many grid examples.
+It's not meant to be exhaustive, but shows how you can compose Tachyons functional css classes together.
+The possibilities are limitless!
+
 ### Fixed Columns
 
 ```.html
 ---
 sideBySide: true
+rows: 12
 ---
-<section class="cf w-100 pv3 f6 ph3 ph4-m">
-  <div class="mw9 center ph3-m">
-    <div class="ph2-m">
-      <div class="fl w-100 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-100 pa2</code></div>
-      </div>
-      <div class="fl w-90 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-90 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-80 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-80 pa2</code></div>
-      </div>
-      <div class="fl w-20 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
-      </div>
-      <div class="fl w-75 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-75 pa2</code></div>
-      </div>
-      <div class="fl w-25 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
-      </div>
-      <div class="fl w-70 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-70 pa2</code></div>
-      </div>
-      <div class="fl w-30 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-30 pa2</code></div>
-      </div>
-      <div class="fl w-60 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-60 pa2</code></div>
-      </div>
-      <div class="fl w-40 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-40 pa2</code></div>
-      </div>
-      <div class="fl w-50 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-50 pa2</code></div>
-      </div>
-      <div class="fl w-50 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-50 pa2</code></div>
-      </div>
-      <div class="fl w-third pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-third pa2</code></div>
-      </div>
-      <div class="fl w-third pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-third pa2</code></div>
-      </div>
-      <div class="fl w-third pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-third pa2</code></div>
-      </div>
-      <div class="fl w-third pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-third pa2</code></div>
-      </div>
-      <div class="fl w-two-thirds pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-two-thirds pa2</code></div>
-      </div>
-      <div class="fl w-25 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
-      </div>
-      <div class="fl w-25 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
-      </div>
-      <div class="fl w-25 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
-      </div>
-      <div class="fl w-25 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-25 pa2</code></div>
-      </div>
-      <div class="fl w-20 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
-      </div>
-      <div class="fl w-20 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
-      </div>
-      <div class="fl w-20 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
-      </div>
-      <div class="fl w-20 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
-      </div>
-      <div class="fl w-20 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-20 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-      <div class="fl w-10 pa2">
-        <div class="outline bg-white tc pv4"><code>fl w-10 pa2</code></div>
-      </div>
-    </div>
-  </div>
+<section class="cf w-100 pv3 f6 ph3 ph4-m code">
+  <div class="fl w-100 pv3 outline tc">fl w-100 pa2</div>
+  <div class="fl w-90 pv3 outline tc">fl w-90 pa2</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-80 pv3 outline tc">fl w-80 pa2</div>
+  <div class="fl w-20 pv3 outline tc">fl w-20 pa2</div>
+  <div class="fl w-60 pv3 outline tc">fl w-60 pa2</div>
+  <div class="fl w-40 pv3 outline tc">fl w-40 pa2</div>
+  <div class="fl w-50 pv3 outline tc">fl w-50 pa2</div>
+  <div class="fl w-50 pv3 outline tc">fl w-50 pa2</div>
+  <div class="fl w-third pv3 outline tc">fl w-third pa2</div>
+  <div class="fl w-third pv3 outline tc">fl w-third pa2</div>
+  <div class="fl w-third pv3 outline tc">fl w-third pa2</div>
+  <div class="fl w-third pv3 outline tc">fl w-third pa2</div>
+  <div class="fl w-two-thirds pv3 outline tc">fl w-two-thirds pa2</div>
+  <div class="fl w-25 pv3 outline tc">fl w-25 pa2</div>
+  <div class="fl w-25 pv3 outline tc">fl w-25 pa2</div>
+  <div class="fl w-25 pv3 outline tc">fl w-25 pa2</div>
+  <div class="fl w-25 pv3 outline tc">fl w-25 pa2</div>
+  <div class="fl w-20 pv3 outline tc">fl w-20 pa2</div>
+  <div class="fl w-20 pv3 outline tc">fl w-20 pa2</div>
+  <div class="fl w-20 pv3 outline tc">fl w-20 pa2</div>
+  <div class="fl w-20 pv3 outline tc">fl w-20 pa2</div>
+  <div class="fl w-20 pv3 outline tc">fl w-20 pa2</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+  <div class="fl w-10 pv3 outline tc">w-10</div>
+</div>
 </section>
 ```
 
