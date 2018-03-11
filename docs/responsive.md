@@ -77,7 +77,8 @@ This allows you to update the variable in one place and update the breakpoints f
 
 Name | Default | Class Modifier | Declaration
 ---- | ------- | -------------- | -----------
-`breakpoint-medium` | `min-width: 30em` | `-m` | `@custom-media --breakpoint-medium screen and (min-width: 30em);`
+`breakpoint-small` | `min-width: 30em` | `-s` | `@custom-media --breakpoint-medium screen and (min-width: 30em);`
+`breakpoint-medium` | `min-width: 48em` | `-m` | `@custom-media --breakpoint-medium screen and (min-width: 48em);`
 `breakpoint-large` | `min-width: 60em` | `-l` | `@custom-media --breakpoint-large screen and (min-width: 60em);`
 
 ## Reference
