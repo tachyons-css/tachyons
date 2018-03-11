@@ -5,6 +5,26 @@
 ### Docs
 
 http://tachyons.io/docs/themes/opacity/
+
+### Base
+
+- o = opacity
+
+### Modifiers
+
+- `-100` = literal value 1
+- `-90`  = literal value .9
+- `-80`  = literal value .8
+- `-70`  = literal value .7
+- `-60`  = literal value .6
+- `-50`  = literal value .5
+- `-40`  = literal value .4
+- `-30`  = literal value .3
+- `-20`  = literal value .2
+- `-10`  = literal value .1
+- `-05`  = literal value .05
+- `-025` = literal value .025
+- `-0`   = literal value 0
 */
 
 .o-100 { opacity: 1;    }
