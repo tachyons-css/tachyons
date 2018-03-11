@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-import { Container } from '../ui';
+import { Container } from '../ui'
 
-import Layout from '../ui/Layout';
+import Layout from '../ui/Layout'
 
 export default () => (
   <Layout title="TACHYONS - Gallery">
@@ -263,4 +263,4 @@ export default () => (
       </section>
     </Container>
   </Layout>
-);
+)

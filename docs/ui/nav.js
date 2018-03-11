@@ -46,28 +46,24 @@ export const docs = [
     slug: 'grid',
     items: [
       {
-        title: 'Basic',
-        href: '/docs/grid/basic'
-      },
-      {
         title: 'Flexbox',
         href: '/docs/grid/flexbox'
       },
       {
         title: 'Responsive',
-        href: '/docs/grid/'
+        href: '/docs/grid/responsive'
       },
       {
         title: 'Nesting',
-        href: '/docs/grid/'
+        href: '/docs/grid/nesting'
       },
       {
         title: 'Floats-Based',
-        href: '/docs/grid/'
+        href: '/docs/grid/floats'
       },
       {
         title: 'Table-Based',
-        href: '/docs/grid/'
+        href: '/docs/grid/table'
       },
       {
         title: 'Debugging',
@@ -84,18 +80,6 @@ export const docs = [
         href: '/docs/layout/spacing'
       },
       {
-        title: 'Box Sizing',
-        href: '/docs/layout/box-sizing'
-      },
-      {
-        title: 'Floats',
-        href: '/docs/layout/floats'
-      },
-      {
-        title: 'Clearfix',
-        href: '/docs/layout/clearfix'
-      },
-      {
         title: 'Display',
         href: '/docs/layout/display'
       },
@@ -110,6 +94,18 @@ export const docs = [
       {
         title: 'Heights',
         href: '/docs/layout/heights'
+      },
+      {
+        title: 'Box Sizing',
+        href: '/docs/layout/box-sizing'
+      },
+      {
+        title: 'Floats',
+        href: '/docs/layout/floats'
+      },
+      {
+        title: 'Clearfix',
+        href: '/docs/layout/clearfix'
       },
       {
         title: 'Position',

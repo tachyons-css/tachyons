@@ -2,29 +2,63 @@
 
 Flexbox can be used to achieve powerful horizontal or vertical layouts without JavaScript.
 
-## Container
-
-### Flex
-
 Declaring the class `flex` on an element will squeeze all its children into a single row.
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex">
-  <div class="outline w-25 pa3 mr2">
-    <code>1</code>
-  </div>
-  <div class="outline w-25 pa3 mr2">
-    <code>2</code>
-  </div>
-  <div class="outline w-25 pa3 mr2">
-    <code>3</code>
-  </div>
-  <div class="outline w-25 pa3 mr2">
-    <code>4</code>
-  </div>
-  <div class="outline w-25 pa3">
-    <code>5</code>
-  </div>
+  <div class="outline w-25 pa3 mr2"><code>1</code></div>
+  <div class="outline w-25 pa3 mr2"><code>2</code></div>
+  <div class="outline w-25 pa3 mr2"><code>3</code></div>
+  <div class="outline w-25 pa3 mr2"><code>4</code></div>
+  <div class="outline w-25 pa3"><code>5</code></div>
+</div>
+```
+
+Use `flex` with widths to achieve responsive, column layouts.
+
+
+```.html
+---
+sideBySide: true
+rows: 12
+---
+<div class="flex mb2 ml2">
+  <div class="f7 tc outline w-25 pa1 mr2"><code>w-25</code></div>
+  <div class="f7 tc outline w-25 pa1 mr2"><code>w-25</code></div>
+  <div class="f7 tc outline w-25 pa1 mr2"><code>w-25</code></div>
+  <div class="f7 tc outline w-25 pa1 mr2"><code>w-25</code></div>
+</div>
+<div class="flex mb2 ml2">
+  <div class="f7 tc outline w-75 pa1 mr2"><code>w-75</code></div>
+  <div class="f7 tc outline w-25 pa1 mr2"><code>w-25</code></div>
+</div>
+<div class="flex mb2 ml2">
+  <div class="f7 tc outline w-20 pa1 mr2"><code>w-20</code></div>
+  <div class="f7 tc outline w-80 pa1 mr2"><code>w-80</code></div>
+</div>
+<div class="flex mb2 ml2">
+  <div class="f7 tc outline w-two-thirds pa1 mr2"><code>w-two-thirds</code></div>
+  <div class="f7 tc outline w-third pa1 mr2"><code>w-third</code></div>
+</div>
+<div class="flex mb2 ml2">
+  <div class="f7 tc outline w-third pa1 mr2"><code>w-third</code></div>
+  <div class="f7 tc outline w-third pa1 mr2"><code>w-third</code></div>
+  <div class="f7 tc outline w-third pa1 mr2"><code>w-third</code></div>
+</div>
+<div class="flex mb2 ml2">
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
+  <div class="f7 tc outline w-10 pa1 mr2"><code>w-10</code></div>
 </div>
 ```
 
@@ -33,20 +67,23 @@ Declaring the class `flex` on an element will squeeze all its children into a si
 Specifying `flex-wrap` will cause child elements to wrap to multiple rows once they take more width than their parent.
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex flex-wrap">
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>1</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>2</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>3</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>4</code>
   </div>
-  <div class="outline w-25 pa3">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>5</code>
   </div>
 </div>
@@ -57,20 +94,23 @@ Specifying `flex-wrap` will cause child elements to wrap to multiple rows once t
 Specifying `flex-wrap-reverse` reverses the ordering of rows.
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex flex-wrap-reverse">
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>1</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>2</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>3</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>4</code>
   </div>
-  <div class="outline w-25 pa3">
+  <div class="outline w-25 pa3 mt2">
     <code>5</code>
   </div>
 </div>
@@ -81,20 +121,23 @@ Specifying `flex-wrap-reverse` reverses the ordering of rows.
 Column layouts are achievable with `flex-column`.
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex flex-column">
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>1</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>2</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>3</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>4</code>
   </div>
-  <div class="outline w-25 pa3">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>5</code>
   </div>
 </div>
@@ -105,20 +148,23 @@ Column layouts are achievable with `flex-column`.
 Reverse the column layout with `flex-column-reverse`.
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex flex-column-reverse">
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>1</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>2</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>3</code>
   </div>
-  <div class="outline w-25 pa3 mr2">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>4</code>
   </div>
-  <div class="outline w-25 pa3">
+  <div class="outline w-25 pa3 mr2 mt2">
     <code>5</code>
   </div>
 </div>
@@ -166,6 +212,9 @@ Interesting layouts can be achieved when composing these container examples toge
 Pack items from the center with `items-center`.
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex items-center">
   <div class="outline w-25 pa3 mr2 h2">
     <code>1</code>
@@ -190,6 +239,9 @@ Pack items from the center with `items-center`.
 Pack items from the start with `items-start`.
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex items-start">
   <div class="outline w-25 pa3 mr2 h2">
     <code>1</code>
@@ -214,6 +266,9 @@ Pack items from the start with `items-start`.
 Pack items from the end with `items-end`.
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex items-end">
   <div class="outline w-25 pa3 mr2 h2">
     <code>1</code>
@@ -238,6 +293,9 @@ Pack items from the end with `items-end`.
 ### Center
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex justify-center">
   <div class="outline w-25 pa3 mr2">
     <code>1</code>
@@ -254,6 +312,9 @@ Pack items from the end with `items-end`.
 ### Between
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex justify-between">
   <div class="outline w-25 pa3">
     <code>1</code>
@@ -270,6 +331,9 @@ Pack items from the end with `items-end`.
 ### Around
 
 ```.html
+---
+sideBySide: true
+---
 <div class="flex justify-around">
   <div class="outline w-25 pa3 mr2">
     <code>1</code>

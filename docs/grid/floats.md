@@ -1,12 +1,20 @@
-# Grids
+# Float-Based Grid
 
-You can combine display, float, padding, and widths to construct a wide variety of grids. Here is a basic example of some options for constructing a simple grid.
+You can combine `display`, `float`, `padding`, and `widths` to construct a wide variety of grids.
+Here is a basic example of some options for constructing a simple grid.
+
+Float based layouts are great for projects where 100% browser support is required, or if you need cater towards legacy browsers.
+
+Don't forget to wrap `float`ed elements with the clearfix(`.cf`).
 
 ## Examples
 
 ### Fixed Columns
 
 ```.html
+---
+sideBySide: true
+---
 <section class="cf w-100 pv3 f6 ph3 ph4-m">
   <div class="mw9 center ph3-m">
     <div class="ph2-m">
@@ -128,20 +136,10 @@ You can combine display, float, padding, and widths to construct a wide variety 
 
 ### Two Columns - Collapsing
 
-```
-<div class="mw9 center ph3-m">
-  <div class="cf ph2-m">
-    <div class="fl w-100 w-50-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-    <div class="fl w-100 w-50-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-  </div>
-</div>
-```
-
 ```.html
+---
+sideBySide: true
+---
 <div class="mw9 center ph3-m">
   <div class="cf ph2-m">
     <div class="fl w-100 w-50-m pa2">
@@ -156,23 +154,10 @@ You can combine display, float, padding, and widths to construct a wide variety 
 
 ### Three Columns - Collapse to Single
 
-```
-<div class="mw9 center ph3-m">
-  <div class="cf ph2-m">
-    <div class="fl w-100 w-third-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-    <div class="fl w-100 w-third-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-    <div class="fl w-100 w-third-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-  </div>
-</div>
-```
-
 ```.html
+---
+sideBySide: true
+---
 <div class="mw9 center ph3-m">
   <div class="cf ph2-m">
     <div class="fl w-100 w-third-m pa2">
@@ -190,23 +175,10 @@ You can combine display, float, padding, and widths to construct a wide variety 
 
 ### Three Columns - Collapse to Mixed
 
-```
-<div class="mw9 center ph3-m">
-  <div class="cf ph2-m">
-    <div class="fl w-100 w-third-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-    <div class="fl w-50 w-third-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-    <div class="fl w-50 w-third-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-  </div>
-</div>
-```
-
 ```.html
+---
+sideBySide: true
+---
 <div class="mw9 center ph3-m">
   <div class="cf ph2-m">
     <div class="fl w-100 w-third-m pa2">
@@ -224,26 +196,10 @@ You can combine display, float, padding, and widths to construct a wide variety 
 
 ### Four Columns - Collapse to single
 
-```
-<div class="mw9 center ph3-m">
-  <div class="cf ph2-m">
-    <div class="fl w-100 w-25-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-    <div class="fl w-100 w-25-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-    <div class="fl w-100 w-25-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-    <div class="fl w-100 w-25-m pa2">
-      <div class="outline bg-white pv4"></div>
-    </div>
-  </div>
-</div>
-```
-
 ```.html
+---
+sideBySide: true
+---
 <div class="mw9 center ph3-m">
   <div class="cf ph2-m">
     <div class="fl w-100 w-25-m pa2">
@@ -264,26 +220,10 @@ You can combine display, float, padding, and widths to construct a wide variety 
 
 ### Four Columns - Collapse to Mixed
 
-```
-<div class="mw9 center ph3-m">
-  <div class="cf ph2-m">
-    <div class="fl w-100 w-25-m pa2">
-      <div class="outline bg-white tc pv4"></div>
-    </div>
-    <div class="fl w-third w-25-m pa2">
-      <div class="outline bg-white tc pv4"></div>
-    </div>
-    <div class="fl w-third w-25-m pa2">
-      <div class="outline bg-white tc pv4"></div>
-    </div>
-    <div class="fl w-third w-25-m pa2">
-      <div class="outline bg-white tc pv4"></div>
-    </div>
-  </div>
-</div>
-```
-
 ```.html
+---
+sideBySide: true
+---
 <div class="mw9 center ph3-m">
   <div class="cf ph2-m">
     <div class="fl w-100 w-25-m pa2">
@@ -304,4 +244,5 @@ You can combine display, float, padding, and widths to construct a wide variety 
 
 ## Reference
 
-* [MDN - Width property](https://developer.mozilla.org/en-US/docs/Web/css/width)
+- [MDN - Width](https://developer.mozilla.org/en-US/docs/Web/css/width)
+- [MDN - Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
