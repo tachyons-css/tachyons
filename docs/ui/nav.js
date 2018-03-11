@@ -90,6 +90,10 @@ export const docs = [
         href: '/docs/layout/position'
       },
       {
+        title: 'Aspect Ratios',
+        href: '/docs/layout/aspect-ratios'
+      },
+      {
         title: 'Z Index',
         href: '/docs/layout/z-index'
       },
