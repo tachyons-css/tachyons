@@ -59,16 +59,15 @@ class Header extends Component {
                 subtext={`v${version}`}
               />
 
-              <Flex>
-                <div className="flex dn-m">
-                  <button className="button-reset bn bg-transparent flex items-center" onClick={this.toggleMenu.bind(this)}>
-                    { icon }
-                  </button>
-                </div>
-                <div className="dn flex-m">
-                  { this.navigation('desktop') }
-                </div>
-              </Flex>
+              <div className="flex dn-m">
+                <button className="button-reset bn bg-transparent flex items-center" onClick={this.toggleMenu.bind(this)}>
+                  { icon }
+                </button>
+              </div>
+              <div className="dn flex-m">
+                { this.navigation('desktop') }
+              </div>
+
             </Flex>
           </Container>
         </div>
