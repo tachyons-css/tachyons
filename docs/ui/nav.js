@@ -238,13 +238,35 @@ export const docs = [
         href: '/docs/addons/nudge'
       }
     ]
+  },
+  {
+    title: 'Other',
+    slug: 'other',
+    items: [
+      {
+        title: 'Blog',
+        href: '/blog'
+      },
+      {
+        title: 'X-Ray',
+        href: '/xray'
+      },
+      {
+        title: 'Gallery',
+        href: '/gallery'
+      },
+      {
+        title: 'Resources',
+        href: '/resources'
+      }
+    ]
   }
 ]
 
 export const header = [
   {
     title: 'Documentation',
-    label: 'Documentation',
+    label: 'Docs',
     href: '/docs'
   },
   {
@@ -258,13 +280,41 @@ export const header = [
     href: '/gallery'
   },
   {
-    title: 'Resources',
-    label: 'Resources',
-    href: '/resources'
-  },
-  {
     title: 'Tachyons on GitHub',
     label: 'GitHub',
     href: 'http://github.com/tachyons-css/tachyons/'
+  }
+]
+
+export const footer = [
+  {
+    title: 'Home',
+    href: '/'
+  },
+  {
+    title: 'Docs',
+    href: '/docs'
+  },
+  {
+    title: 'Components',
+    label: 'Components',
+    href: '/components/'
+  },
+  {
+    title: 'Blog',
+    href: '/blog'
+  },
+  {
+    title: 'Gallery of sites built with Tachyons',
+    label: 'Gallery',
+    href: '/gallery'
+  },
+  {
+    title: 'Resources',
+    href: '/resources'
+  },
+  {
+    title: 'Supporting Tachyons',
+    href: 'https://opencollective.com/tachyons'
   }
 ]
