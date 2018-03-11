@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-458 | 44 | 44
+479 | 44 | 44
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,7 +84,7 @@ http://tachyons.io/docs/typography/font-weight/
 
 ### Base
 
-`fw` = font-weight
+- fw = font-weight
 
 ### Modifiers
 
@@ -97,6 +97,11 @@ http://tachyons.io/docs/typography/font-weight/
 - 7 = literal value 700
 - 8 = literal value 800
 - 9 = literal value 900
+
+### Literal Values
+
+- b = bold
+- normal = normal
 
 ### Media Query Extensions
 

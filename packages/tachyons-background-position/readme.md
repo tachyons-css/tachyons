@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-369 | 20 | 40
+370 | 20 | 40
 ---|---|---
 bytes | selectors | declarations
 
@@ -80,7 +80,7 @@ Running `$ npm start` will process the source css and place the built css in the
 
 ### Base
 
-`bg` = background
+- bg = background
 
 ### Modifiers
 

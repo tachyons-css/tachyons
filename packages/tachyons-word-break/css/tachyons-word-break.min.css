@@ -4,7 +4,13 @@
 
 ### Base
 
-word = word-break
+- word = word-break
+
+### Modifiers
+
+- `-normal` = normal
+- `-wrap`   = break-all
+- `-nowrap` = keep-all
 
 ### Media Query Extensions
 

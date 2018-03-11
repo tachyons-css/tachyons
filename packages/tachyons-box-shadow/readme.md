@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-323 | 20 | 20
+381 | 20 | 20
 ---|---|---
 bytes | selectors | declarations
 
@@ -81,6 +81,18 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Docs
 
 http://tachyons.io/docs/themes/box-shadow/
+
+### Base
+
+- shadow
+
+### Modifiers
+
+- `-1` = offset 0px 0px 4px 2px
+- `-2` = offset 0px 0px 8px 2px
+- `-3` = offset 2px 2px 4px 2px
+- `-4` = offset 2px 2px 8px 0px
+- `-5` = offset 4px 4px 8px 0px
 
 ### Media Query Extensions
 

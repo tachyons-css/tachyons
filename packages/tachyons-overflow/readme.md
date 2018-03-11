@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-396 | 48 | 48
+433 | 48 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -77,6 +77,19 @@ Running `$ npm start` will process the source css and place the built css in the
 /*!!!
 
 # OVERFLOW
+
+### Base
+
+- overflow
+- overflow-x
+- overflow-y
+
+### Modifiers
+
+- `-visible`
+- `-hidden`
+- `-scroll`
+- `-auto`
 
 ### Media Query Extensions
 

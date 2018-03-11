@@ -4,7 +4,7 @@
 
 ### Base
 
-z = z-index
+- z = z-index
 
 ### Modifiers
 
@@ -119,7 +119,7 @@ Running `$ npm start` will process the source css and place the built css in the
 
 ### Base
 
-z = z-index
+- z = z-index
 
 ### Modifiers
 

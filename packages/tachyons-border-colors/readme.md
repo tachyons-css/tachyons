@@ -14,7 +14,7 @@ http://tachyons.io/docs/themes/borders/
 
 ### Base
 
-`b` = border
+- b = border
 
 ### Modifiers
 
@@ -23,7 +23,7 @@ http://tachyons.io/docs/themes/borders/
 
 ### Stats
 
-438 | 28 | 28
+437 | 28 | 28
 ---|---|---
 bytes | selectors | declarations
 
@@ -109,7 +109,7 @@ http://tachyons.io/docs/themes/borders/
 
 ### Base
 
-`b` = border
+- b = border
 
 ### Modifiers
 

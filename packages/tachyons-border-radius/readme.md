@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-543 | 44 | 60
+542 | 44 | 60
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,7 +84,7 @@ http://tachyons.io/docs/themes/border-radius/
 
 ### Base
 
-`br` = border-radius
+- br = border-radius
 
 ### Modifiers
 

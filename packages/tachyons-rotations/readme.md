@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-366 | 28 | 56
+447 | 28 | 56
 ---|---|---
 bytes | selectors | declarations
 
@@ -79,6 +79,20 @@ Running `$ npm start` will process the source css and place the built css in the
 # ROTATIONS
 
 Rotate elements.
+
+### Base
+
+- rotate
+
+### Modifiers
+
+- `-45` = literal value 45deg
+- `-90` = literal value 90deg
+- `-135` = literal value 135deg
+- `-180` = literal value 180deg
+- `-225` = literal value 225deg
+- `-270` = literal value 270deg
+- `-315` = literal value 315deg
 
 ### Media Query Extensions
 

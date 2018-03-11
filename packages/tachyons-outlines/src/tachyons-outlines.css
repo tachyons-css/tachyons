@@ -10,6 +10,15 @@
 
 Set transparent outline on elements.
 
+### Base
+
+- outline = outline
+
+### Modifiers
+
+- `-0` = literal value 0
+- `-transparent` = transparent outline
+
 ### Media Query Extensions
 
 - `-s` = small

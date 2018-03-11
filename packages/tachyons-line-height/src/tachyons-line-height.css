@@ -12,6 +12,16 @@
 
 http://tachyons.io/docs/typography/line-height
 
+### Base
+
+- lh = line height
+
+### Literal Values
+
+- `-solid` = literal value 1
+- `-title` = literal value 1.25
+- `-copy`  = literal value 1.5
+
 ### Media Query Extensions
 
 - `-s` = small

@@ -6,10 +6,14 @@
 
 http://tachyons.io/docs/elements/lists/
 
+### Base
+
+- list
+
 
 ### Stats
 
-111 | 1 | 1
+123 | 1 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -86,6 +90,10 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Docs
 
 http://tachyons.io/docs/elements/lists/
+
+### Base
+
+- list
 */
 .list { list-style-type: none; }
 ```

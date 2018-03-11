@@ -84,7 +84,7 @@ http://tachyons.io/docs/typography/scale/
 
 ### Base
 
-f = font-size
+- f = font-size
 
 ### Modifiers
 

@@ -4,7 +4,7 @@ Functional CSS for humans
 
 ### Stats
 
-783 | 52 | 84
+873 | 52 | 84
 ---|---|---
 bytes | selectors | declarations
 
@@ -86,6 +86,25 @@ Adapted from: https://github.com/suitcss/components-flex-embed
 ### Docs
 
 https://tachyons.io/docs/layout/aspect-ratios
+
+### Base
+
+- aspect-ratio = aspect ratio
+
+### Modifiers
+
+- `--16x9` = 16x9
+- `--9x16` = 9x16
+- `--4x3` = 4x3
+- `--3x4` = 3x4
+- `--6x4` = 6x4
+- `--4x6` = 4x6
+- `--8x5` = 8x5
+- `--5x8` = 5x8
+- `--7x5` = 7x5
+- `--5x7` = 5x7
+- `--1x1` = 1x1
+- `--object` = object
 
 ### Media Query Extensions
 

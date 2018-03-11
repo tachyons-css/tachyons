@@ -12,6 +12,14 @@
 
 http://tachyons.io/docs/typography/measure/
 
+### Base 
+- measure = max-width 30em
+- measure-wide = max-width 34em
+- measure-narrow = max-width 20em
+- indent = indent
+- small-caps = small caps
+- truncate = truncate
+
 ### Media Query Extensions
 
 - `-s` = small
