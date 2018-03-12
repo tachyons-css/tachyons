@@ -8,7 +8,7 @@
     "build": "next build",
     "deploy": "now --public",
     "dev": "next",
-    "lint": "prettier *.js ui/*.js pages/*.js --write --no-semi --single-quote",
+    "lint": "prettier *.js ui/**/*.js pages/**/*.js --write --no-semi --single-quote",
     "predeploy": "rm -rf node_modules && rm -rf .next",
     "prepare": "node modules"
   },

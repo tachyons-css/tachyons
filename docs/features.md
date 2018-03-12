@@ -1,3 +1,9 @@
+export const meta = {
+  title: 'Features / Overview / Docs / TACHYONS',
+  subNav: 'overview',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/features.md'
+}
+
 # Features
 
 ## Open source component library

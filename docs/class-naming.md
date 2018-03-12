@@ -1,3 +1,9 @@
+export const meta = {
+  title: 'Class Naming / Overview / Docs / TACHYONS',
+  subNav: 'overview',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/class-naming.md'
+}
+
 # Class Naming
 
 A lot of inspiration for Tachyons classes comes from unix.
