@@ -16,7 +16,7 @@
   "author": "mrmrs",
   "license": "MIT",
   "dependencies": {
-    "@compositor/markdown": "^0.1.1",
+    "@compositor/markdown": "^0.3.1",
     "classnames": "^2.2.5",
     "cssstats": "^3.2.0",
     "gray-matter": "^3.1.1",
@@ -112,7 +112,7 @@
     }
   ],
   "devDependencies": {
-    "@compositor/markdown-loader": "0.1.0",
+    "@compositor/markdown-loader": "0.3.1",
     "css-table": "^0.1.0",
     "prettier": "^1.11.1",
     "webpack": "^4.1.1"
