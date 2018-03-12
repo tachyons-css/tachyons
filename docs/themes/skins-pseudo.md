@@ -1,6 +1,13 @@
+export const meta = {
+  title: 'Skins Animations / Themes / Docs / TACHYONS',
+  subNav: 'themes',
+  modules: ['tachyons-skins-pseudo'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/themes/skins-pseudo.md'
+}
+
 # Skins Animations
 
-You can use any color from the _colors.css file to style text and background colors for hover and focus states.
+You can use any color from the `_colors.css` file to style text and background colors for hover and focus states.
 
 ## Examples
 

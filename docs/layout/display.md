@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Display / Layout / Docs / TACHYONS',
+  subNav: 'layout',
+  modules: ['tachyons-display'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/display.md'
+}
+
 # Display
 
 Single purpose classes for setting the display of an element at any breakpoint.

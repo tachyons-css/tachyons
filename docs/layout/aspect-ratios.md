@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Aspect Ratios / Layout / Docs / TACHYONS',
+  subNav: 'layout',
+  modules: ['tachyons-aspect-ratios'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/aspect-ratios.md'
+}
+
 # Aspect Ratios
 
 Use aspect ratios for fluid media that is embedded from third party sites like youtube, vimeo etc.

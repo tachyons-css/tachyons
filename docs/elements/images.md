@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Images / Elements / Docs / TACHYONS',
+  modules: ['tachyons-widths', 'tachyons-max-widths'],
+  subNav: 'elements',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/elements/images.md'
+}
+
 # Images
 
 Using `width` and `max-width` classes, you can control the sizing of images responsively.

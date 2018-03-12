@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Borders / Themes / Docs / TACHYONS',
+  subNav: 'themes',
+  modules: ['tachyons-borders', 'tachyons-border-widths', 'tachyons-border-style', 'tachyons-border-radius', 'tachyons-border-colors'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/themes/borders.md'
+}
+
 # Borders
 
 There is a base border module that can be extended with the border-width, border-color, border-style modules.

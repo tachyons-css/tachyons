@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Z Index / Layout / Docs / TACHYONS',
+  modules: ['tachyons-z-index'],
+  subNav: 'layout',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/z-index.md'
+}
+
 # Z Index
 
 `z-index` is used to control stacking context.

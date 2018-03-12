@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Border Radius / Themes / Docs / TACHYONS',
+  subNav: 'themes',
+  modules: ['tachyons-border-radius'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/themes/border-radius.md'
+}
+
 # Border Radius
 
 There is a four step scale for border radius in addition to a utility that sets border radius to 100%, which when combined with an explicit height and width will produce a circle.

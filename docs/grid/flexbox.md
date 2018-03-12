@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Flexbox / Grid / Docs / TACHYONS',
+  subNav: 'grid',
+  modules: ['tachyons-flexbox'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/grid/flexbox.md'
+}
+
 # Flexbox
 
 Flexbox can be used to achieve powerful horizontal or vertical layouts without JavaScript.

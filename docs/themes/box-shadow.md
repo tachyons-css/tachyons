@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Box Shadow / Themes / Docs / TACHYONS',
+  subNav: 'themes',
+  modules: ['tachyons-box-shadow'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/themes/box-shadow.md'
+}
+
 # Box Shadow
 
 This module provides several options for box-shadow. Feel free to customize if they do not suit your needs.
