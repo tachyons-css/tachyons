@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Links / Elements / Docs / TACHYONS',
+  modules: ['tachyons-links'],
+  subNav: 'elements',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/elements/links.md'
+}
+
 # Links
 
 Tachyons doesn’t style links by default, but provides the necessary classes to generate a wide variety of link styles.

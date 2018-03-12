@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Box Sizing / Layout / Docs / TACHYONS',
+  subNav: 'layout',
+  modules: ['tachyons-box-sizing'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/box-sizing.md'
+}
+
 # Box Sizing
 
 The box model has been known to trip up a few people. This module should make things a bit easier.

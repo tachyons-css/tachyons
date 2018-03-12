@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Floats / Layout / Docs / TACHYONS',
+  subNav: 'layout',
+  modules: ['tachyons-floats'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/floats.md'
+}
+
 # Floats
 
 Single purpose classes for setting the display of an element at any breakpoint.
