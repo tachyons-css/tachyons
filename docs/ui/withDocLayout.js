@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { ComponentsProvider } from '@compositor/markdown'
 
 import Layout from './Layout'
@@ -9,7 +9,7 @@ import SubNav from './SubNav'
 import { md, EditOnGitHub } from './'
 
 export default (Component, metadata = {}) => ({ title, ...props }) => (
-  <ComponentsProvider components={md}>
+  <Fragment>
     {metadata.addons
       ? metadata.addons.map(addon => (
           <link
@@ -21,7 +21,10 @@ export default (Component, metadata = {}) => ({ title, ...props }) => (
     <Layout title={title || metadata.title}>
       <SubNav nav={metadata.subNav} />
       <Container padding={true} className="black-70">
-        <Component {...props} />
+        <Component
+          components={md}
+          {...props}
+        />
         <ModuleDocs modules={metadata.modules} />
       </Container>
       {metadata.editUrl ? <EditOnGitHub url={metadata.editUrl} /> : null}
@@ -31,5 +34,5 @@ export default (Component, metadata = {}) => ({ title, ...props }) => (
         </Container>
       )}
     </Layout>
-  </ComponentsProvider>
+  </Fragment>
 )
