@@ -18,6 +18,10 @@ http://tachyons.io/docs/themes/box-shadow/
 - `-4` = offset 2px 2px 8px 0px
 - `-5` = offset 4px 4px 8px 0px
 
+### Literal Values
+
+- `-none` = none
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -30,6 +34,7 @@ http://tachyons.io/docs/themes/box-shadow/
 .shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
 .shadow-4 { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
 .shadow-5 { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+.shadow-none { box-shadow: none; }
 
 @media (--breakpoint-small) {
   .shadow-1-s { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
@@ -37,6 +42,7 @@ http://tachyons.io/docs/themes/box-shadow/
   .shadow-3-s { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
   .shadow-4-s { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
   .shadow-5-s { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-none-s { box-shadow: none; }
 }
 
 @media (--breakpoint-medium) {
@@ -45,6 +51,7 @@ http://tachyons.io/docs/themes/box-shadow/
   .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
   .shadow-4-m { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
   .shadow-5-m { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-none-m { box-shadow: none; }
 }
 
 @media (--breakpoint-large) {
@@ -53,4 +60,5 @@ http://tachyons.io/docs/themes/box-shadow/
   .shadow-3-l { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
   .shadow-4-l { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
   .shadow-5-l { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-none-l { box-shadow: none; }
 }
