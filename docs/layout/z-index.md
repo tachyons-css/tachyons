@@ -5,7 +5,7 @@ The `z` in the css property signifies the three-dimensional z axis that is used 
 
 This css property is often used for achieving overlapping layouts like a dropdown.
 
-```.html
+```html
 ---
 examples:
   - z-max
