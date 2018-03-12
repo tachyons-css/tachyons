@@ -607,6 +607,10 @@ http://tachyons.io/docs/themes/box-shadow/
 - `-4` = offset 2px 2px 8px 0px
 - `-5` = offset 4px 4px 8px 0px
 
+### Literal Values
+
+- `-none` = none
+
 ### Media Query Extensions
 
 - `-s` = small
@@ -618,6 +622,7 @@ http://tachyons.io/docs/themes/box-shadow/
 .shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
 .shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+.shadow-none { box-shadow: none; }
 /*!!!
 
 # CODE
@@ -2492,6 +2497,85 @@ http://tachyons.io/docs/debug-grid/
 /* Uncomment out any of the lines below to import the addon */
 /* @import './_gradients'; */
 /* @import './_nudge'; */
+/*!!!
+
+    ANIMATE
+
+    Base:
+        a = animation duration
+        d = animation delay
+
+    Modifiers
+        1 = 1st step (150ms)
+    	  2 = 2nd step (300ms)
+    	  3 = 3rd step (450ms)
+    	  4 = 4th step (600ms)
+    	  5 = 5th step (750ms)
+    	  6 = 6th step (900ms)
+
+        -1 = literal value 1s
+        -2 = literal value 2s
+        -3 = literal value 3s
+
+    Media Query Extensions:
+        -ns = not-small
+        -m  = medium
+        -l  = large
+
+*/
+/* Animation Play State */
+.pause { -webkit-animation-play-state: paused; animation-play-state: paused; }
+/* Animation Iteration */
+.infinite { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+.double { -webkit-animation-iteration-count: 2; animation-iteration-count: 2; }
+.triple { -webkit-animation-iteration-count: 3; animation-iteration-count: 3; }
+/* Animation Direction */
+.reverse { animation-direction: reverse; }
+.alternate { -webkit-animation-direction: alternate; animation-direction: alternate; }
+.alternate-reverse { animation-direction: alternate-reverse; }
+/* Animation Duration */
+.a1 { -webkit-animation-duration: 150ms; animation-duration: 150ms; }
+.a2 { -webkit-animation-duration: 300ms; animation-duration: 300ms; }
+.a3 { -webkit-animation-duration: 450ms; animation-duration: 450ms; }
+.a4 { -webkit-animation-duration: 600ms; animation-duration: 600ms; }
+.a5 { -webkit-animation-duration: 750ms; animation-duration: 750ms; }
+.a6 { -webkit-animation-duration: 900ms; animation-duration: 900ms; }
+.a-1 { -webkit-animation-duration: 1s; animation-duration: 1s; }
+.a-2 { -webkit-animation-duration: 2s; animation-duration: 2s; }
+.a-3 { -webkit-animation-duration: 3s; animation-duration: 3s; }
+/* Animation Delay */
+.d1 { -webkit-animation-delay: 150ms; animation-delay: 150ms; }
+.d2 { -webkit-animation-delay: 300ms; animation-delay: 300ms; }
+.d3 { -webkit-animation-delay: 450ms; animation-delay: 450ms; }
+.d4 { -webkit-animation-delay: 600ms; animation-delay: 600ms; }
+.d5 { -webkit-animation-delay: 750ms; animation-delay: 750ms; }
+.d6 { -webkit-animation-delay: 900ms; animation-delay: 900ms; }
+.d-1 { -webkit-animation-delay: 1s; animation-delay: 1s; }
+.d-2 { -webkit-animation-delay: 2s; animation-delay: 2s; }
+.d-3 { -webkit-animation-delay: 3s; animation-delay: 3s; }
+/* EASING BEZIER CURVES via https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d */
+.ease { -webkit-animation-timing-function: ease; animation-timing-function: ease; }
+.ease-in { -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
+.ease-in-quad { -webkit-animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); }
+.ease-in-cubic { -webkit-animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); }
+.ease-in-quart { -webkit-animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); }
+.ease-in-quint { -webkit-animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); }
+.ease-in-expo { -webkit-animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); }
+.ease-in-circ { -webkit-animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); }
+.ease-out { -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+.ease-out-quad { -webkit-animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); }
+.ease-out-cubic { -webkit-animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); }
+.ease-out-quart { -webkit-animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); }
+.ease-out-quint { -webkit-animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); }
+.ease-out-expo { -webkit-animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); }
+.ease-out-circ { -webkit-animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); }
+.ease-in-out { -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+.ease-in-out-quad { -webkit-animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); }
+.ease-in-out-cubic { -webkit-animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); }
+.ease-in-out-quart { -webkit-animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); }
+.ease-in-out-quint { -webkit-animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); }
+.ease-in-out-expo { -webkit-animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); }
+.ease-in-out-circ { -webkit-animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); }
 @media screen and (min-width: 30em) {
  .aspect-ratio-s { height: 0; position: relative; }
  .aspect-ratio--16x9-s { padding-bottom: 56.25%; }
@@ -2552,6 +2636,7 @@ http://tachyons.io/docs/debug-grid/
  .shadow-3-s { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
  .shadow-4-s { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
  .shadow-5-s { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-none-s { box-shadow: none; }
  .top-0-s { top: 0; }
  .left-0-s { left: 0; }
  .right-0-s { right: 0; }
@@ -2916,9 +3001,56 @@ http://tachyons.io/docs/debug-grid/
  .v-base-s { vertical-align: baseline; }
  .v-mid-s { vertical-align: middle; }
  .v-top-s { vertical-align: top; }
- .v-btm-s { vertical-align: bottom; }
+ .v-btm-s { vertical-align: bottom; }/* Animation Play State */
+ .pause-ns { -webkit-animation-play-state: paused; animation-play-state: paused; }/* Animation Iteration */
+ .infinite-ns { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+ .double-ns { -webkit-animation-iteration-count: 2; animation-iteration-count: 2; }
+ .triple-ns { -webkit-animation-iteration-count: 3; animation-iteration-count: 3; }/* Animation Direction */
+ .reverse-ns { animation-direction: reverse; }
+ .alternate-ns { -webkit-animation-direction: alternate; animation-direction: alternate; }
+ .alternate-reverse-ns { animation-direction: alternate-reverse; }/* Animation Duration */
+ .a1-ns { -webkit-animation-duration: 150ms; animation-duration: 150ms; }
+ .a2-ns { -webkit-animation-duration: 300ms; animation-duration: 300ms; }
+ .a3-ns { -webkit-animation-duration: 450ms; animation-duration: 450ms; }
+ .a4-ns { -webkit-animation-duration: 600ms; animation-duration: 600ms; }
+ .a5-ns { -webkit-animation-duration: 750ms; animation-duration: 750ms; }
+ .a6-ns { -webkit-animation-duration: 900ms; animation-duration: 900ms; }
+ .a-1-ns { -webkit-animation-duration: 1s; animation-duration: 1s; }
+ .a-2-ns { -webkit-animation-duration: 2s; animation-duration: 2s; }
+ .a-3-ns { -webkit-animation-duration: 3s; animation-duration: 3s; }/* Animation Delay */
+ .d1-ns { -webkit-animation-delay: 150ms; animation-delay: 150ms; }
+ .d2-ns { -webkit-animation-delay: 300ms; animation-delay: 300ms; }
+ .d3-ns { -webkit-animation-delay: 450ms; animation-delay: 450ms; }
+ .d4-ns { -webkit-animation-delay: 600ms; animation-delay: 600ms; }
+ .d5-ns { -webkit-animation-delay: 750ms; animation-delay: 750ms; }
+ .d6-ns { -webkit-animation-delay: 900ms; animation-delay: 900ms; }
+ .d-1-ns { -webkit-animation-delay: 1s; animation-delay: 1s; }
+ .d-2-ns { -webkit-animation-delay: 2s; animation-delay: 2s; }
+ .d-3-ns { -webkit-animation-delay: 3s; animation-delay: 3s; }/* EASING BEZIER CURVES via https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d */
+ .ease-ns { -webkit-animation-timing-function: ease; animation-timing-function: ease; }
+ .ease-in-ns { -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
+ .ease-in-quad-ns { -webkit-animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); }
+ .ease-in-cubic-ns { -webkit-animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); }
+ .ease-in-quart-ns { -webkit-animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); }
+ .ease-in-quint-ns { -webkit-animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); }
+ .ease-in-expo-ns { -webkit-animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); }
+ .ease-in-circ-ns { -webkit-animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); }
+ .ease-out-ns { -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+ .ease-out-quad-ns { -webkit-animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); }
+ .ease-out-cubic-ns { -webkit-animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); }
+ .ease-out-quart-ns { -webkit-animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); }
+ .ease-out-quint-ns { -webkit-animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); }
+ .ease-out-expo-ns { -webkit-animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); }
+ .ease-out-circ-ns { -webkit-animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); }
+ .ease-in-out-ns { -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+ .ease-in-out-quad-ns { -webkit-animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); }
+ .ease-in-out-cubic-ns { -webkit-animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); }
+ .ease-in-out-quart-ns { -webkit-animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); }
+ .ease-in-out-quint-ns { -webkit-animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); }
+ .ease-in-out-expo-ns { -webkit-animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); }
+ .ease-in-out-circ-ns { -webkit-animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); }
 }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .aspect-ratio-m { height: 0; position: relative; }
  .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
  .aspect-ratio--9x16-m { padding-bottom: 177.77%; }
@@ -2978,6 +3110,7 @@ http://tachyons.io/docs/debug-grid/
  .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
  .shadow-4-m { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
  .shadow-5-m { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-none-m { box-shadow: none; }
  .top-0-m { top: 0; }
  .left-0-m { left: 0; }
  .right-0-m { right: 0; }
@@ -3342,7 +3475,54 @@ http://tachyons.io/docs/debug-grid/
  .v-base-m { vertical-align: baseline; }
  .v-mid-m { vertical-align: middle; }
  .v-top-m { vertical-align: top; }
- .v-btm-m { vertical-align: bottom; }
+ .v-btm-m { vertical-align: bottom; }/* Animation Play State */
+ .pause-m { -webkit-animation-play-state: paused; animation-play-state: paused; }/* Animation Iteration */
+ .infinite-m { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+ .double-m { -webkit-animation-iteration-count: 2; animation-iteration-count: 2; }
+ .triple-m { -webkit-animation-iteration-count: 3; animation-iteration-count: 3; }/* Animation Direction */
+ .reverse-m { animation-direction: reverse; }
+ .alternate-m { -webkit-animation-direction: alternate; animation-direction: alternate; }
+ .alternate-reverse-m { animation-direction: alternate-reverse; }/* Animation Duration */
+ .a1-m { -webkit-animation-duration: 150ms; animation-duration: 150ms; }
+ .a2-m { -webkit-animation-duration: 300ms; animation-duration: 300ms; }
+ .a3-m { -webkit-animation-duration: 450ms; animation-duration: 450ms; }
+ .a4-m { -webkit-animation-duration: 600ms; animation-duration: 600ms; }
+ .a5-m { -webkit-animation-duration: 750ms; animation-duration: 750ms; }
+ .a6-m { -webkit-animation-duration: 900ms; animation-duration: 900ms; }
+ .a-1-m { -webkit-animation-duration: 1s; animation-duration: 1s; }
+ .a-2-m { -webkit-animation-duration: 2s; animation-duration: 2s; }
+ .a-3-m { -webkit-animation-duration: 3s; animation-duration: 3s; }/* Animation Delay */
+ .d1-m { -webkit-animation-delay: 150ms; animation-delay: 150ms; }
+ .d2-m { -webkit-animation-delay: 300ms; animation-delay: 300ms; }
+ .d3-m { -webkit-animation-delay: 450ms; animation-delay: 450ms; }
+ .d4-m { -webkit-animation-delay: 600ms; animation-delay: 600ms; }
+ .d5-m { -webkit-animation-delay: 750ms; animation-delay: 750ms; }
+ .d6-m { -webkit-animation-delay: 900ms; animation-delay: 900ms; }
+ .d-1-m { -webkit-animation-delay: 1s; animation-delay: 1s; }
+ .d-2-m { -webkit-animation-delay: 2s; animation-delay: 2s; }
+ .d-3-m { -webkit-animation-delay: 3s; animation-delay: 3s; }/* EASING BEZIER CURVES via https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d */
+ .ease-m { -webkit-animation-timing-function: ease; animation-timing-function: ease; }
+ .ease-in-m { -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
+ .ease-in-quad-m { -webkit-animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); }
+ .ease-in-cubic-m { -webkit-animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); }
+ .ease-in-quart-m { -webkit-animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); }
+ .ease-in-quint-m { -webkit-animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); }
+ .ease-in-expo-m { -webkit-animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); }
+ .ease-in-circ-m { -webkit-animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); }
+ .ease-out-m { -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+ .ease-out-quad-m { -webkit-animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); }
+ .ease-out-cubic-m { -webkit-animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); }
+ .ease-out-quart-m { -webkit-animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); }
+ .ease-out-quint-m { -webkit-animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); }
+ .ease-out-expo-m { -webkit-animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); }
+ .ease-out-circ-m { -webkit-animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); }
+ .ease-in-out-m { -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+ .ease-in-out-quad-m { -webkit-animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); }
+ .ease-in-out-cubic-m { -webkit-animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); }
+ .ease-in-out-quart-m { -webkit-animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); }
+ .ease-in-out-quint-m { -webkit-animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); }
+ .ease-in-out-expo-m { -webkit-animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); }
+ .ease-in-out-circ-m { -webkit-animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); }
 }
 @media screen and (min-width: 60em) {
  .aspect-ratio-l { height: 0; position: relative; }
@@ -3404,6 +3584,7 @@ http://tachyons.io/docs/debug-grid/
  .shadow-3-l { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
  .shadow-4-l { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
  .shadow-5-l { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-none-l { box-shadow: none; }
  .top-0-l { top: 0; }
  .left-0-l { left: 0; }
  .right-0-l { right: 0; }
@@ -3768,5 +3949,53 @@ http://tachyons.io/docs/debug-grid/
  .v-base-l { vertical-align: baseline; }
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
- .v-btm-l { vertical-align: bottom; }
+ .v-btm-l { vertical-align: bottom; }/* Animation Play State */
+ .pause-l { -webkit-animation-play-state: paused; animation-play-state: paused; }/* Animation Iteration */
+ .infinite-l { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+ .double-l { -webkit-animation-iteration-count: 2; animation-iteration-count: 2; }
+ .triple-l { -webkit-animation-iteration-count: 3; animation-iteration-count: 3; }/* Animation Direction */
+ .reverse-l { animation-direction: reverse; }
+ .alternate-l { -webkit-animation-direction: alternate; animation-direction: alternate; }
+ .alternate-reverse-l { animation-direction: alternate-reverse; }/* Animation Duration */
+ .a1-l { -webkit-animation-duration: 150ms; animation-duration: 150ms; }
+ .a2-l { -webkit-animation-duration: 300ms; animation-duration: 300ms; }
+ .a3-l { -webkit-animation-duration: 450ms; animation-duration: 450ms; }
+ .a4-l { -webkit-animation-duration: 600ms; animation-duration: 600ms; }
+ .a5-l { -webkit-animation-duration: 750ms; animation-duration: 750ms; }
+ .a6-l { -webkit-animation-duration: 900ms; animation-duration: 900ms; }
+ .a-1-l { -webkit-animation-duration: 1s; animation-duration: 1s; }
+ .a-2-l { -webkit-animation-duration: 2s; animation-duration: 2s; }
+ .a-3-l { -webkit-animation-duration: 3s; animation-duration: 3s; }/* Animation Delay */
+ .d1-l { -webkit-animation-delay: 150ms; animation-delay: 150ms; }
+ .d2-l { -webkit-animation-delay: 300ms; animation-delay: 300ms; }
+ .d3-l { -webkit-animation-delay: 450ms; animation-delay: 450ms; }
+ .d4-l { -webkit-animation-delay: 600ms; animation-delay: 600ms; }
+ .d5-l { -webkit-animation-delay: 750ms; animation-delay: 750ms; }
+ .d6-l { -webkit-animation-delay: 900ms; animation-delay: 900ms; }
+ .d-1-l { -webkit-animation-delay: 1s; animation-delay: 1s; }
+ .d-2-l { -webkit-animation-delay: 2s; animation-delay: 2s; }
+ .d-3-l { -webkit-animation-delay: 3s; animation-delay: 3s; }/* EASING BEZIER CURVES via https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d */
+ .ease-l { -webkit-animation-timing-function: ease; animation-timing-function: ease; }
+ .ease-in-l { -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
+ .ease-in-quad-l { -webkit-animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); }
+ .ease-in-cubic-l { -webkit-animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); }
+ .ease-in-quart-l { -webkit-animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); }
+ .ease-in-quint-l { -webkit-animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); }
+ .ease-in-expo-l { -webkit-animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); }
+ .ease-in-circ-l { -webkit-animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); }
+ .ease-out-l { -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+ .ease-out-quad-l { -webkit-animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); }
+ .ease-out-cubic-l { -webkit-animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); }
+ .ease-out-quart-l { -webkit-animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); }
+ .ease-out-quint-l { -webkit-animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); }
+ .ease-out-expo-l { -webkit-animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); }
+ .ease-out-circ-l { -webkit-animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); }
+ .ease-in-out-l { -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+ .ease-in-out-quad-l { -webkit-animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); }
+ .ease-in-out-cubic-l { -webkit-animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); }
+ .ease-in-out-quart-l { -webkit-animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); }
+ .ease-in-out-quint-l { -webkit-animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); }
+ .ease-in-out-expo-l { -webkit-animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); }
+ .ease-in-out-circ-l { -webkit-animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); }
 }
+
