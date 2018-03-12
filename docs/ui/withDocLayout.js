@@ -21,10 +21,7 @@ export default (Component, metadata = {}) => ({ title, ...props }) => (
     <Layout title={title || metadata.title}>
       <SubNav nav={metadata.subNav} />
       <Container padding={true} className="black-70">
-        <Component
-          components={md}
-          {...props}
-        />
+        <Component components={md} {...props} />
         <ModuleDocs modules={metadata.modules} />
       </Container>
       {metadata.editUrl ? <EditOnGitHub url={metadata.editUrl} /> : null}

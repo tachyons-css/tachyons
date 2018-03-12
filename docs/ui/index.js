@@ -165,14 +165,15 @@ export const md = {
   p: props => <p className="measure-wide f5 lh-copy" {...props} />,
   ul: props => <ul className="pl3" {...props} />,
   li: props => <li className="lh-copy ml2" {...props} />,
+  inlineCode: props => <code className="f5 bg-near-white" {...props} />,
   table: props => <table className="collapse" {...props} />,
+  td: props => <td className="pa2 bb b--black-05 black" {...props} />,
   th: props => (
     <th
       className="f7 tracked ttu tl bb bt b--black-10 bg-near-white pa2"
       {...props}
     />
   ),
-  td: props => <td className="pa2 bb b--black-05 black" {...props} />,
   a: ({ href, ...props }) => (
     <Link href={href}>
       <a className="dim link blue" {...props} />

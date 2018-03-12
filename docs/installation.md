@@ -1,3 +1,9 @@
+export const meta = {
+  title: 'Installation / Overview / Docs / TACHYONS',
+  subNav: 'overview',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/installation.md'
+}
+
 # Installation
 
 Tachyons can be installed and run in a handful of different ways.

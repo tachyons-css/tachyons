@@ -1,3 +1,9 @@
+export const meta = {
+  title: 'Principles / Overview / Docs / TACHYONS',
+  subNav: 'overview',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/principles.md'
+}
+
 # Principles
 
 ## Responsive
