@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Debug / Grid / Docs / TACHYONS',
+  subNav: 'grid',
+  modules: ['tachyons-debug', 'tachyons-debug-grid'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/grid/debug.md'
+}
+
 # Debugging Grids
 
 Tachyons comes with two convenient modules to help debug layout issues you might be having.

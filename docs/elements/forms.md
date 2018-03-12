@@ -1,3 +1,10 @@
+export const meta = {
+ title: 'Forms / Elements / Docs / TACHYONS',
+ modules: ['tachyons-forms'],
+ subNav: 'elements',
+ editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/elements/forms.md'
+}
+
 # Forms
 
 Tachyons has some basic form control resets to remove default styles for mobile devices.

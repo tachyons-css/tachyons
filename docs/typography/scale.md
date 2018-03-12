@@ -2,6 +2,13 @@ import { BigQuote } from '../ui'
 import ScaleHero from '../ui/ScaleHero'
 import FontSizes from '../ui/FontSizes'
 
+export const meta =  {
+  title: 'Scale / Typography / Docs / TACHYONS',
+  modules: ['tachyons-type-scale', 'tachyons-gradients'],
+  subNav: 'typography',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/typography/scale.md'
+}
+
 # Type Scale
 
 <ScaleHero />

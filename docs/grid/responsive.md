@@ -1,3 +1,10 @@
+export const meta =  {
+  title: 'Responsive / Grid / Docs / TACHYONS',
+  subNav: 'grid',
+  mediaQueries: true,
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/grid/responsive.md'
+}
+
 # Responsive Grids
 
 If you haven't yet, it's recommended to first read the [Responsive docs](/docs/responsive).

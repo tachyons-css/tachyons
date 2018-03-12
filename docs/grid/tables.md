@@ -1,5 +1,12 @@
 import { Alert } from '../ui'
 
+export const meta = {
+  title: 'Tables / Grid / Docs / TACHYONS',
+  subNav: 'grid',
+  modules: ['tachyons-vertical-align', 'tachyons-widths'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/grid/tables.md'
+}
+
 # Table-Based Grid
 
 <Alert

@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Tables / Elements / Docs / TACHYONS',
+  modules: ['tachyons-tables'],
+  subNav: 'elements',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/elements/tables.md'
+}
+
 # Tables
 
 Tachyons has some basic utilities for styling tables that are easy to customize and extend.

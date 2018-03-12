@@ -1,11 +1,6 @@
 import React from 'react';
 
 import withDocLayout from '../../../ui/withDocLayout';
-import Doc from '../../../grid/nesting.md';
+import Doc, { meta } from '../../../grid/nesting.md';
 
-export default withDocLayout(Doc, {
-  title: 'Nesting / Grid / Docs / TACHYONS',
-  subNav: 'grid',
-  modules: ['tachyons-flexbox', 'tachyons-widths'],
-  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/grid/nesting.md'
-});
+export default withDocLayout(Doc, meta);

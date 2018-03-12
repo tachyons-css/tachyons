@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Widths / Layout / Docs / TACHYONS',
+  subNav: 'layout',
+  modules: ['tachyons-widths'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/widths.md'
+}
+
 # Widths
 
 The widths module contains both a five-step width scale based on powers of two as well as a series of percentage values that can be combined with floats for an infinitely nestable and fully responsive grid system.

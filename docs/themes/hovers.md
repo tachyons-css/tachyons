@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Hovers / Themes / Docs / TACHYONS',
+  subNav: 'themes',
+  modules: ['tachyons-hovers'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/themes/hovers.md'
+}
+
 # Hovers
 
 There are several classes for adding hover effects to elements. Hover effects can be used to give visual affordance to the user that an element can be interacted with.

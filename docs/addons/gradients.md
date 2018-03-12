@@ -1,3 +1,11 @@
+export const meta = {
+  addons: ['tachyons-gradients'],
+  modules: ['tachyons-gradients'],
+  subNav: 'addons',
+  title: 'Gradients / Addons / Docs / TACHYONS',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/addons/gradients.md'
+}
+
 # Gradients
 
 ![Addon](https://img.shields.io/badge/TACHYONS%20ADDON-✓-brightgreen.svg?longCache=true&style=for-the-badge)

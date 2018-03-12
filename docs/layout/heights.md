@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Heights / Layout / Docs / TACHYONS',
+  modules: ['tachyons-heights'],
+  subNav: 'layout',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/heights.md'
+}
+
 # Heights
 
 The heights module contains both a five-step height scale based on powers of two as well as a series of percentage values.
