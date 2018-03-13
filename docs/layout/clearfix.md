@@ -1,7 +1,7 @@
 export const meta = {
   title: 'Clearfix / Layout / Docs / TACHYONS',
   subNav: 'layout',
-  modules: ['tachyons-clearfix'],
+  modules: ['tachyons-clears'],
   editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/clearfix.md'
 }
 
