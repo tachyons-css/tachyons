@@ -27,7 +27,7 @@ class Examples extends Component {
           className="mb3 pointer"
           children={this.props.examples.map(example => {
             const isActive = example === current
-            const cx = classNames('pv1 ph2 mr3 f7 fw6 ba', {
+            const cx = classNames('pv1 ph2 mr3 f7 fw6 ba br2', {
               'b--black-30 mid-gray bg-white dim': !isActive,
               'b--black white bg-black': isActive
             })
