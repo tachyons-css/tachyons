@@ -13,9 +13,9 @@ class Reference extends Component {
     const module = modules[this.props.module]
 
     return (
-      <Layout skipFooter={true} fixed={true}>
-        <Flex className='bt b--black-10'>
-          <div className='fixed bg-near-white w5 h-100 overflow-container br b--black-10 flex-shrink-0 pt5'>
+      <Layout skipFooter={true} skipHeader={true}>
+        <Flex>
+          <div className='fixed bg-near-white w5 h-100 overflow-container br b--black-10 flex-shrink-0'>
             <nav
               className='pv2'
               children={Object.keys(modules).map(k => {
@@ -33,10 +33,10 @@ class Reference extends Component {
             />
           </div>
           <Flex className='ml6 pl6 w-100 mh-100'>
-            <div className='flex-1 nt4 br b--black-10'>
+            <div className='flex-1'>
             description of stuff
             </div>
-            <div className='flex-1 pt4 mt2'>
+            <div className='flex-1'>
               <SrcReference {...module} />
             </div>
           </Flex>
