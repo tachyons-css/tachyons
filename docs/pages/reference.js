@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import Highlight from 'react-highlight'
 
 import Layout from '../ui/Layout'
+import Doc from '../tmp.md'
 import SrcReference from '../ui/SrcReference'
-import { Flex } from '../ui'
+import { Flex, md } from '../ui'
 import { modules } from '../ui/data.json'
 
 class Reference extends Component {
@@ -33,8 +34,8 @@ class Reference extends Component {
             />
           </div>
           <Flex className='ml6 pl6 w-100 mh-100'>
-            <div className='flex-1'>
-            description of stuff
+            <div className='flex-1 pa3 pv4'>
+              <Doc components={md} />
             </div>
             <div className='flex-1'>
               <SrcReference {...module} />
