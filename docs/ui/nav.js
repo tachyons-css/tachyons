@@ -212,6 +212,10 @@ export const docs = [
         href: '/docs/typography/white-space'
       },
       {
+        title: 'Long Form Content',
+        href: '/docs/typography/nested'
+      },
+      {
         title: 'Font Families',
         href: '/docs/typography/font-families'
       }
