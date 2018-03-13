@@ -20,7 +20,7 @@ export default (Component, metadata = {}) => ({ title, ...props }) => (
       : null}
     <Layout title={title || metadata.title}>
       <SubNav nav={metadata.subNav} />
-      <Container padding={true} className="black-70">
+      <Container padding={true} className='black-80'>
         <Component components={md} {...props} />
         <ModuleDocs modules={metadata.modules} />
       </Container>
