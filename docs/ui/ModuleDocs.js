@@ -69,13 +69,9 @@ const Module = data => {
                 </td>
                 <td className="pa2 bb b--black-05 black-60">
                   <code
-                    children={decl.declarations.map(d =>
-                      <span
-                        key={d}
-                        className='db'
-                        children={d + ';'}
-                      />
-                    )}
+                    children={decl.declarations.map(d => (
+                      <span key={d} className="db" children={d + ';'} />
+                    ))}
                   />
                 </td>
               </tr>

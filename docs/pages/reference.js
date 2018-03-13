@@ -1,14 +1,10 @@
 import React, { Component } from 'react'
 import Highlight from 'react-highlight'
 
-import { modules } from '../ui/data.json'
-
 import Layout from '../ui/Layout'
-import ModuleDocs from '../ui/ModuleDocs'
-
-import {
-  Flex
-} from '../ui'
+import SrcReference from '../ui/SrcReference'
+import { Flex } from '../ui'
+import { modules } from '../ui/data.json'
 
 class Reference extends Component {
   static getInitialProps = ({ query }) => query
@@ -38,13 +34,10 @@ class Reference extends Component {
           </div>
           <Flex className='ml6 pl6 w-100 mh-100'>
             <div className='flex-1 nt4 br b--black-10'>
-              {this.props.view === 'table' ?
-                <ModuleDocs modules={[module.name]} />
-                :
-              <Highlight>{module.css}</Highlight>
-              }
+            description of stuff
             </div>
             <div className='flex-1 pt4 mt2'>
+              <SrcReference {...module} />
             </div>
           </Flex>
         </Flex>
