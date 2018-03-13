@@ -15086,7 +15086,7 @@
     },
     "tachyons-utilities": {
       "name": "tachyons-utilities",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "metadata": {},
       "tableOfStyles": [
         {
@@ -15103,11 +15103,91 @@
             "margin-right: auto",
             "margin-left: auto"
           ]
+        },
+        {
+          "selector": ".mr-auto",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-right: auto"
+          ]
+        },
+        {
+          "selector": ".ml-auto",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-left: auto"
+          ]
+        },
+        {
+          "selector": ".center-s",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-right: auto",
+            "margin-left: auto"
+          ]
+        },
+        {
+          "selector": ".mr-auto-s",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-right: auto"
+          ]
+        },
+        {
+          "selector": ".ml-auto-s",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-left: auto"
+          ]
+        },
+        {
+          "selector": ".center-m",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-right: auto",
+            "margin-left: auto"
+          ]
+        },
+        {
+          "selector": ".mr-auto-m",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-right: auto"
+          ]
+        },
+        {
+          "selector": ".ml-auto-m",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-left: auto"
+          ]
+        },
+        {
+          "selector": ".center-l",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-right: auto",
+            "margin-left: auto"
+          ]
+        },
+        {
+          "selector": ".mr-auto-l",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-right: auto"
+          ]
+        },
+        {
+          "selector": ".ml-auto-l",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-utilities",
+          "declarations": [
+            "margin-left: auto"
+          ]
         }
       ],
-      "readme": "# tachyons-utilities 2.0.1\n\nPerformance based css module.\n\n#### Stats\n\n111 | 2 | 3\n---|---|---\nbytes | selectors | declarations\n\n## Installation\n\n#### With [npm](https://npmjs.com)\n\n```\nnpm install --save-dev tachyons-utilities\n```\n\nLearn more about using css installed with npm:\n* https://webpack.github.io/docs/stylesheets.html\n* https://github.com/defunctzombie/npm-css\n\n#### With Git\n\nhttp:\n```\ngit clone https://github.com/tachyons-css/tachyons-utilities\n```\n\nssh:\n```\ngit clone git@github.com:tachyons-css/tachyons-utilities.git\n```\n\n## Usage\n\n#### Using with [Postcss](https://github.com/postcss/postcss)\n\nImport the css module\n\n```css\n@import \"tachyons-utilities\";\n```\n\nThen process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)\n\n```sh\n$ npm i -g tachyons-cli\n$ tachyons path/to/css-file.css > dist/t.css\n```\n\n#### Using the css\n\n##### CDN\nThe easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:\n\n```\n<link rel=\"stylesheet\" href=\"http://unpkg.com/tachyons-utilities@2.0.1/css/tachyons-utilities.min.css\" />\n```\n\n##### Locally\nThe built css is located in the `css` directory. It contains an unminified and minified version.\nYou can either cut and paste that css or link to it directly in your html.\n\n```html\n<link rel=\"stylesheet\" href=\"path/to/module/css/tachyons-utilities\">\n```\n\n#### Development\n\nThe source css files can be found in the `src` directory.\nRunning `$ npm start` will process the source css and place the built css in the `css` directory.\n\n## The css\n\n```css\n/*\n\n   UTILITIES\n\n*/\n.overflow-container { overflow-y: scroll; }\n.center { margin-right: auto; margin-left: auto; }\n```\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n\n## Authors\n\n* [mrmrs](http://mrmrs.io)\n* [johno](http://johnotander.com)\n\n## License\n\nISC\n\n",
-      "src": "/*\n\n   UTILITIES\n\n*/\n\n.overflow-container {\n  overflow-y: scroll;\n}\n\n.center {\n  margin-right: auto;\n  margin-left: auto;\n}\n",
-      "css": "/*\n\n   UTILITIES\n\n*/\n.overflow-container { overflow-y: scroll; }\n.center { margin-right: auto; margin-left: auto; }\n\n"
+      "readme": "# tachyons 5.0.0-1\n\nFunctional CSS for humans\n\n### Stats\n\n317 | 13 | 17\n---|---|---\nbytes | selectors | declarations\n\n## Installation\n\n#### With [npm](https://npmjs.com)\n\n```\nnpm install --save-dev tachyons\n```\n\nLearn more about using css installed with npm:\n* https://webpack.github.io/docs/stylesheets.html\n* https://github.com/defunctzombie/npm-css\n\n#### With Git\n\nhttp:\n```\ngit clone https://github.com/tachyons-css/tachyons\n```\n\nssh:\n```\ngit clone git@github.com:tachyons-css/tachyons.git\n```\n\n## Usage\n\n#### Using with [Postcss](https://github.com/postcss/postcss)\n\nImport the css module\n\n```css\n@import \"tachyons\";\n```\n\nThen process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)\n\n```sh\n$ npm i -g tachyons-cli\n$ tachyons path/to/css-file.css > dist/t.css\n```\n\n#### Using the css\n\n##### CDN\nThe easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:\n\n```\n<link rel=\"stylesheet\" href=\"http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css\" />\n```\n\n##### Locally\nThe built css is located in the `css` directory. It contains an unminified and minified version.\nYou can either cut and paste that css or link to it directly in your html.\n\n```html\n<link rel=\"stylesheet\" href=\"path/to/module/css/tachyons\">\n```\n\n#### Development\n\nThe source css files can be found in the `src` directory.\nRunning `$ npm start` will process the source css and place the built css in the `css` directory.\n\n## The css\n\n```css\n/*!!!\n\n# UTILITIES\n\n### Base\n\n- overflow-container = horizontal scroll\n- center = margin auto\n- mr-auto = margin-right auto\n- ml-auto = margin-left auto\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n/* Equivalent to .overflow-y-scroll */\n.overflow-container { overflow-y: scroll; }\n.center { margin-right: auto; margin-left: auto; }\n.mr-auto { margin-right: auto; }\n.ml-auto { margin-left: auto; }\n@media screen and (min-width: 30em) {\n .center-s { margin-right: auto; margin-left: auto; }\n .mr-auto-s { margin-right: auto; }\n .ml-auto-s { margin-left: auto; }\n}\n@media screen and (min-width: 48em) {\n .center-m { margin-right: auto; margin-left: auto; }\n .mr-auto-m { margin-right: auto; }\n .ml-auto-m { margin-left: auto; }\n}\n@media screen and (min-width: 60em) {\n .center-l { margin-right: auto; margin-left: auto; }\n .mr-auto-l { margin-right: auto; }\n .ml-auto-l { margin-left: auto; }\n}\n```\n\n## Contributing\n\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n\n## Authors\n\n* [mrmrs](http://mrmrs.io)\n* [johno](http://johnotander.com)\n\n## License\n\nISC\n\n",
+      "src": "\n\n\n@custom-media --breakpoint-small screen and (min-width: 30em);\n@custom-media --breakpoint-medium screen and (min-width: 48em);\n@custom-media --breakpoint-large screen and (min-width: 60em);\n/*!!!\n\n# UTILITIES\n\n### Base\n\n- overflow-container = horizontal scroll\n- center = margin auto\n- mr-auto = margin-right auto\n- ml-auto = margin-left auto\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n\n/* Equivalent to .overflow-y-scroll */\n.overflow-container {\n  overflow-y: scroll;\n}\n\n.center {\n  margin-right: auto;\n  margin-left: auto;\n}\n\n.mr-auto { margin-right: auto; }\n.ml-auto { margin-left:  auto; }\n\n@media (--breakpoint-small){\n  .center-s {\n    margin-right: auto;\n    margin-left: auto;\n  }\n  .mr-auto-s { margin-right: auto; }\n  .ml-auto-s { margin-left:  auto; }\n}\n\n@media (--breakpoint-medium){\n  .center-m {\n    margin-right: auto;\n    margin-left: auto;\n  }\n  .mr-auto-m { margin-right: auto; }\n  .ml-auto-m { margin-left:  auto; }\n}\n\n@media (--breakpoint-large){\n  .center-l {\n    margin-right: auto;\n    margin-left: auto;\n  }\n  .mr-auto-l { margin-right: auto; }\n  .ml-auto-l { margin-left:  auto; }\n}\n",
+      "css": "/*!!!\n\n# UTILITIES\n\n### Base\n\n- overflow-container = horizontal scroll\n- center = margin auto\n- mr-auto = margin-right auto\n- ml-auto = margin-left auto\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n/* Equivalent to .overflow-y-scroll */\n.overflow-container { overflow-y: scroll; }\n.center { margin-right: auto; margin-left: auto; }\n.mr-auto { margin-right: auto; }\n.ml-auto { margin-left: auto; }\n@media screen and (min-width: 30em) {\n .center-s { margin-right: auto; margin-left: auto; }\n .mr-auto-s { margin-right: auto; }\n .ml-auto-s { margin-left: auto; }\n}\n@media screen and (min-width: 48em) {\n .center-m { margin-right: auto; margin-left: auto; }\n .mr-auto-m { margin-right: auto; }\n .ml-auto-m { margin-left: auto; }\n}\n@media screen and (min-width: 60em) {\n .center-l { margin-right: auto; margin-left: auto; }\n .mr-auto-l { margin-right: auto; }\n .ml-auto-l { margin-left: auto; }\n}\n\n"
     },
     "tachyons-vertical-align": {
       "name": "tachyons-vertical-align",

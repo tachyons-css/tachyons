@@ -118,6 +118,10 @@ export const docs = [
       {
         title: 'Z-Index',
         href: '/docs/layout/z-index'
+      },
+      {
+        title: 'Utilities',
+        href: '/docs/layout/utilities'
       }
     ]
   },
