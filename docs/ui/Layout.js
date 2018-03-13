@@ -7,6 +7,8 @@ import Footer from './Footer'
 export default ({
   title = 'TACHYONS - Css Toolkit',
   className = '',
+  skipFooter,
+  fixed,
   children
 }) => {
   console.log(`
@@ -16,7 +18,6 @@ export default ({
  _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
  /_/    \\__,_/ \\___/ /_/ /_/_\__, / \\____//_/ /_//____/
                             /____/
-
 
 ---------------------------------------------------------
 👩‍💻 https://github.com/tachyons-css/tachyons
@@ -32,6 +33,7 @@ export default ({
       <Header version={version} />
       <main className={className} children={children} />
       <Footer />
+      {skipFooter ? null : <Footer />}
     </div>
   )
 }

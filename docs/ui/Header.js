@@ -46,9 +46,9 @@ class Header extends Component {
     const icon = this.state.mobileMenuOpen ? <TimesIcon /> : <HamburgerIcon />
 
     return (
-      <header>
+      <header className='fixed z-max bg-white w-100 bb b--black-10'>
         <div className="pv3">
-          <Container padding={true}>
+          <div>
             <Flex justify="between" alignItems="center">
               <TitleLink
                 href="/"
@@ -67,7 +67,7 @@ class Header extends Component {
               </div>
               <div className="dn flex-m">{this.navigation('desktop')}</div>
             </Flex>
-          </Container>
+          </div>
         </div>
         {this.state.mobileMenuOpen && (
           <nav className="bg-near-white pv1 dn-m">
