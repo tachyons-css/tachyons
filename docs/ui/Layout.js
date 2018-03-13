@@ -26,7 +26,7 @@ export default ({
   return (
     <div className="w-100 sans-serif">
       <title>{title}</title>
-      <link rel="stylesheet" href="https://file-bglcsbsfyd.now.sh/" />
+      <link rel="stylesheet" href="https://file-jyzsebnxow.now.sh" />
       <link rel="stylesheet" href="https://file-zlngimivyb.now.sh" />
 
       <Header version={version} />
