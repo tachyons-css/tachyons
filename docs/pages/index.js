@@ -12,10 +12,7 @@ export default () => (
   <Layout>
     <section className="bg-black-0125 w-100">
       <article>
-        <Nav />
-        <Hero version={version} />
-        <GettingStarted version={version} />
-        <StartUsing />
+        <H1>Hello, world!</H1>
       </article>
     </section>
   </Layout>
