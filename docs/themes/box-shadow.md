@@ -16,7 +16,7 @@ This module provides several options for box-shadow. Feel free to customize if t
 ```.html
 <div class="shadow-1 dib pa3 pv4 tc mw4 mr4 mb4"><code>.shadow-1</code></div>
 <div class="shadow-2 dib pa3 pv4 tc mw4 mr4 mb4"><code>.shadow-2</code></div>
-<div class="shadow-3 dib pa3 pv4 tc mw4 mr4 mb4"><code>.shadow-2</code></div>
-<div class="shadow-4 dib pa3 pv4 tc mw4 mr4 mb4"><code>.shadow-2</code></div>
-<div class="shadow-5 dib pa3 pv4 tc mw4 mr4 mb4"><code>.shadow-2</code></div>
+<div class="shadow-3 dib pa3 pv4 tc mw4 mr4 mb4"><code>.shadow-3</code></div>
+<div class="shadow-4 dib pa3 pv4 tc mw4 mr4 mb4"><code>.shadow-4</code></div>
+<div class="shadow-5 dib pa3 pv4 tc mw4 mr4 mb4"><code>.shadow-5</code></div>
 ```
