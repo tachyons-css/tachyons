@@ -1,4 +1,4 @@
-export const spacing = {
+export const meta = {
   title: 'Spacing / Layout / Docs / TACHYONS',
   subNav: 'layout',
   modules: ['tachyons-spacing'],
