@@ -7,7 +7,7 @@ export const meta = {
 
 # Widths
 
-The widths module contains both a five-step width scale based on powers of two as well as a series of percentage values that can be combined with floats for an infinitely nestable and fully responsive grid system.
+The widths module contains both a five-step width scale based on powers of two as well as a series of percentage values that can be combined with flexbox for an infinitely nestable and fully responsive grid system.
 
 ## Examples
 
@@ -54,4 +54,7 @@ sideBySide: true
 
 ## Reference
 
-* [MDN - Width property](https://developer.mozilla.org/en/docs/Web/css/width)
+- [MDN - Width property](https://developer.mozilla.org/en/docs/Web/css/width)
+- [Tachyons - Flexbox](/docs/grid/flexbox)
+- [Tachyons - Reponsive grids](/docs/grid/responsive)
+- [Tachyons - Nesting grids](/docs/grid/nesting)
