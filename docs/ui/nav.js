@@ -254,6 +254,10 @@ export const docs = [
       {
         title: 'Nudge',
         href: '/docs/addons/nudge'
+      },
+      {
+        title: 'Opacity - Responsive',
+        href: '/docs/addons/opacity-responsive'
       }
     ]
   },
