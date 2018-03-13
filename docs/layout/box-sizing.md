@@ -20,24 +20,27 @@ The benefit of border-box as opposed to content-box (which is the default per th
 ### Default Content Box
 
 ```.html
-<div class="ph3 mw5 ba bw4 phxl pvm bg-lightest-red" style="box-sizing: content-box;">
-  This element has a thick border, a max-width class of mw5, and extra large horizontal padding and medium vertical padding.
+<div class="ph3 mw5 ba bw4 phxl pvm bg-light-red" style="box-sizing: content-box;">
+  This element has a thick border, a max-width class of mw5,
+  and extra large horizontal padding and medium vertical padding.
 </div>
 ```
 
 ### Border Box
 
 ```.html
-<div class="ph3 mw5 ba bw4 phxl pvm bg-lightest-red">
-  This element has a thick border, a max-width class of mw5, and extra large horizontal padding and medium vertical padding.
+<div class="ph3 mw5 ba bw4 phxl pvm bg-light-red">
+  This element has a thick border, a max-width class of mw5,
+  and extra large horizontal padding and medium vertical padding.
 </div>
 ```
 
 ### Border Box with no padding or border
 
 ```.html
-<div class="ph3 mw5 bg-lightest-red">
-  This element has no border, a max-width class of mw5 and no padding. Notice which example it has the same width as.
+<div class="ph3 mw5 bg-light-red">
+  This element has no border, a max-width class of mw5 and
+  no padding. Notice which example it has the same width as.
 </div>
 ```
 
