@@ -44,6 +44,7 @@
 @import './_code';
 @import './_coordinates';
 @import './_clears';
+@import './_direction';
 @import './_display';
 @import './_flexbox';
 @import './_floats';
