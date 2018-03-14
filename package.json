@@ -39,8 +39,8 @@
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:packages": "node build && lerna run build",
     "build:watch": "watch \"npm run build\" ./src/",
-    "dev:update": "node build && lerna run build",
     "mutations": "immutable-css src/tachyons.css --strict"
   }
 }
