@@ -41,11 +41,6 @@ The modules are generally pretty small and thus quick and easy to read.
 The quickest and easiest way to start using tachyons is to include a reference
 to the minified file in the head of your html file.
 
-You can always grab the latest version with
-```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
-```
-You can also specify a specific version. The latest version is 4.9.1
 ```html
 <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css">
 ```
