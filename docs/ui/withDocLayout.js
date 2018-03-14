@@ -20,7 +20,6 @@ export default (Component, metadata = {}) => ({ title, ...props }) => (
       : null}
     <Layout
       title={title || metadata.title}
-      className='nested-copy-large-leading'
     >
       <SubNav nav={metadata.subNav} />
       <Container padding={true} className='black-80'>
