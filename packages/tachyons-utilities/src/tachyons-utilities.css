@@ -10,10 +10,10 @@
 
 ### Base
 
-- overflow-container = horizontal scroll
-- center = margin auto
-- mr-auto = margin-right auto
-- ml-auto = margin-left auto
+- `overflow-container` = horizontal scroll
+- `center` = margin auto
+- `mr-auto` = margin-right auto
+- `ml-auto` = margin-left auto
 
 ### Media Query Extensions
 
@@ -35,7 +35,7 @@
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left:  auto; }
 
-@media (--breakpoint-small){
+@media (--breakpoint-small) {
   .center-s {
     margin-right: auto;
     margin-left: auto;
@@ -44,7 +44,7 @@
   .ml-auto-s { margin-left:  auto; }
 }
 
-@media (--breakpoint-medium){
+@media (--breakpoint-medium) {
   .center-m {
     margin-right: auto;
     margin-left: auto;
@@ -53,7 +53,7 @@
   .ml-auto-m { margin-left:  auto; }
 }
 
-@media (--breakpoint-large){
+@media (--breakpoint-large) {
   .center-l {
     margin-right: auto;
     margin-left: auto;
