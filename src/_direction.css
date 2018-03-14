@@ -1,0 +1,28 @@
+/*!!!
+
+# Direction
+
+Set direction of text, tables and horizontal overflow.
+
+### Docs
+
+https://tachyons.io/docs/layout/direction/
+*/
+
+.ltr { direction: ltr; }
+.rtl { direction: rtl; }
+
+@media (--breakpoint-small) {
+  .ltr-s { direction: ltr; }
+  .rtl-s { direction: rtl; }
+}
+
+@media (--breakpoint-medium) {
+  .ltr-m { direction: ltr; }
+  .rtl-m { direction: rtl; }
+}
+
+@media (--breakpoint-large) {
+  .ltr-l { direction: ltr; }
+  .rtl-l { direction: rtl; }
+}

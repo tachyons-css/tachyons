@@ -1,0 +1,11 @@
+/*!!!
+
+# Direction
+
+Set direction of text, tables and horizontal overflow.
+
+### Docs
+
+https://tachyons.io/docs/layout/direction/
+*/.ltr{direction:ltr}.rtl{direction:rtl}@media screen and (min-width:30em){.ltr-s{direction:ltr}.rtl-s{direction:rtl}}@media screen and (min-width:48em){.ltr-m{direction:ltr}.rtl-m{direction:rtl}}@media screen and (min-width:60em){.ltr-l{direction:ltr}.rtl-l{direction:rtl}}
+
