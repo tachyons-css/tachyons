@@ -165,7 +165,9 @@ export const md = {
   p: props => <p className="measure-wide f5 lh-copy" {...props} />,
   ul: props => <ul className="pl3" {...props} />,
   li: props => <li className="lh-copy ml2" {...props} />,
-  blockquote: props => <blockquote className="i black lh-copy nl2" {...props} />,
+  blockquote: props => (
+    <blockquote className="i black lh-copy nl2" {...props} />
+  ),
   inlineCode: props => <code className="f5 bg-near-white" {...props} />,
   table: props => <table className="collapse" {...props} />,
   td: props => <td className="pa2 bb b--black-05 black" {...props} />,
