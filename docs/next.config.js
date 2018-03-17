@@ -5,6 +5,11 @@ module.exports = {
       use: [defaultLoaders.babel, '@mdx-js/loader']
     })
 
+    config.module.rules.push({
+      test: /\.html$/,
+      use: 'raw-loader'
+    })
+
     return config
   }
 }
