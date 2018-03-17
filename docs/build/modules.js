@@ -2,7 +2,7 @@ const path = require('path')
 const cssTable = require('css-table')
 const { readFileSync, writeFileSync } = require('fs')
 
-const { dependencies } = require('./package.json')
+const { dependencies } = require('../package.json')
 
 const px = Object.keys(dependencies)
   .filter(m => /^tachyons-/.test(m))
