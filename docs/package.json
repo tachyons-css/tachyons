@@ -25,6 +25,7 @@
     "htmltojsx": "^0.3.0",
     "is-present": "^1.0.0",
     "next": "^5.0.0",
+    "raw-loader": "^0.5.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-highlight": "^0.12.0",
