@@ -7,4 +7,12 @@ export const meta =  {
 
 # Text Decoration
 
+Utilities for decorating text with underlines, or removing the default underlines browsers put on links.
 
+## Examples
+
+```.html
+<a class="db no-underline mt2">no-underline</a>
+<p class="underline">underline.</p>
+<p class="strike">strike</p>
+```
