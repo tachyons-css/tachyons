@@ -7,7 +7,7 @@ module.exports = {
 
     config.module.rules.push({
       test: /\.html$/,
-      use: 'raw-loader'
+      use: [defaultLoaders.babel, 'tachyons-component-loader']
     })
 
     return config

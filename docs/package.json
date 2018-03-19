@@ -6,11 +6,13 @@
   "scripts": {
     "start": "next start",
     "build": "next build",
+    "build:components": "node build/components",
+    "build:modules": "node build/modules",
     "deploy": "now --public",
     "dev": "next",
-    "lint": "prettier *.js ui/**/*.js pages/**/*.js --write --no-semi --single-quote",
+    "lint": "prettier *.js ui/**/*.js pages/**/*.js pages/components/**/*.js --write --no-semi --single-quote",
     "predeploy": "rm -rf node_modules && rm -rf .next",
-    "prepare": "node build/modules"
+    "prepare": "npm run build:modules && npm build:components"
   },
   "repository": "tachyons-css/docs",
   "author": "mrmrs",
@@ -119,6 +121,7 @@
     "@mdx-js/loader": "^0.6.0",
     "css-table": "^0.1.0",
     "globby": "^8.0.1",
+    "mkdirp": "^0.5.1",
     "prettier": "^1.11.1",
     "titleize": "^1.0.0",
     "webpack": "^4.2.0"
