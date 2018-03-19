@@ -118,7 +118,9 @@
   "devDependencies": {
     "@mdx-js/loader": "^0.6.0",
     "css-table": "^0.1.0",
+    "globby": "^8.0.1",
     "prettier": "^1.11.1",
+    "titleize": "^1.0.0",
     "webpack": "^4.2.0"
   }
 }
