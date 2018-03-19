@@ -1,6 +1,10 @@
 const fs = require('fs')
+const { promisify } = require('util')
+const mkdirp = require('mkdirp')
 const globby = require('globby')
 const titleize = require('titleize')
+
+const mkdir = promisify(mkdirp)
 
 const generateComponentsNav = async () => {
   const components = await globby('./components/**/*.html', { nodir: true })
@@ -9,8 +13,9 @@ const generateComponentsNav = async () => {
       const slug = c.replace('./', '/').replace('.html', '')
       const [_1, _2, section, name] = slug.split('/')
       const title = titleize(name).replace(/-/g, ' ')
+      const importPath = `../../..${slug}.html`
 
-      return { name, title, section, src, slug }
+      return { name, title, section, src, slug, importPath }
     }))
 
   const bySection = components.reduce((acc, component) => {
@@ -19,6 +24,21 @@ const generateComponentsNav = async () => {
 
     return acc
   }, {})
+
+  components.forEach(async c => {
+    const dir = `pages/components/${c.section}`
+    const file = `${dir}/${c.name}.js`
+
+    await mkdir(dir)
+
+    fs.writeFileSync(file, `
+      import React from 'react'
+      import * as component from '${c.importPath}'
+      import withComponentLayout from '../../../ui/withComponentLayout'
+
+      export default withComponentLayout(component)
+    `)
+  })
 
   fs.writeFileSync('ui/components.json', JSON.stringify(bySection, null, 2))
 }
