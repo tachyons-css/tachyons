@@ -42,6 +42,7 @@
     "tachyons-box-sizing": "^3.2.2",
     "tachyons-clears": "^3.0.4",
     "tachyons-colors": "^5.3.3",
+    "tachyons-component-loader": "0.0.1",
     "tachyons-coordinates": "^4.0.4",
     "tachyons-debug": "^1.1.10",
     "tachyons-debug-children": "^1.0.0",
