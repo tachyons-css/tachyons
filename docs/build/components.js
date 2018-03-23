@@ -32,6 +32,7 @@ const generateComponentsNav = async () => {
     await mkdir(dir)
 
     fs.writeFileSync(file, `
+      /* GENERATED FILE: See docs/build/components.js */
       import React from 'react'
       import * as component from '${c.importPath}'
       import withComponentLayout from '../../../ui/withComponentLayout'

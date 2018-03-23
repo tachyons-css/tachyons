@@ -1,20 +1,20 @@
 {
   "article-lists": [
     {
-      "name": "title-preview-author-media-flipped",
-      "title": "Title Preview Author Media Flipped",
-      "section": "article-lists",
-      "src": "article-lists/title-preview-author-media-flipped.html",
-      "slug": "/components/article-lists/title-preview-author-media-flipped",
-      "importPath": "../../../components/article-lists/title-preview-author-media-flipped.html"
-    },
-    {
       "name": "title-preview-author-media",
       "title": "Title Preview Author Media",
       "section": "article-lists",
       "src": "article-lists/title-preview-author-media.html",
       "slug": "/components/article-lists/title-preview-author-media",
       "importPath": "../../../components/article-lists/title-preview-author-media.html"
+    },
+    {
+      "name": "title-preview-author-media-flipped",
+      "title": "Title Preview Author Media Flipped",
+      "section": "article-lists",
+      "src": "article-lists/title-preview-author-media-flipped.html",
+      "slug": "/components/article-lists/title-preview-author-media-flipped",
+      "importPath": "../../../components/article-lists/title-preview-author-media-flipped.html"
     }
   ],
   "articles": [
@@ -67,20 +67,20 @@
       "importPath": "../../../components/articles/left-title.html"
     },
     {
-      "name": "photo-essay",
-      "title": "Photo Essay",
-      "section": "articles",
-      "src": "articles/photo-essay.html",
-      "slug": "/components/articles/photo-essay",
-      "importPath": "../../../components/articles/photo-essay.html"
-    },
-    {
       "name": "single-column-large-title",
       "title": "Single Column Large Title",
       "section": "articles",
       "src": "articles/single-column-large-title.html",
       "slug": "/components/articles/single-column-large-title",
       "importPath": "../../../components/articles/single-column-large-title.html"
+    },
+    {
+      "name": "photo-essay",
+      "title": "Photo Essay",
+      "section": "articles",
+      "src": "articles/photo-essay.html",
+      "slug": "/components/articles/photo-essay",
+      "importPath": "../../../components/articles/photo-essay.html"
     },
     {
       "name": "title-highlight-header-cover",
@@ -105,6 +105,32 @@
       "src": "articles/title-text.html",
       "slug": "/components/articles/title-text",
       "importPath": "../../../components/articles/title-text.html"
+    }
+  ],
+  "banners": [
+    {
+      "name": "basic",
+      "title": "Basic",
+      "section": "banners",
+      "src": "banners/basic.html",
+      "slug": "/components/banners/basic",
+      "importPath": "../../../components/banners/basic.html"
+    },
+    {
+      "name": "info",
+      "title": "Info",
+      "section": "banners",
+      "src": "banners/info.html",
+      "slug": "/components/banners/info",
+      "importPath": "../../../components/banners/info.html"
+    },
+    {
+      "name": "single-cta",
+      "title": "Single Cta",
+      "section": "banners",
+      "src": "banners/single-cta.html",
+      "slug": "/components/banners/single-cta",
+      "importPath": "../../../components/banners/single-cta.html"
     }
   ],
   "avatars": [
@@ -165,32 +191,6 @@
       "importPath": "../../../components/avatars/square.html"
     }
   ],
-  "banners": [
-    {
-      "name": "basic",
-      "title": "Basic",
-      "section": "banners",
-      "src": "banners/basic.html",
-      "slug": "/components/banners/basic",
-      "importPath": "../../../components/banners/basic.html"
-    },
-    {
-      "name": "info",
-      "title": "Info",
-      "section": "banners",
-      "src": "banners/info.html",
-      "slug": "/components/banners/info",
-      "importPath": "../../../components/banners/info.html"
-    },
-    {
-      "name": "single-cta",
-      "title": "Single Cta",
-      "section": "banners",
-      "src": "banners/single-cta.html",
-      "slug": "/components/banners/single-cta",
-      "importPath": "../../../components/banners/single-cta.html"
-    }
-  ],
   "buttons": [
     {
       "name": "basic-previous-next",
@@ -201,20 +201,20 @@
       "importPath": "../../../components/buttons/basic-previous-next.html"
     },
     {
-      "name": "basic-rounded-extra-small",
-      "title": "Basic Rounded Extra Small",
-      "section": "buttons",
-      "src": "buttons/basic-rounded-extra-small.html",
-      "slug": "/components/buttons/basic-rounded-extra-small",
-      "importPath": "../../../components/buttons/basic-rounded-extra-small.html"
-    },
-    {
       "name": "basic-rounded-small",
       "title": "Basic Rounded Small",
       "section": "buttons",
       "src": "buttons/basic-rounded-small.html",
       "slug": "/components/buttons/basic-rounded-small",
       "importPath": "../../../components/buttons/basic-rounded-small.html"
+    },
+    {
+      "name": "basic-rounded-extra-small",
+      "title": "Basic Rounded Extra Small",
+      "section": "buttons",
+      "src": "buttons/basic-rounded-extra-small.html",
+      "slug": "/components/buttons/basic-rounded-extra-small",
+      "importPath": "../../../components/buttons/basic-rounded-extra-small.html"
     },
     {
       "name": "basic-rounded",
@@ -255,56 +255,6 @@
       "src": "buttons/pill.html",
       "slug": "/components/buttons/pill",
       "importPath": "../../../components/buttons/pill.html"
-    }
-  ],
-  "collections": [
-    {
-      "name": "albums",
-      "title": "Albums",
-      "section": "collections",
-      "src": "collections/albums.html",
-      "slug": "/components/collections/albums",
-      "importPath": "../../../components/collections/albums.html"
-    },
-    {
-      "name": "movies",
-      "title": "Movies",
-      "section": "collections",
-      "src": "collections/movies.html",
-      "slug": "/components/collections/movies",
-      "importPath": "../../../components/collections/movies.html"
-    },
-    {
-      "name": "posters-dim",
-      "title": "Posters Dim",
-      "section": "collections",
-      "src": "collections/posters-dim.html",
-      "slug": "/components/collections/posters-dim",
-      "importPath": "../../../components/collections/posters-dim.html"
-    },
-    {
-      "name": "posters",
-      "title": "Posters",
-      "section": "collections",
-      "src": "collections/posters.html",
-      "slug": "/components/collections/posters",
-      "importPath": "../../../components/collections/posters.html"
-    },
-    {
-      "name": "square-title-subtitle",
-      "title": "Square Title Subtitle",
-      "section": "collections",
-      "src": "collections/square-title-subtitle.html",
-      "slug": "/components/collections/square-title-subtitle",
-      "importPath": "../../../components/collections/square-title-subtitle.html"
-    },
-    {
-      "name": "vinyl",
-      "title": "Vinyl",
-      "section": "collections",
-      "src": "collections/vinyl.html",
-      "slug": "/components/collections/vinyl",
-      "importPath": "../../../components/collections/vinyl.html"
     }
   ],
   "cards": [
@@ -381,6 +331,56 @@
       "importPath": "../../../components/cards/text-card.html"
     }
   ],
+  "collections": [
+    {
+      "name": "albums",
+      "title": "Albums",
+      "section": "collections",
+      "src": "collections/albums.html",
+      "slug": "/components/collections/albums",
+      "importPath": "../../../components/collections/albums.html"
+    },
+    {
+      "name": "movies",
+      "title": "Movies",
+      "section": "collections",
+      "src": "collections/movies.html",
+      "slug": "/components/collections/movies",
+      "importPath": "../../../components/collections/movies.html"
+    },
+    {
+      "name": "posters-dim",
+      "title": "Posters Dim",
+      "section": "collections",
+      "src": "collections/posters-dim.html",
+      "slug": "/components/collections/posters-dim",
+      "importPath": "../../../components/collections/posters-dim.html"
+    },
+    {
+      "name": "posters",
+      "title": "Posters",
+      "section": "collections",
+      "src": "collections/posters.html",
+      "slug": "/components/collections/posters",
+      "importPath": "../../../components/collections/posters.html"
+    },
+    {
+      "name": "square-title-subtitle",
+      "title": "Square Title Subtitle",
+      "section": "collections",
+      "src": "collections/square-title-subtitle.html",
+      "slug": "/components/collections/square-title-subtitle",
+      "importPath": "../../../components/collections/square-title-subtitle.html"
+    },
+    {
+      "name": "vinyl",
+      "title": "Vinyl",
+      "section": "collections",
+      "src": "collections/vinyl.html",
+      "slug": "/components/collections/vinyl",
+      "importPath": "../../../components/collections/vinyl.html"
+    }
+  ],
   "definition-lists": [
     {
       "name": "inline",
@@ -435,14 +435,6 @@
       "importPath": "../../../components/footers/simple-large-type.html"
     },
     {
-      "name": "small-print",
-      "title": "Small Print",
-      "section": "footers",
-      "src": "footers/small-print.html",
-      "slug": "/components/footers/small-print",
-      "importPath": "../../../components/footers/small-print.html"
-    },
-    {
       "name": "social-circles",
       "title": "Social Circles",
       "section": "footers",
@@ -451,12 +443,12 @@
       "importPath": "../../../components/footers/social-circles.html"
     },
     {
-      "name": "social-simple",
-      "title": "Social Simple",
+      "name": "small-print",
+      "title": "Small Print",
       "section": "footers",
-      "src": "footers/social-simple.html",
-      "slug": "/components/footers/social-simple",
-      "importPath": "../../../components/footers/social-simple.html"
+      "src": "footers/small-print.html",
+      "slug": "/components/footers/small-print",
+      "importPath": "../../../components/footers/small-print.html"
     },
     {
       "name": "social-simple-text",
@@ -465,6 +457,14 @@
       "src": "footers/social-simple-text.html",
       "slug": "/components/footers/social-simple-text",
       "importPath": "../../../components/footers/social-simple-text.html"
+    },
+    {
+      "name": "social-simple",
+      "title": "Social Simple",
+      "section": "footers",
+      "src": "footers/social-simple.html",
+      "slug": "/components/footers/social-simple",
+      "importPath": "../../../components/footers/social-simple.html"
     },
     {
       "name": "social-text",
@@ -527,20 +527,20 @@
       "importPath": "../../../components/forms/checkbox-list.html"
     },
     {
-      "name": "newsletter-subscription",
-      "title": "Newsletter Subscription",
-      "section": "forms",
-      "src": "forms/newsletter-subscription.html",
-      "slug": "/components/forms/newsletter-subscription",
-      "importPath": "../../../components/forms/newsletter-subscription.html"
-    },
-    {
       "name": "input-text-label",
       "title": "Input Text Label",
       "section": "forms",
       "src": "forms/input-text-label.html",
       "slug": "/components/forms/input-text-label",
       "importPath": "../../../components/forms/input-text-label.html"
+    },
+    {
+      "name": "newsletter-subscription",
+      "title": "Newsletter Subscription",
+      "section": "forms",
+      "src": "forms/newsletter-subscription.html",
+      "slug": "/components/forms/newsletter-subscription",
+      "importPath": "../../../components/forms/newsletter-subscription.html"
     },
     {
       "name": "password",
@@ -551,20 +551,20 @@
       "importPath": "../../../components/forms/password.html"
     },
     {
-      "name": "sign-in",
-      "title": "Sign In",
-      "section": "forms",
-      "src": "forms/sign-in.html",
-      "slug": "/components/forms/sign-in",
-      "importPath": "../../../components/forms/sign-in.html"
-    },
-    {
       "name": "sign-up",
       "title": "Sign Up",
       "section": "forms",
       "src": "forms/sign-up.html",
       "slug": "/components/forms/sign-up",
       "importPath": "../../../components/forms/sign-up.html"
+    },
+    {
+      "name": "sign-in",
+      "title": "Sign In",
+      "section": "forms",
+      "src": "forms/sign-in.html",
+      "slug": "/components/forms/sign-in",
+      "importPath": "../../../components/forms/sign-in.html"
     },
     {
       "name": "textarea-label",
@@ -739,20 +739,20 @@
       "importPath": "../../../components/layout/five-column-collapse-one.html"
     },
     {
-      "name": "fixed-table-layout-grid-mixed-rows",
-      "title": "Fixed Table Layout Grid Mixed Rows",
-      "section": "layout",
-      "src": "layout/fixed-table-layout-grid-mixed-rows.html",
-      "slug": "/components/layout/fixed-table-layout-grid-mixed-rows",
-      "importPath": "../../../components/layout/fixed-table-layout-grid-mixed-rows.html"
-    },
-    {
       "name": "five-column",
       "title": "Five Column",
       "section": "layout",
       "src": "layout/five-column.html",
       "slug": "/components/layout/five-column",
       "importPath": "../../../components/layout/five-column.html"
+    },
+    {
+      "name": "fixed-table-layout-grid-mixed-rows",
+      "title": "Fixed Table Layout Grid Mixed Rows",
+      "section": "layout",
+      "src": "layout/fixed-table-layout-grid-mixed-rows.html",
+      "slug": "/components/layout/fixed-table-layout-grid-mixed-rows",
+      "importPath": "../../../components/layout/fixed-table-layout-grid-mixed-rows.html"
     },
     {
       "name": "fixed-table-layout-grid",
@@ -779,20 +779,20 @@
       "importPath": "../../../components/layout/flag-object-collapse.html"
     },
     {
-      "name": "flag-object",
-      "title": "Flag Object",
-      "section": "layout",
-      "src": "layout/flag-object.html",
-      "slug": "/components/layout/flag-object",
-      "importPath": "../../../components/layout/flag-object.html"
-    },
-    {
       "name": "flag-object-top",
       "title": "Flag Object Top",
       "section": "layout",
       "src": "layout/flag-object-top.html",
       "slug": "/components/layout/flag-object-top",
       "importPath": "../../../components/layout/flag-object-top.html"
+    },
+    {
+      "name": "flag-object",
+      "title": "Flag Object",
+      "section": "layout",
+      "src": "layout/flag-object.html",
+      "slug": "/components/layout/flag-object",
+      "importPath": "../../../components/layout/flag-object.html"
     },
     {
       "name": "four-column-collapse-two-collapse-one",
