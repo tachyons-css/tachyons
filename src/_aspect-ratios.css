@@ -3,8 +3,9 @@
 # ASPECT RATIOS
 
 This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
-Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
+Wrap the outer element in aspect-ratio and then extend it with the desired ratio.
 Make sure there are no height and width attributes on the embedded media.
+
 Adapted from: https://github.com/suitcss/components-flex-embed
 
 ### Docs
@@ -13,7 +14,7 @@ https://tachyons.io/docs/layout/aspect-ratios
 
 ### Base
 
-- aspect-ratio = aspect ratio
+- `aspect-ratio` = aspect ratio
 
 ### Modifiers
 
