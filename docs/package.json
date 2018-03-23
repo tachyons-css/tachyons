@@ -6,11 +6,12 @@
   "scripts": {
     "start": "next start",
     "build": "next build",
+    "build:components": "node build/components",
+    "build:modules": "node build/modules",
     "deploy": "now --public",
     "dev": "next",
-    "lint": "prettier *.js ui/**/*.js pages/**/*.js --write --no-semi --single-quote",
-    "predeploy": "rm -rf node_modules && rm -rf .next",
-    "prepare": "node build/modules"
+    "format": "prettier *.js ui/**/*.js pages/**/*.js pages/components/**/*.js --write --no-semi --single-quote",
+    "prepare": "npm run build:modules && npm run build:components && npm run format"
   },
   "repository": "tachyons-css/docs",
   "author": "mrmrs",
@@ -25,6 +26,7 @@
     "htmltojsx": "^0.3.0",
     "is-present": "^1.0.0",
     "next": "^5.0.0",
+    "raw-loader": "^0.5.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-highlight": "^0.12.0",
@@ -41,6 +43,7 @@
     "tachyons-box-sizing": "^3.2.2",
     "tachyons-clears": "^3.0.4",
     "tachyons-colors": "^5.3.3",
+    "tachyons-component-loader": "0.0.1",
     "tachyons-coordinates": "^4.0.4",
     "tachyons-debug": "^1.1.10",
     "tachyons-debug-children": "^1.0.0",
@@ -116,7 +119,10 @@
   "devDependencies": {
     "@mdx-js/loader": "^0.6.0",
     "css-table": "^0.1.0",
+    "globby": "^8.0.1",
+    "mkdirp": "^0.5.1",
     "prettier": "^1.11.1",
+    "titleize": "^1.0.0",
     "webpack": "^4.2.0"
   }
 }
