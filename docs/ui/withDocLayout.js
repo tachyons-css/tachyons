@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import { ComponentsProvider } from '@compositor/markdown'
 
 import Layout from './Layout'
 import Container from './Container'
