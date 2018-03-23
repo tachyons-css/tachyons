@@ -6,7 +6,7 @@ const { dependencies } = require('../package.json')
 
 const px = Object.keys(dependencies)
   .filter(m => /^tachyons-/.test(m))
-  .filter(m => !/^tachyons-(colors|generator|styles)/.test(m))
+  .filter(m => !/^tachyons-(colors|generator|styles|component-loader)/.test(m))
   .map(async m => {
     const pkg = require(`${m}/package.json`)
     const readme = readFileSync(

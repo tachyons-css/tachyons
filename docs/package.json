@@ -10,9 +10,8 @@
     "build:modules": "node build/modules",
     "deploy": "now --public",
     "dev": "next",
-    "lint": "prettier *.js ui/**/*.js pages/**/*.js pages/components/**/*.js --write --no-semi --single-quote",
-    "predeploy": "rm -rf node_modules && rm -rf .next",
-    "prepare": "npm run build:modules && npm build:components"
+    "format": "prettier *.js ui/**/*.js pages/**/*.js pages/components/**/*.js --write --no-semi --single-quote",
+    "prepare": "npm run build:modules && npm run build:components && npm run format"
   },
   "repository": "tachyons-css/docs",
   "author": "mrmrs",
