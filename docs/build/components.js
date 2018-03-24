@@ -41,7 +41,7 @@ const generateComponentsNav = async () => {
     `)
   })
 
-  fs.writeFileSync('ui/components.json', JSON.stringify(bySection, null, 2))
+  fs.writeFileSync('data/components.json', JSON.stringify(bySection, null, 2))
 }
 
 generateComponentsNav()

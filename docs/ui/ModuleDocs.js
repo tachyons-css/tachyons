@@ -1,7 +1,7 @@
 import React from 'react'
 import cssstats from 'cssstats'
 
-import data from './data.json'
+import data from '../data/modules.json'
 
 const Module = data => {
   const stats = cssstats(data.css)
