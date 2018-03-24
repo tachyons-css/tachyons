@@ -2,15 +2,17 @@ import React, { Component } from 'react'
 import Highlight from 'react-highlight'
 
 import Layout from '../ui/Layout'
+import Link from '../ui/Link'
 import SrcReference from '../ui/SrcReference'
 import { Flex, md } from '../ui'
 import { modules } from '../ui/data.json'
 
 class Reference extends Component {
-  static getInitialProps = ({ query }) => query
+  static getInitialProps = ({ query = {} }) => query
 
   render () {
-    const module = modules[this.props.module]
+    const { view = 'table', module } = this.props
+    const currModule = modules[module]
 
     return (
       <Layout skipFooter={true} skipHeader={true}>
@@ -23,7 +25,7 @@ class Reference extends Component {
                 const shortName = m.name.replace(/^tachyons-/, '')
 
                 return (
-                  <a
+                  <Link
                     href={`/reference?module=${m.name}`}
                     className='db link pl3 pv2 black'
                     children={shortName}
@@ -34,10 +36,13 @@ class Reference extends Component {
           </div>
           <Flex className='ml6 pl6 w-100 mh-100'>
             <div className='flex-1 pa3 pv4'>
-              <Highlight>{module.readme}</Highlight>
+              <Highlight>{currModule.readme}</Highlight>
             </div>
             <div className='flex-1'>
-              <SrcReference {...module} />
+              <SrcReference
+                view={view}
+                {...currModule}
+              />
             </div>
           </Flex>
         </Flex>

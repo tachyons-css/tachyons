@@ -21,7 +21,7 @@ const px = Object.keys(dependencies)
     const docsComment = src.match(/\/\*!!!([\S\s]*?)\*\//m)
     const readme = docsComment && docsComment[0].replace(/^\/\*!!!/, '').replace(/\*\/$/, '')
 
-    const tableOfStyles = await cssTable(css, { from: m })
+    const tableOfStyles = await cssTable(src, { from: m })
 
     return {
       name: m,
