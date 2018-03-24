@@ -5,7 +5,7 @@ import Layout from '../ui/Layout'
 import Link from '../ui/Link'
 import SrcReference from '../ui/SrcReference'
 import { Flex, md } from '../ui'
-import { modules } from '../ui/data.json'
+import { modules } from '../data/modules.json'
 
 class Reference extends Component {
   static getInitialProps = ({ query = {} }) => query

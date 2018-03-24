@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import Highlight from 'react-highlight'
 
 import Link from './Link'
-import data from './data.json'
+import data from '../data/modules.json'
 
 export const Table = ({ tableOfStyles }) => (
   <table className="collapse w-100">

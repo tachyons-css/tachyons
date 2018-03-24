@@ -575,6 +575,40 @@
       "importPath": "../../../components/headers/startup-hero.html"
     }
   ],
+  "links": [
+    {
+      "name": "animate-background-color",
+      "title": "Animate Background Color",
+      "section": "links",
+      "src": "links/animate-background-color.html",
+      "slug": "/components/links/animate-background-color",
+      "importPath": "../../../components/links/animate-background-color.html"
+    },
+    {
+      "name": "animate-color",
+      "title": "Animate Color",
+      "section": "links",
+      "src": "links/animate-color.html",
+      "slug": "/components/links/animate-color",
+      "importPath": "../../../components/links/animate-color.html"
+    },
+    {
+      "name": "dim-no-underline",
+      "title": "Dim No Underline",
+      "section": "links",
+      "src": "links/dim-no-underline.html",
+      "slug": "/components/links/dim-no-underline",
+      "importPath": "../../../components/links/dim-no-underline.html"
+    },
+    {
+      "name": "underline-on-hover",
+      "title": "Underline On Hover",
+      "section": "links",
+      "src": "links/underline-on-hover.html",
+      "slug": "/components/links/underline-on-hover",
+      "importPath": "../../../components/links/underline-on-hover.html"
+    }
+  ],
   "layout": [
     {
       "name": "aspect-ratio-16x9",
@@ -905,38 +939,14 @@
       "importPath": "../../../components/layout/two-column.html"
     }
   ],
-  "links": [
+  "marketing": [
     {
-      "name": "animate-background-color",
-      "title": "Animate Background Color",
-      "section": "links",
-      "src": "links/animate-background-color.html",
-      "slug": "/components/links/animate-background-color",
-      "importPath": "../../../components/links/animate-background-color.html"
-    },
-    {
-      "name": "animate-color",
-      "title": "Animate Color",
-      "section": "links",
-      "src": "links/animate-color.html",
-      "slug": "/components/links/animate-color",
-      "importPath": "../../../components/links/animate-color.html"
-    },
-    {
-      "name": "dim-no-underline",
-      "title": "Dim No Underline",
-      "section": "links",
-      "src": "links/dim-no-underline.html",
-      "slug": "/components/links/dim-no-underline",
-      "importPath": "../../../components/links/dim-no-underline.html"
-    },
-    {
-      "name": "underline-on-hover",
-      "title": "Underline On Hover",
-      "section": "links",
-      "src": "links/underline-on-hover.html",
-      "slug": "/components/links/underline-on-hover",
-      "importPath": "../../../components/links/underline-on-hover.html"
+      "name": "iphone-app",
+      "title": "Iphone App",
+      "section": "marketing",
+      "src": "marketing/iphone-app.html",
+      "slug": "/components/marketing/iphone-app",
+      "importPath": "../../../components/marketing/iphone-app.html"
     }
   ],
   "lists": [
@@ -1069,16 +1079,6 @@
       "importPath": "../../../components/lists/title-text.html"
     }
   ],
-  "marketing": [
-    {
-      "name": "iphone-app",
-      "title": "Iphone App",
-      "section": "marketing",
-      "src": "marketing/iphone-app.html",
-      "slug": "/components/marketing/iphone-app",
-      "importPath": "../../../components/marketing/iphone-app.html"
-    }
-  ],
   "nav": [
     {
       "name": "fixed-semi-transparent",
@@ -1181,20 +1181,20 @@
   ],
   "quotes": [
     {
-      "name": "pull-quote",
-      "title": "Pull Quote",
-      "section": "quotes",
-      "src": "quotes/pull-quote.html",
-      "slug": "/components/quotes/pull-quote",
-      "importPath": "../../../components/quotes/pull-quote.html"
-    },
-    {
       "name": "left-border",
       "title": "Left Border",
       "section": "quotes",
       "src": "quotes/left-border.html",
       "slug": "/components/quotes/left-border",
       "importPath": "../../../components/quotes/left-border.html"
+    },
+    {
+      "name": "pull-quote",
+      "title": "Pull Quote",
+      "section": "quotes",
+      "src": "quotes/pull-quote.html",
+      "slug": "/components/quotes/pull-quote",
+      "importPath": "../../../components/quotes/pull-quote.html"
     }
   ],
   "tables": [
@@ -1217,20 +1217,20 @@
   ],
   "text": [
     {
-      "name": "narrow-paragraph",
-      "title": "Narrow Paragraph",
-      "section": "text",
-      "src": "text/narrow-paragraph.html",
-      "slug": "/components/text/narrow-paragraph",
-      "importPath": "../../../components/text/narrow-paragraph.html"
-    },
-    {
       "name": "large-paragraph",
       "title": "Large Paragraph",
       "section": "text",
       "src": "text/large-paragraph.html",
       "slug": "/components/text/large-paragraph",
       "importPath": "../../../components/text/large-paragraph.html"
+    },
+    {
+      "name": "narrow-paragraph",
+      "title": "Narrow Paragraph",
+      "section": "text",
+      "src": "text/narrow-paragraph.html",
+      "slug": "/components/text/narrow-paragraph",
+      "importPath": "../../../components/text/narrow-paragraph.html"
     },
     {
       "name": "paragraph",
