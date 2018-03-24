@@ -27,8 +27,6 @@ export default ({
   return (
     <div className="w-100 sans-serif">
       <title>{title}</title>
-      <link rel="stylesheet" href="https://file-jyzsebnxow.now.sh" />
-      <link rel="stylesheet" href="https://file-zlngimivyb.now.sh" />
 
       {skipHeader ? null : <Header version={version} />}
       <main className={className} children={children} />
