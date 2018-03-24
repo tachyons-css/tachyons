@@ -10,7 +10,7 @@
     "build:modules": "node build/modules",
     "deploy": "now --public",
     "dev": "next",
-    "format": "prettier *.js ui/**/*.js pages/**/*.js pages/components/**/*.js --write --no-semi --single-quote",
+    "format": "prettier *.js {ui,pages}/*.js pages/**/*.js pages/{components,docs}/**/*.js --write --no-semi --single-quote",
     "prepare": "npm run build:modules && npm run build:components && npm run format"
   },
   "repository": "tachyons-css/docs",

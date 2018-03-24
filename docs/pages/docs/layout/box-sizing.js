@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-import withDocLayout from '../../../ui/withDocLayout';
-import Doc, { meta } from '../../../layout/box-sizing.md';
+import withDocLayout from '../../../ui/withDocLayout'
+import Doc, { meta } from '../../../layout/box-sizing.md'
 
-export default withDocLayout(Doc, meta);
+export default withDocLayout(Doc, meta)
