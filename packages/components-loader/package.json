@@ -1,6 +1,6 @@
 {
   "name": "tachyons-component-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Webpack loader for components in Tachyons docs",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "get-classes-from-html": "^1.0.1",
     "perfectionist": "^2.4.0",
     "postcss": "^6.0.20",
+    "postcss-custom-media": "^6.0.0",
     "postcss-discard-comments": "^2.0.4",
     "postcss-discard-empty": "^2.1.0",
     "postcss-import": "^11.1.0",
