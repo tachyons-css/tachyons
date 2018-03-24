@@ -11,25 +11,14 @@ export default ({
   skipFooter,
   children
 }) => {
-  console.log(`
- ________            ______
- ___  __/_____ _________  /______  ______________________
- __  /  _  __ \`/  ___/_  __ \\_  / / /  __ \\_  __ \\_  ___/
- _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
- /_/    \\__,_/ \\___/ /_/ /_/_\__, / \\____//_/ /_//____/
-                            /____/
-
----------------------------------------------------------
-👩‍💻 https://github.com/tachyons-css/tachyons
-🚀 v${version}
-`)
+  const cx = `${className} min-vh-100`
 
   return (
-    <div className="w-100 sans-serif">
+    <div className="min-vh-100 w-100">
       <title>{title}</title>
 
       {skipHeader ? null : <Header version={version} />}
-      <main className={className} children={children} />
+      <main className={cx} children={children} />
       {skipFooter ? null : <Footer />}
     </div>
   )
