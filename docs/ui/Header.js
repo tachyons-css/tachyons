@@ -46,7 +46,7 @@ class Header extends Component {
     const icon = this.state.mobileMenuOpen ? <TimesIcon /> : <HamburgerIcon />
 
     return (
-      <header>
+      <header className="bg-white w-100 bb b--black-10">
         <div className="pv3">
           <Container padding={true}>
             <Flex justify="between" alignItems="center">
