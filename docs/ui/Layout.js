@@ -32,7 +32,6 @@ export default ({
 
       {skipHeader ? null : <Header version={version} />}
       <main className={className} children={children} />
-      <Footer />
       {skipFooter ? null : <Footer />}
     </div>
   )
