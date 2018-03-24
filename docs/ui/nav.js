@@ -270,10 +270,6 @@ export const docs = [
     slug: 'other',
     items: [
       {
-        title: 'Blog',
-        href: '/blog'
-      },
-      {
         title: 'X-Ray',
         href: '/xray'
       },

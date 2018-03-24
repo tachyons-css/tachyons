@@ -30,13 +30,6 @@ export default () => (
         </Link>
         <Link
           className="black-70 link hover-blue b dib mr3 mb3"
-          href="/blog/"
-          title="Blog"
-        >
-          Blog
-        </Link>
-        <Link
-          className="black-70 link hover-blue b dib mr3 mb3"
           href="/gallery/"
           title="Gallery of Sites built with Tachyons"
         >
