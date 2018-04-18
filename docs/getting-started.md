@@ -1,3 +1,9 @@
+export const meta = {
+  title: 'Getting Started / Overview / Docs / TACHYONS',
+  subNav: 'overview',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/getting-started.md'
+}
+
 # Getting Started
 
 Docs can be found at https://tachyons.io/docs.

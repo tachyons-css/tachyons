@@ -1,3 +1,9 @@
+export const meta = {
+  title: 'Responsive / Overview / Docs / TACHYONS',
+  subNav: 'overview',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/responsive.md'
+}
+
 # Responsive
 
 Tachyons css is responsive from the ground up.

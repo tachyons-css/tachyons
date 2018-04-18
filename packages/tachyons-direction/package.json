@@ -1,0 +1,34 @@
+{
+  "name": "tachyons-direction",
+  "version": "0.0.1",
+  "style": "src/tachyons-direction.css",
+  "main": "src/tachyons-direction.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-direction",
+  "author": {
+    "name": "johno",
+    "email": "johnotander@gmail.com",
+    "url": "http://johnotander.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.10",
+    "watch": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-direction.css > css/tachyons-direction.css",
+    "build:minify": "tachyons src/tachyons-direction.css --minify > css/tachyons-direction.min.css",
+    "build:docs": "tachyons src/tachyons-direction.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Max Widths / Layout / Docs / TACHYONS',
+  subNav: 'layout',
+  modules: ['tachyons-max-widths'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/max-widths.md'
+}
+
 # Max Widths
 
 The max-widths module contains both a ten-step scale based on powers of two as well as the ability to constrain element widths to a maximum of 100%.

@@ -118,6 +118,10 @@ export const docs = [
       {
         title: 'Z-Index',
         href: '/docs/layout/z-index'
+      },
+      {
+        title: 'Utilities',
+        href: '/docs/layout/utilities'
       }
     ]
   },
@@ -208,6 +212,10 @@ export const docs = [
         href: '/docs/typography/white-space'
       },
       {
+        title: 'Long Form Content',
+        href: '/docs/typography/nested'
+      },
+      {
         title: 'Font Families',
         href: '/docs/typography/font-families'
       }
@@ -250,6 +258,10 @@ export const docs = [
       {
         title: 'Nudge',
         href: '/docs/addons/nudge'
+      },
+      {
+        title: 'Opacity - Responsive',
+        href: '/docs/addons/opacity-responsive'
       }
     ]
   },
@@ -257,10 +269,6 @@ export const docs = [
     title: 'Other',
     slug: 'other',
     items: [
-      {
-        title: 'Blog',
-        href: '/blog'
-      },
       {
         title: 'X-Ray',
         href: '/xray'
@@ -289,9 +297,9 @@ export const header = [
     href: '/components/'
   },
   {
-    title: 'Gallery of sites built with Tachyons',
-    label: 'Gallery',
-    href: '/gallery'
+    title: 'Reference',
+    label: 'Reference',
+    href: '/reference'
   },
   {
     title: 'Tachyons on GitHub',
@@ -313,6 +321,11 @@ export const footer = [
     title: 'Components',
     label: 'Components',
     href: '/components/'
+  },
+  {
+    title: 'Reference',
+    label: 'Reference',
+    href: '/reference'
   },
   {
     title: 'Blog',

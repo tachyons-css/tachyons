@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Spacing / Layout / Docs / TACHYONS',
+  subNav: 'layout',
+  modules: ['tachyons-spacing'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/spacing.md'
+}
+
 # Spacing
 
 Spacing comes in two flavors.

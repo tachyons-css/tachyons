@@ -1,5 +1,12 @@
 import { Alert } from '../ui'
 
+export const meta = {
+  title: 'Floats / Grid / Docs / TACHYONS',
+  subNav: 'grid',
+  modules: ['tachyons-floats', 'tachyons-widths', 'tachyons-clearfix'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/grid/floats.md'
+}
+
 # Float-Based Grid
 
 <Alert

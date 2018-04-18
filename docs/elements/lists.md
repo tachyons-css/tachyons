@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Lists / Elements / Docs / TACHYONS',
+  modules: ['tachyons-lists'],
+  subNav: 'elements',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/elements/lists.md'
+}
+
 # Lists
 
 The `list` class serves as a reset for `list-style-type` to remove the default bullets.

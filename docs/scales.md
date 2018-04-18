@@ -1,5 +1,11 @@
 import { BigQuote } from './ui'
 
+export const meta = {
+  title: 'Scales / Overview / Docs / TACHYONS',
+  subNav: 'overview',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/scales.md'
+}
+
 # Scales
 
 Many of Tachyons modules employ the use of scales, including width, color, font size, spacing, etc.

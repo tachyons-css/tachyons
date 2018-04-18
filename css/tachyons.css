@@ -22,25 +22,20 @@
  *
  */
 /* External Library Includes */
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
  * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html { line-height: 1.15; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 /* Sections
    ========================================================================== */
 /**
- * Remove the margin in all browsers (opinionated).
+ * Remove the margin in all browsers.
  */
 body { margin: 0; }
-/**
- * Add the correct display in IE 9-.
- */
-article, aside, footer, header, nav, section { display: block; }
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -48,15 +43,6 @@ article, aside, footer, header, nav, section { display: block; }
 h1 { font-size: 2em; margin: .67em 0; }
 /* Grouping content
    ========================================================================== */
-/**
- * Add the correct display in IE 9-.
- * 1. Add the correct display in IE.
- */
-figcaption, figure, main {/* 1 */ display: block; }
-/**
- * Add the correct margin in IE 8.
- */
-figure { margin: 1em 40px; }
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
@@ -70,19 +56,14 @@ pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
 /* Text-level semantics
    ========================================================================== */
 /**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ * Remove the gray background on active links in IE 10.
  */
-a { background-color: transparent; /* 1 */ -webkit-text-decoration-skip: objects; /* 2 */ }
+a { background-color: transparent; }
 /**
- * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ -webkit-text-decoration: underline dotted; text-decoration: underline dotted; /* 2 */ }
-/**
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
- */
-b, strong { font-weight: inherit; }
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
@@ -92,14 +73,6 @@ b, strong { font-weight: bolder; }
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
-/**
- * Add the correct font style in Android 4.3-.
- */
-dfn { font-style: italic; }
-/**
- * Add the correct background and color in IE 9-.
- */
-mark { background-color: #ff0; color: #000; }
 /**
  * Add the correct font size in all browsers.
  */
@@ -114,28 +87,16 @@ sup { top: -0.5em; }
 /* Embedded content
    ========================================================================== */
 /**
- * Add the correct display in IE 9-.
- */
-audio, video { display: inline-block; }
-/**
- * Add the correct display in iOS 4-7.
- */
-audio:not([controls]) { display: none; height: 0; }
-/**
- * Remove the border on images inside links in IE 10-.
+ * Remove the border on images inside links in IE 10.
  */
 img { border-style: none; }
-/**
- * Hide the overflow in IE.
- */
-svg:not(:root) { overflow: hidden; }
 /* Forms
    ========================================================================== */
 /**
- * 1. Change the font styles in all browsers (opinionated).
+ * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-button, input, optgroup, select, textarea { font-family: sans-serif; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
+button, input, optgroup, select, textarea { font-family: inherit; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -147,12 +108,9 @@ button, input {/* 1 */ overflow: visible; }
  */
 button, select {/* 1 */ text-transform: none; }
 /**
- * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
- *    controls in Android 4.
- * 2. Correct the inability to style clickable types in iOS and Safari.
+ * Correct the inability to style clickable types in iOS and Safari.
  */
-button, html [type="button"], /* 1 */
-[type="reset"], [type="submit"] { -webkit-appearance: button; /* 2 */ }
+button, [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; }
 /**
  * Remove the inner border and padding in Firefox.
  */
@@ -175,17 +133,16 @@ fieldset { padding: .35em .75em .625em; }
  */
 legend { box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
 /**
- * 1. Add the correct display in IE 9-.
- * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-progress { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
+progress { vertical-align: baseline; }
 /**
- * Remove the default vertical scrollbar in IE.
+ * Remove the default vertical scrollbar in IE 10+.
  */
 textarea { overflow: auto; }
 /**
- * 1. Add the correct box sizing in IE 10-.
- * 2. Remove the padding in IE 10-.
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
  */
 [type="checkbox"], [type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
 /**
@@ -199,9 +156,8 @@ textarea { overflow: auto; }
  */
 [type="search"] { -webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ }
 /**
- * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -211,29 +167,21 @@ textarea { overflow: auto; }
 /* Interactive
    ========================================================================== */
 /*
- * Add the correct display in IE 9-.
- * 1. Add the correct display in Edge, IE, and Firefox.
+ * Add the correct display in Edge, IE 10+, and Firefox.
  */
-details, /* 1 */
-menu { display: block; }
+details { display: block; }
 /*
  * Add the correct display in all browsers.
  */
 summary { display: list-item; }
-/* Scripting
+/* Misc
    ========================================================================== */
 /**
- * Add the correct display in IE 9-.
- */
-canvas { display: inline-block; }
-/**
- * Add the correct display in IE.
+ * Add the correct display in IE 10+.
  */
 template { display: none; }
-/* Hidden
-   ========================================================================== */
 /**
- * Add the correct display in IE 10-.
+ * Add the correct display in IE 10.
  */
 [hidden] { display: none; }
 /* Modules */
@@ -449,26 +397,26 @@ http://tachyons.io/docs/themes/borders/
 - `--color-name` = black, white and their alpha colors are available
 */
 .b--black { border-color: #000; }
-.b--white { border-color: #fff; }
+.b--white { border-color: #f7f7f7; }
 .b--white-90 { border-color: rgba( 255, 255, 255, .9 ); }
-.b--white-80 { border-color: rgba( 255, 255, 255, .8 ); }
+.b--white-80 { border-color: undefined; }
 .b--white-70 { border-color: rgba( 255, 255, 255, .7 ); }
-.b--white-60 { border-color: rgba( 255, 255, 255, .6 ); }
-.b--white-50 { border-color: rgba( 255, 255, 255, .5 ); }
+.b--white-60 { border-color: undefined; }
+.b--white-50 { border-color: undefined; }
 .b--white-40 { border-color: rgba( 255, 255, 255, .4 ); }
-.b--white-30 { border-color: rgba( 255, 255, 255, .3 ); }
+.b--white-30 { border-color: undefined; }
 .b--white-20 { border-color: rgba( 255, 255, 255, .2 ); }
 .b--white-10 { border-color: rgba( 255, 255, 255, .1 ); }
 .b--white-05 { border-color: rgba( 255, 255, 255, .05 ); }
 .b--white-025 { border-color: rgba( 255, 255, 255, .025 ); }
 .b--white-0125 { border-color: rgba( 255, 255, 255, .0125 ); }
 .b--black-90 { border-color: rgba( 0, 0, 0, .9 ); }
-.b--black-80 { border-color: rgba( 0, 0, 0, .8 ); }
+.b--black-80 { border-color: undefined; }
 .b--black-70 { border-color: rgba( 0, 0, 0, .7 ); }
-.b--black-60 { border-color: rgba( 0, 0, 0, .6 ); }
-.b--black-50 { border-color: rgba( 0, 0, 0, .5 ); }
+.b--black-60 { border-color: undefined; }
+.b--black-50 { border-color: undefined; }
 .b--black-40 { border-color: rgba( 0, 0, 0, .4 ); }
-.b--black-30 { border-color: rgba( 0, 0, 0, .3 ); }
+.b--black-30 { border-color: undefined; }
 .b--black-20 { border-color: rgba( 0, 0, 0, .2 ); }
 .b--black-10 { border-color: rgba( 0, 0, 0, .1 ); }
 .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
@@ -508,10 +456,10 @@ http://tachyons.io/docs/themes/border-radius/
 - `-l` = large
 */
 .br0 { border-radius: 0; }
-.br1 { border-radius: .125rem; }
-.br2 { border-radius: .25rem; }
-.br3 { border-radius: .5rem; }
-.br4 { border-radius: 1rem; }
+.br1 { border-radius: 3px; }
+.br2 { border-radius: 5px; }
+.br3 { border-radius: 9px; }
+.br4 { border-radius: 17px; }
 .br-100 { border-radius: 100%; }
 .br-pill { border-radius: 9999px; }
 .br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
@@ -720,6 +668,18 @@ http://nicolasgallagher.com/micro-clearfix-hack/
 .cn { clear: none; }
 /*!!!
 
+# Direction
+
+Set direction of text, tables and horizontal overflow.
+
+### Docs
+
+https://tachyons.io/docs/layout/direction/
+*/
+.ltr { direction: ltr; }
+.rtl { direction: rtl; }
+/*!!!
+
 # DISPLAY
 
 ### Docs
@@ -756,9 +716,6 @@ http://tachyons.io/docs/layout/display
 .dt { display: table; }
 .dtc { display: table-cell; }
 .dt-row { display: table-row; }
-.dt-row-group { display: table-row-group; }
-.dt-column { display: table-column; }
-.dt-column-group { display: table-column-group; }
 /*
   This will set table to full width and then
   all cells will be equal width
@@ -954,7 +911,6 @@ http://tachyons.io/docs/typography/font-weight/
 ### Literal Values
 
 - b = bold
-- normal = normal
 
 ### Media Query Extensions
 
@@ -962,7 +918,6 @@ http://tachyons.io/docs/typography/font-weight/
 - `-m` = medium
 - `-l` = large
 */
-.normal { font-weight: normal; }
 .b { font-weight: bold; }
 .fw1 { font-weight: 100; }
 .fw2 { font-weight: 200; }
@@ -1167,8 +1122,9 @@ http://tachyons.io/docs/layout/max-widths/
 .mw5 { max-width: 16rem; }
 .mw6 { max-width: 32rem; }
 .mw7 { max-width: 48rem; }
-.mw8 { max-width: 64rem; }
-.mw9 { max-width: 96rem; }
+.mw8 { max-width: 56rem; }
+.mw9 { max-width: 64rem; }
+.mw10 { max-width: 80rem; }
 /* Max Width String Properties */
 .mw-none { max-width: none; }
 /*!!!
@@ -1195,8 +1151,6 @@ http://tachyons.io/docs/layout/widths/
 - -20  = literal value 20%
 - -25  = literal value 25%
 - -30  = literal value 30%
-- -33  = literal value 33%
-- -34  = literal value 34%
 - -40  = literal value 40%
 - -50  = literal value 50%
 - -60  = literal value 60%
@@ -1227,8 +1181,6 @@ http://tachyons.io/docs/layout/widths/
 .w-20 { width: 20%; }
 .w-25 { width: 25%; }
 .w-30 { width: 30%; }
-.w-33 { width: 33%; }
-.w-34 { width: 34%; }
 .w-40 { width: 40%; }
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
@@ -1390,119 +1342,285 @@ be set to the current text color.
 */
 /* Text colors */
 .black-90 { color: rgba( 0, 0, 0, .9 ); }
-.black-80 { color: rgba( 0, 0, 0, .8 ); }
+.black-80 { color: undefined; }
 .black-70 { color: rgba( 0, 0, 0, .7 ); }
-.black-60 { color: rgba( 0, 0, 0, .6 ); }
-.black-50 { color: rgba( 0, 0, 0, .5 ); }
+.black-60 { color: undefined; }
+.black-50 { color: undefined; }
 .black-40 { color: rgba( 0, 0, 0, .4 ); }
-.black-30 { color: rgba( 0, 0, 0, .3 ); }
+.black-30 { color: undefined; }
 .black-20 { color: rgba( 0, 0, 0, .2 ); }
 .black-10 { color: rgba( 0, 0, 0, .1 ); }
 .black-05 { color: rgba( 0, 0, 0, .05 ); }
 .white-90 { color: rgba( 255, 255, 255, .9 ); }
-.white-80 { color: rgba( 255, 255, 255, .8 ); }
+.white-80 { color: undefined; }
 .white-70 { color: rgba( 255, 255, 255, .7 ); }
-.white-60 { color: rgba( 255, 255, 255, .6 ); }
-.white-50 { color: rgba( 255, 255, 255, .5 ); }
+.white-60 { color: undefined; }
+.white-50 { color: undefined; }
 .white-40 { color: rgba( 255, 255, 255, .4 ); }
-.white-30 { color: rgba( 255, 255, 255, .3 ); }
+.white-30 { color: undefined; }
 .white-20 { color: rgba( 255, 255, 255, .2 ); }
 .white-10 { color: rgba( 255, 255, 255, .1 ); }
 .black { color: #000; }
-.near-black { color: #111; }
-.dark-gray { color: #333; }
-.mid-gray { color: #555; }
-.gray { color: #777; }
-.silver { color: #999; }
-.light-silver { color: #aaa; }
-.moon-gray { color: #ccc; }
-.light-gray { color: #eee; }
-.near-white { color: #f4f4f4; }
-.white { color: #fff; }
-.dark-red { color: #e7040f; }
-.red { color: #ff4136; }
-.light-red { color: #ff725c; }
-.orange { color: #ff6300; }
-.gold { color: #ffb700; }
-.yellow { color: #ffd700; }
-.light-yellow { color: #fbf1a9; }
-.purple { color: #5e2ca5; }
-.light-purple { color: #a463f2; }
-.dark-pink { color: #d5008f; }
-.hot-pink { color: #ff41b4; }
-.pink { color: #ff80cc; }
-.light-pink { color: #ffa3d7; }
-.dark-green { color: #137752; }
-.green { color: #19a974; }
-.light-green { color: #9eebcf; }
-.navy { color: #001b44; }
-.dark-blue { color: #00449e; }
-.blue { color: #357edd; }
-.light-blue { color: #96ccff; }
-.lightest-blue { color: #cdecff; }
-.washed-blue { color: #f6fffe; }
-.washed-green { color: #e8fdf5; }
-.washed-yellow { color: #fffceb; }
-.washed-red { color: #ffdfdf; }
-.color-inherit { color: inherit; }
+.gray0 { color: #161a1d; }
+.gray1 { color: #242c34; }
+.gray2 { color: #364049; }
+.gray3 { color: #4b545c; }
+.gray4 { color: #626a71; }
+.gray5 { color: #798086; }
+.gray6 { color: #91969b; }
+.gray7 { color: #a9aeb1; }
+.gray8 { color: #c3c5c8; }
+.white { color: #f7f7f7; }
+.green-0 { color: #044324; }
+.green-1 { color: #05532d; }
+.green-2 { color: #087640; }
+.green-3 { color: #098849; }
+.green-4 { color: #0b9b53; }
+.green-5 { color: #0cad5d; }
+.green-6 { color: #0ec167; }
+.green-7 { color: #0fd472; }
+.green-8 { color: #10e87c; }
+.green-9 { color: #78f5a6; }
+.green-10 { color: #c3fbdf; }
+.teal-0 { color: #003d37; }
+.teal-1 { color: #004e46; }
+.teal-2 { color: #007166; }
+.teal-3 { color: #008477; }
+.teal-4 { color: #009788; }
+.teal-5 { color: #00ab9a; }
+.teal-6 { color: #00bfac; }
+.teal-7 { color: #00d3be; }
+.teal-8 { color: #00e8d1; }
+.teal-9 { color: #00fde4; }
+.teal-10 { color: #ccfffa; }
+.cyan-0 { color: #015151; }
+.cyan-1 { color: #046064; }
+.cyan-2 { color: #0f7f8a; }
+.cyan-3 { color: #148f9f; }
+.cyan-4 { color: #19a0b3; }
+.cyan-5 { color: #1eb1c9; }
+.cyan-6 { color: #24c2de; }
+.cyan-7 { color: #29d3f4; }
+.cyan-8 { color: #64e2fd; }
+.cyan-9 { color: #9cf0fe; }
+.cyan-10 { color: #c7fefe; }
+.blue-0 { color: #002c52; }
+.blue-1 { color: #003a6c; }
+.blue-2 { color: #0057a2; }
+.blue-3 { color: #0066bf; }
+.blue-4 { color: #0076dc; }
+.blue-5 { color: #0086fb; }
+.blue-6 { color: #4d97ff; }
+.blue-7 { color: #72a9ff; }
+.blue-8 { color: #8fbbff; }
+.blue-9 { color: #a8ceff; }
+.blue-10 { color: #bfe1ff; }
+.indigo-0 { color: #2c0599; }
+.indigo-1 { color: #3706be; }
+.indigo-2 { color: #5c26ef; }
+.indigo-3 { color: #733ff1; }
+.indigo-4 { color: #8655f3; }
+.indigo-5 { color: #9769f5; }
+.indigo-6 { color: #a67df7; }
+.indigo-7 { color: #b491f9; }
+.indigo-8 { color: #c2a6fb; }
+.indigo-9 { color: #cebafc; }
+.indigo-10 { color: #dacefd; }
+.purple-0 { color: #500576; }
+.purple-0 { color: #630691; }
+.purple-0 { color: #8a09cb; }
+.purple-0 { color: #9f0ae9; }
+.purple-0 { color: #af2ef6; }
+.purple-0 { color: #bb4ef7; }
+.purple-0 { color: #c568f9; }
+.purple-0 { color: #d080fa; }
+.purple-0 { color: #d996fb; }
+.purple-0 { color: #e1acfb; }
+.purple-0 { color: #e9c2fc; }
+.pink { color: #640233; }
+.pink { color: #7c033f; }
+.pink { color: #ae0459; }
+.pink { color: #c80467; }
+.pink { color: #e30574; }
+.pink { color: #fb1d83; }
+.pink { color: #fe5195; }
+.pink { color: #ff73a7; }
+.pink { color: #ff8fba; }
+.pink { color: #ffa9cc; }
+.pink { color: #fec1df; }
+.red-0 { color: #390408; }
+.red-1 { color: #520814; }
+.red-2 { color: #8a1223; }
+.red-3 { color: #a7172b; }
+.red-4 { color: #c61d33; }
+.red-5 { color: #e02e40; }
+.red-6 { color: #e95459; }
+.red-7 { color: #f17373; }
+.red-8 { color: #f68e8f; }
+.red-9 { color: #faa9ab; }
+.red-10 { color: #fbc3c8; }
+.orange-0 { color: #6f2601; }
+.orange-1 { color: #862e03; }
+.orange-2 { color: #b73f04; }
+.orange-3 { color: #d04704; }
+.orange-4 { color: #ea5003; }
+.orange-5 { color: #fe6018; }
+.orange-6 { color: #ff7e45; }
+.orange-7 { color: #ff9969; }
+.orange-8 { color: #ffb18b; }
+.orange-9 { color: #ffc7ac; }
+.orange-10 { color: #feddcd; }
+.yellow-0 { color: #806800; }
+.yellow-1 { color: #8e7300; }
+.yellow-2 { color: #aa8a00; }
+.yellow-3 { color: #b89600; }
+.yellow-4 { color: #c7a200; }
+.yellow-5 { color: #d6ae00; }
+.yellow-6 { color: #e5ba00; }
+.yellow-7 { color: #f4c700; }
+.yellow-8 { color: #ffd434; }
+.yellow-9 { color: #ffe483; }
+.yellow-10 { color: #fff3bf; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
-.bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
+.bg-black-80 { background-color: undefined; }
 .bg-black-70 { background-color: rgba( 0, 0, 0, .7 ); }
-.bg-black-60 { background-color: rgba( 0, 0, 0, .6 ); }
-.bg-black-50 { background-color: rgba( 0, 0, 0, .5 ); }
+.bg-black-60 { background-color: undefined; }
+.bg-black-50 { background-color: undefined; }
 .bg-black-40 { background-color: rgba( 0, 0, 0, .4 ); }
-.bg-black-30 { background-color: rgba( 0, 0, 0, .3 ); }
+.bg-black-30 { background-color: undefined; }
 .bg-black-20 { background-color: rgba( 0, 0, 0, .2 ); }
 .bg-black-10 { background-color: rgba( 0, 0, 0, .1 ); }
 .bg-black-05 { background-color: rgba( 0, 0, 0, .05 ); }
 .bg-white-90 { background-color: rgba( 255, 255, 255, .9 ); }
-.bg-white-80 { background-color: rgba( 255, 255, 255, .8 ); }
+.bg-white-80 { background-color: undefined; }
 .bg-white-70 { background-color: rgba( 255, 255, 255, .7 ); }
-.bg-white-60 { background-color: rgba( 255, 255, 255, .6 ); }
-.bg-white-50 { background-color: rgba( 255, 255, 255, .5 ); }
+.bg-white-60 { background-color: undefined; }
+.bg-white-50 { background-color: undefined; }
 .bg-white-40 { background-color: rgba( 255, 255, 255, .4 ); }
-.bg-white-30 { background-color: rgba( 255, 255, 255, .3 ); }
+.bg-white-30 { background-color: undefined; }
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
-/* Background colors */
 .bg-black { background-color: #000; }
-.bg-near-black { background-color: #111; }
-.bg-dark-gray { background-color: #333; }
-.bg-mid-gray { background-color: #555; }
-.bg-gray { background-color: #777; }
-.bg-silver { background-color: #999; }
-.bg-light-silver { background-color: #aaa; }
-.bg-moon-gray { background-color: #ccc; }
-.bg-light-gray { background-color: #eee; }
-.bg-near-white { background-color: #f4f4f4; }
-.bg-white { background-color: #fff; }
-.bg-transparent { background-color: transparent; }
-.bg-dark-red { background-color: #e7040f; }
-.bg-red { background-color: #ff4136; }
-.bg-light-red { background-color: #ff725c; }
-.bg-orange { background-color: #ff6300; }
-.bg-gold { background-color: #ffb700; }
-.bg-yellow { background-color: #ffd700; }
-.bg-light-yellow { background-color: #fbf1a9; }
-.bg-purple { background-color: #5e2ca5; }
-.bg-light-purple { background-color: #a463f2; }
-.bg-dark-pink { background-color: #d5008f; }
-.bg-hot-pink { background-color: #ff41b4; }
-.bg-pink { background-color: #ff80cc; }
-.bg-light-pink { background-color: #ffa3d7; }
-.bg-dark-green { background-color: #137752; }
-.bg-green { background-color: #19a974; }
-.bg-light-green { background-color: #9eebcf; }
-.bg-navy { background-color: #001b44; }
-.bg-dark-blue { background-color: #00449e; }
-.bg-blue { background-color: #357edd; }
-.bg-light-blue { background-color: #96ccff; }
-.bg-lightest-blue { background-color: #cdecff; }
-.bg-washed-blue { background-color: #f6fffe; }
-.bg-washed-green { background-color: #e8fdf5; }
-.bg-washed-yellow { background-color: #fffceb; }
-.bg-washed-red { background-color: #ffdfdf; }
-.bg-inherit { background-color: inherit; }
+.bg-gray0 { background-color: #161a1d; }
+.bg-gray1 { background-color: #242c34; }
+.bg-gray2 { background-color: #364049; }
+.bg-gray3 { background-color: #4b545c; }
+.bg-gray4 { background-color: #626a71; }
+.bg-gray5 { background-color: #798086; }
+.bg-gray6 { background-color: #91969b; }
+.bg-gray7 { background-color: #a9aeb1; }
+.bg-gray8 { background-color: #c3c5c8; }
+.bg-white { background-color: #f7f7f7; }
+.bg-green-0 { background-color: #044324; }
+.bg-green-1 { background-color: #05532d; }
+.bg-green-2 { background-color: #087640; }
+.bg-green-3 { background-color: #098849; }
+.bg-green-4 { background-color: #0b9b53; }
+.bg-green-5 { background-color: #0cad5d; }
+.bg-green-6 { background-color: #0ec167; }
+.bg-green-7 { background-color: #0fd472; }
+.bg-green-8 { background-color: #10e87c; }
+.bg-green-9 { background-color: #78f5a6; }
+.bg-green-10 { background-color: #c3fbdf; }
+.bg-teal-0 { background-color: #003d37; }
+.bg-teal-1 { background-color: #004e46; }
+.bg-teal-2 { background-color: #007166; }
+.bg-teal-3 { background-color: #008477; }
+.bg-teal-4 { background-color: #009788; }
+.bg-teal-5 { background-color: #00ab9a; }
+.bg-teal-6 { background-color: #00bfac; }
+.bg-teal-7 { background-color: #00d3be; }
+.bg-teal-8 { background-color: #00e8d1; }
+.bg-teal-9 { background-color: #00fde4; }
+.bg-teal-10 { background-color: #ccfffa; }
+.bg-cyan-0 { background-color: #015151; }
+.bg-cyan-1 { background-color: #046064; }
+.bg-cyan-2 { background-color: #0f7f8a; }
+.bg-cyan-3 { background-color: #148f9f; }
+.bg-cyan-4 { background-color: #19a0b3; }
+.bg-cyan-5 { background-color: #1eb1c9; }
+.bg-cyan-6 { background-color: #24c2de; }
+.bg-cyan-7 { background-color: #29d3f4; }
+.bg-cyan-8 { background-color: #64e2fd; }
+.bg-cyan-9 { background-color: #9cf0fe; }
+.bg-cyan-10 { background-color: #c7fefe; }
+.bg-blue-0 { background-color: #002c52; }
+.bg-blue-1 { background-color: #003a6c; }
+.bg-blue-2 { background-color: #0057a2; }
+.bg-blue-3 { background-color: #0066bf; }
+.bg-blue-4 { background-color: #0076dc; }
+.bg-blue-5 { background-color: #0086fb; }
+.bg-blue-6 { background-color: #4d97ff; }
+.bg-blue-7 { background-color: #72a9ff; }
+.bg-blue-8 { background-color: #8fbbff; }
+.bg-blue-9 { background-color: #a8ceff; }
+.bg-blue-10 { background-color: #bfe1ff; }
+.bg-indigo-0 { background-color: #2c0599; }
+.bg-indigo-1 { background-color: #3706be; }
+.bg-indigo-2 { background-color: #5c26ef; }
+.bg-indigo-3 { background-color: #733ff1; }
+.bg-indigo-4 { background-color: #8655f3; }
+.bg-indigo-5 { background-color: #9769f5; }
+.bg-indigo-6 { background-color: #a67df7; }
+.bg-indigo-7 { background-color: #b491f9; }
+.bg-indigo-8 { background-color: #c2a6fb; }
+.bg-indigo-9 { background-color: #cebafc; }
+.bg-indigo-10 { background-color: #dacefd; }
+.bg-purple-0 { background-color: #500576; }
+.bg-purple-0 { background-color: #630691; }
+.bg-purple-0 { background-color: #8a09cb; }
+.bg-purple-0 { background-color: #9f0ae9; }
+.bg-purple-0 { background-color: #af2ef6; }
+.bg-purple-0 { background-color: #bb4ef7; }
+.bg-purple-0 { background-color: #c568f9; }
+.bg-purple-0 { background-color: #d080fa; }
+.bg-purple-0 { background-color: #d996fb; }
+.bg-purple-0 { background-color: #e1acfb; }
+.bg-purple-0 { background-color: #e9c2fc; }
+.bg-pink { background-color: #640233; }
+.bg-pink { background-color: #7c033f; }
+.bg-pink { background-color: #ae0459; }
+.bg-pink { background-color: #c80467; }
+.bg-pink { background-color: #e30574; }
+.bg-pink { background-color: #fb1d83; }
+.bg-pink { background-color: #fe5195; }
+.bg-pink { background-color: #ff73a7; }
+.bg-pink { background-color: #ff8fba; }
+.bg-pink { background-color: #ffa9cc; }
+.bg-pink { background-color: #fec1df; }
+.bg-red-0 { background-color: #390408; }
+.bg-red-1 { background-color: #520814; }
+.bg-red-2 { background-color: #8a1223; }
+.bg-red-3 { background-color: #a7172b; }
+.bg-red-4 { background-color: #c61d33; }
+.bg-red-5 { background-color: #e02e40; }
+.bg-red-6 { background-color: #e95459; }
+.bg-red-7 { background-color: #f17373; }
+.bg-red-8 { background-color: #f68e8f; }
+.bg-red-9 { background-color: #faa9ab; }
+.bg-red-10 { background-color: #fbc3c8; }
+.bg-orange-0 { background-color: #6f2601; }
+.bg-orange-1 { background-color: #862e03; }
+.bg-orange-2 { background-color: #b73f04; }
+.bg-orange-3 { background-color: #d04704; }
+.bg-orange-4 { background-color: #ea5003; }
+.bg-orange-5 { background-color: #fe6018; }
+.bg-orange-6 { background-color: #ff7e45; }
+.bg-orange-7 { background-color: #ff9969; }
+.bg-orange-8 { background-color: #ffb18b; }
+.bg-orange-9 { background-color: #ffc7ac; }
+.bg-orange-10 { background-color: #feddcd; }
+.bg-yellow-0 { background-color: #806800; }
+.bg-yellow-1 { background-color: #8e7300; }
+.bg-yellow-2 { background-color: #aa8a00; }
+.bg-yellow-3 { background-color: #b89600; }
+.bg-yellow-4 { background-color: #c7a200; }
+.bg-yellow-5 { background-color: #d6ae00; }
+.bg-yellow-6 { background-color: #e5ba00; }
+.bg-yellow-7 { background-color: #f4c700; }
+.bg-yellow-8 { background-color: #ffd434; }
+.bg-yellow-9 { background-color: #ffe483; }
+.bg-yellow-10 { background-color: #fff3bf; }
 /*!!!
 
 # SKINS:PSEUDO
@@ -1516,58 +1634,40 @@ http://tachyons.io/docs/themes/skins-pseudo/
  */
 .hover-black:hover { color: #000; }
 .hover-black:focus { color: #000; }
-.hover-near-black:hover { color: #111; }
-.hover-near-black:focus { color: #111; }
-.hover-dark-gray:hover { color: #333; }
-.hover-dark-gray:focus { color: #333; }
-.hover-mid-gray:hover { color: #555; }
-.hover-mid-gray:focus { color: #555; }
-.hover-gray:hover { color: #777; }
-.hover-gray:focus { color: #777; }
-.hover-silver:hover { color: #999; }
-.hover-silver:focus { color: #999; }
-.hover-light-silver:hover { color: #aaa; }
-.hover-light-silver:focus { color: #aaa; }
-.hover-moon-gray:hover { color: #ccc; }
-.hover-moon-gray:focus { color: #ccc; }
-.hover-light-gray:hover { color: #eee; }
-.hover-light-gray:focus { color: #eee; }
-.hover-near-white:hover { color: #f4f4f4; }
-.hover-near-white:focus { color: #f4f4f4; }
-.hover-white:hover { color: #fff; }
-.hover-white:focus { color: #fff; }
+.hover-white:hover { color: #f7f7f7; }
+.hover-white:focus { color: #f7f7f7; }
 .hover-black-90:hover { color: rgba( 0, 0, 0, .9 ); }
 .hover-black-90:focus { color: rgba( 0, 0, 0, .9 ); }
-.hover-black-80:hover { color: rgba( 0, 0, 0, .8 ); }
-.hover-black-80:focus { color: rgba( 0, 0, 0, .8 ); }
+.hover-black-80:hover { color: undefined; }
+.hover-black-80:focus { color: undefined; }
 .hover-black-70:hover { color: rgba( 0, 0, 0, .7 ); }
 .hover-black-70:focus { color: rgba( 0, 0, 0, .7 ); }
-.hover-black-60:hover { color: rgba( 0, 0, 0, .6 ); }
-.hover-black-60:focus { color: rgba( 0, 0, 0, .6 ); }
-.hover-black-50:hover { color: rgba( 0, 0, 0, .5 ); }
-.hover-black-50:focus { color: rgba( 0, 0, 0, .5 ); }
+.hover-black-60:hover { color: undefined; }
+.hover-black-60:focus { color: undefined; }
+.hover-black-50:hover { color: undefined; }
+.hover-black-50:focus { color: undefined; }
 .hover-black-40:hover { color: rgba( 0, 0, 0, .4 ); }
 .hover-black-40:focus { color: rgba( 0, 0, 0, .4 ); }
-.hover-black-30:hover { color: rgba( 0, 0, 0, .3 ); }
-.hover-black-30:focus { color: rgba( 0, 0, 0, .3 ); }
+.hover-black-30:hover { color: undefined; }
+.hover-black-30:focus { color: undefined; }
 .hover-black-20:hover { color: rgba( 0, 0, 0, .2 ); }
 .hover-black-20:focus { color: rgba( 0, 0, 0, .2 ); }
 .hover-black-10:hover { color: rgba( 0, 0, 0, .1 ); }
 .hover-black-10:focus { color: rgba( 0, 0, 0, .1 ); }
 .hover-white-90:hover { color: rgba( 255, 255, 255, .9 ); }
 .hover-white-90:focus { color: rgba( 255, 255, 255, .9 ); }
-.hover-white-80:hover { color: rgba( 255, 255, 255, .8 ); }
-.hover-white-80:focus { color: rgba( 255, 255, 255, .8 ); }
+.hover-white-80:hover { color: undefined; }
+.hover-white-80:focus { color: undefined; }
 .hover-white-70:hover { color: rgba( 255, 255, 255, .7 ); }
 .hover-white-70:focus { color: rgba( 255, 255, 255, .7 ); }
-.hover-white-60:hover { color: rgba( 255, 255, 255, .6 ); }
-.hover-white-60:focus { color: rgba( 255, 255, 255, .6 ); }
-.hover-white-50:hover { color: rgba( 255, 255, 255, .5 ); }
-.hover-white-50:focus { color: rgba( 255, 255, 255, .5 ); }
+.hover-white-60:hover { color: undefined; }
+.hover-white-60:focus { color: undefined; }
+.hover-white-50:hover { color: undefined; }
+.hover-white-50:focus { color: undefined; }
 .hover-white-40:hover { color: rgba( 255, 255, 255, .4 ); }
 .hover-white-40:focus { color: rgba( 255, 255, 255, .4 ); }
-.hover-white-30:hover { color: rgba( 255, 255, 255, .3 ); }
-.hover-white-30:focus { color: rgba( 255, 255, 255, .3 ); }
+.hover-white-30:hover { color: undefined; }
+.hover-white-30:focus { color: undefined; }
 .hover-white-20:hover { color: rgba( 255, 255, 255, .2 ); }
 .hover-white-20:focus { color: rgba( 255, 255, 255, .2 ); }
 .hover-white-10:hover { color: rgba( 255, 255, 255, .1 ); }
@@ -1575,165 +1675,46 @@ http://tachyons.io/docs/themes/skins-pseudo/
 .hover-inherit:hover, .hover-inherit:focus { color: inherit; }
 .hover-bg-black:hover { background-color: #000; }
 .hover-bg-black:focus { background-color: #000; }
-.hover-bg-near-black:hover { background-color: #111; }
-.hover-bg-near-black:focus { background-color: #111; }
-.hover-bg-dark-gray:hover { background-color: #333; }
-.hover-bg-dark-gray:focus { background-color: #333; }
-.hover-bg-mid-gray:hover { background-color: #555; }
-.hover-bg-mid-gray:focus { background-color: #555; }
-.hover-bg-gray:hover { background-color: #777; }
-.hover-bg-gray:focus { background-color: #777; }
-.hover-bg-silver:hover { background-color: #999; }
-.hover-bg-silver:focus { background-color: #999; }
-.hover-bg-light-silver:hover { background-color: #aaa; }
-.hover-bg-light-silver:focus { background-color: #aaa; }
-.hover-bg-moon-gray:hover { background-color: #ccc; }
-.hover-bg-moon-gray:focus { background-color: #ccc; }
-.hover-bg-light-gray:hover { background-color: #eee; }
-.hover-bg-light-gray:focus { background-color: #eee; }
-.hover-bg-near-white:hover { background-color: #f4f4f4; }
-.hover-bg-near-white:focus { background-color: #f4f4f4; }
-.hover-bg-white:hover { background-color: #fff; }
-.hover-bg-white:focus { background-color: #fff; }
+.hover-bg-white:hover { background-color: #f7f7f7; }
+.hover-bg-white:focus { background-color: #f7f7f7; }
 .hover-bg-transparent:hover { background-color: transparent; }
 .hover-bg-transparent:focus { background-color: transparent; }
 .hover-bg-black-90:hover { background-color: rgba( 0, 0, 0, .9 ); }
 .hover-bg-black-90:focus { background-color: rgba( 0, 0, 0, .9 ); }
-.hover-bg-black-80:hover { background-color: rgba( 0, 0, 0, .8 ); }
-.hover-bg-black-80:focus { background-color: rgba( 0, 0, 0, .8 ); }
+.hover-bg-black-80:hover { background-color: undefined; }
+.hover-bg-black-80:focus { background-color: undefined; }
 .hover-bg-black-70:hover { background-color: rgba( 0, 0, 0, .7 ); }
 .hover-bg-black-70:focus { background-color: rgba( 0, 0, 0, .7 ); }
-.hover-bg-black-60:hover { background-color: rgba( 0, 0, 0, .6 ); }
-.hover-bg-black-60:focus { background-color: rgba( 0, 0, 0, .6 ); }
-.hover-bg-black-50:hover { background-color: rgba( 0, 0, 0, .5 ); }
-.hover-bg-black-50:focus { background-color: rgba( 0, 0, 0, .5 ); }
+.hover-bg-black-60:hover { background-color: undefined; }
+.hover-bg-black-60:focus { background-color: undefined; }
+.hover-bg-black-50:hover { background-color: undefined; }
+.hover-bg-black-50:focus { background-color: undefined; }
 .hover-bg-black-40:hover { background-color: rgba( 0, 0, 0, .4 ); }
 .hover-bg-black-40:focus { background-color: rgba( 0, 0, 0, .4 ); }
-.hover-bg-black-30:hover { background-color: rgba( 0, 0, 0, .3 ); }
-.hover-bg-black-30:focus { background-color: rgba( 0, 0, 0, .3 ); }
+.hover-bg-black-30:hover { background-color: undefined; }
+.hover-bg-black-30:focus { background-color: undefined; }
 .hover-bg-black-20:hover { background-color: rgba( 0, 0, 0, .2 ); }
 .hover-bg-black-20:focus { background-color: rgba( 0, 0, 0, .2 ); }
 .hover-bg-black-10:hover { background-color: rgba( 0, 0, 0, .1 ); }
 .hover-bg-black-10:focus { background-color: rgba( 0, 0, 0, .1 ); }
 .hover-bg-white-90:hover { background-color: rgba( 255, 255, 255, .9 ); }
 .hover-bg-white-90:focus { background-color: rgba( 255, 255, 255, .9 ); }
-.hover-bg-white-80:hover { background-color: rgba( 255, 255, 255, .8 ); }
-.hover-bg-white-80:focus { background-color: rgba( 255, 255, 255, .8 ); }
+.hover-bg-white-80:hover { background-color: undefined; }
+.hover-bg-white-80:focus { background-color: undefined; }
 .hover-bg-white-70:hover { background-color: rgba( 255, 255, 255, .7 ); }
 .hover-bg-white-70:focus { background-color: rgba( 255, 255, 255, .7 ); }
-.hover-bg-white-60:hover { background-color: rgba( 255, 255, 255, .6 ); }
-.hover-bg-white-60:focus { background-color: rgba( 255, 255, 255, .6 ); }
-.hover-bg-white-50:hover { background-color: rgba( 255, 255, 255, .5 ); }
-.hover-bg-white-50:focus { background-color: rgba( 255, 255, 255, .5 ); }
+.hover-bg-white-60:hover { background-color: undefined; }
+.hover-bg-white-60:focus { background-color: undefined; }
+.hover-bg-white-50:hover { background-color: undefined; }
+.hover-bg-white-50:focus { background-color: undefined; }
 .hover-bg-white-40:hover { background-color: rgba( 255, 255, 255, .4 ); }
 .hover-bg-white-40:focus { background-color: rgba( 255, 255, 255, .4 ); }
-.hover-bg-white-30:hover { background-color: rgba( 255, 255, 255, .3 ); }
-.hover-bg-white-30:focus { background-color: rgba( 255, 255, 255, .3 ); }
+.hover-bg-white-30:hover { background-color: undefined; }
+.hover-bg-white-30:focus { background-color: undefined; }
 .hover-bg-white-20:hover { background-color: rgba( 255, 255, 255, .2 ); }
 .hover-bg-white-20:focus { background-color: rgba( 255, 255, 255, .2 ); }
 .hover-bg-white-10:hover { background-color: rgba( 255, 255, 255, .1 ); }
 .hover-bg-white-10:focus { background-color: rgba( 255, 255, 255, .1 ); }
-.hover-dark-red:hover { color: #e7040f; }
-.hover-dark-red:focus { color: #e7040f; }
-.hover-red:hover { color: #ff4136; }
-.hover-red:focus { color: #ff4136; }
-.hover-light-red:hover { color: #ff725c; }
-.hover-light-red:focus { color: #ff725c; }
-.hover-orange:hover { color: #ff6300; }
-.hover-orange:focus { color: #ff6300; }
-.hover-gold:hover { color: #ffb700; }
-.hover-gold:focus { color: #ffb700; }
-.hover-yellow:hover { color: #ffd700; }
-.hover-yellow:focus { color: #ffd700; }
-.hover-light-yellow:hover { color: #fbf1a9; }
-.hover-light-yellow:focus { color: #fbf1a9; }
-.hover-purple:hover { color: #5e2ca5; }
-.hover-purple:focus { color: #5e2ca5; }
-.hover-light-purple:hover { color: #a463f2; }
-.hover-light-purple:focus { color: #a463f2; }
-.hover-dark-pink:hover { color: #d5008f; }
-.hover-dark-pink:focus { color: #d5008f; }
-.hover-hot-pink:hover { color: #ff41b4; }
-.hover-hot-pink:focus { color: #ff41b4; }
-.hover-pink:hover { color: #ff80cc; }
-.hover-pink:focus { color: #ff80cc; }
-.hover-light-pink:hover { color: #ffa3d7; }
-.hover-light-pink:focus { color: #ffa3d7; }
-.hover-dark-green:hover { color: #137752; }
-.hover-dark-green:focus { color: #137752; }
-.hover-green:hover { color: #19a974; }
-.hover-green:focus { color: #19a974; }
-.hover-light-green:hover { color: #9eebcf; }
-.hover-light-green:focus { color: #9eebcf; }
-.hover-navy:hover { color: #001b44; }
-.hover-navy:focus { color: #001b44; }
-.hover-dark-blue:hover { color: #00449e; }
-.hover-dark-blue:focus { color: #00449e; }
-.hover-blue:hover { color: #357edd; }
-.hover-blue:focus { color: #357edd; }
-.hover-light-blue:hover { color: #96ccff; }
-.hover-light-blue:focus { color: #96ccff; }
-.hover-lightest-blue:hover { color: #cdecff; }
-.hover-lightest-blue:focus { color: #cdecff; }
-.hover-washed-blue:hover { color: #f6fffe; }
-.hover-washed-blue:focus { color: #f6fffe; }
-.hover-washed-green:hover { color: #e8fdf5; }
-.hover-washed-green:focus { color: #e8fdf5; }
-.hover-washed-yellow:hover { color: #fffceb; }
-.hover-washed-yellow:focus { color: #fffceb; }
-.hover-washed-red:hover { color: #ffdfdf; }
-.hover-washed-red:focus { color: #ffdfdf; }
-.hover-bg-dark-red:hover { background-color: #e7040f; }
-.hover-bg-dark-red:focus { background-color: #e7040f; }
-.hover-bg-red:hover { background-color: #ff4136; }
-.hover-bg-red:focus { background-color: #ff4136; }
-.hover-bg-light-red:hover { background-color: #ff725c; }
-.hover-bg-light-red:focus { background-color: #ff725c; }
-.hover-bg-orange:hover { background-color: #ff6300; }
-.hover-bg-orange:focus { background-color: #ff6300; }
-.hover-bg-gold:hover { background-color: #ffb700; }
-.hover-bg-gold:focus { background-color: #ffb700; }
-.hover-bg-yellow:hover { background-color: #ffd700; }
-.hover-bg-yellow:focus { background-color: #ffd700; }
-.hover-bg-light-yellow:hover { background-color: #fbf1a9; }
-.hover-bg-light-yellow:focus { background-color: #fbf1a9; }
-.hover-bg-purple:hover { background-color: #5e2ca5; }
-.hover-bg-purple:focus { background-color: #5e2ca5; }
-.hover-bg-light-purple:hover { background-color: #a463f2; }
-.hover-bg-light-purple:focus { background-color: #a463f2; }
-.hover-bg-dark-pink:hover { background-color: #d5008f; }
-.hover-bg-dark-pink:focus { background-color: #d5008f; }
-.hover-bg-hot-pink:hover { background-color: #ff41b4; }
-.hover-bg-hot-pink:focus { background-color: #ff41b4; }
-.hover-bg-pink:hover { background-color: #ff80cc; }
-.hover-bg-pink:focus { background-color: #ff80cc; }
-.hover-bg-light-pink:hover { background-color: #ffa3d7; }
-.hover-bg-light-pink:focus { background-color: #ffa3d7; }
-.hover-bg-dark-green:hover { background-color: #137752; }
-.hover-bg-dark-green:focus { background-color: #137752; }
-.hover-bg-green:hover { background-color: #19a974; }
-.hover-bg-green:focus { background-color: #19a974; }
-.hover-bg-light-green:hover { background-color: #9eebcf; }
-.hover-bg-light-green:focus { background-color: #9eebcf; }
-.hover-bg-navy:hover { background-color: #001b44; }
-.hover-bg-navy:focus { background-color: #001b44; }
-.hover-bg-dark-blue:hover { background-color: #00449e; }
-.hover-bg-dark-blue:focus { background-color: #00449e; }
-.hover-bg-blue:hover { background-color: #357edd; }
-.hover-bg-blue:focus { background-color: #357edd; }
-.hover-bg-light-blue:hover { background-color: #96ccff; }
-.hover-bg-light-blue:focus { background-color: #96ccff; }
-.hover-bg-lightest-blue:hover { background-color: #cdecff; }
-.hover-bg-lightest-blue:focus { background-color: #cdecff; }
-.hover-bg-washed-blue:hover { background-color: #f6fffe; }
-.hover-bg-washed-blue:focus { background-color: #f6fffe; }
-.hover-bg-washed-green:hover { background-color: #e8fdf5; }
-.hover-bg-washed-green:focus { background-color: #e8fdf5; }
-.hover-bg-washed-yellow:hover { background-color: #fffceb; }
-.hover-bg-washed-yellow:focus { background-color: #fffceb; }
-.hover-bg-washed-red:hover { background-color: #ffdfdf; }
-.hover-bg-washed-red:focus { background-color: #ffdfdf; }
-.hover-bg-inherit:hover, .hover-bg-inherit:focus { background-color: inherit; }
 /*!!!
 
 # SPACING
@@ -1751,7 +1732,6 @@ http://tachyons.io/docs/layout/spacing/
 
 ### Modifiers
 
-- a = all
 - h = horizontal
 - v = vertical
 - t = top
@@ -1775,14 +1755,14 @@ http://tachyons.io/docs/layout/spacing/
 - `-l` = large
 */
 /* Variables */
-.pa0 { padding: 0; }
-.pa1 { padding: .25rem; }
-.pa2 { padding: .5rem; }
-.pa3 { padding: 1rem; }
-.pa4 { padding: 2rem; }
-.pa5 { padding: 4rem; }
-.pa6 { padding: 8rem; }
-.pa7 { padding: 16rem; }
+.p0 { padding: 0; }
+.p1 { padding: .25rem; }
+.p2 { padding: .5rem; }
+.p3 { padding: 1rem; }
+.p4 { padding: 2rem; }
+.p5 { padding: 4rem; }
+.p6 { padding: 8rem; }
+.p7 { padding: 16rem; }
 .pl0 { padding-left: 0; }
 .pl1 { padding-left: .25rem; }
 .pl2 { padding-left: .5rem; }
@@ -1831,14 +1811,14 @@ http://tachyons.io/docs/layout/spacing/
 .ph5 { padding-left: 4rem; padding-right: 4rem; }
 .ph6 { padding-left: 8rem; padding-right: 8rem; }
 .ph7 { padding-left: 16rem; padding-right: 16rem; }
-.ma0 { margin: 0; }
-.ma1 { margin: .25rem; }
-.ma2 { margin: .5rem; }
-.ma3 { margin: 1rem; }
-.ma4 { margin: 2rem; }
-.ma5 { margin: 4rem; }
-.ma6 { margin: 8rem; }
-.ma7 { margin: 16rem; }
+.m0 { margin: 0; }
+.m1 { margin: .25rem; }
+.m2 { margin: .5rem; }
+.m3 { margin: 1rem; }
+.m4 { margin: 2rem; }
+.m5 { margin: 4rem; }
+.m6 { margin: 8rem; }
+.m7 { margin: 16rem; }
 .ml0 { margin-left: 0; }
 .ml1 { margin-left: .25rem; }
 .ml2 { margin-left: .5rem; }
@@ -1974,10 +1954,10 @@ http://tachyons.io/docs/elements/tables/
 - `--near-white` = near-white stripes
 */
 .collapse { border-collapse: collapse; border-spacing: 0; }
-.striped--light-silver:nth-child(odd) { background-color: #aaa; }
-.striped--moon-gray:nth-child(odd) { background-color: #ccc; }
-.striped--light-gray:nth-child(odd) { background-color: #eee; }
-.striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
+.striped--light-silver:nth-child(odd) { background-color: undefined; }
+.striped--moon-gray:nth-child(odd) { background-color: undefined; }
+.striped--light-gray:nth-child(odd) { background-color: undefined; }
+.striped--near-white:nth-child(odd) { background-color: undefined; }
 .stripe-light:nth-child(odd) { background-color: rgba( 255, 255, 255, .1 ); }
 .stripe-dark:nth-child(odd) { background-color: rgba( 0, 0, 0, .1 ); }
 /*!!!
@@ -2082,6 +2062,7 @@ http://tachyons.io/docs/typography/scale/
 - 5 = 5th step in size scale
 - 6 = 6th step in size scale
 - 7 = 7th step in size scale
+- 8 = 8th step in size scale
 
 ### Media Query Extensions
 
@@ -2095,16 +2076,15 @@ http://tachyons.io/docs/typography/scale/
  * These generally are too large for mobile
  * so be careful using them on smaller screens.
  * */
-.f-6, .f-headline { font-size: 6rem; }
-.f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
-.f1 { font-size: 3rem; }
-.f2 { font-size: 2.25rem; }
-.f3 { font-size: 1.5rem; }
-.f4 { font-size: 1.25rem; }
-.f5 { font-size: 1rem; }
-.f6 { font-size: .875rem; }
-.f7 { font-size: .75rem; }
+.f8 { font-size: 6rem; }
+.f7 { font-size: 4rem; }
+.f6 { font-size: 3rem; }
+.f5 { font-size: 2rem; }
+.f4 { font-size: 1.5rem; }
+.f3 { font-size: 1rem; }
+.f2 { font-size: .875rem; }
+.f1 { font-size: .75rem; }
 /* Small and hard to read for many people so use with extreme caution */
 /*!!!
 
@@ -2145,10 +2125,10 @@ http://tachyons.io/docs/typography/measure/
 
 ### Base
 
-- overflow-container = horizontal scroll
-- center = margin auto
-- mr-auto = margin-right auto
-- ml-auto = margin-left auto
+- `overflow-container` = horizontal scroll
+- `center` = margin auto
+- `mr-auto` = margin-right auto
+- `ml-auto` = margin-left auto
 
 ### Media Query Extensions
 
@@ -2382,10 +2362,11 @@ that are generated by a cms.
 .nested-list-reset ul, .nested-list-reset ol { padding-left: 0; margin-left: 0; list-style-type: none; }
 .nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 .nested-copy-separator p+p { margin-top: 1.5em; }
+.nested-copy-large-leading p:first-of-type { font-size: 1.25rem; }
 .nested-img img { width: 100%; max-width: 100%; display: block; }
-.nested-links a { color: #357edd; transition: color .15s ease-in; }
-.nested-links a:hover { color: #96ccff; transition: color .15s ease-in; }
-.nested-links a:focus { color: #96ccff; transition: color .15s ease-in; }
+.nested-links a { color: undefined; transition: color .15s ease-in; }
+.nested-links a:hover { color: undefined; transition: color .15s ease-in; }
+.nested-links a:focus { color: undefined; transition: color .15s ease-in; }
 /*!!!
 
 # STYLES
@@ -2607,10 +2588,10 @@ http://tachyons.io/docs/debug-grid/
  .bl-s { border-left-style: solid; border-left-width: 1px; }
  .bn-s { border-style: none; border-width: 0; }
  .br0-s { border-radius: 0; }
- .br1-s { border-radius: .125rem; }
- .br2-s { border-radius: .25rem; }
- .br3-s { border-radius: .5rem; }
- .br4-s { border-radius: 1rem; }
+ .br1-s { border-radius: 3px; }
+ .br2-s { border-radius: 5px; }
+ .br3-s { border-radius: 9px; }
+ .br4-s { border-radius: 17px; }
  .br-100-s { border-radius: 100%; }
  .br-pill-s { border-radius: 9999px; }
  .br--bottom-s { border-top-left-radius: 0; border-top-right-radius: 0; }
@@ -2662,6 +2643,8 @@ http://tachyons.io/docs/debug-grid/
  .cr-s { clear: right; }
  .cb-s { clear: both; }
  .cn-s { clear: none; }
+ .ltr-s { direction: ltr; }
+ .rtl-s { direction: rtl; }
  .dn-s { display: none; }
  .di-s { display: inline; }
  .db-s { display: block; }
@@ -2670,9 +2653,6 @@ http://tachyons.io/docs/debug-grid/
  .dt-s { display: table; }
  .dtc-s { display: table-cell; }
  .dt-row-s { display: table-row; }
- .dt-row-group-s { display: table-row-group; }
- .dt-column-s { display: table-column; }
- .dt-column-group-s { display: table-column-group; }
  .dt--fixed-s { table-layout: fixed; width: 100%; }
  .flex-s { display: flex; }
  .inline-flex-s { display: inline-flex; }
@@ -2727,7 +2707,6 @@ http://tachyons.io/docs/debug-grid/
  .fn-s { float: none; }
  .i-s { font-style: italic; }
  .fs-normal-s { font-style: normal; }
- .normal-s { font-weight: normal; }
  .b-s { font-weight: bold; }
  .fw1-s { font-weight: 100; }
  .fw2-s { font-weight: 200; }
@@ -2769,8 +2748,9 @@ http://tachyons.io/docs/debug-grid/
  .mw5-s { max-width: 16rem; }
  .mw6-s { max-width: 32rem; }
  .mw7-s { max-width: 48rem; }
- .mw8-s { max-width: 64rem; }
- .mw9-s { max-width: 96rem; }
+ .mw8-s { max-width: 56rem; }
+ .mw9-s { max-width: 64rem; }
+ .mw10-s { max-width: 80rem; }
  .mw-none-s { max-width: none; }
  .w1-s { width: 1rem; }
  .w2-s { width: 2rem; }
@@ -2781,8 +2761,6 @@ http://tachyons.io/docs/debug-grid/
  .w-20-s { width: 20%; }
  .w-25-s { width: 25%; }
  .w-30-s { width: 30%; }
- .w-33-s { width: 33%; }
- .w-34-s { width: 34%; }
  .w-40-s { width: 40%; }
  .w-50-s { width: 50%; }
  .w-60-s { width: 60%; }
@@ -2818,14 +2796,14 @@ http://tachyons.io/docs/debug-grid/
  .rotate-225-s { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
  .rotate-270-s { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
  .rotate-315-s { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
- .pa0-s { padding: 0; }
- .pa1-s { padding: .25rem; }
- .pa2-s { padding: .5rem; }
- .pa3-s { padding: undefined; }
- .pa4-s { padding: 2rem; }
- .pa5-s { padding: 4rem; }
- .pa6-s { padding: 8rem; }
- .pa7-s { padding: 16rem; }
+ .p0-s { padding: 0; }
+ .p1-s { padding: .25rem; }
+ .p2-s { padding: .5rem; }
+ .p3-s { padding: undefined; }
+ .p4-s { padding: 2rem; }
+ .p5-s { padding: 4rem; }
+ .p6-s { padding: 8rem; }
+ .p7-s { padding: 16rem; }
  .pl0-s { padding-left: 0; }
  .pl1-s { padding-left: .25rem; }
  .pl2-s { padding-left: .5rem; }
@@ -2874,14 +2852,14 @@ http://tachyons.io/docs/debug-grid/
  .ph5-s { padding-left: 4rem; padding-right: 4rem; }
  .ph6-s { padding-left: 8rem; padding-right: 8rem; }
  .ph7-s { padding-left: 16rem; padding-right: 16rem; }
- .ma0-s { margin: 0; }
- .ma1-s { margin: .25rem; }
- .ma2-s { margin: .5rem; }
- .ma3-s { margin: undefined; }
- .ma4-s { margin: 2rem; }
- .ma5-s { margin: 4rem; }
- .ma6-s { margin: 8rem; }
- .ma7-s { margin: 16rem; }
+ .m0-s { margin: 0; }
+ .m1-s { margin: .25rem; }
+ .m2-s { margin: .5rem; }
+ .m3-s { margin: undefined; }
+ .m4-s { margin: 2rem; }
+ .m5-s { margin: 4rem; }
+ .m6-s { margin: 8rem; }
+ .m7-s { margin: 16rem; }
  .ml0-s { margin-left: 0; }
  .ml1-s { margin-left: .25rem; }
  .ml2-s { margin-left: .5rem; }
@@ -2932,35 +2910,35 @@ http://tachyons.io/docs/debug-grid/
  .mh7-s { margin-left: 16rem; margin-right: 16rem; }
  .na1-s { margin: -.25rem; }
  .na2-s { margin: -.5rem; }
- .na3-s { margin: undefined; }
+ .na3-s { margin: -1rem; }
  .na4-s { margin: -2rem; }
  .na5-s { margin: -4rem; }
  .na6-s { margin: -8rem; }
  .na7-s { margin: -16rem; }
  .nl1-s { margin-left: -.25rem; }
  .nl2-s { margin-left: -.5rem; }
- .nl3-s { margin-left: undefined; }
+ .nl3-s { margin-left: -1rem; }
  .nl4-s { margin-left: -2rem; }
  .nl5-s { margin-left: -4rem; }
  .nl6-s { margin-left: -8rem; }
  .nl7-s { margin-left: -16rem; }
  .nr1-s { margin-right: -.25rem; }
  .nr2-s { margin-right: -.5rem; }
- .nr3-s { margin-right: undefined; }
+ .nr3-s { margin-right: -1rem; }
  .nr4-s { margin-right: -2rem; }
  .nr5-s { margin-right: -4rem; }
  .nr6-s { margin-right: -8rem; }
  .nr7-s { margin-right: -16rem; }
  .nb1-s { margin-bottom: -.25rem; }
  .nb2-s { margin-bottom: -.5rem; }
- .nb3-s { margin-bottom: undefined; }
+ .nb3-s { margin-bottom: -1rem; }
  .nb4-s { margin-bottom: -2rem; }
  .nb5-s { margin-bottom: -4rem; }
  .nb6-s { margin-bottom: -8rem; }
  .nb7-s { margin-bottom: -16rem; }
  .nt1-s { margin-top: -.25rem; }
  .nt2-s { margin-top: -.5rem; }
- .nt3-s { margin-top: undefined; }
+ .nt3-s { margin-top: -1rem; }
  .nt4-s { margin-top: -2rem; }
  .nt5-s { margin-top: -4rem; }
  .nt6-s { margin-top: -8rem; }
@@ -2976,15 +2954,14 @@ http://tachyons.io/docs/debug-grid/
  .ttl-s { text-transform: lowercase; }
  .ttu-s { text-transform: uppercase; }
  .ttn-s { text-transform: none; }
- .f-6-s, .f-headline-s { font-size: 6rem; }
- .f-5-s, .f-subheadline-s { font-size: 5rem; }
- .f1-s { font-size: 3rem; }
- .f2-s { font-size: 2.25rem; }
- .f3-s { font-size: 1.5rem; }
- .f4-s { font-size: 1.25rem; }
- .f5-s { font-size: 1rem; }
- .f6-s { font-size: .875rem; }
- .f7-s { font-size: .75rem; }
+ .f8-s { font-size: 6rem; }
+ .f7-s { font-size: 4rem; }
+ .f6-s { font-size: 3rem; }
+ .f5-s { font-size: 2rem; }
+ .f4-s { font-size: 1.5rem; }
+ .f3-s { font-size: 1rem; }
+ .f2-s { font-size: .875rem; }
+ .f1-s { font-size: .75rem; }
  .measure-s { max-width: 30em; }
  .measure-wide-s { max-width: 34em; }
  .measure-narrow-s { max-width: 20em; }
@@ -3081,10 +3058,10 @@ http://tachyons.io/docs/debug-grid/
  .bl-m { border-left-style: solid; border-left-width: 1px; }
  .bn-m { border-style: none; border-width: 0; }
  .br0-m { border-radius: 0; }
- .br1-m { border-radius: .125rem; }
- .br2-m { border-radius: .25rem; }
- .br3-m { border-radius: .5rem; }
- .br4-m { border-radius: 1rem; }
+ .br1-m { border-radius: 3px; }
+ .br2-m { border-radius: 5px; }
+ .br3-m { border-radius: 9px; }
+ .br4-m { border-radius: 17px; }
  .br-100-m { border-radius: 100%; }
  .br-pill-m { border-radius: 9999px; }
  .br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
@@ -3136,6 +3113,8 @@ http://tachyons.io/docs/debug-grid/
  .cr-m { clear: right; }
  .cb-m { clear: both; }
  .cn-m { clear: none; }
+ .ltr-m { direction: ltr; }
+ .rtl-m { direction: rtl; }
  .dn-m { display: none; }
  .di-m { display: inline; }
  .db-m { display: block; }
@@ -3201,7 +3180,6 @@ http://tachyons.io/docs/debug-grid/
  .fn-m { float: none; }
  .i-m { font-style: italic; }
  .fs-normal-m { font-style: normal; }
- .normal-m { font-weight: normal; }
  .b-m { font-weight: bold; }
  .fw1-m { font-weight: 100; }
  .fw2-m { font-weight: 200; }
@@ -3243,8 +3221,9 @@ http://tachyons.io/docs/debug-grid/
  .mw5-m { max-width: 16rem; }
  .mw6-m { max-width: 32rem; }
  .mw7-m { max-width: 48rem; }
- .mw8-m { max-width: 64rem; }
- .mw9-m { max-width: 96rem; }
+ .mw8-m { max-width: 56rem; }
+ .mw9-m { max-width: 64rem; }
+ .mw10-m { max-width: 80rem; }
  .mw-none-m { max-width: none; }
  .w1-m { width: 1rem; }
  .w2-m { width: 2rem; }
@@ -3255,8 +3234,6 @@ http://tachyons.io/docs/debug-grid/
  .w-20-m { width: 20%; }
  .w-25-m { width: 25%; }
  .w-30-m { width: 30%; }
- .w-33-m { width: 33%; }
- .w-34-m { width: 34%; }
  .w-40-m { width: 40%; }
  .w-50-m { width: 50%; }
  .w-60-m { width: 60%; }
@@ -3292,14 +3269,14 @@ http://tachyons.io/docs/debug-grid/
  .rotate-225-m { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
  .rotate-270-m { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
  .rotate-315-m { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
- .pa0-m { padding: 0; }
- .pa1-m { padding: .25rem; }
- .pa2-m { padding: .5rem; }
- .pa3-m { padding: 1rem; }
- .pa4-m { padding: 2rem; }
- .pa5-m { padding: 4rem; }
- .pa6-m { padding: 8rem; }
- .pa7-m { padding: 16rem; }
+ .p0-m { padding: 0; }
+ .p1-m { padding: .25rem; }
+ .p2-m { padding: .5rem; }
+ .p3-m { padding: 1rem; }
+ .p4-m { padding: 2rem; }
+ .p5-m { padding: 4rem; }
+ .p6-m { padding: 8rem; }
+ .p7-m { padding: 16rem; }
  .pl0-m { padding-left: 0; }
  .pl1-m { padding-left: .25rem; }
  .pl2-m { padding-left: .5rem; }
@@ -3348,14 +3325,14 @@ http://tachyons.io/docs/debug-grid/
  .ph5-m { padding-left: 4rem; padding-right: 4rem; }
  .ph6-m { padding-left: 8rem; padding-right: 8rem; }
  .ph7-m { padding-left: 16rem; padding-right: 16rem; }
- .ma0-m { margin: 0; }
- .ma1-m { margin: .25rem; }
- .ma2-m { margin: .5rem; }
- .ma3-m { margin: 1rem; }
- .ma4-m { margin: 2rem; }
- .ma5-m { margin: 4rem; }
- .ma6-m { margin: 8rem; }
- .ma7-m { margin: 16rem; }
+ .m0-m { margin: 0; }
+ .m1-m { margin: .25rem; }
+ .m2-m { margin: .5rem; }
+ .m3-m { margin: 1rem; }
+ .m4-m { margin: 2rem; }
+ .m5-m { margin: 4rem; }
+ .m6-m { margin: 8rem; }
+ .m7-m { margin: 16rem; }
  .ml0-m { margin-left: 0; }
  .ml1-m { margin-left: .25rem; }
  .ml2-m { margin-left: .5rem; }
@@ -3450,15 +3427,14 @@ http://tachyons.io/docs/debug-grid/
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }
  .ttn-m { text-transform: none; }
- .f-6-m, .f-headline-m { font-size: 6rem; }
- .f-5-m, .f-subheadline-m { font-size: 5rem; }
- .f1-m { font-size: 3rem; }
- .f2-m { font-size: 2.25rem; }
- .f3-m { font-size: 1.5rem; }
- .f4-m { font-size: 1.25rem; }
- .f5-m { font-size: 1rem; }
- .f6-m { font-size: .875rem; }
- .f7-m { font-size: .75rem; }
+ .f8-m { font-size: 6rem; }
+ .f7-m { font-size: 4rem; }
+ .f6-m { font-size: 3rem; }
+ .f5-m { font-size: 2rem; }
+ .f4-m { font-size: 1.5rem; }
+ .f3-m { font-size: 1rem; }
+ .f2-m { font-size: .875rem; }
+ .f1-m { font-size: .75rem; }
  .measure-m { max-width: 30em; }
  .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }
@@ -3555,10 +3531,10 @@ http://tachyons.io/docs/debug-grid/
  .bl-l { border-left-style: solid; border-left-width: 1px; }
  .bn-l { border-style: none; border-width: 0; }
  .br0-l { border-radius: 0; }
- .br1-l { border-radius: .125rem; }
- .br2-l { border-radius: .25rem; }
- .br3-l { border-radius: .5rem; }
- .br4-l { border-radius: 1rem; }
+ .br1-l { border-radius: 3px; }
+ .br2-l { border-radius: 5px; }
+ .br3-l { border-radius: 9px; }
+ .br4-l { border-radius: 17px; }
  .br-100-l { border-radius: 100%; }
  .br-pill-l { border-radius: 9999px; }
  .br--bottom-l { border-top-left-radius: 0; border-top-right-radius: 0; }
@@ -3610,6 +3586,8 @@ http://tachyons.io/docs/debug-grid/
  .cr-l { clear: right; }
  .cb-l { clear: both; }
  .cn-l { clear: none; }
+ .ltr-l { direction: ltr; }
+ .rtl-l { direction: rtl; }
  .dn-l { display: none; }
  .di-l { display: inline; }
  .db-l { display: block; }
@@ -3618,9 +3596,6 @@ http://tachyons.io/docs/debug-grid/
  .dt-l { display: table; }
  .dtc-l { display: table-cell; }
  .dt-row-l { display: table-row; }
- .dt-row-group-l { display: table-row-group; }
- .dt-column-l { display: table-column; }
- .dt-column-group-l { display: table-column-group; }
  .dt--fixed-l { table-layout: fixed; width: 100%; }
  .flex-l { display: flex; }
  .inline-flex-l { display: inline-flex; }
@@ -3675,7 +3650,6 @@ http://tachyons.io/docs/debug-grid/
  .fn-l { float: none; }
  .i-l { font-style: italic; }
  .fs-normal-l { font-style: normal; }
- .normal-l { font-weight: normal; }
  .b-l { font-weight: bold; }
  .fw1-l { font-weight: 100; }
  .fw2-l { font-weight: 200; }
@@ -3717,8 +3691,9 @@ http://tachyons.io/docs/debug-grid/
  .mw5-l { max-width: 16rem; }
  .mw6-l { max-width: 32rem; }
  .mw7-l { max-width: 48rem; }
- .mw8-l { max-width: 64rem; }
- .mw9-l { max-width: 96rem; }
+ .mw8-l { max-width: 56rem; }
+ .mw9-l { max-width: 64rem; }
+ .mw9-l { max-width: 80rem; }
  .mw-none-l { max-width: none; }
  .w1-l { width: 1rem; }
  .w2-l { width: 2rem; }
@@ -3729,8 +3704,6 @@ http://tachyons.io/docs/debug-grid/
  .w-20-l { width: 20%; }
  .w-25-l { width: 25%; }
  .w-30-l { width: 30%; }
- .w-33-l { width: 33%; }
- .w-34-l { width: 34%; }
  .w-40-l { width: 40%; }
  .w-50-l { width: 50%; }
  .w-60-l { width: 60%; }
@@ -3766,14 +3739,14 @@ http://tachyons.io/docs/debug-grid/
  .rotate-225-l { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
  .rotate-270-l { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
  .rotate-315-l { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
- .pa0-l { padding: 0; }
- .pa1-l { padding: .25rem; }
- .pa2-l { padding: .5rem; }
- .pa3-l { padding: 1rem; }
- .pa4-l { padding: 2rem; }
- .pa5-l { padding: 4rem; }
- .pa6-l { padding: 8rem; }
- .pa7-l { padding: 16rem; }
+ .p0-l { padding: 0; }
+ .p1-l { padding: .25rem; }
+ .p2-l { padding: .5rem; }
+ .p3-l { padding: 1rem; }
+ .p4-l { padding: 2rem; }
+ .p5-l { padding: 4rem; }
+ .p6-l { padding: 8rem; }
+ .p7-l { padding: 16rem; }
  .pl0-l { padding-left: 0; }
  .pl1-l { padding-left: .25rem; }
  .pl2-l { padding-left: .5rem; }
@@ -3822,14 +3795,14 @@ http://tachyons.io/docs/debug-grid/
  .ph5-l { padding-left: 4rem; padding-right: 4rem; }
  .ph6-l { padding-left: 8rem; padding-right: 8rem; }
  .ph7-l { padding-left: 16rem; padding-right: 16rem; }
- .ma0-l { margin: 0; }
- .ma1-l { margin: .25rem; }
- .ma2-l { margin: .5rem; }
- .ma3-l { margin: 1rem; }
- .ma4-l { margin: 2rem; }
- .ma5-l { margin: 4rem; }
- .ma6-l { margin: 8rem; }
- .ma7-l { margin: 16rem; }
+ .m0-l { margin: 0; }
+ .m1-l { margin: .25rem; }
+ .m2-l { margin: .5rem; }
+ .m3-l { margin: 1rem; }
+ .m4-l { margin: 2rem; }
+ .m5-l { margin: 4rem; }
+ .m6-l { margin: 8rem; }
+ .m7-l { margin: 16rem; }
  .ml0-l { margin-left: 0; }
  .ml1-l { margin-left: .25rem; }
  .ml2-l { margin-left: .5rem; }
@@ -3924,15 +3897,14 @@ http://tachyons.io/docs/debug-grid/
  .ttl-l { text-transform: lowercase; }
  .ttu-l { text-transform: uppercase; }
  .ttn-l { text-transform: none; }
- .f-6-l, .f-headline-l { font-size: 6rem; }
- .f-5-l, .f-subheadline-l { font-size: 5rem; }
- .f1-l { font-size: 3rem; }
- .f2-l { font-size: 2.25rem; }
- .f3-l { font-size: 1.5rem; }
- .f4-l { font-size: 1.25rem; }
- .f5-l { font-size: 1rem; }
- .f6-l { font-size: .875rem; }
- .f7-l { font-size: .75rem; }
+ .f8-l { font-size: 6rem; }
+ .f7-l { font-size: 4rem; }
+ .f6-l { font-size: 3rem; }
+ .f5-l { font-size: 2rem; }
+ .f4-l { font-size: 1.5rem; }
+ .f3-l { font-size: 1rem; }
+ .f2-l { font-size: .875rem; }
+ .f1-l { font-size: .75rem; }
  .measure-l { max-width: 30em; }
  .measure-wide-l { max-width: 34em; }
  .measure-narrow-l { max-width: 20em; }

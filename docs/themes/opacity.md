@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Opacity / Themes / Docs / TACHYONS',
+  subNav: 'themes',
+  modules: ['tachyons-opacity'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/themes/opacity.md'
+}
+
 # Opacity
 
 The opacity module is a sequence of opacity values that you can apply to any element to adjust the opacity of text, backgrounds, and images.

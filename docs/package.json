@@ -6,17 +6,19 @@
   "scripts": {
     "start": "next start",
     "build": "next build",
+    "build:components": "node build/components",
+    "build:modules": "node build/modules",
     "deploy": "now --public",
     "dev": "next",
-    "lint": "prettier *.js ui/*.js pages/*.js --write --no-semi --single-quote",
-    "predeploy": "rm -rf node_modules && rm -rf .next",
-    "prepare": "node modules"
+    "format": "prettier *.js {ui,pages}/*.js pages/**/*.js pages/{components,docs}/**/*.js --write --no-semi --single-quote",
+    "prepare": "npm run build:modules && npm run build:components && npm run format"
   },
   "repository": "tachyons-css/docs",
   "author": "mrmrs",
   "license": "MIT",
   "dependencies": {
-    "@compositor/markdown": "^0.1.1",
+    "@mdx-js/mdx": "^0.5.0",
+    "@mdx-js/tag": "^0.4.0",
     "classnames": "^2.2.5",
     "cssstats": "^3.2.0",
     "gray-matter": "^3.1.1",
@@ -24,9 +26,10 @@
     "htmltojsx": "^0.3.0",
     "is-present": "^1.0.0",
     "next": "^5.0.0",
+    "raw-loader": "^0.5.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-highlight": "^0.10.0",
+    "react-highlight": "^0.12.0",
     "tachyons": "^4.9.1",
     "tachyons-aspect-ratios": "^1.0.1",
     "tachyons-background-position": "^1.0.3",
@@ -40,6 +43,7 @@
     "tachyons-box-sizing": "^3.2.2",
     "tachyons-clears": "^3.0.4",
     "tachyons-colors": "^5.3.3",
+    "tachyons-component-loader": "0.0.2",
     "tachyons-coordinates": "^4.0.4",
     "tachyons-debug": "^1.1.10",
     "tachyons-debug-children": "^1.0.0",
@@ -63,6 +67,7 @@
     "tachyons-negative-margins": "^1.0.0",
     "tachyons-nudge": "0.0.1",
     "tachyons-opacity": "^1.1.10",
+    "tachyons-opacity-responsive": "0.0.1",
     "tachyons-outlines": "^1.0.3",
     "tachyons-overflow": "^4.0.5",
     "tachyons-position": "^6.0.6",
@@ -76,12 +81,11 @@
     "tachyons-text-transform": "^4.0.5",
     "tachyons-type-scale": "^6.1.0",
     "tachyons-typography": "^3.0.5",
-    "tachyons-utilities": "^2.0.1",
+    "tachyons-utilities": "^2.1.0",
     "tachyons-vertical-align": "^4.0.5",
     "tachyons-visibility": "^2.0.5",
     "tachyons-white-space": "^4.0.6",
     "tachyons-widths": "^5.2.1",
-    "tachyons-word-break": "^3.0.4",
     "tachyons-z-index": "^1.0.9"
   },
   "contributors": [
@@ -112,9 +116,12 @@
     }
   ],
   "devDependencies": {
-    "@compositor/markdown-loader": "0.1.0",
+    "@mdx-js/loader": "^0.6.0",
     "css-table": "^0.1.0",
+    "globby": "^8.0.1",
+    "mkdirp": "^0.5.1",
     "prettier": "^1.11.1",
-    "webpack": "^4.1.1"
+    "titleize": "^1.0.1",
+    "webpack": "^4.2.0"
   }
 }

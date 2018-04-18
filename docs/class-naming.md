@@ -1,3 +1,9 @@
+export const meta = {
+  title: 'Class Naming / Overview / Docs / TACHYONS',
+  subNav: 'overview',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/class-naming.md'
+}
+
 # Class Naming
 
 A lot of inspiration for Tachyons classes comes from unix.
@@ -84,7 +90,7 @@ Class | Value | Full Declaration
 ----- | ----- | ----------------
 `.w-auto` | `auto` | `width: auto;`
 `.w-10` | `10%` | `width: 10%;`
-`w-third` | `calc(100% / 3)` | `width: calc(100% / 3);`
+`.w-third` | `calc(100% / 3)` | `width: calc(100% / 3);`
 
 #### Dependent modifiers
 

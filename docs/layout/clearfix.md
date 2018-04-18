@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Clearfix / Layout / Docs / TACHYONS',
+  subNav: 'layout',
+  modules: ['tachyons-clears'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/clearfix.md'
+}
+
 # Clearfix
 
 When floats are used for layouts - they need a clearfix solution. This helps prevent layout problems caused by the elements being removed from the block context of the surrounding elements.

@@ -14,7 +14,7 @@ class Editor extends Component {
   constructor(props) {
     super()
 
-    const code = props.children[0] || ''
+    const code = props.children || ''
     const { content, data = {} } = matter(code)
 
     this.state = {

@@ -7,15 +7,19 @@ import Footer from './Footer'
 export default ({
   title = 'TACHYONS - Css Toolkit',
   className = '',
+  skipHeader,
+  skipFooter,
   children
-}) => (
-  <div className="w-100 sans-serif">
-    <title>{title}</title>
-    <link rel="stylesheet" href="https://file-bglcsbsfyd.now.sh/" />
-    <link rel="stylesheet" href="https://file-zlngimivyb.now.sh" />
+}) => {
+  const cx = `${className} min-vh-100`
 
-    <Header version={version} />
-    <main className={className} children={children} />
-    <Footer />
-  </div>
-)
+  return (
+    <div className="min-vh-100 w-100">
+      <title>{title}</title>
+
+      {skipHeader ? null : <Header version={version} />}
+      <main className={cx} children={children} />
+      {skipFooter ? null : <Footer />}
+    </div>
+  )
+}

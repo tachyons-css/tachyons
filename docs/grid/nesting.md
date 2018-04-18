@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Nesting / Grid / Docs / TACHYONS',
+  subNav: 'grid',
+  modules: ['tachyons-flexbox', 'tachyons-widths'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/grid/nesting.md'
+}
+
 # Nesting
 
 The Tachyons grid system is extremely flexible and can be infinitely nested.

@@ -1,7 +1,7 @@
 import React from 'react'
 import cssstats from 'cssstats'
 
-import data from './data.json'
+import data from '../data/modules.json'
 
 const Module = data => {
   const stats = cssstats(data.css)
@@ -68,7 +68,11 @@ const Module = data => {
                   <code>{decl.selector}</code>
                 </td>
                 <td className="pa2 bb b--black-05 black-60">
-                  <code>{decl.declarations.join('; ')}</code>
+                  <code
+                    children={decl.declarations.map(d => (
+                      <span key={d} className="db" children={d + ';'} />
+                    ))}
+                  />
                 </td>
               </tr>
             ))}

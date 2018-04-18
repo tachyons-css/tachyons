@@ -1,3 +1,11 @@
+export const meta = {
+  addons: ['tachyons-nudge'],
+  modules: ['tachyons-nudge'],
+  subNav: 'addons',
+  title: 'Nudge / Addons / Docs / TACHYONS',
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/addons/gradients.md'
+}
+
 # Nudge
 
 ![Addon](https://img.shields.io/badge/TACHYONS%20ADDON-✓-brightgreen.svg?longCache=true&style=for-the-badge)

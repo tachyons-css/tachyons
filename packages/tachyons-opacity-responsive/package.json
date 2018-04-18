@@ -1,0 +1,35 @@
+{
+  "name": "tachyons-opacity-responsive",
+  "version": "0.0.1",
+  "style": "src/opacity-responsive.css",
+  "main": "src/opacity-responsive.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "tachyons-addon"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-opacity-responsive",
+  "author": {
+    "name": "johno",
+    "email": "johnotander@gmail.com",
+    "url": "http://johnotander.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.10",
+    "watch": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-opacity-responsive.css > css/tachyons-opacity-responsive.css",
+    "build:minify": "tachyons src/tachyons-opacity-responsive.css --minify > css/tachyons-opacity-responsive.min.css",
+    "build:docs": "tachyons src/tachyons-opacity-responsive.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

@@ -1,3 +1,10 @@
+export const meta = {
+  title: 'Position / Layout / Docs / TACHYONS',
+  subNav: 'layout',
+  modules: ['tachyons-position'],
+  editUrl: 'https://github.com/tachyons-css/tachyons/edit/master/docs/layout/position.md'
+}
+
 # Position
 
 Html elements are initially set to a position of 'static'. Tachyons provides classes for setting position to be relative or absolute.
