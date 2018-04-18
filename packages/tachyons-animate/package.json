@@ -1,0 +1,32 @@
+{
+	"name": "tachyons-animate",
+	"version": "1.0.0",
+	"style": "src/tachyons-animate.css",
+	"main": "src/tachyons-animate.css",
+	"description": "Performance based css module.",
+	"keywords": ["tachyons", "tachyons-css", "css-animations"],
+	"files": ["src", "css"],
+	"repository": "anater/tachyons-animate",
+	"author": {
+		"name": "anater",
+		"email": "a.a.nater@gmail.com",
+		"url": "http://andrewnater.com"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"tachyons-cli": "^1.0.11",
+		"watch": "^1.0.1"
+	},
+	"scripts": {
+		"start": "npm run build:watch",
+		"build:css": "tachyons src/tachyons-animate.css > css/tachyons-animate.css",
+		"build:minify": "tachyons src/tachyons-animate.css --minify > css/tachyons-animate.min.css",
+		"build:docs": "tachyons src/tachyons-animate.css --generate-docs --package=../../package.json > readme.md",
+		"build": "npm run build:css && npm run build:minify",
+		"build:watch": "watch 'npm run build' ./src"
+	},
+	"metadata": {
+		"category": "layout",
+		"isCore": true
+	}
+}
