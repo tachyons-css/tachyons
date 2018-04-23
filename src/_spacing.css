@@ -170,6 +170,9 @@ http://tachyons.io/docs/layout/spacing/
   padding-right: var(--spacing-7);
 }
 
+.mr-auto { margin-right: auto; }
+.ml-auto { margin-left:  auto; }
+
 .m0  {  margin: var(--spacing-0); }
 .m1 {  margin: var(--spacing-1); }
 .m2  {  margin: var(--spacing-2); }
@@ -393,6 +396,9 @@ http://tachyons.io/docs/layout/spacing/
     padding-left: var(--spacing-7);
     padding-right: var(--spacing-7);
   }
+
+  .mr-auto-s { margin-right: auto; }
+  .ml-auto-s { margin-left:  auto; }
 
   .m0-s  {  margin: var(--spacing-0); }
   .m1-s {  margin: var(--spacing-1); }
@@ -618,6 +624,9 @@ http://tachyons.io/docs/layout/spacing/
     padding-right: var(--spacing-7);
   }
 
+  .mr-auto-m { margin-right: auto; }
+  .ml-auto-m { margin-left:  auto; }
+
   .m0-m  {  margin: var(--spacing-0); }
   .m1-m {  margin: var(--spacing-1); }
   .m2-m  {  margin: var(--spacing-2); }
@@ -841,6 +850,9 @@ http://tachyons.io/docs/layout/spacing/
     padding-left: var(--spacing-7);
     padding-right: var(--spacing-7);
   }
+
+  .mr-auto-l { margin-right: auto; }
+  .ml-auto-l { margin-left:  auto; }
 
   .m0-l  {  margin: var(--spacing-0); }
   .m1-l {  margin: var(--spacing-1); }
