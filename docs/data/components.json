@@ -107,6 +107,32 @@
       "importPath": "../../../components/articles/title-text.html"
     }
   ],
+  "banners": [
+    {
+      "name": "basic",
+      "title": "Basic",
+      "section": "banners",
+      "src": "banners/basic.html",
+      "slug": "/components/banners/basic",
+      "importPath": "../../../components/banners/basic.html"
+    },
+    {
+      "name": "info",
+      "title": "Info",
+      "section": "banners",
+      "src": "banners/info.html",
+      "slug": "/components/banners/info",
+      "importPath": "../../../components/banners/info.html"
+    },
+    {
+      "name": "single-cta",
+      "title": "Single Cta",
+      "section": "banners",
+      "src": "banners/single-cta.html",
+      "slug": "/components/banners/single-cta",
+      "importPath": "../../../components/banners/single-cta.html"
+    }
+  ],
   "avatars": [
     {
       "name": "circle-border",
@@ -163,98 +189,6 @@
       "src": "avatars/square.html",
       "slug": "/components/avatars/square",
       "importPath": "../../../components/avatars/square.html"
-    }
-  ],
-  "banners": [
-    {
-      "name": "basic",
-      "title": "Basic",
-      "section": "banners",
-      "src": "banners/basic.html",
-      "slug": "/components/banners/basic",
-      "importPath": "../../../components/banners/basic.html"
-    },
-    {
-      "name": "info",
-      "title": "Info",
-      "section": "banners",
-      "src": "banners/info.html",
-      "slug": "/components/banners/info",
-      "importPath": "../../../components/banners/info.html"
-    },
-    {
-      "name": "single-cta",
-      "title": "Single Cta",
-      "section": "banners",
-      "src": "banners/single-cta.html",
-      "slug": "/components/banners/single-cta",
-      "importPath": "../../../components/banners/single-cta.html"
-    }
-  ],
-  "buttons": [
-    {
-      "name": "basic-previous-next",
-      "title": "Basic Previous Next",
-      "section": "buttons",
-      "src": "buttons/basic-previous-next.html",
-      "slug": "/components/buttons/basic-previous-next",
-      "importPath": "../../../components/buttons/basic-previous-next.html"
-    },
-    {
-      "name": "basic-rounded-extra-small",
-      "title": "Basic Rounded Extra Small",
-      "section": "buttons",
-      "src": "buttons/basic-rounded-extra-small.html",
-      "slug": "/components/buttons/basic-rounded-extra-small",
-      "importPath": "../../../components/buttons/basic-rounded-extra-small.html"
-    },
-    {
-      "name": "basic-rounded-small",
-      "title": "Basic Rounded Small",
-      "section": "buttons",
-      "src": "buttons/basic-rounded-small.html",
-      "slug": "/components/buttons/basic-rounded-small",
-      "importPath": "../../../components/buttons/basic-rounded-small.html"
-    },
-    {
-      "name": "basic-rounded",
-      "title": "Basic Rounded",
-      "section": "buttons",
-      "src": "buttons/basic-rounded.html",
-      "slug": "/components/buttons/basic-rounded",
-      "importPath": "../../../components/buttons/basic-rounded.html"
-    },
-    {
-      "name": "basic",
-      "title": "Basic",
-      "section": "buttons",
-      "src": "buttons/basic.html",
-      "slug": "/components/buttons/basic",
-      "importPath": "../../../components/buttons/basic.html"
-    },
-    {
-      "name": "centered-icons",
-      "title": "Centered Icons",
-      "section": "buttons",
-      "src": "buttons/centered-icons.html",
-      "slug": "/components/buttons/centered-icons",
-      "importPath": "../../../components/buttons/centered-icons.html"
-    },
-    {
-      "name": "pill-grow",
-      "title": "Pill Grow",
-      "section": "buttons",
-      "src": "buttons/pill-grow.html",
-      "slug": "/components/buttons/pill-grow",
-      "importPath": "../../../components/buttons/pill-grow.html"
-    },
-    {
-      "name": "pill",
-      "title": "Pill",
-      "section": "buttons",
-      "src": "buttons/pill.html",
-      "slug": "/components/buttons/pill",
-      "importPath": "../../../components/buttons/pill.html"
     }
   ],
   "cards": [
@@ -331,6 +265,90 @@
       "importPath": "../../../components/cards/text-card.html"
     }
   ],
+  "buttons": [
+    {
+      "name": "basic-previous-next",
+      "title": "Basic Previous Next",
+      "section": "buttons",
+      "src": "buttons/basic-previous-next.html",
+      "slug": "/components/buttons/basic-previous-next",
+      "importPath": "../../../components/buttons/basic-previous-next.html"
+    },
+    {
+      "name": "basic-rounded-extra-small",
+      "title": "Basic Rounded Extra Small",
+      "section": "buttons",
+      "src": "buttons/basic-rounded-extra-small.html",
+      "slug": "/components/buttons/basic-rounded-extra-small",
+      "importPath": "../../../components/buttons/basic-rounded-extra-small.html"
+    },
+    {
+      "name": "basic-rounded-small",
+      "title": "Basic Rounded Small",
+      "section": "buttons",
+      "src": "buttons/basic-rounded-small.html",
+      "slug": "/components/buttons/basic-rounded-small",
+      "importPath": "../../../components/buttons/basic-rounded-small.html"
+    },
+    {
+      "name": "basic-rounded",
+      "title": "Basic Rounded",
+      "section": "buttons",
+      "src": "buttons/basic-rounded.html",
+      "slug": "/components/buttons/basic-rounded",
+      "importPath": "../../../components/buttons/basic-rounded.html"
+    },
+    {
+      "name": "basic",
+      "title": "Basic",
+      "section": "buttons",
+      "src": "buttons/basic.html",
+      "slug": "/components/buttons/basic",
+      "importPath": "../../../components/buttons/basic.html"
+    },
+    {
+      "name": "centered-icons",
+      "title": "Centered Icons",
+      "section": "buttons",
+      "src": "buttons/centered-icons.html",
+      "slug": "/components/buttons/centered-icons",
+      "importPath": "../../../components/buttons/centered-icons.html"
+    },
+    {
+      "name": "pill-grow",
+      "title": "Pill Grow",
+      "section": "buttons",
+      "src": "buttons/pill-grow.html",
+      "slug": "/components/buttons/pill-grow",
+      "importPath": "../../../components/buttons/pill-grow.html"
+    },
+    {
+      "name": "pill",
+      "title": "Pill",
+      "section": "buttons",
+      "src": "buttons/pill.html",
+      "slug": "/components/buttons/pill",
+      "importPath": "../../../components/buttons/pill.html"
+    }
+  ],
+  "definition-lists": [
+    {
+      "name": "inline",
+      "title": "Inline",
+      "section": "definition-lists",
+      "src": "definition-lists/inline.html",
+      "slug": "/components/definition-lists/inline",
+      "importPath": "../../../components/definition-lists/inline.html"
+    },
+    {
+      "name": "simple",
+      "title": "Simple",
+      "section": "definition-lists",
+      "src": "definition-lists/simple.html",
+      "slug": "/components/definition-lists/simple",
+      "importPath": "../../../components/definition-lists/simple.html"
+    }
+  ],
   "collections": [
     {
       "name": "albums",
@@ -381,24 +399,6 @@
       "importPath": "../../../components/collections/vinyl.html"
     }
   ],
-  "definition-lists": [
-    {
-      "name": "inline",
-      "title": "Inline",
-      "section": "definition-lists",
-      "src": "definition-lists/inline.html",
-      "slug": "/components/definition-lists/inline",
-      "importPath": "../../../components/definition-lists/inline.html"
-    },
-    {
-      "name": "simple",
-      "title": "Simple",
-      "section": "definition-lists",
-      "src": "definition-lists/simple.html",
-      "slug": "/components/definition-lists/simple",
-      "importPath": "../../../components/definition-lists/simple.html"
-    }
-  ],
   "error-pages": [
     {
       "name": "404",
@@ -407,6 +407,64 @@
       "src": "error-pages/404.html",
       "slug": "/components/error-pages/404",
       "importPath": "../../../components/error-pages/404.html"
+    }
+  ],
+  "forms": [
+    {
+      "name": "checkbox-list",
+      "title": "Checkbox List",
+      "section": "forms",
+      "src": "forms/checkbox-list.html",
+      "slug": "/components/forms/checkbox-list",
+      "importPath": "../../../components/forms/checkbox-list.html"
+    },
+    {
+      "name": "input-text-label",
+      "title": "Input Text Label",
+      "section": "forms",
+      "src": "forms/input-text-label.html",
+      "slug": "/components/forms/input-text-label",
+      "importPath": "../../../components/forms/input-text-label.html"
+    },
+    {
+      "name": "newsletter-subscription",
+      "title": "Newsletter Subscription",
+      "section": "forms",
+      "src": "forms/newsletter-subscription.html",
+      "slug": "/components/forms/newsletter-subscription",
+      "importPath": "../../../components/forms/newsletter-subscription.html"
+    },
+    {
+      "name": "password",
+      "title": "Password",
+      "section": "forms",
+      "src": "forms/password.html",
+      "slug": "/components/forms/password",
+      "importPath": "../../../components/forms/password.html"
+    },
+    {
+      "name": "sign-in",
+      "title": "Sign In",
+      "section": "forms",
+      "src": "forms/sign-in.html",
+      "slug": "/components/forms/sign-in",
+      "importPath": "../../../components/forms/sign-in.html"
+    },
+    {
+      "name": "sign-up",
+      "title": "Sign Up",
+      "section": "forms",
+      "src": "forms/sign-up.html",
+      "slug": "/components/forms/sign-up",
+      "importPath": "../../../components/forms/sign-up.html"
+    },
+    {
+      "name": "textarea-label",
+      "title": "Textarea Label",
+      "section": "forms",
+      "src": "forms/textarea-label.html",
+      "slug": "/components/forms/textarea-label",
+      "importPath": "../../../components/forms/textarea-label.html"
     }
   ],
   "footers": [
@@ -489,64 +547,6 @@
       "src": "footers/studios.html",
       "slug": "/components/footers/studios",
       "importPath": "../../../components/footers/studios.html"
-    }
-  ],
-  "forms": [
-    {
-      "name": "checkbox-list",
-      "title": "Checkbox List",
-      "section": "forms",
-      "src": "forms/checkbox-list.html",
-      "slug": "/components/forms/checkbox-list",
-      "importPath": "../../../components/forms/checkbox-list.html"
-    },
-    {
-      "name": "input-text-label",
-      "title": "Input Text Label",
-      "section": "forms",
-      "src": "forms/input-text-label.html",
-      "slug": "/components/forms/input-text-label",
-      "importPath": "../../../components/forms/input-text-label.html"
-    },
-    {
-      "name": "newsletter-subscription",
-      "title": "Newsletter Subscription",
-      "section": "forms",
-      "src": "forms/newsletter-subscription.html",
-      "slug": "/components/forms/newsletter-subscription",
-      "importPath": "../../../components/forms/newsletter-subscription.html"
-    },
-    {
-      "name": "password",
-      "title": "Password",
-      "section": "forms",
-      "src": "forms/password.html",
-      "slug": "/components/forms/password",
-      "importPath": "../../../components/forms/password.html"
-    },
-    {
-      "name": "sign-in",
-      "title": "Sign In",
-      "section": "forms",
-      "src": "forms/sign-in.html",
-      "slug": "/components/forms/sign-in",
-      "importPath": "../../../components/forms/sign-in.html"
-    },
-    {
-      "name": "sign-up",
-      "title": "Sign Up",
-      "section": "forms",
-      "src": "forms/sign-up.html",
-      "slug": "/components/forms/sign-up",
-      "importPath": "../../../components/forms/sign-up.html"
-    },
-    {
-      "name": "textarea-label",
-      "title": "Textarea Label",
-      "section": "forms",
-      "src": "forms/textarea-label.html",
-      "slug": "/components/forms/textarea-label",
-      "importPath": "../../../components/forms/textarea-label.html"
     }
   ],
   "headers": [
@@ -1145,6 +1145,24 @@
       "importPath": "../../../components/nav/title-link-list.html"
     }
   ],
+  "quotes": [
+    {
+      "name": "left-border",
+      "title": "Left Border",
+      "section": "quotes",
+      "src": "quotes/left-border.html",
+      "slug": "/components/quotes/left-border",
+      "importPath": "../../../components/quotes/left-border.html"
+    },
+    {
+      "name": "pull-quote",
+      "title": "Pull Quote",
+      "section": "quotes",
+      "src": "quotes/pull-quote.html",
+      "slug": "/components/quotes/pull-quote",
+      "importPath": "../../../components/quotes/pull-quote.html"
+    }
+  ],
   "pages": [
     {
       "name": "4x4-mixed-grid",
@@ -1177,24 +1195,6 @@
       "src": "pages/swiss-cover-five-columns.html",
       "slug": "/components/pages/swiss-cover-five-columns",
       "importPath": "../../../components/pages/swiss-cover-five-columns.html"
-    }
-  ],
-  "quotes": [
-    {
-      "name": "left-border",
-      "title": "Left Border",
-      "section": "quotes",
-      "src": "quotes/left-border.html",
-      "slug": "/components/quotes/left-border",
-      "importPath": "../../../components/quotes/left-border.html"
-    },
-    {
-      "name": "pull-quote",
-      "title": "Pull Quote",
-      "section": "quotes",
-      "src": "quotes/pull-quote.html",
-      "slug": "/components/quotes/pull-quote",
-      "importPath": "../../../components/quotes/pull-quote.html"
     }
   ],
   "tables": [
