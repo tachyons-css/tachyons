@@ -58,6 +58,8 @@
 @import './_lists';
 @import './_max-widths';
 @import './_widths';
+@import './_object-fit.css';
+@import './_object-position.css';
 @import './_overflow';
 @import './_position';
 @import './_opacity';

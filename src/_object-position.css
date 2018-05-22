@@ -1,0 +1,107 @@
+/*
+
+    OBJECT POSITION
+    Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/object-position
+
+    Base:
+    ob = object
+
+    Modifiers:
+    -center = center center
+    -top = top center
+    -right = center right
+    -bottom = bottom center
+    -left = center left
+
+    Media Query Extensions:
+      -ns = not-small
+      -m  = medium
+      -l  = large
+
+ */
+
+.ob-center {
+  object-position: center center;
+}
+
+.ob-top {
+  object-position: top center;
+}
+
+.ob-right {
+  object-position: center right;
+}
+
+.ob-bottom {
+  object-position: bottom center;
+}
+
+.ob-left {
+  object-position: center left;
+}
+
+@media (--breakpoint-not-small) {
+  .ob-center-ns {
+    object-position: center center;
+  }
+
+  .ob-top-ns {
+    object-position: top center;
+  }
+
+  .ob-right-ns {
+    object-position: center right;
+  }
+
+  .ob-bottom-ns {
+    object-position: bottom center;
+  }
+
+  .ob-left-ns {
+    object-position: center left;
+  }
+}
+
+@media (--breakpoint-medium) {
+  .ob-center-m {
+    object-position: center center;
+  }
+
+  .ob-top-m {
+    object-position: top center;
+  }
+
+  .ob-right-m {
+    object-position: center right;
+  }
+
+  .ob-bottom-m {
+    object-position: bottom center;
+  }
+
+  .ob-left-m {
+    object-position: center left;
+  }
+}
+
+@media (--breakpoint-large) {
+  .ob-center-l {
+    object-position: center center;
+  }
+
+  .ob-top-l {
+    object-position: top center;
+  }
+
+  .ob-right-l {
+    object-position: center right;
+  }
+
+  .ob-bottom-l {
+    object-position: bottom center;
+  }
+
+  .ob-left-l {
+    object-position: center left;
+  }
+}
