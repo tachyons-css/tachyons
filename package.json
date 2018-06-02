@@ -23,7 +23,7 @@
   "devDependencies": {
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.0",
     "tachyons-modules": "^1.1.10",
     "tachyons-cli": "^1.0.11",
     "watch": "^1.0.2"
@@ -43,7 +43,7 @@
     "mutations": "immutable-css src/tachyons.css --strict",
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
     "build:watch": "watch \"npm run build\" ./src/"
   }
 }
