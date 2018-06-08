@@ -100,3 +100,4 @@
 * https://cryptocurrencyjobs.co/
 * https://foundlo.st
 * https://jjude.com
+* https://beta.observablehq.com/
