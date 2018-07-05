@@ -1,7 +1,7 @@
 /*
 
-   OBJECT FIT
-   Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+    OBJECT FIT
+    Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
 
     Base:
     ob = object
@@ -10,6 +10,7 @@
     -cover = cover
     -contain = contain
     -fill = fill
+    -none = none
 
     Media Query Extensions:
       -ns = not-small
@@ -21,21 +22,25 @@
   .ob-cover { object-fit: cover!important; }
   .ob-contain { object-fit: contain!important; }
   .ob-fill { object-fit: fill!important; }
+  .ob-none { object-fit: none!important; }
 
 @media (--breakpoint-not-small) {
   .ob-cover-ns { object-fit: cover!important; }
   .ob-contain-ns { object-fit: contain!important; }
   .ob-fill-ns { object-fit: fill!important; }
+  .ob-none-ns { object-fit: none!important; }
 }
 
 @media (--breakpoint-medium) {
   .ob-cover-m { object-fit: cover!important; }
   .ob-contain-m { object-fit: contain!important; }
   .ob-fill-m { object-fit: fill!important; }
+  .ob-none-m { object-fit: none!important; }
 }
 
 @media (--breakpoint-large) {
   .ob-cover-l { object-fit: cover!important; }
   .ob-contain-l { object-fit: contain!important; }
   .ob-fill-l { object-fit: fill!important; }
+  .ob-none-l { object-fit: none!important; }
 }
