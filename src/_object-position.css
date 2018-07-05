@@ -12,13 +12,17 @@
     -right = center right
     -bottom = bottom center
     -left = center left
+    -top-left = top left
+    -top-right = top right
+    -bottom-left = bottom left
+    -bottom-right = bottom right
 
     Media Query Extensions:
       -ns = not-small
       -m  = medium
       -l  = large
 
- */
+*/
 
 .ob-center {
   object-position: center center;
@@ -40,6 +44,22 @@
   object-position: center left;
 }
 
+.ob-top-left {
+  object-position: top left;
+}
+
+.ob-top-right {
+  object-position: top right;
+}
+
+.ob-bottom-left {
+  object-position: bottom left;
+}
+
+.ob-bottom-right {
+  object-position: bottom right;
+}
+
 @media (--breakpoint-not-small) {
   .ob-center-ns {
     object-position: center center;
@@ -59,6 +79,22 @@
 
   .ob-left-ns {
     object-position: center left;
+  }
+
+  .ob-top-left-ns {
+    object-position: top left;
+  }
+
+  .ob-top-right-ns {
+    object-position: top right;
+  }
+
+  .ob-bottom-left-ns {
+    object-position: bottom left;
+  }
+
+  .ob-bottom-right-ns {
+    object-position: bottom right;
   }
 }
 
@@ -82,6 +118,22 @@
   .ob-left-m {
     object-position: center left;
   }
+
+  .ob-top-left-m {
+    object-position: top left;
+  }
+
+  .ob-top-right-m {
+    object-position: top right;
+  }
+
+  .ob-bottom-left-m {
+    object-position: bottom left;
+  }
+
+  .ob-bottom-right-m {
+    object-position: bottom right;
+  }
 }
 
 @media (--breakpoint-large) {
@@ -103,5 +155,21 @@
 
   .ob-left-l {
     object-position: center left;
+  }
+
+  .ob-top-left-l {
+    object-position: top left;
+  }
+
+  .ob-top-right-l {
+    object-position: top right;
+  }
+
+  .ob-bottom-left-l {
+    object-position: bottom left;
+  }
+
+  .ob-bottom-right-l {
+    object-position: bottom right;
   }
 }
