@@ -1,4 +1,4 @@
-/*! TACHYONS v5.0.0-1 | http://tachyons.io */
+/*! TACHYONS v7.0.1-2 | http://tachyons.io */
 /*
  *
  *      ________            ______
@@ -995,12 +995,13 @@ http://tachyons.io/docs/typography/tracking/
 
 ### Base
 
-- tracked
+- ls
 
-### Literal Values
+### Modifiers
 
-- `-tight`
-- `-mega`
+- 1 = 1st step in spacing scale
+- 2 = 2nd step in spacing scale
+- 3 = 3rd step in spacing scale
 
 ### Media Query Extensions
 
@@ -1008,9 +1009,9 @@ http://tachyons.io/docs/typography/tracking/
 - `-m` = medium
 - `-l` = large
 */
-.tracked { letter-spacing: .1em; }
-.tracked-tight { letter-spacing: -.05em; }
-.tracked-mega { letter-spacing: .25em; }
+.ls1 { letter-spacing: -.05em; }
+.ls2 { letter-spacing: .1em; }
+.ls3 { letter-spacing: .25em; }
 /*!!!
 
 # LINE HEIGHT / LEADING
@@ -2285,7 +2286,9 @@ http://tachyons.io/docs/layout/spacing/
 .ph5 { padding-left: 4rem; padding-right: 4rem; }
 .ph6 { padding-left: 8rem; padding-right: 8rem; }
 .ph7 { padding-left: 16rem; padding-right: 16rem; }
+.mt-auto { margin-top: auto; }
 .mr-auto { margin-right: auto; }
+.mb-auto { margin-bottom: auto; }
 .ml-auto { margin-left: auto; }
 .m0 { margin: 0; }
 .m1 { margin: .25rem; }
@@ -3120,9 +3123,9 @@ http://tachyons.io/docs/debug-grid/
  .min-vh-100-s { min-height: 100vh; }
  .h-auto-s { height: auto; }
  .h-inherit-s { height: inherit; }
- .tracked-s { letter-spacing: .1em; }
- .tracked-tight-s { letter-spacing: -.05em; }
- .tracked-mega-s { letter-spacing: .25em; }
+ .ls1-s { letter-spacing: -.05em; }
+ .ls2-s { letter-spacing: .1em; }
+ .ls3-s { letter-spacing: .25em; }
  .lh-solid-s { line-height: 1; }
  .lh-title-s { line-height: 1.25; }
  .lh-copy-s { line-height: 1.5; }
@@ -3238,7 +3241,9 @@ http://tachyons.io/docs/debug-grid/
  .ph5-s { padding-left: 4rem; padding-right: 4rem; }
  .ph6-s { padding-left: 8rem; padding-right: 8rem; }
  .ph7-s { padding-left: 16rem; padding-right: 16rem; }
+ .mt-auto-s { margin-top: auto; }
  .mr-auto-s { margin-right: auto; }
+ .mb-auto-s { margin-bottom: auto; }
  .ml-auto-s { margin-left: auto; }
  .m0-s { margin: 0; }
  .m1-s { margin: .25rem; }
@@ -3544,9 +3549,9 @@ http://tachyons.io/docs/debug-grid/
  .min-vh-100-m { min-height: 100vh; }
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
- .tracked-m { letter-spacing: .1em; }
- .tracked-tight-m { letter-spacing: -.05em; }
- .tracked-mega-m { letter-spacing: .25em; }
+ .ls1-m { letter-spacing: -.05em; }
+ .ls2-m { letter-spacing: .1em; }
+ .ls3-m { letter-spacing: .25em; }
  .lh-solid-m { line-height: 1; }
  .lh-title-m { line-height: 1.25; }
  .lh-copy-m { line-height: 1.5; }
@@ -3662,7 +3667,9 @@ http://tachyons.io/docs/debug-grid/
  .ph5-m { padding-left: 4rem; padding-right: 4rem; }
  .ph6-m { padding-left: 8rem; padding-right: 8rem; }
  .ph7-m { padding-left: 16rem; padding-right: 16rem; }
+ .mt-auto-m { margin-top: auto; }
  .mr-auto-m { margin-right: auto; }
+ .mb-auto-m { margin-bottom: auto; }
  .ml-auto-m { margin-left: auto; }
  .m0-m { margin: 0; }
  .m1-m { margin: .25rem; }
@@ -3965,9 +3972,9 @@ http://tachyons.io/docs/debug-grid/
  .min-vh-100-l { min-height: 100vh; }
  .h-auto-l { height: auto; }
  .h-inherit-l { height: inherit; }
- .tracked-l { letter-spacing: .1em; }
- .tracked-tight-l { letter-spacing: -.05em; }
- .tracked-mega-l { letter-spacing: .25em; }
+ .ls1-l { letter-spacing: -.05em; }
+ .ls2-l { letter-spacing: .1em; }
+ .ls3-l { letter-spacing: .25em; }
  .lh-solid-l { line-height: 1; }
  .lh-title-l { line-height: 1.25; }
  .lh-copy-l { line-height: 1.5; }
@@ -4083,7 +4090,9 @@ http://tachyons.io/docs/debug-grid/
  .ph5-l { padding-left: 4rem; padding-right: 4rem; }
  .ph6-l { padding-left: 8rem; padding-right: 8rem; }
  .ph7-l { padding-left: 16rem; padding-right: 16rem; }
+ .mt-auto-l { margin-top: auto; }
  .mr-auto-l { margin-right: auto; }
+ .mb-auto-l { margin-bottom: auto; }
  .ml-auto-l { margin-left: auto; }
  .m0-l { margin: 0; }
  .m1-l { margin: .25rem; }
