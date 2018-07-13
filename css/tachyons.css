@@ -202,8 +202,9 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
 # ASPECT RATIOS
 
 This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
-Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
+Wrap the outer element in aspect-ratio and then extend it with the desired ratio.
 Make sure there are no height and width attributes on the embedded media.
+
 Adapted from: https://github.com/suitcss/components-flex-embed
 
 ### Docs
@@ -212,7 +213,7 @@ https://tachyons.io/docs/layout/aspect-ratios
 
 ### Base
 
-- aspect-ratio = aspect ratio
+- `aspect-ratio` = aspect ratio
 
 ### Modifiers
 
@@ -666,18 +667,6 @@ http://nicolasgallagher.com/micro-clearfix-hack/
 .cr { clear: right; }
 .cb { clear: both; }
 .cn { clear: none; }
-/*!!!
-
-# Direction
-
-Set direction of text, tables and horizontal overflow.
-
-### Docs
-
-https://tachyons.io/docs/layout/direction/
-*/
-.ltr { direction: ltr; }
-.rtl { direction: rtl; }
 /*!!!
 
 # DISPLAY
@@ -1341,6 +1330,7 @@ If you haven't declared a border color, but set border on an element, it will
 be set to the current text color.
 */
 /* Text colors */
+.color-inherit { color: inherit; }
 .black-90 { color: rgba( 0, 0, 0, .9 ); }
 .black-80 { color: undefined; }
 .black-70 { color: rgba( 0, 0, 0, .7 ); }
@@ -1361,15 +1351,15 @@ be set to the current text color.
 .white-20 { color: rgba( 255, 255, 255, .2 ); }
 .white-10 { color: rgba( 255, 255, 255, .1 ); }
 .black { color: #000; }
-.gray0 { color: #161a1d; }
-.gray1 { color: #242c34; }
-.gray2 { color: #364049; }
-.gray3 { color: #4b545c; }
-.gray4 { color: #626a71; }
-.gray5 { color: #798086; }
-.gray6 { color: #91969b; }
-.gray7 { color: #a9aeb1; }
-.gray8 { color: #c3c5c8; }
+.gray-0 { color: #161a1d; }
+.gray-1 { color: #242c34; }
+.gray-2 { color: #364049; }
+.gray-3 { color: #4b545c; }
+.gray-4 { color: #626a71; }
+.gray-5 { color: #798086; }
+.gray-6 { color: #91969b; }
+.gray-7 { color: #a9aeb1; }
+.gray-8 { color: #c3c5c8; }
 .white { color: #f7f7f7; }
 .green-0 { color: #044324; }
 .green-1 { color: #05532d; }
@@ -1427,27 +1417,27 @@ be set to the current text color.
 .indigo-9 { color: #cebafc; }
 .indigo-10 { color: #dacefd; }
 .purple-0 { color: #500576; }
-.purple-0 { color: #630691; }
-.purple-0 { color: #8a09cb; }
-.purple-0 { color: #9f0ae9; }
-.purple-0 { color: #af2ef6; }
-.purple-0 { color: #bb4ef7; }
-.purple-0 { color: #c568f9; }
-.purple-0 { color: #d080fa; }
-.purple-0 { color: #d996fb; }
-.purple-0 { color: #e1acfb; }
-.purple-0 { color: #e9c2fc; }
-.pink { color: #640233; }
-.pink { color: #7c033f; }
-.pink { color: #ae0459; }
-.pink { color: #c80467; }
-.pink { color: #e30574; }
-.pink { color: #fb1d83; }
-.pink { color: #fe5195; }
-.pink { color: #ff73a7; }
-.pink { color: #ff8fba; }
-.pink { color: #ffa9cc; }
-.pink { color: #fec1df; }
+.purple-1 { color: #630691; }
+.purple-2 { color: #8a09cb; }
+.purple-3 { color: #9f0ae9; }
+.purple-4 { color: #af2ef6; }
+.purple-5 { color: #bb4ef7; }
+.purple-6 { color: #c568f9; }
+.purple-7 { color: #d080fa; }
+.purple-8 { color: #d996fb; }
+.purple-9 { color: #e1acfb; }
+.purple-10 { color: #e9c2fc; }
+.pink-0 { color: #640233; }
+.pink-1 { color: #7c033f; }
+.pink-2 { color: #ae0459; }
+.pink-3 { color: #c80467; }
+.pink-4 { color: #e30574; }
+.pink-5 { color: #fb1d83; }
+.pink-6 { color: #fe5195; }
+.pink-7 { color: #ff73a7; }
+.pink-8 { color: #ff8fba; }
+.pink-9 { color: #ffa9cc; }
+.pink-10 { color: #fec1df; }
 .red-0 { color: #390408; }
 .red-1 { color: #520814; }
 .red-2 { color: #8a1223; }
@@ -1481,6 +1471,8 @@ be set to the current text color.
 .yellow-8 { color: #ffd434; }
 .yellow-9 { color: #ffe483; }
 .yellow-10 { color: #fff3bf; }
+/* Background colors */
+.bg-transparent { background-color: transparent; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: undefined; }
 .bg-black-70 { background-color: rgba( 0, 0, 0, .7 ); }
@@ -1501,15 +1493,15 @@ be set to the current text color.
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
 .bg-black { background-color: #000; }
-.bg-gray0 { background-color: #161a1d; }
-.bg-gray1 { background-color: #242c34; }
-.bg-gray2 { background-color: #364049; }
-.bg-gray3 { background-color: #4b545c; }
-.bg-gray4 { background-color: #626a71; }
-.bg-gray5 { background-color: #798086; }
-.bg-gray6 { background-color: #91969b; }
-.bg-gray7 { background-color: #a9aeb1; }
-.bg-gray8 { background-color: #c3c5c8; }
+.bg-gray-0 { background-color: #161a1d; }
+.bg-gray-1 { background-color: #242c34; }
+.bg-gray-2 { background-color: #364049; }
+.bg-gray-3 { background-color: #4b545c; }
+.bg-gray-4 { background-color: #626a71; }
+.bg-gray-5 { background-color: #798086; }
+.bg-gray-6 { background-color: #91969b; }
+.bg-gray-7 { background-color: #a9aeb1; }
+.bg-gray-8 { background-color: #c3c5c8; }
 .bg-white { background-color: #f7f7f7; }
 .bg-green-0 { background-color: #044324; }
 .bg-green-1 { background-color: #05532d; }
@@ -1567,27 +1559,27 @@ be set to the current text color.
 .bg-indigo-9 { background-color: #cebafc; }
 .bg-indigo-10 { background-color: #dacefd; }
 .bg-purple-0 { background-color: #500576; }
-.bg-purple-0 { background-color: #630691; }
-.bg-purple-0 { background-color: #8a09cb; }
-.bg-purple-0 { background-color: #9f0ae9; }
-.bg-purple-0 { background-color: #af2ef6; }
-.bg-purple-0 { background-color: #bb4ef7; }
-.bg-purple-0 { background-color: #c568f9; }
-.bg-purple-0 { background-color: #d080fa; }
-.bg-purple-0 { background-color: #d996fb; }
-.bg-purple-0 { background-color: #e1acfb; }
-.bg-purple-0 { background-color: #e9c2fc; }
-.bg-pink { background-color: #640233; }
-.bg-pink { background-color: #7c033f; }
-.bg-pink { background-color: #ae0459; }
-.bg-pink { background-color: #c80467; }
-.bg-pink { background-color: #e30574; }
-.bg-pink { background-color: #fb1d83; }
-.bg-pink { background-color: #fe5195; }
-.bg-pink { background-color: #ff73a7; }
-.bg-pink { background-color: #ff8fba; }
-.bg-pink { background-color: #ffa9cc; }
-.bg-pink { background-color: #fec1df; }
+.bg-purple-1 { background-color: #630691; }
+.bg-purple-2 { background-color: #8a09cb; }
+.bg-purple-3 { background-color: #9f0ae9; }
+.bg-purple-4 { background-color: #af2ef6; }
+.bg-purple-5 { background-color: #bb4ef7; }
+.bg-purple-6 { background-color: #c568f9; }
+.bg-purple-7 { background-color: #d080fa; }
+.bg-purple-8 { background-color: #d996fb; }
+.bg-purple-9 { background-color: #e1acfb; }
+.bg-purple-10 { background-color: #e9c2fc; }
+.bg-pink-0 { background-color: #640233; }
+.bg-pink-1 { background-color: #7c033f; }
+.bg-pink-2 { background-color: #ae0459; }
+.bg-pink-3 { background-color: #c80467; }
+.bg-pink-4 { background-color: #e30574; }
+.bg-pink-5 { background-color: #fb1d83; }
+.bg-pink-6 { background-color: #fe5195; }
+.bg-pink-7 { background-color: #ff73a7; }
+.bg-pink-8 { background-color: #ff8fba; }
+.bg-pink-9 { background-color: #ffa9cc; }
+.bg-pink-10 { background-color: #fec1df; }
 .bg-red-0 { background-color: #390408; }
 .bg-red-1 { background-color: #520814; }
 .bg-red-2 { background-color: #8a1223; }
@@ -1632,10 +1624,8 @@ it is focused or hovered over.
 
 http://tachyons.io/docs/themes/skins-pseudo/
  */
-.hover-black:hover { color: #000; }
-.hover-black:focus { color: #000; }
-.hover-white:hover { color: #f7f7f7; }
-.hover-white:focus { color: #f7f7f7; }
+/* Text colors */
+.hover-color-inherit:hover, .hover-color-inherit:focus { color: inherit; }
 .hover-black-90:hover { color: rgba( 0, 0, 0, .9 ); }
 .hover-black-90:focus { color: rgba( 0, 0, 0, .9 ); }
 .hover-black-80:hover { color: undefined; }
@@ -1654,6 +1644,8 @@ http://tachyons.io/docs/themes/skins-pseudo/
 .hover-black-20:focus { color: rgba( 0, 0, 0, .2 ); }
 .hover-black-10:hover { color: rgba( 0, 0, 0, .1 ); }
 .hover-black-10:focus { color: rgba( 0, 0, 0, .1 ); }
+.hover-black-05:hover { color: rgba( 0, 0, 0, .05 ); }
+.hover-black-05:focus { color: rgba( 0, 0, 0, .05 ); }
 .hover-white-90:hover { color: rgba( 255, 255, 255, .9 ); }
 .hover-white-90:focus { color: rgba( 255, 255, 255, .9 ); }
 .hover-white-80:hover { color: undefined; }
@@ -1672,11 +1664,249 @@ http://tachyons.io/docs/themes/skins-pseudo/
 .hover-white-20:focus { color: rgba( 255, 255, 255, .2 ); }
 .hover-white-10:hover { color: rgba( 255, 255, 255, .1 ); }
 .hover-white-10:focus { color: rgba( 255, 255, 255, .1 ); }
-.hover-inherit:hover, .hover-inherit:focus { color: inherit; }
-.hover-bg-black:hover { background-color: #000; }
-.hover-bg-black:focus { background-color: #000; }
-.hover-bg-white:hover { background-color: #f7f7f7; }
-.hover-bg-white:focus { background-color: #f7f7f7; }
+.hover-black:hover { color: #000; }
+.hover-black:focus { color: #000; }
+.hover-gray-0:hover { color: #161a1d; }
+.hover-gray-0:focus { color: #161a1d; }
+.hover-gray-1:hover { color: #242c34; }
+.hover-gray-1:focus { color: #242c34; }
+.hover-gray-2:hover { color: #364049; }
+.hover-gray-2:focus { color: #364049; }
+.hover-gray-3:hover { color: #4b545c; }
+.hover-gray-3:focus { color: #4b545c; }
+.hover-gray-4:hover { color: #626a71; }
+.hover-gray-4:focus { color: #626a71; }
+.hover-gray-5:hover { color: #798086; }
+.hover-gray-5:focus { color: #798086; }
+.hover-gray-6:hover { color: #91969b; }
+.hover-gray-6:focus { color: #91969b; }
+.hover-gray-7:hover { color: #a9aeb1; }
+.hover-gray-7:focus { color: #a9aeb1; }
+.hover-gray-8:hover { color: #c3c5c8; }
+.hover-gray-8:focus { color: #c3c5c8; }
+.hover-white:hover { color: #f7f7f7; }
+.hover-white:focus { color: #f7f7f7; }
+.hover-green-0:hover { color: #044324; }
+.hover-green-0:focus { color: #044324; }
+.hover-green-1:hover { color: #05532d; }
+.hover-green-1:focus { color: #05532d; }
+.hover-green-2:hover { color: #087640; }
+.hover-green-2:focus { color: #087640; }
+.hover-green-3:hover { color: #098849; }
+.hover-green-3:focus { color: #098849; }
+.hover-green-4:hover { color: #0b9b53; }
+.hover-green-4:focus { color: #0b9b53; }
+.hover-green-5:hover { color: #0cad5d; }
+.hover-green-5:focus { color: #0cad5d; }
+.hover-green-6:hover { color: #0ec167; }
+.hover-green-6:focus { color: #0ec167; }
+.hover-green-7:hover { color: #0fd472; }
+.hover-green-7:focus { color: #0fd472; }
+.hover-green-8:hover { color: #10e87c; }
+.hover-green-8:focus { color: #10e87c; }
+.hover-green-9:hover { color: #78f5a6; }
+.hover-green-9:focus { color: #78f5a6; }
+.hover-green-10:hover { color: #c3fbdf; }
+.hover-green-10:focus { color: #c3fbdf; }
+.hover-teal-0:hover { color: #003d37; }
+.hover-teal-0:focus { color: #003d37; }
+.hover-teal-1:hover { color: #004e46; }
+.hover-teal-1:focus { color: #004e46; }
+.hover-teal-2:hover { color: #007166; }
+.hover-teal-2:focus { color: #007166; }
+.hover-teal-3:hover { color: #008477; }
+.hover-teal-3:focus { color: #008477; }
+.hover-teal-4:hover { color: #009788; }
+.hover-teal-4:focus { color: #009788; }
+.hover-teal-5:hover { color: #00ab9a; }
+.hover-teal-5:focus { color: #00ab9a; }
+.hover-teal-6:hover { color: #00bfac; }
+.hover-teal-6:focus { color: #00bfac; }
+.hover-teal-7:hover { color: #00d3be; }
+.hover-teal-7:focus { color: #00d3be; }
+.hover-teal-8:hover { color: #00e8d1; }
+.hover-teal-8:focus { color: #00e8d1; }
+.hover-teal-9:hover { color: #00fde4; }
+.hover-teal-9:focus { color: #00fde4; }
+.hover-teal-10:hover { color: #ccfffa; }
+.hover-teal-10:focus { color: #ccfffa; }
+.hover-teal-0:hover { color: #015151; }
+.hover-teal-0:focus { color: #015151; }
+.hover-teal-1:hover { color: #046064; }
+.hover-teal-1:focus { color: #046064; }
+.hover-teal-2:hover { color: #0f7f8a; }
+.hover-teal-2:focus { color: #0f7f8a; }
+.hover-teal-3:hover { color: #148f9f; }
+.hover-teal-3:focus { color: #148f9f; }
+.hover-teal-4:hover { color: #19a0b3; }
+.hover-teal-4:focus { color: #19a0b3; }
+.hover-teal-5:hover { color: #1eb1c9; }
+.hover-teal-5:focus { color: #1eb1c9; }
+.hover-teal-6:hover { color: #24c2de; }
+.hover-teal-6:focus { color: #24c2de; }
+.hover-teal-7:hover { color: #29d3f4; }
+.hover-teal-7:focus { color: #29d3f4; }
+.hover-teal-8:hover { color: #64e2fd; }
+.hover-teal-8:focus { color: #64e2fd; }
+.hover-teal-9:hover { color: #9cf0fe; }
+.hover-teal-9:focus { color: #9cf0fe; }
+.hover-teal-10:hover { color: #c7fefe; }
+.hover-teal-10:focus { color: #c7fefe; }
+.hover-blue-0:hover { color: #002c52; }
+.hover-blue-0:focus { color: #002c52; }
+.hover-blue-1:hover { color: #003a6c; }
+.hover-blue-1:focus { color: #003a6c; }
+.hover-blue-2:hover { color: #0057a2; }
+.hover-blue-2:focus { color: #0057a2; }
+.hover-blue-3:hover { color: #0066bf; }
+.hover-blue-3:focus { color: #0066bf; }
+.hover-blue-4:hover { color: #0076dc; }
+.hover-blue-4:focus { color: #0076dc; }
+.hover-blue-5:hover { color: #0086fb; }
+.hover-blue-5:focus { color: #0086fb; }
+.hover-blue-6:hover { color: #4d97ff; }
+.hover-blue-6:focus { color: #4d97ff; }
+.hover-blue-7:hover { color: #72a9ff; }
+.hover-blue-7:focus { color: #72a9ff; }
+.hover-blue-8:hover { color: #8fbbff; }
+.hover-blue-8:focus { color: #8fbbff; }
+.hover-blue-9:hover { color: #a8ceff; }
+.hover-blue-9:focus { color: #a8ceff; }
+.hover-blue-10:hover { color: #bfe1ff; }
+.hover-blue-10:focus { color: #bfe1ff; }
+.hover-indigo-0:hover { color: #2c0599; }
+.hover-indigo-0:focus { color: #2c0599; }
+.hover-indigo-1:hover { color: #3706be; }
+.hover-indigo-1:focus { color: #3706be; }
+.hover-indigo-2:hover { color: #5c26ef; }
+.hover-indigo-2:focus { color: #5c26ef; }
+.hover-indigo-3:hover { color: #733ff1; }
+.hover-indigo-3:focus { color: #733ff1; }
+.hover-indigo-4:hover { color: #8655f3; }
+.hover-indigo-4:focus { color: #8655f3; }
+.hover-indigo-5:hover { color: #9769f5; }
+.hover-indigo-5:focus { color: #9769f5; }
+.hover-indigo-6:hover { color: #a67df7; }
+.hover-indigo-6:focus { color: #a67df7; }
+.hover-indigo-7:hover { color: #b491f9; }
+.hover-indigo-7:focus { color: #b491f9; }
+.hover-indigo-8:hover { color: #c2a6fb; }
+.hover-indigo-8:focus { color: #c2a6fb; }
+.hover-indigo-9:hover { color: #cebafc; }
+.hover-indigo-9:focus { color: #cebafc; }
+.hover-indigo-10:hover { color: #dacefd; }
+.hover-indigo-10:focus { color: #dacefd; }
+.hover-purple-0:hover { color: #500576; }
+.hover-purple-0:focus { color: #500576; }
+.hover-purple-1:hover { color: #630691; }
+.hover-purple-1:focus { color: #630691; }
+.hover-purple-2:hover { color: #8a09cb; }
+.hover-purple-2:focus { color: #8a09cb; }
+.hover-purple-3:hover { color: #9f0ae9; }
+.hover-purple-3:focus { color: #9f0ae9; }
+.hover-purple-4:hover { color: #af2ef6; }
+.hover-purple-4:focus { color: #af2ef6; }
+.hover-purple-5:hover { color: #bb4ef7; }
+.hover-purple-5:focus { color: #bb4ef7; }
+.hover-purple-6:hover { color: #c568f9; }
+.hover-purple-6:focus { color: #c568f9; }
+.hover-purple-7:hover { color: #d080fa; }
+.hover-purple-7:focus { color: #d080fa; }
+.hover-purple-8:hover { color: #d996fb; }
+.hover-purple-8:focus { color: #d996fb; }
+.hover-purple-9:hover { color: #e1acfb; }
+.hover-purple-9:focus { color: #e1acfb; }
+.hover-purple-10:hover { color: #e9c2fc; }
+.hover-purple-10:focus { color: #e9c2fc; }
+.hover-pink-0:hover { color: #640233; }
+.hover-pink-0:focus { color: #640233; }
+.hover-pink-1:hover { color: #7c033f; }
+.hover-pink-1:focus { color: #7c033f; }
+.hover-pink-2:hover { color: #ae0459; }
+.hover-pink-2:focus { color: #ae0459; }
+.hover-pink-3:hover { color: #c80467; }
+.hover-pink-3:focus { color: #c80467; }
+.hover-pink-4:hover { color: #e30574; }
+.hover-pink-4:focus { color: #e30574; }
+.hover-pink-5:hover { color: #fb1d83; }
+.hover-pink-5:focus { color: #fb1d83; }
+.hover-pink-6:hover { color: #fe5195; }
+.hover-pink-6:focus { color: #fe5195; }
+.hover-pink-7:hover { color: #ff73a7; }
+.hover-pink-7:focus { color: #ff73a7; }
+.hover-pink-8:hover { color: #ff8fba; }
+.hover-pink-8:focus { color: #ff8fba; }
+.hover-pink-9:hover { color: #ffa9cc; }
+.hover-pink-9:focus { color: #ffa9cc; }
+.hover-pink-10:hover { color: #fec1df; }
+.hover-pink-10:focus { color: #fec1df; }
+.hover-red-0:hover { color: #390408; }
+.hover-red-0:focus { color: #390408; }
+.hover-red-1:hover { color: #520814; }
+.hover-red-1:focus { color: #520814; }
+.hover-red-2:hover { color: #8a1223; }
+.hover-red-2:focus { color: #8a1223; }
+.hover-red-3:hover { color: #a7172b; }
+.hover-red-3:focus { color: #a7172b; }
+.hover-red-4:hover { color: #c61d33; }
+.hover-red-4:focus { color: #c61d33; }
+.hover-red-5:hover { color: #e02e40; }
+.hover-red-5:focus { color: #e02e40; }
+.hover-red-6:hover { color: #e95459; }
+.hover-red-6:focus { color: #e95459; }
+.hover-red-7:hover { color: #f17373; }
+.hover-red-7:focus { color: #f17373; }
+.hover-red-8:hover { color: #f68e8f; }
+.hover-red-8:focus { color: #f68e8f; }
+.hover-red-9:hover { color: #faa9ab; }
+.hover-red-9:focus { color: #faa9ab; }
+.hover-red-10:hover { color: #fbc3c8; }
+.hover-red-10:focus { color: #fbc3c8; }
+.hover-orange-0:hover { color: #6f2601; }
+.hover-orange-0:focus { color: #6f2601; }
+.hover-orange-1:hover { color: #862e03; }
+.hover-orange-1:focus { color: #862e03; }
+.hover-orange-2:hover { color: #b73f04; }
+.hover-orange-2:focus { color: #b73f04; }
+.hover-orange-3:hover { color: #d04704; }
+.hover-orange-3:focus { color: #d04704; }
+.hover-orange-4:hover { color: #ea5003; }
+.hover-orange-4:focus { color: #ea5003; }
+.hover-orange-5:hover { color: #fe6018; }
+.hover-orange-5:focus { color: #fe6018; }
+.hover-orange-6:hover { color: #ff7e45; }
+.hover-orange-6:focus { color: #ff7e45; }
+.hover-orange-7:hover { color: #ff9969; }
+.hover-orange-7:focus { color: #ff9969; }
+.hover-orange-8:hover { color: #ffb18b; }
+.hover-orange-8:focus { color: #ffb18b; }
+.hover-orange-9:hover { color: #ffc7ac; }
+.hover-orange-9:focus { color: #ffc7ac; }
+.hover-orange-10:hover { color: #feddcd; }
+.hover-orange-10:focus { color: #feddcd; }
+.hover-yellow-0:hover { color: #806800; }
+.hover-yellow-0:focus { color: #806800; }
+.hover-yellow-1:hover { color: #8e7300; }
+.hover-yellow-1:focus { color: #8e7300; }
+.hover-yellow-2:hover { color: #aa8a00; }
+.hover-yellow-2:focus { color: #aa8a00; }
+.hover-yellow-3:hover { color: #b89600; }
+.hover-yellow-3:focus { color: #b89600; }
+.hover-yellow-4:hover { color: #c7a200; }
+.hover-yellow-4:focus { color: #c7a200; }
+.hover-yellow-5:hover { color: #d6ae00; }
+.hover-yellow-5:focus { color: #d6ae00; }
+.hover-yellow-6:hover { color: #e5ba00; }
+.hover-yellow-6:focus { color: #e5ba00; }
+.hover-yellow-7:hover { color: #f4c700; }
+.hover-yellow-7:focus { color: #f4c700; }
+.hover-yellow-8:hover { color: #ffd434; }
+.hover-yellow-8:focus { color: #ffd434; }
+.hover-yellow-9:hover { color: #ffe483; }
+.hover-yellow-9:focus { color: #ffe483; }
+.hover-yellow-10:hover { color: #fff3bf; }
+.hover-yellow-10:focus { color: #fff3bf; }
+/* Background colors */
 .hover-bg-transparent:hover { background-color: transparent; }
 .hover-bg-transparent:focus { background-color: transparent; }
 .hover-bg-black-90:hover { background-color: rgba( 0, 0, 0, .9 ); }
@@ -1697,24 +1927,268 @@ http://tachyons.io/docs/themes/skins-pseudo/
 .hover-bg-black-20:focus { background-color: rgba( 0, 0, 0, .2 ); }
 .hover-bg-black-10:hover { background-color: rgba( 0, 0, 0, .1 ); }
 .hover-bg-black-10:focus { background-color: rgba( 0, 0, 0, .1 ); }
-.hover-bg-white-90:hover { background-color: rgba( 255, 255, 255, .9 ); }
-.hover-bg-white-90:focus { background-color: rgba( 255, 255, 255, .9 ); }
-.hover-bg-white-80:hover { background-color: undefined; }
-.hover-bg-white-80:focus { background-color: undefined; }
-.hover-bg-white-70:hover { background-color: rgba( 255, 255, 255, .7 ); }
-.hover-bg-white-70:focus { background-color: rgba( 255, 255, 255, .7 ); }
-.hover-bg-white-60:hover { background-color: undefined; }
-.hover-bg-white-60:focus { background-color: undefined; }
-.hover-bg-white-50:hover { background-color: undefined; }
-.hover-bg-white-50:focus { background-color: undefined; }
-.hover-bg-white-40:hover { background-color: rgba( 255, 255, 255, .4 ); }
-.hover-bg-white-40:focus { background-color: rgba( 255, 255, 255, .4 ); }
-.hover-bg-white-30:hover { background-color: undefined; }
-.hover-bg-white-30:focus { background-color: undefined; }
-.hover-bg-white-20:hover { background-color: rgba( 255, 255, 255, .2 ); }
-.hover-bg-white-20:focus { background-color: rgba( 255, 255, 255, .2 ); }
-.hover-bg-white-10:hover { background-color: rgba( 255, 255, 255, .1 ); }
-.hover-bg-white-10:focus { background-color: rgba( 255, 255, 255, .1 ); }
+.hover-bg-black-05:hover { background-color: rgba( 0, 0, 0, .05 ); }
+.hover-bg-black-05:focus { background-color: rgba( 0, 0, 0, .05 ); }
+.bg-white-90:hover { background-color: rgba( 255, 255, 255, .9 ); }
+.bg-white-90:focus { background-color: rgba( 255, 255, 255, .9 ); }
+.bg-white-80:hover { background-color: undefined; }
+.bg-white-80:focus { background-color: undefined; }
+.bg-white-70:hover { background-color: rgba( 255, 255, 255, .7 ); }
+.bg-white-70:focus { background-color: rgba( 255, 255, 255, .7 ); }
+.bg-white-60:hover { background-color: undefined; }
+.bg-white-60:focus { background-color: undefined; }
+.bg-white-50:hover { background-color: undefined; }
+.bg-white-50:focus { background-color: undefined; }
+.bg-white-40:hover { background-color: rgba( 255, 255, 255, .4 ); }
+.bg-white-40:focus { background-color: rgba( 255, 255, 255, .4 ); }
+.bg-white-30:hover { background-color: undefined; }
+.bg-white-30:focus { background-color: undefined; }
+.bg-white-20:hover { background-color: rgba( 255, 255, 255, .2 ); }
+.bg-white-20:focus { background-color: rgba( 255, 255, 255, .2 ); }
+.bg-white-10:hover { background-color: rgba( 255, 255, 255, .1 ); }
+.bg-white-10:focus { background-color: rgba( 255, 255, 255, .1 ); }
+.hover-bg-black:hover { background-color: #000; }
+.hover-bg-black:focus { background-color: #000; }
+.hover-bg-gray-0:hover { background-color: #161a1d; }
+.hover-bg-gray-0:focus { background-color: #161a1d; }
+.hover-bg-gray-1:hover { background-color: #242c34; }
+.hover-bg-gray-1:focus { background-color: #242c34; }
+.hover-bg-gray-2:hover { background-color: #364049; }
+.hover-bg-gray-2:focus { background-color: #364049; }
+.hover-bg-gray-3:hover { background-color: #4b545c; }
+.hover-bg-gray-3:focus { background-color: #4b545c; }
+.hover-bg-gray-4:hover { background-color: #626a71; }
+.hover-bg-gray-4:focus { background-color: #626a71; }
+.hover-bg-gray-5:hover { background-color: #798086; }
+.hover-bg-gray-5:focus { background-color: #798086; }
+.hover-bg-gray-6:hover { background-color: #91969b; }
+.hover-bg-gray-6:focus { background-color: #91969b; }
+.hover-bg-gray-7:hover { background-color: #a9aeb1; }
+.hover-bg-gray-7:focus { background-color: #a9aeb1; }
+.hover-bg-gray-8:hover { background-color: #c3c5c8; }
+.hover-bg-gray-8:focus { background-color: #c3c5c8; }
+.hover-bg-white:hover { background-color: #f7f7f7; }
+.hover-bg-white:focus { background-color: #f7f7f7; }
+.hover-bg-green-0:hover { background-color: #044324; }
+.hover-bg-green-0:focus { background-color: #044324; }
+.hover-bg-green-1:hover { background-color: #05532d; }
+.hover-bg-green-1:focus { background-color: #05532d; }
+.hover-bg-green-2:hover { background-color: #087640; }
+.hover-bg-green-2:focus { background-color: #087640; }
+.hover-bg-green-3:hover { background-color: #098849; }
+.hover-bg-green-3:focus { background-color: #098849; }
+.hover-bg-green-4:hover { background-color: #0b9b53; }
+.hover-bg-green-4:focus { background-color: #0b9b53; }
+.hover-bg-green-5:hover { background-color: #0cad5d; }
+.hover-bg-green-5:focus { background-color: #0cad5d; }
+.hover-bg-green-6:hover { background-color: #0ec167; }
+.hover-bg-green-6:focus { background-color: #0ec167; }
+.hover-bg-green-7:hover { background-color: #0fd472; }
+.hover-bg-green-7:focus { background-color: #0fd472; }
+.hover-bg-green-8:hover { background-color: #10e87c; }
+.hover-bg-green-8:focus { background-color: #10e87c; }
+.hover-bg-green-9:hover { background-color: #78f5a6; }
+.hover-bg-green-9:focus { background-color: #78f5a6; }
+.hover-bg-green-10:hover { background-color: #c3fbdf; }
+.hover-bg-green-10:focus { background-color: #c3fbdf; }
+.hover-bg-teal-0:hover { background-color: #003d37; }
+.hover-bg-teal-0:focus { background-color: #003d37; }
+.hover-bg-teal-1:hover { background-color: #004e46; }
+.hover-bg-teal-1:focus { background-color: #004e46; }
+.hover-bg-teal-2:hover { background-color: #007166; }
+.hover-bg-teal-2:focus { background-color: #007166; }
+.hover-bg-teal-3:hover { background-color: #008477; }
+.hover-bg-teal-3:focus { background-color: #008477; }
+.hover-bg-teal-4:hover { background-color: #009788; }
+.hover-bg-teal-4:focus { background-color: #009788; }
+.hover-bg-teal-5:hover { background-color: #00ab9a; }
+.hover-bg-teal-5:focus { background-color: #00ab9a; }
+.hover-bg-teal-6:hover { background-color: #00bfac; }
+.hover-bg-teal-6:focus { background-color: #00bfac; }
+.hover-bg-teal-7:hover { background-color: #00d3be; }
+.hover-bg-teal-7:focus { background-color: #00d3be; }
+.hover-bg-teal-8:hover { background-color: #00e8d1; }
+.hover-bg-teal-8:focus { background-color: #00e8d1; }
+.hover-bg-teal-9:hover { background-color: #00fde4; }
+.hover-bg-teal-9:focus { background-color: #00fde4; }
+.hover-bg-teal-10:hover { background-color: #ccfffa; }
+.hover-bg-teal-10:focus { background-color: #ccfffa; }
+.hover-bg-cyan-0:hover { background-color: #015151; }
+.hover-bg-cyan-0:focus { background-color: #015151; }
+.hover-bg-cyan-1:hover { background-color: #046064; }
+.hover-bg-cyan-1:focus { background-color: #046064; }
+.hover-bg-cyan-2:hover { background-color: #0f7f8a; }
+.hover-bg-cyan-2:focus { background-color: #0f7f8a; }
+.hover-bg-cyan-3:hover { background-color: #148f9f; }
+.hover-bg-cyan-3:focus { background-color: #148f9f; }
+.hover-bg-cyan-4:hover { background-color: #19a0b3; }
+.hover-bg-cyan-4:focus { background-color: #19a0b3; }
+.hover-bg-cyan-5:hover { background-color: #1eb1c9; }
+.hover-bg-cyan-5:focus { background-color: #1eb1c9; }
+.hover-bg-cyan-6:hover { background-color: #24c2de; }
+.hover-bg-cyan-6:focus { background-color: #24c2de; }
+.hover-bg-cyan-7:hover { background-color: #29d3f4; }
+.hover-bg-cyan-7:focus { background-color: #29d3f4; }
+.hover-bg-cyan-8:hover { background-color: #64e2fd; }
+.hover-bg-cyan-8:focus { background-color: #64e2fd; }
+.hover-bg-cyan-9:hover { background-color: #9cf0fe; }
+.hover-bg-cyan-9:focus { background-color: #9cf0fe; }
+.hover-bg-cyan-10:hover { background-color: #c7fefe; }
+.hover-bg-cyan-10:focus { background-color: #c7fefe; }
+.hover-bg-blue-0:hover { background-color: #002c52; }
+.hover-bg-blue-0:focus { background-color: #002c52; }
+.hover-bg-blue-1:hover { background-color: #003a6c; }
+.hover-bg-blue-1:focus { background-color: #003a6c; }
+.hover-bg-blue-2:hover { background-color: #0057a2; }
+.hover-bg-blue-2:focus { background-color: #0057a2; }
+.hover-bg-blue-3:hover { background-color: #0066bf; }
+.hover-bg-blue-3:focus { background-color: #0066bf; }
+.hover-bg-blue-4:hover { background-color: #0076dc; }
+.hover-bg-blue-4:focus { background-color: #0076dc; }
+.hover-bg-blue-5:hover { background-color: #0086fb; }
+.hover-bg-blue-5:focus { background-color: #0086fb; }
+.hover-bg-blue-6:hover { background-color: #4d97ff; }
+.hover-bg-blue-6:focus { background-color: #4d97ff; }
+.hover-bg-blue-7:hover { background-color: #72a9ff; }
+.hover-bg-blue-7:focus { background-color: #72a9ff; }
+.hover-bg-blue-8:hover { background-color: #8fbbff; }
+.hover-bg-blue-8:focus { background-color: #8fbbff; }
+.hover-bg-blue-9:hover { background-color: #a8ceff; }
+.hover-bg-blue-9:focus { background-color: #a8ceff; }
+.hover-bg-blue-10:hover { background-color: #bfe1ff; }
+.hover-bg-blue-10:focus { background-color: #bfe1ff; }
+.hover-bg-indigo-0:hover { background-color: #2c0599; }
+.hover-bg-indigo-0:focus { background-color: #2c0599; }
+.hover-bg-indigo-1:hover { background-color: #3706be; }
+.hover-bg-indigo-1:focus { background-color: #3706be; }
+.hover-bg-indigo-2:hover { background-color: #5c26ef; }
+.hover-bg-indigo-2:focus { background-color: #5c26ef; }
+.hover-bg-indigo-3:hover { background-color: #733ff1; }
+.hover-bg-indigo-3:focus { background-color: #733ff1; }
+.hover-bg-indigo-4:hover { background-color: #8655f3; }
+.hover-bg-indigo-4:focus { background-color: #8655f3; }
+.hover-bg-indigo-5:hover { background-color: #9769f5; }
+.hover-bg-indigo-5:focus { background-color: #9769f5; }
+.hover-bg-indigo-6:hover { background-color: #a67df7; }
+.hover-bg-indigo-6:focus { background-color: #a67df7; }
+.hover-bg-indigo-7:hover { background-color: #b491f9; }
+.hover-bg-indigo-7:focus { background-color: #b491f9; }
+.hover-bg-indigo-8:hover { background-color: #c2a6fb; }
+.hover-bg-indigo-8:focus { background-color: #c2a6fb; }
+.hover-bg-indigo-9:hover { background-color: #cebafc; }
+.hover-bg-indigo-9:focus { background-color: #cebafc; }
+.hover-bg-indigo-10:hover { background-color: #dacefd; }
+.hover-bg-indigo-10:focus { background-color: #dacefd; }
+.hover-bg-purple-0:hover { background-color: #500576; }
+.hover-bg-purple-0:focus { background-color: #500576; }
+.hover-bg-purple-1:hover { background-color: #630691; }
+.hover-bg-purple-1:focus { background-color: #630691; }
+.hover-bg-purple-2:hover { background-color: #8a09cb; }
+.hover-bg-purple-2:focus { background-color: #8a09cb; }
+.hover-bg-purple-3:hover { background-color: #9f0ae9; }
+.hover-bg-purple-3:focus { background-color: #9f0ae9; }
+.hover-bg-purple-4:hover { background-color: #af2ef6; }
+.hover-bg-purple-4:focus { background-color: #af2ef6; }
+.hover-bg-purple-5:hover { background-color: #bb4ef7; }
+.hover-bg-purple-5:focus { background-color: #bb4ef7; }
+.hover-bg-purple-6:hover { background-color: #c568f9; }
+.hover-bg-purple-6:focus { background-color: #c568f9; }
+.hover-bg-purple-7:hover { background-color: #d080fa; }
+.hover-bg-purple-7:focus { background-color: #d080fa; }
+.hover-bg-purple-8:hover { background-color: #d996fb; }
+.hover-bg-purple-8:focus { background-color: #d996fb; }
+.hover-bg-purple-9:hover { background-color: #e1acfb; }
+.hover-bg-purple-9:focus { background-color: #e1acfb; }
+.hover-bg-purple-10:hover { background-color: #e9c2fc; }
+.hover-bg-purple-10:focus { background-color: #e9c2fc; }
+.hover-bg-pink-0:hover { background-color: #640233; }
+.hover-bg-pink-0:focus { background-color: #640233; }
+.hover-bg-pink-1:hover { background-color: #7c033f; }
+.hover-bg-pink-1:focus { background-color: #7c033f; }
+.hover-bg-pink-2:hover { background-color: #ae0459; }
+.hover-bg-pink-2:focus { background-color: #ae0459; }
+.hover-bg-pink-3:hover { background-color: #c80467; }
+.hover-bg-pink-3:focus { background-color: #c80467; }
+.hover-bg-pink-4:hover { background-color: #e30574; }
+.hover-bg-pink-4:focus { background-color: #e30574; }
+.hover-bg-pink-5:hover { background-color: #fb1d83; }
+.hover-bg-pink-5:focus { background-color: #fb1d83; }
+.hover-bg-pink-6:hover { background-color: #fe5195; }
+.hover-bg-pink-6:focus { background-color: #fe5195; }
+.hover-bg-pink-7:hover { background-color: #ff73a7; }
+.hover-bg-pink-7:focus { background-color: #ff73a7; }
+.hover-bg-pink-8:hover { background-color: #ff8fba; }
+.hover-bg-pink-8:focus { background-color: #ff8fba; }
+.hover-bg-pink-9:hover { background-color: #ffa9cc; }
+.hover-bg-pink-9:focus { background-color: #ffa9cc; }
+.hover-bg-pink-10:hover { background-color: #fec1df; }
+.hover-bg-pink-10:focus { background-color: #fec1df; }
+.hover-bg-red-0:hover { background-color: #390408; }
+.hover-bg-red-0:focus { background-color: #390408; }
+.hover-bg-red-1:hover { background-color: #520814; }
+.hover-bg-red-1:focus { background-color: #520814; }
+.hover-bg-red-2:hover { background-color: #8a1223; }
+.hover-bg-red-2:focus { background-color: #8a1223; }
+.hover-bg-red-3:hover { background-color: #a7172b; }
+.hover-bg-red-3:focus { background-color: #a7172b; }
+.hover-bg-red-4:hover { background-color: #c61d33; }
+.hover-bg-red-4:focus { background-color: #c61d33; }
+.hover-bg-red-5:hover { background-color: #e02e40; }
+.hover-bg-red-5:focus { background-color: #e02e40; }
+.hover-bg-red-6:hover { background-color: #e95459; }
+.hover-bg-red-6:focus { background-color: #e95459; }
+.hover-bg-red-7:hover { background-color: #f17373; }
+.hover-bg-red-7:focus { background-color: #f17373; }
+.hover-bg-red-8:hover { background-color: #f68e8f; }
+.hover-bg-red-8:focus { background-color: #f68e8f; }
+.hover-bg-red-9:hover { background-color: #faa9ab; }
+.hover-bg-red-9:focus { background-color: #faa9ab; }
+.hover-bg-red-10:hover { background-color: #fbc3c8; }
+.hover-bg-red-10:focus { background-color: #fbc3c8; }
+.hover-bg-orange-0:hover { background-color: #6f2601; }
+.hover-bg-orange-0:focus { background-color: #6f2601; }
+.hover-bg-orange-1:hover { background-color: #862e03; }
+.hover-bg-orange-1:focus { background-color: #862e03; }
+.hover-bg-orange-2:hover { background-color: #b73f04; }
+.hover-bg-orange-2:focus { background-color: #b73f04; }
+.hover-bg-orange-3:hover { background-color: #d04704; }
+.hover-bg-orange-3:focus { background-color: #d04704; }
+.hover-bg-orange-4:hover { background-color: #ea5003; }
+.hover-bg-orange-4:focus { background-color: #ea5003; }
+.hover-bg-orange-5:hover { background-color: #fe6018; }
+.hover-bg-orange-5:focus { background-color: #fe6018; }
+.hover-bg-orange-6:hover { background-color: #ff7e45; }
+.hover-bg-orange-6:focus { background-color: #ff7e45; }
+.hover-bg-orange-7:hover { background-color: #ff9969; }
+.hover-bg-orange-7:focus { background-color: #ff9969; }
+.hover-bg-orange-8:hover { background-color: #ffb18b; }
+.hover-bg-orange-8:focus { background-color: #ffb18b; }
+.hover-bg-orange-9:hover { background-color: #ffc7ac; }
+.hover-bg-orange-9:focus { background-color: #ffc7ac; }
+.hover-bg-orange-10:hover { background-color: #feddcd; }
+.hover-bg-orange-10:focus { background-color: #feddcd; }
+.hover-bg-yellow-0:hover { background-color: #806800; }
+.hover-bg-yellow-0:focus { background-color: #806800; }
+.hover-bg-yellow-1:hover { background-color: #8e7300; }
+.hover-bg-yellow-1:focus { background-color: #8e7300; }
+.hover-bg-yellow-2:hover { background-color: #aa8a00; }
+.hover-bg-yellow-2:focus { background-color: #aa8a00; }
+.hover-bg-yellow-3:hover { background-color: #b89600; }
+.hover-bg-yellow-3:focus { background-color: #b89600; }
+.hover-bg-yellow-4:hover { background-color: #c7a200; }
+.hover-bg-yellow-4:focus { background-color: #c7a200; }
+.hover-bg-yellow-5:hover { background-color: #d6ae00; }
+.hover-bg-yellow-5:focus { background-color: #d6ae00; }
+.hover-bg-yellow-6:hover { background-color: #e5ba00; }
+.hover-bg-yellow-6:focus { background-color: #e5ba00; }
+.hover-bg-yellow-7:hover { background-color: #f4c700; }
+.hover-bg-yellow-7:focus { background-color: #f4c700; }
+.hover-bg-yellow-8:hover { background-color: #ffd434; }
+.hover-bg-yellow-8:focus { background-color: #ffd434; }
+.hover-bg-yellow-9:hover { background-color: #ffe483; }
+.hover-bg-yellow-9:focus { background-color: #ffe483; }
+.hover-bg-yellow-10:hover { background-color: #fff3bf; }
+.hover-bg-yellow-10:focus { background-color: #fff3bf; }
 /*!!!
 
 # SPACING
@@ -1811,6 +2285,8 @@ http://tachyons.io/docs/layout/spacing/
 .ph5 { padding-left: 4rem; padding-right: 4rem; }
 .ph6 { padding-left: 8rem; padding-right: 8rem; }
 .ph7 { padding-left: 16rem; padding-right: 16rem; }
+.mr-auto { margin-right: auto; }
+.ml-auto { margin-left: auto; }
 .m0 { margin: 0; }
 .m1 { margin: .25rem; }
 .m2 { margin: .5rem; }
@@ -2070,22 +2546,16 @@ http://tachyons.io/docs/typography/scale/
 - `-m` = medium
 - `-l` = large
 */
-/*
- * For Hero/Marketing Titles
- *
- * These generally are too large for mobile
- * so be careful using them on smaller screens.
- * */
 /* Type Scale */
-.f8 { font-size: 6rem; }
-.f7 { font-size: 4rem; }
-.f6 { font-size: 3rem; }
-.f5 { font-size: 2rem; }
+.f0 { font-size: 6rem; }
+.f1 { font-size: 4rem; }
+.f2 { font-size: 3rem; }
+.f3 { font-size: 2rem; }
 .f4 { font-size: 1.5rem; }
-.f3 { font-size: 1rem; }
-.f2 { font-size: .875rem; }
-.f1 { font-size: .75rem; }
+.f5 { font-size: 1rem; }
+.f6 { font-size: .875rem; }
 /* Small and hard to read for many people so use with extreme caution */
+.f7 { font-size: .75rem; }
 /*!!!
 
 # TYPOGRAPHY
@@ -2139,8 +2609,6 @@ http://tachyons.io/docs/typography/measure/
 /* Equivalent to .overflow-y-scroll */
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
-.mr-auto { margin-right: auto; }
-.ml-auto { margin-left: auto; }
 /*!!!
 
 # VISIBILITY
@@ -2167,8 +2635,6 @@ http://tachyons.io/docs/typography/measure/
 ### Base
 
 - ws-normal = white-space normal
-- nowrap = white-space nowrap
-- pre = white-space pre
 
 ### Media Query Extensions
 
@@ -2177,8 +2643,8 @@ http://tachyons.io/docs/typography/measure/
 - `-l` = large
 */
 .ws-normal { white-space: normal; }
-.nowrap { white-space: nowrap; }
-.pre { white-space: pre; }
+.ws-nowrap { white-space: nowrap; }
+.ws-pre { white-space: pre; }
 /*!!!
 
 # VERTICAL ALIGN
@@ -2478,85 +2944,7 @@ http://tachyons.io/docs/debug-grid/
 /* Uncomment out any of the lines below to import the addon */
 /* @import './_gradients'; */
 /* @import './_nudge'; */
-/*!!!
-
-    ANIMATE
-
-    Base:
-        a = animation duration
-        d = animation delay
-
-    Modifiers
-        1 = 1st step (150ms)
-    	  2 = 2nd step (300ms)
-    	  3 = 3rd step (450ms)
-    	  4 = 4th step (600ms)
-    	  5 = 5th step (750ms)
-    	  6 = 6th step (900ms)
-
-        -1 = literal value 1s
-        -2 = literal value 2s
-        -3 = literal value 3s
-
-    Media Query Extensions:
-        -ns = not-small
-        -m  = medium
-        -l  = large
-
-*/
-/* Animation Play State */
-.pause { -webkit-animation-play-state: paused; animation-play-state: paused; }
-/* Animation Iteration */
-.infinite { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
-.double { -webkit-animation-iteration-count: 2; animation-iteration-count: 2; }
-.triple { -webkit-animation-iteration-count: 3; animation-iteration-count: 3; }
-/* Animation Direction */
-.reverse { animation-direction: reverse; }
-.alternate { -webkit-animation-direction: alternate; animation-direction: alternate; }
-.alternate-reverse { animation-direction: alternate-reverse; }
-/* Animation Duration */
-.a1 { -webkit-animation-duration: 150ms; animation-duration: 150ms; }
-.a2 { -webkit-animation-duration: 300ms; animation-duration: 300ms; }
-.a3 { -webkit-animation-duration: 450ms; animation-duration: 450ms; }
-.a4 { -webkit-animation-duration: 600ms; animation-duration: 600ms; }
-.a5 { -webkit-animation-duration: 750ms; animation-duration: 750ms; }
-.a6 { -webkit-animation-duration: 900ms; animation-duration: 900ms; }
-.a-1 { -webkit-animation-duration: 1s; animation-duration: 1s; }
-.a-2 { -webkit-animation-duration: 2s; animation-duration: 2s; }
-.a-3 { -webkit-animation-duration: 3s; animation-duration: 3s; }
-/* Animation Delay */
-.d1 { -webkit-animation-delay: 150ms; animation-delay: 150ms; }
-.d2 { -webkit-animation-delay: 300ms; animation-delay: 300ms; }
-.d3 { -webkit-animation-delay: 450ms; animation-delay: 450ms; }
-.d4 { -webkit-animation-delay: 600ms; animation-delay: 600ms; }
-.d5 { -webkit-animation-delay: 750ms; animation-delay: 750ms; }
-.d6 { -webkit-animation-delay: 900ms; animation-delay: 900ms; }
-.d-1 { -webkit-animation-delay: 1s; animation-delay: 1s; }
-.d-2 { -webkit-animation-delay: 2s; animation-delay: 2s; }
-.d-3 { -webkit-animation-delay: 3s; animation-delay: 3s; }
-/* EASING BEZIER CURVES via https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d */
-.ease { -webkit-animation-timing-function: ease; animation-timing-function: ease; }
-.ease-in { -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
-.ease-in-quad { -webkit-animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); }
-.ease-in-cubic { -webkit-animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); }
-.ease-in-quart { -webkit-animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); }
-.ease-in-quint { -webkit-animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); }
-.ease-in-expo { -webkit-animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); }
-.ease-in-circ { -webkit-animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); }
-.ease-out { -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
-.ease-out-quad { -webkit-animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); }
-.ease-out-cubic { -webkit-animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); }
-.ease-out-quart { -webkit-animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); }
-.ease-out-quint { -webkit-animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); }
-.ease-out-expo { -webkit-animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); }
-.ease-out-circ { -webkit-animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); }
-.ease-in-out { -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
-.ease-in-out-quad { -webkit-animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); }
-.ease-in-out-cubic { -webkit-animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); }
-.ease-in-out-quart { -webkit-animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); }
-.ease-in-out-quint { -webkit-animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); }
-.ease-in-out-expo { -webkit-animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); }
-.ease-in-out-circ { -webkit-animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); }
+/* @import "./_animate"; */
 @media screen and (min-width: 30em) {
  .aspect-ratio-s { height: 0; position: relative; }
  .aspect-ratio--16x9-s { padding-bottom: 56.25%; }
@@ -2643,8 +3031,6 @@ http://tachyons.io/docs/debug-grid/
  .cr-s { clear: right; }
  .cb-s { clear: both; }
  .cn-s { clear: none; }
- .ltr-s { direction: ltr; }
- .rtl-s { direction: rtl; }
  .dn-s { display: none; }
  .di-s { display: inline; }
  .db-s { display: block; }
@@ -2799,7 +3185,7 @@ http://tachyons.io/docs/debug-grid/
  .p0-s { padding: 0; }
  .p1-s { padding: .25rem; }
  .p2-s { padding: .5rem; }
- .p3-s { padding: undefined; }
+ .p3-s { padding: 1rem; }
  .p4-s { padding: 2rem; }
  .p5-s { padding: 4rem; }
  .p6-s { padding: 8rem; }
@@ -2807,7 +3193,7 @@ http://tachyons.io/docs/debug-grid/
  .pl0-s { padding-left: 0; }
  .pl1-s { padding-left: .25rem; }
  .pl2-s { padding-left: .5rem; }
- .pl3-s { padding-left: undefined; }
+ .pl3-s { padding-left: 1rem; }
  .pl4-s { padding-left: 2rem; }
  .pl5-s { padding-left: 4rem; }
  .pl6-s { padding-left: 8rem; }
@@ -2815,7 +3201,7 @@ http://tachyons.io/docs/debug-grid/
  .pr0-s { padding-right: 0; }
  .pr1-s { padding-right: .25rem; }
  .pr2-s { padding-right: .5rem; }
- .pr3-s { padding-right: undefined; }
+ .pr3-s { padding-right: 1rem; }
  .pr4-s { padding-right: 2rem; }
  .pr5-s { padding-right: 4rem; }
  .pr6-s { padding-right: 8rem; }
@@ -2823,7 +3209,7 @@ http://tachyons.io/docs/debug-grid/
  .pb0-s { padding-bottom: 0; }
  .pb1-s { padding-bottom: .25rem; }
  .pb2-s { padding-bottom: .5rem; }
- .pb3-s { padding-bottom: undefined; }
+ .pb3-s { padding-bottom: 1rem; }
  .pb4-s { padding-bottom: 2rem; }
  .pb5-s { padding-bottom: 4rem; }
  .pb6-s { padding-bottom: 8rem; }
@@ -2831,7 +3217,7 @@ http://tachyons.io/docs/debug-grid/
  .pt0-s { padding-top: 0; }
  .pt1-s { padding-top: .25rem; }
  .pt2-s { padding-top: .5rem; }
- .pt3-s { padding-top: undefined; }
+ .pt3-s { padding-top: 1rem; }
  .pt4-s { padding-top: 2rem; }
  .pt5-s { padding-top: 4rem; }
  .pt6-s { padding-top: 8rem; }
@@ -2839,7 +3225,7 @@ http://tachyons.io/docs/debug-grid/
  .pv0-s { padding-top: 0; padding-bottom: 0; }
  .pv1-s { padding-top: .25rem; padding-bottom: .25rem; }
  .pv2-s { padding-top: .5rem; padding-bottom: .5rem; }
- .pv3-s { padding-top: undefined; padding-bottom: undefined; }
+ .pv3-s { padding-top: 1rem; padding-bottom: 1rem; }
  .pv4-s { padding-top: 2rem; padding-bottom: 2rem; }
  .pv5-s { padding-top: 4rem; padding-bottom: 4rem; }
  .pv6-s { padding-top: 8rem; padding-bottom: 8rem; }
@@ -2847,15 +3233,17 @@ http://tachyons.io/docs/debug-grid/
  .ph0-s { padding-left: 0; padding-right: 0; }
  .ph1-s { padding-left: .25rem; padding-right: .25rem; }
  .ph2-s { padding-left: .5rem; padding-right: .5rem; }
- .ph3-s { padding-left: undefined; padding-right: undefined; }
+ .ph3-s { padding-left: 1rem; padding-right: 1rem; }
  .ph4-s { padding-left: 2rem; padding-right: 2rem; }
  .ph5-s { padding-left: 4rem; padding-right: 4rem; }
  .ph6-s { padding-left: 8rem; padding-right: 8rem; }
  .ph7-s { padding-left: 16rem; padding-right: 16rem; }
+ .mr-auto-s { margin-right: auto; }
+ .ml-auto-s { margin-left: auto; }
  .m0-s { margin: 0; }
  .m1-s { margin: .25rem; }
  .m2-s { margin: .5rem; }
- .m3-s { margin: undefined; }
+ .m3-s { margin: 1rem; }
  .m4-s { margin: 2rem; }
  .m5-s { margin: 4rem; }
  .m6-s { margin: 8rem; }
@@ -2863,7 +3251,7 @@ http://tachyons.io/docs/debug-grid/
  .ml0-s { margin-left: 0; }
  .ml1-s { margin-left: .25rem; }
  .ml2-s { margin-left: .5rem; }
- .ml3-s { margin-left: undefined; }
+ .ml3-s { margin-left: 1rem; }
  .ml4-s { margin-left: 2rem; }
  .ml5-s { margin-left: 4rem; }
  .ml6-s { margin-left: 8rem; }
@@ -2871,7 +3259,7 @@ http://tachyons.io/docs/debug-grid/
  .mr0-s { margin-right: 0; }
  .mr1-s { margin-right: .25rem; }
  .mr2-s { margin-right: .5rem; }
- .mr3-s { margin-right: undefined; }
+ .mr3-s { margin-right: 1rem; }
  .mr4-s { margin-right: 2rem; }
  .mr5-s { margin-right: 4rem; }
  .mr6-s { margin-right: 8rem; }
@@ -2879,7 +3267,7 @@ http://tachyons.io/docs/debug-grid/
  .mb0-s { margin-bottom: 0; }
  .mb1-s { margin-bottom: .25rem; }
  .mb2-s { margin-bottom: .5rem; }
- .mb3-s { margin-bottom: undefined; }
+ .mb3-s { margin-bottom: 1rem; }
  .mb4-s { margin-bottom: 2rem; }
  .mb5-s { margin-bottom: 4rem; }
  .mb6-s { margin-bottom: 8rem; }
@@ -2887,7 +3275,7 @@ http://tachyons.io/docs/debug-grid/
  .mt0-s { margin-top: 0; }
  .mt1-s { margin-top: .25rem; }
  .mt2-s { margin-top: .5rem; }
- .mt3-s { margin-top: undefined; }
+ .mt3-s { margin-top: 1rem; }
  .mt4-s { margin-top: 2rem; }
  .mt5-s { margin-top: 4rem; }
  .mt6-s { margin-top: 8rem; }
@@ -2895,7 +3283,7 @@ http://tachyons.io/docs/debug-grid/
  .mv0-s { margin-top: 0; margin-bottom: 0; }
  .mv1-s { margin-top: .25rem; margin-bottom: .25rem; }
  .mv2-s { margin-top: .5rem; margin-bottom: .5rem; }
- .mv3-s { margin-top: undefined; margin-bottom: undefined; }
+ .mv3-s { margin-top: 1rem; margin-bottom: 1rem; }
  .mv4-s { margin-top: 2rem; margin-bottom: 2rem; }
  .mv5-s { margin-top: 4rem; margin-bottom: 4rem; }
  .mv6-s { margin-top: 8rem; margin-bottom: 8rem; }
@@ -2903,7 +3291,7 @@ http://tachyons.io/docs/debug-grid/
  .mh0-s { margin-left: 0; margin-right: 0; }
  .mh1-s { margin-left: .25rem; margin-right: .25rem; }
  .mh2-s { margin-left: .5rem; margin-right: .5rem; }
- .mh3-s { margin-left: undefined; margin-right: undefined; }
+ .mh3-s { margin-left: 1rem; margin-right: 1rem; }
  .mh4-s { margin-left: 2rem; margin-right: 2rem; }
  .mh5-s { margin-left: 4rem; margin-right: 4rem; }
  .mh6-s { margin-left: 8rem; margin-right: 8rem; }
@@ -2954,14 +3342,14 @@ http://tachyons.io/docs/debug-grid/
  .ttl-s { text-transform: lowercase; }
  .ttu-s { text-transform: uppercase; }
  .ttn-s { text-transform: none; }
- .f8-s { font-size: 6rem; }
- .f7-s { font-size: 4rem; }
- .f6-s { font-size: 3rem; }
- .f5-s { font-size: 2rem; }
+ .f0-s { font-size: 6rem; }
+ .f1-s { font-size: 4rem; }
+ .f2-s { font-size: 3rem; }
+ .f3-s { font-size: 2rem; }
  .f4-s { font-size: 1.5rem; }
- .f3-s { font-size: 1rem; }
- .f2-s { font-size: .875rem; }
- .f1-s { font-size: .75rem; }
+ .f5-s { font-size: 1rem; }
+ .f6-s { font-size: .875rem; }
+ .f7-s { font-size: .75rem; }
  .measure-s { max-width: 30em; }
  .measure-wide-s { max-width: 34em; }
  .measure-narrow-s { max-width: 20em; }
@@ -2969,65 +3357,16 @@ http://tachyons.io/docs/debug-grid/
  .small-caps-s { font-variant: small-caps; }
  .truncate-s { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .center-s { margin-right: auto; margin-left: auto; }
- .mr-auto-s { margin-right: auto; }
- .ml-auto-s { margin-left: auto; }
  .clip-s { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-s { white-space: normal; }
- .nowrap-s { white-space: nowrap; }
- .pre-s { white-space: pre; }
+ .ws-nowrap-s { white-space: nowrap; }
+ .ws-pre-s { white-space: pre; }
  .v-base-s { vertical-align: baseline; }
  .v-mid-s { vertical-align: middle; }
  .v-top-s { vertical-align: top; }
- .v-btm-s { vertical-align: bottom; }/* Animation Play State */
- .pause-ns { -webkit-animation-play-state: paused; animation-play-state: paused; }/* Animation Iteration */
- .infinite-ns { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
- .double-ns { -webkit-animation-iteration-count: 2; animation-iteration-count: 2; }
- .triple-ns { -webkit-animation-iteration-count: 3; animation-iteration-count: 3; }/* Animation Direction */
- .reverse-ns { animation-direction: reverse; }
- .alternate-ns { -webkit-animation-direction: alternate; animation-direction: alternate; }
- .alternate-reverse-ns { animation-direction: alternate-reverse; }/* Animation Duration */
- .a1-ns { -webkit-animation-duration: 150ms; animation-duration: 150ms; }
- .a2-ns { -webkit-animation-duration: 300ms; animation-duration: 300ms; }
- .a3-ns { -webkit-animation-duration: 450ms; animation-duration: 450ms; }
- .a4-ns { -webkit-animation-duration: 600ms; animation-duration: 600ms; }
- .a5-ns { -webkit-animation-duration: 750ms; animation-duration: 750ms; }
- .a6-ns { -webkit-animation-duration: 900ms; animation-duration: 900ms; }
- .a-1-ns { -webkit-animation-duration: 1s; animation-duration: 1s; }
- .a-2-ns { -webkit-animation-duration: 2s; animation-duration: 2s; }
- .a-3-ns { -webkit-animation-duration: 3s; animation-duration: 3s; }/* Animation Delay */
- .d1-ns { -webkit-animation-delay: 150ms; animation-delay: 150ms; }
- .d2-ns { -webkit-animation-delay: 300ms; animation-delay: 300ms; }
- .d3-ns { -webkit-animation-delay: 450ms; animation-delay: 450ms; }
- .d4-ns { -webkit-animation-delay: 600ms; animation-delay: 600ms; }
- .d5-ns { -webkit-animation-delay: 750ms; animation-delay: 750ms; }
- .d6-ns { -webkit-animation-delay: 900ms; animation-delay: 900ms; }
- .d-1-ns { -webkit-animation-delay: 1s; animation-delay: 1s; }
- .d-2-ns { -webkit-animation-delay: 2s; animation-delay: 2s; }
- .d-3-ns { -webkit-animation-delay: 3s; animation-delay: 3s; }/* EASING BEZIER CURVES via https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d */
- .ease-ns { -webkit-animation-timing-function: ease; animation-timing-function: ease; }
- .ease-in-ns { -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
- .ease-in-quad-ns { -webkit-animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); }
- .ease-in-cubic-ns { -webkit-animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); }
- .ease-in-quart-ns { -webkit-animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); }
- .ease-in-quint-ns { -webkit-animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); }
- .ease-in-expo-ns { -webkit-animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); }
- .ease-in-circ-ns { -webkit-animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); }
- .ease-out-ns { -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
- .ease-out-quad-ns { -webkit-animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); }
- .ease-out-cubic-ns { -webkit-animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); }
- .ease-out-quart-ns { -webkit-animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); }
- .ease-out-quint-ns { -webkit-animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); }
- .ease-out-expo-ns { -webkit-animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); }
- .ease-out-circ-ns { -webkit-animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); }
- .ease-in-out-ns { -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
- .ease-in-out-quad-ns { -webkit-animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); }
- .ease-in-out-cubic-ns { -webkit-animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); }
- .ease-in-out-quart-ns { -webkit-animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); }
- .ease-in-out-quint-ns { -webkit-animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); }
- .ease-in-out-expo-ns { -webkit-animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); }
- .ease-in-out-circ-ns { -webkit-animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); }
+ .v-btm-s { vertical-align: bottom; }
 }
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 48em) {
  .aspect-ratio-m { height: 0; position: relative; }
  .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
  .aspect-ratio--9x16-m { padding-bottom: 177.77%; }
@@ -3113,8 +3452,6 @@ http://tachyons.io/docs/debug-grid/
  .cr-m { clear: right; }
  .cb-m { clear: both; }
  .cn-m { clear: none; }
- .ltr-m { direction: ltr; }
- .rtl-m { direction: rtl; }
  .dn-m { display: none; }
  .di-m { display: inline; }
  .db-m { display: block; }
@@ -3325,6 +3662,8 @@ http://tachyons.io/docs/debug-grid/
  .ph5-m { padding-left: 4rem; padding-right: 4rem; }
  .ph6-m { padding-left: 8rem; padding-right: 8rem; }
  .ph7-m { padding-left: 16rem; padding-right: 16rem; }
+ .mr-auto-m { margin-right: auto; }
+ .ml-auto-m { margin-left: auto; }
  .m0-m { margin: 0; }
  .m1-m { margin: .25rem; }
  .m2-m { margin: .5rem; }
@@ -3427,14 +3766,14 @@ http://tachyons.io/docs/debug-grid/
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }
  .ttn-m { text-transform: none; }
- .f8-m { font-size: 6rem; }
- .f7-m { font-size: 4rem; }
- .f6-m { font-size: 3rem; }
- .f5-m { font-size: 2rem; }
+ .f0-m { font-size: 6rem; }
+ .f1-m { font-size: 4rem; }
+ .f2-m { font-size: 3rem; }
+ .f3-m { font-size: 2rem; }
  .f4-m { font-size: 1.5rem; }
- .f3-m { font-size: 1rem; }
- .f2-m { font-size: .875rem; }
- .f1-m { font-size: .75rem; }
+ .f5-m { font-size: 1rem; }
+ .f6-m { font-size: .875rem; }
+ .f7-m { font-size: .75rem; }
  .measure-m { max-width: 30em; }
  .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }
@@ -3442,63 +3781,14 @@ http://tachyons.io/docs/debug-grid/
  .small-caps-m { font-variant: small-caps; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .center-m { margin-right: auto; margin-left: auto; }
- .mr-auto-m { margin-right: auto; }
- .ml-auto-m { margin-left: auto; }
  .clip-m { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-m { white-space: normal; }
- .nowrap-m { white-space: nowrap; }
- .pre-m { white-space: pre; }
+ .ws-nowrap-m { white-space: nowrap; }
+ .ws-pre-m { white-space: pre; }
  .v-base-m { vertical-align: baseline; }
  .v-mid-m { vertical-align: middle; }
  .v-top-m { vertical-align: top; }
- .v-btm-m { vertical-align: bottom; }/* Animation Play State */
- .pause-m { -webkit-animation-play-state: paused; animation-play-state: paused; }/* Animation Iteration */
- .infinite-m { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
- .double-m { -webkit-animation-iteration-count: 2; animation-iteration-count: 2; }
- .triple-m { -webkit-animation-iteration-count: 3; animation-iteration-count: 3; }/* Animation Direction */
- .reverse-m { animation-direction: reverse; }
- .alternate-m { -webkit-animation-direction: alternate; animation-direction: alternate; }
- .alternate-reverse-m { animation-direction: alternate-reverse; }/* Animation Duration */
- .a1-m { -webkit-animation-duration: 150ms; animation-duration: 150ms; }
- .a2-m { -webkit-animation-duration: 300ms; animation-duration: 300ms; }
- .a3-m { -webkit-animation-duration: 450ms; animation-duration: 450ms; }
- .a4-m { -webkit-animation-duration: 600ms; animation-duration: 600ms; }
- .a5-m { -webkit-animation-duration: 750ms; animation-duration: 750ms; }
- .a6-m { -webkit-animation-duration: 900ms; animation-duration: 900ms; }
- .a-1-m { -webkit-animation-duration: 1s; animation-duration: 1s; }
- .a-2-m { -webkit-animation-duration: 2s; animation-duration: 2s; }
- .a-3-m { -webkit-animation-duration: 3s; animation-duration: 3s; }/* Animation Delay */
- .d1-m { -webkit-animation-delay: 150ms; animation-delay: 150ms; }
- .d2-m { -webkit-animation-delay: 300ms; animation-delay: 300ms; }
- .d3-m { -webkit-animation-delay: 450ms; animation-delay: 450ms; }
- .d4-m { -webkit-animation-delay: 600ms; animation-delay: 600ms; }
- .d5-m { -webkit-animation-delay: 750ms; animation-delay: 750ms; }
- .d6-m { -webkit-animation-delay: 900ms; animation-delay: 900ms; }
- .d-1-m { -webkit-animation-delay: 1s; animation-delay: 1s; }
- .d-2-m { -webkit-animation-delay: 2s; animation-delay: 2s; }
- .d-3-m { -webkit-animation-delay: 3s; animation-delay: 3s; }/* EASING BEZIER CURVES via https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d */
- .ease-m { -webkit-animation-timing-function: ease; animation-timing-function: ease; }
- .ease-in-m { -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
- .ease-in-quad-m { -webkit-animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); }
- .ease-in-cubic-m { -webkit-animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); }
- .ease-in-quart-m { -webkit-animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); }
- .ease-in-quint-m { -webkit-animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); }
- .ease-in-expo-m { -webkit-animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); }
- .ease-in-circ-m { -webkit-animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); }
- .ease-out-m { -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
- .ease-out-quad-m { -webkit-animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); }
- .ease-out-cubic-m { -webkit-animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); }
- .ease-out-quart-m { -webkit-animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); }
- .ease-out-quint-m { -webkit-animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); }
- .ease-out-expo-m { -webkit-animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); }
- .ease-out-circ-m { -webkit-animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); }
- .ease-in-out-m { -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
- .ease-in-out-quad-m { -webkit-animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); }
- .ease-in-out-cubic-m { -webkit-animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); }
- .ease-in-out-quart-m { -webkit-animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); }
- .ease-in-out-quint-m { -webkit-animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); }
- .ease-in-out-expo-m { -webkit-animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); }
- .ease-in-out-circ-m { -webkit-animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); }
+ .v-btm-m { vertical-align: bottom; }
 }
 @media screen and (min-width: 60em) {
  .aspect-ratio-l { height: 0; position: relative; }
@@ -3586,8 +3876,6 @@ http://tachyons.io/docs/debug-grid/
  .cr-l { clear: right; }
  .cb-l { clear: both; }
  .cn-l { clear: none; }
- .ltr-l { direction: ltr; }
- .rtl-l { direction: rtl; }
  .dn-l { display: none; }
  .di-l { display: inline; }
  .db-l { display: block; }
@@ -3795,6 +4083,8 @@ http://tachyons.io/docs/debug-grid/
  .ph5-l { padding-left: 4rem; padding-right: 4rem; }
  .ph6-l { padding-left: 8rem; padding-right: 8rem; }
  .ph7-l { padding-left: 16rem; padding-right: 16rem; }
+ .mr-auto-l { margin-right: auto; }
+ .ml-auto-l { margin-left: auto; }
  .m0-l { margin: 0; }
  .m1-l { margin: .25rem; }
  .m2-l { margin: .5rem; }
@@ -3897,14 +4187,14 @@ http://tachyons.io/docs/debug-grid/
  .ttl-l { text-transform: lowercase; }
  .ttu-l { text-transform: uppercase; }
  .ttn-l { text-transform: none; }
- .f8-l { font-size: 6rem; }
- .f7-l { font-size: 4rem; }
- .f6-l { font-size: 3rem; }
- .f5-l { font-size: 2rem; }
+ .f0-l { font-size: 6rem; }
+ .f1-l { font-size: 4rem; }
+ .f2-l { font-size: 3rem; }
+ .f3-l { font-size: 2rem; }
  .f4-l { font-size: 1.5rem; }
- .f3-l { font-size: 1rem; }
- .f2-l { font-size: .875rem; }
- .f1-l { font-size: .75rem; }
+ .f5-l { font-size: 1rem; }
+ .f6-l { font-size: .875rem; }
+ .f7-l { font-size: .75rem; }
  .measure-l { max-width: 30em; }
  .measure-wide-l { max-width: 34em; }
  .measure-narrow-l { max-width: 20em; }
@@ -3912,62 +4202,13 @@ http://tachyons.io/docs/debug-grid/
  .small-caps-l { font-variant: small-caps; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
  .center-l { margin-right: auto; margin-left: auto; }
- .mr-auto-l { margin-right: auto; }
- .ml-auto-l { margin-left: auto; }
  .clip-l { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-l { white-space: normal; }
- .nowrap-l { white-space: nowrap; }
- .pre-l { white-space: pre; }
+ .ws-nowrap-l { white-space: nowrap; }
+ .ws-pre-l { white-space: pre; }
  .v-base-l { vertical-align: baseline; }
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
- .v-btm-l { vertical-align: bottom; }/* Animation Play State */
- .pause-l { -webkit-animation-play-state: paused; animation-play-state: paused; }/* Animation Iteration */
- .infinite-l { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
- .double-l { -webkit-animation-iteration-count: 2; animation-iteration-count: 2; }
- .triple-l { -webkit-animation-iteration-count: 3; animation-iteration-count: 3; }/* Animation Direction */
- .reverse-l { animation-direction: reverse; }
- .alternate-l { -webkit-animation-direction: alternate; animation-direction: alternate; }
- .alternate-reverse-l { animation-direction: alternate-reverse; }/* Animation Duration */
- .a1-l { -webkit-animation-duration: 150ms; animation-duration: 150ms; }
- .a2-l { -webkit-animation-duration: 300ms; animation-duration: 300ms; }
- .a3-l { -webkit-animation-duration: 450ms; animation-duration: 450ms; }
- .a4-l { -webkit-animation-duration: 600ms; animation-duration: 600ms; }
- .a5-l { -webkit-animation-duration: 750ms; animation-duration: 750ms; }
- .a6-l { -webkit-animation-duration: 900ms; animation-duration: 900ms; }
- .a-1-l { -webkit-animation-duration: 1s; animation-duration: 1s; }
- .a-2-l { -webkit-animation-duration: 2s; animation-duration: 2s; }
- .a-3-l { -webkit-animation-duration: 3s; animation-duration: 3s; }/* Animation Delay */
- .d1-l { -webkit-animation-delay: 150ms; animation-delay: 150ms; }
- .d2-l { -webkit-animation-delay: 300ms; animation-delay: 300ms; }
- .d3-l { -webkit-animation-delay: 450ms; animation-delay: 450ms; }
- .d4-l { -webkit-animation-delay: 600ms; animation-delay: 600ms; }
- .d5-l { -webkit-animation-delay: 750ms; animation-delay: 750ms; }
- .d6-l { -webkit-animation-delay: 900ms; animation-delay: 900ms; }
- .d-1-l { -webkit-animation-delay: 1s; animation-delay: 1s; }
- .d-2-l { -webkit-animation-delay: 2s; animation-delay: 2s; }
- .d-3-l { -webkit-animation-delay: 3s; animation-delay: 3s; }/* EASING BEZIER CURVES via https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d */
- .ease-l { -webkit-animation-timing-function: ease; animation-timing-function: ease; }
- .ease-in-l { -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
- .ease-in-quad-l { -webkit-animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); animation-timing-function: cubic-bezier( .55, .085, .68, .53 ); }
- .ease-in-cubic-l { -webkit-animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); animation-timing-function: cubic-bezier( .55, .055, .675, .19 ); }
- .ease-in-quart-l { -webkit-animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); animation-timing-function: cubic-bezier( .895, .03, .685, .22 ); }
- .ease-in-quint-l { -webkit-animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); animation-timing-function: cubic-bezier( .755, .05, .855, .06 ); }
- .ease-in-expo-l { -webkit-animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); animation-timing-function: cubic-bezier( .95, .05, .795, .035 ); }
- .ease-in-circ-l { -webkit-animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); animation-timing-function: cubic-bezier( .6, .04, .98, .335 ); }
- .ease-out-l { -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
- .ease-out-quad-l { -webkit-animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); animation-timing-function: cubic-bezier( .25, .46, .45, .94 ); }
- .ease-out-cubic-l { -webkit-animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); animation-timing-function: cubic-bezier( .215, .61, .355, 1 ); }
- .ease-out-quart-l { -webkit-animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); animation-timing-function: cubic-bezier( .165, .84, .44, 1 ); }
- .ease-out-quint-l { -webkit-animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); animation-timing-function: cubic-bezier( .23, 1, .32, 1 ); }
- .ease-out-expo-l { -webkit-animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); animation-timing-function: cubic-bezier( .19, 1, .22, 1 ); }
- .ease-out-circ-l { -webkit-animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); animation-timing-function: cubic-bezier( .075, .82, .165, 1 ); }
- .ease-in-out-l { -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
- .ease-in-out-quad-l { -webkit-animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); animation-timing-function: cubic-bezier( .455, .03, .515, .955 ); }
- .ease-in-out-cubic-l { -webkit-animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); animation-timing-function: cubic-bezier( .645, .045, .355, 1 ); }
- .ease-in-out-quart-l { -webkit-animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); animation-timing-function: cubic-bezier( .77, 0, .175, 1 ); }
- .ease-in-out-quint-l { -webkit-animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); animation-timing-function: cubic-bezier( .86, 0, .07, 1 ); }
- .ease-in-out-expo-l { -webkit-animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); animation-timing-function: cubic-bezier( 1, 0, 0, 1 ); }
- .ease-in-out-circ-l { -webkit-animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); animation-timing-function: cubic-bezier( .785, .135, .15, .86 ); }
+ .v-btm-l { vertical-align: bottom; }
 }
 
