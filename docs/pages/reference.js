@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import MDX from '@mdx-js/runtime'
+import titleize from 'titleize'
 
 import Layout from '../ui/Layout'
 import Link from '../ui/Link'
@@ -24,13 +25,13 @@ class Reference extends Component {
               className="pv2"
               children={Object.keys(modules).map(k => {
                 const m = modules[k]
-                const shortName = m.name.replace(/^tachyons-/, '')
+                const shortName = m.name.replace(/^tachyons-/, '').replace('-', ' ')
 
                 return (
                   <Link
                     href={`/reference?module=${m.name}`}
                     className="db link pl3 pv2 black"
-                    children={shortName}
+                    children={titleize(shortName)}
                   />
                 )
               })}

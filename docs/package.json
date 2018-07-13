@@ -26,6 +26,7 @@
     "htmltojsx": "^0.3.0",
     "is-present": "^1.0.0",
     "next": "^6.1.1",
+    "postcss-css-variables": "^0.9.0",
     "raw-loader": "^0.5.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -87,7 +88,8 @@
     "tachyons-visibility": "^2.0.5",
     "tachyons-white-space": "^4.0.6",
     "tachyons-widths": "^5.2.1",
-    "tachyons-z-index": "^1.0.9"
+    "tachyons-z-index": "^1.0.9",
+    "titleize": "^1.0.1"
   },
   "contributors": [
     {
@@ -123,7 +125,6 @@
     "globby": "^8.0.1",
     "mkdirp": "^0.5.1",
     "prettier": "^1.13.7",
-    "titleize": "^1.0.1",
     "webpack": "^4.16.0"
   }
 }
