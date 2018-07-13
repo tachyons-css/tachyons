@@ -1,11 +1,18 @@
 {
 	"name": "tachyons-animate",
-	"version": "1.0.0",
+	"version": "7.0.1-0",
 	"style": "src/tachyons-animate.css",
 	"main": "src/tachyons-animate.css",
 	"description": "Performance based css module.",
-	"keywords": ["tachyons", "tachyons-css", "css-animations"],
-	"files": ["src", "css"],
+	"keywords": [
+		"tachyons",
+		"tachyons-css",
+		"css-animations"
+	],
+	"files": [
+		"src",
+		"css"
+	],
 	"repository": "anater/tachyons-animate",
 	"author": {
 		"name": "anater",
