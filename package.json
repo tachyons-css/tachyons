@@ -1,35 +1,15 @@
 {
   "name": "tachyons",
-  "version": "7.0.1-1",
   "description": "Functional css for humans",
+  "version": "7.0.1-1",
+  "license": "MIT",
   "author": "Adam Morse",
+  "repository": "tachyons-css/tachyons",
   "main": "src/tachyons.css",
   "files": [
     "css",
     "src"
   ],
-  "repository": "tachyons-css/tachyons",
-  "keywords": [
-    "css",
-    "oocss",
-    "postcss",
-    "functional css",
-    "design",
-    "responsive",
-    "performance"
-  ],
-  "devDependencies": {
-    "@compositor/x0": "^6.0.2",
-    "css-table": "^0.1.0",
-    "globby": "^8.0.1",
-    "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^8.0.0",
-    "lerna": "^2.9.1",
-    "strip-css-comments": "^3.0.0",
-    "tachyons-cli": "^1.3.2",
-    "watch": "^1.0.2"
-  },
-  "license": "MIT",
   "contributors": [
     {
       "name": "Adam Morse",
@@ -48,5 +28,24 @@
     "build:packages": "node build && lerna run build",
     "build:watch": "watch \"npm run build\" ./src/",
     "mutations": "immutable-css src/tachyons.css --strict"
-  }
+  },
+  "devDependencies": {
+    "@compositor/x0": "^6.0.2",
+    "css-table": "^0.1.0",
+    "globby": "^8.0.1",
+    "immutable-css-cli": "^1.1.1",
+    "lerna": "^2.9.1",
+    "strip-css-comments": "^3.0.0",
+    "tachyons-cli": "^1.3.0",
+    "watch": "^1.0.2"
+  },
+  "keywords": [
+    "css",
+    "oocss",
+    "postcss",
+    "functional css",
+    "design",
+    "responsive",
+    "performance"
+  ]
 }
