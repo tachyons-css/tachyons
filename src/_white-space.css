@@ -5,8 +5,6 @@
 ### Base
 
 - ws-normal = white-space normal
-- nowrap = white-space nowrap
-- pre = white-space pre
 
 ### Media Query Extensions
 
@@ -17,23 +15,23 @@
 
 
 .ws-normal { white-space: normal; }
-.nowrap { white-space: nowrap; }
-.pre { white-space: pre; }
+.ws-nowrap { white-space: nowrap; }
+.ws-pre { white-space: pre; }
 
 @media (--breakpoint-small) {
   .ws-normal-s { white-space: normal; }
-  .nowrap-s { white-space: nowrap; }
-  .pre-s { white-space: pre; }
+  .ws-nowrap-s { white-space: nowrap; }
+  .ws-pre-s { white-space: pre; }
 }
 
 @media (--breakpoint-medium) {
   .ws-normal-m { white-space: normal; }
-  .nowrap-m { white-space: nowrap; }
-  .pre-m { white-space: pre; }
+  .ws-nowrap-m { white-space: nowrap; }
+  .ws-pre-m { white-space: pre; }
 }
 
 @media (--breakpoint-large) {
   .ws-normal-l { white-space: normal; }
-  .nowrap-l { white-space: nowrap; }
-  .pre-l { white-space: pre; }
+  .ws-nowrap-l { white-space: nowrap; }
+  .ws-pre-l { white-space: pre; }
 }

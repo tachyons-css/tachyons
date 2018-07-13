@@ -1,0 +1,8 @@
+- colors page
+- long form content page
+- font families page
+- animate css update for media queries
+- animate css page
+- different css gradient deg
+- home page
+- styleguide page
