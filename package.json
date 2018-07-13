@@ -1,6 +1,6 @@
 {
   "name": "tachyons",
-  "version": "7.0.1-0",
+  "version": "7.0.1-1",
   "description": "Functional CSS for humans",
   "author": "Adam Morse",
   "main": "src/tachyons.css",
