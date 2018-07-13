@@ -1,7 +1,7 @@
 {
   "name": "tachyons-debug-children",
   "description": "Tachyons module for debugging layout for all of an elements children",
-  "version": "1.0.0",
+  "version": "7.0.1-0",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
