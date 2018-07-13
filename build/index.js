@@ -2,6 +2,8 @@ const fs = require('fs')
 const globby = require('globby')
 const stripComments = require('strip-css-comments')
 
+require('./colors')()
+
 const pattern = [
   'src/**/*.css',
   '!src/tachyons.css',

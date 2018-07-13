@@ -43,9 +43,6 @@ http://tachyons.io/docs/layout/display
 .dt {              display: table; }
 .dtc {             display: table-cell; }
 .dt-row {          display: table-row; }
-.dt-row-group {    display: table-row-group; }
-.dt-column {       display: table-column; }
-.dt-column-group { display: table-column-group; }
 
 /*
   This will set table to full width and then
@@ -65,9 +62,6 @@ http://tachyons.io/docs/layout/display
   .dt-s {              display: table; }
   .dtc-s {             display: table-cell; }
   .dt-row-s {          display: table-row; }
-  .dt-row-group-s {    display: table-row-group; }
-  .dt-column-s {       display: table-column; }
-  .dt-column-group-s { display: table-column-group; }
 
   .dt--fixed-s {
     table-layout: fixed;
@@ -103,9 +97,6 @@ http://tachyons.io/docs/layout/display
   .dt-l {              display: table; }
   .dtc-l {             display: table-cell; }
   .dt-row-l {          display: table-row; }
-  .dt-row-group-l {    display: table-row-group; }
-  .dt-column-l {       display: table-column; }
-  .dt-column-group-l { display: table-column-group; }
 
   .dt--fixed-l {
     table-layout: fixed;
