@@ -6492,92 +6492,92 @@
       "metadata": {},
       "tableOfStyles": [
         {
-          "selector": ".tracked",
-          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
-          "declarations": [
-            "letter-spacing: .1em"
-          ]
-        },
-        {
-          "selector": ".tracked-tight",
+          "selector": ".ls1",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
           "declarations": [
             "letter-spacing: -.05em"
           ]
         },
         {
-          "selector": ".tracked-mega",
+          "selector": ".ls2",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
+          "declarations": [
+            "letter-spacing: .1em"
+          ]
+        },
+        {
+          "selector": ".ls3",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
           "declarations": [
             "letter-spacing: .25em"
           ]
         },
         {
-          "selector": ".tracked-s",
-          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
-          "declarations": [
-            "letter-spacing: .1em"
-          ]
-        },
-        {
-          "selector": ".tracked-tight-s",
+          "selector": ".ls1-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
           "declarations": [
             "letter-spacing: -.05em"
           ]
         },
         {
-          "selector": ".tracked-mega-s",
+          "selector": ".ls2-s",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
+          "declarations": [
+            "letter-spacing: .1em"
+          ]
+        },
+        {
+          "selector": ".ls3-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
           "declarations": [
             "letter-spacing: .25em"
           ]
         },
         {
-          "selector": ".tracked-m",
-          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
-          "declarations": [
-            "letter-spacing: .1em"
-          ]
-        },
-        {
-          "selector": ".tracked-tight-m",
+          "selector": ".ls1-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
           "declarations": [
             "letter-spacing: -.05em"
           ]
         },
         {
-          "selector": ".tracked-mega-m",
+          "selector": ".ls2-m",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
+          "declarations": [
+            "letter-spacing: .1em"
+          ]
+        },
+        {
+          "selector": ".ls3-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
           "declarations": [
             "letter-spacing: .25em"
           ]
         },
         {
-          "selector": ".tracked-l",
-          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
-          "declarations": [
-            "letter-spacing: .1em"
-          ]
-        },
-        {
-          "selector": ".tracked-tight-l",
+          "selector": ".ls1-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
           "declarations": [
             "letter-spacing: -.05em"
           ]
         },
         {
-          "selector": ".tracked-mega-l",
+          "selector": ".ls2-l",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
+          "declarations": [
+            "letter-spacing: .1em"
+          ]
+        },
+        {
+          "selector": ".ls3-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-letter-spacing",
           "declarations": [
             "letter-spacing: .25em"
           ]
         }
       ],
-      "readme": "\n\n# LETTER SPACING\n\n### Docs\n\nhttp://tachyons.io/docs/typography/tracking/\n\n### Base\n\n- tracked\n\n### Literal Values\n\n- `-tight`\n- `-mega`\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n",
-      "src": "/*!!!\n\n# LETTER SPACING\n\n### Docs\n\nhttp://tachyons.io/docs/typography/tracking/\n\n### Base\n\n- tracked\n\n### Literal Values\n\n- `-tight`\n- `-mega`\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n\n.tracked       { letter-spacing:  .1em; }\n.tracked-tight { letter-spacing: -.05em; }\n.tracked-mega  { letter-spacing:  .25em; }\n\n@media (--breakpoint-small) {\n  .tracked-s       { letter-spacing:  .1em; }\n  .tracked-tight-s { letter-spacing: -.05em; }\n  .tracked-mega-s  { letter-spacing:  .25em; }\n}\n\n@media (--breakpoint-medium) {\n  .tracked-m       { letter-spacing:  .1em; }\n  .tracked-tight-m { letter-spacing: -.05em; }\n  .tracked-mega-m  { letter-spacing:  .25em; }\n}\n\n@media (--breakpoint-large) {\n  .tracked-l       { letter-spacing:  .1em; }\n  .tracked-tight-l { letter-spacing: -.05em; }\n  .tracked-mega-l  { letter-spacing:  .25em; }\n}\n",
+      "readme": "\n\n# LETTER SPACING\n\n### Docs\n\nhttp://tachyons.io/docs/typography/tracking/\n\n### Base\n\n- ls\n\n### Modifiers\n\n- 1 = 1st step in spacing scale\n- 2 = 2nd step in spacing scale\n- 3 = 3rd step in spacing scale\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n",
+      "src": "/*!!!\n\n# LETTER SPACING\n\n### Docs\n\nhttp://tachyons.io/docs/typography/tracking/\n\n### Base\n\n- ls\n\n### Modifiers\n\n- 1 = 1st step in spacing scale\n- 2 = 2nd step in spacing scale\n- 3 = 3rd step in spacing scale\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n\n.ls1 { letter-spacing: -.05em; }\n.ls2 { letter-spacing:  .1em; }\n.ls3 { letter-spacing:  .25em; }\n\n@media (--breakpoint-small) {\n  .ls1-s { letter-spacing: -.05em; }\n  .ls2-s { letter-spacing:  .1em; }\n  .ls3-s { letter-spacing:  .25em; }\n}\n\n@media (--breakpoint-medium) {\n  .ls1-m { letter-spacing: -.05em; }\n  .ls2-m { letter-spacing:  .1em; }\n  .ls3-m { letter-spacing:  .25em; }\n}\n\n@media (--breakpoint-large) {\n  .ls1-l { letter-spacing: -.05em; }\n  .ls2-l { letter-spacing:  .1em; }\n  .ls3-l { letter-spacing:  .25em; }\n}\n",
       "css": "/*\n\n   LETTER SPACING\n\n*/\n.tracked { letter-spacing: .1em; }\n.tracked-tight { letter-spacing: -.05em; }\n.tracked-mega { letter-spacing: .25em; }\n@media screen and (min-width: 30em) {\n .tracked-ns { letter-spacing: .1em; }\n .tracked-tight-ns { letter-spacing: -.05em; }\n .tracked-mega-ns { letter-spacing: .25em; }\n}\n@media screen and (min-width: 30em) and (max-width: 60em) {\n .tracked-m { letter-spacing: .1em; }\n .tracked-tight-m { letter-spacing: -.05em; }\n .tracked-mega-m { letter-spacing: .25em; }\n}\n@media screen and (min-width: 60em) {\n .tracked-l { letter-spacing: .1em; }\n .tracked-tight-l { letter-spacing: -.05em; }\n .tracked-mega-l { letter-spacing: .25em; }\n}\n\n"
     },
     "tachyons-line-height": {
@@ -14206,10 +14206,24 @@
           ]
         },
         {
+          "selector": ".mt-auto",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
+          "declarations": [
+            "margin-top: auto"
+          ]
+        },
+        {
           "selector": ".mr-auto",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
           "declarations": [
             "margin-right: auto"
+          ]
+        },
+        {
+          "selector": ".mb-auto",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
+          "declarations": [
+            "margin-bottom: auto"
           ]
         },
         {
@@ -15036,10 +15050,24 @@
           ]
         },
         {
+          "selector": ".mt-auto-s",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
+          "declarations": [
+            "margin-top: auto"
+          ]
+        },
+        {
           "selector": ".mr-auto-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
           "declarations": [
             "margin-right: auto"
+          ]
+        },
+        {
+          "selector": ".mb-auto-s",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
+          "declarations": [
+            "margin-bottom: auto"
           ]
         },
         {
@@ -15866,10 +15894,24 @@
           ]
         },
         {
+          "selector": ".mt-auto-m",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
+          "declarations": [
+            "margin-top: auto"
+          ]
+        },
+        {
           "selector": ".mr-auto-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
           "declarations": [
             "margin-right: auto"
+          ]
+        },
+        {
+          "selector": ".mb-auto-m",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
+          "declarations": [
+            "margin-bottom: auto"
           ]
         },
         {
@@ -16696,10 +16738,24 @@
           ]
         },
         {
+          "selector": ".mt-auto-l",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
+          "declarations": [
+            "margin-top: auto"
+          ]
+        },
+        {
           "selector": ".mr-auto-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
           "declarations": [
             "margin-right: auto"
+          ]
+        },
+        {
+          "selector": ".mb-auto-l",
+          "moduleName": "/Users/johno/c/tachyons/docs/tachyons-spacing",
+          "declarations": [
+            "margin-bottom: auto"
           ]
         },
         {
@@ -17119,7 +17175,7 @@
         }
       ],
       "readme": "\n\n# SPACING\n\nAn eight step powers of two scale ranging from 0 to 16rem.\n\n### Docs\n\nhttp://tachyons.io/docs/layout/spacing/\n\n### Base\n\n- p = padding\n- m = margin\n\n### Modifiers\n\n- h = horizontal\n- v = vertical\n- t = top\n- r = right\n- b = bottom\n- l = left\n\n- 0 = none\n- 1 = 1st step in spacing scale\n- 2 = 2nd step in spacing scale\n- 3 = 3rd step in spacing scale\n- 4 = 4th step in spacing scale\n- 5 = 5th step in spacing scale\n- 6 = 6th step in spacing scale\n- 7 = 7th step in spacing scale\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n",
-      "src": "/*!!!\n\n# SPACING\n\nAn eight step powers of two scale ranging from 0 to 16rem.\n\n### Docs\n\nhttp://tachyons.io/docs/layout/spacing/\n\n### Base\n\n- p = padding\n- m = margin\n\n### Modifiers\n\n- h = horizontal\n- v = vertical\n- t = top\n- r = right\n- b = bottom\n- l = left\n\n- 0 = none\n- 1 = 1st step in spacing scale\n- 2 = 2nd step in spacing scale\n- 3 = 3rd step in spacing scale\n- 4 = 4th step in spacing scale\n- 5 = 5th step in spacing scale\n- 6 = 6th step in spacing scale\n- 7 = 7th step in spacing scale\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n\n/* Variables */\n\n:root {\n  --spacing-0: 0;\n  --spacing-1: .25rem;\n  --spacing-2: .5rem;\n  --spacing-3: 1rem;\n  --spacing-4: 2rem;\n  --spacing-5: 4rem;\n  --spacing-6: 8rem;\n  --spacing-7: 16rem;\n}\n\n.p0 { padding: var(--spacing-0); }\n.p1 { padding: var(--spacing-1); }\n.p2 { padding: var(--spacing-2); }\n.p3 { padding: var(--spacing-3); }\n.p4 { padding: var(--spacing-4); }\n.p5 { padding: var(--spacing-5); }\n.p6 { padding: var(--spacing-6); }\n.p7 { padding: var(--spacing-7); }\n\n.pl0 { padding-left: var(--spacing-0); }\n.pl1 { padding-left: var(--spacing-1); }\n.pl2 { padding-left: var(--spacing-2); }\n.pl3 { padding-left: var(--spacing-3); }\n.pl4 { padding-left: var(--spacing-4); }\n.pl5 { padding-left: var(--spacing-5); }\n.pl6 { padding-left: var(--spacing-6); }\n.pl7 { padding-left: var(--spacing-7); }\n\n.pr0 { padding-right: var(--spacing-0); }\n.pr1 { padding-right: var(--spacing-1); }\n.pr2 { padding-right: var(--spacing-2); }\n.pr3 { padding-right: var(--spacing-3); }\n.pr4 { padding-right: var(--spacing-4); }\n.pr5 { padding-right: var(--spacing-5); }\n.pr6 { padding-right: var(--spacing-6); }\n.pr7 { padding-right: var(--spacing-7); }\n\n.pb0 { padding-bottom: var(--spacing-0); }\n.pb1 { padding-bottom: var(--spacing-1); }\n.pb2 { padding-bottom: var(--spacing-2); }\n.pb3 { padding-bottom: var(--spacing-3); }\n.pb4 { padding-bottom: var(--spacing-4); }\n.pb5 { padding-bottom: var(--spacing-5); }\n.pb6 { padding-bottom: var(--spacing-6); }\n.pb7 { padding-bottom: var(--spacing-7); }\n\n.pt0 { padding-top: var(--spacing-0); }\n.pt1 { padding-top: var(--spacing-1); }\n.pt2 { padding-top: var(--spacing-2); }\n.pt3 { padding-top: var(--spacing-3); }\n.pt4 { padding-top: var(--spacing-4); }\n.pt5 { padding-top: var(--spacing-5); }\n.pt6 { padding-top: var(--spacing-6); }\n.pt7 { padding-top: var(--spacing-7); }\n\n.pv0 {\n  padding-top: var(--spacing-0);\n  padding-bottom: var(--spacing-0);\n}\n.pv1 {\n  padding-top: var(--spacing-1);\n  padding-bottom: var(--spacing-1);\n}\n.pv2 {\n  padding-top: var(--spacing-2);\n  padding-bottom: var(--spacing-2);\n}\n.pv3 {\n  padding-top: var(--spacing-3);\n  padding-bottom: var(--spacing-3);\n}\n.pv4 {\n  padding-top: var(--spacing-4);\n  padding-bottom: var(--spacing-4);\n}\n.pv5 {\n  padding-top: var(--spacing-5);\n  padding-bottom: var(--spacing-5);\n}\n.pv6 {\n  padding-top: var(--spacing-6);\n  padding-bottom: var(--spacing-6);\n}\n\n.pv7 {\n  padding-top: var(--spacing-7);\n  padding-bottom: var(--spacing-7);\n}\n\n.ph0 {\n  padding-left: var(--spacing-0);\n  padding-right: var(--spacing-0);\n}\n\n.ph1 {\n  padding-left: var(--spacing-1);\n  padding-right: var(--spacing-1);\n}\n\n.ph2 {\n  padding-left: var(--spacing-2);\n  padding-right: var(--spacing-2);\n}\n\n.ph3 {\n  padding-left: var(--spacing-3);\n  padding-right: var(--spacing-3);\n}\n\n.ph4 {\n  padding-left: var(--spacing-4);\n  padding-right: var(--spacing-4);\n}\n\n.ph5 {\n  padding-left: var(--spacing-5);\n  padding-right: var(--spacing-5);\n}\n\n.ph6 {\n  padding-left: var(--spacing-6);\n  padding-right: var(--spacing-6);\n}\n\n.ph7 {\n  padding-left: var(--spacing-7);\n  padding-right: var(--spacing-7);\n}\n\n.mr-auto { margin-right: auto; }\n.ml-auto { margin-left:  auto; }\n\n.m0  {  margin: var(--spacing-0); }\n.m1 {  margin: var(--spacing-1); }\n.m2  {  margin: var(--spacing-2); }\n.m3  {  margin: var(--spacing-3); }\n.m4  {  margin: var(--spacing-4); }\n.m5  {  margin: var(--spacing-5); }\n.m6 {  margin: var(--spacing-6); }\n.m7 { margin: var(--spacing-7); }\n\n.ml0  {  margin-left: var(--spacing-0); }\n.ml1 {  margin-left: var(--spacing-1); }\n.ml2  {  margin-left: var(--spacing-2); }\n.ml3  {  margin-left: var(--spacing-3); }\n.ml4  {  margin-left: var(--spacing-4); }\n.ml5  {  margin-left: var(--spacing-5); }\n.ml6 {  margin-left: var(--spacing-6); }\n.ml7 { margin-left: var(--spacing-7); }\n\n.mr0  {  margin-right: var(--spacing-0); }\n.mr1 {  margin-right: var(--spacing-1); }\n.mr2  {  margin-right: var(--spacing-2); }\n.mr3  {  margin-right: var(--spacing-3); }\n.mr4  {  margin-right: var(--spacing-4); }\n.mr5  {  margin-right: var(--spacing-5); }\n.mr6 {  margin-right: var(--spacing-6); }\n.mr7 { margin-right: var(--spacing-7); }\n\n.mb0  {  margin-bottom: var(--spacing-0); }\n.mb1 {  margin-bottom: var(--spacing-1); }\n.mb2  {  margin-bottom: var(--spacing-2); }\n.mb3  {  margin-bottom: var(--spacing-3); }\n.mb4  {  margin-bottom: var(--spacing-4); }\n.mb5  {  margin-bottom: var(--spacing-5); }\n.mb6 {  margin-bottom: var(--spacing-6); }\n.mb7 { margin-bottom: var(--spacing-7); }\n\n.mt0  {  margin-top: var(--spacing-0); }\n.mt1 {  margin-top: var(--spacing-1); }\n.mt2  {  margin-top: var(--spacing-2); }\n.mt3  {  margin-top: var(--spacing-3); }\n.mt4  {  margin-top: var(--spacing-4); }\n.mt5  {  margin-top: var(--spacing-5); }\n.mt6 {  margin-top: var(--spacing-6); }\n.mt7 { margin-top: var(--spacing-7); }\n\n.mv0   {\n  margin-top: var(--spacing-0);\n  margin-bottom: var(--spacing-0);\n}\n.mv1  {\n  margin-top: var(--spacing-1);\n  margin-bottom: var(--spacing-1);\n}\n.mv2   {\n  margin-top: var(--spacing-2);\n  margin-bottom: var(--spacing-2);\n}\n.mv3   {\n  margin-top: var(--spacing-3);\n  margin-bottom: var(--spacing-3);\n}\n.mv4   {\n  margin-top: var(--spacing-4);\n  margin-bottom: var(--spacing-4);\n}\n.mv5   {\n  margin-top: var(--spacing-5);\n  margin-bottom: var(--spacing-5);\n}\n.mv6  {\n  margin-top: var(--spacing-6);\n  margin-bottom: var(--spacing-6);\n}\n.mv7  {\n  margin-top: var(--spacing-7);\n  margin-bottom: var(--spacing-7);\n}\n\n.mh0   {\n  margin-left: var(--spacing-0);\n  margin-right: var(--spacing-0);\n}\n.mh1   {\n  margin-left: var(--spacing-1);\n  margin-right: var(--spacing-1);\n}\n.mh2   {\n  margin-left: var(--spacing-2);\n  margin-right: var(--spacing-2);\n}\n.mh3   {\n  margin-left: var(--spacing-3);\n  margin-right: var(--spacing-3);\n}\n.mh4   {\n  margin-left: var(--spacing-4);\n  margin-right: var(--spacing-4);\n}\n.mh5   {\n  margin-left: var(--spacing-5);\n  margin-right: var(--spacing-5);\n}\n.mh6  {\n  margin-left: var(--spacing-6);\n  margin-right: var(--spacing-6);\n}\n.mh7  {\n  margin-left: var(--spacing-7);\n  margin-right: var(--spacing-7);\n}\n\n\n@media (--breakpoint-small) {\n  .p0-s  {  padding: var(--spacing-0); }\n  .p1-s {  padding: var(--spacing-1); }\n  .p2-s  {  padding: var(--spacing-2); }\n  .p3-s  {  padding: var(--spacing-3); }\n  .p4-s  {  padding: var(--spacing-4); }\n  .p5-s  {  padding: var(--spacing-5); }\n  .p6-s {  padding: var(--spacing-6); }\n  .p7-s { padding: var(--spacing-7); }\n\n  .pl0-s  {  padding-left: var(--spacing-0); }\n  .pl1-s {  padding-left: var(--spacing-1); }\n  .pl2-s  {  padding-left: var(--spacing-2); }\n  .pl3-s  {  padding-left: var(--spacing-3); }\n  .pl4-s  {  padding-left: var(--spacing-4); }\n  .pl5-s  {  padding-left: var(--spacing-5); }\n  .pl6-s {  padding-left: var(--spacing-6); }\n  .pl7-s { padding-left: var(--spacing-7); }\n\n  .pr0-s  {  padding-right: var(--spacing-0); }\n  .pr1-s {  padding-right: var(--spacing-1); }\n  .pr2-s  {  padding-right: var(--spacing-2); }\n  .pr3-s  {  padding-right: var(--spacing-3); }\n  .pr4-s  {  padding-right: var(--spacing-4); }\n  .pr5-s  {  padding-right: var(--spacing-5); }\n  .pr6-s {  padding-right: var(--spacing-6); }\n  .pr7-s { padding-right: var(--spacing-7); }\n\n  .pb0-s  {  padding-bottom: var(--spacing-0); }\n  .pb1-s {  padding-bottom: var(--spacing-1); }\n  .pb2-s  {  padding-bottom: var(--spacing-2); }\n  .pb3-s  {  padding-bottom: var(--spacing-3); }\n  .pb4-s  {  padding-bottom: var(--spacing-4); }\n  .pb5-s  {  padding-bottom: var(--spacing-5); }\n  .pb6-s {  padding-bottom: var(--spacing-6); }\n  .pb7-s { padding-bottom: var(--spacing-7); }\n\n  .pt0-s  {  padding-top: var(--spacing-0); }\n  .pt1-s {  padding-top: var(--spacing-1); }\n  .pt2-s  {  padding-top: var(--spacing-2); }\n  .pt3-s  {  padding-top: var(--spacing-3); }\n  .pt4-s  {  padding-top: var(--spacing-4); }\n  .pt5-s  {  padding-top: var(--spacing-5); }\n  .pt6-s {  padding-top: var(--spacing-6); }\n  .pt7-s { padding-top: var(--spacing-7); }\n\n  .pv0-s {\n    padding-top: var(--spacing-0);\n    padding-bottom: var(--spacing-0);\n  }\n  .pv1-s {\n    padding-top: var(--spacing-1);\n    padding-bottom: var(--spacing-1);\n  }\n  .pv2-s {\n    padding-top: var(--spacing-2);\n    padding-bottom: var(--spacing-2);\n  }\n  .pv3-s {\n    padding-top: var(--spacing-3);\n    padding-bottom: var(--spacing-3);\n  }\n  .pv4-s {\n    padding-top: var(--spacing-4);\n    padding-bottom: var(--spacing-4);\n  }\n  .pv5-s {\n    padding-top: var(--spacing-5);\n    padding-bottom: var(--spacing-5);\n  }\n  .pv6-s {\n    padding-top: var(--spacing-6);\n    padding-bottom: var(--spacing-6);\n  }\n  .pv7-s {\n    padding-top: var(--spacing-7);\n    padding-bottom: var(--spacing-7);\n  }\n\n  .ph0-s {\n    padding-left: var(--spacing-0);\n    padding-right: var(--spacing-0);\n  }\n  .ph1-s {\n    padding-left: var(--spacing-1);\n    padding-right: var(--spacing-1);\n  }\n  .ph2-s {\n    padding-left: var(--spacing-2);\n    padding-right: var(--spacing-2);\n  }\n  .ph3-s {\n    padding-left: var(--spacing-3);\n    padding-right: var(--spacing-3);\n  }\n  .ph4-s {\n    padding-left: var(--spacing-4);\n    padding-right: var(--spacing-4);\n  }\n  .ph5-s {\n    padding-left: var(--spacing-5);\n    padding-right: var(--spacing-5);\n  }\n  .ph6-s {\n    padding-left: var(--spacing-6);\n    padding-right: var(--spacing-6);\n  }\n  .ph7-s {\n    padding-left: var(--spacing-7);\n    padding-right: var(--spacing-7);\n  }\n\n  .mr-auto-s { margin-right: auto; }\n  .ml-auto-s { margin-left:  auto; }\n\n  .m0-s  {  margin: var(--spacing-0); }\n  .m1-s {  margin: var(--spacing-1); }\n  .m2-s  {  margin: var(--spacing-2); }\n  .m3-s  {  margin: var(--spacing-3); }\n  .m4-s  {  margin: var(--spacing-4); }\n  .m5-s  {  margin: var(--spacing-5); }\n  .m6-s {  margin: var(--spacing-6); }\n  .m7-s { margin: var(--spacing-7); }\n\n  .ml0-s  {  margin-left: var(--spacing-0); }\n  .ml1-s {  margin-left: var(--spacing-1); }\n  .ml2-s  {  margin-left: var(--spacing-2); }\n  .ml3-s  {  margin-left: var(--spacing-3); }\n  .ml4-s  {  margin-left: var(--spacing-4); }\n  .ml5-s  {  margin-left: var(--spacing-5); }\n  .ml6-s {  margin-left: var(--spacing-6); }\n  .ml7-s { margin-left: var(--spacing-7); }\n\n  .mr0-s  {  margin-right: var(--spacing-0); }\n  .mr1-s {  margin-right: var(--spacing-1); }\n  .mr2-s  {  margin-right: var(--spacing-2); }\n  .mr3-s  {  margin-right: var(--spacing-3); }\n  .mr4-s  {  margin-right: var(--spacing-4); }\n  .mr5-s  {  margin-right: var(--spacing-5); }\n  .mr6-s {  margin-right: var(--spacing-6); }\n  .mr7-s { margin-right: var(--spacing-7); }\n\n  .mb0-s  {  margin-bottom: var(--spacing-0); }\n  .mb1-s {  margin-bottom: var(--spacing-1); }\n  .mb2-s  {  margin-bottom: var(--spacing-2); }\n  .mb3-s  {  margin-bottom: var(--spacing-3); }\n  .mb4-s  {  margin-bottom: var(--spacing-4); }\n  .mb5-s  {  margin-bottom: var(--spacing-5); }\n  .mb6-s {  margin-bottom: var(--spacing-6); }\n  .mb7-s { margin-bottom: var(--spacing-7); }\n\n  .mt0-s  {  margin-top: var(--spacing-0); }\n  .mt1-s {  margin-top: var(--spacing-1); }\n  .mt2-s  {  margin-top: var(--spacing-2); }\n  .mt3-s  {  margin-top: var(--spacing-3); }\n  .mt4-s  {  margin-top: var(--spacing-4); }\n  .mt5-s  {  margin-top: var(--spacing-5); }\n  .mt6-s {  margin-top: var(--spacing-6); }\n  .mt7-s { margin-top: var(--spacing-7); }\n\n  .mv0-s {\n    margin-top: var(--spacing-0);\n    margin-bottom: var(--spacing-0);\n  }\n  .mv1-s {\n    margin-top: var(--spacing-1);\n    margin-bottom: var(--spacing-1);\n  }\n  .mv2-s {\n    margin-top: var(--spacing-2);\n    margin-bottom: var(--spacing-2);\n  }\n  .mv3-s {\n    margin-top: var(--spacing-3);\n    margin-bottom: var(--spacing-3);\n  }\n  .mv4-s {\n    margin-top: var(--spacing-4);\n    margin-bottom: var(--spacing-4);\n  }\n  .mv5-s {\n    margin-top: var(--spacing-5);\n    margin-bottom: var(--spacing-5);\n  }\n  .mv6-s {\n    margin-top: var(--spacing-6);\n    margin-bottom: var(--spacing-6);\n  }\n  .mv7-s {\n    margin-top: var(--spacing-7);\n    margin-bottom: var(--spacing-7);\n  }\n\n  .mh0-s {\n    margin-left: var(--spacing-0);\n    margin-right: var(--spacing-0);\n  }\n  .mh1-s {\n    margin-left: var(--spacing-1);\n    margin-right: var(--spacing-1);\n  }\n  .mh2-s {\n    margin-left: var(--spacing-2);\n    margin-right: var(--spacing-2);\n  }\n  .mh3-s {\n    margin-left: var(--spacing-3);\n    margin-right: var(--spacing-3);\n  }\n  .mh4-s {\n    margin-left: var(--spacing-4);\n    margin-right: var(--spacing-4);\n  }\n  .mh5-s {\n    margin-left: var(--spacing-5);\n    margin-right: var(--spacing-5);\n  }\n  .mh6-s {\n    margin-left: var(--spacing-6);\n    margin-right: var(--spacing-6);\n  }\n  .mh7-s {\n    margin-left: var(--spacing-7);\n    margin-right: var(--spacing-7);\n  }\n}\n\n@media (--breakpoint-medium) {\n  .p0-m  {  padding: var(--spacing-0); }\n  .p1-m {  padding: var(--spacing-1); }\n  .p2-m  {  padding: var(--spacing-2); }\n  .p3-m  {  padding: var(--spacing-3); }\n  .p4-m  {  padding: var(--spacing-4); }\n  .p5-m  {  padding: var(--spacing-5); }\n  .p6-m {  padding: var(--spacing-6); }\n  .p7-m { padding: var(--spacing-7); }\n\n  .pl0-m  {  padding-left: var(--spacing-0); }\n  .pl1-m {  padding-left: var(--spacing-1); }\n  .pl2-m  {  padding-left: var(--spacing-2); }\n  .pl3-m  {  padding-left: var(--spacing-3); }\n  .pl4-m  {  padding-left: var(--spacing-4); }\n  .pl5-m  {  padding-left: var(--spacing-5); }\n  .pl6-m {  padding-left: var(--spacing-6); }\n  .pl7-m { padding-left: var(--spacing-7); }\n\n  .pr0-m  {  padding-right: var(--spacing-0); }\n  .pr1-m {  padding-right: var(--spacing-1); }\n  .pr2-m  {  padding-right: var(--spacing-2); }\n  .pr3-m  {  padding-right: var(--spacing-3); }\n  .pr4-m  {  padding-right: var(--spacing-4); }\n  .pr5-m  {  padding-right: var(--spacing-5); }\n  .pr6-m {  padding-right: var(--spacing-6); }\n  .pr7-m { padding-right: var(--spacing-7); }\n\n  .pb0-m  {  padding-bottom: var(--spacing-0); }\n  .pb1-m {  padding-bottom: var(--spacing-1); }\n  .pb2-m  {  padding-bottom: var(--spacing-2); }\n  .pb3-m  {  padding-bottom: var(--spacing-3); }\n  .pb4-m  {  padding-bottom: var(--spacing-4); }\n  .pb5-m  {  padding-bottom: var(--spacing-5); }\n  .pb6-m {  padding-bottom: var(--spacing-6); }\n  .pb7-m { padding-bottom: var(--spacing-7); }\n\n  .pt0-m  {  padding-top: var(--spacing-0); }\n  .pt1-m {  padding-top: var(--spacing-1); }\n  .pt2-m  {  padding-top: var(--spacing-2); }\n  .pt3-m  {  padding-top: var(--spacing-3); }\n  .pt4-m  {  padding-top: var(--spacing-4); }\n  .pt5-m  {  padding-top: var(--spacing-5); }\n  .pt6-m {  padding-top: var(--spacing-6); }\n  .pt7-m { padding-top: var(--spacing-7); }\n\n  .pv0-m {\n    padding-top: var(--spacing-0);\n    padding-bottom: var(--spacing-0);\n  }\n  .pv1-m {\n    padding-top: var(--spacing-1);\n    padding-bottom: var(--spacing-1);\n  }\n  .pv2-m {\n    padding-top: var(--spacing-2);\n    padding-bottom: var(--spacing-2);\n  }\n  .pv3-m {\n    padding-top: var(--spacing-3);\n    padding-bottom: var(--spacing-3);\n  }\n  .pv4-m {\n    padding-top: var(--spacing-4);\n    padding-bottom: var(--spacing-4);\n  }\n  .pv5-m {\n    padding-top: var(--spacing-5);\n    padding-bottom: var(--spacing-5);\n  }\n  .pv6-m {\n    padding-top: var(--spacing-6);\n    padding-bottom: var(--spacing-6);\n  }\n  .pv7-m {\n    padding-top: var(--spacing-7);\n    padding-bottom: var(--spacing-7);\n  }\n\n  .ph0-m {\n    padding-left: var(--spacing-0);\n    padding-right: var(--spacing-0);\n  }\n  .ph1-m {\n    padding-left: var(--spacing-1);\n    padding-right: var(--spacing-1);\n  }\n  .ph2-m {\n    padding-left: var(--spacing-2);\n    padding-right: var(--spacing-2);\n  }\n  .ph3-m {\n    padding-left: var(--spacing-3);\n    padding-right: var(--spacing-3);\n  }\n  .ph4-m {\n    padding-left: var(--spacing-4);\n    padding-right: var(--spacing-4);\n  }\n  .ph5-m {\n    padding-left: var(--spacing-5);\n    padding-right: var(--spacing-5);\n  }\n  .ph6-m {\n    padding-left: var(--spacing-6);\n    padding-right: var(--spacing-6);\n  }\n  .ph7-m {\n    padding-left: var(--spacing-7);\n    padding-right: var(--spacing-7);\n  }\n\n  .mr-auto-m { margin-right: auto; }\n  .ml-auto-m { margin-left:  auto; }\n\n  .m0-m  {  margin: var(--spacing-0); }\n  .m1-m {  margin: var(--spacing-1); }\n  .m2-m  {  margin: var(--spacing-2); }\n  .m3-m  {  margin: var(--spacing-3); }\n  .m4-m  {  margin: var(--spacing-4); }\n  .m5-m  {  margin: var(--spacing-5); }\n  .m6-m {  margin: var(--spacing-6); }\n  .m7-m { margin: var(--spacing-7); }\n\n  .ml0-m  {  margin-left: var(--spacing-0); }\n  .ml1-m {  margin-left: var(--spacing-1); }\n  .ml2-m  {  margin-left: var(--spacing-2); }\n  .ml3-m  {  margin-left: var(--spacing-3); }\n  .ml4-m  {  margin-left: var(--spacing-4); }\n  .ml5-m  {  margin-left: var(--spacing-5); }\n  .ml6-m {  margin-left: var(--spacing-6); }\n  .ml7-m { margin-left: var(--spacing-7); }\n\n  .mr0-m  {  margin-right: var(--spacing-0); }\n  .mr1-m {  margin-right: var(--spacing-1); }\n  .mr2-m  {  margin-right: var(--spacing-2); }\n  .mr3-m  {  margin-right: var(--spacing-3); }\n  .mr4-m  {  margin-right: var(--spacing-4); }\n  .mr5-m  {  margin-right: var(--spacing-5); }\n  .mr6-m {  margin-right: var(--spacing-6); }\n  .mr7-m { margin-right: var(--spacing-7); }\n\n  .mb0-m  {  margin-bottom: var(--spacing-0); }\n  .mb1-m {  margin-bottom: var(--spacing-1); }\n  .mb2-m  {  margin-bottom: var(--spacing-2); }\n  .mb3-m  {  margin-bottom: var(--spacing-3); }\n  .mb4-m  {  margin-bottom: var(--spacing-4); }\n  .mb5-m  {  margin-bottom: var(--spacing-5); }\n  .mb6-m {  margin-bottom: var(--spacing-6); }\n  .mb7-m { margin-bottom: var(--spacing-7); }\n\n  .mt0-m  {  margin-top: var(--spacing-0); }\n  .mt1-m {  margin-top: var(--spacing-1); }\n  .mt2-m  {  margin-top: var(--spacing-2); }\n  .mt3-m  {  margin-top: var(--spacing-3); }\n  .mt4-m  {  margin-top: var(--spacing-4); }\n  .mt5-m  {  margin-top: var(--spacing-5); }\n  .mt6-m {  margin-top: var(--spacing-6); }\n  .mt7-m { margin-top: var(--spacing-7); }\n\n  .mv0-m {\n    margin-top: var(--spacing-0);\n    margin-bottom: var(--spacing-0);\n  }\n  .mv1-m {\n    margin-top: var(--spacing-1);\n    margin-bottom: var(--spacing-1);\n  }\n  .mv2-m {\n    margin-top: var(--spacing-2);\n    margin-bottom: var(--spacing-2);\n  }\n  .mv3-m {\n    margin-top: var(--spacing-3);\n    margin-bottom: var(--spacing-3);\n  }\n  .mv4-m {\n    margin-top: var(--spacing-4);\n    margin-bottom: var(--spacing-4);\n  }\n  .mv5-m {\n    margin-top: var(--spacing-5);\n    margin-bottom: var(--spacing-5);\n  }\n  .mv6-m {\n    margin-top: var(--spacing-6);\n    margin-bottom: var(--spacing-6);\n  }\n  .mv7-m {\n    margin-top: var(--spacing-7);\n    margin-bottom: var(--spacing-7);\n  }\n\n  .mh0-m {\n    margin-left: var(--spacing-0);\n    margin-right: var(--spacing-0);\n  }\n  .mh1-m {\n    margin-left: var(--spacing-1);\n    margin-right: var(--spacing-1);\n  }\n  .mh2-m {\n    margin-left: var(--spacing-2);\n    margin-right: var(--spacing-2);\n  }\n  .mh3-m {\n    margin-left: var(--spacing-3);\n    margin-right: var(--spacing-3);\n  }\n  .mh4-m {\n    margin-left: var(--spacing-4);\n    margin-right: var(--spacing-4);\n  }\n  .mh5-m {\n    margin-left: var(--spacing-5);\n    margin-right: var(--spacing-5);\n  }\n  .mh6-m {\n    margin-left: var(--spacing-6);\n    margin-right: var(--spacing-6);\n  }\n  .mh7-m {\n    margin-left: var(--spacing-7);\n    margin-right: var(--spacing-7);\n  }\n}\n\n@media (--breakpoint-large) {\n  .p0-l  {  padding: var(--spacing-0); }\n  .p1-l {  padding: var(--spacing-1); }\n  .p2-l  {  padding: var(--spacing-2); }\n  .p3-l  {  padding: var(--spacing-3); }\n  .p4-l  {  padding: var(--spacing-4); }\n  .p5-l  {  padding: var(--spacing-5); }\n  .p6-l {  padding: var(--spacing-6); }\n  .p7-l { padding: var(--spacing-7); }\n\n  .pl0-l  {  padding-left: var(--spacing-0); }\n  .pl1-l {  padding-left: var(--spacing-1); }\n  .pl2-l  {  padding-left: var(--spacing-2); }\n  .pl3-l  {  padding-left: var(--spacing-3); }\n  .pl4-l  {  padding-left: var(--spacing-4); }\n  .pl5-l  {  padding-left: var(--spacing-5); }\n  .pl6-l {  padding-left: var(--spacing-6); }\n  .pl7-l { padding-left: var(--spacing-7); }\n\n  .pr0-l  {  padding-right: var(--spacing-0); }\n  .pr1-l {  padding-right: var(--spacing-1); }\n  .pr2-l  {  padding-right: var(--spacing-2); }\n  .pr3-l  {  padding-right: var(--spacing-3); }\n  .pr4-l  {  padding-right: var(--spacing-4); }\n  .pr5-l  {  padding-right: var(--spacing-5); }\n  .pr6-l {  padding-right: var(--spacing-6); }\n  .pr7-l { padding-right: var(--spacing-7); }\n\n  .pb0-l  {  padding-bottom: var(--spacing-0); }\n  .pb1-l {  padding-bottom: var(--spacing-1); }\n  .pb2-l  {  padding-bottom: var(--spacing-2); }\n  .pb3-l  {  padding-bottom: var(--spacing-3); }\n  .pb4-l  {  padding-bottom: var(--spacing-4); }\n  .pb5-l  {  padding-bottom: var(--spacing-5); }\n  .pb6-l {  padding-bottom: var(--spacing-6); }\n  .pb7-l { padding-bottom: var(--spacing-7); }\n\n  .pt0-l  {  padding-top: var(--spacing-0); }\n  .pt1-l {  padding-top: var(--spacing-1); }\n  .pt2-l  {  padding-top: var(--spacing-2); }\n  .pt3-l  {  padding-top: var(--spacing-3); }\n  .pt4-l  {  padding-top: var(--spacing-4); }\n  .pt5-l  {  padding-top: var(--spacing-5); }\n  .pt6-l {  padding-top: var(--spacing-6); }\n  .pt7-l { padding-top: var(--spacing-7); }\n\n  .pv0-l {\n    padding-top: var(--spacing-0);\n    padding-bottom: var(--spacing-0);\n  }\n  .pv1-l {\n    padding-top: var(--spacing-1);\n    padding-bottom: var(--spacing-1);\n  }\n  .pv2-l {\n    padding-top: var(--spacing-2);\n    padding-bottom: var(--spacing-2);\n  }\n  .pv3-l {\n    padding-top: var(--spacing-3);\n    padding-bottom: var(--spacing-3);\n  }\n  .pv4-l {\n    padding-top: var(--spacing-4);\n    padding-bottom: var(--spacing-4);\n  }\n  .pv5-l {\n    padding-top: var(--spacing-5);\n    padding-bottom: var(--spacing-5);\n  }\n  .pv6-l {\n    padding-top: var(--spacing-6);\n    padding-bottom: var(--spacing-6);\n  }\n  .pv7-l {\n    padding-top: var(--spacing-7);\n    padding-bottom: var(--spacing-7);\n  }\n\n  .ph0-l {\n    padding-left: var(--spacing-0);\n    padding-right: var(--spacing-0);\n  }\n  .ph1-l {\n    padding-left: var(--spacing-1);\n    padding-right: var(--spacing-1);\n  }\n  .ph2-l {\n    padding-left: var(--spacing-2);\n    padding-right: var(--spacing-2);\n  }\n  .ph3-l {\n    padding-left: var(--spacing-3);\n    padding-right: var(--spacing-3);\n  }\n  .ph4-l {\n    padding-left: var(--spacing-4);\n    padding-right: var(--spacing-4);\n  }\n  .ph5-l {\n    padding-left: var(--spacing-5);\n    padding-right: var(--spacing-5);\n  }\n  .ph6-l {\n    padding-left: var(--spacing-6);\n    padding-right: var(--spacing-6);\n  }\n  .ph7-l {\n    padding-left: var(--spacing-7);\n    padding-right: var(--spacing-7);\n  }\n\n  .mr-auto-l { margin-right: auto; }\n  .ml-auto-l { margin-left:  auto; }\n\n  .m0-l  {  margin: var(--spacing-0); }\n  .m1-l {  margin: var(--spacing-1); }\n  .m2-l  {  margin: var(--spacing-2); }\n  .m3-l  {  margin: var(--spacing-3); }\n  .m4-l  {  margin: var(--spacing-4); }\n  .m5-l  {  margin: var(--spacing-5); }\n  .m6-l {  margin: var(--spacing-6); }\n  .m7-l { margin: var(--spacing-7); }\n\n  .ml0-l  {  margin-left: var(--spacing-0); }\n  .ml1-l {  margin-left: var(--spacing-1); }\n  .ml2-l  {  margin-left: var(--spacing-2); }\n  .ml3-l  {  margin-left: var(--spacing-3); }\n  .ml4-l  {  margin-left: var(--spacing-4); }\n  .ml5-l  {  margin-left: var(--spacing-5); }\n  .ml6-l {  margin-left: var(--spacing-6); }\n  .ml7-l { margin-left: var(--spacing-7); }\n\n  .mr0-l  {  margin-right: var(--spacing-0); }\n  .mr1-l {  margin-right: var(--spacing-1); }\n  .mr2-l  {  margin-right: var(--spacing-2); }\n  .mr3-l  {  margin-right: var(--spacing-3); }\n  .mr4-l  {  margin-right: var(--spacing-4); }\n  .mr5-l  {  margin-right: var(--spacing-5); }\n  .mr6-l {  margin-right: var(--spacing-6); }\n  .mr7-l { margin-right: var(--spacing-7); }\n\n  .mb0-l  {  margin-bottom: var(--spacing-0); }\n  .mb1-l {  margin-bottom: var(--spacing-1); }\n  .mb2-l  {  margin-bottom: var(--spacing-2); }\n  .mb3-l  {  margin-bottom: var(--spacing-3); }\n  .mb4-l  {  margin-bottom: var(--spacing-4); }\n  .mb5-l  {  margin-bottom: var(--spacing-5); }\n  .mb6-l {  margin-bottom: var(--spacing-6); }\n  .mb7-l { margin-bottom: var(--spacing-7); }\n\n  .mt0-l  {  margin-top: var(--spacing-0); }\n  .mt1-l {  margin-top: var(--spacing-1); }\n  .mt2-l  {  margin-top: var(--spacing-2); }\n  .mt3-l  {  margin-top: var(--spacing-3); }\n  .mt4-l  {  margin-top: var(--spacing-4); }\n  .mt5-l  {  margin-top: var(--spacing-5); }\n  .mt6-l {  margin-top: var(--spacing-6); }\n  .mt7-l { margin-top: var(--spacing-7); }\n\n  .mv0-l {\n    margin-top: var(--spacing-0);\n    margin-bottom: var(--spacing-0);\n  }\n  .mv1-l {\n    margin-top: var(--spacing-1);\n    margin-bottom: var(--spacing-1);\n  }\n  .mv2-l {\n    margin-top: var(--spacing-2);\n    margin-bottom: var(--spacing-2);\n  }\n  .mv3-l {\n    margin-top: var(--spacing-3);\n    margin-bottom: var(--spacing-3);\n  }\n  .mv4-l {\n    margin-top: var(--spacing-4);\n    margin-bottom: var(--spacing-4);\n  }\n  .mv5-l {\n    margin-top: var(--spacing-5);\n    margin-bottom: var(--spacing-5);\n  }\n  .mv6-l {\n    margin-top: var(--spacing-6);\n    margin-bottom: var(--spacing-6);\n  }\n  .mv7-l {\n    margin-top: var(--spacing-7);\n    margin-bottom: var(--spacing-7);\n  }\n\n  .mh0-l {\n    margin-left: var(--spacing-0);\n    margin-right: var(--spacing-0);\n  }\n  .mh1-l {\n    margin-left: var(--spacing-1);\n    margin-right: var(--spacing-1);\n  }\n  .mh2-l {\n    margin-left: var(--spacing-2);\n    margin-right: var(--spacing-2);\n  }\n  .mh3-l {\n    margin-left: var(--spacing-3);\n    margin-right: var(--spacing-3);\n  }\n  .mh4-l {\n    margin-left: var(--spacing-4);\n    margin-right: var(--spacing-4);\n  }\n  .mh5-l {\n    margin-left: var(--spacing-5);\n    margin-right: var(--spacing-5);\n  }\n  .mh6-l {\n    margin-left: var(--spacing-6);\n    margin-right: var(--spacing-6);\n  }\n  .mh7-l {\n    margin-left: var(--spacing-7);\n    margin-right: var(--spacing-7);\n  }\n}\n",
+      "src": "/*!!!\n\n# SPACING\n\nAn eight step powers of two scale ranging from 0 to 16rem.\n\n### Docs\n\nhttp://tachyons.io/docs/layout/spacing/\n\n### Base\n\n- p = padding\n- m = margin\n\n### Modifiers\n\n- h = horizontal\n- v = vertical\n- t = top\n- r = right\n- b = bottom\n- l = left\n\n- 0 = none\n- 1 = 1st step in spacing scale\n- 2 = 2nd step in spacing scale\n- 3 = 3rd step in spacing scale\n- 4 = 4th step in spacing scale\n- 5 = 5th step in spacing scale\n- 6 = 6th step in spacing scale\n- 7 = 7th step in spacing scale\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n\n/* Variables */\n\n:root {\n  --spacing-0: 0;\n  --spacing-1: .25rem;\n  --spacing-2: .5rem;\n  --spacing-3: 1rem;\n  --spacing-4: 2rem;\n  --spacing-5: 4rem;\n  --spacing-6: 8rem;\n  --spacing-7: 16rem;\n}\n\n.p0 { padding: var(--spacing-0); }\n.p1 { padding: var(--spacing-1); }\n.p2 { padding: var(--spacing-2); }\n.p3 { padding: var(--spacing-3); }\n.p4 { padding: var(--spacing-4); }\n.p5 { padding: var(--spacing-5); }\n.p6 { padding: var(--spacing-6); }\n.p7 { padding: var(--spacing-7); }\n\n.pl0 { padding-left: var(--spacing-0); }\n.pl1 { padding-left: var(--spacing-1); }\n.pl2 { padding-left: var(--spacing-2); }\n.pl3 { padding-left: var(--spacing-3); }\n.pl4 { padding-left: var(--spacing-4); }\n.pl5 { padding-left: var(--spacing-5); }\n.pl6 { padding-left: var(--spacing-6); }\n.pl7 { padding-left: var(--spacing-7); }\n\n.pr0 { padding-right: var(--spacing-0); }\n.pr1 { padding-right: var(--spacing-1); }\n.pr2 { padding-right: var(--spacing-2); }\n.pr3 { padding-right: var(--spacing-3); }\n.pr4 { padding-right: var(--spacing-4); }\n.pr5 { padding-right: var(--spacing-5); }\n.pr6 { padding-right: var(--spacing-6); }\n.pr7 { padding-right: var(--spacing-7); }\n\n.pb0 { padding-bottom: var(--spacing-0); }\n.pb1 { padding-bottom: var(--spacing-1); }\n.pb2 { padding-bottom: var(--spacing-2); }\n.pb3 { padding-bottom: var(--spacing-3); }\n.pb4 { padding-bottom: var(--spacing-4); }\n.pb5 { padding-bottom: var(--spacing-5); }\n.pb6 { padding-bottom: var(--spacing-6); }\n.pb7 { padding-bottom: var(--spacing-7); }\n\n.pt0 { padding-top: var(--spacing-0); }\n.pt1 { padding-top: var(--spacing-1); }\n.pt2 { padding-top: var(--spacing-2); }\n.pt3 { padding-top: var(--spacing-3); }\n.pt4 { padding-top: var(--spacing-4); }\n.pt5 { padding-top: var(--spacing-5); }\n.pt6 { padding-top: var(--spacing-6); }\n.pt7 { padding-top: var(--spacing-7); }\n\n.pv0 {\n  padding-top: var(--spacing-0);\n  padding-bottom: var(--spacing-0);\n}\n.pv1 {\n  padding-top: var(--spacing-1);\n  padding-bottom: var(--spacing-1);\n}\n.pv2 {\n  padding-top: var(--spacing-2);\n  padding-bottom: var(--spacing-2);\n}\n.pv3 {\n  padding-top: var(--spacing-3);\n  padding-bottom: var(--spacing-3);\n}\n.pv4 {\n  padding-top: var(--spacing-4);\n  padding-bottom: var(--spacing-4);\n}\n.pv5 {\n  padding-top: var(--spacing-5);\n  padding-bottom: var(--spacing-5);\n}\n.pv6 {\n  padding-top: var(--spacing-6);\n  padding-bottom: var(--spacing-6);\n}\n\n.pv7 {\n  padding-top: var(--spacing-7);\n  padding-bottom: var(--spacing-7);\n}\n\n.ph0 {\n  padding-left: var(--spacing-0);\n  padding-right: var(--spacing-0);\n}\n\n.ph1 {\n  padding-left: var(--spacing-1);\n  padding-right: var(--spacing-1);\n}\n\n.ph2 {\n  padding-left: var(--spacing-2);\n  padding-right: var(--spacing-2);\n}\n\n.ph3 {\n  padding-left: var(--spacing-3);\n  padding-right: var(--spacing-3);\n}\n\n.ph4 {\n  padding-left: var(--spacing-4);\n  padding-right: var(--spacing-4);\n}\n\n.ph5 {\n  padding-left: var(--spacing-5);\n  padding-right: var(--spacing-5);\n}\n\n.ph6 {\n  padding-left: var(--spacing-6);\n  padding-right: var(--spacing-6);\n}\n\n.ph7 {\n  padding-left: var(--spacing-7);\n  padding-right: var(--spacing-7);\n}\n\n.mt-auto { margin-top: auto; }\n.mr-auto { margin-right: auto; }\n.mb-auto { margin-bottom: auto; }\n.ml-auto { margin-left:  auto; }\n\n.m0  {  margin: var(--spacing-0); }\n.m1 {  margin: var(--spacing-1); }\n.m2  {  margin: var(--spacing-2); }\n.m3  {  margin: var(--spacing-3); }\n.m4  {  margin: var(--spacing-4); }\n.m5  {  margin: var(--spacing-5); }\n.m6 {  margin: var(--spacing-6); }\n.m7 { margin: var(--spacing-7); }\n\n.ml0  {  margin-left: var(--spacing-0); }\n.ml1 {  margin-left: var(--spacing-1); }\n.ml2  {  margin-left: var(--spacing-2); }\n.ml3  {  margin-left: var(--spacing-3); }\n.ml4  {  margin-left: var(--spacing-4); }\n.ml5  {  margin-left: var(--spacing-5); }\n.ml6 {  margin-left: var(--spacing-6); }\n.ml7 { margin-left: var(--spacing-7); }\n\n.mr0  {  margin-right: var(--spacing-0); }\n.mr1 {  margin-right: var(--spacing-1); }\n.mr2  {  margin-right: var(--spacing-2); }\n.mr3  {  margin-right: var(--spacing-3); }\n.mr4  {  margin-right: var(--spacing-4); }\n.mr5  {  margin-right: var(--spacing-5); }\n.mr6 {  margin-right: var(--spacing-6); }\n.mr7 { margin-right: var(--spacing-7); }\n\n.mb0  {  margin-bottom: var(--spacing-0); }\n.mb1 {  margin-bottom: var(--spacing-1); }\n.mb2  {  margin-bottom: var(--spacing-2); }\n.mb3  {  margin-bottom: var(--spacing-3); }\n.mb4  {  margin-bottom: var(--spacing-4); }\n.mb5  {  margin-bottom: var(--spacing-5); }\n.mb6 {  margin-bottom: var(--spacing-6); }\n.mb7 { margin-bottom: var(--spacing-7); }\n\n.mt0  {  margin-top: var(--spacing-0); }\n.mt1 {  margin-top: var(--spacing-1); }\n.mt2  {  margin-top: var(--spacing-2); }\n.mt3  {  margin-top: var(--spacing-3); }\n.mt4  {  margin-top: var(--spacing-4); }\n.mt5  {  margin-top: var(--spacing-5); }\n.mt6 {  margin-top: var(--spacing-6); }\n.mt7 { margin-top: var(--spacing-7); }\n\n.mv0   {\n  margin-top: var(--spacing-0);\n  margin-bottom: var(--spacing-0);\n}\n.mv1  {\n  margin-top: var(--spacing-1);\n  margin-bottom: var(--spacing-1);\n}\n.mv2   {\n  margin-top: var(--spacing-2);\n  margin-bottom: var(--spacing-2);\n}\n.mv3   {\n  margin-top: var(--spacing-3);\n  margin-bottom: var(--spacing-3);\n}\n.mv4   {\n  margin-top: var(--spacing-4);\n  margin-bottom: var(--spacing-4);\n}\n.mv5   {\n  margin-top: var(--spacing-5);\n  margin-bottom: var(--spacing-5);\n}\n.mv6  {\n  margin-top: var(--spacing-6);\n  margin-bottom: var(--spacing-6);\n}\n.mv7  {\n  margin-top: var(--spacing-7);\n  margin-bottom: var(--spacing-7);\n}\n\n.mh0   {\n  margin-left: var(--spacing-0);\n  margin-right: var(--spacing-0);\n}\n.mh1   {\n  margin-left: var(--spacing-1);\n  margin-right: var(--spacing-1);\n}\n.mh2   {\n  margin-left: var(--spacing-2);\n  margin-right: var(--spacing-2);\n}\n.mh3   {\n  margin-left: var(--spacing-3);\n  margin-right: var(--spacing-3);\n}\n.mh4   {\n  margin-left: var(--spacing-4);\n  margin-right: var(--spacing-4);\n}\n.mh5   {\n  margin-left: var(--spacing-5);\n  margin-right: var(--spacing-5);\n}\n.mh6  {\n  margin-left: var(--spacing-6);\n  margin-right: var(--spacing-6);\n}\n.mh7  {\n  margin-left: var(--spacing-7);\n  margin-right: var(--spacing-7);\n}\n\n\n@media (--breakpoint-small) {\n  .p0-s  {  padding: var(--spacing-0); }\n  .p1-s {  padding: var(--spacing-1); }\n  .p2-s  {  padding: var(--spacing-2); }\n  .p3-s  {  padding: var(--spacing-3); }\n  .p4-s  {  padding: var(--spacing-4); }\n  .p5-s  {  padding: var(--spacing-5); }\n  .p6-s {  padding: var(--spacing-6); }\n  .p7-s { padding: var(--spacing-7); }\n\n  .pl0-s  {  padding-left: var(--spacing-0); }\n  .pl1-s {  padding-left: var(--spacing-1); }\n  .pl2-s  {  padding-left: var(--spacing-2); }\n  .pl3-s  {  padding-left: var(--spacing-3); }\n  .pl4-s  {  padding-left: var(--spacing-4); }\n  .pl5-s  {  padding-left: var(--spacing-5); }\n  .pl6-s {  padding-left: var(--spacing-6); }\n  .pl7-s { padding-left: var(--spacing-7); }\n\n  .pr0-s  {  padding-right: var(--spacing-0); }\n  .pr1-s {  padding-right: var(--spacing-1); }\n  .pr2-s  {  padding-right: var(--spacing-2); }\n  .pr3-s  {  padding-right: var(--spacing-3); }\n  .pr4-s  {  padding-right: var(--spacing-4); }\n  .pr5-s  {  padding-right: var(--spacing-5); }\n  .pr6-s {  padding-right: var(--spacing-6); }\n  .pr7-s { padding-right: var(--spacing-7); }\n\n  .pb0-s  {  padding-bottom: var(--spacing-0); }\n  .pb1-s {  padding-bottom: var(--spacing-1); }\n  .pb2-s  {  padding-bottom: var(--spacing-2); }\n  .pb3-s  {  padding-bottom: var(--spacing-3); }\n  .pb4-s  {  padding-bottom: var(--spacing-4); }\n  .pb5-s  {  padding-bottom: var(--spacing-5); }\n  .pb6-s {  padding-bottom: var(--spacing-6); }\n  .pb7-s { padding-bottom: var(--spacing-7); }\n\n  .pt0-s  {  padding-top: var(--spacing-0); }\n  .pt1-s {  padding-top: var(--spacing-1); }\n  .pt2-s  {  padding-top: var(--spacing-2); }\n  .pt3-s  {  padding-top: var(--spacing-3); }\n  .pt4-s  {  padding-top: var(--spacing-4); }\n  .pt5-s  {  padding-top: var(--spacing-5); }\n  .pt6-s {  padding-top: var(--spacing-6); }\n  .pt7-s { padding-top: var(--spacing-7); }\n\n  .pv0-s {\n    padding-top: var(--spacing-0);\n    padding-bottom: var(--spacing-0);\n  }\n  .pv1-s {\n    padding-top: var(--spacing-1);\n    padding-bottom: var(--spacing-1);\n  }\n  .pv2-s {\n    padding-top: var(--spacing-2);\n    padding-bottom: var(--spacing-2);\n  }\n  .pv3-s {\n    padding-top: var(--spacing-3);\n    padding-bottom: var(--spacing-3);\n  }\n  .pv4-s {\n    padding-top: var(--spacing-4);\n    padding-bottom: var(--spacing-4);\n  }\n  .pv5-s {\n    padding-top: var(--spacing-5);\n    padding-bottom: var(--spacing-5);\n  }\n  .pv6-s {\n    padding-top: var(--spacing-6);\n    padding-bottom: var(--spacing-6);\n  }\n  .pv7-s {\n    padding-top: var(--spacing-7);\n    padding-bottom: var(--spacing-7);\n  }\n\n  .ph0-s {\n    padding-left: var(--spacing-0);\n    padding-right: var(--spacing-0);\n  }\n  .ph1-s {\n    padding-left: var(--spacing-1);\n    padding-right: var(--spacing-1);\n  }\n  .ph2-s {\n    padding-left: var(--spacing-2);\n    padding-right: var(--spacing-2);\n  }\n  .ph3-s {\n    padding-left: var(--spacing-3);\n    padding-right: var(--spacing-3);\n  }\n  .ph4-s {\n    padding-left: var(--spacing-4);\n    padding-right: var(--spacing-4);\n  }\n  .ph5-s {\n    padding-left: var(--spacing-5);\n    padding-right: var(--spacing-5);\n  }\n  .ph6-s {\n    padding-left: var(--spacing-6);\n    padding-right: var(--spacing-6);\n  }\n  .ph7-s {\n    padding-left: var(--spacing-7);\n    padding-right: var(--spacing-7);\n  }\n\n  .mt-auto-s { margin-top: auto; }\n  .mr-auto-s { margin-right: auto; }\n  .mb-auto-s { margin-bottom: auto; }\n  .ml-auto-s { margin-left:  auto; }\n\n  .m0-s  {  margin: var(--spacing-0); }\n  .m1-s {  margin: var(--spacing-1); }\n  .m2-s  {  margin: var(--spacing-2); }\n  .m3-s  {  margin: var(--spacing-3); }\n  .m4-s  {  margin: var(--spacing-4); }\n  .m5-s  {  margin: var(--spacing-5); }\n  .m6-s {  margin: var(--spacing-6); }\n  .m7-s { margin: var(--spacing-7); }\n\n  .ml0-s  {  margin-left: var(--spacing-0); }\n  .ml1-s {  margin-left: var(--spacing-1); }\n  .ml2-s  {  margin-left: var(--spacing-2); }\n  .ml3-s  {  margin-left: var(--spacing-3); }\n  .ml4-s  {  margin-left: var(--spacing-4); }\n  .ml5-s  {  margin-left: var(--spacing-5); }\n  .ml6-s {  margin-left: var(--spacing-6); }\n  .ml7-s { margin-left: var(--spacing-7); }\n\n  .mr0-s  {  margin-right: var(--spacing-0); }\n  .mr1-s {  margin-right: var(--spacing-1); }\n  .mr2-s  {  margin-right: var(--spacing-2); }\n  .mr3-s  {  margin-right: var(--spacing-3); }\n  .mr4-s  {  margin-right: var(--spacing-4); }\n  .mr5-s  {  margin-right: var(--spacing-5); }\n  .mr6-s {  margin-right: var(--spacing-6); }\n  .mr7-s { margin-right: var(--spacing-7); }\n\n  .mb0-s  {  margin-bottom: var(--spacing-0); }\n  .mb1-s {  margin-bottom: var(--spacing-1); }\n  .mb2-s  {  margin-bottom: var(--spacing-2); }\n  .mb3-s  {  margin-bottom: var(--spacing-3); }\n  .mb4-s  {  margin-bottom: var(--spacing-4); }\n  .mb5-s  {  margin-bottom: var(--spacing-5); }\n  .mb6-s {  margin-bottom: var(--spacing-6); }\n  .mb7-s { margin-bottom: var(--spacing-7); }\n\n  .mt0-s  {  margin-top: var(--spacing-0); }\n  .mt1-s {  margin-top: var(--spacing-1); }\n  .mt2-s  {  margin-top: var(--spacing-2); }\n  .mt3-s  {  margin-top: var(--spacing-3); }\n  .mt4-s  {  margin-top: var(--spacing-4); }\n  .mt5-s  {  margin-top: var(--spacing-5); }\n  .mt6-s {  margin-top: var(--spacing-6); }\n  .mt7-s { margin-top: var(--spacing-7); }\n\n  .mv0-s {\n    margin-top: var(--spacing-0);\n    margin-bottom: var(--spacing-0);\n  }\n  .mv1-s {\n    margin-top: var(--spacing-1);\n    margin-bottom: var(--spacing-1);\n  }\n  .mv2-s {\n    margin-top: var(--spacing-2);\n    margin-bottom: var(--spacing-2);\n  }\n  .mv3-s {\n    margin-top: var(--spacing-3);\n    margin-bottom: var(--spacing-3);\n  }\n  .mv4-s {\n    margin-top: var(--spacing-4);\n    margin-bottom: var(--spacing-4);\n  }\n  .mv5-s {\n    margin-top: var(--spacing-5);\n    margin-bottom: var(--spacing-5);\n  }\n  .mv6-s {\n    margin-top: var(--spacing-6);\n    margin-bottom: var(--spacing-6);\n  }\n  .mv7-s {\n    margin-top: var(--spacing-7);\n    margin-bottom: var(--spacing-7);\n  }\n\n  .mh0-s {\n    margin-left: var(--spacing-0);\n    margin-right: var(--spacing-0);\n  }\n  .mh1-s {\n    margin-left: var(--spacing-1);\n    margin-right: var(--spacing-1);\n  }\n  .mh2-s {\n    margin-left: var(--spacing-2);\n    margin-right: var(--spacing-2);\n  }\n  .mh3-s {\n    margin-left: var(--spacing-3);\n    margin-right: var(--spacing-3);\n  }\n  .mh4-s {\n    margin-left: var(--spacing-4);\n    margin-right: var(--spacing-4);\n  }\n  .mh5-s {\n    margin-left: var(--spacing-5);\n    margin-right: var(--spacing-5);\n  }\n  .mh6-s {\n    margin-left: var(--spacing-6);\n    margin-right: var(--spacing-6);\n  }\n  .mh7-s {\n    margin-left: var(--spacing-7);\n    margin-right: var(--spacing-7);\n  }\n}\n\n@media (--breakpoint-medium) {\n  .p0-m  {  padding: var(--spacing-0); }\n  .p1-m {  padding: var(--spacing-1); }\n  .p2-m  {  padding: var(--spacing-2); }\n  .p3-m  {  padding: var(--spacing-3); }\n  .p4-m  {  padding: var(--spacing-4); }\n  .p5-m  {  padding: var(--spacing-5); }\n  .p6-m {  padding: var(--spacing-6); }\n  .p7-m { padding: var(--spacing-7); }\n\n  .pl0-m  {  padding-left: var(--spacing-0); }\n  .pl1-m {  padding-left: var(--spacing-1); }\n  .pl2-m  {  padding-left: var(--spacing-2); }\n  .pl3-m  {  padding-left: var(--spacing-3); }\n  .pl4-m  {  padding-left: var(--spacing-4); }\n  .pl5-m  {  padding-left: var(--spacing-5); }\n  .pl6-m {  padding-left: var(--spacing-6); }\n  .pl7-m { padding-left: var(--spacing-7); }\n\n  .pr0-m  {  padding-right: var(--spacing-0); }\n  .pr1-m {  padding-right: var(--spacing-1); }\n  .pr2-m  {  padding-right: var(--spacing-2); }\n  .pr3-m  {  padding-right: var(--spacing-3); }\n  .pr4-m  {  padding-right: var(--spacing-4); }\n  .pr5-m  {  padding-right: var(--spacing-5); }\n  .pr6-m {  padding-right: var(--spacing-6); }\n  .pr7-m { padding-right: var(--spacing-7); }\n\n  .pb0-m  {  padding-bottom: var(--spacing-0); }\n  .pb1-m {  padding-bottom: var(--spacing-1); }\n  .pb2-m  {  padding-bottom: var(--spacing-2); }\n  .pb3-m  {  padding-bottom: var(--spacing-3); }\n  .pb4-m  {  padding-bottom: var(--spacing-4); }\n  .pb5-m  {  padding-bottom: var(--spacing-5); }\n  .pb6-m {  padding-bottom: var(--spacing-6); }\n  .pb7-m { padding-bottom: var(--spacing-7); }\n\n  .pt0-m  {  padding-top: var(--spacing-0); }\n  .pt1-m {  padding-top: var(--spacing-1); }\n  .pt2-m  {  padding-top: var(--spacing-2); }\n  .pt3-m  {  padding-top: var(--spacing-3); }\n  .pt4-m  {  padding-top: var(--spacing-4); }\n  .pt5-m  {  padding-top: var(--spacing-5); }\n  .pt6-m {  padding-top: var(--spacing-6); }\n  .pt7-m { padding-top: var(--spacing-7); }\n\n  .pv0-m {\n    padding-top: var(--spacing-0);\n    padding-bottom: var(--spacing-0);\n  }\n  .pv1-m {\n    padding-top: var(--spacing-1);\n    padding-bottom: var(--spacing-1);\n  }\n  .pv2-m {\n    padding-top: var(--spacing-2);\n    padding-bottom: var(--spacing-2);\n  }\n  .pv3-m {\n    padding-top: var(--spacing-3);\n    padding-bottom: var(--spacing-3);\n  }\n  .pv4-m {\n    padding-top: var(--spacing-4);\n    padding-bottom: var(--spacing-4);\n  }\n  .pv5-m {\n    padding-top: var(--spacing-5);\n    padding-bottom: var(--spacing-5);\n  }\n  .pv6-m {\n    padding-top: var(--spacing-6);\n    padding-bottom: var(--spacing-6);\n  }\n  .pv7-m {\n    padding-top: var(--spacing-7);\n    padding-bottom: var(--spacing-7);\n  }\n\n  .ph0-m {\n    padding-left: var(--spacing-0);\n    padding-right: var(--spacing-0);\n  }\n  .ph1-m {\n    padding-left: var(--spacing-1);\n    padding-right: var(--spacing-1);\n  }\n  .ph2-m {\n    padding-left: var(--spacing-2);\n    padding-right: var(--spacing-2);\n  }\n  .ph3-m {\n    padding-left: var(--spacing-3);\n    padding-right: var(--spacing-3);\n  }\n  .ph4-m {\n    padding-left: var(--spacing-4);\n    padding-right: var(--spacing-4);\n  }\n  .ph5-m {\n    padding-left: var(--spacing-5);\n    padding-right: var(--spacing-5);\n  }\n  .ph6-m {\n    padding-left: var(--spacing-6);\n    padding-right: var(--spacing-6);\n  }\n  .ph7-m {\n    padding-left: var(--spacing-7);\n    padding-right: var(--spacing-7);\n  }\n\n  .mt-auto-m { margin-top: auto; }\n  .mr-auto-m { margin-right: auto; }\n  .mb-auto-m { margin-bottom: auto; }\n  .ml-auto-m { margin-left:  auto; }\n\n  .m0-m  {  margin: var(--spacing-0); }\n  .m1-m {  margin: var(--spacing-1); }\n  .m2-m  {  margin: var(--spacing-2); }\n  .m3-m  {  margin: var(--spacing-3); }\n  .m4-m  {  margin: var(--spacing-4); }\n  .m5-m  {  margin: var(--spacing-5); }\n  .m6-m {  margin: var(--spacing-6); }\n  .m7-m { margin: var(--spacing-7); }\n\n  .ml0-m  {  margin-left: var(--spacing-0); }\n  .ml1-m {  margin-left: var(--spacing-1); }\n  .ml2-m  {  margin-left: var(--spacing-2); }\n  .ml3-m  {  margin-left: var(--spacing-3); }\n  .ml4-m  {  margin-left: var(--spacing-4); }\n  .ml5-m  {  margin-left: var(--spacing-5); }\n  .ml6-m {  margin-left: var(--spacing-6); }\n  .ml7-m { margin-left: var(--spacing-7); }\n\n  .mr0-m  {  margin-right: var(--spacing-0); }\n  .mr1-m {  margin-right: var(--spacing-1); }\n  .mr2-m  {  margin-right: var(--spacing-2); }\n  .mr3-m  {  margin-right: var(--spacing-3); }\n  .mr4-m  {  margin-right: var(--spacing-4); }\n  .mr5-m  {  margin-right: var(--spacing-5); }\n  .mr6-m {  margin-right: var(--spacing-6); }\n  .mr7-m { margin-right: var(--spacing-7); }\n\n  .mb0-m  {  margin-bottom: var(--spacing-0); }\n  .mb1-m {  margin-bottom: var(--spacing-1); }\n  .mb2-m  {  margin-bottom: var(--spacing-2); }\n  .mb3-m  {  margin-bottom: var(--spacing-3); }\n  .mb4-m  {  margin-bottom: var(--spacing-4); }\n  .mb5-m  {  margin-bottom: var(--spacing-5); }\n  .mb6-m {  margin-bottom: var(--spacing-6); }\n  .mb7-m { margin-bottom: var(--spacing-7); }\n\n  .mt0-m  {  margin-top: var(--spacing-0); }\n  .mt1-m {  margin-top: var(--spacing-1); }\n  .mt2-m  {  margin-top: var(--spacing-2); }\n  .mt3-m  {  margin-top: var(--spacing-3); }\n  .mt4-m  {  margin-top: var(--spacing-4); }\n  .mt5-m  {  margin-top: var(--spacing-5); }\n  .mt6-m {  margin-top: var(--spacing-6); }\n  .mt7-m { margin-top: var(--spacing-7); }\n\n  .mv0-m {\n    margin-top: var(--spacing-0);\n    margin-bottom: var(--spacing-0);\n  }\n  .mv1-m {\n    margin-top: var(--spacing-1);\n    margin-bottom: var(--spacing-1);\n  }\n  .mv2-m {\n    margin-top: var(--spacing-2);\n    margin-bottom: var(--spacing-2);\n  }\n  .mv3-m {\n    margin-top: var(--spacing-3);\n    margin-bottom: var(--spacing-3);\n  }\n  .mv4-m {\n    margin-top: var(--spacing-4);\n    margin-bottom: var(--spacing-4);\n  }\n  .mv5-m {\n    margin-top: var(--spacing-5);\n    margin-bottom: var(--spacing-5);\n  }\n  .mv6-m {\n    margin-top: var(--spacing-6);\n    margin-bottom: var(--spacing-6);\n  }\n  .mv7-m {\n    margin-top: var(--spacing-7);\n    margin-bottom: var(--spacing-7);\n  }\n\n  .mh0-m {\n    margin-left: var(--spacing-0);\n    margin-right: var(--spacing-0);\n  }\n  .mh1-m {\n    margin-left: var(--spacing-1);\n    margin-right: var(--spacing-1);\n  }\n  .mh2-m {\n    margin-left: var(--spacing-2);\n    margin-right: var(--spacing-2);\n  }\n  .mh3-m {\n    margin-left: var(--spacing-3);\n    margin-right: var(--spacing-3);\n  }\n  .mh4-m {\n    margin-left: var(--spacing-4);\n    margin-right: var(--spacing-4);\n  }\n  .mh5-m {\n    margin-left: var(--spacing-5);\n    margin-right: var(--spacing-5);\n  }\n  .mh6-m {\n    margin-left: var(--spacing-6);\n    margin-right: var(--spacing-6);\n  }\n  .mh7-m {\n    margin-left: var(--spacing-7);\n    margin-right: var(--spacing-7);\n  }\n}\n\n@media (--breakpoint-large) {\n  .p0-l  {  padding: var(--spacing-0); }\n  .p1-l {  padding: var(--spacing-1); }\n  .p2-l  {  padding: var(--spacing-2); }\n  .p3-l  {  padding: var(--spacing-3); }\n  .p4-l  {  padding: var(--spacing-4); }\n  .p5-l  {  padding: var(--spacing-5); }\n  .p6-l {  padding: var(--spacing-6); }\n  .p7-l { padding: var(--spacing-7); }\n\n  .pl0-l  {  padding-left: var(--spacing-0); }\n  .pl1-l {  padding-left: var(--spacing-1); }\n  .pl2-l  {  padding-left: var(--spacing-2); }\n  .pl3-l  {  padding-left: var(--spacing-3); }\n  .pl4-l  {  padding-left: var(--spacing-4); }\n  .pl5-l  {  padding-left: var(--spacing-5); }\n  .pl6-l {  padding-left: var(--spacing-6); }\n  .pl7-l { padding-left: var(--spacing-7); }\n\n  .pr0-l  {  padding-right: var(--spacing-0); }\n  .pr1-l {  padding-right: var(--spacing-1); }\n  .pr2-l  {  padding-right: var(--spacing-2); }\n  .pr3-l  {  padding-right: var(--spacing-3); }\n  .pr4-l  {  padding-right: var(--spacing-4); }\n  .pr5-l  {  padding-right: var(--spacing-5); }\n  .pr6-l {  padding-right: var(--spacing-6); }\n  .pr7-l { padding-right: var(--spacing-7); }\n\n  .pb0-l  {  padding-bottom: var(--spacing-0); }\n  .pb1-l {  padding-bottom: var(--spacing-1); }\n  .pb2-l  {  padding-bottom: var(--spacing-2); }\n  .pb3-l  {  padding-bottom: var(--spacing-3); }\n  .pb4-l  {  padding-bottom: var(--spacing-4); }\n  .pb5-l  {  padding-bottom: var(--spacing-5); }\n  .pb6-l {  padding-bottom: var(--spacing-6); }\n  .pb7-l { padding-bottom: var(--spacing-7); }\n\n  .pt0-l  {  padding-top: var(--spacing-0); }\n  .pt1-l {  padding-top: var(--spacing-1); }\n  .pt2-l  {  padding-top: var(--spacing-2); }\n  .pt3-l  {  padding-top: var(--spacing-3); }\n  .pt4-l  {  padding-top: var(--spacing-4); }\n  .pt5-l  {  padding-top: var(--spacing-5); }\n  .pt6-l {  padding-top: var(--spacing-6); }\n  .pt7-l { padding-top: var(--spacing-7); }\n\n  .pv0-l {\n    padding-top: var(--spacing-0);\n    padding-bottom: var(--spacing-0);\n  }\n  .pv1-l {\n    padding-top: var(--spacing-1);\n    padding-bottom: var(--spacing-1);\n  }\n  .pv2-l {\n    padding-top: var(--spacing-2);\n    padding-bottom: var(--spacing-2);\n  }\n  .pv3-l {\n    padding-top: var(--spacing-3);\n    padding-bottom: var(--spacing-3);\n  }\n  .pv4-l {\n    padding-top: var(--spacing-4);\n    padding-bottom: var(--spacing-4);\n  }\n  .pv5-l {\n    padding-top: var(--spacing-5);\n    padding-bottom: var(--spacing-5);\n  }\n  .pv6-l {\n    padding-top: var(--spacing-6);\n    padding-bottom: var(--spacing-6);\n  }\n  .pv7-l {\n    padding-top: var(--spacing-7);\n    padding-bottom: var(--spacing-7);\n  }\n\n  .ph0-l {\n    padding-left: var(--spacing-0);\n    padding-right: var(--spacing-0);\n  }\n  .ph1-l {\n    padding-left: var(--spacing-1);\n    padding-right: var(--spacing-1);\n  }\n  .ph2-l {\n    padding-left: var(--spacing-2);\n    padding-right: var(--spacing-2);\n  }\n  .ph3-l {\n    padding-left: var(--spacing-3);\n    padding-right: var(--spacing-3);\n  }\n  .ph4-l {\n    padding-left: var(--spacing-4);\n    padding-right: var(--spacing-4);\n  }\n  .ph5-l {\n    padding-left: var(--spacing-5);\n    padding-right: var(--spacing-5);\n  }\n  .ph6-l {\n    padding-left: var(--spacing-6);\n    padding-right: var(--spacing-6);\n  }\n  .ph7-l {\n    padding-left: var(--spacing-7);\n    padding-right: var(--spacing-7);\n  }\n\n  .mt-auto-l { margin-top: auto; }\n  .mr-auto-l { margin-right: auto; }\n  .mb-auto-l { margin-bottom: auto; }\n  .ml-auto-l { margin-left:  auto; }\n\n  .m0-l  {  margin: var(--spacing-0); }\n  .m1-l {  margin: var(--spacing-1); }\n  .m2-l  {  margin: var(--spacing-2); }\n  .m3-l  {  margin: var(--spacing-3); }\n  .m4-l  {  margin: var(--spacing-4); }\n  .m5-l  {  margin: var(--spacing-5); }\n  .m6-l {  margin: var(--spacing-6); }\n  .m7-l { margin: var(--spacing-7); }\n\n  .ml0-l  {  margin-left: var(--spacing-0); }\n  .ml1-l {  margin-left: var(--spacing-1); }\n  .ml2-l  {  margin-left: var(--spacing-2); }\n  .ml3-l  {  margin-left: var(--spacing-3); }\n  .ml4-l  {  margin-left: var(--spacing-4); }\n  .ml5-l  {  margin-left: var(--spacing-5); }\n  .ml6-l {  margin-left: var(--spacing-6); }\n  .ml7-l { margin-left: var(--spacing-7); }\n\n  .mr0-l  {  margin-right: var(--spacing-0); }\n  .mr1-l {  margin-right: var(--spacing-1); }\n  .mr2-l  {  margin-right: var(--spacing-2); }\n  .mr3-l  {  margin-right: var(--spacing-3); }\n  .mr4-l  {  margin-right: var(--spacing-4); }\n  .mr5-l  {  margin-right: var(--spacing-5); }\n  .mr6-l {  margin-right: var(--spacing-6); }\n  .mr7-l { margin-right: var(--spacing-7); }\n\n  .mb0-l  {  margin-bottom: var(--spacing-0); }\n  .mb1-l {  margin-bottom: var(--spacing-1); }\n  .mb2-l  {  margin-bottom: var(--spacing-2); }\n  .mb3-l  {  margin-bottom: var(--spacing-3); }\n  .mb4-l  {  margin-bottom: var(--spacing-4); }\n  .mb5-l  {  margin-bottom: var(--spacing-5); }\n  .mb6-l {  margin-bottom: var(--spacing-6); }\n  .mb7-l { margin-bottom: var(--spacing-7); }\n\n  .mt0-l  {  margin-top: var(--spacing-0); }\n  .mt1-l {  margin-top: var(--spacing-1); }\n  .mt2-l  {  margin-top: var(--spacing-2); }\n  .mt3-l  {  margin-top: var(--spacing-3); }\n  .mt4-l  {  margin-top: var(--spacing-4); }\n  .mt5-l  {  margin-top: var(--spacing-5); }\n  .mt6-l {  margin-top: var(--spacing-6); }\n  .mt7-l { margin-top: var(--spacing-7); }\n\n  .mv0-l {\n    margin-top: var(--spacing-0);\n    margin-bottom: var(--spacing-0);\n  }\n  .mv1-l {\n    margin-top: var(--spacing-1);\n    margin-bottom: var(--spacing-1);\n  }\n  .mv2-l {\n    margin-top: var(--spacing-2);\n    margin-bottom: var(--spacing-2);\n  }\n  .mv3-l {\n    margin-top: var(--spacing-3);\n    margin-bottom: var(--spacing-3);\n  }\n  .mv4-l {\n    margin-top: var(--spacing-4);\n    margin-bottom: var(--spacing-4);\n  }\n  .mv5-l {\n    margin-top: var(--spacing-5);\n    margin-bottom: var(--spacing-5);\n  }\n  .mv6-l {\n    margin-top: var(--spacing-6);\n    margin-bottom: var(--spacing-6);\n  }\n  .mv7-l {\n    margin-top: var(--spacing-7);\n    margin-bottom: var(--spacing-7);\n  }\n\n  .mh0-l {\n    margin-left: var(--spacing-0);\n    margin-right: var(--spacing-0);\n  }\n  .mh1-l {\n    margin-left: var(--spacing-1);\n    margin-right: var(--spacing-1);\n  }\n  .mh2-l {\n    margin-left: var(--spacing-2);\n    margin-right: var(--spacing-2);\n  }\n  .mh3-l {\n    margin-left: var(--spacing-3);\n    margin-right: var(--spacing-3);\n  }\n  .mh4-l {\n    margin-left: var(--spacing-4);\n    margin-right: var(--spacing-4);\n  }\n  .mh5-l {\n    margin-left: var(--spacing-5);\n    margin-right: var(--spacing-5);\n  }\n  .mh6-l {\n    margin-left: var(--spacing-6);\n    margin-right: var(--spacing-6);\n  }\n  .mh7-l {\n    margin-left: var(--spacing-7);\n    margin-right: var(--spacing-7);\n  }\n}\n",
       "css": "/* Variables */\n/* Spacing Scale - based on a ratio of 1:2 */\n/* Media Queries */\n/*\n   SPACING\n\n   An eight step powers of two scale ranging from 0 to 16rem.\n   Namespaces are composable and thus highly grockable - check the legend below\n\n   Legend:\n\n   p = padding\n   m = margin\n\n   a = all\n   h = horizontal\n   v = vertical\n   t = top\n   r = right\n   b = bottom\n   l = left\n\n   0 = none\n   1 = 1st step in spacing scale\n   2 = 2nd step in spacing scale\n   3 = 3rd step in spacing scale\n   4 = 4th step in spacing scale\n   5 = 5th step in spacing scale\n   6 = 6th step in spacing scale\n   7 = 7th step in spacing scale\n\n*/\n.pa0 { padding: 0; }\n.pa1 { padding: .25rem; }\n.pa2 { padding: .5rem; }\n.pa3 { padding: 1rem; }\n.pa4 { padding: 2rem; }\n.pa5 { padding: 4rem; }\n.pa6 { padding: 8rem; }\n.pa7 { padding: 16rem; }\n.pl0 { padding-left: 0; }\n.pl1 { padding-left: .25rem; }\n.pl2 { padding-left: .5rem; }\n.pl3 { padding-left: 1rem; }\n.pl4 { padding-left: 2rem; }\n.pl5 { padding-left: 4rem; }\n.pl6 { padding-left: 8rem; }\n.pl7 { padding-left: 16rem; }\n.pr0 { padding-right: 0; }\n.pr1 { padding-right: .25rem; }\n.pr2 { padding-right: .5rem; }\n.pr3 { padding-right: 1rem; }\n.pr4 { padding-right: 2rem; }\n.pr5 { padding-right: 4rem; }\n.pr6 { padding-right: 8rem; }\n.pr7 { padding-right: 16rem; }\n.pb0 { padding-bottom: 0; }\n.pb1 { padding-bottom: .25rem; }\n.pb2 { padding-bottom: .5rem; }\n.pb3 { padding-bottom: 1rem; }\n.pb4 { padding-bottom: 2rem; }\n.pb5 { padding-bottom: 4rem; }\n.pb6 { padding-bottom: 8rem; }\n.pb7 { padding-bottom: 16rem; }\n.pt0 { padding-top: 0; }\n.pt1 { padding-top: .25rem; }\n.pt2 { padding-top: .5rem; }\n.pt3 { padding-top: 1rem; }\n.pt4 { padding-top: 2rem; }\n.pt5 { padding-top: 4rem; }\n.pt6 { padding-top: 8rem; }\n.pt7 { padding-top: 16rem; }\n.pv0 { padding-top: 0; padding-bottom: 0; }\n.pv1 { padding-top: .25rem; padding-bottom: .25rem; }\n.pv2 { padding-top: .5rem; padding-bottom: .5rem; }\n.pv3 { padding-top: 1rem; padding-bottom: 1rem; }\n.pv4 { padding-top: 2rem; padding-bottom: 2rem; }\n.pv5 { padding-top: 4rem; padding-bottom: 4rem; }\n.pv6 { padding-top: 8rem; padding-bottom: 8rem; }\n.pv7 { padding-top: 16rem; padding-bottom: 16rem; }\n.ph0 { padding-left: 0; padding-right: 0; }\n.ph1 { padding-left: .25rem; padding-right: .25rem; }\n.ph2 { padding-left: .5rem; padding-right: .5rem; }\n.ph3 { padding-left: 1rem; padding-right: 1rem; }\n.ph4 { padding-left: 2rem; padding-right: 2rem; }\n.ph5 { padding-left: 4rem; padding-right: 4rem; }\n.ph6 { padding-left: 8rem; padding-right: 8rem; }\n.ph7 { padding-left: 16rem; padding-right: 16rem; }\n.ma0 { margin: 0; }\n.ma1 { margin: .25rem; }\n.ma2 { margin: .5rem; }\n.ma3 { margin: 1rem; }\n.ma4 { margin: 2rem; }\n.ma5 { margin: 4rem; }\n.ma6 { margin: 8rem; }\n.ma7 { margin: 16rem; }\n.ml0 { margin-left: 0; }\n.ml1 { margin-left: .25rem; }\n.ml2 { margin-left: .5rem; }\n.ml3 { margin-left: 1rem; }\n.ml4 { margin-left: 2rem; }\n.ml5 { margin-left: 4rem; }\n.ml6 { margin-left: 8rem; }\n.ml7 { margin-left: 16rem; }\n.mr0 { margin-right: 0; }\n.mr1 { margin-right: .25rem; }\n.mr2 { margin-right: .5rem; }\n.mr3 { margin-right: 1rem; }\n.mr4 { margin-right: 2rem; }\n.mr5 { margin-right: 4rem; }\n.mr6 { margin-right: 8rem; }\n.mr7 { margin-right: 16rem; }\n.mb0 { margin-bottom: 0; }\n.mb1 { margin-bottom: .25rem; }\n.mb2 { margin-bottom: .5rem; }\n.mb3 { margin-bottom: 1rem; }\n.mb4 { margin-bottom: 2rem; }\n.mb5 { margin-bottom: 4rem; }\n.mb6 { margin-bottom: 8rem; }\n.mb7 { margin-bottom: 16rem; }\n.mt0 { margin-top: 0; }\n.mt1 { margin-top: .25rem; }\n.mt2 { margin-top: .5rem; }\n.mt3 { margin-top: 1rem; }\n.mt4 { margin-top: 2rem; }\n.mt5 { margin-top: 4rem; }\n.mt6 { margin-top: 8rem; }\n.mt7 { margin-top: 16rem; }\n.mv0 { margin-top: 0; margin-bottom: 0; }\n.mv1 { margin-top: .25rem; margin-bottom: .25rem; }\n.mv2 { margin-top: .5rem; margin-bottom: .5rem; }\n.mv3 { margin-top: 1rem; margin-bottom: 1rem; }\n.mv4 { margin-top: 2rem; margin-bottom: 2rem; }\n.mv5 { margin-top: 4rem; margin-bottom: 4rem; }\n.mv6 { margin-top: 8rem; margin-bottom: 8rem; }\n.mv7 { margin-top: 16rem; margin-bottom: 16rem; }\n.mh0 { margin-left: 0; margin-right: 0; }\n.mh1 { margin-left: .25rem; margin-right: .25rem; }\n.mh2 { margin-left: .5rem; margin-right: .5rem; }\n.mh3 { margin-left: 1rem; margin-right: 1rem; }\n.mh4 { margin-left: 2rem; margin-right: 2rem; }\n.mh5 { margin-left: 4rem; margin-right: 4rem; }\n.mh6 { margin-left: 8rem; margin-right: 8rem; }\n.mh7 { margin-left: 16rem; margin-right: 16rem; }\n@media screen and (min-width: 30em) {\n .pa0-ns { padding: 0; }\n .pa1-ns { padding: .25rem; }\n .pa2-ns { padding: .5rem; }\n .pa3-ns { padding: 1rem; }\n .pa4-ns { padding: 2rem; }\n .pa5-ns { padding: 4rem; }\n .pa6-ns { padding: 8rem; }\n .pa7-ns { padding: 16rem; }\n .pl0-ns { padding-left: 0; }\n .pl1-ns { padding-left: .25rem; }\n .pl2-ns { padding-left: .5rem; }\n .pl3-ns { padding-left: 1rem; }\n .pl4-ns { padding-left: 2rem; }\n .pl5-ns { padding-left: 4rem; }\n .pl6-ns { padding-left: 8rem; }\n .pl7-ns { padding-left: 16rem; }\n .pr0-ns { padding-right: 0; }\n .pr1-ns { padding-right: .25rem; }\n .pr2-ns { padding-right: .5rem; }\n .pr3-ns { padding-right: 1rem; }\n .pr4-ns { padding-right: 2rem; }\n .pr5-ns { padding-right: 4rem; }\n .pr6-ns { padding-right: 8rem; }\n .pr7-ns { padding-right: 16rem; }\n .pb0-ns { padding-bottom: 0; }\n .pb1-ns { padding-bottom: .25rem; }\n .pb2-ns { padding-bottom: .5rem; }\n .pb3-ns { padding-bottom: 1rem; }\n .pb4-ns { padding-bottom: 2rem; }\n .pb5-ns { padding-bottom: 4rem; }\n .pb6-ns { padding-bottom: 8rem; }\n .pb7-ns { padding-bottom: 16rem; }\n .pt0-ns { padding-top: 0; }\n .pt1-ns { padding-top: .25rem; }\n .pt2-ns { padding-top: .5rem; }\n .pt3-ns { padding-top: 1rem; }\n .pt4-ns { padding-top: 2rem; }\n .pt5-ns { padding-top: 4rem; }\n .pt6-ns { padding-top: 8rem; }\n .pt7-ns { padding-top: 16rem; }\n .pv0-ns { padding-top: 0; padding-bottom: 0; }\n .pv1-ns { padding-top: .25rem; padding-bottom: .25rem; }\n .pv2-ns { padding-top: .5rem; padding-bottom: .5rem; }\n .pv3-ns { padding-top: 1rem; padding-bottom: 1rem; }\n .pv4-ns { padding-top: 2rem; padding-bottom: 2rem; }\n .pv5-ns { padding-top: 4rem; padding-bottom: 4rem; }\n .pv6-ns { padding-top: 8rem; padding-bottom: 8rem; }\n .pv7-ns { padding-top: 16rem; padding-bottom: 16rem; }\n .ph0-ns { padding-left: 0; padding-right: 0; }\n .ph1-ns { padding-left: .25rem; padding-right: .25rem; }\n .ph2-ns { padding-left: .5rem; padding-right: .5rem; }\n .ph3-ns { padding-left: 1rem; padding-right: 1rem; }\n .ph4-ns { padding-left: 2rem; padding-right: 2rem; }\n .ph5-ns { padding-left: 4rem; padding-right: 4rem; }\n .ph6-ns { padding-left: 8rem; padding-right: 8rem; }\n .ph7-ns { padding-left: 16rem; padding-right: 16rem; }\n .ma0-ns { margin: 0; }\n .ma1-ns { margin: .25rem; }\n .ma2-ns { margin: .5rem; }\n .ma3-ns { margin: 1rem; }\n .ma4-ns { margin: 2rem; }\n .ma5-ns { margin: 4rem; }\n .ma6-ns { margin: 8rem; }\n .ma7-ns { margin: 16rem; }\n .ml0-ns { margin-left: 0; }\n .ml1-ns { margin-left: .25rem; }\n .ml2-ns { margin-left: .5rem; }\n .ml3-ns { margin-left: 1rem; }\n .ml4-ns { margin-left: 2rem; }\n .ml5-ns { margin-left: 4rem; }\n .ml6-ns { margin-left: 8rem; }\n .ml7-ns { margin-left: 16rem; }\n .mr0-ns { margin-right: 0; }\n .mr1-ns { margin-right: .25rem; }\n .mr2-ns { margin-right: .5rem; }\n .mr3-ns { margin-right: 1rem; }\n .mr4-ns { margin-right: 2rem; }\n .mr5-ns { margin-right: 4rem; }\n .mr6-ns { margin-right: 8rem; }\n .mr7-ns { margin-right: 16rem; }\n .mb0-ns { margin-bottom: 0; }\n .mb1-ns { margin-bottom: .25rem; }\n .mb2-ns { margin-bottom: .5rem; }\n .mb3-ns { margin-bottom: 1rem; }\n .mb4-ns { margin-bottom: 2rem; }\n .mb5-ns { margin-bottom: 4rem; }\n .mb6-ns { margin-bottom: 8rem; }\n .mb7-ns { margin-bottom: 16rem; }\n .mt0-ns { margin-top: 0; }\n .mt1-ns { margin-top: .25rem; }\n .mt2-ns { margin-top: .5rem; }\n .mt3-ns { margin-top: 1rem; }\n .mt4-ns { margin-top: 2rem; }\n .mt5-ns { margin-top: 4rem; }\n .mt6-ns { margin-top: 8rem; }\n .mt7-ns { margin-top: 16rem; }\n .mv0-ns { margin-top: 0; margin-bottom: 0; }\n .mv1-ns { margin-top: .25rem; margin-bottom: .25rem; }\n .mv2-ns { margin-top: .5rem; margin-bottom: .5rem; }\n .mv3-ns { margin-top: 1rem; margin-bottom: 1rem; }\n .mv4-ns { margin-top: 2rem; margin-bottom: 2rem; }\n .mv5-ns { margin-top: 4rem; margin-bottom: 4rem; }\n .mv6-ns { margin-top: 8rem; margin-bottom: 8rem; }\n .mv7-ns { margin-top: 16rem; margin-bottom: 16rem; }\n .mh0-ns { margin-left: 0; margin-right: 0; }\n .mh1-ns { margin-left: .25rem; margin-right: .25rem; }\n .mh2-ns { margin-left: .5rem; margin-right: .5rem; }\n .mh3-ns { margin-left: 1rem; margin-right: 1rem; }\n .mh4-ns { margin-left: 2rem; margin-right: 2rem; }\n .mh5-ns { margin-left: 4rem; margin-right: 4rem; }\n .mh6-ns { margin-left: 8rem; margin-right: 8rem; }\n .mh7-ns { margin-left: 16rem; margin-right: 16rem; }\n}\n@media screen and (min-width: 30em) and (max-width: 60em) {\n .pa0-m { padding: 0; }\n .pa1-m { padding: .25rem; }\n .pa2-m { padding: .5rem; }\n .pa3-m { padding: 1rem; }\n .pa4-m { padding: 2rem; }\n .pa5-m { padding: 4rem; }\n .pa6-m { padding: 8rem; }\n .pa7-m { padding: 16rem; }\n .pl0-m { padding-left: 0; }\n .pl1-m { padding-left: .25rem; }\n .pl2-m { padding-left: .5rem; }\n .pl3-m { padding-left: 1rem; }\n .pl4-m { padding-left: 2rem; }\n .pl5-m { padding-left: 4rem; }\n .pl6-m { padding-left: 8rem; }\n .pl7-m { padding-left: 16rem; }\n .pr0-m { padding-right: 0; }\n .pr1-m { padding-right: .25rem; }\n .pr2-m { padding-right: .5rem; }\n .pr3-m { padding-right: 1rem; }\n .pr4-m { padding-right: 2rem; }\n .pr5-m { padding-right: 4rem; }\n .pr6-m { padding-right: 8rem; }\n .pr7-m { padding-right: 16rem; }\n .pb0-m { padding-bottom: 0; }\n .pb1-m { padding-bottom: .25rem; }\n .pb2-m { padding-bottom: .5rem; }\n .pb3-m { padding-bottom: 1rem; }\n .pb4-m { padding-bottom: 2rem; }\n .pb5-m { padding-bottom: 4rem; }\n .pb6-m { padding-bottom: 8rem; }\n .pb7-m { padding-bottom: 16rem; }\n .pt0-m { padding-top: 0; }\n .pt1-m { padding-top: .25rem; }\n .pt2-m { padding-top: .5rem; }\n .pt3-m { padding-top: 1rem; }\n .pt4-m { padding-top: 2rem; }\n .pt5-m { padding-top: 4rem; }\n .pt6-m { padding-top: 8rem; }\n .pt7-m { padding-top: 16rem; }\n .pv0-m { padding-top: 0; padding-bottom: 0; }\n .pv1-m { padding-top: .25rem; padding-bottom: .25rem; }\n .pv2-m { padding-top: .5rem; padding-bottom: .5rem; }\n .pv3-m { padding-top: 1rem; padding-bottom: 1rem; }\n .pv4-m { padding-top: 2rem; padding-bottom: 2rem; }\n .pv5-m { padding-top: 4rem; padding-bottom: 4rem; }\n .pv6-m { padding-top: 8rem; padding-bottom: 8rem; }\n .pv7-m { padding-top: 16rem; padding-bottom: 16rem; }\n .ph0-m { padding-left: 0; padding-right: 0; }\n .ph1-m { padding-left: .25rem; padding-right: .25rem; }\n .ph2-m { padding-left: .5rem; padding-right: .5rem; }\n .ph3-m { padding-left: 1rem; padding-right: 1rem; }\n .ph4-m { padding-left: 2rem; padding-right: 2rem; }\n .ph5-m { padding-left: 4rem; padding-right: 4rem; }\n .ph6-m { padding-left: 8rem; padding-right: 8rem; }\n .ph7-m { padding-left: 16rem; padding-right: 16rem; }\n .ma0-m { margin: 0; }\n .ma1-m { margin: .25rem; }\n .ma2-m { margin: .5rem; }\n .ma3-m { margin: 1rem; }\n .ma4-m { margin: 2rem; }\n .ma5-m { margin: 4rem; }\n .ma6-m { margin: 8rem; }\n .ma7-m { margin: 16rem; }\n .ml0-m { margin-left: 0; }\n .ml1-m { margin-left: .25rem; }\n .ml2-m { margin-left: .5rem; }\n .ml3-m { margin-left: 1rem; }\n .ml4-m { margin-left: 2rem; }\n .ml5-m { margin-left: 4rem; }\n .ml6-m { margin-left: 8rem; }\n .ml7-m { margin-left: 16rem; }\n .mr0-m { margin-right: 0; }\n .mr1-m { margin-right: .25rem; }\n .mr2-m { margin-right: .5rem; }\n .mr3-m { margin-right: 1rem; }\n .mr4-m { margin-right: 2rem; }\n .mr5-m { margin-right: 4rem; }\n .mr6-m { margin-right: 8rem; }\n .mr7-m { margin-right: 16rem; }\n .mb0-m { margin-bottom: 0; }\n .mb1-m { margin-bottom: .25rem; }\n .mb2-m { margin-bottom: .5rem; }\n .mb3-m { margin-bottom: 1rem; }\n .mb4-m { margin-bottom: 2rem; }\n .mb5-m { margin-bottom: 4rem; }\n .mb6-m { margin-bottom: 8rem; }\n .mb7-m { margin-bottom: 16rem; }\n .mt0-m { margin-top: 0; }\n .mt1-m { margin-top: .25rem; }\n .mt2-m { margin-top: .5rem; }\n .mt3-m { margin-top: 1rem; }\n .mt4-m { margin-top: 2rem; }\n .mt5-m { margin-top: 4rem; }\n .mt6-m { margin-top: 8rem; }\n .mt7-m { margin-top: 16rem; }\n .mv0-m { margin-top: 0; margin-bottom: 0; }\n .mv1-m { margin-top: .25rem; margin-bottom: .25rem; }\n .mv2-m { margin-top: .5rem; margin-bottom: .5rem; }\n .mv3-m { margin-top: 1rem; margin-bottom: 1rem; }\n .mv4-m { margin-top: 2rem; margin-bottom: 2rem; }\n .mv5-m { margin-top: 4rem; margin-bottom: 4rem; }\n .mv6-m { margin-top: 8rem; margin-bottom: 8rem; }\n .mv7-m { margin-top: 16rem; margin-bottom: 16rem; }\n .mh0-m { margin-left: 0; margin-right: 0; }\n .mh1-m { margin-left: .25rem; margin-right: .25rem; }\n .mh2-m { margin-left: .5rem; margin-right: .5rem; }\n .mh3-m { margin-left: 1rem; margin-right: 1rem; }\n .mh4-m { margin-left: 2rem; margin-right: 2rem; }\n .mh5-m { margin-left: 4rem; margin-right: 4rem; }\n .mh6-m { margin-left: 8rem; margin-right: 8rem; }\n .mh7-m { margin-left: 16rem; margin-right: 16rem; }\n}\n@media screen and (min-width: 60em) {\n .pa0-l { padding: 0; }\n .pa1-l { padding: .25rem; }\n .pa2-l { padding: .5rem; }\n .pa3-l { padding: 1rem; }\n .pa4-l { padding: 2rem; }\n .pa5-l { padding: 4rem; }\n .pa6-l { padding: 8rem; }\n .pa7-l { padding: 16rem; }\n .pl0-l { padding-left: 0; }\n .pl1-l { padding-left: .25rem; }\n .pl2-l { padding-left: .5rem; }\n .pl3-l { padding-left: 1rem; }\n .pl4-l { padding-left: 2rem; }\n .pl5-l { padding-left: 4rem; }\n .pl6-l { padding-left: 8rem; }\n .pl7-l { padding-left: 16rem; }\n .pr0-l { padding-right: 0; }\n .pr1-l { padding-right: .25rem; }\n .pr2-l { padding-right: .5rem; }\n .pr3-l { padding-right: 1rem; }\n .pr4-l { padding-right: 2rem; }\n .pr5-l { padding-right: 4rem; }\n .pr6-l { padding-right: 8rem; }\n .pr7-l { padding-right: 16rem; }\n .pb0-l { padding-bottom: 0; }\n .pb1-l { padding-bottom: .25rem; }\n .pb2-l { padding-bottom: .5rem; }\n .pb3-l { padding-bottom: 1rem; }\n .pb4-l { padding-bottom: 2rem; }\n .pb5-l { padding-bottom: 4rem; }\n .pb6-l { padding-bottom: 8rem; }\n .pb7-l { padding-bottom: 16rem; }\n .pt0-l { padding-top: 0; }\n .pt1-l { padding-top: .25rem; }\n .pt2-l { padding-top: .5rem; }\n .pt3-l { padding-top: 1rem; }\n .pt4-l { padding-top: 2rem; }\n .pt5-l { padding-top: 4rem; }\n .pt6-l { padding-top: 8rem; }\n .pt7-l { padding-top: 16rem; }\n .pv0-l { padding-top: 0; padding-bottom: 0; }\n .pv1-l { padding-top: .25rem; padding-bottom: .25rem; }\n .pv2-l { padding-top: .5rem; padding-bottom: .5rem; }\n .pv3-l { padding-top: 1rem; padding-bottom: 1rem; }\n .pv4-l { padding-top: 2rem; padding-bottom: 2rem; }\n .pv5-l { padding-top: 4rem; padding-bottom: 4rem; }\n .pv6-l { padding-top: 8rem; padding-bottom: 8rem; }\n .pv7-l { padding-top: 16rem; padding-bottom: 16rem; }\n .ph0-l { padding-left: 0; padding-right: 0; }\n .ph1-l { padding-left: .25rem; padding-right: .25rem; }\n .ph2-l { padding-left: .5rem; padding-right: .5rem; }\n .ph3-l { padding-left: 1rem; padding-right: 1rem; }\n .ph4-l { padding-left: 2rem; padding-right: 2rem; }\n .ph5-l { padding-left: 4rem; padding-right: 4rem; }\n .ph6-l { padding-left: 8rem; padding-right: 8rem; }\n .ph7-l { padding-left: 16rem; padding-right: 16rem; }\n .ma0-l { margin: 0; }\n .ma1-l { margin: .25rem; }\n .ma2-l { margin: .5rem; }\n .ma3-l { margin: 1rem; }\n .ma4-l { margin: 2rem; }\n .ma5-l { margin: 4rem; }\n .ma6-l { margin: 8rem; }\n .ma7-l { margin: 16rem; }\n .ml0-l { margin-left: 0; }\n .ml1-l { margin-left: .25rem; }\n .ml2-l { margin-left: .5rem; }\n .ml3-l { margin-left: 1rem; }\n .ml4-l { margin-left: 2rem; }\n .ml5-l { margin-left: 4rem; }\n .ml6-l { margin-left: 8rem; }\n .ml7-l { margin-left: 16rem; }\n .mr0-l { margin-right: 0; }\n .mr1-l { margin-right: .25rem; }\n .mr2-l { margin-right: .5rem; }\n .mr3-l { margin-right: 1rem; }\n .mr4-l { margin-right: 2rem; }\n .mr5-l { margin-right: 4rem; }\n .mr6-l { margin-right: 8rem; }\n .mr7-l { margin-right: 16rem; }\n .mb0-l { margin-bottom: 0; }\n .mb1-l { margin-bottom: .25rem; }\n .mb2-l { margin-bottom: .5rem; }\n .mb3-l { margin-bottom: 1rem; }\n .mb4-l { margin-bottom: 2rem; }\n .mb5-l { margin-bottom: 4rem; }\n .mb6-l { margin-bottom: 8rem; }\n .mb7-l { margin-bottom: 16rem; }\n .mt0-l { margin-top: 0; }\n .mt1-l { margin-top: .25rem; }\n .mt2-l { margin-top: .5rem; }\n .mt3-l { margin-top: 1rem; }\n .mt4-l { margin-top: 2rem; }\n .mt5-l { margin-top: 4rem; }\n .mt6-l { margin-top: 8rem; }\n .mt7-l { margin-top: 16rem; }\n .mv0-l { margin-top: 0; margin-bottom: 0; }\n .mv1-l { margin-top: .25rem; margin-bottom: .25rem; }\n .mv2-l { margin-top: .5rem; margin-bottom: .5rem; }\n .mv3-l { margin-top: 1rem; margin-bottom: 1rem; }\n .mv4-l { margin-top: 2rem; margin-bottom: 2rem; }\n .mv5-l { margin-top: 4rem; margin-bottom: 4rem; }\n .mv6-l { margin-top: 8rem; margin-bottom: 8rem; }\n .mv7-l { margin-top: 16rem; margin-bottom: 16rem; }\n .mh0-l { margin-left: 0; margin-right: 0; }\n .mh1-l { margin-left: .25rem; margin-right: .25rem; }\n .mh2-l { margin-left: .5rem; margin-right: .5rem; }\n .mh3-l { margin-left: 1rem; margin-right: 1rem; }\n .mh4-l { margin-left: 2rem; margin-right: 2rem; }\n .mh5-l { margin-left: 4rem; margin-right: 4rem; }\n .mh6-l { margin-left: 8rem; margin-right: 8rem; }\n .mh7-l { margin-left: 16rem; margin-right: 16rem; }\n}\n\n"
     },
     "tachyons-tables": {
@@ -17526,28 +17582,28 @@
       "metadata": {},
       "tableOfStyles": [
         {
-          "selector": ".f8",
+          "selector": ".f0",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 6rem"
           ]
         },
         {
-          "selector": ".f7",
+          "selector": ".f1",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 4rem"
           ]
         },
         {
-          "selector": ".f6",
+          "selector": ".f2",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 3rem"
           ]
         },
         {
-          "selector": ".f5",
+          "selector": ".f3",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 2rem"
@@ -17561,49 +17617,49 @@
           ]
         },
         {
-          "selector": ".f3",
+          "selector": ".f5",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 1rem"
           ]
         },
         {
-          "selector": ".f2",
+          "selector": ".f6",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: .875rem"
           ]
         },
         {
-          "selector": ".f1",
+          "selector": ".f7",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: .75rem"
           ]
         },
         {
-          "selector": ".f8-s",
+          "selector": ".f0-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 6rem"
           ]
         },
         {
-          "selector": ".f7-s",
+          "selector": ".f1-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 4rem"
           ]
         },
         {
-          "selector": ".f6-s",
+          "selector": ".f2-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 3rem"
           ]
         },
         {
-          "selector": ".f5-s",
+          "selector": ".f3-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 2rem"
@@ -17617,49 +17673,49 @@
           ]
         },
         {
-          "selector": ".f3-s",
+          "selector": ".f5-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 1rem"
           ]
         },
         {
-          "selector": ".f2-s",
+          "selector": ".f6-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: .875rem"
           ]
         },
         {
-          "selector": ".f1-s",
+          "selector": ".f7-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: .75rem"
           ]
         },
         {
-          "selector": ".f8-m",
+          "selector": ".f0-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 6rem"
           ]
         },
         {
-          "selector": ".f7-m",
+          "selector": ".f1-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 4rem"
           ]
         },
         {
-          "selector": ".f6-m",
+          "selector": ".f2-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 3rem"
           ]
         },
         {
-          "selector": ".f5-m",
+          "selector": ".f3-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 2rem"
@@ -17673,49 +17729,49 @@
           ]
         },
         {
-          "selector": ".f3-m",
+          "selector": ".f5-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 1rem"
           ]
         },
         {
-          "selector": ".f2-m",
+          "selector": ".f6-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: .875rem"
           ]
         },
         {
-          "selector": ".f1-m",
+          "selector": ".f7-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: .75rem"
           ]
         },
         {
-          "selector": ".f8-l",
+          "selector": ".f0-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 6rem"
           ]
         },
         {
-          "selector": ".f7-l",
+          "selector": ".f1-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 4rem"
           ]
         },
         {
-          "selector": ".f6-l",
+          "selector": ".f2-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 3rem"
           ]
         },
         {
-          "selector": ".f5-l",
+          "selector": ".f3-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 2rem"
@@ -17729,21 +17785,21 @@
           ]
         },
         {
-          "selector": ".f3-l",
+          "selector": ".f5-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: 1rem"
           ]
         },
         {
-          "selector": ".f2-l",
+          "selector": ".f6-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: .875rem"
           ]
         },
         {
-          "selector": ".f1-l",
+          "selector": ".f7-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-type-scale",
           "declarations": [
             "font-size: .75rem"
@@ -17751,7 +17807,7 @@
         }
       ],
       "readme": "\n\n# TYPE SCALE\n\n### Docs\n\nhttp://tachyons.io/docs/typography/scale/\n\n### Base\n\n- f = font-size\n\n### Modifiers\n\n- 1 = 1st step in size scale\n- 2 = 2nd step in size scale\n- 3 = 3rd step in size scale\n- 4 = 4th step in size scale\n- 5 = 5th step in size scale\n- 6 = 6th step in size scale\n- 7 = 7th step in size scale\n- 8 = 8th step in size scale\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n",
-      "src": "/*!!!\n\n# TYPE SCALE\n\n### Docs\n\nhttp://tachyons.io/docs/typography/scale/\n\n### Base\n\n- f = font-size\n\n### Modifiers\n\n- 1 = 1st step in size scale\n- 2 = 2nd step in size scale\n- 3 = 3rd step in size scale\n- 4 = 4th step in size scale\n- 5 = 5th step in size scale\n- 6 = 6th step in size scale\n- 7 = 7th step in size scale\n- 8 = 8th step in size scale\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n\n/*\n * For Hero/Marketing Titles\n *\n * These generally are too large for mobile\n * so be careful using them on smaller screens.\n * */\n\n\n/* Type Scale */\n\n.f8 { font-size: 6rem; }\n.f7 { font-size: 4rem; }\n.f6 { font-size: 3rem; }\n.f5 { font-size: 2rem; }\n.f4 { font-size: 1.5rem; }\n.f3 { font-size: 1rem; }\n.f2 { font-size: .875rem; }\n.f1 { font-size: .75rem; } /* Small and hard to read for many people so use with extreme caution */\n\n@media (--breakpoint-small) {\n  .f8-s { font-size: 6rem; }\n  .f7-s { font-size: 4rem; }\n  .f6-s { font-size: 3rem; }\n  .f5-s { font-size: 2rem; }\n  .f4-s { font-size: 1.5rem; }\n  .f3-s { font-size: 1rem; }\n  .f2-s { font-size: .875rem; }\n  .f1-s { font-size: .75rem; }\n}\n\n@media (--breakpoint-medium) {\n  .f8-m { font-size: 6rem; }\n  .f7-m { font-size: 4rem; }\n  .f6-m { font-size: 3rem; }\n  .f5-m { font-size: 2rem; }\n  .f4-m { font-size: 1.5rem; }\n  .f3-m { font-size: 1rem; }\n  .f2-m { font-size: .875rem; }\n  .f1-m { font-size: .75rem; }\n}\n\n@media (--breakpoint-large) {\n  .f8-l { font-size: 6rem; }\n  .f7-l { font-size: 4rem; }\n  .f6-l { font-size: 3rem; }\n  .f5-l { font-size: 2rem; }\n  .f4-l { font-size: 1.5rem; }\n  .f3-l { font-size: 1rem; }\n  .f2-l { font-size: .875rem; }\n  .f1-l { font-size: .75rem; }\n}\n",
+      "src": "/*!!!\n\n# TYPE SCALE\n\n### Docs\n\nhttp://tachyons.io/docs/typography/scale/\n\n### Base\n\n- f = font-size\n\n### Modifiers\n\n- 1 = 1st step in size scale\n- 2 = 2nd step in size scale\n- 3 = 3rd step in size scale\n- 4 = 4th step in size scale\n- 5 = 5th step in size scale\n- 6 = 6th step in size scale\n- 7 = 7th step in size scale\n- 8 = 8th step in size scale\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n\n/* Type Scale */\n\n.f0 { font-size: 6rem; }\n.f1 { font-size: 4rem; }\n.f2 { font-size: 3rem; }\n.f3 { font-size: 2rem; }\n.f4 { font-size: 1.5rem; }\n.f5 { font-size: 1rem; }\n.f6 { font-size: .875rem; }\n/* Small and hard to read for many people so use with extreme caution */\n.f7 { font-size: .75rem; }\n\n@media (--breakpoint-small) {\n  .f0-s { font-size: 6rem; }\n  .f1-s { font-size: 4rem; }\n  .f2-s { font-size: 3rem; }\n  .f3-s { font-size: 2rem; }\n  .f4-s { font-size: 1.5rem; }\n  .f5-s { font-size: 1rem; }\n  .f6-s { font-size: .875rem; }\n  .f7-s { font-size: .75rem; }\n}\n\n@media (--breakpoint-medium) {\n  .f0-m { font-size: 6rem; }\n  .f1-m { font-size: 4rem; }\n  .f2-m { font-size: 3rem; }\n  .f3-m { font-size: 2rem; }\n  .f4-m { font-size: 1.5rem; }\n  .f5-m { font-size: 1rem; }\n  .f6-m { font-size: .875rem; }\n  .f7-m { font-size: .75rem; }\n}\n\n@media (--breakpoint-large) {\n  .f0-l { font-size: 6rem; }\n  .f1-l { font-size: 4rem; }\n  .f2-l { font-size: 3rem; }\n  .f3-l { font-size: 2rem; }\n  .f4-l { font-size: 1.5rem; }\n  .f5-l { font-size: 1rem; }\n  .f6-l { font-size: .875rem; }\n  .f7-l { font-size: .75rem; }\n}\n",
       "css": "/*\n\n   TYPE SCALE\n   Docs: http://tachyons.io/docs/typography/scale/\n\n   Base:\n    f = font-size\n\n   Modifiers\n     1 = 1st step in size scale\n     2 = 2nd step in size scale\n     3 = 3rd step in size scale\n     4 = 4th step in size scale\n     5 = 5th step in size scale\n     6 = 6th step in size scale\n     7 = 7th step in size scale\n\n   Media Query Extensions:\n     -ns = not-small\n     -m  = medium\n     -l  = large\n\n*/\n/* For Hero Titles */\n.f-6, .f-headline { font-size: 6rem; }\n.f-5, .f-subheadline { font-size: 5rem; }\n/* Type Scale */\n.f1 { font-size: 3rem; }\n.f2 { font-size: 2.25rem; }\n.f3 { font-size: 1.5rem; }\n.f4 { font-size: 1.25rem; }\n.f5 { font-size: 1rem; }\n.f6 { font-size: .875rem; }\n.f7 { font-size: .75rem; }\n/* Small and hard to read for many people so use with extreme caution */\n@media screen and (min-width: 30em) {\n .f-6-ns, .f-headline-ns { font-size: 6rem; }\n .f-5-ns, .f-subheadline-ns { font-size: 5rem; }\n .f1-ns { font-size: 3rem; }\n .f2-ns { font-size: 2.25rem; }\n .f3-ns { font-size: 1.5rem; }\n .f4-ns { font-size: 1.25rem; }\n .f5-ns { font-size: 1rem; }\n .f6-ns { font-size: .875rem; }\n .f7-ns { font-size: .75rem; }\n}\n@media screen and (min-width: 30em) and (max-width: 60em) {\n .f-6-m, .f-headline-m { font-size: 6rem; }\n .f-5-m, .f-subheadline-m { font-size: 5rem; }\n .f1-m { font-size: 3rem; }\n .f2-m { font-size: 2.25rem; }\n .f3-m { font-size: 1.5rem; }\n .f4-m { font-size: 1.25rem; }\n .f5-m { font-size: 1rem; }\n .f6-m { font-size: .875rem; }\n .f7-m { font-size: .75rem; }\n}\n@media screen and (min-width: 60em) {\n .f-6-l, .f-headline-l { font-size: 6rem; }\n .f-5-l, .f-subheadline-l { font-size: 5rem; }\n .f1-l { font-size: 3rem; }\n .f2-l { font-size: 2.25rem; }\n .f3-l { font-size: 1.5rem; }\n .f4-l { font-size: 1.25rem; }\n .f5-l { font-size: 1rem; }\n .f6-l { font-size: .875rem; }\n .f7-l { font-size: .75rem; }\n}\n\n"
     },
     "tachyons-typography": {
@@ -18182,14 +18238,14 @@
           ]
         },
         {
-          "selector": ".nowrap",
+          "selector": ".ws-nowrap",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-white-space",
           "declarations": [
             "white-space: nowrap"
           ]
         },
         {
-          "selector": ".pre",
+          "selector": ".ws-pre",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-white-space",
           "declarations": [
             "white-space: pre"
@@ -18203,14 +18259,14 @@
           ]
         },
         {
-          "selector": ".nowrap-s",
+          "selector": ".ws-nowrap-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-white-space",
           "declarations": [
             "white-space: nowrap"
           ]
         },
         {
-          "selector": ".pre-s",
+          "selector": ".ws-pre-s",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-white-space",
           "declarations": [
             "white-space: pre"
@@ -18224,14 +18280,14 @@
           ]
         },
         {
-          "selector": ".nowrap-m",
+          "selector": ".ws-nowrap-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-white-space",
           "declarations": [
             "white-space: nowrap"
           ]
         },
         {
-          "selector": ".pre-m",
+          "selector": ".ws-pre-m",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-white-space",
           "declarations": [
             "white-space: pre"
@@ -18245,22 +18301,22 @@
           ]
         },
         {
-          "selector": ".nowrap-l",
+          "selector": ".ws-nowrap-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-white-space",
           "declarations": [
             "white-space: nowrap"
           ]
         },
         {
-          "selector": ".pre-l",
+          "selector": ".ws-pre-l",
           "moduleName": "/Users/johno/c/tachyons/docs/tachyons-white-space",
           "declarations": [
             "white-space: pre"
           ]
         }
       ],
-      "readme": "\n\n# WHITE SPACE\n\n### Base\n\n- ws-normal = white-space normal\n- nowrap = white-space nowrap\n- pre = white-space pre\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n",
-      "src": "/*!!!\n\n# WHITE SPACE\n\n### Base\n\n- ws-normal = white-space normal\n- nowrap = white-space nowrap\n- pre = white-space pre\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n\n\n.ws-normal { white-space: normal; }\n.nowrap { white-space: nowrap; }\n.pre { white-space: pre; }\n\n@media (--breakpoint-small) {\n  .ws-normal-s { white-space: normal; }\n  .nowrap-s { white-space: nowrap; }\n  .pre-s { white-space: pre; }\n}\n\n@media (--breakpoint-medium) {\n  .ws-normal-m { white-space: normal; }\n  .nowrap-m { white-space: nowrap; }\n  .pre-m { white-space: pre; }\n}\n\n@media (--breakpoint-large) {\n  .ws-normal-l { white-space: normal; }\n  .nowrap-l { white-space: nowrap; }\n  .pre-l { white-space: pre; }\n}\n",
+      "readme": "\n\n# WHITE SPACE\n\n### Base\n\n- ws-normal = white-space normal\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n",
+      "src": "/*!!!\n\n# WHITE SPACE\n\n### Base\n\n- ws-normal = white-space normal\n\n### Media Query Extensions\n\n- `-s` = small\n- `-m` = medium\n- `-l` = large\n*/\n\n\n.ws-normal { white-space: normal; }\n.ws-nowrap { white-space: nowrap; }\n.ws-pre { white-space: pre; }\n\n@media (--breakpoint-small) {\n  .ws-normal-s { white-space: normal; }\n  .ws-nowrap-s { white-space: nowrap; }\n  .ws-pre-s { white-space: pre; }\n}\n\n@media (--breakpoint-medium) {\n  .ws-normal-m { white-space: normal; }\n  .ws-nowrap-m { white-space: nowrap; }\n  .ws-pre-m { white-space: pre; }\n}\n\n@media (--breakpoint-large) {\n  .ws-normal-l { white-space: normal; }\n  .ws-nowrap-l { white-space: nowrap; }\n  .ws-pre-l { white-space: pre; }\n}\n",
       "css": "/*\n\n   WHITE SPACE\n\n*/\n.ws-normal { white-space: normal; }\n.nowrap { white-space: nowrap; }\n.pre { white-space: pre; }\n@media screen and (min-width: 30em) {\n .ws-normal-ns { white-space: normal; }\n .nowrap-ns { white-space: nowrap; }\n .pre-ns { white-space: pre; }\n}\n@media screen and (min-width: 30em) and (max-width: 60em) {\n .ws-normal-m { white-space: normal; }\n .nowrap-m { white-space: nowrap; }\n .pre-m { white-space: pre; }\n}\n@media screen and (min-width: 60em) {\n .ws-normal-l { white-space: normal; }\n .nowrap-l { white-space: nowrap; }\n .pre-l { white-space: pre; }\n}\n\n"
     },
     "tachyons-widths": {

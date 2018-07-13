@@ -20,12 +20,16 @@ class Reference extends Component {
       <Layout skipFooter={true} skipHeader={true}>
         <Flex id="reference" className="min-vh-100">
           <div className="pt3 fixed bg-near-white w5 h-100 overflow-container br b--black-10 flex-shrink-0">
-            <Link href="/" className="pa3 black b link">Tachyons</Link>
+            <Link href="/" className="pa3 black b link">
+              Tachyons
+            </Link>
             <nav
               className="pv2"
               children={Object.keys(modules).map(k => {
                 const m = modules[k]
-                const shortName = m.name.replace(/^tachyons-/, '').replace('-', ' ')
+                const shortName = m.name
+                  .replace(/^tachyons-/, '')
+                  .replace('-', ' ')
 
                 return (
                   <Link

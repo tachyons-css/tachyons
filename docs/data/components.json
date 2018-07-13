@@ -1,4 +1,22 @@
 {
+  "article-lists": [
+    {
+      "name": "title-preview-author-media-flipped",
+      "title": "Title Preview Author Media Flipped",
+      "section": "article-lists",
+      "src": "article-lists/title-preview-author-media-flipped.html",
+      "slug": "/components/article-lists/title-preview-author-media-flipped",
+      "importPath": "../../../components/article-lists/title-preview-author-media-flipped.html"
+    },
+    {
+      "name": "title-preview-author-media",
+      "title": "Title Preview Author Media",
+      "section": "article-lists",
+      "src": "article-lists/title-preview-author-media.html",
+      "slug": "/components/article-lists/title-preview-author-media",
+      "importPath": "../../../components/article-lists/title-preview-author-media.html"
+    }
+  ],
   "articles": [
     {
       "name": "feature",
@@ -87,24 +105,6 @@
       "src": "articles/title-text.html",
       "slug": "/components/articles/title-text",
       "importPath": "../../../components/articles/title-text.html"
-    }
-  ],
-  "article-lists": [
-    {
-      "name": "title-preview-author-media-flipped",
-      "title": "Title Preview Author Media Flipped",
-      "section": "article-lists",
-      "src": "article-lists/title-preview-author-media-flipped.html",
-      "slug": "/components/article-lists/title-preview-author-media-flipped",
-      "importPath": "../../../components/article-lists/title-preview-author-media-flipped.html"
-    },
-    {
-      "name": "title-preview-author-media",
-      "title": "Title Preview Author Media",
-      "section": "article-lists",
-      "src": "article-lists/title-preview-author-media.html",
-      "slug": "/components/article-lists/title-preview-author-media",
-      "importPath": "../../../components/article-lists/title-preview-author-media.html"
     }
   ],
   "avatars": [
@@ -209,20 +209,20 @@
       "importPath": "../../../components/buttons/basic-rounded-extra-small.html"
     },
     {
-      "name": "basic-rounded",
-      "title": "Basic Rounded",
-      "section": "buttons",
-      "src": "buttons/basic-rounded.html",
-      "slug": "/components/buttons/basic-rounded",
-      "importPath": "../../../components/buttons/basic-rounded.html"
-    },
-    {
       "name": "basic-rounded-small",
       "title": "Basic Rounded Small",
       "section": "buttons",
       "src": "buttons/basic-rounded-small.html",
       "slug": "/components/buttons/basic-rounded-small",
       "importPath": "../../../components/buttons/basic-rounded-small.html"
+    },
+    {
+      "name": "basic-rounded",
+      "title": "Basic Rounded",
+      "section": "buttons",
+      "src": "buttons/basic-rounded.html",
+      "slug": "/components/buttons/basic-rounded",
+      "importPath": "../../../components/buttons/basic-rounded.html"
     },
     {
       "name": "basic",
@@ -241,31 +241,23 @@
       "importPath": "../../../components/buttons/centered-icons.html"
     },
     {
-      "name": "pill",
-      "title": "Pill",
-      "section": "buttons",
-      "src": "buttons/pill.html",
-      "slug": "/components/buttons/pill",
-      "importPath": "../../../components/buttons/pill.html"
-    },
-    {
       "name": "pill-grow",
       "title": "Pill Grow",
       "section": "buttons",
       "src": "buttons/pill-grow.html",
       "slug": "/components/buttons/pill-grow",
       "importPath": "../../../components/buttons/pill-grow.html"
+    },
+    {
+      "name": "pill",
+      "title": "Pill",
+      "section": "buttons",
+      "src": "buttons/pill.html",
+      "slug": "/components/buttons/pill",
+      "importPath": "../../../components/buttons/pill.html"
     }
   ],
   "cards": [
-    {
-      "name": "album-left",
-      "title": "Album Left",
-      "section": "cards",
-      "src": "cards/album-left.html",
-      "slug": "/components/cards/album-left",
-      "importPath": "../../../components/cards/album-left.html"
-    },
     {
       "name": "album-centered",
       "title": "Album Centered",
@@ -273,6 +265,14 @@
       "src": "cards/album-centered.html",
       "slug": "/components/cards/album-centered",
       "importPath": "../../../components/cards/album-centered.html"
+    },
+    {
+      "name": "album-left",
+      "title": "Album Left",
+      "section": "cards",
+      "src": "cards/album-left.html",
+      "slug": "/components/cards/album-left",
+      "importPath": "../../../components/cards/album-left.html"
     },
     {
       "name": "basic-text-card",
@@ -349,20 +349,20 @@
       "importPath": "../../../components/collections/movies.html"
     },
     {
-      "name": "posters-dim",
-      "title": "Posters Dim",
-      "section": "collections",
-      "src": "collections/posters-dim.html",
-      "slug": "/components/collections/posters-dim",
-      "importPath": "../../../components/collections/posters-dim.html"
-    },
-    {
       "name": "posters",
       "title": "Posters",
       "section": "collections",
       "src": "collections/posters.html",
       "slug": "/components/collections/posters",
       "importPath": "../../../components/collections/posters.html"
+    },
+    {
+      "name": "posters-dim",
+      "title": "Posters Dim",
+      "section": "collections",
+      "src": "collections/posters-dim.html",
+      "slug": "/components/collections/posters-dim",
+      "importPath": "../../../components/collections/posters-dim.html"
     },
     {
       "name": "square-title-subtitle",
@@ -459,20 +459,20 @@
       "importPath": "../../../components/footers/social-simple-text.html"
     },
     {
-      "name": "social-text",
-      "title": "Social Text",
-      "section": "footers",
-      "src": "footers/social-text.html",
-      "slug": "/components/footers/social-text",
-      "importPath": "../../../components/footers/social-text.html"
-    },
-    {
       "name": "social-simple",
       "title": "Social Simple",
       "section": "footers",
       "src": "footers/social-simple.html",
       "slug": "/components/footers/social-simple",
       "importPath": "../../../components/footers/social-simple.html"
+    },
+    {
+      "name": "social-text",
+      "title": "Social Text",
+      "section": "footers",
+      "src": "footers/social-text.html",
+      "slug": "/components/footers/social-text",
+      "importPath": "../../../components/footers/social-text.html"
     },
     {
       "name": "social",
@@ -575,6 +575,40 @@
       "importPath": "../../../components/headers/startup-hero.html"
     }
   ],
+  "links": [
+    {
+      "name": "animate-background-color",
+      "title": "Animate Background Color",
+      "section": "links",
+      "src": "links/animate-background-color.html",
+      "slug": "/components/links/animate-background-color",
+      "importPath": "../../../components/links/animate-background-color.html"
+    },
+    {
+      "name": "animate-color",
+      "title": "Animate Color",
+      "section": "links",
+      "src": "links/animate-color.html",
+      "slug": "/components/links/animate-color",
+      "importPath": "../../../components/links/animate-color.html"
+    },
+    {
+      "name": "dim-no-underline",
+      "title": "Dim No Underline",
+      "section": "links",
+      "src": "links/dim-no-underline.html",
+      "slug": "/components/links/dim-no-underline",
+      "importPath": "../../../components/links/dim-no-underline.html"
+    },
+    {
+      "name": "underline-on-hover",
+      "title": "Underline On Hover",
+      "section": "links",
+      "src": "links/underline-on-hover.html",
+      "slug": "/components/links/underline-on-hover",
+      "importPath": "../../../components/links/underline-on-hover.html"
+    }
+  ],
   "layout": [
     {
       "name": "aspect-ratio-16x9",
@@ -601,20 +635,20 @@
       "importPath": "../../../components/layout/aspect-ratio-3x4.html"
     },
     {
-      "name": "aspect-ratio-4x6",
-      "title": "Aspect Ratio 4x6",
-      "section": "layout",
-      "src": "layout/aspect-ratio-4x6.html",
-      "slug": "/components/layout/aspect-ratio-4x6",
-      "importPath": "../../../components/layout/aspect-ratio-4x6.html"
-    },
-    {
       "name": "aspect-ratio-4x3",
       "title": "Aspect Ratio 4x3",
       "section": "layout",
       "src": "layout/aspect-ratio-4x3.html",
       "slug": "/components/layout/aspect-ratio-4x3",
       "importPath": "../../../components/layout/aspect-ratio-4x3.html"
+    },
+    {
+      "name": "aspect-ratio-4x6",
+      "title": "Aspect Ratio 4x6",
+      "section": "layout",
+      "src": "layout/aspect-ratio-4x6.html",
+      "slug": "/components/layout/aspect-ratio-4x6",
+      "importPath": "../../../components/layout/aspect-ratio-4x6.html"
     },
     {
       "name": "aspect-ratio-5x7",
@@ -905,40 +939,6 @@
       "importPath": "../../../components/layout/two-column.html"
     }
   ],
-  "links": [
-    {
-      "name": "animate-background-color",
-      "title": "Animate Background Color",
-      "section": "links",
-      "src": "links/animate-background-color.html",
-      "slug": "/components/links/animate-background-color",
-      "importPath": "../../../components/links/animate-background-color.html"
-    },
-    {
-      "name": "animate-color",
-      "title": "Animate Color",
-      "section": "links",
-      "src": "links/animate-color.html",
-      "slug": "/components/links/animate-color",
-      "importPath": "../../../components/links/animate-color.html"
-    },
-    {
-      "name": "dim-no-underline",
-      "title": "Dim No Underline",
-      "section": "links",
-      "src": "links/dim-no-underline.html",
-      "slug": "/components/links/dim-no-underline",
-      "importPath": "../../../components/links/dim-no-underline.html"
-    },
-    {
-      "name": "underline-on-hover",
-      "title": "Underline On Hover",
-      "section": "links",
-      "src": "links/underline-on-hover.html",
-      "slug": "/components/links/underline-on-hover",
-      "importPath": "../../../components/links/underline-on-hover.html"
-    }
-  ],
   "marketing": [
     {
       "name": "iphone-app",
@@ -1179,24 +1179,6 @@
       "importPath": "../../../components/pages/swiss-cover-five-columns.html"
     }
   ],
-  "quotes": [
-    {
-      "name": "left-border",
-      "title": "Left Border",
-      "section": "quotes",
-      "src": "quotes/left-border.html",
-      "slug": "/components/quotes/left-border",
-      "importPath": "../../../components/quotes/left-border.html"
-    },
-    {
-      "name": "pull-quote",
-      "title": "Pull Quote",
-      "section": "quotes",
-      "src": "quotes/pull-quote.html",
-      "slug": "/components/quotes/pull-quote",
-      "importPath": "../../../components/quotes/pull-quote.html"
-    }
-  ],
   "tables": [
     {
       "name": "basic",
@@ -1213,6 +1195,24 @@
       "src": "tables/striped-dark.html",
       "slug": "/components/tables/striped-dark",
       "importPath": "../../../components/tables/striped-dark.html"
+    }
+  ],
+  "quotes": [
+    {
+      "name": "left-border",
+      "title": "Left Border",
+      "section": "quotes",
+      "src": "quotes/left-border.html",
+      "slug": "/components/quotes/left-border",
+      "importPath": "../../../components/quotes/left-border.html"
+    },
+    {
+      "name": "pull-quote",
+      "title": "Pull Quote",
+      "section": "quotes",
+      "src": "quotes/pull-quote.html",
+      "slug": "/components/quotes/pull-quote",
+      "importPath": "../../../components/quotes/pull-quote.html"
     }
   ],
   "text": [
