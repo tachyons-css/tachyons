@@ -1,6 +1,6 @@
 {
   "name": "tachyons-forms",
-  "version": "7.0.1-0",
+  "version": "7.0.1-1",
   "style": "src/tachyons-forms.css",
   "main": "src/tachyons-forms.css",
   "description": "Performance based css module.",
