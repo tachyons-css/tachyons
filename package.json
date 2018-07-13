@@ -1,7 +1,7 @@
 {
   "name": "tachyons",
   "version": "7.0.1-1",
-  "description": "Functional CSS for humans",
+  "description": "Functional css for humans",
   "author": "Adam Morse",
   "main": "src/tachyons.css",
   "files": [
@@ -30,8 +30,12 @@
   "license": "MIT",
   "contributors": [
     {
+      "name": "Adam Morse",
+      "url": "https://mrmrs.cc"
+    },
+    {
       "name": "John Otander",
-      "url": "https://twitter.com/4lpine"
+      "url": "https://johno.com"
     }
   ],
   "scripts": {
