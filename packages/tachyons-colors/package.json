@@ -1,6 +1,6 @@
 {
   "name": "tachyons-colors",
-  "version": "5.3.3",
+  "version": "7.0.1-0",
   "style": "src/tachyons-colors.css",
   "main": "src/tachyons-colors.css",
   "homepage": "http://github.com/tachyons-css/tachyons-colors",

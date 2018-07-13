@@ -1,6 +1,6 @@
 {
   "name": "tachyons-overflow",
-  "version": "4.0.5",
+  "version": "7.0.1-0",
   "style": "src/tachyons-overflow.css",
   "main": "src/tachyons-overflow.css",
   "description": "Performance based css module.",

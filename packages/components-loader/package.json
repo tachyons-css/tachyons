@@ -1,6 +1,6 @@
 {
   "name": "tachyons-component-loader",
-  "version": "0.0.2",
+  "version": "7.0.1-0",
   "description": "Webpack loader for components in Tachyons docs",
   "main": "index.js",
   "scripts": {

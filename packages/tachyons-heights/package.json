@@ -1,6 +1,6 @@
 {
   "name": "tachyons-heights",
-  "version": "6.1.3",
+  "version": "7.0.1-0",
   "style": "src/tachyons-heights.css",
   "main": "src/tachyons-heights.css",
   "description": "Performance based css module.",

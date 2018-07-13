@@ -1,6 +1,6 @@
 {
   "name": "tachyons-max-widths",
-  "version": "4.0.5",
+  "version": "7.0.1-0",
   "style": "src/tachyons-max-widths.css",
   "main": "src/tachyons-max-widths.css",
   "description": "Performance based css module.",

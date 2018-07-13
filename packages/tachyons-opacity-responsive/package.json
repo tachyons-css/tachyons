@@ -1,6 +1,6 @@
 {
   "name": "tachyons-opacity-responsive",
-  "version": "0.0.1",
+  "version": "7.0.1-0",
   "style": "src/opacity-responsive.css",
   "main": "src/opacity-responsive.css",
   "description": "Performance based css module.",
