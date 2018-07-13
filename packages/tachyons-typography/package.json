@@ -1,6 +1,6 @@
 {
   "name": "tachyons-typography",
-  "version": "7.0.1-0",
+  "version": "7.0.1-1",
   "style": "src/tachyons-typography.css",
   "main": "src/tachyons-typography.css",
   "description": "Performance based css module.",
