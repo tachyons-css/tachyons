@@ -1,6 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 import Highlight from 'react-highlight'
+import stripComments from 'strip-css-comments'
 
 import Link from './Link'
 import data from '../data/modules.json'
@@ -67,7 +68,7 @@ export default ({ src, view, name, tableOfStyles }) => {
         className="overflow-auto pt2 pt3-m pt3-l"
         children={
           view === 'css' ? (
-            <Css src={src} />
+            <Css src={stripComments(src, { preserve: false })} />
           ) : (
             <Table tableOfStyles={tableOfStyles} />
           )
