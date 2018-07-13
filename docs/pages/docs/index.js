@@ -5,7 +5,7 @@ import NavDocs from '../../ui/NavDocs'
 
 const DocsIndex = () => (
   <div className="pb4">
-    <h1 className="f4 mb4">Docs</h1>
+    <h1 className="f4 mb4 mt4">Docs</h1>
     <NavDocs />
   </div>
 )

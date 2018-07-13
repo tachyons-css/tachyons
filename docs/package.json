@@ -17,20 +17,21 @@
   "author": "mrmrs",
   "license": "MIT",
   "dependencies": {
-    "@mdx-js/mdx": "^0.7.1",
-    "@mdx-js/tag": "^0.7.0",
-    "classnames": "^2.2.5",
+    "@mdx-js/mdx": "^0.14.0",
+    "@mdx-js/tag": "^0.14.0",
+    "classnames": "^2.2.6",
     "cssstats": "^3.2.0",
     "gray-matter": "^4.0.1",
     "he": "^1.1.1",
     "htmltojsx": "^0.3.0",
     "is-present": "^1.0.0",
-    "next": "^5.1.0",
+    "next": "^6.1.1",
     "raw-loader": "^0.5.1",
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-highlight": "^0.12.0",
-    "tachyons": "^4.9.1",
+    "strip-css-comments": "^3.0.0",
+    "tachyons": "^4.10.0",
     "tachyons-aspect-ratios": "^1.0.1",
     "tachyons-background-position": "^1.0.3",
     "tachyons-background-size": "^5.0.5",
@@ -116,12 +117,13 @@
     }
   ],
   "devDependencies": {
-    "@mdx-js/loader": "^0.7.0",
+    "@mdx-js/loader": "^0.14.0",
+    "@mdx-js/runtime": "^0.14.0",
     "css-table": "^0.1.0",
     "globby": "^8.0.1",
     "mkdirp": "^0.5.1",
-    "prettier": "^1.11.1",
+    "prettier": "^1.13.7",
     "titleize": "^1.0.1",
-    "webpack": "^4.4.1"
+    "webpack": "^4.16.0"
   }
 }
