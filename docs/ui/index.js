@@ -97,7 +97,7 @@ export const TitleLink = ({ href = '#!', subtext, text, ...props }) => (
 
       {subtext && (
         <div className="dib pl1">
-          <small className="nowrap f6 mt2 mt3-ns pr2 black-70 fw2">
+          <small className="ws-nowrap f6 mt2 mt3-ns pr2 black-70 fw2">
             {subtext}
           </small>
         </div>
@@ -132,7 +132,7 @@ export const BigQuote = ({ quote, author, work }) => (
 )
 
 export const EditOnGitHub = ({ url }) => (
-  <div className="bg-green white pv3 pv5-m pv5-l mt4">
+  <div className="bg-green-3 white pv3 pv5-m pv5-l mt4">
     <Container padding={true}>
       <Flex wrap={true} alignItems="center">
         <div className="flex-grow-1">
@@ -179,7 +179,7 @@ export const md = {
   ),
   a: ({ href, ...props }) => (
     <Link href={href}>
-      <a className="dim link blue" {...props} />
+      <a className="dim link blue-5" {...props} />
     </Link>
   ),
   code: Editor,

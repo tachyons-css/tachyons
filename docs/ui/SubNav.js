@@ -11,9 +11,9 @@ export default ({ nav }) => {
   }
 
   return (
-    <header className="pv3 mb4 mb5-ns bb bt b--black-10 overflow-auto">
+    <header className="pv3 mb4 mb5-ns bb b--black-10 overflow-auto">
       <Container
-        className="nowrap"
+        className="ws-nowrap"
         padding={true}
         children={subNav.items.map(item => (
           <NavLink

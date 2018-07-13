@@ -4,7 +4,7 @@ import { Container, NavLink } from './'
 
 export default () => (
   <header className="pv3 mb4 mb5-ns bb bt b--black-10 overflow-auto">
-    <Container className="nowrap" padding={true}>
+    <Container className="ws-nowrap" padding={true}>
       <NavLink m="r" title="Getting Started" href="#getting-started">
         Getting Started
       </NavLink>

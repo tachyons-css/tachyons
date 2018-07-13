@@ -18,7 +18,7 @@ export default () => (
           {section.items.map(item => (
             <div key={item.title} className="pv1">
               <Link
-                className="f5 fw4 dim link blue pv1"
+                className="f5 fw4 dim link blue-5 pv1"
                 children={item.title}
                 {...item}
               />

@@ -4,7 +4,7 @@ import Link from './Link'
 import Container from './Container'
 
 export default () => (
-  <footer className="bg-white black-70 ph3 ph5-ns pv5 pv6-ns bt b--black-10">
+  <footer className="black-70 ph3 ph5-ns pv5 pv6-ns bt b--black-10">
     <Container>
       <div className="mb5 lh-copy">
         <Link
