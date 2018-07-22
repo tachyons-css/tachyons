@@ -42,7 +42,7 @@ The quickest and easiest way to start using tachyons is to include a reference
 to the minified file in the head of your html file.
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4.11.0/css/tachyons.min.css">
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
 ```
 
 ### Local Setup
