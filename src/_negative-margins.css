@@ -68,7 +68,7 @@
 .nt6 { margin-top: calc(-1 * var(--spacing-extra-extra-large)); }
 .nt7 { margin-top: calc(-1 * var(--spacing-extra-extra-extra-large)); }
 
-@media (--breakpoint-not-small)) {
+@media (--breakpoint-not-small) {
 
   .na1-ns { margin: calc(-1 * var(--spacing-extra-small)); }
   .na2-ns { margin: calc(-1 * var(--spacing-small)); }
@@ -112,7 +112,7 @@
 
 }
 
-@media (--breakpoint-medium)) {
+@media (--breakpoint-medium) {
   .na1-m { margin: calc(-1 * var(--spacing-extra-small)); }
   .na2-m { margin: calc(-1 * var(--spacing-small)); }
   .na3-m { margin: calc(-1 * var(--spacing-medium)); }
@@ -155,7 +155,7 @@
 
 }
 
-@media (--breakpoint-large)) {
+@media (--breakpoint-large) {
   .na1-l { margin: calc(-1 * var(--spacing-extra-small)); }
   .na2-l { margin: calc(-1 * var(--spacing-small)); }
   .na3-l { margin: calc(-1 * var(--spacing-medium)); }
