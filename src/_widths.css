@@ -30,6 +30,10 @@
 
      -third      = 100% / 3 (Not supported in opera mini or IE8)
      -two-thirds = 100% / 1.5 (Not supported in opera mini or IE8)
+
+     -sixth       = 100% / 6 (Not supported in opera mini or IE8)
+     -five-sixths = 100% / 1.2 (Not supported in opera mini or IE8)
+
      -auto       = string value auto
 
 
@@ -65,6 +69,10 @@
 
 .w-third { width: calc(100% / 3); }
 .w-two-thirds { width: calc(100% / 1.5); }
+
+.w-sixth { width: calc(100% / 6); }
+.w-five-sixths { width: calc(100% / 1.2); }
+
 .w-auto { width: auto; }
 
 @media (--breakpoint-not-small) {
@@ -89,6 +97,8 @@
   .w-100-ns { width: 100%; }
   .w-third-ns { width: calc(100% / 3); }
   .w-two-thirds-ns { width: calc(100% / 1.5); }
+  .w-sixth-ns { width: calc(100% / 6); }
+  .w-five-sixths-ns { width: calc(100% / 1.2); }
   .w-auto-ns { width: auto; }
 }
 
@@ -114,6 +124,8 @@
   .w-100-m { width: 100%; }
   .w-third-m { width: calc(100% / 3); }
   .w-two-thirds-m { width: calc(100% / 1.5); }
+  .w-sixth-m { width: calc(100% / 6); }
+  .w-five-sixths-m { width: calc(100% / 1.2); }
   .w-auto-m {    width: auto; }
 }
 
@@ -139,5 +151,7 @@
   .w-100-l {   width: 100%; }
   .w-third-l { width: calc(100% / 3); }
   .w-two-thirds-l { width: calc(100% / 1.5); }
+  .w-sixth-l { width: calc(100% / 6); }
+  .w-five-sixths-l { width: calc(100% / 1.2); }
   .w-auto-l {    width: auto; }
 }
