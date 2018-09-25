@@ -8,14 +8,35 @@
 
     Modifiers:
     -center = center center
+
     -top = top center
     -right = center right
     -bottom = bottom center
     -left = center left
+
     -top-left = top left
     -top-right = top right
     -bottom-left = bottom left
     -bottom-right = bottom right
+
+    -goldentop = horizontal center, vertical golden ratio top
+    -goldenright = horizontal golden ratio right, vertical center
+    -goldenbottom = horizontal center, vertical golden ratio bottom
+    -goldenleft = horizontal golden ratio left, vertical center
+
+    -goldentop-goldenleft = top left golden corner
+    -gottop-goldenright = top right golden corner
+    -goldenbottom-goldenleft = bottom left golden corner
+    -goldenbottom-goldenright = bottom right golden corner
+
+    -top-goldenleft = top aligned golden ratio left
+    -top-goldenright = top aligned golden ratio right
+    -right-goldentop = right aligned golden ratio top
+    -right-goldenbottom = right aligned golden ratio bottom
+    -bottom-goldenleft = bottom aligned golden ratio left
+    -bottom-goldenright = bottom aligned golden ratio right
+    -left-goldentop = left aligned golden ratio top
+    -left-goldenbottom = left aligned golden ratio bottom
 
     Media Query Extensions:
       -ns = not-small
@@ -60,6 +81,71 @@
   object-position: bottom right;
 }
 
+.ob-goldentop {
+  object-position: center 38.2%;
+}
+
+.ob-goldenright {
+  object-position: 61.8% center;
+}
+
+.ob-goldenbottom {
+  object-position: center 61.8%;
+}
+
+.ob-goldenleft {
+  object-position: 38.2% center;
+}
+
+.ob-goldentop-goldenleft {
+  object-position: 38.2% 38.2%;
+}
+
+.ob-gottop-goldenright {
+  object-position: 61.8% 38.2%;
+}
+
+.ob-goldenbottom-goldenleft {
+  object-position: 38.2% 61.8%;
+}
+
+.ob-goldenbottom-goldenright {
+  object-position: 61.8% 61.8%;
+}
+
+.ob-top-goldenleft {
+  object-position: 38.2% top;
+}
+
+.ob-top-goldenright {
+  object-position: 61.8% top;
+}
+
+.ob-right-goldentop {
+  object-position: right 38.2%;
+}
+
+.ob-right-goldenbottom {
+  object-position: right 61.8%;
+}
+
+.ob-bottom-goldenleft {
+  object-position: 38.2% bottom;
+}
+
+.ob-bottom-goldenright {
+  object-position: 61.8% bottom;
+}
+
+.ob-left-goldentop {
+  object-position: left 38.2%;
+}
+
+.ob-left-goldenbottom {
+  object-position: left 61.8%;
+}
+
+
 @media (--breakpoint-not-small) {
   .ob-center-ns {
     object-position: center center;
@@ -95,6 +181,70 @@
 
   .ob-bottom-right-ns {
     object-position: bottom right;
+  }
+
+  .ob-goldentop-ns {
+  object-position: center 38.2%;
+  }
+
+  .ob-goldenright-ns {
+    object-position: 61.8% center;
+  }
+
+  .ob-goldenbottom-ns {
+    object-position: center 61.8%;
+  }
+
+  .ob-goldenleft-ns {
+    object-position: 38.2% center;
+  }
+
+  .ob-goldentop-goldenleft-ns {
+    object-position: 38.2% 38.2%;
+  }
+
+  .ob-gottop-goldenright-ns {
+    object-position: 61.8% 38.2%;
+  }
+
+  .ob-goldenbottom-goldenleft-ns {
+    object-position: 38.2% 61.8%;
+  }
+
+  .ob-goldenbottom-goldenright-ns {
+    object-position: 61.8% 61.8%;
+  }
+
+  .ob-top-goldenleft-ns {
+    object-position: 38.2% top;
+  }
+
+  .ob-top-goldenright-ns {
+    object-position: 61.8% top;
+  }
+
+  .ob-right-goldentop-ns {
+    object-position: right 38.2%;
+  }
+
+  .ob-right-goldenbottom-ns {
+    object-position: right 61.8%;
+  }
+
+  .ob-bottom-goldenleft-ns {
+    object-position: 38.2% bottom;
+  }
+
+  .ob-bottom-goldenright-ns {
+    object-position: 61.8% bottom;
+  }
+
+  .ob-left-goldentop-ns {
+    object-position: left 38.2%;
+  }
+
+  .ob-left-goldenbottom-ns {
+    object-position: left 61.8%;
   }
 }
 
@@ -134,6 +284,70 @@
   .ob-bottom-right-m {
     object-position: bottom right;
   }
+
+  .ob-goldentop-m {
+  object-position: center 38.2%;
+  }
+
+  .ob-goldenright-m {
+    object-position: 61.8% center;
+  }
+
+  .ob-goldenbottom-m {
+    object-position: center 61.8%;
+  }
+
+  .ob-goldenleft-m {
+    object-position: 38.2% center;
+  }
+
+  .ob-goldentop-goldenleft-m {
+    object-position: 38.2% 38.2%;
+  }
+
+  .ob-gottop-goldenright-m {
+    object-position: 61.8% 38.2%;
+  }
+
+  .ob-goldenbottom-goldenleft-m {
+    object-position: 38.2% 61.8%;
+  }
+
+  .ob-goldenbottom-goldenright-m {
+    object-position: 61.8% 61.8%;
+  }
+
+  .ob-top-goldenleft-m {
+    object-position: 38.2% top;
+  }
+
+  .ob-top-goldenright-m {
+    object-position: 61.8% top;
+  }
+
+  .ob-right-goldentop-m {
+    object-position: right 38.2%;
+  }
+
+  .ob-right-goldenbottom-m {
+    object-position: right 61.8%;
+  }
+
+  .ob-bottom-goldenleft-m {
+    object-position: 38.2% bottom;
+  }
+
+  .ob-bottom-goldenright-m {
+    object-position: 61.8% bottom;
+  }
+
+  .ob-left-goldentop-m {
+    object-position: left 38.2%;
+  }
+
+  .ob-left-goldenbottom-m {
+    object-position: left 61.8%;
+  }
 }
 
 @media (--breakpoint-large) {
@@ -171,5 +385,69 @@
 
   .ob-bottom-right-l {
     object-position: bottom right;
+  }
+
+  .ob-goldentop-l {
+  object-position: center 38.2%;
+  }
+
+  .ob-goldenright-l {
+    object-position: 61.8% center;
+  }
+
+  .ob-goldenbottom-l {
+    object-position: center 61.8%;
+  }
+
+  .ob-goldenleft-l {
+    object-position: 38.2% center;
+  }
+
+  .ob-goldentop-goldenleft-l {
+    object-position: 38.2% 38.2%;
+  }
+
+  .ob-gottop-goldenright-l {
+    object-position: 61.8% 38.2%;
+  }
+
+  .ob-goldenbottom-goldenleft-l {
+    object-position: 38.2% 61.8%;
+  }
+
+  .ob-goldenbottom-goldenright-l {
+    object-position: 61.8% 61.8%;
+  }
+
+  .ob-top-goldenleft-l {
+    object-position: 38.2% top;
+  }
+
+  .ob-top-goldenright-l {
+    object-position: 61.8% top;
+  }
+
+  .ob-right-goldentop-l {
+    object-position: right 38.2%;
+  }
+
+  .ob-right-goldenbottom-l {
+    object-position: right 61.8%;
+  }
+
+  .ob-bottom-goldenleft-l {
+    object-position: 38.2% bottom;
+  }
+
+  .ob-bottom-goldenright-l {
+    object-position: 61.8% bottom;
+  }
+
+  .ob-left-goldentop-l {
+    object-position: left 38.2%;
+  }
+
+  .ob-left-goldenbottom-l {
+    object-position: left 61.8%;
   }
 }
