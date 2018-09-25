@@ -1003,16 +1003,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
  */
 .overflow-visible { overflow: visible; }
 .overflow-hidden { overflow: hidden; }
-.overflow-scroll { overflow: scroll; }
-.overflow-auto { overflow: auto; }
+.overflow-scroll { overflow: scroll; -webkit-overflow-scrolling: touch; }
+.overflow-auto { overflow: auto; -webkit-overflow-scrolling: touch; }
 .overflow-x-visible { overflow-x: visible; }
 .overflow-x-hidden { overflow-x: hidden; }
-.overflow-x-scroll { overflow-x: scroll; }
-.overflow-x-auto { overflow-x: auto; }
+.overflow-x-scroll { overflow-x: scroll; -webkit-overflow-scrolling: touch; }
+.overflow-x-auto { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .overflow-y-visible { overflow-y: visible; }
 .overflow-y-hidden { overflow-y: hidden; }
-.overflow-y-scroll { overflow-y: scroll; }
-.overflow-y-auto { overflow-y: auto; }
+.overflow-y-scroll { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+.overflow-y-auto { overflow-y: auto; -webkit-overflow-scrolling: touch; }
 /*
 
    POSITIONING
@@ -2246,16 +2246,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-auto-ns { width: auto; }
  .overflow-visible-ns { overflow: visible; }
  .overflow-hidden-ns { overflow: hidden; }
- .overflow-scroll-ns { overflow: scroll; }
- .overflow-auto-ns { overflow: auto; }
+ .overflow-scroll-ns { overflow: scroll; -webkit-overflow-scrolling: touch; }
+ .overflow-auto-ns { overflow: auto; -webkit-overflow-scrolling: touch; }
  .overflow-x-visible-ns { overflow-x: visible; }
  .overflow-x-hidden-ns { overflow-x: hidden; }
- .overflow-x-scroll-ns { overflow-x: scroll; }
- .overflow-x-auto-ns { overflow-x: auto; }
+ .overflow-x-scroll-ns { overflow-x: scroll; -webkit-overflow-scrolling: touch; }
+ .overflow-x-auto-ns { overflow-x: auto; -webkit-overflow-scrolling: touch; }
  .overflow-y-visible-ns { overflow-y: visible; }
  .overflow-y-hidden-ns { overflow-y: hidden; }
- .overflow-y-scroll-ns { overflow-y: scroll; }
- .overflow-y-auto-ns { overflow-y: auto; }
+ .overflow-y-scroll-ns { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+ .overflow-y-auto-ns { overflow-y: auto; -webkit-overflow-scrolling: touch; }
  .static-ns { position: static; }
  .relative-ns { position: relative; }
  .absolute-ns { position: absolute; }
@@ -2669,16 +2669,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-auto-m { width: auto; }
  .overflow-visible-m { overflow: visible; }
  .overflow-hidden-m { overflow: hidden; }
- .overflow-scroll-m { overflow: scroll; }
- .overflow-auto-m { overflow: auto; }
+ .overflow-scroll-m { overflow: scroll; -webkit-overflow-scrolling: touch; }
+ .overflow-auto-m { overflow: auto; -webkit-overflow-scrolling: touch; }
  .overflow-x-visible-m { overflow-x: visible; }
  .overflow-x-hidden-m { overflow-x: hidden; }
- .overflow-x-scroll-m { overflow-x: scroll; }
- .overflow-x-auto-m { overflow-x: auto; }
+ .overflow-x-scroll-m { overflow-x: scroll; -webkit-overflow-scrolling: touch; }
+ .overflow-x-auto-m { overflow-x: auto; -webkit-overflow-scrolling: touch; }
  .overflow-y-visible-m { overflow-y: visible; }
  .overflow-y-hidden-m { overflow-y: hidden; }
- .overflow-y-scroll-m { overflow-y: scroll; }
- .overflow-y-auto-m { overflow-y: auto; }
+ .overflow-y-scroll-m { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+ .overflow-y-auto-m { overflow-y: auto; -webkit-overflow-scrolling: touch; }
  .static-m { position: static; }
  .relative-m { position: relative; }
  .absolute-m { position: absolute; }
@@ -3092,16 +3092,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-auto-l { width: auto; }
  .overflow-visible-l { overflow: visible; }
  .overflow-hidden-l { overflow: hidden; }
- .overflow-scroll-l { overflow: scroll; }
- .overflow-auto-l { overflow: auto; }
+ .overflow-scroll-l { overflow: scroll; -webkit-overflow-scrolling: touch; }
+ .overflow-auto-l { overflow: auto; -webkit-overflow-scrolling: touch; }
  .overflow-x-visible-l { overflow-x: visible; }
  .overflow-x-hidden-l { overflow-x: hidden; }
- .overflow-x-scroll-l { overflow-x: scroll; }
- .overflow-x-auto-l { overflow-x: auto; }
+ .overflow-x-scroll-l { overflow-x: scroll; -webkit-overflow-scrolling: touch; }
+ .overflow-x-auto-l { overflow-x: auto; -webkit-overflow-scrolling: touch; }
  .overflow-y-visible-l { overflow-y: visible; }
  .overflow-y-hidden-l { overflow-y: hidden; }
- .overflow-y-scroll-l { overflow-y: scroll; }
- .overflow-y-auto-l { overflow-y: auto; }
+ .overflow-y-scroll-l { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+ .overflow-y-auto-l { overflow-y: auto; -webkit-overflow-scrolling: touch; }
  .static-l { position: static; }
  .relative-l { position: relative; }
  .absolute-l { position: absolute; }
