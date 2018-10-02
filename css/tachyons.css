@@ -398,7 +398,7 @@ http://tachyons.io/docs/themes/borders/
 - `--color-name` = black, white and their alpha colors are available
 */
 .b--black { border-color: #000; }
-.b--white { border-color: #f7f7f7; }
+.b--white { border-color: #fff; }
 .b--white-90 { border-color: rgba( 255, 255, 255, .9 ); }
 .b--white-80 { border-color: undefined; }
 .b--white-70 { border-color: rgba( 255, 255, 255, .7 ); }
@@ -1179,8 +1179,8 @@ http://tachyons.io/docs/layout/widths/
 .w-80 { width: 80%; }
 .w-90 { width: 90%; }
 .w-100 { width: 100%; }
-.w-third { width: calc( 100% / 3 ); }
-.w-two-thirds { width: calc( 100% / 1.5 ); }
+.w-third { width: 33.33333%; }
+.w-two-thirds { width: 66.66667%; }
 .w-auto { width: auto; }
 /*!!!
 
@@ -1361,7 +1361,9 @@ be set to the current text color.
 .gray-6 { color: #91969b; }
 .gray-7 { color: #a9aeb1; }
 .gray-8 { color: #c3c5c8; }
-.white { color: #f7f7f7; }
+.gray-9 { color: #dddedf; }
+.gray-10 { color: #f7f7f7; }
+.white { color: #fff; }
 .green-0 { color: #044324; }
 .green-1 { color: #05532d; }
 .green-2 { color: #087640; }
@@ -1503,7 +1505,9 @@ be set to the current text color.
 .bg-gray-6 { background-color: #91969b; }
 .bg-gray-7 { background-color: #a9aeb1; }
 .bg-gray-8 { background-color: #c3c5c8; }
-.bg-white { background-color: #f7f7f7; }
+.bg-gray-9 { background-color: #dddedf; }
+.bg-gray-10 { background-color: #f7f7f7; }
+.bg-white { background-color: #fff; }
 .bg-green-0 { background-color: #044324; }
 .bg-green-1 { background-color: #05532d; }
 .bg-green-2 { background-color: #087640; }
@@ -1685,8 +1689,12 @@ http://tachyons.io/docs/themes/skins-pseudo/
 .hover-gray-7:focus { color: #a9aeb1; }
 .hover-gray-8:hover { color: #c3c5c8; }
 .hover-gray-8:focus { color: #c3c5c8; }
-.hover-white:hover { color: #f7f7f7; }
-.hover-white:focus { color: #f7f7f7; }
+.hover-gray-9:hover { color: #dddedf; }
+.hover-gray-9:focus { color: #dddedf; }
+.hover-gray-10:hover { color: #f7f7f7; }
+.hover-gray-10:focus { color: #f7f7f7; }
+.hover-white:hover { color: #fff; }
+.hover-white:focus { color: #fff; }
 .hover-green-0:hover { color: #044324; }
 .hover-green-0:focus { color: #044324; }
 .hover-green-1:hover { color: #05532d; }
@@ -1968,8 +1976,12 @@ http://tachyons.io/docs/themes/skins-pseudo/
 .hover-bg-gray-7:focus { background-color: #a9aeb1; }
 .hover-bg-gray-8:hover { background-color: #c3c5c8; }
 .hover-bg-gray-8:focus { background-color: #c3c5c8; }
-.hover-bg-white:hover { background-color: #f7f7f7; }
-.hover-bg-white:focus { background-color: #f7f7f7; }
+.hover-bg-gray-9:hover { background-color: #dddedf; }
+.hover-bg-gray-9:focus { background-color: #dddedf; }
+.hover-bg-gray-10:hover { background-color: #f7f7f7; }
+.hover-bg-gray-10:focus { background-color: #f7f7f7; }
+.hover-bg-white:hover { background-color: #fff; }
+.hover-bg-white:focus { background-color: #fff; }
 .hover-bg-green-0:hover { background-color: #044324; }
 .hover-bg-green-0:focus { background-color: #044324; }
 .hover-bg-green-1:hover { background-color: #05532d; }
@@ -3158,8 +3170,8 @@ http://tachyons.io/docs/debug-grid/
  .w-80-s { width: 80%; }
  .w-90-s { width: 90%; }
  .w-100-s { width: 100%; }
- .w-third-s { width: calc( 100% / 3 ); }
- .w-two-thirds-s { width: calc( 100% / 1.5 ); }
+ .w-third-s { width: 33.33333%; }
+ .w-two-thirds-s { width: 66.66667%; }
  .w-auto-s { width: auto; }
  .overflow-visible-s { overflow: visible; }
  .overflow-hidden-s { overflow: hidden; }
@@ -3584,8 +3596,8 @@ http://tachyons.io/docs/debug-grid/
  .w-80-m { width: 80%; }
  .w-90-m { width: 90%; }
  .w-100-m { width: 100%; }
- .w-third-m { width: calc( 100% / 3 ); }
- .w-two-thirds-m { width: calc( 100% / 1.5 ); }
+ .w-third-m { width: 33.33333%; }
+ .w-two-thirds-m { width: 66.66667%; }
  .w-auto-m { width: auto; }
  .overflow-visible-m { overflow: visible; }
  .overflow-hidden-m { overflow: hidden; }
@@ -4007,8 +4019,8 @@ http://tachyons.io/docs/debug-grid/
  .w-80-l { width: 80%; }
  .w-90-l { width: 90%; }
  .w-100-l { width: 100%; }
- .w-third-l { width: calc( 100% / 3 ); }
- .w-two-thirds-l { width: calc( 100% / 1.5 ); }
+ .w-third-l { width: 33.33333%; }
+ .w-two-thirds-l { width: 66.66667%; }
  .w-auto-l { width: auto; }
  .overflow-visible-l { overflow: visible; }
  .overflow-hidden-l { overflow: hidden; }
