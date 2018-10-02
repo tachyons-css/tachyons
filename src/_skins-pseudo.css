@@ -78,7 +78,7 @@ http://tachyons.io/docs/themes/skins-pseudo/
 .hover-gray-9:hover,
 .hover-gray-9:focus {           color: var(--gray-9); }
 .hover-gray-10:hover,
-.hover-gray-10:focus {           color: var(--gray-10); }
+.hover-gray-10:focus {          color: var(--gray-10); }
 .hover-white:hover,
 .hover-white:focus {            color: var(--white); }
 
@@ -382,7 +382,7 @@ http://tachyons.io/docs/themes/skins-pseudo/
 .hover-bg-gray-9:hover,
 .hover-bg-gray-9:focus {        background-color: var(--gray-9); }
 .hover-bg-gray-10:hover,
-.hover-bg-gray-10:focus {        background-color: var(--gray-10); }
+.hover-bg-gray-10:focus {       background-color: var(--gray-10); }
 .hover-bg-white:hover,
 .hover-bg-white:focus {         background-color: var(--white); }
 
