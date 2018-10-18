@@ -1,0 +1,72 @@
+/*
+
+    BACKGROUND ATTACHMENT
+
+    Base:
+    bg = background
+
+    Modifiers:
+    -scroll = scroll
+    -fixed = fixed
+    -local = local
+
+    Media Query Extensions:
+      -ns = not-small
+      -m  = medium
+      -l  = large
+
+ */
+
+.bg-scroll {
+  background-attachment: scroll;
+}
+
+.bg-fixed {    
+  background-attachment: fixed;    
+}
+
+.bg-local {  
+  background-attachment: local;  
+}
+
+@media (--breakpoint-not-small) {
+  .bg-scroll-ns { 
+    background-attachment: scroll;
+  }
+
+  .bg-fixed-ns {     
+    background-attachment: fixed;    
+  }
+
+  .bg-local-ns {   
+    background-attachment: local;  
+  }
+}
+
+@media (--breakpoint-medium) {
+  .bg-scroll-m { 
+    background-attachment: scroll;
+  }
+
+  .bg-fixed-m {     
+    background-attachment: fixed;    
+  }
+
+  .bg-local-m {   
+    background-attachment: local;  
+  }
+}
+
+@media (--breakpoint-large) {
+  .bg-scroll-l { 
+    background-attachment: scroll;
+  }
+
+  .bg-fixed-l {     
+    background-attachment: fixed;    
+  }
+
+  .bg-local-l {   
+    background-attachment: local;  
+  }
+}
