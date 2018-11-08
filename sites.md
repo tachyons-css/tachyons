@@ -102,3 +102,5 @@
 * https://jjude.com
 * https://beta.observablehq.com/
 * https://www.medienblau.de
+* https://c.atet.in
+* https://tools.kaklabs.com
