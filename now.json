@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "site/package.json", "use": "@now/static-build" }
+  ]
+}
