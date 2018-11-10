@@ -27,6 +27,7 @@
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:packages": "node build && lerna run build",
     "build:watch": "watch \"npm run build\" ./src/",
+    "publish:beta": "lerna publish --canary --preid beta",
     "test": "immutable-css src/tachyons.css"
   },
   "devDependencies": {
