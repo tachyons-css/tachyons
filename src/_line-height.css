@@ -5,8 +5,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -20,6 +22,12 @@
   .lh-copy-ns  { line-height: 1.5; }
 }
 
+@media (--breakpoint-small) {
+  .lh-solid-s { line-height: 1; }
+  .lh-title-s { line-height: 1.25; }
+  .lh-copy-s  { line-height: 1.5; }
+}
+
 @media (--breakpoint-medium) {
   .lh-solid-m { line-height: 1; }
   .lh-title-m { line-height: 1.25; }
@@ -30,5 +38,11 @@
   .lh-solid-l { line-height: 1; }
   .lh-title-l { line-height: 1.25; }
   .lh-copy-l  { line-height: 1.5; }
+}
+
+@media (--breakpoint-not-large) {
+  .lh-solid-nl { line-height: 1; }
+  .lh-title-nl { line-height: 1.25; }
+  .lh-copy-nl  { line-height: 1.5; }
 }
 

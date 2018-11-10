@@ -5,8 +5,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -20,6 +22,12 @@
   .tracked-mega-ns  { letter-spacing:  .25em; }
 }
 
+@media (--breakpoint-small) {
+  .tracked-s       { letter-spacing:  .1em; }
+  .tracked-tight-s { letter-spacing: -.05em; }
+  .tracked-mega-s  { letter-spacing:  .25em; }
+}
+
 @media (--breakpoint-medium) {
   .tracked-m       { letter-spacing:  .1em; }
   .tracked-tight-m { letter-spacing: -.05em; }
@@ -30,4 +38,10 @@
   .tracked-l       { letter-spacing:  .1em; }
   .tracked-tight-l { letter-spacing: -.05em; }
   .tracked-mega-l  { letter-spacing:  .25em; }
+}
+
+@media (--breakpoint-not-large) {
+  .tracked-nl       { letter-spacing:  .1em; }
+  .tracked-tight-nl { letter-spacing: -.05em; }
+  .tracked-mega-nl  { letter-spacing:  .25em; }
 }

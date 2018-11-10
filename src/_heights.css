@@ -25,9 +25,11 @@
      -inherit = string value of inherit
 
    Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+    -ns = not-small
+    -s  = small
+    -m  = medium
+    -l  = large
+    -nl = not-large
 
 */
 
@@ -83,6 +85,26 @@
   .h-inherit-ns { height: inherit; }
 }
 
+@media (--breakpoint-small) {
+  .h1-s {  height: 1rem; }
+  .h2-s {  height: 2rem; }
+  .h3-s {  height: 4rem; }
+  .h4-s {  height: 8rem; }
+  .h5-s {  height: 16rem; }
+  .h-25-s { height: 25%; }
+  .h-50-s { height: 50%; }
+  .h-75-s { height: 75%; }
+  .h-100-s { height: 100%; }
+  .min-h-100-s { min-height: 100%; }
+  .vh-25-s {  height:  25vh; }
+  .vh-50-s {  height:  50vh; }
+  .vh-75-s {  height:  75vh; }
+  .vh-100-s { height: 100vh; }
+  .min-vh-100-s { min-height: 100vh; }
+  .h-auto-s { height: auto; }
+  .h-inherit-s { height: inherit; }
+}
+
 @media (--breakpoint-medium) {
   .h1-m { height: 1rem; }
   .h2-m { height: 2rem; }
@@ -121,4 +143,24 @@
   .min-vh-100-l { min-height: 100vh; }
   .h-auto-l { height: auto; }
   .h-inherit-l { height: inherit; }
+}
+
+@media (--breakpoint-not-large) {
+  .h1-nl { height: 1rem; }
+  .h2-nl { height: 2rem; }
+  .h3-nl { height: 4rem; }
+  .h4-nl { height: 8rem; }
+  .h5-nl { height: 16rem; }
+  .h-25-nl { height: 25%; }
+  .h-50-nl { height: 50%; }
+  .h-75-nl { height: 75%; }
+  .h-100-nl { height: 100%; }
+  .min-h-100-nl { min-height: 100%; }
+  .vh-25-nl {  height:  25vh; }
+  .vh-50-nl {  height:  50vh; }
+  .vh-75-nl {  height:  75vh; }
+  .vh-100-nl { height: 100vh; }
+  .min-vh-100-nl { min-height: 100vh; }
+  .h-auto-nl { height: auto; }
+  .h-inherit-nl { height: inherit; }
 }

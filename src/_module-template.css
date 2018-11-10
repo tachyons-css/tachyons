@@ -12,11 +12,19 @@
 
 }
 
+@media (--breakpoint-small) {
+
+}
+
 @media (--breakpoint-medium) {
 
 }
 
 @media (--breakpoint-large) {
+
+}
+
+@media (--breakpoint-not-large) {
 
 }
 

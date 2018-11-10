@@ -24,8 +24,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -65,6 +67,22 @@
   .mw-none-ns { max-width: none; }
 }
 
+@media (--breakpoint-small) {
+  .mw-100-s  { max-width: 100%; }
+
+  .mw1-s  {  max-width: 1rem; }
+  .mw2-s  {  max-width: 2rem; }
+  .mw3-s  {  max-width: 4rem; }
+  .mw4-s  {  max-width: 8rem; }
+  .mw5-s  {  max-width: 16rem; }
+  .mw6-s  {  max-width: 32rem; }
+  .mw7-s  {  max-width: 48rem; }
+  .mw8-s  {  max-width: 64rem; }
+  .mw9-s  {  max-width: 96rem; }
+
+  .mw-none-s { max-width: none; }
+}
+
 @media (--breakpoint-medium) {
   .mw-100-m  { max-width: 100%; }
 
@@ -95,4 +113,20 @@
   .mw9-l  {  max-width: 96rem; }
 
   .mw-none-l { max-width: none; }
+}
+
+@media (--breakpoint-not-large) {
+  .mw-100-nl  { max-width: 100%; }
+
+  .mw1-nl  {  max-width: 1rem; }
+  .mw2-nl  {  max-width: 2rem; }
+  .mw3-nl  {  max-width: 4rem; }
+  .mw4-nl  {  max-width: 8rem; }
+  .mw5-nl  {  max-width: 16rem; }
+  .mw6-nl  {  max-width: 32rem; }
+  .mw7-nl  {  max-width: 48rem; }
+  .mw8-nl  {  max-width: 64rem; }
+  .mw9-nl  {  max-width: 96rem; }
+
+  .mw-none-nl { max-width: none; }
 }
