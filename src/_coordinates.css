@@ -19,9 +19,11 @@
      --2 = literal value -2
 
    Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+    -ns = not-small
+    -s  = small
+    -m  = medium
+    -l  = large
+    -nl = not-large
 
 */
 
@@ -87,6 +89,35 @@
   }
 }
 
+@media (--breakpoint-small) {
+  .top-0-s     { top:   0; }
+  .left-0-s    { left:  0; }
+  .right-0-s   { right: 0; }
+  .bottom-0-s  { bottom: 0; }
+  .top-1-s     { top:   1rem; }
+  .left-1-s    { left:  1rem; }
+  .right-1-s   { right: 1rem; }
+  .bottom-1-s  { bottom: 1rem; }
+  .top-2-s     { top:   2rem; }
+  .left-2-s    { left:  2rem; }
+  .right-2-s   { right: 2rem; }
+  .bottom-2-s  { bottom: 2rem; }
+  .top--1-s    { top:    -1rem; }
+  .right--1-s  { right:  -1rem; }
+  .bottom--1-s { bottom: -1rem; }
+  .left--1-s   { left:   -1rem; }
+  .top--2-s    { top:    -2rem; }
+  .right--2-s  { right:  -2rem; }
+  .bottom--2-s { bottom: -2rem; }
+  .left--2-s   { left:   -2rem; }
+  .absolute--fill-s {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 @media (--breakpoint-medium) {
   .top-0-m     { top:   0; }
   .left-0-m    { left:  0; }
@@ -138,6 +169,35 @@
   .bottom--2-l { bottom: -2rem; }
   .left--2-l   { left:   -2rem; }
   .absolute--fill-l {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (--breakpoint-not-large) {
+  .top-0-nl     { top:   0; }
+  .left-0-nl    { left:  0; }
+  .right-0-nl   { right: 0; }
+  .bottom-0-nl  { bottom: 0; }
+  .top-1-nl     { top:   1rem; }
+  .left-1-nl    { left:  1rem; }
+  .right-1-nl   { right: 1rem; }
+  .bottom-1-nl  { bottom: 1rem; }
+  .top-2-nl     { top:   2rem; }
+  .left-2-nl    { left:  2rem; }
+  .right-2-nl   { right: 2rem; }
+  .bottom-2-nl  { bottom: 2rem; }
+  .top--1-nl    { top:    -1rem; }
+  .right--1-nl  { right:  -1rem; }
+  .bottom--1-nl { bottom: -1rem; }
+  .left--1-nl   { left:   -1rem; }
+  .top--2-nl    { top:    -2rem; }
+  .right--2-nl  { right:  -2rem; }
+  .bottom--2-nl { bottom: -2rem; }
+  .left--2-nl   { left:   -2rem; }
+  .absolute--fill-nl {
     top: 0;
     right: 0;
     bottom: 0;

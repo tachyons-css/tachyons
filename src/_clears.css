@@ -25,6 +25,13 @@
   .cn-ns { clear: none; }
 }
 
+@media (--breakpoint-small) {
+  .cl-s { clear: left; }
+  .cr-s { clear: right; }
+  .cb-s { clear: both; }
+  .cn-s { clear: none; }
+}
+
 @media (--breakpoint-medium) {
   .cl-m { clear: left; }
   .cr-m { clear: right; }
@@ -37,4 +44,11 @@
   .cr-l { clear: right; }
   .cb-l { clear: both; }
   .cn-l { clear: none; }
+}
+
+@media (--breakpoint-not-large) {
+  .cl-nl { clear: left; }
+  .cr-nl { clear: right; }
+  .cb-nl { clear: both; }
+  .cn-nl { clear: none; }
 }
