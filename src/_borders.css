@@ -16,8 +16,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -38,6 +40,15 @@
   .bn-ns { border-style: none; border-width: 0; }
 }
 
+@media (--breakpoint-small) {
+  .ba-s { border-style: solid; border-width: 1px; }
+  .bt-s { border-top-style: solid; border-top-width: 1px; }
+  .br-s { border-right-style: solid; border-right-width: 1px; }
+  .bb-s { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-s { border-left-style: solid; border-left-width: 1px; }
+  .bn-s { border-style: none; border-width: 0; }
+}
+
 @media (--breakpoint-medium) {
   .ba-m { border-style: solid; border-width: 1px; }
   .bt-m { border-top-style: solid; border-top-width: 1px; }
@@ -54,5 +65,14 @@
   .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
   .bl-l { border-left-style: solid; border-left-width: 1px; }
   .bn-l { border-style: none; border-width: 0; }
+}
+
+@media (--breakpoint-not-large) {
+  .ba-nl { border-style: solid; border-width: 1px; }
+  .bt-nl { border-top-style: solid; border-top-width: 1px; }
+  .br-nl { border-right-style: solid; border-right-width: 1px; }
+  .bb-nl { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-nl { border-left-style: solid; border-left-width: 1px; }
+  .bn-nl { border-style: none; border-width: 0; }
 }
 

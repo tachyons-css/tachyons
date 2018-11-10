@@ -16,8 +16,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
  */
 
@@ -33,6 +35,13 @@
   .b--none-ns {   border-style: none; }
 }
 
+@media (--breakpoint-small) {
+  .b--dotted-s { border-style: dotted; }
+  .b--dashed-s { border-style: dashed; }
+  .b--solid-s {  border-style: solid; }
+  .b--none-s {   border-style: none; }
+}
+
 @media (--breakpoint-medium) {
   .b--dotted-m { border-style: dotted; }
   .b--dashed-m { border-style: dashed; }
@@ -45,4 +54,11 @@
   .b--dashed-l { border-style: dashed; }
   .b--solid-l {  border-style: solid; }
   .b--none-l {   border-style: none; }
+}
+
+@media (--breakpoint-not-large) {
+  .b--dotted-nl { border-style: dotted; }
+  .b--dashed-nl { border-style: dashed; }
+  .b--solid-nl {  border-style: solid; }
+  .b--none-nl {   border-style: none; }
 }

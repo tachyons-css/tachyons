@@ -16,8 +16,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -47,6 +49,19 @@
   .bl-0-ns { border-left-width: 0; }
 }
 
+@media (--breakpoint-small) {
+  .bw0-s { border-width: 0; }
+  .bw1-s { border-width: .125rem; }
+  .bw2-s { border-width: .25rem; }
+  .bw3-s { border-width: .5rem; }
+  .bw4-s { border-width: 1rem; }
+  .bw5-s { border-width: 2rem; }
+  .bt-0-s { border-top-width: 0; }
+  .br-0-s { border-right-width: 0; }
+  .bb-0-s { border-bottom-width: 0; }
+  .bl-0-s { border-left-width: 0; }
+}
+
 @media (--breakpoint-medium) {
   .bw0-m { border-width: 0; }
   .bw1-m { border-width: .125rem; }
@@ -71,4 +86,17 @@
   .br-0-l { border-right-width: 0; }
   .bb-0-l { border-bottom-width: 0; }
   .bl-0-l { border-left-width: 0; }
+}
+
+@media (--breakpoint-not-large) {
+  .bw0-nl { border-width: 0; }
+  .bw1-nl { border-width: .125rem; }
+  .bw2-nl { border-width: .25rem; }
+  .bw3-nl { border-width: .5rem; }
+  .bw4-nl { border-width: 1rem; }
+  .bw5-nl { border-width: 2rem; }
+  .bt-0-nl { border-top-width: 0; }
+  .br-0-nl { border-right-width: 0; }
+  .bb-0-nl { border-bottom-width: 0; }
+  .bl-0-nl { border-left-width: 0; }
 }
