@@ -28,7 +28,7 @@
     "build:packages": "node build && lerna run build",
     "build:watch": "watch \"npm run build\" ./src/",
     "prepare": "npm run build",
-    "publish:beta": "lerna publish --canary --preid beta",
+    "publish:beta": "npm run build && lerna publish --canary --preid beta",
     "test": "immutable-css src/tachyons.css"
   },
   "devDependencies": {
