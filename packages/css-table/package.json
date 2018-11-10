@@ -1,0 +1,27 @@
+{
+  "name": "css-table",
+  "version": "7.0.1-1",
+  "description": "Post process css into a table for self documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "keywords": [
+    "css",
+    "tachyons",
+    "postcss"
+  ],
+  "license": "MIT",
+  "repository": "tachyons-css/tachyons",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "tachyons": "^4.9.1"
+  },
+  "dependencies": {
+    "is-css-root": "^1.0.1",
+    "lodash": "^4.17.5",
+    "postcss": "^6.0.19",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-import": "^11.1.0"
+  }
+}

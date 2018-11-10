@@ -1,8 +1,13 @@
 # TACHYONS
 
 Functional css for humans.
-
 Quickly build and design new UI without writing css.
+
+## Built for designing
+
+Create fast loading, highly readable, and 100% responsive interfaces with as little css as possible.
+
+[Download Latest Version](https://raw.githubusercontent.com/tachyons-css/tachyons/master/css/tachyons.min.css)
 
 ## Principles
 
@@ -42,7 +47,7 @@ The quickest and easiest way to start using tachyons is to include a reference
 to the minified file in the head of your html file.
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+<link rel="stylesheet" href="https://unpkg.com/tachyons@7/css/tachyons.min.css">
 ```
 
 ### Local Setup
@@ -61,34 +66,43 @@ If you want to just use everything in tachyons/src as a jumping off point and
 edit all the code yourself, you can compile all of your wonderful changes by
 running
 
-```npm start```
+```
+npm start
+```
 
 This will output both minified and unminified versions of the css to the css directory and watch the src directory for changes.
 It's aliased to the command:
 
-```npm run build:watch```
+```
+npm run build:watch
+```
 
 If you'd like to just build the css once without watching the src directory run
 
-```npm run build```
+```
+npm run build
+```
 
 If you want to check that a class hasn't been redefined or 'mutated' there is a linter to check that all of the classes have only been defined once. This can be useful if you are using another library or have written some of your own css and want to make sure there are no naming collisions. To do this run the command
 
-```npm run mutations```
+```
+npm run mutations
+```
 
 ## Docs
 
-The tachyons docs located at http://tachyons.io are all open source and located at https://github.com/tachyons-css/tachyons-css.github.io
+The tachyons docs located at http://tachyons.io are all open source and located at [/docs](https://github.com/tachyons-css/tachyons/tree/master/docs).
 
 You can clone the docs and use them as a template for documenting your own design system / patterns / components.
 While not everything is automated, the component library generation makes it extremely easy to
-generate and organize the documentation for components as demonstrated at http://tachyons.io/components
+generate and organize the documentation for components as demonstrated at https://tachyons.io/components
 
 ### Community Resources
 
 - [DWYL Learn Tachyons](https://github.com/dwyl/learn-tachyons): Learn how to use Tachyons to craft beautiful, responsive, functional and fast UI with minimal CSS
 - [Tachyons TLDR](https://tachyons-tldr.now.sh/#/classes): Quick lookup for Tachyons classes, scales and color palette
 - [Tachyons Pro](https://tachyons.pro/): Fun quiz for memorizing class names
+- [Tachyons Cheatsheet](https://roperzh.github.io/tachyons-cheatsheet/): Cheatsheet for Tachyons classes
 
 ## Contributing
 
@@ -99,7 +113,7 @@ Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/
 A longer list of sites that use tachyons in production can be found in sites.md
 We love letting the community see what people are building so please add your link to sites.md in a PR or by opening an issue if you're willing to share to your site or project.
 
-**Featured Sites**
+### Featured Sites
 
 * https://interfacelovers.com
 * https://npmjs.com
@@ -122,7 +136,7 @@ We love letting the community see what people are building so please add your li
 * https://bitmidi.com
 
 And of course...
-* http://tachyons.io
+* https://tachyons.io
 
 ## Sponsors
 

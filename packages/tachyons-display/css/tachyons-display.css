@@ -1,0 +1,80 @@
+/*!!!
+
+# DISPLAY
+
+### Docs
+
+http://tachyons.io/docs/layout/display
+
+### Base
+
+- d = display
+
+### Modifiers
+
+- n = none
+- b = block
+- ib = inline-block
+- it = inline-table
+- t = table
+- tc = table-cell
+- t-row = table-row
+- t-columm = table-column
+- t-column-group = table-column-group
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/
+.dn { display: none; }
+.di { display: inline; }
+.db { display: block; }
+.dib { display: inline-block; }
+.dit { display: inline-table; }
+.dt { display: table; }
+.dtc { display: table-cell; }
+.dt-row { display: table-row; }
+/*
+  This will set table to full width and then
+  all cells will be equal width
+*/
+.dt--fixed { table-layout: fixed; width: 100%; }
+@media screen and (min-width: 30em) {
+ .dn-s { display: none; }
+ .di-s { display: inline; }
+ .db-s { display: block; }
+ .dib-s { display: inline-block; }
+ .dit-s { display: inline-table; }
+ .dt-s { display: table; }
+ .dtc-s { display: table-cell; }
+ .dt-row-s { display: table-row; }
+ .dt--fixed-s { table-layout: fixed; width: 100%; }
+}
+@media screen and (min-width: 48em) {
+ .dn-m { display: none; }
+ .di-m { display: inline; }
+ .db-m { display: block; }
+ .dib-m { display: inline-block; }
+ .dit-m { display: inline-table; }
+ .dt-m { display: table; }
+ .dtc-m { display: table-cell; }
+ .dt-row-m { display: table-row; }
+ .dt-row-group-m { display: table-row-group; }
+ .dt-column-m { display: table-column; }
+ .dt-column-group-m { display: table-column-group; }
+ .dt--fixed-m { table-layout: fixed; width: 100%; }
+}
+@media screen and (min-width: 60em) {
+ .dn-l { display: none; }
+ .di-l { display: inline; }
+ .db-l { display: block; }
+ .dib-l { display: inline-block; }
+ .dit-l { display: inline-table; }
+ .dt-l { display: table; }
+ .dtc-l { display: table-cell; }
+ .dt-row-l { display: table-row; }
+ .dt--fixed-l { table-layout: fixed; width: 100%; }
+}
+

@@ -1,0 +1,46 @@
+
+
+
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+/*!!!
+
+# BACKGROUND SIZE
+
+Often used in combination with background image set as an inline style
+on an html element.
+
+### Docs
+
+http://tachyons.io/docs/themes/background-size/
+
+### Base
+
+- cover    = cover
+- contain  = contain
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l`= large
+*/
+
+.cover { background-size: cover!important; }
+.contain { background-size: contain!important; }
+
+@media (--breakpoint-small) {
+  .cover-s { background-size: cover!important; }
+  .contain-s { background-size: contain!important; }
+}
+
+@media (--breakpoint-medium) {
+  .cover-m { background-size: cover!important; }
+  .contain-m { background-size: contain!important; }
+}
+
+@media (--breakpoint-large) {
+  .cover-l { background-size: cover!important; }
+  .contain-l { background-size: contain!important; }
+}

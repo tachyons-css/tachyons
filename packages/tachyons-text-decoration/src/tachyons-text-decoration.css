@@ -1,0 +1,48 @@
+
+
+
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+/*!!!
+
+# TEXT DECORATION
+
+### Docs
+
+http://tachyons.io/docs/typography/text-decoration/
+
+### Base
+
+- strike = line-through
+- underline = underline
+- no-underline = string value 'none'
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/
+
+.strike       { text-decoration: line-through; }
+.underline    { text-decoration: underline; }
+.no-underline { text-decoration: none; }
+
+@media (--breakpoint-small) {
+  .strike-s       { text-decoration: line-through; }
+  .underline-s    { text-decoration: underline; }
+  .no-underline-s { text-decoration: none; }
+}
+
+@media (--breakpoint-medium) {
+  .strike-m       { text-decoration: line-through; }
+  .underline-m    { text-decoration: underline; }
+  .no-underline-m { text-decoration: none; }
+}
+
+@media (--breakpoint-large) {
+  .strike-l       { text-decoration: line-through; }
+  .underline-l {    text-decoration: underline; }
+  .no-underline-l { text-decoration: none; }
+}

@@ -1,0 +1,30 @@
+/*!!!
+
+# UTILITIES
+
+### Base
+
+- `overflow-container` = horizontal scroll
+- `center` = margin auto
+- `mr-auto` = margin-right auto
+- `ml-auto` = margin-left auto
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/
+/* Equivalent to .overflow-y-scroll */
+.overflow-container { overflow-y: scroll; }
+.center { margin-right: auto; margin-left: auto; }
+@media screen and (min-width: 30em) {
+ .center-s { margin-right: auto; margin-left: auto; }
+}
+@media screen and (min-width: 48em) {
+ .center-m { margin-right: auto; margin-left: auto; }
+}
+@media screen and (min-width: 60em) {
+ .center-l { margin-right: auto; margin-left: auto; }
+}
+

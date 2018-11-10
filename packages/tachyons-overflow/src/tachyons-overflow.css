@@ -1,0 +1,95 @@
+
+
+
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+/*!!!
+
+# OVERFLOW
+
+### Base
+
+- overflow
+- overflow-x
+- overflow-y
+
+### Modifiers
+
+- `-visible`
+- `-hidden`
+- `-scroll`
+- `-auto`
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+ */
+
+.overflow-visible { overflow: visible; }
+.overflow-hidden { overflow: hidden; }
+.overflow-scroll { overflow: scroll; }
+.overflow-auto { overflow: auto; }
+
+.overflow-x-visible { overflow-x: visible; }
+.overflow-x-hidden { overflow-x: hidden; }
+.overflow-x-scroll { overflow-x: scroll; }
+.overflow-x-auto { overflow-x: auto; }
+
+.overflow-y-visible { overflow-y: visible; }
+.overflow-y-hidden { overflow-y: hidden; }
+.overflow-y-scroll { overflow-y: scroll; }
+.overflow-y-auto { overflow-y: auto; }
+
+@media (--breakpoint-small) {
+  .overflow-visible-s { overflow: visible; }
+  .overflow-hidden-s { overflow: hidden; }
+  .overflow-scroll-s { overflow: scroll; }
+  .overflow-auto-s { overflow: auto; }
+
+  .overflow-x-visible-s { overflow-x: visible; }
+  .overflow-x-hidden-s { overflow-x: hidden; }
+  .overflow-x-scroll-s { overflow-x: scroll; }
+  .overflow-x-auto-s { overflow-x: auto; }
+
+  .overflow-y-visible-s { overflow-y: visible; }
+  .overflow-y-hidden-s { overflow-y: hidden; }
+  .overflow-y-scroll-s { overflow-y: scroll; }
+  .overflow-y-auto-s { overflow-y: auto; }
+}
+
+@media (--breakpoint-medium) {
+  .overflow-visible-m { overflow: visible; }
+  .overflow-hidden-m { overflow: hidden; }
+  .overflow-scroll-m { overflow: scroll; }
+  .overflow-auto-m { overflow: auto; }
+
+  .overflow-x-visible-m { overflow-x: visible; }
+  .overflow-x-hidden-m { overflow-x: hidden; }
+  .overflow-x-scroll-m { overflow-x: scroll; }
+  .overflow-x-auto-m { overflow-x: auto; }
+
+  .overflow-y-visible-m { overflow-y: visible; }
+  .overflow-y-hidden-m { overflow-y: hidden; }
+  .overflow-y-scroll-m { overflow-y: scroll; }
+  .overflow-y-auto-m { overflow-y: auto; }
+}
+
+@media (--breakpoint-large) {
+  .overflow-visible-l { overflow: visible; }
+  .overflow-hidden-l { overflow: hidden; }
+  .overflow-scroll-l { overflow: scroll; }
+  .overflow-auto-l { overflow: auto; }
+
+  .overflow-x-visible-l { overflow-x: visible; }
+  .overflow-x-hidden-l { overflow-x: hidden; }
+  .overflow-x-scroll-l { overflow-x: scroll; }
+  .overflow-x-auto-l { overflow-x: auto; }
+
+  .overflow-y-visible-l { overflow-y: visible; }
+  .overflow-y-hidden-l { overflow-y: hidden; }
+  .overflow-y-scroll-l { overflow-y: scroll; }
+  .overflow-y-auto-l { overflow-y: auto; }
+}

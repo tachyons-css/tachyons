@@ -1,11 +1,13 @@
 {
   "name": "tachyons",
-  "description": "Functional CSS for humans",
+  "description": "Functional css for humans",
+  "homepage": "https://tachyons.io",
   "main": "css/tachyons.css",
-  "authors": [
-    "mrmrs"
-  ],
   "license": "MIT",
+  "authors": [
+    "mrmrs",
+    "johno"
+  ],
   "keywords": [
     "css",
     "design",
@@ -13,7 +15,6 @@
     "responsive",
     "design"
   ],
-  "homepage": "http://tachyons.io",
   "ignore": [
     "**/.*",
     "node_modules",

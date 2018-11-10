@@ -1,0 +1,23 @@
+/*!!!
+
+# BACKGROUND SIZE
+
+Often used in combination with background image set as an inline style
+on an html element.
+
+### Docs
+
+http://tachyons.io/docs/themes/background-size/
+
+### Base
+
+- cover    = cover
+- contain  = contain
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l`= large
+*/.cover{background-size:cover!important}.contain{background-size:contain!important}@media screen and (min-width:30em){.cover-s{background-size:cover!important}.contain-s{background-size:contain!important}}@media screen and (min-width:48em){.cover-m{background-size:cover!important}.contain-m{background-size:contain!important}}@media screen and (min-width:60em){.cover-l{background-size:cover!important}.contain-l{background-size:contain!important}}
+

@@ -1,12 +1,19 @@
-/*
+/*!!!
 
-   UTILITIES
+# UTILITIES
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+### Base
 
+- `overflow-container` = horizontal scroll
+- `center` = margin auto
+- `mr-auto` = margin-right auto
+- `ml-auto` = margin-left auto
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 /* Equivalent to .overflow-y-scroll */
@@ -19,32 +26,23 @@
   margin-left: auto;
 }
 
-.mr-auto { margin-right: auto; }
-.ml-auto { margin-left:  auto; }
-
-@media (--breakpoint-not-small){
-  .center-ns {
+@media (--breakpoint-small) {
+  .center-s {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-ns { margin-right: auto; }
-  .ml-auto-ns { margin-left:  auto; }
 }
 
-@media (--breakpoint-medium){
+@media (--breakpoint-medium) {
   .center-m {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-m { margin-right: auto; }
-  .ml-auto-m { margin-left:  auto; }
 }
 
-@media (--breakpoint-large){
+@media (--breakpoint-large) {
   .center-l {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-l { margin-right: auto; }
-  .ml-auto-l { margin-left:  auto; }
 }

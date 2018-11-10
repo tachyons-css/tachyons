@@ -1,0 +1,43 @@
+
+
+
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+/*!!!
+
+# FONT STYLE
+
+### Docs
+
+http://tachyons.io/docs/typography/font-style/
+
+### Base
+
+- i = italic
+- fs-normal = normal
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/
+
+.i         { font-style: italic; }
+.fs-normal { font-style: normal; }
+
+@media (--breakpoint-small) {
+  .i-s       { font-style: italic; }
+  .fs-normal-s     { font-style: normal; }
+}
+
+@media (--breakpoint-medium) {
+  .i-m       { font-style: italic; }
+  .fs-normal-m     { font-style: normal; }
+}
+
+@media (--breakpoint-large) {
+  .i-l       { font-style: italic; }
+  .fs-normal-l     { font-style: normal; }
+}

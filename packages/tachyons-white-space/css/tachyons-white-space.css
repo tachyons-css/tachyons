@@ -1,0 +1,33 @@
+/*!!!
+
+# WHITE SPACE
+
+### Base
+
+- ws-normal = white-space normal
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/
+.ws-normal { white-space: normal; }
+.ws-nowrap { white-space: nowrap; }
+.ws-pre { white-space: pre; }
+@media screen and (min-width: 30em) {
+ .ws-normal-s { white-space: normal; }
+ .ws-nowrap-s { white-space: nowrap; }
+ .ws-pre-s { white-space: pre; }
+}
+@media screen and (min-width: 48em) {
+ .ws-normal-m { white-space: normal; }
+ .ws-nowrap-m { white-space: nowrap; }
+ .ws-pre-m { white-space: pre; }
+}
+@media screen and (min-width: 60em) {
+ .ws-normal-l { white-space: normal; }
+ .ws-nowrap-l { white-space: nowrap; }
+ .ws-pre-l { white-space: pre; }
+}
+

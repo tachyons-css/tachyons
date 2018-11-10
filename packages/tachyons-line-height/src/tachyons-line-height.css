@@ -1,0 +1,52 @@
+
+
+
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+/*!!!
+
+# LINE HEIGHT / LEADING
+
+### Docs
+
+http://tachyons.io/docs/typography/line-height
+
+### Base
+
+- lh = line height
+
+### Literal Values
+
+- `-solid` = literal value 1
+- `-title` = literal value 1.25
+- `-copy`  = literal value 1.5
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/
+
+.lh-solid { line-height: 1; }
+.lh-title { line-height: 1.25; }
+.lh-copy  { line-height: 1.5; }
+
+@media (--breakpoint-small) {
+  .lh-solid-s { line-height: 1; }
+  .lh-title-s { line-height: 1.25; }
+  .lh-copy-s  { line-height: 1.5; }
+}
+
+@media (--breakpoint-medium) {
+  .lh-solid-m { line-height: 1; }
+  .lh-title-m { line-height: 1.25; }
+  .lh-copy-m  { line-height: 1.5; }
+}
+
+@media (--breakpoint-large) {
+  .lh-solid-l { line-height: 1; }
+  .lh-title-l { line-height: 1.25; }
+  .lh-copy-l  { line-height: 1.5; }
+}

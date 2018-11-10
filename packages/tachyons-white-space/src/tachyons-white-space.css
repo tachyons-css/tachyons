@@ -1,0 +1,43 @@
+
+
+
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+/*!!!
+
+# WHITE SPACE
+
+### Base
+
+- ws-normal = white-space normal
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/
+
+
+.ws-normal { white-space: normal; }
+.ws-nowrap { white-space: nowrap; }
+.ws-pre { white-space: pre; }
+
+@media (--breakpoint-small) {
+  .ws-normal-s { white-space: normal; }
+  .ws-nowrap-s { white-space: nowrap; }
+  .ws-pre-s { white-space: pre; }
+}
+
+@media (--breakpoint-medium) {
+  .ws-normal-m { white-space: normal; }
+  .ws-nowrap-m { white-space: nowrap; }
+  .ws-pre-m { white-space: pre; }
+}
+
+@media (--breakpoint-large) {
+  .ws-normal-l { white-space: normal; }
+  .ws-nowrap-l { white-space: nowrap; }
+  .ws-pre-l { white-space: pre; }
+}

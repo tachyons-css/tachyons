@@ -1,0 +1,31 @@
+/*!!!
+
+# TYPE SCALE
+
+### Docs
+
+http://tachyons.io/docs/typography/scale/
+
+### Base
+
+- f = font-size
+
+### Modifiers
+
+- 1 = 1st step back in size scale
+- 2 = 2nd step back in size scale
+- 3 = 3rd step back in size scale
+- 4 = 4th step back in size scale
+- 5 = 5th step back in size scale
+- 6 = 6th step back in size scale
+- 7 = 7th step back in size scale
+- 8 = 8th step back in size scale
+- 0 = Extra large
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/.f0{font-size:6rem}.f1{font-size:4rem}.f2{font-size:3rem}.f3{font-size:2rem}.f4{font-size:1.5rem}.f5{font-size:1rem}.f6{font-size:.875rem}.f7{font-size:.75rem}@media screen and (min-width:30em){.f0-s{font-size:6rem}.f1-s{font-size:4rem}.f2-s{font-size:3rem}.f3-s{font-size:2rem}.f4-s{font-size:1.5rem}.f5-s{font-size:1rem}.f6-s{font-size:.875rem}.f7-s{font-size:.75rem}}@media screen and (min-width:48em){.f0-m{font-size:6rem}.f1-m{font-size:4rem}.f2-m{font-size:3rem}.f3-m{font-size:2rem}.f4-m{font-size:1.5rem}.f5-m{font-size:1rem}.f6-m{font-size:.875rem}.f7-m{font-size:.75rem}}@media screen and (min-width:60em){.f0-l{font-size:6rem}.f1-l{font-size:4rem}.f2-l{font-size:3rem}.f3-l{font-size:2rem}.f4-l{font-size:1.5rem}.f5-l{font-size:1rem}.f6-l{font-size:.875rem}.f7-l{font-size:.75rem}}
+

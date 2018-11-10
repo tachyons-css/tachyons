@@ -1,25 +1,32 @@
-/*
+/*!!!
 
-   TEXT DECORATION
-   Docs: http://tachyons.io/docs/typography/text-decoration/
+# TEXT DECORATION
 
+### Docs
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+http://tachyons.io/docs/typography/text-decoration/
 
+### Base
+
+- strike = line-through
+- underline = underline
+- no-underline = string value 'none'
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .strike       { text-decoration: line-through; }
 .underline    { text-decoration: underline; }
 .no-underline { text-decoration: none; }
 
-
-@media (--breakpoint-not-small) {
-  .strike-ns       { text-decoration: line-through; }
-  .underline-ns    { text-decoration: underline; }
-  .no-underline-ns { text-decoration: none; }
+@media (--breakpoint-small) {
+  .strike-s       { text-decoration: line-through; }
+  .underline-s    { text-decoration: underline; }
+  .no-underline-s { text-decoration: none; }
 }
 
 @media (--breakpoint-medium) {

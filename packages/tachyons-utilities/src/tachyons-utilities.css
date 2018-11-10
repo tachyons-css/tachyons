@@ -1,0 +1,54 @@
+
+
+
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+/*!!!
+
+# UTILITIES
+
+### Base
+
+- `overflow-container` = horizontal scroll
+- `center` = margin auto
+- `mr-auto` = margin-right auto
+- `ml-auto` = margin-left auto
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/
+
+/* Equivalent to .overflow-y-scroll */
+.overflow-container {
+  overflow-y: scroll;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (--breakpoint-small) {
+  .center-s {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (--breakpoint-medium) {
+  .center-m {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (--breakpoint-large) {
+  .center-l {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

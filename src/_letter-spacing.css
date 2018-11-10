@@ -1,33 +1,46 @@
-/*
+/*!!!
 
-   LETTER SPACING
-   Docs: http://tachyons.io/docs/typography/tracking/
+# LETTER SPACING
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+### Docs
 
+http://tachyons.io/docs/typography/tracking/
+
+### Base
+
+- tracked
+
+### Modifiers
+
+- 1 = 1st step in spacing scale
+- 2 = 2nd step in spacing scale
+- 3 = 3rd step in spacing scale
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
-.tracked       { letter-spacing:  .1em; }
 .tracked-tight { letter-spacing: -.05em; }
+.tracked       { letter-spacing:  .1em; }
 .tracked-mega  { letter-spacing:  .25em; }
 
-@media (--breakpoint-not-small) {
-  .tracked-ns       { letter-spacing:  .1em; }
-  .tracked-tight-ns { letter-spacing: -.05em; }
-  .tracked-mega-ns  { letter-spacing:  .25em; }
+@media (--breakpoint-small) {
+  .tracked-tight-s { letter-spacing: -.05em; }
+  .tracked-s       { letter-spacing:  .1em; }
+  .tracked-mega-s  { letter-spacing:  .25em; }
 }
 
 @media (--breakpoint-medium) {
-  .tracked-m       { letter-spacing:  .1em; }
   .tracked-tight-m { letter-spacing: -.05em; }
+  .tracked-m       { letter-spacing:  .1em; }
   .tracked-mega-m  { letter-spacing:  .25em; }
 }
 
 @media (--breakpoint-large) {
-  .tracked-l       { letter-spacing:  .1em; }
   .tracked-tight-l { letter-spacing: -.05em; }
+  .tracked-l       { letter-spacing:  .1em; }
   .tracked-mega-l  { letter-spacing:  .25em; }
 }

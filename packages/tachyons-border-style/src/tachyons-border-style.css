@@ -1,0 +1,59 @@
+
+
+
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+/*!!!
+
+# BORDER STYLES
+
+Depends on base border module in `_borders.css`
+
+### Docs
+
+http://tachyons.io/docs/themes/borders/
+
+### Base
+
+- b = border-style
+
+### Modifiers
+
+- `--none` = none
+- `--dotted` = dotted
+- `--dashed` = dashed
+- `--solid`  = solid
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+ */
+
+.b--dotted { border-style: dotted; }
+.b--dashed { border-style: dashed; }
+.b--solid {  border-style: solid; }
+.b--none {   border-style: none; }
+
+@media (--breakpoint-small) {
+  .b--dotted-s { border-style: dotted; }
+  .b--dashed-s { border-style: dashed; }
+  .b--solid-s {  border-style: solid; }
+  .b--none-s {   border-style: none; }
+}
+
+@media (--breakpoint-medium) {
+  .b--dotted-m { border-style: dotted; }
+  .b--dashed-m { border-style: dashed; }
+  .b--solid-m {  border-style: solid; }
+  .b--none-m {   border-style: none; }
+}
+
+@media (--breakpoint-large) {
+  .b--dotted-l { border-style: dotted; }
+  .b--dashed-l { border-style: dashed; }
+  .b--solid-l {  border-style: solid; }
+  .b--none-l {   border-style: none; }
+}

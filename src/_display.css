@@ -1,27 +1,32 @@
-/*
+/*!!!
 
-   DISPLAY
-   Docs: http://tachyons.io/docs/layout/display
+# DISPLAY
 
-   Base:
-    d = display
+### Docs
 
-   Modifiers:
-    n     = none
-    b     = block
-    ib    = inline-block
-    it    = inline-table
-    t     = table
-    tc    = table-cell
-    t-row          = table-row
-    t-columm       = table-column
-    t-column-group = table-column-group
+http://tachyons.io/docs/layout/display
 
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+### Base
 
+- d = display
+
+### Modifiers
+
+- n = none
+- b = block
+- ib = inline-block
+- it = inline-table
+- t = table
+- tc = table-cell
+- t-row = table-row
+- t-columm = table-column
+- t-column-group = table-column-group
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
 */
 
 .dn {              display: none; }
@@ -32,9 +37,6 @@
 .dt {              display: table; }
 .dtc {             display: table-cell; }
 .dt-row {          display: table-row; }
-.dt-row-group {    display: table-row-group; }
-.dt-column {       display: table-column; }
-.dt-column-group { display: table-column-group; }
 
 /*
   This will set table to full width and then
@@ -45,20 +47,17 @@
   width: 100%;
 }
 
-@media (--breakpoint-not-small) {
-  .dn-ns {              display: none; }
-  .di-ns {              display: inline; }
-  .db-ns {              display: block; }
-  .dib-ns {             display: inline-block; }
-  .dit-ns {             display: inline-table; }
-  .dt-ns {              display: table; }
-  .dtc-ns {             display: table-cell; }
-  .dt-row-ns {          display: table-row; }
-  .dt-row-group-ns {    display: table-row-group; }
-  .dt-column-ns {       display: table-column; }
-  .dt-column-group-ns { display: table-column-group; }
+@media (--breakpoint-small) {
+  .dn-s {              display: none; }
+  .di-s {              display: inline; }
+  .db-s {              display: block; }
+  .dib-s {             display: inline-block; }
+  .dit-s {             display: inline-table; }
+  .dt-s {              display: table; }
+  .dtc-s {             display: table-cell; }
+  .dt-row-s {          display: table-row; }
 
-  .dt--fixed-ns {
+  .dt--fixed-s {
     table-layout: fixed;
     width: 100%;
   }
@@ -92,13 +91,9 @@
   .dt-l {              display: table; }
   .dtc-l {             display: table-cell; }
   .dt-row-l {          display: table-row; }
-  .dt-row-group-l {    display: table-row-group; }
-  .dt-column-l {       display: table-column; }
-  .dt-column-group-l { display: table-column-group; }
 
   .dt--fixed-l {
     table-layout: fixed;
     width: 100%;
   }
 }
-

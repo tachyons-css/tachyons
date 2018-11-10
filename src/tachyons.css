@@ -1,4 +1,4 @@
-/*! TACHYONS v4.11.1 | http://tachyons.io */
+/*! TACHYONS v7.0.1-2 | http://tachyons.io */
 
 /*
  *
@@ -23,10 +23,8 @@
  *
  */
 
-
 /* External Library Includes */
-@import './_normalize';
-
+@import "./_normalize";
 
 /* Modules */
 @import './_box-sizing';
@@ -44,6 +42,7 @@
 @import './_code';
 @import './_coordinates';
 @import './_clears';
+@import './_direction';
 @import './_display';
 @import './_flexbox';
 @import './_floats';
@@ -83,12 +82,18 @@
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-@import './_colors';
-@import './_media-queries';
+@import "./_colors";
+@import "./_media-queries";
 
 /* Debugging */
-@import './_debug-children';
-@import './_debug-grid';
+@import "./_debug-children";
+@import "./_debug-grid";
 
 /* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
+
+/* Addons */
+/* Uncomment out any of the lines below to import the addon */
+/* @import './_gradients'; */
+/* @import './_nudge'; */
+/* @import "./_animate"; */

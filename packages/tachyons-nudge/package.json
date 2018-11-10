@@ -1,0 +1,35 @@
+{
+  "name": "tachyons-nudge",
+  "version": "7.0.1-1",
+  "style": "src/tachyons-nudge.css",
+  "main": "src/tachyons-nudge.css",
+  "description": "Performance based css module.",
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "tachyons-addon"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-nudge",
+  "author": {
+    "name": "johno",
+    "email": "johnotander@gmail.com",
+    "url": "http://johnotander.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.10",
+    "watch": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-nudge.css > css/tachyons-nudge.css",
+    "build:minify": "tachyons src/tachyons-nudge.css --minify > css/tachyons-nudge.min.css",
+    "build:docs": "tachyons src/tachyons-nudge.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
+  }
+}

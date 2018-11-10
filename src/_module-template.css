@@ -1,14 +1,13 @@
-/*
+/*!!!
 
-  MODULE NAME
+# MODULE NAME
 
-  Use this scaffolding to create or extend your own modules with tachyons
-  style architecture.
+Use this scaffolding to create or extend your own modules with Tachyons
+style architecture.
 
 */
 
-
-@media (--breakpoint-not-small) {
+@media (--breakpoint-small) {
 
 }
 
@@ -19,4 +18,3 @@
 @media (--breakpoint-large) {
 
 }
-

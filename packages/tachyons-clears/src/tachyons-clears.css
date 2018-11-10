@@ -1,0 +1,68 @@
+
+
+
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
+/*!!!
+
+# CLEARFIX
+
+### Docs
+
+http://tachyons.io/docs/layout/clearfix/
+
+### Based on
+
+Nicolas Gallagher's clerfix solution
+http://nicolasgallagher.com/micro-clearfix-hack/
+
+### Base
+
+- c = clear
+
+### Modifiers
+
+- f = clearfix
+- l = left
+- r = right
+- b = both
+- n = none
+
+### Media Query Extensions
+
+- `-s` = small
+- `-m` = medium
+- `-l` = large
+*/
+
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
+
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+.cn { clear: none; }
+
+@media (--breakpoint-small) {
+  .cl-s { clear: left; }
+  .cr-s { clear: right; }
+  .cb-s { clear: both; }
+  .cn-s { clear: none; }
+}
+
+@media (--breakpoint-medium) {
+  .cl-m { clear: left; }
+  .cr-m { clear: right; }
+  .cb-m { clear: both; }
+  .cn-m { clear: none; }
+}
+
+@media (--breakpoint-large) {
+  .cl-l { clear: left; }
+  .cr-l { clear: right; }
+  .cb-l { clear: both; }
+  .cn-l { clear: none; }
+}

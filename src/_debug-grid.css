@@ -1,12 +1,24 @@
-/*
+/*!!!
 
-   DEBUG GRID
-   http://tachyons.io/docs/debug-grid/
+# DEBUG GRID
 
-   Can be useful for debugging layout issues
-   or helping to make sure things line up perfectly.
-   Just tack one of these classes onto a parent element.
+Can be useful for debugging layout issues
+or helping to make sure things line up perfectly.
+Just tack one of these classes onto a parent element.
 
+### Docs
+
+http://tachyons.io/docs/debug-grid/
+
+### Base
+
+- debug-grid
+
+### Modifiers
+
+- `-16` = 16px grid
+- `-8-solid` = solid 8px grid
+- `-16-solid` = solid 16px grid
 */
 
 .debug-grid {
