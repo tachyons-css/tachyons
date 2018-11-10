@@ -4,9 +4,11 @@
    Docs: http://tachyons.io/docs/themes/background-size/
 
    Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+    -ns = not-small
+    -s  = small
+    -m  = medium
+    -l  = large
+    -nl = not-large
 
 */
 
@@ -23,6 +25,11 @@
   .contain-ns { background-size: contain!important; }
 }
 
+@media (--breakpoint-small) {
+  .cover-s { background-size: cover!important; }
+  .contain-s { background-size: contain!important; }
+}
+
 @media (--breakpoint-medium) {
   .cover-m { background-size: cover!important; }
   .contain-m { background-size: contain!important; }
@@ -31,4 +38,9 @@
 @media (--breakpoint-large) {
   .cover-l { background-size: cover!important; }
   .contain-l { background-size: contain!important; }
+}
+
+@media (--breakpoint-not-large) {
+  .cover-nl { background-size: cover!important; }
+  .contain-nl { background-size: contain!important; }
 }

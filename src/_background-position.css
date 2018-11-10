@@ -14,8 +14,10 @@
 
     Media Query Extensions:
       -ns = not-small
+      -s  = small
       -m  = medium
       -l  = large
+      -nl = not-large
 
  */
 

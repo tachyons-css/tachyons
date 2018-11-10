@@ -19,8 +19,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -74,6 +76,32 @@
   }
 }
 
+@media (--breakpoint-small) {
+    .br0-s {     border-radius: 0; }
+    .br1-s {     border-radius: .125rem; }
+    .br2-s {     border-radius: .25rem; }
+    .br3-s {     border-radius: .5rem; }
+    .br4-s {     border-radius: 1rem; }
+    .br-100-s {  border-radius: 100%; }
+    .br-pill-s { border-radius: 9999px; }
+    .br--bottom-s {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .br--top-s {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .br--right-s {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .br--left-s {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+  }
+
 @media (--breakpoint-medium) {
   .br0-m {     border-radius: 0; }
   .br1-m {     border-radius: .125rem; }
@@ -125,3 +153,29 @@
       border-bottom-right-radius: 0;
   }
 }
+
+@media (--breakpoint-not-large) {
+    .br0-nl {     border-radius: 0; }
+    .br1-nl {     border-radius: .125rem; }
+    .br2-nl {     border-radius: .25rem; }
+    .br3-nl {     border-radius: .5rem; }
+    .br4-nl {     border-radius: 1rem; }
+    .br-100-nl {  border-radius: 100%; }
+    .br-pill-nl { border-radius: 9999px; }
+    .br--bottom-nl {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .br--top-nl {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .br--right-nl {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .br--left-nl {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+  }
