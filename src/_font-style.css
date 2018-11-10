@@ -4,9 +4,11 @@
    Docs: http://tachyons.io/docs/typography/font-style/
 
    Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+    -ns = not-small
+    -s  = small
+    -m  = medium
+    -l  = large
+    -nl = not-large
 
 */
 
@@ -18,6 +20,11 @@
   .fs-normal-ns     { font-style: normal; }
 }
 
+@media (--breakpoint-small) {
+  .i-s       { font-style: italic; }
+  .fs-normal-s     { font-style: normal; }
+}
+
 @media (--breakpoint-medium) {
   .i-m       { font-style: italic; }
   .fs-normal-m     { font-style: normal; }
@@ -26,4 +33,9 @@
 @media (--breakpoint-large) {
   .i-l       { font-style: italic; }
   .fs-normal-l     { font-style: normal; }
+}
+
+@media (--breakpoint-not-large) {
+  .i-nl       { font-style: italic; }
+  .fs-normal-nl     { font-style: normal; }
 }

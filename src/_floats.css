@@ -18,9 +18,11 @@
      n = none
 
    Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
+    -ns = not-small
+    -s  = small
+    -m  = medium
+    -l  = large
+    -nl = not-large
 
 */
 
@@ -36,6 +38,12 @@
   .fn-ns { float: none; }
 }
 
+@media (--breakpoint-small) {
+  .fl-s { float: left; _display: inline; }
+  .fr-s { float: right; _display: inline; }
+  .fn-s { float: none; }
+}
+
 @media (--breakpoint-medium) {
   .fl-m { float: left; _display: inline; }
   .fr-m { float: right; _display: inline; }
@@ -46,4 +54,10 @@
   .fl-l { float: left; _display: inline; }
   .fr-l { float: right; _display: inline; }
   .fn-l { float: none; }
+}
+
+@media (--breakpoint-not-large) {
+  .fl-nl { float: left; _display: inline; }
+  .fr-nl { float: right; _display: inline; }
+  .fn-nl { float: none; }
 }
