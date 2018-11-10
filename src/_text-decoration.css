@@ -6,8 +6,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -22,6 +24,12 @@
   .no-underline-ns { text-decoration: none; }
 }
 
+@media (--breakpoint-small) {
+  .strike-s       { text-decoration: line-through; }
+  .underline-s    { text-decoration: underline; }
+  .no-underline-s { text-decoration: none; }
+}
+
 @media (--breakpoint-medium) {
   .strike-m       { text-decoration: line-through; }
   .underline-m    { text-decoration: underline; }
@@ -32,4 +40,10 @@
   .strike-l       { text-decoration: line-through; }
   .underline-l {    text-decoration: underline; }
   .no-underline-l { text-decoration: none; }
+}
+
+@media (--breakpoint-not-large) {
+  .strike-nl       { text-decoration: line-through; }
+  .underline-nl {    text-decoration: underline; }
+  .no-underline-nl { text-decoration: none; }
 }

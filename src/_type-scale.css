@@ -17,8 +17,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 */
 
 /*
@@ -62,6 +64,20 @@
   .f7-ns { font-size: .75rem; }
 }
 
+@media (--breakpoint-small){
+  .f-6-s,
+  .f-headline-s { font-size: 6rem; }
+  .f-5-s,
+  .f-subheadline-s { font-size: 5rem; }
+  .f1-s { font-size: 3rem; }
+  .f2-s { font-size: 2.25rem; }
+  .f3-s { font-size: 1.5rem; }
+  .f4-s { font-size: 1.25rem; }
+  .f5-s { font-size: 1rem; }
+  .f6-s { font-size: .875rem; }
+  .f7-s { font-size: .75rem; }
+}
+
 @media (--breakpoint-medium) {
   .f-6-m,
   .f-headline-m { font-size: 6rem; }
@@ -92,4 +108,22 @@
   .f5-l { font-size: 1rem; }
   .f6-l { font-size: .875rem; }
   .f7-l { font-size: .75rem; }
+}
+
+@media (--breakpoint-not-large) {
+  .f-6-nl,
+  .f-headline-nl {
+    font-size: 6rem;
+  }
+  .f-5-nl,
+  .f-subheadline-nl {
+    font-size: 5rem;
+  }
+  .f1-nl { font-size: 3rem; }
+  .f2-nl { font-size: 2.25rem; }
+  .f3-nl { font-size: 1.5rem; }
+  .f4-nl { font-size: 1.25rem; }
+  .f5-nl { font-size: 1rem; }
+  .f6-nl { font-size: .875rem; }
+  .f7-nl { font-size: .75rem; }
 }

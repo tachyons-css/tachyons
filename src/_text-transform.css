@@ -14,8 +14,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -31,6 +33,13 @@
   .ttn-ns { text-transform: none; }
 }
 
+@media (--breakpoint-small) {
+  .ttc-s { text-transform: capitalize; }
+  .ttl-s { text-transform: lowercase; }
+  .ttu-s { text-transform: uppercase; }
+  .ttn-s { text-transform: none; }
+}
+
 @media (--breakpoint-medium) {
   .ttc-m { text-transform: capitalize; }
   .ttl-m { text-transform: lowercase; }
@@ -43,4 +52,11 @@
   .ttl-l { text-transform: lowercase; }
   .ttu-l { text-transform: uppercase; }
   .ttn-l { text-transform: none; }
+}
+
+@media (--breakpoint-not-large) {
+  .ttc-nl { text-transform: capitalize; }
+  .ttl-nl { text-transform: lowercase; }
+  .ttu-nl { text-transform: uppercase; }
+  .ttn-nl { text-transform: none; }
 }

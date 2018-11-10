@@ -14,8 +14,10 @@
 
   Media Query Extensions:
     -ns = not-small
+    -s  = small
     -m  = medium
     -l  = large
+    -nl = not-large
 
 */
 
@@ -29,6 +31,13 @@
   .tr-ns  { text-align: right; }
   .tc-ns  { text-align: center; }
   .tj-ns  { text-align: justify; }
+}
+
+@media (--breakpoint-small) {
+  .tl-s  { text-align: left; }
+  .tr-s  { text-align: right; }
+  .tc-s  { text-align: center; }
+  .tj-s  { text-align: justify; }
 }
 
 @media (--breakpoint-medium) {
@@ -45,3 +54,9 @@
   .tj-l  { text-align: justify; }
 }
 
+@media (--breakpoint-not-large) {
+  .tl-nl  { text-align: left; }
+  .tr-nl  { text-align: right; }
+  .tc-nl  { text-align: center; }
+  .tj-nl  { text-align: justify; }
+}
