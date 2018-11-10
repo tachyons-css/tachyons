@@ -4,8 +4,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -31,6 +33,15 @@
   .ml-auto-ns { margin-left:  auto; }
 }
 
+@media (--breakpoint-small){
+  .center-s {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mr-auto-s { margin-right: auto; }
+  .ml-auto-s { margin-left:  auto; }
+}
+
 @media (--breakpoint-medium){
   .center-m {
     margin-right: auto;
@@ -47,4 +58,13 @@
   }
   .mr-auto-l { margin-right: auto; }
   .ml-auto-l { margin-left:  auto; }
+}
+
+@media (--breakpoint-not-large){
+  .center-nl {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mr-auto-nl { margin-right: auto; }
+  .ml-auto-nl { margin-left:  auto; }
 }

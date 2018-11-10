@@ -4,8 +4,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -21,6 +23,13 @@
   .v-btm-ns      { vertical-align: bottom; }
 }
 
+@media (--breakpoint-small) {
+  .v-base-s     { vertical-align: baseline; }
+  .v-mid-s      { vertical-align: middle; }
+  .v-top-s      { vertical-align: top; }
+  .v-btm-s      { vertical-align: bottom; }
+}
+
 @media (--breakpoint-medium) {
   .v-base-m     { vertical-align: baseline; }
   .v-mid-m      { vertical-align: middle; }
@@ -33,4 +42,11 @@
   .v-mid-l      { vertical-align: middle; }
   .v-top-l      { vertical-align: top; }
   .v-btm-l      { vertical-align: bottom; }
+}
+
+@media (--breakpoint-not-large) {
+  .v-base-nl     { vertical-align: baseline; }
+  .v-mid-nl      { vertical-align: middle; }
+  .v-top-nl      { vertical-align: top; }
+  .v-btm-nl      { vertical-align: bottom; }
 }

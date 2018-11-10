@@ -5,8 +5,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -71,6 +73,31 @@
   }
 }
 
+@media (--breakpoint-small) {
+  .measure-s  {
+    max-width: 30em;
+  }
+  .measure-wide-s {
+    max-width: 34em;
+  }
+  .measure-narrow-s {
+    max-width: 20em;
+  }
+  .indent-s {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .small-caps-s {
+    font-variant: small-caps;
+  }
+  .truncate-s {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 @media (--breakpoint-medium) {
   .measure-m {
     max-width: 30em;
@@ -115,6 +142,31 @@
     font-variant: small-caps;
   }
   .truncate-l {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (--breakpoint-not-large) {
+  .measure-nl {
+    max-width: 30em;
+  }
+  .measure-wide-nl {
+    max-width: 34em;
+  }
+  .measure-narrow-nl {
+    max-width: 20em;
+  }
+  .indent-nl {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .small-caps-nl {
+    font-variant: small-caps;
+  }
+  .truncate-nl {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

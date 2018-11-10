@@ -4,8 +4,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -31,6 +33,15 @@
   }
 }
 
+@media (--breakpoint-small) {
+  .clip-s {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
 @media (--breakpoint-medium) {
   .clip-m {
     position: fixed !important;
@@ -49,3 +60,11 @@
   }
 }
 
+@media (--breakpoint-not-large) {
+  .clip-nl {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
