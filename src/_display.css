@@ -123,7 +123,7 @@
   }
 }
 
-@media (--breakpoint-large) {
+@media (--breakpoint-not-large) {
   .dn-nl {              display: none; }
   .di-nl {              display: inline; }
   .db-nl {              display: block; }
