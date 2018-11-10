@@ -4,8 +4,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -20,6 +22,12 @@
   .pre-ns { white-space: pre; }
 }
 
+@media (--breakpoint-small) {
+  .ws-normal-s { white-space: normal; }
+  .nowrap-s { white-space: nowrap; }
+  .pre-s { white-space: pre; }
+}
+
 @media (--breakpoint-medium) {
   .ws-normal-m { white-space: normal; }
   .nowrap-m { white-space: nowrap; }
@@ -32,3 +40,8 @@
   .pre-l { white-space: pre; }
 }
 
+@media (--breakpoint-not-large) {
+  .ws-normal-nl { white-space: normal; }
+  .nowrap-nl { white-space: nowrap; }
+  .pre-nl { white-space: pre; }
+}

@@ -35,8 +35,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -92,6 +94,31 @@
   .w-auto-ns { width: auto; }
 }
 
+@media (--breakpoint-small) {
+  .w1-s {  width: 1rem; }
+  .w2-s {  width: 2rem; }
+  .w3-s {  width: 4rem; }
+  .w4-s {  width: 8rem; }
+  .w5-s {  width: 16rem; }
+  .w-10-s { width:  10%; }
+  .w-20-s { width:  20%; }
+  .w-25-s { width:  25%; }
+  .w-30-s { width:  30%; }
+  .w-33-s { width:  33%; }
+  .w-34-s { width:  34%; }
+  .w-40-s { width:  40%; }
+  .w-50-s { width:  50%; }
+  .w-60-s { width:  60%; }
+  .w-70-s { width:  70%; }
+  .w-75-s { width:  75%; }
+  .w-80-s { width:  80%; }
+  .w-90-s { width:  90%; }
+  .w-100-s { width: 100%; }
+  .w-third-s { width: calc(100% / 3); }
+  .w-two-thirds-s { width: calc(100% / 1.5); }
+  .w-auto-s { width: auto; }
+}
+
 @media (--breakpoint-medium) {
   .w1-m {      width: 1rem; }
   .w2-m {      width: 2rem; }
@@ -141,3 +168,29 @@
   .w-two-thirds-l { width: calc(100% / 1.5); }
   .w-auto-l {    width: auto; }
 }
+
+@media (--breakpoint-not-large) {
+  .w1-nl {      width: 1rem; }
+  .w2-nl {      width: 2rem; }
+  .w3-nl {      width: 4rem; }
+  .w4-nl {      width: 8rem; }
+  .w5-nl {      width: 16rem; }
+  .w-10-nl {    width:  10%; }
+  .w-20-nl {    width:  20%; }
+  .w-25-nl {    width:  25%; }
+  .w-30-nl {    width:  30%; }
+  .w-33-nl {    width:  33%; }
+  .w-34-nl {    width:  34%; }
+  .w-40-nl {    width:  40%; }
+  .w-50-nl {    width:  50%; }
+  .w-60-nl {    width:  60%; }
+  .w-70-nl {    width:  70%; }
+  .w-75-nl {    width:  75%; }
+  .w-80-nl {    width:  80%; }
+  .w-90-nl {    width:  90%; }
+  .w-100-nl {   width: 100%; }
+  .w-third-nl { width: calc(100% / 3); }
+  .w-two-thirds-nl { width: calc(100% / 1.5); }
+  .w-auto-nl {    width: auto; }
+}
+

@@ -7,8 +7,10 @@
 
    Media Query Extensions:
      -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
+     -nl = not-large
 
 */
 
@@ -22,6 +24,12 @@
   .word-nowrap-ns { word-break: keep-all; }
 }
 
+@media (--breakpoint-small) {
+  .word-normal-s { word-break: normal; }
+  .word-wrap-s { word-break: break-all; }
+  .word-nowrap-s { word-break: keep-all; }
+}
+
 @media (--breakpoint-medium) {
   .word-normal-m { word-break: normal; }
   .word-wrap-m { word-break: break-all; }
@@ -32,5 +40,11 @@
   .word-normal-l { word-break: normal; }
   .word-wrap-l { word-break: break-all; }
   .word-nowrap-l { word-break: keep-all; }
+}
+
+@media (--breakpoint-not-large) {
+  .word-normal-nl { word-break: normal; }
+  .word-wrap-nl { word-break: break-all; }
+  .word-nowrap-nl { word-break: keep-all; }
 }
 
