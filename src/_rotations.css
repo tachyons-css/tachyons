@@ -22,6 +22,16 @@
   .rotate-315-ns { transform: rotate(315deg); }
 }
 
+@media (--breakpoint-small){
+  .rotate-45-s { transform: rotate(45deg); }
+  .rotate-90-s { transform: rotate(90deg); }
+  .rotate-135-s { transform: rotate(135deg); }
+  .rotate-180-s { transform: rotate(180deg); }
+  .rotate-225-s { transform: rotate(225deg); }
+  .rotate-270-s { transform: rotate(270deg); }
+  .rotate-315-s { transform: rotate(315deg); }
+}
+
 @media (--breakpoint-medium){
   .rotate-45-m { transform: rotate(45deg); }
   .rotate-90-m { transform: rotate(90deg); }
@@ -40,4 +50,14 @@
   .rotate-225-l { transform: rotate(225deg); }
   .rotate-270-l { transform: rotate(270deg); }
   .rotate-315-l { transform: rotate(315deg); }
+}
+
+@media (--breakpoint-not-large){
+  .rotate-45-nl { transform: rotate(45deg); }
+  .rotate-90-nl { transform: rotate(90deg); }
+  .rotate-135-nl { transform: rotate(135deg); }
+  .rotate-180-nl { transform: rotate(180deg); }
+  .rotate-225-nl { transform: rotate(225deg); }
+  .rotate-270-nl { transform: rotate(270deg); }
+  .rotate-315-nl { transform: rotate(315deg); }
 }

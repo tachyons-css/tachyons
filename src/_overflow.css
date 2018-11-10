@@ -4,8 +4,10 @@
 
     Media Query Extensions:
       -ns = not-small
+      -s  = small
       -m  = medium
       -l  = large
+      -nl = not-large
 
  */
 
@@ -40,6 +42,22 @@
   .overflow-y-auto-ns { overflow-y: auto; }
 }
 
+@media (--breakpoint-small) {
+  .overflow-visible-s { overflow: visible; }
+  .overflow-hidden-s { overflow: hidden; }
+  .overflow-scroll-s { overflow: scroll; }
+  .overflow-auto-s { overflow: auto; }
+  .overflow-x-visible-s { overflow-x: visible; }
+  .overflow-x-hidden-s { overflow-x: hidden; }
+  .overflow-x-scroll-s { overflow-x: scroll; }
+  .overflow-x-auto-s { overflow-x: auto; }
+
+  .overflow-y-visible-s { overflow-y: visible; }
+  .overflow-y-hidden-s { overflow-y: hidden; }
+  .overflow-y-scroll-s { overflow-y: scroll; }
+  .overflow-y-auto-s { overflow-y: auto; }
+}
+
 @media (--breakpoint-medium) {
   .overflow-visible-m { overflow: visible; }
   .overflow-hidden-m { overflow: hidden; }
@@ -72,4 +90,21 @@
   .overflow-y-hidden-l { overflow-y: hidden; }
   .overflow-y-scroll-l { overflow-y: scroll; }
   .overflow-y-auto-l { overflow-y: auto; }
+}
+
+@media (--breakpoint-not-large) {
+  .overflow-visible-nl { overflow: visible; }
+  .overflow-hidden-nl { overflow: hidden; }
+  .overflow-scroll-nl { overflow: scroll; }
+  .overflow-auto-nl { overflow: auto; }
+
+  .overflow-x-visible-nl { overflow-x: visible; }
+  .overflow-x-hidden-nl { overflow-x: hidden; }
+  .overflow-x-scroll-nl { overflow-x: scroll; }
+  .overflow-x-auto-nl { overflow-x: auto; }
+
+  .overflow-y-visible-nl { overflow-y: visible; }
+  .overflow-y-hidden-nl { overflow-y: hidden; }
+  .overflow-y-scroll-nl { overflow-y: scroll; }
+  .overflow-y-auto-nl { overflow-y: auto; }
 }
