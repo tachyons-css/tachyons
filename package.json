@@ -27,7 +27,7 @@
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:packages": "node build && lerna run build",
     "build:watch": "watch \"npm run build\" ./src/",
-    "mutations": "immutable-css src/tachyons.css --strict"
+    "mutations": "immutable-css src/tachyons.css"
   },
   "devDependencies": {
     "@compositor/kit": "^1.0.47",

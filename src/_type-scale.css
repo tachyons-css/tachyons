@@ -12,14 +12,15 @@ http://tachyons.io/docs/typography/scale/
 
 ### Modifiers
 
-- 1 = 1st step in size scale
-- 2 = 2nd step in size scale
-- 3 = 3rd step in size scale
-- 4 = 4th step in size scale
-- 5 = 5th step in size scale
-- 6 = 6th step in size scale
-- 7 = 7th step in size scale
-- 8 = 8th step in size scale
+- 1 = 1st step back in size scale
+- 2 = 2nd step back in size scale
+- 3 = 3rd step back in size scale
+- 4 = 4th step back in size scale
+- 5 = 5th step back in size scale
+- 6 = 6th step back in size scale
+- 7 = 7th step back in size scale
+- 8 = 8th step back in size scale
+- 0 = Extra large
 
 ### Media Query Extensions
 

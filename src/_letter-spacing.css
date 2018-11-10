@@ -8,7 +8,7 @@ http://tachyons.io/docs/typography/tracking/
 
 ### Base
 
-- ls
+- tracked
 
 ### Modifiers
 
@@ -23,24 +23,24 @@ http://tachyons.io/docs/typography/tracking/
 - `-l` = large
 */
 
-.ls1 { letter-spacing: -.05em; }
-.ls2 { letter-spacing:  .1em; }
-.ls3 { letter-spacing:  .25em; }
+.tracked-tight { letter-spacing: -.05em; }
+.tracked       { letter-spacing:  .1em; }
+.tracked-mega  { letter-spacing:  .25em; }
 
 @media (--breakpoint-small) {
-  .ls1-s { letter-spacing: -.05em; }
-  .ls2-s { letter-spacing:  .1em; }
-  .ls3-s { letter-spacing:  .25em; }
+  .tracked-tight-s { letter-spacing: -.05em; }
+  .tracked-s       { letter-spacing:  .1em; }
+  .tracked-mega-s  { letter-spacing:  .25em; }
 }
 
 @media (--breakpoint-medium) {
-  .ls1-m { letter-spacing: -.05em; }
-  .ls2-m { letter-spacing:  .1em; }
-  .ls3-m { letter-spacing:  .25em; }
+  .tracked-tight-m { letter-spacing: -.05em; }
+  .tracked-m       { letter-spacing:  .1em; }
+  .tracked-mega-m  { letter-spacing:  .25em; }
 }
 
 @media (--breakpoint-large) {
-  .ls1-l { letter-spacing: -.05em; }
-  .ls2-l { letter-spacing:  .1em; }
-  .ls3-l { letter-spacing:  .25em; }
+  .tracked-tight-l { letter-spacing: -.05em; }
+  .tracked-l       { letter-spacing:  .1em; }
+  .tracked-mega-l  { letter-spacing:  .25em; }
 }

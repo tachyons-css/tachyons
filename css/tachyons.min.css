@@ -669,6 +669,18 @@ http://nicolasgallagher.com/micro-clearfix-hack/
 .cn { clear: none; }
 /*!!!
 
+# Direction
+
+Set direction of text, tables and horizontal overflow.
+
+### Docs
+
+https://tachyons.io/docs/layout/direction/
+*/
+.ltr { direction: ltr; }
+.rtl { direction: rtl; }
+/*!!!
+
 # DISPLAY
 
 ### Docs
@@ -995,7 +1007,7 @@ http://tachyons.io/docs/typography/tracking/
 
 ### Base
 
-- ls
+- tracked
 
 ### Modifiers
 
@@ -1009,9 +1021,9 @@ http://tachyons.io/docs/typography/tracking/
 - `-m` = medium
 - `-l` = large
 */
-.ls1 { letter-spacing: -.05em; }
-.ls2 { letter-spacing: .1em; }
-.ls3 { letter-spacing: .25em; }
+.tracked-tight { letter-spacing: -.05em; }
+.tracked { letter-spacing: .1em; }
+.tracked-mega { letter-spacing: .25em; }
 /*!!!
 
 # LINE HEIGHT / LEADING
@@ -2546,14 +2558,15 @@ http://tachyons.io/docs/typography/scale/
 
 ### Modifiers
 
-- 1 = 1st step in size scale
-- 2 = 2nd step in size scale
-- 3 = 3rd step in size scale
-- 4 = 4th step in size scale
-- 5 = 5th step in size scale
-- 6 = 6th step in size scale
-- 7 = 7th step in size scale
-- 8 = 8th step in size scale
+- 1 = 1st step back in size scale
+- 2 = 2nd step back in size scale
+- 3 = 3rd step back in size scale
+- 4 = 4th step back in size scale
+- 5 = 5th step back in size scale
+- 6 = 6th step back in size scale
+- 7 = 7th step back in size scale
+- 8 = 8th step back in size scale
+- 0 = Extra large
 
 ### Media Query Extensions
 
@@ -3046,6 +3059,8 @@ http://tachyons.io/docs/debug-grid/
  .cr-s { clear: right; }
  .cb-s { clear: both; }
  .cn-s { clear: none; }
+ .ltr-s { direction: ltr; }
+ .rtl-s { direction: rtl; }
  .dn-s { display: none; }
  .di-s { display: inline; }
  .db-s { display: block; }
@@ -3135,9 +3150,9 @@ http://tachyons.io/docs/debug-grid/
  .min-vh-100-s { min-height: 100vh; }
  .h-auto-s { height: auto; }
  .h-inherit-s { height: inherit; }
- .ls1-s { letter-spacing: -.05em; }
- .ls2-s { letter-spacing: .1em; }
- .ls3-s { letter-spacing: .25em; }
+ .tracked-tight-s { letter-spacing: -.05em; }
+ .tracked-s { letter-spacing: .1em; }
+ .tracked-mega-s { letter-spacing: .25em; }
  .lh-solid-s { line-height: 1; }
  .lh-title-s { line-height: 1.25; }
  .lh-copy-s { line-height: 1.5; }
@@ -3469,6 +3484,8 @@ http://tachyons.io/docs/debug-grid/
  .cr-m { clear: right; }
  .cb-m { clear: both; }
  .cn-m { clear: none; }
+ .ltr-m { direction: ltr; }
+ .rtl-m { direction: rtl; }
  .dn-m { display: none; }
  .di-m { display: inline; }
  .db-m { display: block; }
@@ -3561,9 +3578,9 @@ http://tachyons.io/docs/debug-grid/
  .min-vh-100-m { min-height: 100vh; }
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
- .ls1-m { letter-spacing: -.05em; }
- .ls2-m { letter-spacing: .1em; }
- .ls3-m { letter-spacing: .25em; }
+ .tracked-tight-m { letter-spacing: -.05em; }
+ .tracked-m { letter-spacing: .1em; }
+ .tracked-mega-m { letter-spacing: .25em; }
  .lh-solid-m { line-height: 1; }
  .lh-title-m { line-height: 1.25; }
  .lh-copy-m { line-height: 1.5; }
@@ -3895,6 +3912,8 @@ http://tachyons.io/docs/debug-grid/
  .cr-l { clear: right; }
  .cb-l { clear: both; }
  .cn-l { clear: none; }
+ .ltr-l { direction: ltr; }
+ .rtl-l { direction: rtl; }
  .dn-l { display: none; }
  .di-l { display: inline; }
  .db-l { display: block; }
@@ -3984,9 +4003,9 @@ http://tachyons.io/docs/debug-grid/
  .min-vh-100-l { min-height: 100vh; }
  .h-auto-l { height: auto; }
  .h-inherit-l { height: inherit; }
- .ls1-l { letter-spacing: -.05em; }
- .ls2-l { letter-spacing: .1em; }
- .ls3-l { letter-spacing: .25em; }
+ .tracked-tight-l { letter-spacing: -.05em; }
+ .tracked-l { letter-spacing: .1em; }
+ .tracked-mega-l { letter-spacing: .25em; }
  .lh-solid-l { line-height: 1; }
  .lh-title-l { line-height: 1.25; }
  .lh-copy-l { line-height: 1.5; }
