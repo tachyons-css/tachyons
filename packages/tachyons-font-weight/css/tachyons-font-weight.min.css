@@ -25,12 +25,11 @@ http://tachyons.io/docs/typography/font-weight/
 ### Literal Values
 
 - b = bold
-- normal = normal
 
 ### Media Query Extensions
 
 - `-s` = small
 - `-m` = medium
 - `-l` = large
-*/.normal{font-weight:400}.b{font-weight:700}.fw1{font-weight:100}.fw2{font-weight:200}.fw3{font-weight:300}.fw4{font-weight:400}.fw5{font-weight:500}.fw6{font-weight:600}.fw7{font-weight:700}.fw8{font-weight:800}.fw9{font-weight:900}@media screen and (min-width:30em){.normal-s{font-weight:400}.b-s{font-weight:700}.fw1-s{font-weight:100}.fw2-s{font-weight:200}.fw3-s{font-weight:300}.fw4-s{font-weight:400}.fw5-s{font-weight:500}.fw6-s{font-weight:600}.fw7-s{font-weight:700}.fw8-s{font-weight:800}.fw9-s{font-weight:900}}@media screen and (min-width:48em){.normal-m{font-weight:400}.b-m{font-weight:700}.fw1-m{font-weight:100}.fw2-m{font-weight:200}.fw3-m{font-weight:300}.fw4-m{font-weight:400}.fw5-m{font-weight:500}.fw6-m{font-weight:600}.fw7-m{font-weight:700}.fw8-m{font-weight:800}.fw9-m{font-weight:900}}@media screen and (min-width:60em){.normal-l{font-weight:400}.b-l{font-weight:700}.fw1-l{font-weight:100}.fw2-l{font-weight:200}.fw3-l{font-weight:300}.fw4-l{font-weight:400}.fw5-l{font-weight:500}.fw6-l{font-weight:600}.fw7-l{font-weight:700}.fw8-l{font-weight:800}.fw9-l{font-weight:900}}
+*/.b{font-weight:700}.fw1{font-weight:100}.fw2{font-weight:200}.fw3{font-weight:300}.fw4{font-weight:400}.fw5{font-weight:500}.fw6{font-weight:600}.fw7{font-weight:700}.fw8{font-weight:800}.fw9{font-weight:900}@media screen and (min-width:30em){.b-s{font-weight:700}.fw1-s{font-weight:100}.fw2-s{font-weight:200}.fw3-s{font-weight:300}.fw4-s{font-weight:400}.fw5-s{font-weight:500}.fw6-s{font-weight:600}.fw7-s{font-weight:700}.fw8-s{font-weight:800}.fw9-s{font-weight:900}}@media screen and (min-width:48em){.b-m{font-weight:700}.fw1-m{font-weight:100}.fw2-m{font-weight:200}.fw3-m{font-weight:300}.fw4-m{font-weight:400}.fw5-m{font-weight:500}.fw6-m{font-weight:600}.fw7-m{font-weight:700}.fw8-m{font-weight:800}.fw9-m{font-weight:900}}@media screen and (min-width:60em){.b-l{font-weight:700}.fw1-l{font-weight:100}.fw2-l{font-weight:200}.fw3-l{font-weight:300}.fw4-l{font-weight:400}.fw5-l{font-weight:500}.fw6-l{font-weight:600}.fw7-l{font-weight:700}.fw8-l{font-weight:800}.fw9-l{font-weight:900}}
 

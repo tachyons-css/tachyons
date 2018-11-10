@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-309 | 12 | 12
+328 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -86,10 +86,11 @@ http://tachyons.io/docs/typography/tracking/
 
 - tracked
 
-### Literal Values
+### Modifiers
 
-- `-tight`
-- `-mega`
+- 1 = 1st step in spacing scale
+- 2 = 2nd step in spacing scale
+- 3 = 3rd step in spacing scale
 
 ### Media Query Extensions
 
@@ -97,22 +98,22 @@ http://tachyons.io/docs/typography/tracking/
 - `-m` = medium
 - `-l` = large
 */
-.tracked { letter-spacing: .1em; }
 .tracked-tight { letter-spacing: -.05em; }
+.tracked { letter-spacing: .1em; }
 .tracked-mega { letter-spacing: .25em; }
 @media screen and (min-width: 30em) {
- .tracked-s { letter-spacing: .1em; }
  .tracked-tight-s { letter-spacing: -.05em; }
+ .tracked-s { letter-spacing: .1em; }
  .tracked-mega-s { letter-spacing: .25em; }
 }
 @media screen and (min-width: 48em) {
- .tracked-m { letter-spacing: .1em; }
  .tracked-tight-m { letter-spacing: -.05em; }
+ .tracked-m { letter-spacing: .1em; }
  .tracked-mega-m { letter-spacing: .25em; }
 }
 @media screen and (min-width: 60em) {
- .tracked-l { letter-spacing: .1em; }
  .tracked-tight-l { letter-spacing: -.05em; }
+ .tracked-l { letter-spacing: .1em; }
  .tracked-mega-l { letter-spacing: .25em; }
 }
 ```

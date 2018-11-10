@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-873 | 52 | 84
+877 | 52 | 84
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -79,8 +79,9 @@ Running `$ npm start` will process the source css and place the built css in the
 # ASPECT RATIOS
 
 This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
-Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
+Wrap the outer element in aspect-ratio and then extend it with the desired ratio.
 Make sure there are no height and width attributes on the embedded media.
+
 Adapted from: https://github.com/suitcss/components-flex-embed
 
 ### Docs
@@ -89,7 +90,7 @@ https://tachyons.io/docs/layout/aspect-ratios
 
 ### Base
 
-- aspect-ratio = aspect ratio
+- `aspect-ratio` = aspect ratio
 
 ### Modifiers
 

@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-479 | 44 | 44
+452 | 40 | 40
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -101,7 +101,6 @@ http://tachyons.io/docs/typography/font-weight/
 ### Literal Values
 
 - b = bold
-- normal = normal
 
 ### Media Query Extensions
 
@@ -109,7 +108,6 @@ http://tachyons.io/docs/typography/font-weight/
 - `-m` = medium
 - `-l` = large
 */
-.normal { font-weight: normal; }
 .b { font-weight: bold; }
 .fw1 { font-weight: 100; }
 .fw2 { font-weight: 200; }
@@ -121,7 +119,6 @@ http://tachyons.io/docs/typography/font-weight/
 .fw8 { font-weight: 800; }
 .fw9 { font-weight: 900; }
 @media screen and (min-width: 30em) {
- .normal-s { font-weight: normal; }
  .b-s { font-weight: bold; }
  .fw1-s { font-weight: 100; }
  .fw2-s { font-weight: 200; }
@@ -134,7 +131,6 @@ http://tachyons.io/docs/typography/font-weight/
  .fw9-s { font-weight: 900; }
 }
 @media screen and (min-width: 48em) {
- .normal-m { font-weight: normal; }
  .b-m { font-weight: bold; }
  .fw1-m { font-weight: 100; }
  .fw2-m { font-weight: 200; }
@@ -147,7 +143,6 @@ http://tachyons.io/docs/typography/font-weight/
  .fw9-m { font-weight: 900; }
 }
 @media screen and (min-width: 60em) {
- .normal-l { font-weight: normal; }
  .b-l { font-weight: bold; }
  .fw1-l { font-weight: 100; }
  .fw2-l { font-weight: 200; }

@@ -27,18 +27,16 @@
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:packages": "node build && lerna run build",
     "build:watch": "watch \"npm run build\" ./src/",
-    "mutations": "immutable-css src/tachyons.css"
+    "test": "immutable-css src/tachyons.css"
   },
   "devDependencies": {
-    "@compositor/kit": "^1.0.47",
-    "@compositor/x0": "^6.0.2",
-    "css-table": "^0.1.0",
+    "css-table": "^7.0.1-1",
     "globby": "^8.0.1",
     "immutable-css-cli": "^1.1.1",
-    "lerna": "^2.9.1",
+    "lerna": "^3.4.3",
     "postcss-get-variables": "^1.0.2",
     "strip-css-comments": "^3.0.0",
-    "tachyons-cli": "^1.3.0",
+    "tachyons-cli": "^1.3.2",
     "watch": "^1.0.2"
   },
   "keywords": [

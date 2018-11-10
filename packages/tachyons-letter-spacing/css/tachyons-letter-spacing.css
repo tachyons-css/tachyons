@@ -10,10 +10,11 @@ http://tachyons.io/docs/typography/tracking/
 
 - tracked
 
-### Literal Values
+### Modifiers
 
-- `-tight`
-- `-mega`
+- 1 = 1st step in spacing scale
+- 2 = 2nd step in spacing scale
+- 3 = 3rd step in spacing scale
 
 ### Media Query Extensions
 
@@ -21,22 +22,22 @@ http://tachyons.io/docs/typography/tracking/
 - `-m` = medium
 - `-l` = large
 */
-.tracked { letter-spacing: .1em; }
 .tracked-tight { letter-spacing: -.05em; }
+.tracked { letter-spacing: .1em; }
 .tracked-mega { letter-spacing: .25em; }
 @media screen and (min-width: 30em) {
- .tracked-s { letter-spacing: .1em; }
  .tracked-tight-s { letter-spacing: -.05em; }
+ .tracked-s { letter-spacing: .1em; }
  .tracked-mega-s { letter-spacing: .25em; }
 }
 @media screen and (min-width: 48em) {
- .tracked-m { letter-spacing: .1em; }
  .tracked-tight-m { letter-spacing: -.05em; }
+ .tracked-m { letter-spacing: .1em; }
  .tracked-mega-m { letter-spacing: .25em; }
 }
 @media screen and (min-width: 60em) {
- .tracked-l { letter-spacing: .1em; }
  .tracked-tight-l { letter-spacing: -.05em; }
+ .tracked-l { letter-spacing: .1em; }
  .tracked-mega-l { letter-spacing: .25em; }
 }
 

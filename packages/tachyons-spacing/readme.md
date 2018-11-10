@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-2327 | 448 | 576
+2345 | 464 | 592
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -91,7 +91,6 @@ http://tachyons.io/docs/layout/spacing/
 
 ### Modifiers
 
-- a = all
 - h = horizontal
 - v = vertical
 - t = top
@@ -115,14 +114,14 @@ http://tachyons.io/docs/layout/spacing/
 - `-l` = large
 */
 /* Variables */
-.pa0 { padding: 0; }
-.pa1 { padding: .25rem; }
-.pa2 { padding: .5rem; }
-.pa3 { padding: 1rem; }
-.pa4 { padding: 2rem; }
-.pa5 { padding: 4rem; }
-.pa6 { padding: 8rem; }
-.pa7 { padding: 16rem; }
+.p0 { padding: 0; }
+.p1 { padding: .25rem; }
+.p2 { padding: .5rem; }
+.p3 { padding: 1rem; }
+.p4 { padding: 2rem; }
+.p5 { padding: 4rem; }
+.p6 { padding: 8rem; }
+.p7 { padding: 16rem; }
 .pl0 { padding-left: 0; }
 .pl1 { padding-left: .25rem; }
 .pl2 { padding-left: .5rem; }
@@ -171,14 +170,18 @@ http://tachyons.io/docs/layout/spacing/
 .ph5 { padding-left: 4rem; padding-right: 4rem; }
 .ph6 { padding-left: 8rem; padding-right: 8rem; }
 .ph7 { padding-left: 16rem; padding-right: 16rem; }
-.ma0 { margin: 0; }
-.ma1 { margin: .25rem; }
-.ma2 { margin: .5rem; }
-.ma3 { margin: 1rem; }
-.ma4 { margin: 2rem; }
-.ma5 { margin: 4rem; }
-.ma6 { margin: 8rem; }
-.ma7 { margin: 16rem; }
+.mt-auto { margin-top: auto; }
+.mr-auto { margin-right: auto; }
+.mb-auto { margin-bottom: auto; }
+.ml-auto { margin-left: auto; }
+.m0 { margin: 0; }
+.m1 { margin: .25rem; }
+.m2 { margin: .5rem; }
+.m3 { margin: 1rem; }
+.m4 { margin: 2rem; }
+.m5 { margin: 4rem; }
+.m6 { margin: 8rem; }
+.m7 { margin: 16rem; }
 .ml0 { margin-left: 0; }
 .ml1 { margin-left: .25rem; }
 .ml2 { margin-left: .5rem; }
@@ -228,18 +231,18 @@ http://tachyons.io/docs/layout/spacing/
 .mh6 { margin-left: 8rem; margin-right: 8rem; }
 .mh7 { margin-left: 16rem; margin-right: 16rem; }
 @media screen and (min-width: 30em) {
- .pa0-s { padding: 0; }
- .pa1-s { padding: .25rem; }
- .pa2-s { padding: .5rem; }
- .pa3-s { padding: undefined; }
- .pa4-s { padding: 2rem; }
- .pa5-s { padding: 4rem; }
- .pa6-s { padding: 8rem; }
- .pa7-s { padding: 16rem; }
+ .p0-s { padding: 0; }
+ .p1-s { padding: .25rem; }
+ .p2-s { padding: .5rem; }
+ .p3-s { padding: 1rem; }
+ .p4-s { padding: 2rem; }
+ .p5-s { padding: 4rem; }
+ .p6-s { padding: 8rem; }
+ .p7-s { padding: 16rem; }
  .pl0-s { padding-left: 0; }
  .pl1-s { padding-left: .25rem; }
  .pl2-s { padding-left: .5rem; }
- .pl3-s { padding-left: undefined; }
+ .pl3-s { padding-left: 1rem; }
  .pl4-s { padding-left: 2rem; }
  .pl5-s { padding-left: 4rem; }
  .pl6-s { padding-left: 8rem; }
@@ -247,7 +250,7 @@ http://tachyons.io/docs/layout/spacing/
  .pr0-s { padding-right: 0; }
  .pr1-s { padding-right: .25rem; }
  .pr2-s { padding-right: .5rem; }
- .pr3-s { padding-right: undefined; }
+ .pr3-s { padding-right: 1rem; }
  .pr4-s { padding-right: 2rem; }
  .pr5-s { padding-right: 4rem; }
  .pr6-s { padding-right: 8rem; }
@@ -255,7 +258,7 @@ http://tachyons.io/docs/layout/spacing/
  .pb0-s { padding-bottom: 0; }
  .pb1-s { padding-bottom: .25rem; }
  .pb2-s { padding-bottom: .5rem; }
- .pb3-s { padding-bottom: undefined; }
+ .pb3-s { padding-bottom: 1rem; }
  .pb4-s { padding-bottom: 2rem; }
  .pb5-s { padding-bottom: 4rem; }
  .pb6-s { padding-bottom: 8rem; }
@@ -263,7 +266,7 @@ http://tachyons.io/docs/layout/spacing/
  .pt0-s { padding-top: 0; }
  .pt1-s { padding-top: .25rem; }
  .pt2-s { padding-top: .5rem; }
- .pt3-s { padding-top: undefined; }
+ .pt3-s { padding-top: 1rem; }
  .pt4-s { padding-top: 2rem; }
  .pt5-s { padding-top: 4rem; }
  .pt6-s { padding-top: 8rem; }
@@ -271,7 +274,7 @@ http://tachyons.io/docs/layout/spacing/
  .pv0-s { padding-top: 0; padding-bottom: 0; }
  .pv1-s { padding-top: .25rem; padding-bottom: .25rem; }
  .pv2-s { padding-top: .5rem; padding-bottom: .5rem; }
- .pv3-s { padding-top: undefined; padding-bottom: undefined; }
+ .pv3-s { padding-top: 1rem; padding-bottom: 1rem; }
  .pv4-s { padding-top: 2rem; padding-bottom: 2rem; }
  .pv5-s { padding-top: 4rem; padding-bottom: 4rem; }
  .pv6-s { padding-top: 8rem; padding-bottom: 8rem; }
@@ -279,23 +282,27 @@ http://tachyons.io/docs/layout/spacing/
  .ph0-s { padding-left: 0; padding-right: 0; }
  .ph1-s { padding-left: .25rem; padding-right: .25rem; }
  .ph2-s { padding-left: .5rem; padding-right: .5rem; }
- .ph3-s { padding-left: undefined; padding-right: undefined; }
+ .ph3-s { padding-left: 1rem; padding-right: 1rem; }
  .ph4-s { padding-left: 2rem; padding-right: 2rem; }
  .ph5-s { padding-left: 4rem; padding-right: 4rem; }
  .ph6-s { padding-left: 8rem; padding-right: 8rem; }
  .ph7-s { padding-left: 16rem; padding-right: 16rem; }
- .ma0-s { margin: 0; }
- .ma1-s { margin: .25rem; }
- .ma2-s { margin: .5rem; }
- .ma3-s { margin: undefined; }
- .ma4-s { margin: 2rem; }
- .ma5-s { margin: 4rem; }
- .ma6-s { margin: 8rem; }
- .ma7-s { margin: 16rem; }
+ .mt-auto-s { margin-top: auto; }
+ .mr-auto-s { margin-right: auto; }
+ .mb-auto-s { margin-bottom: auto; }
+ .ml-auto-s { margin-left: auto; }
+ .m0-s { margin: 0; }
+ .m1-s { margin: .25rem; }
+ .m2-s { margin: .5rem; }
+ .m3-s { margin: 1rem; }
+ .m4-s { margin: 2rem; }
+ .m5-s { margin: 4rem; }
+ .m6-s { margin: 8rem; }
+ .m7-s { margin: 16rem; }
  .ml0-s { margin-left: 0; }
  .ml1-s { margin-left: .25rem; }
  .ml2-s { margin-left: .5rem; }
- .ml3-s { margin-left: undefined; }
+ .ml3-s { margin-left: 1rem; }
  .ml4-s { margin-left: 2rem; }
  .ml5-s { margin-left: 4rem; }
  .ml6-s { margin-left: 8rem; }
@@ -303,7 +310,7 @@ http://tachyons.io/docs/layout/spacing/
  .mr0-s { margin-right: 0; }
  .mr1-s { margin-right: .25rem; }
  .mr2-s { margin-right: .5rem; }
- .mr3-s { margin-right: undefined; }
+ .mr3-s { margin-right: 1rem; }
  .mr4-s { margin-right: 2rem; }
  .mr5-s { margin-right: 4rem; }
  .mr6-s { margin-right: 8rem; }
@@ -311,7 +318,7 @@ http://tachyons.io/docs/layout/spacing/
  .mb0-s { margin-bottom: 0; }
  .mb1-s { margin-bottom: .25rem; }
  .mb2-s { margin-bottom: .5rem; }
- .mb3-s { margin-bottom: undefined; }
+ .mb3-s { margin-bottom: 1rem; }
  .mb4-s { margin-bottom: 2rem; }
  .mb5-s { margin-bottom: 4rem; }
  .mb6-s { margin-bottom: 8rem; }
@@ -319,7 +326,7 @@ http://tachyons.io/docs/layout/spacing/
  .mt0-s { margin-top: 0; }
  .mt1-s { margin-top: .25rem; }
  .mt2-s { margin-top: .5rem; }
- .mt3-s { margin-top: undefined; }
+ .mt3-s { margin-top: 1rem; }
  .mt4-s { margin-top: 2rem; }
  .mt5-s { margin-top: 4rem; }
  .mt6-s { margin-top: 8rem; }
@@ -327,7 +334,7 @@ http://tachyons.io/docs/layout/spacing/
  .mv0-s { margin-top: 0; margin-bottom: 0; }
  .mv1-s { margin-top: .25rem; margin-bottom: .25rem; }
  .mv2-s { margin-top: .5rem; margin-bottom: .5rem; }
- .mv3-s { margin-top: undefined; margin-bottom: undefined; }
+ .mv3-s { margin-top: 1rem; margin-bottom: 1rem; }
  .mv4-s { margin-top: 2rem; margin-bottom: 2rem; }
  .mv5-s { margin-top: 4rem; margin-bottom: 4rem; }
  .mv6-s { margin-top: 8rem; margin-bottom: 8rem; }
@@ -335,21 +342,21 @@ http://tachyons.io/docs/layout/spacing/
  .mh0-s { margin-left: 0; margin-right: 0; }
  .mh1-s { margin-left: .25rem; margin-right: .25rem; }
  .mh2-s { margin-left: .5rem; margin-right: .5rem; }
- .mh3-s { margin-left: undefined; margin-right: undefined; }
+ .mh3-s { margin-left: 1rem; margin-right: 1rem; }
  .mh4-s { margin-left: 2rem; margin-right: 2rem; }
  .mh5-s { margin-left: 4rem; margin-right: 4rem; }
  .mh6-s { margin-left: 8rem; margin-right: 8rem; }
  .mh7-s { margin-left: 16rem; margin-right: 16rem; }
 }
 @media screen and (min-width: 48em) {
- .pa0-m { padding: 0; }
- .pa1-m { padding: .25rem; }
- .pa2-m { padding: .5rem; }
- .pa3-m { padding: 1rem; }
- .pa4-m { padding: 2rem; }
- .pa5-m { padding: 4rem; }
- .pa6-m { padding: 8rem; }
- .pa7-m { padding: 16rem; }
+ .p0-m { padding: 0; }
+ .p1-m { padding: .25rem; }
+ .p2-m { padding: .5rem; }
+ .p3-m { padding: 1rem; }
+ .p4-m { padding: 2rem; }
+ .p5-m { padding: 4rem; }
+ .p6-m { padding: 8rem; }
+ .p7-m { padding: 16rem; }
  .pl0-m { padding-left: 0; }
  .pl1-m { padding-left: .25rem; }
  .pl2-m { padding-left: .5rem; }
@@ -398,14 +405,18 @@ http://tachyons.io/docs/layout/spacing/
  .ph5-m { padding-left: 4rem; padding-right: 4rem; }
  .ph6-m { padding-left: 8rem; padding-right: 8rem; }
  .ph7-m { padding-left: 16rem; padding-right: 16rem; }
- .ma0-m { margin: 0; }
- .ma1-m { margin: .25rem; }
- .ma2-m { margin: .5rem; }
- .ma3-m { margin: 1rem; }
- .ma4-m { margin: 2rem; }
- .ma5-m { margin: 4rem; }
- .ma6-m { margin: 8rem; }
- .ma7-m { margin: 16rem; }
+ .mt-auto-m { margin-top: auto; }
+ .mr-auto-m { margin-right: auto; }
+ .mb-auto-m { margin-bottom: auto; }
+ .ml-auto-m { margin-left: auto; }
+ .m0-m { margin: 0; }
+ .m1-m { margin: .25rem; }
+ .m2-m { margin: .5rem; }
+ .m3-m { margin: 1rem; }
+ .m4-m { margin: 2rem; }
+ .m5-m { margin: 4rem; }
+ .m6-m { margin: 8rem; }
+ .m7-m { margin: 16rem; }
  .ml0-m { margin-left: 0; }
  .ml1-m { margin-left: .25rem; }
  .ml2-m { margin-left: .5rem; }
@@ -456,14 +467,14 @@ http://tachyons.io/docs/layout/spacing/
  .mh7-m { margin-left: 16rem; margin-right: 16rem; }
 }
 @media screen and (min-width: 60em) {
- .pa0-l { padding: 0; }
- .pa1-l { padding: .25rem; }
- .pa2-l { padding: .5rem; }
- .pa3-l { padding: 1rem; }
- .pa4-l { padding: 2rem; }
- .pa5-l { padding: 4rem; }
- .pa6-l { padding: 8rem; }
- .pa7-l { padding: 16rem; }
+ .p0-l { padding: 0; }
+ .p1-l { padding: .25rem; }
+ .p2-l { padding: .5rem; }
+ .p3-l { padding: 1rem; }
+ .p4-l { padding: 2rem; }
+ .p5-l { padding: 4rem; }
+ .p6-l { padding: 8rem; }
+ .p7-l { padding: 16rem; }
  .pl0-l { padding-left: 0; }
  .pl1-l { padding-left: .25rem; }
  .pl2-l { padding-left: .5rem; }
@@ -512,14 +523,18 @@ http://tachyons.io/docs/layout/spacing/
  .ph5-l { padding-left: 4rem; padding-right: 4rem; }
  .ph6-l { padding-left: 8rem; padding-right: 8rem; }
  .ph7-l { padding-left: 16rem; padding-right: 16rem; }
- .ma0-l { margin: 0; }
- .ma1-l { margin: .25rem; }
- .ma2-l { margin: .5rem; }
- .ma3-l { margin: 1rem; }
- .ma4-l { margin: 2rem; }
- .ma5-l { margin: 4rem; }
- .ma6-l { margin: 8rem; }
- .ma7-l { margin: 16rem; }
+ .mt-auto-l { margin-top: auto; }
+ .mr-auto-l { margin-right: auto; }
+ .mb-auto-l { margin-bottom: auto; }
+ .ml-auto-l { margin-left: auto; }
+ .m0-l { margin: 0; }
+ .m1-l { margin: .25rem; }
+ .m2-l { margin: .5rem; }
+ .m3-l { margin: 1rem; }
+ .m4-l { margin: 2rem; }
+ .m5-l { margin: 4rem; }
+ .m6-l { margin: 8rem; }
+ .m7-l { margin: 16rem; }
  .ml0-l { margin-left: 0; }
  .ml1-l { margin-left: .25rem; }
  .ml2-l { margin-left: .5rem; }

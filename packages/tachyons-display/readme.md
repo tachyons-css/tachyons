@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-564 | 48 | 52
+529 | 39 | 43
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -112,9 +112,6 @@ http://tachyons.io/docs/layout/display
 .dt { display: table; }
 .dtc { display: table-cell; }
 .dt-row { display: table-row; }
-.dt-row-group { display: table-row-group; }
-.dt-column { display: table-column; }
-.dt-column-group { display: table-column-group; }
 /*
   This will set table to full width and then
   all cells will be equal width
@@ -129,9 +126,6 @@ http://tachyons.io/docs/layout/display
  .dt-s { display: table; }
  .dtc-s { display: table-cell; }
  .dt-row-s { display: table-row; }
- .dt-row-group-s { display: table-row-group; }
- .dt-column-s { display: table-column; }
- .dt-column-group-s { display: table-column-group; }
  .dt--fixed-s { table-layout: fixed; width: 100%; }
 }
 @media screen and (min-width: 48em) {
@@ -157,9 +151,6 @@ http://tachyons.io/docs/layout/display
  .dt-l { display: table; }
  .dtc-l { display: table-cell; }
  .dt-row-l { display: table-row; }
- .dt-row-group-l { display: table-row-group; }
- .dt-column-l { display: table-column; }
- .dt-column-group-l { display: table-column-group; }
  .dt--fixed-l { table-layout: fixed; width: 100%; }
 }
 ```

@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-316 | 13 | 17
+282 | 5 | 9
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -94,22 +94,14 @@ Running `$ npm start` will process the source css and place the built css in the
 /* Equivalent to .overflow-y-scroll */
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
-.mr-auto { margin-right: auto; }
-.ml-auto { margin-left: auto; }
 @media screen and (min-width: 30em) {
  .center-s { margin-right: auto; margin-left: auto; }
- .mr-auto-s { margin-right: auto; }
- .ml-auto-s { margin-left: auto; }
 }
 @media screen and (min-width: 48em) {
  .center-m { margin-right: auto; margin-left: auto; }
- .mr-auto-m { margin-right: auto; }
- .ml-auto-m { margin-left: auto; }
 }
 @media screen and (min-width: 60em) {
  .center-l { margin-right: auto; margin-left: auto; }
- .mr-auto-l { margin-right: auto; }
- .ml-auto-l { margin-left: auto; }
 }
 ```
 

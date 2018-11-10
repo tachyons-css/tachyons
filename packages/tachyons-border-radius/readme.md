@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-542 | 44 | 60
+544 | 44 | 60
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -106,10 +106,10 @@ http://tachyons.io/docs/themes/border-radius/
 - `-l` = large
 */
 .br0 { border-radius: 0; }
-.br1 { border-radius: .125rem; }
-.br2 { border-radius: .25rem; }
-.br3 { border-radius: .5rem; }
-.br4 { border-radius: 1rem; }
+.br1 { border-radius: 3px; }
+.br2 { border-radius: 5px; }
+.br3 { border-radius: 9px; }
+.br4 { border-radius: 17px; }
 .br-100 { border-radius: 100%; }
 .br-pill { border-radius: 9999px; }
 .br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
@@ -118,10 +118,10 @@ http://tachyons.io/docs/themes/border-radius/
 .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 @media screen and (min-width: 30em) {
  .br0-s { border-radius: 0; }
- .br1-s { border-radius: .125rem; }
- .br2-s { border-radius: .25rem; }
- .br3-s { border-radius: .5rem; }
- .br4-s { border-radius: 1rem; }
+ .br1-s { border-radius: 3px; }
+ .br2-s { border-radius: 5px; }
+ .br3-s { border-radius: 9px; }
+ .br4-s { border-radius: 17px; }
  .br-100-s { border-radius: 100%; }
  .br-pill-s { border-radius: 9999px; }
  .br--bottom-s { border-top-left-radius: 0; border-top-right-radius: 0; }
@@ -131,10 +131,10 @@ http://tachyons.io/docs/themes/border-radius/
 }
 @media screen and (min-width: 48em) {
  .br0-m { border-radius: 0; }
- .br1-m { border-radius: .125rem; }
- .br2-m { border-radius: .25rem; }
- .br3-m { border-radius: .5rem; }
- .br4-m { border-radius: 1rem; }
+ .br1-m { border-radius: 3px; }
+ .br2-m { border-radius: 5px; }
+ .br3-m { border-radius: 9px; }
+ .br4-m { border-radius: 17px; }
  .br-100-m { border-radius: 100%; }
  .br-pill-m { border-radius: 9999px; }
  .br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
@@ -144,10 +144,10 @@ http://tachyons.io/docs/themes/border-radius/
 }
 @media screen and (min-width: 60em) {
  .br0-l { border-radius: 0; }
- .br1-l { border-radius: .125rem; }
- .br2-l { border-radius: .25rem; }
- .br3-l { border-radius: .5rem; }
- .br4-l { border-radius: 1rem; }
+ .br1-l { border-radius: 3px; }
+ .br2-l { border-radius: 5px; }
+ .br3-l { border-radius: 9px; }
+ .br4-l { border-radius: 17px; }
  .br-100-l { border-radius: 100%; }
  .br-pill-l { border-radius: 9999px; }
  .br--bottom-l { border-top-left-radius: 0; border-top-right-radius: 0; }

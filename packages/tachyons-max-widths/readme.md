@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-534 | 44 | 44
+550 | 48 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -118,8 +118,9 @@ http://tachyons.io/docs/layout/max-widths/
 .mw5 { max-width: 16rem; }
 .mw6 { max-width: 32rem; }
 .mw7 { max-width: 48rem; }
-.mw8 { max-width: 64rem; }
-.mw9 { max-width: 96rem; }
+.mw8 { max-width: 56rem; }
+.mw9 { max-width: 64rem; }
+.mw10 { max-width: 80rem; }
 /* Max Width String Properties */
 .mw-none { max-width: none; }
 @media screen and (min-width: 30em) {
@@ -131,8 +132,9 @@ http://tachyons.io/docs/layout/max-widths/
  .mw5-s { max-width: 16rem; }
  .mw6-s { max-width: 32rem; }
  .mw7-s { max-width: 48rem; }
- .mw8-s { max-width: 64rem; }
- .mw9-s { max-width: 96rem; }
+ .mw8-s { max-width: 56rem; }
+ .mw9-s { max-width: 64rem; }
+ .mw10-s { max-width: 80rem; }
  .mw-none-s { max-width: none; }
 }
 @media screen and (min-width: 48em) {
@@ -144,8 +146,9 @@ http://tachyons.io/docs/layout/max-widths/
  .mw5-m { max-width: 16rem; }
  .mw6-m { max-width: 32rem; }
  .mw7-m { max-width: 48rem; }
- .mw8-m { max-width: 64rem; }
- .mw9-m { max-width: 96rem; }
+ .mw8-m { max-width: 56rem; }
+ .mw9-m { max-width: 64rem; }
+ .mw10-m { max-width: 80rem; }
  .mw-none-m { max-width: none; }
 }
 @media screen and (min-width: 60em) {
@@ -157,8 +160,9 @@ http://tachyons.io/docs/layout/max-widths/
  .mw5-l { max-width: 16rem; }
  .mw6-l { max-width: 32rem; }
  .mw7-l { max-width: 48rem; }
- .mw8-l { max-width: 64rem; }
- .mw9-l { max-width: 96rem; }
+ .mw8-l { max-width: 56rem; }
+ .mw9-l { max-width: 64rem; }
+ .mw9-l { max-width: 80rem; }
  .mw-none-l { max-width: none; }
 }
 ```

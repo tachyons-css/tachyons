@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-782 | 88 | 88
+735 | 80 | 80
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -98,8 +98,6 @@ http://tachyons.io/docs/layout/widths/
 - -20  = literal value 20%
 - -25  = literal value 25%
 - -30  = literal value 30%
-- -33  = literal value 33%
-- -34  = literal value 34%
 - -40  = literal value 40%
 - -50  = literal value 50%
 - -60  = literal value 60%
@@ -130,8 +128,6 @@ http://tachyons.io/docs/layout/widths/
 .w-20 { width: 20%; }
 .w-25 { width: 25%; }
 .w-30 { width: 30%; }
-.w-33 { width: 33%; }
-.w-34 { width: 34%; }
 .w-40 { width: 40%; }
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
@@ -140,8 +136,8 @@ http://tachyons.io/docs/layout/widths/
 .w-80 { width: 80%; }
 .w-90 { width: 90%; }
 .w-100 { width: 100%; }
-.w-third { width: calc( 100% / 3 ); }
-.w-two-thirds { width: calc( 100% / 1.5 ); }
+.w-third { width: 33.33333%; }
+.w-two-thirds { width: 66.66667%; }
 .w-auto { width: auto; }
 @media screen and (min-width: 30em) {
  .w1-s { width: 1rem; }
@@ -153,8 +149,6 @@ http://tachyons.io/docs/layout/widths/
  .w-20-s { width: 20%; }
  .w-25-s { width: 25%; }
  .w-30-s { width: 30%; }
- .w-33-s { width: 33%; }
- .w-34-s { width: 34%; }
  .w-40-s { width: 40%; }
  .w-50-s { width: 50%; }
  .w-60-s { width: 60%; }
@@ -163,8 +157,8 @@ http://tachyons.io/docs/layout/widths/
  .w-80-s { width: 80%; }
  .w-90-s { width: 90%; }
  .w-100-s { width: 100%; }
- .w-third-s { width: calc( 100% / 3 ); }
- .w-two-thirds-s { width: calc( 100% / 1.5 ); }
+ .w-third-s { width: 33.33333%; }
+ .w-two-thirds-s { width: 66.66667%; }
  .w-auto-s { width: auto; }
 }
 @media screen and (min-width: 48em) {
@@ -177,8 +171,6 @@ http://tachyons.io/docs/layout/widths/
  .w-20-m { width: 20%; }
  .w-25-m { width: 25%; }
  .w-30-m { width: 30%; }
- .w-33-m { width: 33%; }
- .w-34-m { width: 34%; }
  .w-40-m { width: 40%; }
  .w-50-m { width: 50%; }
  .w-60-m { width: 60%; }
@@ -187,8 +179,8 @@ http://tachyons.io/docs/layout/widths/
  .w-80-m { width: 80%; }
  .w-90-m { width: 90%; }
  .w-100-m { width: 100%; }
- .w-third-m { width: calc( 100% / 3 ); }
- .w-two-thirds-m { width: calc( 100% / 1.5 ); }
+ .w-third-m { width: 33.33333%; }
+ .w-two-thirds-m { width: 66.66667%; }
  .w-auto-m { width: auto; }
 }
 @media screen and (min-width: 60em) {
@@ -201,8 +193,6 @@ http://tachyons.io/docs/layout/widths/
  .w-20-l { width: 20%; }
  .w-25-l { width: 25%; }
  .w-30-l { width: 30%; }
- .w-33-l { width: 33%; }
- .w-34-l { width: 34%; }
  .w-40-l { width: 40%; }
  .w-50-l { width: 50%; }
  .w-60-l { width: 60%; }
@@ -211,8 +201,8 @@ http://tachyons.io/docs/layout/widths/
  .w-80-l { width: 80%; }
  .w-90-l { width: 90%; }
  .w-100-l { width: 100%; }
- .w-third-l { width: calc( 100% / 3 ); }
- .w-two-thirds-l { width: calc( 100% / 1.5 ); }
+ .w-third-l { width: 33.33333%; }
+ .w-two-thirds-l { width: 66.66667%; }
  .w-auto-l { width: auto; }
 }
 ```

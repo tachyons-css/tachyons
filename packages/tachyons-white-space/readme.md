@@ -1,10 +1,10 @@
-# tachyons 5.0.0-1
+# tachyons 7.0.1-5
 
-Functional CSS for humans
+Functional css for humans
 
 ### Stats
 
-262 | 12 | 12
+248 | 12 | 12
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons@5.0.0-1/css/tachyons.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons@7.0.1-5/css/tachyons.min.css" />
 ```
 
 ##### Locally
@@ -81,8 +81,6 @@ Running `$ npm start` will process the source css and place the built css in the
 ### Base
 
 - ws-normal = white-space normal
-- nowrap = white-space nowrap
-- pre = white-space pre
 
 ### Media Query Extensions
 
@@ -91,22 +89,22 @@ Running `$ npm start` will process the source css and place the built css in the
 - `-l` = large
 */
 .ws-normal { white-space: normal; }
-.nowrap { white-space: nowrap; }
-.pre { white-space: pre; }
+.ws-nowrap { white-space: nowrap; }
+.ws-pre { white-space: pre; }
 @media screen and (min-width: 30em) {
  .ws-normal-s { white-space: normal; }
- .nowrap-s { white-space: nowrap; }
- .pre-s { white-space: pre; }
+ .ws-nowrap-s { white-space: nowrap; }
+ .ws-pre-s { white-space: pre; }
 }
 @media screen and (min-width: 48em) {
  .ws-normal-m { white-space: normal; }
- .nowrap-m { white-space: nowrap; }
- .pre-m { white-space: pre; }
+ .ws-nowrap-m { white-space: nowrap; }
+ .ws-pre-m { white-space: pre; }
 }
 @media screen and (min-width: 60em) {
  .ws-normal-l { white-space: normal; }
- .nowrap-l { white-space: nowrap; }
- .pre-l { white-space: pre; }
+ .ws-nowrap-l { white-space: nowrap; }
+ .ws-pre-l { white-space: pre; }
 }
 ```
 
