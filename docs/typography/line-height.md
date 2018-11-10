@@ -1,4 +1,4 @@
-import { BigQuote } from '../ui'
+import { BigQuote } from '../../site/ui'
 
 export const meta =  {
   title: 'Line Height / Typography / Docs / TACHYONS',
@@ -11,7 +11,7 @@ export const meta =  {
 
 **line-height** is a css property
 
-**lead** [*rhyming with red*]: 
+**lead** [*rhyming with red*]:
 Originally a strip of soft metal used for vertical spacing between lines of type. Now meaning the vertical distance from the baseline of one line to the baseline of the next. Also called **leading**.
 
 “Many people with cognitive disabilities have trouble tracking lines of text when a block of text is single spaced. Providing spacing between 1.5 to 2 allows them to start a new line more easily once they have finished the previous one.”
@@ -68,7 +68,7 @@ Line-height affects how easy it is to read a piece of text, so having a well con
 </h4>
 ```
 
-### Solid Leading (1) 
+### Solid Leading (1)
 
 ```
 <h4 class="lh-solid">Paragraph content</h4>

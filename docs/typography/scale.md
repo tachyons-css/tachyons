@@ -1,6 +1,6 @@
-import { BigQuote } from '../ui'
-import ScaleHero from '../ui/ScaleHero'
-import FontSizes from '../ui/FontSizes'
+import { BigQuote } from '../../site/ui'
+import ScaleHero from '../../site/ui/ScaleHero'
+import FontSizes from '../../site/ui/FontSizes'
 
 export const meta =  {
   title: 'Scale / Typography / Docs / TACHYONS',

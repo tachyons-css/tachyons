@@ -8,12 +8,12 @@
   "license": "MIT",
   "scripts": {
     "start": "next start",
-    "build": "next build",
     "build:components": "node build/components",
     "build:modules": "node build/modules",
     "deploy": "now --public",
     "dev": "next",
     "format": "prettier *.js {ui,pages}/*.js pages/**/*.js pages/{components,docs}/**/*.js --write --no-semi --single-quote",
+    "now-build": "npm run prepare && next build && next export -o dist",
     "prepare": "npm run build:modules && npm run build:components && npm run format"
   },
   "contributors": [

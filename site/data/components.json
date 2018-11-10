@@ -493,20 +493,20 @@
   ],
   "forms": [
     {
-      "name": "checkbox-list",
-      "title": "Checkbox List",
-      "section": "forms",
-      "src": "forms/checkbox-list.html",
-      "slug": "/docs/components/forms/checkbox-list",
-      "importPath": "../../../..//docs/components/forms/checkbox-list.html"
-    },
-    {
       "name": "input-text-label",
       "title": "Input Text Label",
       "section": "forms",
       "src": "forms/input-text-label.html",
       "slug": "/docs/components/forms/input-text-label",
       "importPath": "../../../..//docs/components/forms/input-text-label.html"
+    },
+    {
+      "name": "checkbox-list",
+      "title": "Checkbox List",
+      "section": "forms",
+      "src": "forms/checkbox-list.html",
+      "slug": "/docs/components/forms/checkbox-list",
+      "importPath": "../../../..//docs/components/forms/checkbox-list.html"
     },
     {
       "name": "newsletter-subscription",
@@ -573,40 +573,6 @@
       "src": "headers/startup-hero.html",
       "slug": "/docs/components/headers/startup-hero",
       "importPath": "../../../..//docs/components/headers/startup-hero.html"
-    }
-  ],
-  "links": [
-    {
-      "name": "animate-background-color",
-      "title": "Animate Background Color",
-      "section": "links",
-      "src": "links/animate-background-color.html",
-      "slug": "/docs/components/links/animate-background-color",
-      "importPath": "../../../..//docs/components/links/animate-background-color.html"
-    },
-    {
-      "name": "animate-color",
-      "title": "Animate Color",
-      "section": "links",
-      "src": "links/animate-color.html",
-      "slug": "/docs/components/links/animate-color",
-      "importPath": "../../../..//docs/components/links/animate-color.html"
-    },
-    {
-      "name": "dim-no-underline",
-      "title": "Dim No Underline",
-      "section": "links",
-      "src": "links/dim-no-underline.html",
-      "slug": "/docs/components/links/dim-no-underline",
-      "importPath": "../../../..//docs/components/links/dim-no-underline.html"
-    },
-    {
-      "name": "underline-on-hover",
-      "title": "Underline On Hover",
-      "section": "links",
-      "src": "links/underline-on-hover.html",
-      "slug": "/docs/components/links/underline-on-hover",
-      "importPath": "../../../..//docs/components/links/underline-on-hover.html"
     }
   ],
   "layout": [
@@ -939,14 +905,38 @@
       "importPath": "../../../..//docs/components/layout/two-column.html"
     }
   ],
-  "marketing": [
+  "links": [
     {
-      "name": "iphone-app",
-      "title": "Iphone App",
-      "section": "marketing",
-      "src": "marketing/iphone-app.html",
-      "slug": "/docs/components/marketing/iphone-app",
-      "importPath": "../../../..//docs/components/marketing/iphone-app.html"
+      "name": "animate-background-color",
+      "title": "Animate Background Color",
+      "section": "links",
+      "src": "links/animate-background-color.html",
+      "slug": "/docs/components/links/animate-background-color",
+      "importPath": "../../../..//docs/components/links/animate-background-color.html"
+    },
+    {
+      "name": "animate-color",
+      "title": "Animate Color",
+      "section": "links",
+      "src": "links/animate-color.html",
+      "slug": "/docs/components/links/animate-color",
+      "importPath": "../../../..//docs/components/links/animate-color.html"
+    },
+    {
+      "name": "dim-no-underline",
+      "title": "Dim No Underline",
+      "section": "links",
+      "src": "links/dim-no-underline.html",
+      "slug": "/docs/components/links/dim-no-underline",
+      "importPath": "../../../..//docs/components/links/dim-no-underline.html"
+    },
+    {
+      "name": "underline-on-hover",
+      "title": "Underline On Hover",
+      "section": "links",
+      "src": "links/underline-on-hover.html",
+      "slug": "/docs/components/links/underline-on-hover",
+      "importPath": "../../../..//docs/components/links/underline-on-hover.html"
     }
   ],
   "lists": [
@@ -1077,6 +1067,16 @@
       "src": "lists/title-text.html",
       "slug": "/docs/components/lists/title-text",
       "importPath": "../../../..//docs/components/lists/title-text.html"
+    }
+  ],
+  "marketing": [
+    {
+      "name": "iphone-app",
+      "title": "Iphone App",
+      "section": "marketing",
+      "src": "marketing/iphone-app.html",
+      "slug": "/docs/components/marketing/iphone-app",
+      "importPath": "../../../..//docs/components/marketing/iphone-app.html"
     }
   ],
   "nav": [

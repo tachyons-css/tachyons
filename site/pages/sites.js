@@ -1,7 +1,7 @@
 import React from 'react'
 
 import withDocLayout from '../ui/withDocLayout'
-import Doc from '../sites.md'
+import Doc from '../../docs/sites.md'
 
 export default withDocLayout(Doc, {
   title: 'Sites using TACHYONS',

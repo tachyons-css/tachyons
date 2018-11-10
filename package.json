@@ -51,5 +51,8 @@
     "design",
     "responsive",
     "performance"
-  ]
+  ],
+  "dependencies": {
+    "@compositor/kit": "^1.0.47"
+  }
 }

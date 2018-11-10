@@ -1,4 +1,4 @@
-import { Alert } from '../ui'
+import { Alert } from '../../site/ui'
 
 export const meta = {
   title: 'Floats / Grid / Docs / TACHYONS',

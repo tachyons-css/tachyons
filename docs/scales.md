@@ -1,4 +1,4 @@
-import { BigQuote } from './ui'
+import { BigQuote } from '../site/ui'
 
 export const meta = {
   title: 'Scales / Overview / Docs / TACHYONS',

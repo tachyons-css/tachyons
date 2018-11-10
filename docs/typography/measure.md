@@ -1,4 +1,4 @@
-import MeasureHero from '../ui/MeasureHero'
+import MeasureHero from '../../site/ui/MeasureHero'
 
 export const meta =  {
   title: 'Measure / Typography / Docs / TACHYONS',
