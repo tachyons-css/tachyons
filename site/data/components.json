@@ -1,20 +1,20 @@
 {
   "article-lists": [
     {
-      "name": "title-preview-author-media-flipped",
-      "title": "Title Preview Author Media Flipped",
-      "section": "article-lists",
-      "src": "article-lists/title-preview-author-media-flipped.html",
-      "slug": "/docs/components/article-lists/title-preview-author-media-flipped",
-      "importPath": "../../../..//docs/components/article-lists/title-preview-author-media-flipped.html"
-    },
-    {
       "name": "title-preview-author-media",
       "title": "Title Preview Author Media",
       "section": "article-lists",
       "src": "article-lists/title-preview-author-media.html",
       "slug": "/docs/components/article-lists/title-preview-author-media",
       "importPath": "../../../..//docs/components/article-lists/title-preview-author-media.html"
+    },
+    {
+      "name": "title-preview-author-media-flipped",
+      "title": "Title Preview Author Media Flipped",
+      "section": "article-lists",
+      "src": "article-lists/title-preview-author-media-flipped.html",
+      "slug": "/docs/components/article-lists/title-preview-author-media-flipped",
+      "importPath": "../../../..//docs/components/article-lists/title-preview-author-media-flipped.html"
     }
   ],
   "articles": [
@@ -109,6 +109,14 @@
   ],
   "avatars": [
     {
+      "name": "circle-border",
+      "title": "Circle Border",
+      "section": "avatars",
+      "src": "avatars/circle-border.html",
+      "slug": "/docs/components/avatars/circle-border",
+      "importPath": "../../../..//docs/components/avatars/circle-border.html"
+    },
+    {
       "name": "circle",
       "title": "Circle",
       "section": "avatars",
@@ -123,14 +131,6 @@
       "src": "avatars/double-ring.html",
       "slug": "/docs/components/avatars/double-ring",
       "importPath": "../../../..//docs/components/avatars/double-ring.html"
-    },
-    {
-      "name": "circle-border",
-      "title": "Circle Border",
-      "section": "avatars",
-      "src": "avatars/circle-border.html",
-      "slug": "/docs/components/avatars/circle-border",
-      "importPath": "../../../..//docs/components/avatars/circle-border.html"
     },
     {
       "name": "rounded-large",
@@ -189,6 +189,80 @@
       "src": "banners/single-cta.html",
       "slug": "/docs/components/banners/single-cta",
       "importPath": "../../../..//docs/components/banners/single-cta.html"
+    }
+  ],
+  "cards": [
+    {
+      "name": "album-centered",
+      "title": "Album Centered",
+      "section": "cards",
+      "src": "cards/album-centered.html",
+      "slug": "/docs/components/cards/album-centered",
+      "importPath": "../../../..//docs/components/cards/album-centered.html"
+    },
+    {
+      "name": "album-left",
+      "title": "Album Left",
+      "section": "cards",
+      "src": "cards/album-left.html",
+      "slug": "/docs/components/cards/album-left",
+      "importPath": "../../../..//docs/components/cards/album-left.html"
+    },
+    {
+      "name": "basic-text-card",
+      "title": "Basic Text Card",
+      "section": "cards",
+      "src": "cards/basic-text-card.html",
+      "slug": "/docs/components/cards/basic-text-card",
+      "importPath": "../../../..//docs/components/cards/basic-text-card.html"
+    },
+    {
+      "name": "news-card",
+      "title": "News Card",
+      "section": "cards",
+      "src": "cards/news-card.html",
+      "slug": "/docs/components/cards/news-card",
+      "importPath": "../../../..//docs/components/cards/news-card.html"
+    },
+    {
+      "name": "product-card",
+      "title": "Product Card",
+      "section": "cards",
+      "src": "cards/product-card.html",
+      "slug": "/docs/components/cards/product-card",
+      "importPath": "../../../..//docs/components/cards/product-card.html"
+    },
+    {
+      "name": "profile-card-title-subtitle",
+      "title": "Profile Card Title Subtitle",
+      "section": "cards",
+      "src": "cards/profile-card-title-subtitle.html",
+      "slug": "/docs/components/cards/profile-card-title-subtitle",
+      "importPath": "../../../..//docs/components/cards/profile-card-title-subtitle.html"
+    },
+    {
+      "name": "profile-card",
+      "title": "Profile Card",
+      "section": "cards",
+      "src": "cards/profile-card.html",
+      "slug": "/docs/components/cards/profile-card",
+      "importPath": "../../../..//docs/components/cards/profile-card.html"
+    },
+    {
+      "name": "suggested-profile",
+      "title": "Suggested Profile",
+      "section": "cards",
+      "src": "cards/suggested-profile.html",
+      "slug": "/docs/components/cards/suggested-profile",
+      "importPath": "../../../..//docs/components/cards/suggested-profile.html"
+    },
+    {
+      "name": "text-card",
+      "title": "Text Card",
+      "section": "cards",
+      "src": "cards/text-card.html",
+      "slug": "/docs/components/cards/text-card",
+      "importPath": "../../../..//docs/components/cards/text-card.html"
     }
   ],
   "buttons": [
@@ -257,89 +331,7 @@
       "importPath": "../../../..//docs/components/buttons/pill.html"
     }
   ],
-  "cards": [
-    {
-      "name": "album-left",
-      "title": "Album Left",
-      "section": "cards",
-      "src": "cards/album-left.html",
-      "slug": "/docs/components/cards/album-left",
-      "importPath": "../../../..//docs/components/cards/album-left.html"
-    },
-    {
-      "name": "album-centered",
-      "title": "Album Centered",
-      "section": "cards",
-      "src": "cards/album-centered.html",
-      "slug": "/docs/components/cards/album-centered",
-      "importPath": "../../../..//docs/components/cards/album-centered.html"
-    },
-    {
-      "name": "basic-text-card",
-      "title": "Basic Text Card",
-      "section": "cards",
-      "src": "cards/basic-text-card.html",
-      "slug": "/docs/components/cards/basic-text-card",
-      "importPath": "../../../..//docs/components/cards/basic-text-card.html"
-    },
-    {
-      "name": "news-card",
-      "title": "News Card",
-      "section": "cards",
-      "src": "cards/news-card.html",
-      "slug": "/docs/components/cards/news-card",
-      "importPath": "../../../..//docs/components/cards/news-card.html"
-    },
-    {
-      "name": "product-card",
-      "title": "Product Card",
-      "section": "cards",
-      "src": "cards/product-card.html",
-      "slug": "/docs/components/cards/product-card",
-      "importPath": "../../../..//docs/components/cards/product-card.html"
-    },
-    {
-      "name": "profile-card-title-subtitle",
-      "title": "Profile Card Title Subtitle",
-      "section": "cards",
-      "src": "cards/profile-card-title-subtitle.html",
-      "slug": "/docs/components/cards/profile-card-title-subtitle",
-      "importPath": "../../../..//docs/components/cards/profile-card-title-subtitle.html"
-    },
-    {
-      "name": "profile-card",
-      "title": "Profile Card",
-      "section": "cards",
-      "src": "cards/profile-card.html",
-      "slug": "/docs/components/cards/profile-card",
-      "importPath": "../../../..//docs/components/cards/profile-card.html"
-    },
-    {
-      "name": "suggested-profile",
-      "title": "Suggested Profile",
-      "section": "cards",
-      "src": "cards/suggested-profile.html",
-      "slug": "/docs/components/cards/suggested-profile",
-      "importPath": "../../../..//docs/components/cards/suggested-profile.html"
-    },
-    {
-      "name": "text-card",
-      "title": "Text Card",
-      "section": "cards",
-      "src": "cards/text-card.html",
-      "slug": "/docs/components/cards/text-card",
-      "importPath": "../../../..//docs/components/cards/text-card.html"
-    }
-  ],
   "collections": [
-    {
-      "name": "movies",
-      "title": "Movies",
-      "section": "collections",
-      "src": "collections/movies.html",
-      "slug": "/docs/components/collections/movies",
-      "importPath": "../../../..//docs/components/collections/movies.html"
-    },
     {
       "name": "albums",
       "title": "Albums",
@@ -347,6 +339,14 @@
       "src": "collections/albums.html",
       "slug": "/docs/components/collections/albums",
       "importPath": "../../../..//docs/components/collections/albums.html"
+    },
+    {
+      "name": "movies",
+      "title": "Movies",
+      "section": "collections",
+      "src": "collections/movies.html",
+      "slug": "/docs/components/collections/movies",
+      "importPath": "../../../..//docs/components/collections/movies.html"
     },
     {
       "name": "posters-dim",
@@ -501,20 +501,20 @@
       "importPath": "../../../..//docs/components/forms/checkbox-list.html"
     },
     {
-      "name": "input-text-label",
-      "title": "Input Text Label",
-      "section": "forms",
-      "src": "forms/input-text-label.html",
-      "slug": "/docs/components/forms/input-text-label",
-      "importPath": "../../../..//docs/components/forms/input-text-label.html"
-    },
-    {
       "name": "newsletter-subscription",
       "title": "Newsletter Subscription",
       "section": "forms",
       "src": "forms/newsletter-subscription.html",
       "slug": "/docs/components/forms/newsletter-subscription",
       "importPath": "../../../..//docs/components/forms/newsletter-subscription.html"
+    },
+    {
+      "name": "input-text-label",
+      "title": "Input Text Label",
+      "section": "forms",
+      "src": "forms/input-text-label.html",
+      "slug": "/docs/components/forms/input-text-label",
+      "importPath": "../../../..//docs/components/forms/input-text-label.html"
     },
     {
       "name": "password",
@@ -573,6 +573,50 @@
       "src": "headers/startup-hero.html",
       "slug": "/docs/components/headers/startup-hero",
       "importPath": "../../../..//docs/components/headers/startup-hero.html"
+    }
+  ],
+  "links": [
+    {
+      "name": "animate-background-color",
+      "title": "Animate Background Color",
+      "section": "links",
+      "src": "links/animate-background-color.html",
+      "slug": "/docs/components/links/animate-background-color",
+      "importPath": "../../../..//docs/components/links/animate-background-color.html"
+    },
+    {
+      "name": "animate-color",
+      "title": "Animate Color",
+      "section": "links",
+      "src": "links/animate-color.html",
+      "slug": "/docs/components/links/animate-color",
+      "importPath": "../../../..//docs/components/links/animate-color.html"
+    },
+    {
+      "name": "dim-no-underline",
+      "title": "Dim No Underline",
+      "section": "links",
+      "src": "links/dim-no-underline.html",
+      "slug": "/docs/components/links/dim-no-underline",
+      "importPath": "../../../..//docs/components/links/dim-no-underline.html"
+    },
+    {
+      "name": "underline-on-hover",
+      "title": "Underline On Hover",
+      "section": "links",
+      "src": "links/underline-on-hover.html",
+      "slug": "/docs/components/links/underline-on-hover",
+      "importPath": "../../../..//docs/components/links/underline-on-hover.html"
+    }
+  ],
+  "marketing": [
+    {
+      "name": "iphone-app",
+      "title": "Iphone App",
+      "section": "marketing",
+      "src": "marketing/iphone-app.html",
+      "slug": "/docs/components/marketing/iphone-app",
+      "importPath": "../../../..//docs/components/marketing/iphone-app.html"
     }
   ],
   "layout": [
@@ -641,20 +685,20 @@
       "importPath": "../../../..//docs/components/layout/aspect-ratio-6x4.html"
     },
     {
-      "name": "aspect-ratio-8x5",
-      "title": "Aspect Ratio 8x5",
-      "section": "layout",
-      "src": "layout/aspect-ratio-8x5.html",
-      "slug": "/docs/components/layout/aspect-ratio-8x5",
-      "importPath": "../../../..//docs/components/layout/aspect-ratio-8x5.html"
-    },
-    {
       "name": "aspect-ratio-7x5",
       "title": "Aspect Ratio 7x5",
       "section": "layout",
       "src": "layout/aspect-ratio-7x5.html",
       "slug": "/docs/components/layout/aspect-ratio-7x5",
       "importPath": "../../../..//docs/components/layout/aspect-ratio-7x5.html"
+    },
+    {
+      "name": "aspect-ratio-8x5",
+      "title": "Aspect Ratio 8x5",
+      "section": "layout",
+      "src": "layout/aspect-ratio-8x5.html",
+      "slug": "/docs/components/layout/aspect-ratio-8x5",
+      "importPath": "../../../..//docs/components/layout/aspect-ratio-8x5.html"
     },
     {
       "name": "aspect-ratio-9x16",
@@ -721,20 +765,20 @@
       "importPath": "../../../..//docs/components/layout/fixed-table-layout-grid-mixed-rows.html"
     },
     {
-      "name": "flag-object-bottom",
-      "title": "Flag Object Bottom",
-      "section": "layout",
-      "src": "layout/flag-object-bottom.html",
-      "slug": "/docs/components/layout/flag-object-bottom",
-      "importPath": "../../../..//docs/components/layout/flag-object-bottom.html"
-    },
-    {
       "name": "fixed-table-layout-grid",
       "title": "Fixed Table Layout Grid",
       "section": "layout",
       "src": "layout/fixed-table-layout-grid.html",
       "slug": "/docs/components/layout/fixed-table-layout-grid",
       "importPath": "../../../..//docs/components/layout/fixed-table-layout-grid.html"
+    },
+    {
+      "name": "flag-object-bottom",
+      "title": "Flag Object Bottom",
+      "section": "layout",
+      "src": "layout/flag-object-bottom.html",
+      "slug": "/docs/components/layout/flag-object-bottom",
+      "importPath": "../../../..//docs/components/layout/flag-object-bottom.html"
     },
     {
       "name": "flag-object-collapse",
@@ -745,20 +789,20 @@
       "importPath": "../../../..//docs/components/layout/flag-object-collapse.html"
     },
     {
-      "name": "flag-object-top",
-      "title": "Flag Object Top",
-      "section": "layout",
-      "src": "layout/flag-object-top.html",
-      "slug": "/docs/components/layout/flag-object-top",
-      "importPath": "../../../..//docs/components/layout/flag-object-top.html"
-    },
-    {
       "name": "flag-object",
       "title": "Flag Object",
       "section": "layout",
       "src": "layout/flag-object.html",
       "slug": "/docs/components/layout/flag-object",
       "importPath": "../../../..//docs/components/layout/flag-object.html"
+    },
+    {
+      "name": "flag-object-top",
+      "title": "Flag Object Top",
+      "section": "layout",
+      "src": "layout/flag-object-top.html",
+      "slug": "/docs/components/layout/flag-object-top",
+      "importPath": "../../../..//docs/components/layout/flag-object-top.html"
     },
     {
       "name": "four-column-collapse-two-collapse-one",
@@ -817,14 +861,6 @@
       "importPath": "../../../..//docs/components/layout/full-bleed-5x8.html"
     },
     {
-      "name": "full-bleed-6x4",
-      "title": "Full Bleed 6x4",
-      "section": "layout",
-      "src": "layout/full-bleed-6x4.html",
-      "slug": "/docs/components/layout/full-bleed-6x4",
-      "importPath": "../../../..//docs/components/layout/full-bleed-6x4.html"
-    },
-    {
       "name": "full-bleed-7x5",
       "title": "Full Bleed 7x5",
       "section": "layout",
@@ -833,12 +869,12 @@
       "importPath": "../../../..//docs/components/layout/full-bleed-7x5.html"
     },
     {
-      "name": "full-bleed-9x16",
-      "title": "Full Bleed 9x16",
+      "name": "full-bleed-6x4",
+      "title": "Full Bleed 6x4",
       "section": "layout",
-      "src": "layout/full-bleed-9x16.html",
-      "slug": "/docs/components/layout/full-bleed-9x16",
-      "importPath": "../../../..//docs/components/layout/full-bleed-9x16.html"
+      "src": "layout/full-bleed-6x4.html",
+      "slug": "/docs/components/layout/full-bleed-6x4",
+      "importPath": "../../../..//docs/components/layout/full-bleed-6x4.html"
     },
     {
       "name": "full-bleed-8x5",
@@ -847,6 +883,14 @@
       "src": "layout/full-bleed-8x5.html",
       "slug": "/docs/components/layout/full-bleed-8x5",
       "importPath": "../../../..//docs/components/layout/full-bleed-8x5.html"
+    },
+    {
+      "name": "full-bleed-9x16",
+      "title": "Full Bleed 9x16",
+      "section": "layout",
+      "src": "layout/full-bleed-9x16.html",
+      "slug": "/docs/components/layout/full-bleed-9x16",
+      "importPath": "../../../..//docs/components/layout/full-bleed-9x16.html"
     },
     {
       "name": "full-bleed-square",
@@ -905,40 +949,6 @@
       "importPath": "../../../..//docs/components/layout/two-column.html"
     }
   ],
-  "links": [
-    {
-      "name": "animate-background-color",
-      "title": "Animate Background Color",
-      "section": "links",
-      "src": "links/animate-background-color.html",
-      "slug": "/docs/components/links/animate-background-color",
-      "importPath": "../../../..//docs/components/links/animate-background-color.html"
-    },
-    {
-      "name": "animate-color",
-      "title": "Animate Color",
-      "section": "links",
-      "src": "links/animate-color.html",
-      "slug": "/docs/components/links/animate-color",
-      "importPath": "../../../..//docs/components/links/animate-color.html"
-    },
-    {
-      "name": "dim-no-underline",
-      "title": "Dim No Underline",
-      "section": "links",
-      "src": "links/dim-no-underline.html",
-      "slug": "/docs/components/links/dim-no-underline",
-      "importPath": "../../../..//docs/components/links/dim-no-underline.html"
-    },
-    {
-      "name": "underline-on-hover",
-      "title": "Underline On Hover",
-      "section": "links",
-      "src": "links/underline-on-hover.html",
-      "slug": "/docs/components/links/underline-on-hover",
-      "importPath": "../../../..//docs/components/links/underline-on-hover.html"
-    }
-  ],
   "lists": [
     {
       "name": "block-item-dotted-border",
@@ -949,20 +959,20 @@
       "importPath": "../../../..//docs/components/lists/block-item-dotted-border.html"
     },
     {
-      "name": "border-tight",
-      "title": "Border Tight",
-      "section": "lists",
-      "src": "lists/border-tight.html",
-      "slug": "/docs/components/lists/border-tight",
-      "importPath": "../../../..//docs/components/lists/border-tight.html"
-    },
-    {
       "name": "border-spaced",
       "title": "Border Spaced",
       "section": "lists",
       "src": "lists/border-spaced.html",
       "slug": "/docs/components/lists/border-spaced",
       "importPath": "../../../..//docs/components/lists/border-spaced.html"
+    },
+    {
+      "name": "border-tight",
+      "title": "Border Tight",
+      "section": "lists",
+      "src": "lists/border-tight.html",
+      "slug": "/docs/components/lists/border-tight",
+      "importPath": "../../../..//docs/components/lists/border-tight.html"
     },
     {
       "name": "contact-phone",
@@ -1067,16 +1077,6 @@
       "src": "lists/title-text.html",
       "slug": "/docs/components/lists/title-text",
       "importPath": "../../../..//docs/components/lists/title-text.html"
-    }
-  ],
-  "marketing": [
-    {
-      "name": "iphone-app",
-      "title": "Iphone App",
-      "section": "marketing",
-      "src": "marketing/iphone-app.html",
-      "slug": "/docs/components/marketing/iphone-app",
-      "importPath": "../../../..//docs/components/marketing/iphone-app.html"
     }
   ],
   "nav": [

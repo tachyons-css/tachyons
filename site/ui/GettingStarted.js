@@ -13,10 +13,11 @@ export default ({ version }) => (
       </p>
       <pre className="pre black-70 overflow-auto">
         <code
-          className="code f6 dib pa2 bg-black-70 washed-green"
+          className="code f6 dib p2 bg-black-70 washed-green"
           style={{ fontSize: '14px' }}
         >
-          &lt;link rel='stylesheet' href='https://unpkg.com/tachyons@{version}/css/tachyons.min.css'/&gt;
+          &lt;link rel='stylesheet' href='https://unpkg.com/tachyons@{version}
+          /css/tachyons.min.css'/&gt;
         </code>
       </pre>
       <p className="mt4 mb2">
@@ -24,7 +25,7 @@ export default ({ version }) => (
       </p>
       <pre className="pre black-70 overflow-auto">
         <code
-          className="code f6 dib pa2 bg-black-70 washed-green"
+          className="code f6 dib p2 bg-black-70 washed-green"
           style={{ fontSize: '14px' }}
         >
           npm install --save-dev tachyons@{version}
@@ -33,7 +34,7 @@ export default ({ version }) => (
       <p className="mt4 mb2">
         <b>or</b> grab all the source files and build+develop locally
       </p>
-      <pre className="pre lh-copy overflow-auto bg-black-70 f6 washed-green pa2 dib">
+      <pre className="pre lh-copy overflow-auto bg-black-70 f6 washed-green p2 dib">
         <code
           children={`git clone https://github.com/tachyons-css/tachyons
 cd tachyons

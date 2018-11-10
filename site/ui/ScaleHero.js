@@ -19,8 +19,9 @@ export default () => (
         <span>
           Often times, websites devote a non-trivial amount of css to setting
           font-size
-        </span>. They declare an unnecessary amount of different font-sizes that
-        upon inspection, don’t come close to resembling a sane type scale.
+        </span>
+        . They declare an unnecessary amount of different font-sizes that upon
+        inspection, don’t come close to resembling a sane type scale.
       </p>
       <p className="fl w-100 w-50-ns v-top f5 f6-ns lh-copy pr2-ns">
         To create and design an easily readable interface, you don’t need more
