@@ -1,20 +1,20 @@
 {
   "article-lists": [
     {
-      "name": "title-preview-author-media",
-      "title": "Title Preview Author Media",
-      "section": "article-lists",
-      "src": "article-lists/title-preview-author-media.html",
-      "slug": "/docs/components/article-lists/title-preview-author-media",
-      "importPath": "../../../..//docs/components/article-lists/title-preview-author-media.html"
-    },
-    {
       "name": "title-preview-author-media-flipped",
       "title": "Title Preview Author Media Flipped",
       "section": "article-lists",
       "src": "article-lists/title-preview-author-media-flipped.html",
       "slug": "/docs/components/article-lists/title-preview-author-media-flipped",
       "importPath": "../../../..//docs/components/article-lists/title-preview-author-media-flipped.html"
+    },
+    {
+      "name": "title-preview-author-media",
+      "title": "Title Preview Author Media",
+      "section": "article-lists",
+      "src": "article-lists/title-preview-author-media.html",
+      "slug": "/docs/components/article-lists/title-preview-author-media",
+      "importPath": "../../../..//docs/components/article-lists/title-preview-author-media.html"
     }
   ],
   "articles": [
@@ -191,6 +191,72 @@
       "importPath": "../../../..//docs/components/banners/single-cta.html"
     }
   ],
+  "buttons": [
+    {
+      "name": "basic-previous-next",
+      "title": "Basic Previous Next",
+      "section": "buttons",
+      "src": "buttons/basic-previous-next.html",
+      "slug": "/docs/components/buttons/basic-previous-next",
+      "importPath": "../../../..//docs/components/buttons/basic-previous-next.html"
+    },
+    {
+      "name": "basic-rounded-extra-small",
+      "title": "Basic Rounded Extra Small",
+      "section": "buttons",
+      "src": "buttons/basic-rounded-extra-small.html",
+      "slug": "/docs/components/buttons/basic-rounded-extra-small",
+      "importPath": "../../../..//docs/components/buttons/basic-rounded-extra-small.html"
+    },
+    {
+      "name": "basic-rounded-small",
+      "title": "Basic Rounded Small",
+      "section": "buttons",
+      "src": "buttons/basic-rounded-small.html",
+      "slug": "/docs/components/buttons/basic-rounded-small",
+      "importPath": "../../../..//docs/components/buttons/basic-rounded-small.html"
+    },
+    {
+      "name": "basic-rounded",
+      "title": "Basic Rounded",
+      "section": "buttons",
+      "src": "buttons/basic-rounded.html",
+      "slug": "/docs/components/buttons/basic-rounded",
+      "importPath": "../../../..//docs/components/buttons/basic-rounded.html"
+    },
+    {
+      "name": "basic",
+      "title": "Basic",
+      "section": "buttons",
+      "src": "buttons/basic.html",
+      "slug": "/docs/components/buttons/basic",
+      "importPath": "../../../..//docs/components/buttons/basic.html"
+    },
+    {
+      "name": "centered-icons",
+      "title": "Centered Icons",
+      "section": "buttons",
+      "src": "buttons/centered-icons.html",
+      "slug": "/docs/components/buttons/centered-icons",
+      "importPath": "../../../..//docs/components/buttons/centered-icons.html"
+    },
+    {
+      "name": "pill-grow",
+      "title": "Pill Grow",
+      "section": "buttons",
+      "src": "buttons/pill-grow.html",
+      "slug": "/docs/components/buttons/pill-grow",
+      "importPath": "../../../..//docs/components/buttons/pill-grow.html"
+    },
+    {
+      "name": "pill",
+      "title": "Pill",
+      "section": "buttons",
+      "src": "buttons/pill.html",
+      "slug": "/docs/components/buttons/pill",
+      "importPath": "../../../..//docs/components/buttons/pill.html"
+    }
+  ],
   "cards": [
     {
       "name": "album-centered",
@@ -263,72 +329,6 @@
       "src": "cards/text-card.html",
       "slug": "/docs/components/cards/text-card",
       "importPath": "../../../..//docs/components/cards/text-card.html"
-    }
-  ],
-  "buttons": [
-    {
-      "name": "basic-previous-next",
-      "title": "Basic Previous Next",
-      "section": "buttons",
-      "src": "buttons/basic-previous-next.html",
-      "slug": "/docs/components/buttons/basic-previous-next",
-      "importPath": "../../../..//docs/components/buttons/basic-previous-next.html"
-    },
-    {
-      "name": "basic-rounded-extra-small",
-      "title": "Basic Rounded Extra Small",
-      "section": "buttons",
-      "src": "buttons/basic-rounded-extra-small.html",
-      "slug": "/docs/components/buttons/basic-rounded-extra-small",
-      "importPath": "../../../..//docs/components/buttons/basic-rounded-extra-small.html"
-    },
-    {
-      "name": "basic-rounded-small",
-      "title": "Basic Rounded Small",
-      "section": "buttons",
-      "src": "buttons/basic-rounded-small.html",
-      "slug": "/docs/components/buttons/basic-rounded-small",
-      "importPath": "../../../..//docs/components/buttons/basic-rounded-small.html"
-    },
-    {
-      "name": "basic-rounded",
-      "title": "Basic Rounded",
-      "section": "buttons",
-      "src": "buttons/basic-rounded.html",
-      "slug": "/docs/components/buttons/basic-rounded",
-      "importPath": "../../../..//docs/components/buttons/basic-rounded.html"
-    },
-    {
-      "name": "basic",
-      "title": "Basic",
-      "section": "buttons",
-      "src": "buttons/basic.html",
-      "slug": "/docs/components/buttons/basic",
-      "importPath": "../../../..//docs/components/buttons/basic.html"
-    },
-    {
-      "name": "centered-icons",
-      "title": "Centered Icons",
-      "section": "buttons",
-      "src": "buttons/centered-icons.html",
-      "slug": "/docs/components/buttons/centered-icons",
-      "importPath": "../../../..//docs/components/buttons/centered-icons.html"
-    },
-    {
-      "name": "pill-grow",
-      "title": "Pill Grow",
-      "section": "buttons",
-      "src": "buttons/pill-grow.html",
-      "slug": "/docs/components/buttons/pill-grow",
-      "importPath": "../../../..//docs/components/buttons/pill-grow.html"
-    },
-    {
-      "name": "pill",
-      "title": "Pill",
-      "section": "buttons",
-      "src": "buttons/pill.html",
-      "slug": "/docs/components/buttons/pill",
-      "importPath": "../../../..//docs/components/buttons/pill.html"
     }
   ],
   "collections": [
@@ -501,20 +501,20 @@
       "importPath": "../../../..//docs/components/forms/checkbox-list.html"
     },
     {
-      "name": "newsletter-subscription",
-      "title": "Newsletter Subscription",
-      "section": "forms",
-      "src": "forms/newsletter-subscription.html",
-      "slug": "/docs/components/forms/newsletter-subscription",
-      "importPath": "../../../..//docs/components/forms/newsletter-subscription.html"
-    },
-    {
       "name": "input-text-label",
       "title": "Input Text Label",
       "section": "forms",
       "src": "forms/input-text-label.html",
       "slug": "/docs/components/forms/input-text-label",
       "importPath": "../../../..//docs/components/forms/input-text-label.html"
+    },
+    {
+      "name": "newsletter-subscription",
+      "title": "Newsletter Subscription",
+      "section": "forms",
+      "src": "forms/newsletter-subscription.html",
+      "slug": "/docs/components/forms/newsletter-subscription",
+      "importPath": "../../../..//docs/components/forms/newsletter-subscription.html"
     },
     {
       "name": "password",
@@ -607,16 +607,6 @@
       "src": "links/underline-on-hover.html",
       "slug": "/docs/components/links/underline-on-hover",
       "importPath": "../../../..//docs/components/links/underline-on-hover.html"
-    }
-  ],
-  "marketing": [
-    {
-      "name": "iphone-app",
-      "title": "Iphone App",
-      "section": "marketing",
-      "src": "marketing/iphone-app.html",
-      "slug": "/docs/components/marketing/iphone-app",
-      "importPath": "../../../..//docs/components/marketing/iphone-app.html"
     }
   ],
   "layout": [
@@ -789,20 +779,20 @@
       "importPath": "../../../..//docs/components/layout/flag-object-collapse.html"
     },
     {
-      "name": "flag-object",
-      "title": "Flag Object",
-      "section": "layout",
-      "src": "layout/flag-object.html",
-      "slug": "/docs/components/layout/flag-object",
-      "importPath": "../../../..//docs/components/layout/flag-object.html"
-    },
-    {
       "name": "flag-object-top",
       "title": "Flag Object Top",
       "section": "layout",
       "src": "layout/flag-object-top.html",
       "slug": "/docs/components/layout/flag-object-top",
       "importPath": "../../../..//docs/components/layout/flag-object-top.html"
+    },
+    {
+      "name": "flag-object",
+      "title": "Flag Object",
+      "section": "layout",
+      "src": "layout/flag-object.html",
+      "slug": "/docs/components/layout/flag-object",
+      "importPath": "../../../..//docs/components/layout/flag-object.html"
     },
     {
       "name": "four-column-collapse-two-collapse-one",
@@ -861,20 +851,20 @@
       "importPath": "../../../..//docs/components/layout/full-bleed-5x8.html"
     },
     {
-      "name": "full-bleed-7x5",
-      "title": "Full Bleed 7x5",
-      "section": "layout",
-      "src": "layout/full-bleed-7x5.html",
-      "slug": "/docs/components/layout/full-bleed-7x5",
-      "importPath": "../../../..//docs/components/layout/full-bleed-7x5.html"
-    },
-    {
       "name": "full-bleed-6x4",
       "title": "Full Bleed 6x4",
       "section": "layout",
       "src": "layout/full-bleed-6x4.html",
       "slug": "/docs/components/layout/full-bleed-6x4",
       "importPath": "../../../..//docs/components/layout/full-bleed-6x4.html"
+    },
+    {
+      "name": "full-bleed-7x5",
+      "title": "Full Bleed 7x5",
+      "section": "layout",
+      "src": "layout/full-bleed-7x5.html",
+      "slug": "/docs/components/layout/full-bleed-7x5",
+      "importPath": "../../../..//docs/components/layout/full-bleed-7x5.html"
     },
     {
       "name": "full-bleed-8x5",
@@ -947,6 +937,16 @@
       "src": "layout/two-column.html",
       "slug": "/docs/components/layout/two-column",
       "importPath": "../../../..//docs/components/layout/two-column.html"
+    }
+  ],
+  "marketing": [
+    {
+      "name": "iphone-app",
+      "title": "Iphone App",
+      "section": "marketing",
+      "src": "marketing/iphone-app.html",
+      "slug": "/docs/components/marketing/iphone-app",
+      "importPath": "../../../..//docs/components/marketing/iphone-app.html"
     }
   ],
   "lists": [
