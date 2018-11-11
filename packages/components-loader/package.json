@@ -14,23 +14,23 @@
   "repository": "tachyons-css/tachyons",
   "devDependencies": {
     "ava": "^0.25.0",
-    "babel-loader": "^7.1.4",
+    "babel-loader": "^8.0.4",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "memory-fs": "^0.4.1",
-    "tachyons": "^4.9.1",
-    "webpack": "^4.1.1"
+    "tachyons": "^4.11.1",
+    "webpack": "^4.25.1"
   },
   "dependencies": {
-    "css-mqpacker": "^6.0.2",
+    "css-mqpacker": "^7.0.0",
     "cssstats": "^3.2.0",
     "get-classes-from-html": "^1.0.1",
     "perfectionist": "^2.4.0",
-    "postcss": "^6.0.20",
-    "postcss-custom-media": "^6.0.0",
-    "postcss-discard-comments": "^2.0.4",
-    "postcss-discard-empty": "^2.1.0",
-    "postcss-import": "^11.1.0",
+    "postcss": "^7.0.5",
+    "postcss-custom-media": "^7.0.7",
+    "postcss-discard-comments": "^4.0.1",
+    "postcss-discard-empty": "^4.0.1",
+    "postcss-import": "^12.0.1",
     "postcss-select": "^2.1.0"
   }
 }
