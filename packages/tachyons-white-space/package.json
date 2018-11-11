@@ -1,6 +1,6 @@
 {
   "name": "tachyons-white-space",
-  "version": "7.0.1-1",
+  "version": "5.0.0",
   "style": "src/tachyons-white-space.css",
   "main": "src/tachyons-white-space.css",
   "description": "Tachyons css module for setting white space across breakpoints.",

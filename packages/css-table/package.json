@@ -1,6 +1,6 @@
 {
   "name": "css-table",
-  "version": "7.0.1-1",
+  "version": "1.0.0",
   "description": "Post process css into a table for self documentation",
   "main": "index.js",
   "scripts": {

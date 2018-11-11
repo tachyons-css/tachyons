@@ -1,6 +1,6 @@
 {
   "name": "tachyons-clears",
-  "version": "7.0.1-1",
+  "version": "4.0.0",
   "style": "src/tachyons-clears.css",
   "main": "src/tachyons-clears.css",
   "description": "Performance based css module.",

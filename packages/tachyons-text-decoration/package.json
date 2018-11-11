@@ -1,6 +1,6 @@
 {
   "name": "tachyons-text-decoration",
-  "version": "7.0.1-1",
+  "version": "5.0.0",
   "style": "src/tachyons-text-decoration.css",
   "main": "src/tachyons-text-decoration.css",
   "description": "Performance based css module.",

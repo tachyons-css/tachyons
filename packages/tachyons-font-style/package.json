@@ -1,6 +1,6 @@
 {
   "name": "tachyons-font-style",
-  "version": "7.0.1-1",
+  "version": "5.0.0",
   "style": "src/tachyons-font-style.css",
   "main": "src/tachyons-font-style.css",
   "description": "Performance based css module.",

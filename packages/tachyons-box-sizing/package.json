@@ -1,6 +1,6 @@
 {
   "name": "tachyons-box-sizing",
-  "version": "7.0.1-1",
+  "version": "4.0.0",
   "style": "src/tachyons-box-sizing.css",
   "main": "src/tachyons-box-sizing.css",
   "description": "Css module for a smarter default box-model.",

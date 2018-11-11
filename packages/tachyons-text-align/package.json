@@ -1,6 +1,6 @@
 {
   "name": "tachyons-text-align",
-  "version": "7.0.1-1",
+  "version": "4.0.0",
   "style": "src/tachyons-text-align.css",
   "main": "src/tachyons-text-align.css",
   "description": "Performance based css module.",

@@ -1,6 +1,6 @@
 {
   "name": "tachyons-spacing",
-  "version": "7.0.1-1",
+  "version": "7.0.0",
   "style": "src/tachyons-spacing.css",
   "main": "src/tachyons-spacing.css",
   "description": "Performance based css module.",

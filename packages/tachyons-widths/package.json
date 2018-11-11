@@ -1,6 +1,6 @@
 {
   "name": "tachyons-widths",
-  "version": "7.0.1-1",
+  "version": "6.0.0",
   "style": "src/tachyons-widths.css",
   "main": "src/tachyons-widths.css",
   "description": "Performance based css module.",

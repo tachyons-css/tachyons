@@ -1,6 +1,6 @@
 {
   "name": "tachyons-line-height",
-  "version": "7.0.1-1",
+  "version": "4.0.0",
   "style": "src/tachyons-line-height.css",
   "main": "src/tachyons-line-height.css",
   "description": "Performance based css module.",

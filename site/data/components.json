@@ -1,20 +1,104 @@
 {
   "article-lists": [
     {
-      "name": "title-preview-author-media-flipped",
-      "title": "Title Preview Author Media Flipped",
-      "section": "article-lists",
-      "src": "article-lists/title-preview-author-media-flipped.html",
-      "slug": "/docs/components/article-lists/title-preview-author-media-flipped",
-      "importPath": "../../../..//docs/components/article-lists/title-preview-author-media-flipped.html"
-    },
-    {
       "name": "title-preview-author-media",
       "title": "Title Preview Author Media",
       "section": "article-lists",
       "src": "article-lists/title-preview-author-media.html",
       "slug": "/docs/components/article-lists/title-preview-author-media",
       "importPath": "../../../..//docs/components/article-lists/title-preview-author-media.html"
+    },
+    {
+      "name": "title-preview-author-media-flipped",
+      "title": "Title Preview Author Media Flipped",
+      "section": "article-lists",
+      "src": "article-lists/title-preview-author-media-flipped.html",
+      "slug": "/docs/components/article-lists/title-preview-author-media-flipped",
+      "importPath": "../../../..//docs/components/article-lists/title-preview-author-media-flipped.html"
+    }
+  ],
+  "avatars": [
+    {
+      "name": "circle-border",
+      "title": "Circle Border",
+      "section": "avatars",
+      "src": "avatars/circle-border.html",
+      "slug": "/docs/components/avatars/circle-border",
+      "importPath": "../../../..//docs/components/avatars/circle-border.html"
+    },
+    {
+      "name": "circle",
+      "title": "Circle",
+      "section": "avatars",
+      "src": "avatars/circle.html",
+      "slug": "/docs/components/avatars/circle",
+      "importPath": "../../../..//docs/components/avatars/circle.html"
+    },
+    {
+      "name": "double-ring",
+      "title": "Double Ring",
+      "section": "avatars",
+      "src": "avatars/double-ring.html",
+      "slug": "/docs/components/avatars/double-ring",
+      "importPath": "../../../..//docs/components/avatars/double-ring.html"
+    },
+    {
+      "name": "rounded-large",
+      "title": "Rounded Large",
+      "section": "avatars",
+      "src": "avatars/rounded-large.html",
+      "slug": "/docs/components/avatars/rounded-large",
+      "importPath": "../../../..//docs/components/avatars/rounded-large.html"
+    },
+    {
+      "name": "rounded-medium",
+      "title": "Rounded Medium",
+      "section": "avatars",
+      "src": "avatars/rounded-medium.html",
+      "slug": "/docs/components/avatars/rounded-medium",
+      "importPath": "../../../..//docs/components/avatars/rounded-medium.html"
+    },
+    {
+      "name": "rounded-small",
+      "title": "Rounded Small",
+      "section": "avatars",
+      "src": "avatars/rounded-small.html",
+      "slug": "/docs/components/avatars/rounded-small",
+      "importPath": "../../../..//docs/components/avatars/rounded-small.html"
+    },
+    {
+      "name": "square",
+      "title": "Square",
+      "section": "avatars",
+      "src": "avatars/square.html",
+      "slug": "/docs/components/avatars/square",
+      "importPath": "../../../..//docs/components/avatars/square.html"
+    }
+  ],
+  "banners": [
+    {
+      "name": "info",
+      "title": "Info",
+      "section": "banners",
+      "src": "banners/info.html",
+      "slug": "/docs/components/banners/info",
+      "importPath": "../../../..//docs/components/banners/info.html"
+    },
+    {
+      "name": "basic",
+      "title": "Basic",
+      "section": "banners",
+      "src": "banners/basic.html",
+      "slug": "/docs/components/banners/basic",
+      "importPath": "../../../..//docs/components/banners/basic.html"
+    },
+    {
+      "name": "single-cta",
+      "title": "Single Cta",
+      "section": "banners",
+      "src": "banners/single-cta.html",
+      "slug": "/docs/components/banners/single-cta",
+      "importPath": "../../../..//docs/components/banners/single-cta.html"
     }
   ],
   "articles": [
@@ -105,90 +189,6 @@
       "src": "articles/title-text.html",
       "slug": "/docs/components/articles/title-text",
       "importPath": "../../../..//docs/components/articles/title-text.html"
-    }
-  ],
-  "avatars": [
-    {
-      "name": "circle-border",
-      "title": "Circle Border",
-      "section": "avatars",
-      "src": "avatars/circle-border.html",
-      "slug": "/docs/components/avatars/circle-border",
-      "importPath": "../../../..//docs/components/avatars/circle-border.html"
-    },
-    {
-      "name": "circle",
-      "title": "Circle",
-      "section": "avatars",
-      "src": "avatars/circle.html",
-      "slug": "/docs/components/avatars/circle",
-      "importPath": "../../../..//docs/components/avatars/circle.html"
-    },
-    {
-      "name": "double-ring",
-      "title": "Double Ring",
-      "section": "avatars",
-      "src": "avatars/double-ring.html",
-      "slug": "/docs/components/avatars/double-ring",
-      "importPath": "../../../..//docs/components/avatars/double-ring.html"
-    },
-    {
-      "name": "rounded-large",
-      "title": "Rounded Large",
-      "section": "avatars",
-      "src": "avatars/rounded-large.html",
-      "slug": "/docs/components/avatars/rounded-large",
-      "importPath": "../../../..//docs/components/avatars/rounded-large.html"
-    },
-    {
-      "name": "rounded-medium",
-      "title": "Rounded Medium",
-      "section": "avatars",
-      "src": "avatars/rounded-medium.html",
-      "slug": "/docs/components/avatars/rounded-medium",
-      "importPath": "../../../..//docs/components/avatars/rounded-medium.html"
-    },
-    {
-      "name": "rounded-small",
-      "title": "Rounded Small",
-      "section": "avatars",
-      "src": "avatars/rounded-small.html",
-      "slug": "/docs/components/avatars/rounded-small",
-      "importPath": "../../../..//docs/components/avatars/rounded-small.html"
-    },
-    {
-      "name": "square",
-      "title": "Square",
-      "section": "avatars",
-      "src": "avatars/square.html",
-      "slug": "/docs/components/avatars/square",
-      "importPath": "../../../..//docs/components/avatars/square.html"
-    }
-  ],
-  "banners": [
-    {
-      "name": "basic",
-      "title": "Basic",
-      "section": "banners",
-      "src": "banners/basic.html",
-      "slug": "/docs/components/banners/basic",
-      "importPath": "../../../..//docs/components/banners/basic.html"
-    },
-    {
-      "name": "info",
-      "title": "Info",
-      "section": "banners",
-      "src": "banners/info.html",
-      "slug": "/docs/components/banners/info",
-      "importPath": "../../../..//docs/components/banners/info.html"
-    },
-    {
-      "name": "single-cta",
-      "title": "Single Cta",
-      "section": "banners",
-      "src": "banners/single-cta.html",
-      "slug": "/docs/components/banners/single-cta",
-      "importPath": "../../../..//docs/components/banners/single-cta.html"
     }
   ],
   "buttons": [
@@ -333,20 +333,20 @@
   ],
   "collections": [
     {
-      "name": "albums",
-      "title": "Albums",
-      "section": "collections",
-      "src": "collections/albums.html",
-      "slug": "/docs/components/collections/albums",
-      "importPath": "../../../..//docs/components/collections/albums.html"
-    },
-    {
       "name": "movies",
       "title": "Movies",
       "section": "collections",
       "src": "collections/movies.html",
       "slug": "/docs/components/collections/movies",
       "importPath": "../../../..//docs/components/collections/movies.html"
+    },
+    {
+      "name": "albums",
+      "title": "Albums",
+      "section": "collections",
+      "src": "collections/albums.html",
+      "slug": "/docs/components/collections/albums",
+      "importPath": "../../../..//docs/components/collections/albums.html"
     },
     {
       "name": "posters-dim",
@@ -365,20 +365,20 @@
       "importPath": "../../../..//docs/components/collections/posters.html"
     },
     {
-      "name": "square-title-subtitle",
-      "title": "Square Title Subtitle",
-      "section": "collections",
-      "src": "collections/square-title-subtitle.html",
-      "slug": "/docs/components/collections/square-title-subtitle",
-      "importPath": "../../../..//docs/components/collections/square-title-subtitle.html"
-    },
-    {
       "name": "vinyl",
       "title": "Vinyl",
       "section": "collections",
       "src": "collections/vinyl.html",
       "slug": "/docs/components/collections/vinyl",
       "importPath": "../../../..//docs/components/collections/vinyl.html"
+    },
+    {
+      "name": "square-title-subtitle",
+      "title": "Square Title Subtitle",
+      "section": "collections",
+      "src": "collections/square-title-subtitle.html",
+      "slug": "/docs/components/collections/square-title-subtitle",
+      "importPath": "../../../..//docs/components/collections/square-title-subtitle.html"
     }
   ],
   "definition-lists": [
@@ -493,14 +493,6 @@
   ],
   "forms": [
     {
-      "name": "input-text-label",
-      "title": "Input Text Label",
-      "section": "forms",
-      "src": "forms/input-text-label.html",
-      "slug": "/docs/components/forms/input-text-label",
-      "importPath": "../../../..//docs/components/forms/input-text-label.html"
-    },
-    {
       "name": "checkbox-list",
       "title": "Checkbox List",
       "section": "forms",
@@ -515,6 +507,14 @@
       "src": "forms/newsletter-subscription.html",
       "slug": "/docs/components/forms/newsletter-subscription",
       "importPath": "../../../..//docs/components/forms/newsletter-subscription.html"
+    },
+    {
+      "name": "input-text-label",
+      "title": "Input Text Label",
+      "section": "forms",
+      "src": "forms/input-text-label.html",
+      "slug": "/docs/components/forms/input-text-label",
+      "importPath": "../../../..//docs/components/forms/input-text-label.html"
     },
     {
       "name": "password",
@@ -575,6 +575,40 @@
       "importPath": "../../../..//docs/components/headers/startup-hero.html"
     }
   ],
+  "links": [
+    {
+      "name": "animate-background-color",
+      "title": "Animate Background Color",
+      "section": "links",
+      "src": "links/animate-background-color.html",
+      "slug": "/docs/components/links/animate-background-color",
+      "importPath": "../../../..//docs/components/links/animate-background-color.html"
+    },
+    {
+      "name": "dim-no-underline",
+      "title": "Dim No Underline",
+      "section": "links",
+      "src": "links/dim-no-underline.html",
+      "slug": "/docs/components/links/dim-no-underline",
+      "importPath": "../../../..//docs/components/links/dim-no-underline.html"
+    },
+    {
+      "name": "animate-color",
+      "title": "Animate Color",
+      "section": "links",
+      "src": "links/animate-color.html",
+      "slug": "/docs/components/links/animate-color",
+      "importPath": "../../../..//docs/components/links/animate-color.html"
+    },
+    {
+      "name": "underline-on-hover",
+      "title": "Underline On Hover",
+      "section": "links",
+      "src": "links/underline-on-hover.html",
+      "slug": "/docs/components/links/underline-on-hover",
+      "importPath": "../../../..//docs/components/links/underline-on-hover.html"
+    }
+  ],
   "layout": [
     {
       "name": "aspect-ratio-16x9",
@@ -617,20 +651,20 @@
       "importPath": "../../../..//docs/components/layout/aspect-ratio-4x6.html"
     },
     {
-      "name": "aspect-ratio-5x7",
-      "title": "Aspect Ratio 5x7",
-      "section": "layout",
-      "src": "layout/aspect-ratio-5x7.html",
-      "slug": "/docs/components/layout/aspect-ratio-5x7",
-      "importPath": "../../../..//docs/components/layout/aspect-ratio-5x7.html"
-    },
-    {
       "name": "aspect-ratio-5x8",
       "title": "Aspect Ratio 5x8",
       "section": "layout",
       "src": "layout/aspect-ratio-5x8.html",
       "slug": "/docs/components/layout/aspect-ratio-5x8",
       "importPath": "../../../..//docs/components/layout/aspect-ratio-5x8.html"
+    },
+    {
+      "name": "aspect-ratio-5x7",
+      "title": "Aspect Ratio 5x7",
+      "section": "layout",
+      "src": "layout/aspect-ratio-5x7.html",
+      "slug": "/docs/components/layout/aspect-ratio-5x7",
+      "importPath": "../../../..//docs/components/layout/aspect-ratio-5x7.html"
     },
     {
       "name": "aspect-ratio-6x4",
@@ -657,20 +691,20 @@
       "importPath": "../../../..//docs/components/layout/aspect-ratio-8x5.html"
     },
     {
-      "name": "aspect-ratio-9x16",
-      "title": "Aspect Ratio 9x16",
-      "section": "layout",
-      "src": "layout/aspect-ratio-9x16.html",
-      "slug": "/docs/components/layout/aspect-ratio-9x16",
-      "importPath": "../../../..//docs/components/layout/aspect-ratio-9x16.html"
-    },
-    {
       "name": "centered-container",
       "title": "Centered Container",
       "section": "layout",
       "src": "layout/centered-container.html",
       "slug": "/docs/components/layout/centered-container",
       "importPath": "../../../..//docs/components/layout/centered-container.html"
+    },
+    {
+      "name": "aspect-ratio-9x16",
+      "title": "Aspect Ratio 9x16",
+      "section": "layout",
+      "src": "layout/aspect-ratio-9x16.html",
+      "slug": "/docs/components/layout/aspect-ratio-9x16",
+      "importPath": "../../../..//docs/components/layout/aspect-ratio-9x16.html"
     },
     {
       "name": "five-column-collapse-alternate",
@@ -825,20 +859,20 @@
       "importPath": "../../../..//docs/components/layout/full-bleed-6x4.html"
     },
     {
-      "name": "full-bleed-7x5",
-      "title": "Full Bleed 7x5",
-      "section": "layout",
-      "src": "layout/full-bleed-7x5.html",
-      "slug": "/docs/components/layout/full-bleed-7x5",
-      "importPath": "../../../..//docs/components/layout/full-bleed-7x5.html"
-    },
-    {
       "name": "full-bleed-8x5",
       "title": "Full Bleed 8x5",
       "section": "layout",
       "src": "layout/full-bleed-8x5.html",
       "slug": "/docs/components/layout/full-bleed-8x5",
       "importPath": "../../../..//docs/components/layout/full-bleed-8x5.html"
+    },
+    {
+      "name": "full-bleed-7x5",
+      "title": "Full Bleed 7x5",
+      "section": "layout",
+      "src": "layout/full-bleed-7x5.html",
+      "slug": "/docs/components/layout/full-bleed-7x5",
+      "importPath": "../../../..//docs/components/layout/full-bleed-7x5.html"
     },
     {
       "name": "full-bleed-9x16",
@@ -905,38 +939,14 @@
       "importPath": "../../../..//docs/components/layout/two-column.html"
     }
   ],
-  "links": [
+  "marketing": [
     {
-      "name": "animate-background-color",
-      "title": "Animate Background Color",
-      "section": "links",
-      "src": "links/animate-background-color.html",
-      "slug": "/docs/components/links/animate-background-color",
-      "importPath": "../../../..//docs/components/links/animate-background-color.html"
-    },
-    {
-      "name": "animate-color",
-      "title": "Animate Color",
-      "section": "links",
-      "src": "links/animate-color.html",
-      "slug": "/docs/components/links/animate-color",
-      "importPath": "../../../..//docs/components/links/animate-color.html"
-    },
-    {
-      "name": "dim-no-underline",
-      "title": "Dim No Underline",
-      "section": "links",
-      "src": "links/dim-no-underline.html",
-      "slug": "/docs/components/links/dim-no-underline",
-      "importPath": "../../../..//docs/components/links/dim-no-underline.html"
-    },
-    {
-      "name": "underline-on-hover",
-      "title": "Underline On Hover",
-      "section": "links",
-      "src": "links/underline-on-hover.html",
-      "slug": "/docs/components/links/underline-on-hover",
-      "importPath": "../../../..//docs/components/links/underline-on-hover.html"
+      "name": "iphone-app",
+      "title": "Iphone App",
+      "section": "marketing",
+      "src": "marketing/iphone-app.html",
+      "slug": "/docs/components/marketing/iphone-app",
+      "importPath": "../../../..//docs/components/marketing/iphone-app.html"
     }
   ],
   "lists": [
@@ -1069,14 +1079,38 @@
       "importPath": "../../../..//docs/components/lists/title-text.html"
     }
   ],
-  "marketing": [
+  "pages": [
     {
-      "name": "iphone-app",
-      "title": "Iphone App",
-      "section": "marketing",
-      "src": "marketing/iphone-app.html",
-      "slug": "/docs/components/marketing/iphone-app",
-      "importPath": "../../../..//docs/components/marketing/iphone-app.html"
+      "name": "4x4-mixed-grid",
+      "title": "4x4 Mixed Grid",
+      "section": "pages",
+      "src": "pages/4x4-mixed-grid.html",
+      "slug": "/docs/components/pages/4x4-mixed-grid",
+      "importPath": "../../../..//docs/components/pages/4x4-mixed-grid.html"
+    },
+    {
+      "name": "portfolio-project",
+      "title": "Portfolio Project",
+      "section": "pages",
+      "src": "pages/portfolio-project.html",
+      "slug": "/docs/components/pages/portfolio-project",
+      "importPath": "../../../..//docs/components/pages/portfolio-project.html"
+    },
+    {
+      "name": "double",
+      "title": "Double",
+      "section": "pages",
+      "src": "pages/double.html",
+      "slug": "/docs/components/pages/double",
+      "importPath": "../../../..//docs/components/pages/double.html"
+    },
+    {
+      "name": "swiss-cover-five-columns",
+      "title": "Swiss Cover Five Columns",
+      "section": "pages",
+      "src": "pages/swiss-cover-five-columns.html",
+      "slug": "/docs/components/pages/swiss-cover-five-columns",
+      "importPath": "../../../..//docs/components/pages/swiss-cover-five-columns.html"
     }
   ],
   "nav": [
@@ -1143,40 +1177,6 @@
       "src": "nav/title-link-list.html",
       "slug": "/docs/components/nav/title-link-list",
       "importPath": "../../../..//docs/components/nav/title-link-list.html"
-    }
-  ],
-  "pages": [
-    {
-      "name": "4x4-mixed-grid",
-      "title": "4x4 Mixed Grid",
-      "section": "pages",
-      "src": "pages/4x4-mixed-grid.html",
-      "slug": "/docs/components/pages/4x4-mixed-grid",
-      "importPath": "../../../..//docs/components/pages/4x4-mixed-grid.html"
-    },
-    {
-      "name": "double",
-      "title": "Double",
-      "section": "pages",
-      "src": "pages/double.html",
-      "slug": "/docs/components/pages/double",
-      "importPath": "../../../..//docs/components/pages/double.html"
-    },
-    {
-      "name": "portfolio-project",
-      "title": "Portfolio Project",
-      "section": "pages",
-      "src": "pages/portfolio-project.html",
-      "slug": "/docs/components/pages/portfolio-project",
-      "importPath": "../../../..//docs/components/pages/portfolio-project.html"
-    },
-    {
-      "name": "swiss-cover-five-columns",
-      "title": "Swiss Cover Five Columns",
-      "section": "pages",
-      "src": "pages/swiss-cover-five-columns.html",
-      "slug": "/docs/components/pages/swiss-cover-five-columns",
-      "importPath": "../../../..//docs/components/pages/swiss-cover-five-columns.html"
     }
   ],
   "quotes": [

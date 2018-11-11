@@ -1,6 +1,6 @@
 {
   "name": "tachyons-nudge",
-  "version": "7.0.1-1",
+  "version": "1.0.0",
   "style": "src/tachyons-nudge.css",
   "main": "src/tachyons-nudge.css",
   "description": "Performance based css module.",

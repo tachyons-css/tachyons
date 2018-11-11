@@ -1,6 +1,6 @@
 {
   "name": "tachyons-direction",
-  "version": "7.0.1-1",
+  "version": "1.0.0",
   "style": "src/tachyons-direction.css",
   "main": "src/tachyons-direction.css",
   "description": "Performance based css module.",

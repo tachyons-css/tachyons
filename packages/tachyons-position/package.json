@@ -1,6 +1,6 @@
 {
   "name": "tachyons-position",
-  "version": "7.0.1-1",
+  "version": "7.0.0",
   "style": "src/tachyons-position.css",
   "main": "src/tachyons-position.css",
   "description": "Performance based css module.",

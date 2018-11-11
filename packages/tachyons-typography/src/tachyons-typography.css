@@ -1,9 +1,7 @@
-
-
-
 @custom-media --breakpoint-small screen and (min-width: 30em);
 @custom-media --breakpoint-medium screen and (min-width: 48em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
+
 /*!!!
 
 # TYPOGRAPHY
@@ -12,7 +10,8 @@
 
 http://tachyons.io/docs/typography/measure/
 
-### Base 
+### Base
+
 - measure = max-width 30em
 - measure-wide = max-width 34em
 - measure-narrow = max-width 20em

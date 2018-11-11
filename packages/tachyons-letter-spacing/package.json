@@ -1,6 +1,6 @@
 {
   "name": "tachyons-letter-spacing",
-  "version": "7.0.1-1",
+  "version": "4.0.0",
   "style": "src/tachyons-letter-spacing.css",
   "main": "src/tachyons-letter-spacing.css",
   "description": "Performance based css module.",

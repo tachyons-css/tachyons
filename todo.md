@@ -6,3 +6,4 @@
 - different css gradient deg
 - home page
 - styleguide page
+- make each package independently versioned
