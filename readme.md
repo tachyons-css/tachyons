@@ -42,7 +42,7 @@ The quickest and easiest way to start using tachyons is to include a reference
 to the minified file in the head of your html file.
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css">
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
 ```
 
 ### Local Setup
@@ -119,6 +119,7 @@ We love letting the community see what people are building so please add your li
 * http://blunt.af/tachy.app/
 * https://fenderdigital.github.io/css-utilities/intro/
 * https://play.cash
+* https://bitmidi.com
 
 And of course...
 * http://tachyons.io

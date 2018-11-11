@@ -71,6 +71,10 @@
 .washed-red { color: var(--washed-red); }
 .color-inherit { color: inherit; }
 
+
+
+/* Background colors */
+
 .bg-black-90 {         background-color: var(--black-90); }
 .bg-black-80 {         background-color: var(--black-80); }
 .bg-black-70 {         background-color: var(--black-70); }
@@ -90,10 +94,6 @@
 .bg-white-30 {        background-color: var(--white-30); }
 .bg-white-20 {        background-color: var(--white-20); }
 .bg-white-10 {        background-color: var(--white-10); }
-
-
-
-/* Background colors */
 
 .bg-black {         background-color: var(--black); }
 .bg-near-black {    background-color: var(--near-black); }
