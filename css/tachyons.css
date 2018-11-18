@@ -302,6 +302,8 @@ img { max-width: 100%; }
       r = right
       b = bottom
       l = left
+      v = vertical
+      h = horizontal
       n = none
 
    Media Query Extensions:
@@ -315,6 +317,8 @@ img { max-width: 100%; }
 .br { border-right-style: solid; border-right-width: 1px; }
 .bb { border-bottom-style: solid; border-bottom-width: 1px; }
 .bl { border-left-style: solid; border-left-width: 1px; }
+.bh { border-left-style: solid; border-left-width: 1px; border-right-style: solid; border-right-width: 1px; }
+.bv { border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; }
 .bn { border-style: none; border-width: 0; }
 /*
 
@@ -2058,6 +2062,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-ns { border-right-style: solid; border-right-width: 1px; }
  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-ns { border-left-style: solid; border-left-width: 1px; }
+ .bh-ns { border-left-style: solid; border-left-width: 1px; border-right-style: solid; border-right-width: 1px; }
+ .bv-ns { border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; }
  .bn-ns { border-style: none; border-width: 0; }
  .br0-ns { border-radius: 0; }
  .br1-ns { border-radius: .125rem; }
@@ -2481,6 +2487,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-m { border-right-style: solid; border-right-width: 1px; }
  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-m { border-left-style: solid; border-left-width: 1px; }
+ .bh-m { border-left-style: solid; border-left-width: 1px; border-right-style: solid; border-right-width: 1px; }
+ .bv-m { border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; }
  .bn-m { border-style: none; border-width: 0; }
  .br0-m { border-radius: 0; }
  .br1-m { border-radius: .125rem; }
@@ -2904,6 +2912,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-l { border-right-style: solid; border-right-width: 1px; }
  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-l { border-left-style: solid; border-left-width: 1px; }
+ .bh-l { border-left-style: solid; border-left-width: 1px; border-right-style: solid; border-right-width: 1px; }
+ .bv-l { border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; }
  .bn-l { border-style: none; border-width: 0; }
  .br0-l { border-radius: 0; }
  .br1-l { border-radius: .125rem; }
