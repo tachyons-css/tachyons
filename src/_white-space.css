@@ -13,22 +13,26 @@
 .ws-normal { white-space: normal; }
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
+.pre-wrap { white-space: pre-wrap; }
 
 @media (--breakpoint-not-small) {
   .ws-normal-ns { white-space: normal; }
   .nowrap-ns { white-space: nowrap; }
   .pre-ns { white-space: pre; }
+  .pre-wrap-ns { white-space: pre-wrap; }
 }
 
 @media (--breakpoint-medium) {
   .ws-normal-m { white-space: normal; }
   .nowrap-m { white-space: nowrap; }
   .pre-m { white-space: pre; }
+  .pre-wrap-m { white-space: pre-wrap; }
 }
 
 @media (--breakpoint-large) {
   .ws-normal-l { white-space: normal; }
   .nowrap-l { white-space: nowrap; }
   .pre-l { white-space: pre; }
+  .pre-wrap-l { white-space: pre-wrap; }
 }
 
