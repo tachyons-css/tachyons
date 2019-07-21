@@ -5,6 +5,7 @@
 
    Base:
      w = width
+     vw = view-width; 
 
    Modifiers
      1 = 1st step in width scale
@@ -63,6 +64,8 @@
 .w-90 {  width:  90%; }
 .w-100 { width: 100%; }
 
+.vw-100 { width: 100vw; }
+
 .w-third { width: calc(100% / 3); }
 .w-two-thirds { width: calc(100% / 1.5); }
 .w-auto { width: auto; }
@@ -87,6 +90,7 @@
   .w-80-ns { width:  80%; }
   .w-90-ns { width:  90%; }
   .w-100-ns { width: 100%; }
+  .vw-100-ns { width: 100vw; }
   .w-third-ns { width: calc(100% / 3); }
   .w-two-thirds-ns { width: calc(100% / 1.5); }
   .w-auto-ns { width: auto; }
@@ -112,6 +116,7 @@
   .w-80-m { width:  80%; }
   .w-90-m { width:  90%; }
   .w-100-m { width: 100%; }
+  .vw-100-m { width: 100vw; }
   .w-third-m { width: calc(100% / 3); }
   .w-two-thirds-m { width: calc(100% / 1.5); }
   .w-auto-m {    width: auto; }
@@ -137,6 +142,7 @@
   .w-80-l {    width:  80%; }
   .w-90-l {    width:  90%; }
   .w-100-l {   width: 100%; }
+  .vw-100-l { width: 100vw; }
   .w-third-l { width: calc(100% / 3); }
   .w-two-thirds-l { width: calc(100% / 1.5); }
   .w-auto-l {    width: auto; }
