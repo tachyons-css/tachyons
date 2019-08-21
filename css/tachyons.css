@@ -907,19 +907,23 @@ http://tachyons.io/docs/typography/font-weight/
 
 ### Modifiers
 
-- 1 = literal value 100
-- 2 = literal value 200
-- 3 = literal value 300
-- 4 = literal value 400
-- 5 = literal value 500
-- 6 = literal value 600
-- 7 = literal value 700
-- 8 = literal value 800
-- 9 = literal value 900
+- -100 = literal value 100
+- -200 = literal value 200
+- -300 = literal value 300
+- -400 = literal value 400
+- -500 = literal value 500
+- -600 = literal value 600
+- -700 = literal value 700
+- -800 = literal value 800
+- -900 = literal value 900
+- -1000 = literal value -1000
 
-### Literal Values
+- -b = bold
+- -normal = normal
 
-- b = bold
+### Aliases
+
+- b = font-weight: bold
 
 ### Media Query Extensions
 
@@ -927,16 +931,18 @@ http://tachyons.io/docs/typography/font-weight/
 - `-m` = medium
 - `-l` = large
 */
-.b { font-weight: bold; }
-.fw1 { font-weight: 100; }
-.fw2 { font-weight: 200; }
-.fw3 { font-weight: 300; }
-.fw4 { font-weight: 400; }
-.fw5 { font-weight: 500; }
-.fw6 { font-weight: 600; }
-.fw7 { font-weight: 700; }
-.fw8 { font-weight: 800; }
-.fw9 { font-weight: 900; }
+.b, .fw-b { font-weight: bold; }
+.fw-normal { font-weight: normal; }
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
+.fw-1000 { font-weight: 1000; }
 /*!!!
 
 # FORMS
