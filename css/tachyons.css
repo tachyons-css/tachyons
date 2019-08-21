@@ -3138,18 +3138,20 @@ http://tachyons.io/docs/debug-grid/
  .fl-s { float: left; _display: inline; }
  .fr-s { float: right; _display: inline; }
  .fn-s { float: none; }
- .i-s { font-style: italic; }
+ .i-s, .fstyle-i-s { font-style: italic; }
  .fstyle-normal-s { font-style: normal; }
- .b-s { font-weight: bold; }
- .fw1-s { font-weight: 100; }
- .fw2-s { font-weight: 200; }
- .fw3-s { font-weight: 300; }
- .fw4-s { font-weight: 400; }
- .fw5-s { font-weight: 500; }
- .fw6-s { font-weight: 600; }
- .fw7-s { font-weight: 700; }
- .fw8-s { font-weight: 800; }
- .fw9-s { font-weight: 900; }
+ .b-s, .fw-b-s { font-weight: bold; }
+ .fw-normal-s { font-weight: normal; }
+ .fw-100-s { font-weight: 100; }
+ .fw-200-s { font-weight: 200; }
+ .fw-300-s { font-weight: 300; }
+ .fw-400-s { font-weight: 400; }
+ .fw-500-s { font-weight: 500; }
+ .fw-600-s { font-weight: 600; }
+ .fw-700-s { font-weight: 700; }
+ .fw-800-s { font-weight: 800; }
+ .fw-900-s { font-weight: 900; }
+ .fw-1000-s { font-weight: 1000; }
  .h1-s { height: 1rem; }
  .h2-s { height: 2rem; }
  .h3-s { height: 4rem; }
@@ -3568,18 +3570,20 @@ http://tachyons.io/docs/debug-grid/
  .fl-m { float: left; _display: inline; }
  .fr-m { float: right; _display: inline; }
  .fn-m { float: none; }
- .i-m { font-style: italic; }
+ .i-m, .fstyle-i-m { font-style: italic; }
  .fstyle-normal-m { font-style: normal; }
- .b-m { font-weight: bold; }
- .fw1-m { font-weight: 100; }
- .fw2-m { font-weight: 200; }
- .fw3-m { font-weight: 300; }
- .fw4-m { font-weight: 400; }
- .fw5-m { font-weight: 500; }
- .fw6-m { font-weight: 600; }
- .fw7-m { font-weight: 700; }
- .fw8-m { font-weight: 800; }
- .fw9-m { font-weight: 900; }
+ .b-m, .fw-b-m { font-weight: bold; }
+ .fw-normal-m { font-weight: normal; }
+ .fw-100-m { font-weight: 100; }
+ .fw-200-m { font-weight: 200; }
+ .fw-300-m { font-weight: 300; }
+ .fw-400-m { font-weight: 400; }
+ .fw-500-m { font-weight: 500; }
+ .fw-600-m { font-weight: 600; }
+ .fw-700-m { font-weight: 700; }
+ .fw-800-m { font-weight: 800; }
+ .fw-900-m { font-weight: 900; }
+ .fw-1000-m { font-weight: 1000; }
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }
@@ -3995,18 +3999,20 @@ http://tachyons.io/docs/debug-grid/
  .fl-l { float: left; _display: inline; }
  .fr-l { float: right; _display: inline; }
  .fn-l { float: none; }
- .i-l { font-style: italic; }
+ .i-l, .fstyle-i-l { font-style: italic; }
  .fstyle-normal-l { font-style: normal; }
- .b-l { font-weight: bold; }
- .fw1-l { font-weight: 100; }
- .fw2-l { font-weight: 200; }
- .fw3-l { font-weight: 300; }
- .fw4-l { font-weight: 400; }
- .fw5-l { font-weight: 500; }
- .fw6-l { font-weight: 600; }
- .fw7-l { font-weight: 700; }
- .fw8-l { font-weight: 800; }
- .fw9-l { font-weight: 900; }
+ .b-l, .fw-b-l { font-weight: bold; }
+ .fw-normal-l { font-weight: normal; }
+ .fw-100-l { font-weight: 100; }
+ .fw-200-l { font-weight: 200; }
+ .fw-300-l { font-weight: 300; }
+ .fw-400-l { font-weight: 400; }
+ .fw-500-l { font-weight: 500; }
+ .fw-600-l { font-weight: 600; }
+ .fw-700-l { font-weight: 700; }
+ .fw-800-l { font-weight: 800; }
+ .fw-900-l { font-weight: 900; }
+ .fw-1000-l { font-weight: 1000; }
  .h1-l { height: 1rem; }
  .h2-l { height: 2rem; }
  .h3-l { height: 4rem; }
