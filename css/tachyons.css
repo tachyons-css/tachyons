@@ -874,8 +874,16 @@ http://tachyons.io/docs/typography/font-style/
 
 ### Base
 
-- i = italic
-- fstyle-normal = normal
+- fstyle = font-style
+
+### Modifiers
+
+- -i = italic
+- -normal = normal
+
+### Aliases
+
+- i = font-style: italic
 
 ### Media Query Extensions
 
@@ -883,7 +891,7 @@ http://tachyons.io/docs/typography/font-style/
 - `-m` = medium
 - `-l` = large
 */
-.i { font-style: italic; }
+.i, .fstyle-i { font-style: italic; }
 .fstyle-normal { font-style: normal; }
 /*!!!
 
@@ -2568,6 +2576,11 @@ http://tachyons.io/docs/typography/scale/
 - 8 = 8th step in size scale
 - 9 = 9th step in size scale
 - 10 = 10th step in size scale
+
+### Aliases
+
+- fs-subheadline = font-size: 5rem
+- fs-headline = font-size: 6rem
 
 ### Media Query Extensions
 
