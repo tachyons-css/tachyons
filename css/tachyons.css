@@ -445,8 +445,6 @@ http://tachyons.io/docs/themes/border-radius/
 - 3 = 3rd step in scale
 - 4 = 4th step in scale
 
-### Literal values
-
 - `-100` = 100%
 - `-pill` = 9999px
 
@@ -555,8 +553,6 @@ http://tachyons.io/docs/themes/box-shadow/
 - `-3` = offset 2px 2px 4px 2px
 - `-4` = offset 2px 2px 8px 0px
 - `-5` = offset 4px 4px 8px 0px
-
-### Literal Values
 
 - `-none` = none
 
@@ -1050,7 +1046,7 @@ http://tachyons.io/docs/typography/line-height
 
 - lh = line height
 
-### Literal Values
+### Modifiers
 
 - `-solid` = literal value 1
 - `-title` = literal value 1.25
