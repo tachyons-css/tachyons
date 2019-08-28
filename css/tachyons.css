@@ -874,12 +874,12 @@ http://tachyons.io/docs/typography/font-style/
 
 ### Modifiers
 
-- `-italic = string value italic
+- `-italic` = string value italic
 - `-normal` = string value normal
 
 ### Aliases
 
-- i = font-style: italic
+- `i` = `font-style: italic`
 
 ### Media Query Extensions
 
@@ -912,7 +912,7 @@ http://tachyons.io/docs/typography/font-weight/
 - `-700` = literal value 700
 - -`800` = literal value 800
 - `-900` = literal value 900
-- `-1000` = literal value -1000
+- `-1000` = literal value 1000
 
 - `-bold` = string value bold
 - `-normal` = string value normal
@@ -2581,8 +2581,8 @@ http://tachyons.io/docs/typography/scale/
 
 ### Aliases
 
-- fs-subheadline = font-size: 5rem
-- fs-headline = font-size: 6rem
+- `fs-subheadline` = `font-size: 5rem`
+- `fs-headline` = `font-size: 6rem`
 
 ### Media Query Extensions
 
