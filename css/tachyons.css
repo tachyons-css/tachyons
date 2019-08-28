@@ -874,8 +874,8 @@ http://tachyons.io/docs/typography/font-style/
 
 ### Modifiers
 
-- -i = italic
-- -normal = normal
+- `-italic = string value italic
+- `-normal` = string value normal
 
 ### Aliases
 
@@ -887,7 +887,7 @@ http://tachyons.io/docs/typography/font-style/
 - `-m` = medium
 - `-l` = large
 */
-.i, .fstyle-i { font-style: italic; }
+.i, .fstyle-italic { font-style: italic; }
 .fstyle-normal { font-style: normal; }
 /*!!!
 
@@ -3138,7 +3138,7 @@ http://tachyons.io/docs/debug-grid/
  .fl-s { float: left; _display: inline; }
  .fr-s { float: right; _display: inline; }
  .fn-s { float: none; }
- .i-s, .fstyle-i-s { font-style: italic; }
+ .i-s, .fstyle-italic-s { font-style: italic; }
  .fstyle-normal-s { font-style: normal; }
  .b-s, .fw-bold-s { font-weight: bold; }
  .fw-normal-s { font-weight: normal; }
@@ -3570,7 +3570,7 @@ http://tachyons.io/docs/debug-grid/
  .fl-m { float: left; _display: inline; }
  .fr-m { float: right; _display: inline; }
  .fn-m { float: none; }
- .i-m, .fstyle-i-m { font-style: italic; }
+ .i-m, .fstyle-italic-m { font-style: italic; }
  .fstyle-normal-m { font-style: normal; }
  .b-m, .fw-bold-m { font-weight: bold; }
  .fw-normal-m { font-weight: normal; }
@@ -3999,7 +3999,7 @@ http://tachyons.io/docs/debug-grid/
  .fl-l { float: left; _display: inline; }
  .fr-l { float: right; _display: inline; }
  .fn-l { float: none; }
- .i-l, .fstyle-i-l { font-style: italic; }
+ .i-l, .fstyle-italic-l { font-style: italic; }
  .fstyle-normal-l { font-style: normal; }
  .b-l, .fw-bold-l { font-weight: bold; }
  .fw-normal-l { font-weight: normal; }
