@@ -903,23 +903,23 @@ http://tachyons.io/docs/typography/font-weight/
 
 ### Modifiers
 
-- -100 = literal value 100
-- -200 = literal value 200
-- -300 = literal value 300
-- -400 = literal value 400
-- -500 = literal value 500
-- -600 = literal value 600
-- -700 = literal value 700
-- -800 = literal value 800
-- -900 = literal value 900
-- -1000 = literal value -1000
+- `-100` = literal value 100
+- `-200` = literal value 200
+- `-300` = literal value 300
+- `-400` = literal value 400
+- `-500` = literal value 500
+- `-600` = literal value 600
+- `-700` = literal value 700
+- -`800` = literal value 800
+- `-900` = literal value 900
+- `-1000` = literal value -1000
 
-- -b = bold
-- -normal = normal
+- `-bold` = string value bold
+- `-normal` = string value normal
 
 ### Aliases
 
-- b = font-weight: bold
+- `b` = `font-weight: bold`
 
 ### Media Query Extensions
 
@@ -927,7 +927,7 @@ http://tachyons.io/docs/typography/font-weight/
 - `-m` = medium
 - `-l` = large
 */
-.b, .fw-b { font-weight: bold; }
+.b, .fw-bold { font-weight: bold; }
 .fw-normal { font-weight: normal; }
 .fw-100 { font-weight: 100; }
 .fw-200 { font-weight: 200; }
@@ -3140,7 +3140,7 @@ http://tachyons.io/docs/debug-grid/
  .fn-s { float: none; }
  .i-s, .fstyle-i-s { font-style: italic; }
  .fstyle-normal-s { font-style: normal; }
- .b-s, .fw-b-s { font-weight: bold; }
+ .b-s, .fw-bold-s { font-weight: bold; }
  .fw-normal-s { font-weight: normal; }
  .fw-100-s { font-weight: 100; }
  .fw-200-s { font-weight: 200; }
@@ -3572,7 +3572,7 @@ http://tachyons.io/docs/debug-grid/
  .fn-m { float: none; }
  .i-m, .fstyle-i-m { font-style: italic; }
  .fstyle-normal-m { font-style: normal; }
- .b-m, .fw-b-m { font-weight: bold; }
+ .b-m, .fw-bold-m { font-weight: bold; }
  .fw-normal-m { font-weight: normal; }
  .fw-100-m { font-weight: 100; }
  .fw-200-m { font-weight: 200; }
@@ -4001,7 +4001,7 @@ http://tachyons.io/docs/debug-grid/
  .fn-l { float: none; }
  .i-l, .fstyle-i-l { font-style: italic; }
  .fstyle-normal-l { font-style: normal; }
- .b-l, .fw-b-l { font-weight: bold; }
+ .b-l, .fw-bold-l { font-weight: bold; }
  .fw-normal-l { font-weight: normal; }
  .fw-100-l { font-weight: 100; }
  .fw-200-l { font-weight: 200; }
