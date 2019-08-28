@@ -132,8 +132,9 @@ Base | Property | Example class
 `flex-grow` | `flex-grow` | `flex-grow-1`
 `flex-shrink` | `flex-shrink` | `flex-shrink-0`
 `f` | `float` | `fl`
-`fw` | `font-weight` | `fw2`
-`f` | `font-size` | `f3`
+`fw` | `font-weight` | `fw-200`
+`fs` | `font-size` | `fs3`
+`fstyle` | `font-style` | `fstyle-normal`
 `h` | `height` | `h-100`
 `lh` | `line-height` | `lh-solid`
 `mw` | `max-width` | `mw4`

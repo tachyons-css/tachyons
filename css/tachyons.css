@@ -445,8 +445,6 @@ http://tachyons.io/docs/themes/border-radius/
 - 3 = 3rd step in scale
 - 4 = 4th step in scale
 
-### Literal values
-
 - `-100` = 100%
 - `-pill` = 9999px
 
@@ -555,8 +553,6 @@ http://tachyons.io/docs/themes/box-shadow/
 - `-3` = offset 2px 2px 4px 2px
 - `-4` = offset 2px 2px 8px 0px
 - `-5` = offset 4px 4px 8px 0px
-
-### Literal Values
 
 - `-none` = none
 
@@ -874,8 +870,16 @@ http://tachyons.io/docs/typography/font-style/
 
 ### Base
 
-- i = italic
-- fs-normal = normal
+- fstyle = font-style
+
+### Modifiers
+
+- `-italic` = string value italic
+- `-normal` = string value normal
+
+### Aliases
+
+- `i` = `font-style: italic`
 
 ### Media Query Extensions
 
@@ -883,8 +887,8 @@ http://tachyons.io/docs/typography/font-style/
 - `-m` = medium
 - `-l` = large
 */
-.i { font-style: italic; }
-.fs-normal { font-style: normal; }
+.i, .fstyle-italic { font-style: italic; }
+.fstyle-normal { font-style: normal; }
 /*!!!
 
 # FONT WEIGHT
@@ -899,19 +903,23 @@ http://tachyons.io/docs/typography/font-weight/
 
 ### Modifiers
 
-- 1 = literal value 100
-- 2 = literal value 200
-- 3 = literal value 300
-- 4 = literal value 400
-- 5 = literal value 500
-- 6 = literal value 600
-- 7 = literal value 700
-- 8 = literal value 800
-- 9 = literal value 900
+- `-100` = literal value 100
+- `-200` = literal value 200
+- `-300` = literal value 300
+- `-400` = literal value 400
+- `-500` = literal value 500
+- `-600` = literal value 600
+- `-700` = literal value 700
+- -`800` = literal value 800
+- `-900` = literal value 900
+- `-1000` = literal value 1000
 
-### Literal Values
+- `-bold` = string value bold
+- `-normal` = string value normal
 
-- b = bold
+### Aliases
+
+- `b` = `font-weight: bold`
 
 ### Media Query Extensions
 
@@ -919,16 +927,18 @@ http://tachyons.io/docs/typography/font-weight/
 - `-m` = medium
 - `-l` = large
 */
-.b { font-weight: bold; }
-.fw1 { font-weight: 100; }
-.fw2 { font-weight: 200; }
-.fw3 { font-weight: 300; }
-.fw4 { font-weight: 400; }
-.fw5 { font-weight: 500; }
-.fw6 { font-weight: 600; }
-.fw7 { font-weight: 700; }
-.fw8 { font-weight: 800; }
-.fw9 { font-weight: 900; }
+.b, .fw-bold { font-weight: bold; }
+.fw-normal { font-weight: normal; }
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
+.fw-1000 { font-weight: 1000; }
 /*!!!
 
 # FORMS
@@ -1036,7 +1046,7 @@ http://tachyons.io/docs/typography/line-height
 
 - lh = line height
 
-### Literal Values
+### Modifiers
 
 - `-solid` = literal value 1
 - `-title` = literal value 1.25
@@ -2554,19 +2564,25 @@ http://tachyons.io/docs/typography/scale/
 
 ### Base
 
-- f = font-size
+- fs = font-size
 
 ### Modifiers
 
-- 1 = 1st step back in size scale
-- 2 = 2nd step back in size scale
-- 3 = 3rd step back in size scale
-- 4 = 4th step back in size scale
-- 5 = 5th step back in size scale
-- 6 = 6th step back in size scale
-- 7 = 7th step back in size scale
-- 8 = 8th step back in size scale
-- 0 = Extra large
+- 1 = 1st step in size scale
+- 2 = 2nd step in size scale
+- 3 = 3rd step in size scale
+- 4 = 4th step in size scale
+- 5 = 5th step in size scale
+- 6 = 6th step in size scale
+- 7 = 7th step in size scale
+- 8 = 8th step in size scale
+- 9 = 9th step in size scale
+- 10 = 10th step in size scale
+
+### Aliases
+
+- `fs-subheadline` = `font-size: 5rem`
+- `fs-headline` = `font-size: 6rem`
 
 ### Media Query Extensions
 
@@ -2575,15 +2591,16 @@ http://tachyons.io/docs/typography/scale/
 - `-l` = large
 */
 /* Type Scale */
-.f0 { font-size: 6rem; }
-.f1 { font-size: 4rem; }
-.f2 { font-size: 3rem; }
-.f3 { font-size: 2rem; }
-.f4 { font-size: 1.5rem; }
-.f5 { font-size: 1rem; }
-.f6 { font-size: .875rem; }
-/* Small and hard to read for many people so use with extreme caution */
-.f7 { font-size: .75rem; }
+.fs1 { font-size: .75rem; } /* Small and may be hard to read. Use with caution. */
+.fs2 { font-size: .875rem; }
+.fs3 { font-size: 1rem; }
+.fs4 { font-size: 1.25rem; }
+.fs5 { font-size: 1.5rem; }
+.fs6 { font-size: 2.25rem; }
+.fs7 { font-size: 3rem; }
+.fs8 { font-size: 4rem; }
+.fs9, .fs-subheadline { font-size: 5rem; }
+.fs10, .fs-headline { font-size: 6rem; }
 /*!!!
 
 # TYPOGRAPHY
@@ -3121,18 +3138,20 @@ http://tachyons.io/docs/debug-grid/
  .fl-s { float: left; _display: inline; }
  .fr-s { float: right; _display: inline; }
  .fn-s { float: none; }
- .i-s { font-style: italic; }
- .fs-normal-s { font-style: normal; }
- .b-s { font-weight: bold; }
- .fw1-s { font-weight: 100; }
- .fw2-s { font-weight: 200; }
- .fw3-s { font-weight: 300; }
- .fw4-s { font-weight: 400; }
- .fw5-s { font-weight: 500; }
- .fw6-s { font-weight: 600; }
- .fw7-s { font-weight: 700; }
- .fw8-s { font-weight: 800; }
- .fw9-s { font-weight: 900; }
+ .i-s, .fstyle-italic-s { font-style: italic; }
+ .fstyle-normal-s { font-style: normal; }
+ .b-s, .fw-bold-s { font-weight: bold; }
+ .fw-normal-s { font-weight: normal; }
+ .fw-100-s { font-weight: 100; }
+ .fw-200-s { font-weight: 200; }
+ .fw-300-s { font-weight: 300; }
+ .fw-400-s { font-weight: 400; }
+ .fw-500-s { font-weight: 500; }
+ .fw-600-s { font-weight: 600; }
+ .fw-700-s { font-weight: 700; }
+ .fw-800-s { font-weight: 800; }
+ .fw-900-s { font-weight: 900; }
+ .fw-1000-s { font-weight: 1000; }
  .h1-s { height: 1rem; }
  .h2-s { height: 2rem; }
  .h3-s { height: 4rem; }
@@ -3374,14 +3393,16 @@ http://tachyons.io/docs/debug-grid/
  .ttl-s { text-transform: lowercase; }
  .ttu-s { text-transform: uppercase; }
  .ttn-s { text-transform: none; }
- .f0-s { font-size: 6rem; }
- .f1-s { font-size: 4rem; }
- .f2-s { font-size: 3rem; }
- .f3-s { font-size: 2rem; }
- .f4-s { font-size: 1.5rem; }
- .f5-s { font-size: 1rem; }
- .f6-s { font-size: .875rem; }
- .f7-s { font-size: .75rem; }
+ .fs1-s { font-size: .75rem; }
+ .fs2-s { font-size: .875rem; }
+ .fs3-s { font-size: 1rem; }
+ .fs4-s { font-size: 1.25rem; }
+ .fs5-s { font-size: 1.5rem; }
+ .fs6-s { font-size: 2.25rem; }
+ .fs7-s { font-size: 3rem; }
+ .fs8-s { font-size: 4rem; }
+ .fs9-s, .fs-subheadline-s { font-size: 5rem; }
+ .fs10-s, .fs-headline-s { font-size: 6rem; }
  .measure-s { max-width: 30em; }
  .measure-wide-s { max-width: 34em; }
  .measure-narrow-s { max-width: 20em; }
@@ -3549,18 +3570,20 @@ http://tachyons.io/docs/debug-grid/
  .fl-m { float: left; _display: inline; }
  .fr-m { float: right; _display: inline; }
  .fn-m { float: none; }
- .i-m { font-style: italic; }
- .fs-normal-m { font-style: normal; }
- .b-m { font-weight: bold; }
- .fw1-m { font-weight: 100; }
- .fw2-m { font-weight: 200; }
- .fw3-m { font-weight: 300; }
- .fw4-m { font-weight: 400; }
- .fw5-m { font-weight: 500; }
- .fw6-m { font-weight: 600; }
- .fw7-m { font-weight: 700; }
- .fw8-m { font-weight: 800; }
- .fw9-m { font-weight: 900; }
+ .i-m, .fstyle-italic-m { font-style: italic; }
+ .fstyle-normal-m { font-style: normal; }
+ .b-m, .fw-bold-m { font-weight: bold; }
+ .fw-normal-m { font-weight: normal; }
+ .fw-100-m { font-weight: 100; }
+ .fw-200-m { font-weight: 200; }
+ .fw-300-m { font-weight: 300; }
+ .fw-400-m { font-weight: 400; }
+ .fw-500-m { font-weight: 500; }
+ .fw-600-m { font-weight: 600; }
+ .fw-700-m { font-weight: 700; }
+ .fw-800-m { font-weight: 800; }
+ .fw-900-m { font-weight: 900; }
+ .fw-1000-m { font-weight: 1000; }
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }
@@ -3802,14 +3825,16 @@ http://tachyons.io/docs/debug-grid/
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }
  .ttn-m { text-transform: none; }
- .f0-m { font-size: 6rem; }
- .f1-m { font-size: 4rem; }
- .f2-m { font-size: 3rem; }
- .f3-m { font-size: 2rem; }
- .f4-m { font-size: 1.5rem; }
- .f5-m { font-size: 1rem; }
- .f6-m { font-size: .875rem; }
- .f7-m { font-size: .75rem; }
+ .fs1-m { font-size: .75rem; }
+ .fs2-m { font-size: .875rem; }
+ .fs3-m { font-size: 1rem; }
+ .fs4-m { font-size: 1.25rem; }
+ .fs5-m { font-size: 1.5rem; }
+ .fs6-m { font-size: 2.25rem; }
+ .fs7-m { font-size: 3rem; }
+ .fs8-m { font-size: 4rem; }
+ .fs9-m, .fs-subheadline-m { font-size: 5rem; }
+ .fs10-m, .fs-headline-m { font-size: 6rem; }
  .measure-m { max-width: 30em; }
  .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }
@@ -3974,18 +3999,20 @@ http://tachyons.io/docs/debug-grid/
  .fl-l { float: left; _display: inline; }
  .fr-l { float: right; _display: inline; }
  .fn-l { float: none; }
- .i-l { font-style: italic; }
- .fs-normal-l { font-style: normal; }
- .b-l { font-weight: bold; }
- .fw1-l { font-weight: 100; }
- .fw2-l { font-weight: 200; }
- .fw3-l { font-weight: 300; }
- .fw4-l { font-weight: 400; }
- .fw5-l { font-weight: 500; }
- .fw6-l { font-weight: 600; }
- .fw7-l { font-weight: 700; }
- .fw8-l { font-weight: 800; }
- .fw9-l { font-weight: 900; }
+ .i-l, .fstyle-italic-l { font-style: italic; }
+ .fstyle-normal-l { font-style: normal; }
+ .b-l, .fw-bold-l { font-weight: bold; }
+ .fw-normal-l { font-weight: normal; }
+ .fw-100-l { font-weight: 100; }
+ .fw-200-l { font-weight: 200; }
+ .fw-300-l { font-weight: 300; }
+ .fw-400-l { font-weight: 400; }
+ .fw-500-l { font-weight: 500; }
+ .fw-600-l { font-weight: 600; }
+ .fw-700-l { font-weight: 700; }
+ .fw-800-l { font-weight: 800; }
+ .fw-900-l { font-weight: 900; }
+ .fw-1000-l { font-weight: 1000; }
  .h1-l { height: 1rem; }
  .h2-l { height: 2rem; }
  .h3-l { height: 4rem; }
@@ -4227,14 +4254,16 @@ http://tachyons.io/docs/debug-grid/
  .ttl-l { text-transform: lowercase; }
  .ttu-l { text-transform: uppercase; }
  .ttn-l { text-transform: none; }
- .f0-l { font-size: 6rem; }
- .f1-l { font-size: 4rem; }
- .f2-l { font-size: 3rem; }
- .f3-l { font-size: 2rem; }
- .f4-l { font-size: 1.5rem; }
- .f5-l { font-size: 1rem; }
- .f6-l { font-size: .875rem; }
- .f7-l { font-size: .75rem; }
+ .fs1-l { font-size: .75rem; }
+ .fs2-l { font-size: .875rem; }
+ .fs3-l { font-size: 1rem; }
+ .fs4-l { font-size: 1.25rem; }
+ .fs5-l { font-size: 1.5rem; }
+ .fs6-l { font-size: 2.25rem; }
+ .fs7-l { font-size: 3rem; }
+ .fs8-l { font-size: 4rem; }
+ .fs9-l, .fs-subheadline-l { font-size: 5rem; }
+ .fs10-l, .fs-headline-l { font-size: 6rem; }
  .measure-l { max-width: 30em; }
  .measure-wide-l { max-width: 34em; }
  .measure-narrow-l { max-width: 20em; }
