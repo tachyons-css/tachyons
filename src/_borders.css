@@ -28,6 +28,8 @@
   .bl { border-left-style: solid; border-left-width: 1px; }
   .bn { border-style: none; border-width: 0; }
 
+  .ba, .bt, .br, .bb, .bl { border-color: currentColor; }
+
 
 @media (--breakpoint-not-small) {
   .ba-ns { border-style: solid; border-width: 1px; }

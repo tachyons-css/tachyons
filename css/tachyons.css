@@ -316,6 +316,7 @@ img { max-width: 100%; }
 .bb { border-bottom-style: solid; border-bottom-width: 1px; }
 .bl { border-left-style: solid; border-left-width: 1px; }
 .bn { border-style: none; border-width: 0; }
+.ba, .bt, .br, .bb, .bl { border-color: currentColor; }
 /*
 
    BORDER COLORS
