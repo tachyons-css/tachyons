@@ -130,7 +130,7 @@ Development of Tachyons is supported by
 
 * [Digital Ocean](https://digitalocean.com)
 * [DWYL](https://dwyl.com)
-* [VTEX](https://lab.vtex.com)
+* [VTEX](https://vtex.com)
 * [Manifold](https://manifold.co)
 
 ## Help
