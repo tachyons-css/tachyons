@@ -11,7 +11,31 @@
 */
 
 :root {
+  /* Mapistry Defined Colors */
   --black: #000;
+
+  --blue: #0000FF;
+  --light-blue: #38A9DB;
+
+  --brown: #A52A2A;
+
+  --green:  #31B14A;
+  --layer-style-green: #1D9E1D;
+  --light-green:  #75E15C;
+  --dark-green:  #007D00;
+
+  --map-gray: #8C8C8C;
+
+  --orange:  #FFA500;
+  --red:  #ce0c0c;
+
+  --pink:  #EA44EA;
+  --purple:  #800080;
+
+  --yellow: #FFFF00;
+
+  /* End Mapistry Colors */
+
   --near-black: #111;
   --dark-gray:#333;
   --mid-gray:#555;
@@ -52,25 +76,16 @@
  --white-0125: rgba(255,255,255,.0125);
 
   --dark-red:  #e7040f;
-  --red:  #ff4136;
   --light-red:  #ff725c;
-  --orange:  #ff6300;
   --gold:  #ffb700;
-  --yellow:  #ffd700;
   --light-yellow:  #fbf1a9;
-  --purple:  #5e2ca5;
   --light-purple:  #a463f2;
   --dark-pink:  #d5008f;
   --hot-pink: #ff41b4;
-  --pink:  #ff80cc;
   --light-pink:  #ffa3d7;
-  --dark-green:  #137752;
-  --green:  #19a974;
-  --light-green:  #9eebcf;
+
   --navy:  #001b44;
   --dark-blue:  #00449e;
-  --blue:  #357edd;
-  --light-blue:  #96ccff;
   --lightest-blue:  #cdecff;
   --washed-blue:  #f6fffe;
   --washed-green:  #e8fdf5;
