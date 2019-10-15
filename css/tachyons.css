@@ -335,7 +335,7 @@ img { max-width: 100%; }
    --color-name = each color variable name is also a border color name
 
 */
-.b--black { border-color: #000; }
+.b--black { border-color: #ff80cc; }
 .b--near-black { border-color: #111; }
 .b--dark-gray { border-color: #333; }
 .b--mid-gray { border-color: #555; }
@@ -1089,7 +1089,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .white-30 { color: rgba( 255, 255, 255, .3 ); }
 .white-20 { color: rgba( 255, 255, 255, .2 ); }
 .white-10 { color: rgba( 255, 255, 255, .1 ); }
-.black { color: #000; }
+.black { color: #ff80cc; }
 .near-black { color: #111; }
 .dark-gray { color: #333; }
 .mid-gray { color: #555; }
@@ -1146,7 +1146,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-white-30 { background-color: rgba( 255, 255, 255, .3 ); }
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
-.bg-black { background-color: #000; }
+.bg-black { background-color: #ff80cc; }
 .bg-near-black { background-color: #111; }
 .bg-dark-gray { background-color: #333; }
 .bg-mid-gray { background-color: #555; }
@@ -1192,8 +1192,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    it is focused or hovered over.
  
  */
-.hover-black:hover { color: #000; }
-.hover-black:focus { color: #000; }
+.hover-black:hover { color: #ff80cc; }
+.hover-black:focus { color: #ff80cc; }
 .hover-near-black:hover { color: #111; }
 .hover-near-black:focus { color: #111; }
 .hover-dark-gray:hover { color: #333; }
@@ -1251,8 +1251,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-white-10:hover { color: rgba( 255, 255, 255, .1 ); }
 .hover-white-10:focus { color: rgba( 255, 255, 255, .1 ); }
 .hover-inherit:hover, .hover-inherit:focus { color: inherit; }
-.hover-bg-black:hover { background-color: #000; }
-.hover-bg-black:focus { background-color: #000; }
+.hover-bg-black:hover { background-color: #ff80cc; }
+.hover-bg-black:focus { background-color: #ff80cc; }
 .hover-bg-near-black:hover { background-color: #111; }
 .hover-bg-near-black:focus { background-color: #111; }
 .hover-bg-dark-gray:hover { background-color: #333; }
