@@ -343,6 +343,7 @@ img { max-width: 100%; }
 .b--silver { border-color: #999; }
 .b--light-silver { border-color: #aaa; }
 .b--moon-gray { border-color: #ccc; }
+.b--map-gray { border-color: #8c8c8c; }
 .b--light-gray { border-color: #eee; }
 .b--near-white { border-color: #f4f4f4; }
 .b--white { border-color: #fff; }
@@ -370,6 +371,7 @@ img { max-width: 100%; }
 .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
 .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
+.b--brown { border-color: #a52a2a; }
 .b--dark-red { border-color: #e7040f; }
 .b--red { border-color: #ce0c0c; }
 .b--light-red { border-color: #ff725c; }
@@ -385,6 +387,7 @@ img { max-width: 100%; }
 .b--light-pink { border-color: #ffa3d7; }
 .b--dark-green { border-color: #007d00; }
 .b--green { border-color: #31b14a; }
+.b--layer-style-green { border-color: #1d9e1d; }
 .b--light-green { border-color: #75e15c; }
 .b--navy { border-color: #001b44; }
 .b--dark-blue { border-color: #00449e; }
@@ -1065,8 +1068,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 /* Text colors */
@@ -1100,6 +1103,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-gray { color: #eee; }
 .near-white { color: #f4f4f4; }
 .white { color: #fff; }
+.brown { color: #a52a2a; }
+.layer-style-green { color: #1d9e1d; }
+.map-gray { color: #8c8c8c; }
 .dark-red { color: #e7040f; }
 .red { color: #ce0c0c; }
 .light-red { color: #ff725c; }
@@ -1146,6 +1152,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-white-30 { background-color: rgba( 255, 255, 255, .3 ); }
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
+.bg-brown { background-color: #a52a2a; }
+.bg-layer-style-green { background-color: #1d9e1d; }
+.bg-map-gray { background-color: #8c8c8c; }
 .bg-black { background-color: #000; }
 .bg-near-black { background-color: #111; }
 .bg-dark-gray { background-color: #333; }
@@ -1184,14 +1193,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-washed-yellow { background-color: #fffceb; }
 .bg-washed-red { background-color: #ffdfdf; }
 .bg-inherit { background-color: inherit; }
-/* 
-  
+/*
+
    SKINS:PSEUDO
 
    Customize the color of an element when
    it is focused or hovered over.
- 
+
  */
+.hover-brown:hover { color: #a52a2a; }
+.hover-brown:focus { color: #a52a2a; }
+.hover-layer-style-green:hover { color: #1d9e1d; }
+.hover-layer-style-green:focus { color: #1d9e1d; }
+.hover-map-gray:hover { color: #8c8c8c; }
+.hover-map-gray:focus { color: #8c8c8c; }
 .hover-black:hover { color: #000; }
 .hover-black:focus { color: #000; }
 .hover-near-black:hover { color: #111; }
@@ -1251,6 +1266,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-white-10:hover { color: rgba( 255, 255, 255, .1 ); }
 .hover-white-10:focus { color: rgba( 255, 255, 255, .1 ); }
 .hover-inherit:hover, .hover-inherit:focus { color: inherit; }
+.hover-bg-brown:hover { background-color: #a52a2a; }
+.hover-bg-brown:focus { background-color: #a52a2a; }
+.hover-bg-layer-style-green:hover { background-color: #1d9e1d; }
+.hover-bg-layer-style-green:focus { background-color: #1d9e1d; }
+.hover-bg-map-gray:hover { background-color: #8c8c8c; }
+.hover-bg-map-gray:focus { background-color: #8c8c8c; }
 .hover-bg-black:hover { background-color: #000; }
 .hover-bg-black:focus { background-color: #000; }
 .hover-bg-near-black:hover { background-color: #111; }
