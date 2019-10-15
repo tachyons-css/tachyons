@@ -343,6 +343,7 @@ img { max-width: 100%; }
 .b--silver { border-color: #999; }
 .b--light-silver { border-color: #aaa; }
 .b--moon-gray { border-color: #ccc; }
+.b--map-gray { border-color: #8c8c8c; }
 .b--light-gray { border-color: #eee; }
 .b--near-white { border-color: #f4f4f4; }
 .b--white { border-color: #fff; }
@@ -370,26 +371,28 @@ img { max-width: 100%; }
 .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
 .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
+.b--brown { border-color: #a52a2a; }
 .b--dark-red { border-color: #e7040f; }
-.b--red { border-color: #ff4136; }
+.b--red { border-color: #ce0c0c; }
 .b--light-red { border-color: #ff725c; }
-.b--orange { border-color: #ff6300; }
+.b--orange { border-color: #ffa500; }
 .b--gold { border-color: #ffb700; }
-.b--yellow { border-color: #ffd700; }
+.b--yellow { border-color: #ff0; }
 .b--light-yellow { border-color: #fbf1a9; }
-.b--purple { border-color: #5e2ca5; }
+.b--purple { border-color: #800080; }
 .b--light-purple { border-color: #a463f2; }
 .b--dark-pink { border-color: #d5008f; }
 .b--hot-pink { border-color: #ff41b4; }
-.b--pink { border-color: #ff80cc; }
+.b--pink { border-color: #ea44ea; }
 .b--light-pink { border-color: #ffa3d7; }
-.b--dark-green { border-color: #137752; }
-.b--green { border-color: #19a974; }
-.b--light-green { border-color: #9eebcf; }
+.b--dark-green { border-color: #007d00; }
+.b--green { border-color: #31b14a; }
+.b--layer-style-green { border-color: #1d9e1d; }
+.b--light-green { border-color: #75e15c; }
 .b--navy { border-color: #001b44; }
 .b--dark-blue { border-color: #00449e; }
-.b--blue { border-color: #357edd; }
-.b--light-blue { border-color: #96ccff; }
+.b--blue { border-color: #00f; }
+.b--light-blue { border-color: #38a9db; }
 .b--lightest-blue { border-color: #cdecff; }
 .b--washed-blue { border-color: #f6fffe; }
 .b--washed-green { border-color: #e8fdf5; }
@@ -1065,8 +1068,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 /* Text colors */
@@ -1100,26 +1103,29 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-gray { color: #eee; }
 .near-white { color: #f4f4f4; }
 .white { color: #fff; }
+.brown { color: #a52a2a; }
+.layer-style-green { color: #1d9e1d; }
+.map-gray { color: #8c8c8c; }
 .dark-red { color: #e7040f; }
-.red { color: #ff4136; }
+.red { color: #ce0c0c; }
 .light-red { color: #ff725c; }
-.orange { color: #ff6300; }
+.orange { color: #ffa500; }
 .gold { color: #ffb700; }
-.yellow { color: #ffd700; }
+.yellow { color: #ff0; }
 .light-yellow { color: #fbf1a9; }
-.purple { color: #5e2ca5; }
+.purple { color: #800080; }
 .light-purple { color: #a463f2; }
 .dark-pink { color: #d5008f; }
 .hot-pink { color: #ff41b4; }
-.pink { color: #ff80cc; }
+.pink { color: #ea44ea; }
 .light-pink { color: #ffa3d7; }
-.dark-green { color: #137752; }
-.green { color: #19a974; }
-.light-green { color: #9eebcf; }
+.dark-green { color: #007d00; }
+.green { color: #31b14a; }
+.light-green { color: #75e15c; }
 .navy { color: #001b44; }
 .dark-blue { color: #00449e; }
-.blue { color: #357edd; }
-.light-blue { color: #96ccff; }
+.blue { color: #00f; }
+.light-blue { color: #38a9db; }
 .lightest-blue { color: #cdecff; }
 .washed-blue { color: #f6fffe; }
 .washed-green { color: #e8fdf5; }
@@ -1146,6 +1152,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-white-30 { background-color: rgba( 255, 255, 255, .3 ); }
 .bg-white-20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
+.bg-brown { background-color: #a52a2a; }
+.bg-layer-style-green { background-color: #1d9e1d; }
+.bg-map-gray { background-color: #8c8c8c; }
 .bg-black { background-color: #000; }
 .bg-near-black { background-color: #111; }
 .bg-dark-gray { background-color: #333; }
@@ -1159,39 +1168,45 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-white { background-color: #fff; }
 .bg-transparent { background-color: transparent; }
 .bg-dark-red { background-color: #e7040f; }
-.bg-red { background-color: #ff4136; }
+.bg-red { background-color: #ce0c0c; }
 .bg-light-red { background-color: #ff725c; }
-.bg-orange { background-color: #ff6300; }
+.bg-orange { background-color: #ffa500; }
 .bg-gold { background-color: #ffb700; }
-.bg-yellow { background-color: #ffd700; }
+.bg-yellow { background-color: #ff0; }
 .bg-light-yellow { background-color: #fbf1a9; }
-.bg-purple { background-color: #5e2ca5; }
+.bg-purple { background-color: #800080; }
 .bg-light-purple { background-color: #a463f2; }
 .bg-dark-pink { background-color: #d5008f; }
 .bg-hot-pink { background-color: #ff41b4; }
-.bg-pink { background-color: #ff80cc; }
+.bg-pink { background-color: #ea44ea; }
 .bg-light-pink { background-color: #ffa3d7; }
-.bg-dark-green { background-color: #137752; }
-.bg-green { background-color: #19a974; }
-.bg-light-green { background-color: #9eebcf; }
+.bg-dark-green { background-color: #007d00; }
+.bg-green { background-color: #31b14a; }
+.bg-light-green { background-color: #75e15c; }
 .bg-navy { background-color: #001b44; }
 .bg-dark-blue { background-color: #00449e; }
-.bg-blue { background-color: #357edd; }
-.bg-light-blue { background-color: #96ccff; }
+.bg-blue { background-color: #00f; }
+.bg-light-blue { background-color: #38a9db; }
 .bg-lightest-blue { background-color: #cdecff; }
 .bg-washed-blue { background-color: #f6fffe; }
 .bg-washed-green { background-color: #e8fdf5; }
 .bg-washed-yellow { background-color: #fffceb; }
 .bg-washed-red { background-color: #ffdfdf; }
 .bg-inherit { background-color: inherit; }
-/* 
-  
+/*
+
    SKINS:PSEUDO
 
    Customize the color of an element when
    it is focused or hovered over.
- 
+
  */
+.hover-brown:hover { color: #a52a2a; }
+.hover-brown:focus { color: #a52a2a; }
+.hover-layer-style-green:hover { color: #1d9e1d; }
+.hover-layer-style-green:focus { color: #1d9e1d; }
+.hover-map-gray:hover { color: #8c8c8c; }
+.hover-map-gray:focus { color: #8c8c8c; }
 .hover-black:hover { color: #000; }
 .hover-black:focus { color: #000; }
 .hover-near-black:hover { color: #111; }
@@ -1251,6 +1266,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-white-10:hover { color: rgba( 255, 255, 255, .1 ); }
 .hover-white-10:focus { color: rgba( 255, 255, 255, .1 ); }
 .hover-inherit:hover, .hover-inherit:focus { color: inherit; }
+.hover-bg-brown:hover { background-color: #a52a2a; }
+.hover-bg-brown:focus { background-color: #a52a2a; }
+.hover-bg-layer-style-green:hover { background-color: #1d9e1d; }
+.hover-bg-layer-style-green:focus { background-color: #1d9e1d; }
+.hover-bg-map-gray:hover { background-color: #8c8c8c; }
+.hover-bg-map-gray:focus { background-color: #8c8c8c; }
 .hover-bg-black:hover { background-color: #000; }
 .hover-bg-black:focus { background-color: #000; }
 .hover-bg-near-black:hover { background-color: #111; }
@@ -1313,44 +1334,44 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-white-10:focus { background-color: rgba( 255, 255, 255, .1 ); }
 .hover-dark-red:hover { color: #e7040f; }
 .hover-dark-red:focus { color: #e7040f; }
-.hover-red:hover { color: #ff4136; }
-.hover-red:focus { color: #ff4136; }
+.hover-red:hover { color: #ce0c0c; }
+.hover-red:focus { color: #ce0c0c; }
 .hover-light-red:hover { color: #ff725c; }
 .hover-light-red:focus { color: #ff725c; }
-.hover-orange:hover { color: #ff6300; }
-.hover-orange:focus { color: #ff6300; }
+.hover-orange:hover { color: #ffa500; }
+.hover-orange:focus { color: #ffa500; }
 .hover-gold:hover { color: #ffb700; }
 .hover-gold:focus { color: #ffb700; }
-.hover-yellow:hover { color: #ffd700; }
-.hover-yellow:focus { color: #ffd700; }
+.hover-yellow:hover { color: #ff0; }
+.hover-yellow:focus { color: #ff0; }
 .hover-light-yellow:hover { color: #fbf1a9; }
 .hover-light-yellow:focus { color: #fbf1a9; }
-.hover-purple:hover { color: #5e2ca5; }
-.hover-purple:focus { color: #5e2ca5; }
+.hover-purple:hover { color: #800080; }
+.hover-purple:focus { color: #800080; }
 .hover-light-purple:hover { color: #a463f2; }
 .hover-light-purple:focus { color: #a463f2; }
 .hover-dark-pink:hover { color: #d5008f; }
 .hover-dark-pink:focus { color: #d5008f; }
 .hover-hot-pink:hover { color: #ff41b4; }
 .hover-hot-pink:focus { color: #ff41b4; }
-.hover-pink:hover { color: #ff80cc; }
-.hover-pink:focus { color: #ff80cc; }
+.hover-pink:hover { color: #ea44ea; }
+.hover-pink:focus { color: #ea44ea; }
 .hover-light-pink:hover { color: #ffa3d7; }
 .hover-light-pink:focus { color: #ffa3d7; }
-.hover-dark-green:hover { color: #137752; }
-.hover-dark-green:focus { color: #137752; }
-.hover-green:hover { color: #19a974; }
-.hover-green:focus { color: #19a974; }
-.hover-light-green:hover { color: #9eebcf; }
-.hover-light-green:focus { color: #9eebcf; }
+.hover-dark-green:hover { color: #007d00; }
+.hover-dark-green:focus { color: #007d00; }
+.hover-green:hover { color: #31b14a; }
+.hover-green:focus { color: #31b14a; }
+.hover-light-green:hover { color: #75e15c; }
+.hover-light-green:focus { color: #75e15c; }
 .hover-navy:hover { color: #001b44; }
 .hover-navy:focus { color: #001b44; }
 .hover-dark-blue:hover { color: #00449e; }
 .hover-dark-blue:focus { color: #00449e; }
-.hover-blue:hover { color: #357edd; }
-.hover-blue:focus { color: #357edd; }
-.hover-light-blue:hover { color: #96ccff; }
-.hover-light-blue:focus { color: #96ccff; }
+.hover-blue:hover { color: #00f; }
+.hover-blue:focus { color: #00f; }
+.hover-light-blue:hover { color: #38a9db; }
+.hover-light-blue:focus { color: #38a9db; }
 .hover-lightest-blue:hover { color: #cdecff; }
 .hover-lightest-blue:focus { color: #cdecff; }
 .hover-washed-blue:hover { color: #f6fffe; }
@@ -1363,44 +1384,44 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-washed-red:focus { color: #ffdfdf; }
 .hover-bg-dark-red:hover { background-color: #e7040f; }
 .hover-bg-dark-red:focus { background-color: #e7040f; }
-.hover-bg-red:hover { background-color: #ff4136; }
-.hover-bg-red:focus { background-color: #ff4136; }
+.hover-bg-red:hover { background-color: #ce0c0c; }
+.hover-bg-red:focus { background-color: #ce0c0c; }
 .hover-bg-light-red:hover { background-color: #ff725c; }
 .hover-bg-light-red:focus { background-color: #ff725c; }
-.hover-bg-orange:hover { background-color: #ff6300; }
-.hover-bg-orange:focus { background-color: #ff6300; }
+.hover-bg-orange:hover { background-color: #ffa500; }
+.hover-bg-orange:focus { background-color: #ffa500; }
 .hover-bg-gold:hover { background-color: #ffb700; }
 .hover-bg-gold:focus { background-color: #ffb700; }
-.hover-bg-yellow:hover { background-color: #ffd700; }
-.hover-bg-yellow:focus { background-color: #ffd700; }
+.hover-bg-yellow:hover { background-color: #ff0; }
+.hover-bg-yellow:focus { background-color: #ff0; }
 .hover-bg-light-yellow:hover { background-color: #fbf1a9; }
 .hover-bg-light-yellow:focus { background-color: #fbf1a9; }
-.hover-bg-purple:hover { background-color: #5e2ca5; }
-.hover-bg-purple:focus { background-color: #5e2ca5; }
+.hover-bg-purple:hover { background-color: #800080; }
+.hover-bg-purple:focus { background-color: #800080; }
 .hover-bg-light-purple:hover { background-color: #a463f2; }
 .hover-bg-light-purple:focus { background-color: #a463f2; }
 .hover-bg-dark-pink:hover { background-color: #d5008f; }
 .hover-bg-dark-pink:focus { background-color: #d5008f; }
 .hover-bg-hot-pink:hover { background-color: #ff41b4; }
 .hover-bg-hot-pink:focus { background-color: #ff41b4; }
-.hover-bg-pink:hover { background-color: #ff80cc; }
-.hover-bg-pink:focus { background-color: #ff80cc; }
+.hover-bg-pink:hover { background-color: #ea44ea; }
+.hover-bg-pink:focus { background-color: #ea44ea; }
 .hover-bg-light-pink:hover { background-color: #ffa3d7; }
 .hover-bg-light-pink:focus { background-color: #ffa3d7; }
-.hover-bg-dark-green:hover { background-color: #137752; }
-.hover-bg-dark-green:focus { background-color: #137752; }
-.hover-bg-green:hover { background-color: #19a974; }
-.hover-bg-green:focus { background-color: #19a974; }
-.hover-bg-light-green:hover { background-color: #9eebcf; }
-.hover-bg-light-green:focus { background-color: #9eebcf; }
+.hover-bg-dark-green:hover { background-color: #007d00; }
+.hover-bg-dark-green:focus { background-color: #007d00; }
+.hover-bg-green:hover { background-color: #31b14a; }
+.hover-bg-green:focus { background-color: #31b14a; }
+.hover-bg-light-green:hover { background-color: #75e15c; }
+.hover-bg-light-green:focus { background-color: #75e15c; }
 .hover-bg-navy:hover { background-color: #001b44; }
 .hover-bg-navy:focus { background-color: #001b44; }
 .hover-bg-dark-blue:hover { background-color: #00449e; }
 .hover-bg-dark-blue:focus { background-color: #00449e; }
-.hover-bg-blue:hover { background-color: #357edd; }
-.hover-bg-blue:focus { background-color: #357edd; }
-.hover-bg-light-blue:hover { background-color: #96ccff; }
-.hover-bg-light-blue:focus { background-color: #96ccff; }
+.hover-bg-blue:hover { background-color: #00f; }
+.hover-bg-blue:focus { background-color: #00f; }
+.hover-bg-light-blue:hover { background-color: #38a9db; }
+.hover-bg-light-blue:focus { background-color: #38a9db; }
 .hover-bg-lightest-blue:hover { background-color: #cdecff; }
 .hover-bg-lightest-blue:focus { background-color: #cdecff; }
 .hover-bg-washed-blue:hover { background-color: #f6fffe; }
@@ -1945,9 +1966,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 .nested-copy-separator p+p { margin-top: 1.5em; }
 .nested-img img { width: 100%; max-width: 100%; display: block; }
-.nested-links a { color: #357edd; transition: color .15s ease-in; }
-.nested-links a:hover { color: #96ccff; transition: color .15s ease-in; }
-.nested-links a:focus { color: #96ccff; transition: color .15s ease-in; }
+.nested-links a { color: #00f; transition: color .15s ease-in; }
+.nested-links a:hover { color: #38a9db; transition: color .15s ease-in; }
+.nested-links a:focus { color: #38a9db; transition: color .15s ease-in; }
 /*
 
   STYLES
@@ -1968,6 +1989,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Colors
 
 */
+:root {/* Mapistry Defined Colors *//* End Mapistry Colors */ }
 /*
 
   CUSTOM MEDIA QUERIES
