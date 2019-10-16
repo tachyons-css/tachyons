@@ -561,6 +561,9 @@ img { max-width: 100%; }
 .bottom--2 { bottom: -2rem; }
 .left--2 { left: -2rem; }
 .absolute--fill { top: 0; right: 0; bottom: 0; left: 0; }
+.absolute--center { top: 50%; left: 50%; -webkit-transform: translate( -50%, -50% ); transform: translate( -50%, -50% ); }
+.v-center { top: 50%; -webkit-transform: translateY( -50% ); transform: translateY( -50% ); }
+.h-center { left: 50%; -webkit-transform: translateX( -50% ); transform: translateX( -50% ); }
 /*
 
    CLEARFIX
@@ -2110,6 +2113,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bottom--2-ns { bottom: -2rem; }
  .left--2-ns { left: -2rem; }
  .absolute--fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
+ .absolute--center-ns { top: 50%; left: 50%; -webkit-transform: translate( -50%, -50% ); transform: translate( -50%, -50% ); }
+ .v-center-ns { top: 50%; -webkit-transform: translateY( -50% ); transform: translateY( -50% ); }
+ .h-center-ns { left: 50%; -webkit-transform: translateX( -50% ); transform: translateX( -50% ); }
  .cl-ns { clear: left; }
  .cr-ns { clear: right; }
  .cb-ns { clear: both; }
@@ -2533,6 +2539,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bottom--2-m { bottom: -2rem; }
  .left--2-m { left: -2rem; }
  .absolute--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
+ .absolute--center-m { top: 50%; left: 50%; -webkit-transform: translate( -50%, -50% ); transform: translate( -50%, -50% ); }
+ .v-center-m { top: 50%; -webkit-transform: translateY( -50% ); transform: translateY( -50% ); }
+ .h-center-m { left: 50%; -webkit-transform: translateX( -50% ); transform: translateX( -50% ); }
  .cl-m { clear: left; }
  .cr-m { clear: right; }
  .cb-m { clear: both; }
@@ -2956,6 +2965,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .bottom--2-l { bottom: -2rem; }
  .left--2-l { left: -2rem; }
  .absolute--fill-l { top: 0; right: 0; bottom: 0; left: 0; }
+ .absolute--center-l { top: 50%; left: 50%; -webkit-transform: translate( -50%, -50% ); transform: translate( -50%, -50% ); }
+ .v-center-l { top: 50%; -webkit-transform: translateY( -50% ); transform: translateY( -50% ); }
+ .h-center-l { left: 50%; -webkit-transform: translateX( -50% ); transform: translateX( -50% ); }
  .cl-l { clear: left; }
  .cr-l { clear: right; }
  .cb-l { clear: both; }
