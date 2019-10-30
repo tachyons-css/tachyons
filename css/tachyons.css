@@ -388,7 +388,7 @@ img { max-width: 100%; }
 .b--dark-green { border-color: #007d00; }
 .b--green { border-color: #31b14a; }
 .b--layer-style-green { border-color: #1d9e1d; }
-.b--light-green { border-color: #75e15c; }
+.b--light-green { border-color: #ccead2; }
 .b--navy { border-color: #001b44; }
 .b--dark-blue { border-color: #262f49; }
 .b--blue { border-color: #00f; }
@@ -1121,7 +1121,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-pink { color: #ffa3d7; }
 .dark-green { color: #007d00; }
 .green { color: #31b14a; }
-.light-green { color: #75e15c; }
+.light-green { color: #ccead2; }
 .navy { color: #001b44; }
 .dark-blue { color: #262f49; }
 .blue { color: #00f; }
@@ -1182,7 +1182,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-light-pink { background-color: #ffa3d7; }
 .bg-dark-green { background-color: #007d00; }
 .bg-green { background-color: #31b14a; }
-.bg-light-green { background-color: #75e15c; }
+.bg-light-green { background-color: #ccead2; }
 .bg-navy { background-color: #001b44; }
 .bg-dark-blue { background-color: #262f49; }
 .bg-blue { background-color: #00f; }
@@ -1362,8 +1362,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-dark-green:focus { color: #007d00; }
 .hover-green:hover { color: #31b14a; }
 .hover-green:focus { color: #31b14a; }
-.hover-light-green:hover { color: #75e15c; }
-.hover-light-green:focus { color: #75e15c; }
+.hover-light-green:hover { color: #ccead2; }
+.hover-light-green:focus { color: #ccead2; }
 .hover-navy:hover { color: #001b44; }
 .hover-navy:focus { color: #001b44; }
 .hover-dark-blue:hover { color: #262f49; }
@@ -1412,8 +1412,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-dark-green:focus { background-color: #007d00; }
 .hover-bg-green:hover { background-color: #31b14a; }
 .hover-bg-green:focus { background-color: #31b14a; }
-.hover-bg-light-green:hover { background-color: #75e15c; }
-.hover-bg-light-green:focus { background-color: #75e15c; }
+.hover-bg-light-green:hover { background-color: #ccead2; }
+.hover-bg-light-green:focus { background-color: #ccead2; }
 .hover-bg-navy:hover { background-color: #001b44; }
 .hover-bg-navy:focus { background-color: #001b44; }
 .hover-bg-dark-blue:hover { background-color: #262f49; }
