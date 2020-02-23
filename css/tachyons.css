@@ -634,7 +634,9 @@ img { max-width: 100%; }
 .flex-auto { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
 .flex-none { flex: none; }
 .flex-column { flex-direction: column; }
+.flex-column-reverse {flex-direction: column-reverse;}
 .flex-row { flex-direction: row; }
+.flex-row-reverse { flex-direction: row-reverse; }
 .flex-wrap { flex-wrap: wrap; }
 .flex-nowrap { flex-wrap: nowrap; }
 .flex-wrap-reverse { flex-wrap: wrap-reverse; }
