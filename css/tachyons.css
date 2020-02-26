@@ -2451,6 +2451,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-mid-ns { vertical-align: middle; }
  .v-top-ns { vertical-align: top; }
  .v-btm-ns { vertical-align: bottom; }
+ .hide-child-ns .child { opacity: 0; transition: opacity .15s ease-in; }
+ .hide-child-ns:hover  .child, .hide-child-ns:focus  .child,
+ .hide-child-ns:active .child { opacity: 1; transition: opacity .15s ease-in; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .aspect-ratio-m { height: 0; position: relative; }
