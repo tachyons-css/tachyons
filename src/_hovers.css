@@ -158,3 +158,15 @@
   transition: background-color .15s ease-in-out; 
 }
 
+@media (--breakpoint-not-small) {
+  .hide-child-ns .child {
+    opacity: 0;
+    transition: opacity .15s ease-in;
+  }
+  .hide-child-ns:hover  .child,
+  .hide-child-ns:focus  .child,
+  .hide-child-ns:active .child {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+  }
+}
