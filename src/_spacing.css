@@ -6,11 +6,11 @@
   --spacing-small: 0.5rem;
   --spacing-medium: 0.75rem;
   --spacing-large: 1rem;
-  --spacing-extra-large: 1.5rem;
-  --spacing-extra-extra-large: 2.25rem;
-  --spacing-extra-extra-extra-large: 3rem;
-  --spacing-super-large: 3.75rem;
-  --spacing-extra-super-large: 5rem;
+  --spacing-extra-large: 1.25rem;
+  --spacing-extra-extra-large: 1.5rem;
+  --spacing-extra-extra-extra-large: 2.25rem;
+  --spacing-super-large: 3rem;
+  --spacing-extra-super-large: 3.75rem;
   --spacing-extra-extra-super-large: 7.5rem;
 }
 
