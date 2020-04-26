@@ -1,4 +1,4 @@
-/*! TACHYONS v4.11.2 | http://tachyons.io */
+/*! TACHYONS v4.12.0 | http://tachyons.io */
 /*
  *
  *      ________            ______
@@ -397,6 +397,8 @@ img { max-width: 100%; }
 .b--washed-red { border-color: #ffdfdf; }
 .b--transparent { border-color: transparent; }
 .b--inherit { border-color: inherit; }
+.b--initial { border-color: initial; }
+.b--unset { border-color: unset; }
 /*
 
    BORDER RADIUS
@@ -433,6 +435,9 @@ img { max-width: 100%; }
 .br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.br-inherit { border-radius: inherit; }
+.br-initial { border-radius: initial; }
+.br-unset { border-radius: unset; }
 /*
 
    BORDER STYLES
@@ -2070,6 +2075,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br--top-ns { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-ns { border-top-left-radius: 0; border-bottom-left-radius: 0; }
  .br--left-ns { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+ .br-inherit-ns { border-radius: inherit; }
+ .br-initial-ns { border-radius: initial; }
+ .br-unset-ns { border-radius: unset; }
  .b--dotted-ns { border-style: dotted; }
  .b--dashed-ns { border-style: dashed; }
  .b--solid-ns { border-style: solid; }
@@ -2493,6 +2501,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br--top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
  .br--left-m { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+ .br-inherit-m { border-radius: inherit; }
+ .br-initial-m { border-radius: initial; }
+ .br-unset-m { border-radius: unset; }
  .b--dotted-m { border-style: dotted; }
  .b--dashed-m { border-style: dashed; }
  .b--solid-m { border-style: solid; }
@@ -2916,6 +2927,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
  .br--right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
  .br--left-l { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+ .br-inherit-l { border-radius: inherit; }
+ .br-initial-l { border-radius: initial; }
+ .br-unset-l { border-radius: unset; }
  .b--dotted-l { border-style: dotted; }
  .b--dashed-l { border-style: dashed; }
  .b--solid-l { border-style: solid; }
