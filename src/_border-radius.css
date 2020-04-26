@@ -47,6 +47,9 @@
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
   }
+  .br-inherit { border-radius: inherit; }
+  .br-initial { border-radius: initial; }
+  .br-unset { border-radius: unset; }
 
 @media (--breakpoint-not-small) {
   .br0-ns {     border-radius: 0; }
@@ -72,6 +75,9 @@
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
   }
+  .br-inherit-ns { border-radius: inherit; }
+  .br-initial-ns { border-radius: initial; }
+  .br-unset-ns { border-radius: unset; }
 }
 
 @media (--breakpoint-medium) {
@@ -98,6 +104,9 @@
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
   }
+  .br-inherit-m { border-radius: inherit; }
+  .br-initial-m { border-radius: initial; }
+  .br-unset-m { border-radius: unset; }
 }
 
 @media (--breakpoint-large) {
@@ -124,4 +133,7 @@
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
   }
+  .br-inherit-l { border-radius: inherit; }
+  .br-initial-l { border-radius: initial; }
+  .br-unset-l { border-radius: unset; }
 }

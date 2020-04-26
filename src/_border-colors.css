@@ -84,3 +84,5 @@
 
 .b--transparent { border-color: var(--transparent); }
 .b--inherit { border-color: inherit; }
+.b--initial { border-color: initial; }
+.b--unset { border-color: unset; }
