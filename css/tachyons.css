@@ -1759,6 +1759,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Measure is limited to ~45 characters */
 .measure-narrow { max-width: 20em; }
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
+.measure-tiny { max-width: 10em; }
+/* Measure is limited to ~22 characters*/
 .indent { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 .small-caps { font-variant: small-caps; }
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
