@@ -88,7 +88,7 @@ generate and organize the documentation for components as demonstrated at http:/
 
 - [DWYL Learn Tachyons](https://github.com/dwyl/learn-tachyons): Learn how to use Tachyons to craft beautiful, responsive, functional and fast UI with minimal CSS
 - [Tachyons TLDR](https://tachyons-tldr.now.sh/#/classes): Quick lookup for Tachyons classes, scales and color palette
-- [Tachyons Pro](https://tachyons.pro/): Fun quiz for memorizing class names
+- [Tachyons Pro](https://tachyonspro.netlify.app/): Fun quiz for memorizing class names
 
 ## Contributing
 
