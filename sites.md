@@ -1,6 +1,6 @@
 * https://gohugo.io
 * https://npmjs.com
-  https://www.offen.dev
+* https://www.offen.dev
 * https://interfacelovers.com
 * https://friendstalkfrontend.com
 * http://www.philipyoungg.com
