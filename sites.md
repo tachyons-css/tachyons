@@ -109,3 +109,4 @@
 * https://tools.kaklabs.com
 * https://eppendocs.de
 * https://sparrowmobile.com/
+* https://supply.templates.supply
