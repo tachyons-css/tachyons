@@ -45,6 +45,18 @@ to the minified file in the head of your HTML file.
 <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
 ```
 
+### Online One-click Setup
+
+You can use Gitpod(a free online VS Code-like IDE), with a single click it'll launch a workspace and automatically:
+
+- clone the tachyons repo.
+- install the dependencies.
+- run `npm run start`.
+
+so that you can start straight away.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+
 ### Local Setup
 
 Clone the repo from Github and install dependencies through npm.
