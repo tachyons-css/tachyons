@@ -15,7 +15,7 @@
       n = none
 
    Media Query Extensions:
-     -ns = not-small
+     -ns = small
      -m  = medium
      -l  = large
 
@@ -29,13 +29,13 @@
   .bn { border-style: none; border-width: 0; }
 
 
-@media (--breakpoint-not-small) {
-  .ba-ns { border-style: solid; border-width: 1px; }
-  .bt-ns { border-top-style: solid; border-top-width: 1px; }
-  .br-ns { border-right-style: solid; border-right-width: 1px; }
-  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl-ns { border-left-style: solid; border-left-width: 1px; }
-  .bn-ns { border-style: none; border-width: 0; }
+@media (--breakpoint-small) {
+  .ba-s { border-style: solid; border-width: 1px; }
+  .bt-s { border-top-style: solid; border-top-width: 1px; }
+  .br-s { border-right-style: solid; border-right-width: 1px; }
+  .bb-s { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-s { border-left-style: solid; border-left-width: 1px; }
+  .bn-s { border-style: none; border-width: 0; }
 }
 
 @media (--breakpoint-medium) {

@@ -3,7 +3,7 @@
    UTILITIES
 
    Media Query Extensions:
-     -ns = not-small
+     -ns = small
      -m  = medium
      -l  = large
 
@@ -22,7 +22,7 @@
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left:  auto; }
 
-@media (--breakpoint-not-small){
+@media (--breakpoint-small){
   .center-ns {
     margin-right: auto;
     margin-left: auto;

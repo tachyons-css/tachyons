@@ -19,7 +19,7 @@
      --2 = literal value -2
 
    Media Query Extensions:
-     -ns = not-small
+     -s = small
      -m  = medium
      -l  = large
 
@@ -58,28 +58,28 @@
   left: 0;
 }
 
-@media (--breakpoint-not-small) {
-  .top-0-ns     { top:   0; }
-  .left-0-ns    { left:  0; }
-  .right-0-ns   { right: 0; }
-  .bottom-0-ns  { bottom: 0; }
-  .top-1-ns     { top:   1rem; }
-  .left-1-ns    { left:  1rem; }
-  .right-1-ns   { right: 1rem; }
-  .bottom-1-ns  { bottom: 1rem; }
-  .top-2-ns     { top:   2rem; }
-  .left-2-ns    { left:  2rem; }
-  .right-2-ns   { right: 2rem; }
-  .bottom-2-ns  { bottom: 2rem; }
-  .top--1-ns    { top:    -1rem; }
-  .right--1-ns  { right:  -1rem; }
-  .bottom--1-ns { bottom: -1rem; }
-  .left--1-ns   { left:   -1rem; }
-  .top--2-ns    { top:    -2rem; }
-  .right--2-ns  { right:  -2rem; }
-  .bottom--2-ns { bottom: -2rem; }
-  .left--2-ns   { left:   -2rem; }
-  .absolute--fill-ns {
+@media (--breakpoint-small) {
+  .top-0-s     { top:   0; }
+  .left-0-s    { left:  0; }
+  .right-0-s   { right: 0; }
+  .bottom-0-s  { bottom: 0; }
+  .top-1-s     { top:   1rem; }
+  .left-1-s    { left:  1rem; }
+  .right-1-s   { right: 1rem; }
+  .bottom-1-s  { bottom: 1rem; }
+  .top-2-s     { top:   2rem; }
+  .left-2-s    { left:  2rem; }
+  .right-2-s   { right: 2rem; }
+  .bottom-2-s  { bottom: 2rem; }
+  .top--1-s    { top:    -1rem; }
+  .right--1-s  { right:  -1rem; }
+  .bottom--1-s { bottom: -1rem; }
+  .left--1-s   { left:   -1rem; }
+  .top--2-s    { top:    -2rem; }
+  .right--2-s  { right:  -2rem; }
+  .bottom--2-s { bottom: -2rem; }
+  .left--2-s   { left:   -2rem; }
+  .absolute--fill-s {
     top: 0;
     right: 0;
     bottom: 0;

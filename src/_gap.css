@@ -1,0 +1,51 @@
+/* Variables */
+
+:root {
+  --spacing-none: 0;
+  --spacing-1: .25rem;
+  --spacing-2: .5rem;
+  --spacing-3: 1rem;
+  --spacing-4: 2rem;
+  --spacing-5: 4rem;
+  --spacing-6: 8rem;
+  --spacing-7: 16rem;
+  --spacing-8: 32rem;
+}
+
+/*
+   GAP: GRID AND FLEX SPACING
+   Docs: http://tachyons.io/docs/layout/gap/
+
+   Base:
+     g = gap
+
+
+   Media Query Extensions:
+     -s = small
+     -m  = medium
+     -l  = large
+
+*/
+
+
+.g0 { padding: var(--spacing-none); }
+.g1 { padding: var(--spacing-extra-small); }
+.g2 { padding: var(--spacing-small); }
+.g3 { padding: var(--spacing-medium); }
+.g4 { padding: var(--spacing-large); }
+.g5 { padding: var(--spacing-extra-large); }
+.g6 { padding: var(--spacing-extra-extra-large); }
+.g7 { padding: var(--spacing-extra-extra-extra-large); }
+
+@media (--breakpoint-small) {
+
+}
+
+@media (--breakpoint-medium) {
+
+}
+
+@media (--breakpoint-large) {
+
+}
+

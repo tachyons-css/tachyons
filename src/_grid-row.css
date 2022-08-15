@@ -1,0 +1,161 @@
+/*
+
+  Grid Row
+  Docs: http://tachyons.io/docs/layout/grid-column-row
+
+  This sets the width of the element via declaring how many columns wide it should be
+
+  Base: 
+  cols = columns
+
+*/
+
+.row-auto  { grid-row: auto; }
+
+.row-start-1 { grid-row-start: 1; }
+.row-start-2 { grid-row-start: 2; }
+.row-start-3 { grid-row-start: 3; }
+.row-start-4 { grid-row-start: 4; }
+.row-start-5 { grid-row-start: 5; }
+.row-start-6 { grid-row-start: 6; }
+.row-start-7 { grid-row-start: 7; }
+.row-start-8 { grid-row-start: 8; }
+.row-start-9 { grid-row-start: 9; }
+.row-start-10 { grid-row-start: 10; }
+.row-start-11 { grid-row-start: 11; }
+.row-start-12 { grid-row-start: 12; }
+.row-start-13 { grid-row-start: 13; }
+.row-start-14 { grid-row-start: 14; }
+.row-start-15 { grid-row-start: 15; }
+.row-start-16 { grid-row-start: 16; }
+
+.row-end-1 { grid-row-end: 1; }
+.row-end-2 { grid-row-end: 2; }
+.row-end-3 { grid-row-end: 3; }
+.row-end-4 { grid-row-end: 4; }
+.row-end-5 { grid-row-end: 5; }
+.row-end-6 { grid-row-end: 6; }
+.row-end-7 { grid-row-end: 7; }
+.row-end-8 { grid-row-end: 8; }
+.row-end-9 { grid-row-end: 9; }
+.row-end-10 { grid-row-end: 10; }
+.row-end-11 { grid-row-end: 11; }
+.row-end-12 { grid-row-end: 12; }
+.row-end-13 { grid-row-end: 13; }
+.row-end-14 { grid-row-end: 14; }
+.row-end-15 { grid-row-end: 15; }
+.row-end-16 { grid-row-end: 16; }
+
+@media (--breakpoint-small) {
+  .row-auto-s  { grid-row: auto; }
+
+  .row-start-1-s { grid-row-start: 1; }
+  .row-start-2-s { grid-row-start: 2; }
+  .row-start-3-s { grid-row-start: 3; }
+  .row-start-4-s { grid-row-start: 4; }
+  .row-start-5-s { grid-row-start: 5; }
+  .row-start-6-s { grid-row-start: 6; }
+  .row-start-7-s { grid-row-start: 7; }
+  .row-start-8-s { grid-row-start: 8; }
+  .row-start-9-s { grid-row-start: 9; }
+  .row-start-10-s { grid-row-start: 10; }
+  .row-start-11-s { grid-row-start: 11; }
+  .row-start-12-s { grid-row-start: 12; }
+  .row-start-13-s { grid-row-start: 13; }
+  .row-start-14-s { grid-row-start: 14; }
+  .row-start-15-s { grid-row-start: 15; }
+  .row-start-16-s { grid-row-start: 16; }
+
+  .row-end-1-s { grid-row-end: 1; }
+  .row-end-2-s { grid-row-end: 2; }
+  .row-end-3-s { grid-row-end: 3; }
+  .row-end-4-s { grid-row-end: 4; }
+  .row-end-5-s { grid-row-end: 5; }
+  .row-end-6-s { grid-row-end: 6; }
+  .row-end-7-s { grid-row-end: 7; }
+  .row-end-8-s { grid-row-end: 8; }
+  .row-end-9-s { grid-row-end: 9; }
+  .row-end-10-s { grid-row-end: 10; }
+  .row-end-11-s { grid-row-end: 11; }
+  .row-end-12-s { grid-row-end: 12; }
+  .row-end-13-s { grid-row-end: 13; }
+  .row-end-14-s { grid-row-end: 14; }
+  .row-end-15-s { grid-row-end: 15; }
+  .row-end-16-s { grid-row-end: 16; }
+}
+
+@media (--breakpoint-medium) {
+  .row-auto-m  { grid-row: auto; }
+
+  .row-start-1-m { grid-row-start: 1; }
+  .row-start-2-m { grid-row-start: 2; }
+  .row-start-3-m { grid-row-start: 3; }
+  .row-start-4-m { grid-row-start: 4; }
+  .row-start-5-m { grid-row-start: 5; }
+  .row-start-6-m { grid-row-start: 6; }
+  .row-start-7-m { grid-row-start: 7; }
+  .row-start-8-m { grid-row-start: 8; }
+  .row-start-9-m { grid-row-start: 9; }
+  .row-start-10-m { grid-row-start: 10; }
+  .row-start-11-m { grid-row-start: 11; }
+  .row-start-12-m { grid-row-start: 12; }
+  .row-start-13-m { grid-row-start: 13; }
+  .row-start-14-m { grid-row-start: 14; }
+  .row-start-15-m { grid-row-start: 15; }
+  .row-start-16-m { grid-row-start: 16; }
+
+  .row-end-1-m { grid-row-end: 1; }
+  .row-end-2-m { grid-row-end: 2; }
+  .row-end-3-m { grid-row-end: 3; }
+  .row-end-4-m { grid-row-end: 4; }
+  .row-end-5-m { grid-row-end: 5; }
+  .row-end-6-m { grid-row-end: 6; }
+  .row-end-7-m { grid-row-end: 7; }
+  .row-end-8-m { grid-row-end: 8; }
+  .row-end-9-m { grid-row-end: 9; }
+  .row-end-10-m { grid-row-end: 10; }
+  .row-end-11-m { grid-row-end: 11; }
+  .row-end-12-m { grid-row-end: 12; }
+  .row-end-13-m { grid-row-end: 13; }
+  .row-end-14-m { grid-row-end: 14; }
+  .row-end-15-m { grid-row-end: 15; }
+  .row-end-16-m { grid-row-end: 16; }
+}
+
+@media (--breakpoint-large) {
+  .row-auto-l  { grid-row: auto; }
+
+  .row-start-1-l { grid-row-start: 1; }
+  .row-start-2-l { grid-row-start: 2; }
+  .row-start-3-l { grid-row-start: 3; }
+  .row-start-4-l { grid-row-start: 4; }
+  .row-start-5-l { grid-row-start: 5; }
+  .row-start-6-l { grid-row-start: 6; }
+  .row-start-7-l { grid-row-start: 7; }
+  .row-start-8-l { grid-row-start: 8; }
+  .row-start-9-l { grid-row-start: 9; }
+  .row-start-10-l { grid-row-start: 10; }
+  .row-start-11-l { grid-row-start: 11; }
+  .row-start-12-l { grid-row-start: 12; }
+  .row-start-13-l { grid-row-start: 13; }
+  .row-start-14-l { grid-row-start: 14; }
+  .row-start-15-l { grid-row-start: 15; }
+  .row-start-16-l { grid-row-start: 16; }
+
+  .row-end-1-l { grid-row-end: 1; }
+  .row-end-2-l { grid-row-end: 2; }
+  .row-end-3-l { grid-row-end: 3; }
+  .row-end-4-l { grid-row-end: 4; }
+  .row-end-5-l { grid-row-end: 5; }
+  .row-end-6-l { grid-row-end: 6; }
+  .row-end-7-l { grid-row-end: 7; }
+  .row-end-8-l { grid-row-end: 8; }
+  .row-end-9-l { grid-row-end: 9; }
+  .row-end-10-l { grid-row-end: 10; }
+  .row-end-11-l { grid-row-end: 11; }
+  .row-end-12-l { grid-row-end: 12; }
+  .row-end-13-l { grid-row-end: 13; }
+  .row-end-14-l { grid-row-end: 14; }
+  .row-end-15-l { grid-row-end: 15; }
+  .row-end-16-l { grid-row-end: 16; }
+}

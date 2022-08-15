@@ -3,7 +3,7 @@
    VISIBILITY
 
    Media Query Extensions:
-     -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
 
@@ -22,8 +22,8 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media (--breakpoint-not-small) {
-  .clip-ns {
+@media (--breakpoint-small) {
+  .clip-s {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */

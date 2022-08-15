@@ -3,7 +3,7 @@
    WHITE SPACE
 
    Media Query Extensions:
-     -ns = not-small
+     -ns = small
      -m  = medium
      -l  = large
 
@@ -14,10 +14,10 @@
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
 
-@media (--breakpoint-not-small) {
-  .ws-normal-ns { white-space: normal; }
-  .nowrap-ns { white-space: nowrap; }
-  .pre-ns { white-space: pre; }
+@media (--breakpoint-small) {
+  .ws-normal-s { white-space: normal; }
+  .nowrap-s { white-space: nowrap; }
+  .pre-s { white-space: pre; }
 }
 
 @media (--breakpoint-medium) {

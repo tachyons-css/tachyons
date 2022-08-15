@@ -5,7 +5,6 @@
 */
 
 .pre {
-  overflow-x: auto;
-  overflow-y: hidden;
-  overflow:   scroll;
+  max-width: 100%; 
+  overflow:   auto;
 }

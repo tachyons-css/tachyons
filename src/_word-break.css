@@ -6,7 +6,7 @@
      word = word-break
 
    Media Query Extensions:
-     -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
 
@@ -16,10 +16,10 @@
 .word-wrap { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
 
-@media (--breakpoint-not-small) {
-  .word-normal-ns { word-break: normal; }
-  .word-wrap-ns { word-break: break-all; }
-  .word-nowrap-ns { word-break: keep-all; }
+@media (--breakpoint-small) {
+  .word-normal-s { word-break: normal; }
+  .word-wrap-s { word-break: break-all; }
+  .word-nowrap-s { word-break: keep-all; }
 }
 
 @media (--breakpoint-medium) {

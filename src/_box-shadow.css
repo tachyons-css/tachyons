@@ -2,40 +2,83 @@
 
   BOX-SHADOW
   Docs: http://tachyons.io/docs/themes/box-shadow/
+  Layered shadows: https://tobiasahlin.com/blog/layered-smooth-box-shadows/
 
   Media Query Extensions:
-   -ns = not-small
+   -s = small
    -m  = medium
    -l  = large
 
  */
 
-.shadow-1 { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-.shadow-2 { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
-.shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-.shadow-4 { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
-.shadow-5 { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+.shadow-border { box-shadow: inset 0 0 1px 0 rgba(0,0,0,0.125); }
+.shadow-border-light  { box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.125); }
+.shadow-border-solid  { box-shadow: inset 0 0 1px 0 currentColor; }
+.shadow-border-2 { box-shadow: inset 0 0 2px 0 rgba(255,255,255,.125); }
+.shadow-border-light-2 {  box-shadow: inset 0 0 2px 0 rgba(0,0,0,0.125); }
+.shadow-border-solid-2 {  box-shadow: inset 0 0 2px 0 currentColor; }
 
-@media (--breakpoint-not-small) {
-  .shadow-1-ns { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-2-ns { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-3-ns { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-4-ns { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-5-ns { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+.shadow-1 { box-shadow: 0 1px 1px rgba(0,0,0,0.125), 0 2px 2px rgba(0,0,0,0.125), 0 4px 4px rgba(0,0,0,0.125), 0 8px 8px rgba(0,0,0,0.125), 0 16px 16px rgba(0,0,0,0.125); }
+.shadow-2 {  box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15); }
+.shadow-3 {  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 8px 8px rgba(0,0,0,0.11), 0 16px 16px rgba(0,0,0,0.11), 0 32px 32px rgba(0,0,0,0.11); }
+.shadow-4 {  box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05); }
+.shadow-5 {  box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20); }
+.shadow-6 {  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07); }
+.shadow-7 {  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11); }
+.shadow-8 {  box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09); }
+
+
+@media (--breakpoint-small) {
+  .shadow-border-s {  box-shadow: inset 0 0 1px 0 rgba(0,0,0,0.125); }
+  .shadow-border-light-s  { box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.125); }
+  .shadow-border-solid-s  { box-shadow: inset 0 0 1px 0 currentColor; }
+  .shadow-border-2-s { box-shadow: inset 0 0 2px 0 rgba(255,255,255,.125); }
+  .shadow-border-light-2-s {  box-shadow: inset 0 0 2px 0 rgba(0,0,0,0.125); }
+  .shadow-border-solid-2-s {  box-shadow: inset 0 0 2px 0 currentColor; }
+
+  .shadow-1-s { box-shadow: 0 1px 1px rgba(0,0,0,0.125), 0 2px 2px rgba(0,0,0,0.125), 0 4px 4px rgba(0,0,0,0.125), 0 8px 8px rgba(0,0,0,0.125), 0 16px 16px rgba(0,0,0,0.125); }
+  .shadow-2-s {  box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15); }
+  .shadow-3-s {  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 8px 8px rgba(0,0,0,0.11), 0 16px 16px rgba(0,0,0,0.11), 0 32px 32px rgba(0,0,0,0.11); }
+  .shadow-4-s {  box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05); }
+  .shadow-5-s {  box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20); }
+  .shadow-6-s {  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07); }
+  .shadow-7-s {  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11); }
+  .shadow-8-s {  box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09); }
 }
 
 @media (--breakpoint-medium) {
-  .shadow-1-m { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-2-m { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-4-m { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-5-m { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-border-m {  box-shadow: inset 0 0 1px 0 rgba(0,0,0,0.125); }
+  .shadow-border-light-m  { box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.125); }
+  .shadow-border-solid-m  { box-shadow: inset 0 0 1px 0 currentColor; }
+  .shadow-border-2-m { box-shadow: inset 0 0 2px 0 rgba(255,255,255,.125); }
+  .shadow-border-light-2-m {  box-shadow: inset 0 0 2px 0 rgba(0,0,0,0.125); }
+  .shadow-border-solid-2-m {  box-shadow: inset 0 0 2px 0 currentColor; }
+
+  .shadow-1-m { box-shadow: 0 1px 1px rgba(0,0,0,0.125), 0 2px 2px rgba(0,0,0,0.125), 0 4px 4px rgba(0,0,0,0.125), 0 8px 8px rgba(0,0,0,0.125), 0 16px 16px rgba(0,0,0,0.125); }
+  .shadow-2-m {  box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15); }
+  .shadow-3-m {  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 8px 8px rgba(0,0,0,0.11), 0 16px 16px rgba(0,0,0,0.11), 0 32px 32px rgba(0,0,0,0.11); }
+  .shadow-4-m {  box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05); }
+  .shadow-5-m {  box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20); }
+  .shadow-6-m {  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07); }
+  .shadow-7-m {  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11); }
+  .shadow-8-m {  box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09); }
 }
 
 @media (--breakpoint-large) {
-  .shadow-1-l { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-2-l { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-3-l { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-4-l { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
-  .shadow-5-l { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-border-l {  box-shadow: inset 0 0 1px 0 rgba(0,0,0,0.125); }
+  .shadow-border-light-l  { box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.125); }
+  .shadow-border-solid-l  { box-shadow: inset 0 0 1px 0 currentColor; }
+  .shadow-border-2-l { box-shadow: inset 0 0 2px 0 rgba(255,255,255,.125); }
+  .shadow-border-light-2-l {  box-shadow: inset 0 0 2px 0 rgba(0,0,0,0.125); }
+  .shadow-border-solid-2-l {  box-shadow: inset 0 0 2px 0 currentColor; }
+
+  .shadow-1-l { box-shadow: 0 1px 1px rgba(0,0,0,0.125), 0 2px 2px rgba(0,0,0,0.125), 0 4px 4px rgba(0,0,0,0.125), 0 8px 8px rgba(0,0,0,0.125), 0 16px 16px rgba(0,0,0,0.125); }
+  .shadow-2-l {  box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15); }
+  .shadow-3-l {  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 8px 8px rgba(0,0,0,0.11), 0 16px 16px rgba(0,0,0,0.11), 0 32px 32px rgba(0,0,0,0.11); }
+  .shadow-4-l {  box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05); }
+  .shadow-5-l {  box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20); }
+  .shadow-6-l {  box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07); }
+  .shadow-7-l {  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11); }
+  .shadow-8-l {  box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09); }
 }
+

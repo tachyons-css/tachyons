@@ -4,7 +4,7 @@
    Docs: http://tachyons.io/docs/typography/line-height
 
    Media Query Extensions:
-     -ns = not-small
+     -s = small
      -m  = medium
      -l  = large
 
@@ -14,10 +14,10 @@
   .lh-title { line-height: 1.25; }
   .lh-copy  { line-height: 1.5; }
 
-@media (--breakpoint-not-small) {
-  .lh-solid-ns { line-height: 1; }
-  .lh-title-ns { line-height: 1.25; }
-  .lh-copy-ns  { line-height: 1.5; }
+@media (--breakpoint-small) {
+  .lh-solid-s { line-height: 1; }
+  .lh-title-s { line-height: 1.25; }
+  .lh-copy-s  { line-height: 1.5; }
 }
 
 @media (--breakpoint-medium) {

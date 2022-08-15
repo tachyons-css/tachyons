@@ -1,4 +1,4 @@
-/*! TACHYONS v4.12.0 | http://tachyons.io */
+/*! TACHYONS v5.0.0.beta | http://tachyons.io */
 
 /*
  *
@@ -30,6 +30,7 @@
 
 /* Modules */
 @import './_box-sizing';
+@import './_align';
 @import './_aspect-ratios';
 @import './_images';
 @import './_background-size';
@@ -45,6 +46,11 @@
 @import './_coordinates';
 @import './_clears';
 @import './_display';
+@import './_gap';
+@import './_grid-template-columns';
+@import './_grid-column';
+@import './_grid-row';
+@import './_filters';
 @import './_flexbox';
 @import './_floats';
 @import './_font-family';

@@ -10,20 +10,20 @@
 
   These media queries can be referenced like so:
 
-  @media (--breakpoint-not-small) {
-    .medium-and-larger-specific-style {
+  @media (--breakpoint-small) {
+    .example-s {
       background-color: red;
     }
   }
 
   @media (--breakpoint-medium) {
-    .medium-screen-specific-style {
+    .example-m {
       background-color: red;
     }
   }
 
   @media (--breakpoint-large) {
-    .large-and-larger-screen-specific-style {
+    .example-l {
       background-color: red;
     }
   }
@@ -31,6 +31,6 @@
 */
 
 /* Media Queries */
-@custom-media --breakpoint-not-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
+@custom-media --breakpoint-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 48em);
 @custom-media --breakpoint-large screen and (min-width: 60em);

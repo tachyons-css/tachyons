@@ -54,11 +54,6 @@ code, .code {
                sans-serif;
 }
 
-.avenir {
-  font-family: 'avenir next', avenir,
-               sans-serif;
-}
-
 
 /* Serif Typefaces */
 
@@ -76,16 +71,6 @@ code, .code {
 .times {
   font-family: times,
                serif;
-}
-
-.bodoni {
-  font-family: "Bodoni MT",
-                serif;
-}
-
-.calisto {
-  font-family: "Calisto MT",
-                serif;
 }
 
 .garamond {

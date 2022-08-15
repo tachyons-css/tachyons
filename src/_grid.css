@@ -1,6 +1,6 @@
 /*
 
-  FLEXBOX
+  Grid
 
   Media Query Extensions:
    -s = small
@@ -8,14 +8,6 @@
    -l  = large
 
 */
-
-/* 1. Fix for Chrome 44 bug.
- * https://code.google.com/p/chromium/issues/detail?id=506893 */
-.flex-auto {
-  flex: 1 1 auto;
-  min-width: 0; /* 1 */
-  min-height: 0; /* 1 */
-}
 
 .flex-none { flex: none; }
 

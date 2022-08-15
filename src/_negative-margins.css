@@ -20,7 +20,7 @@
      7 = 7th step in spacing scale
 
    Media Query Extensions:
-     -ns = not-small
+     -s = small
      -m  = medium
      -l  = large
 
@@ -68,47 +68,47 @@
 .nt6 { margin-top: calc(-1 * var(--spacing-extra-extra-large)); }
 .nt7 { margin-top: calc(-1 * var(--spacing-extra-extra-extra-large)); }
 
-@media (--breakpoint-not-small) {
+@media (--breakpoint-small) {
 
-  .na1-ns { margin: calc(-1 * var(--spacing-extra-small)); }
-  .na2-ns { margin: calc(-1 * var(--spacing-small)); }
-  .na3-ns { margin: calc(-1 * var(--spacing-medium)); }
-  .na4-ns { margin: calc(-1 * var(--spacing-large)); }
-  .na5-ns { margin: calc(-1 * var(--spacing-extra-large)); }
-  .na6-ns { margin: calc(-1 * var(--spacing-extra-extra-large)); }
-  .na7-ns { margin: calc(-1 * var(--spacing-extra-extra-extra-large)); }
+  .na1-s { margin: calc(-1 * var(--spacing-extra-small)); }
+  .na2-s { margin: calc(-1 * var(--spacing-small)); }
+  .na3-s { margin: calc(-1 * var(--spacing-medium)); }
+  .na4-s { margin: calc(-1 * var(--spacing-large)); }
+  .na5-s { margin: calc(-1 * var(--spacing-extra-large)); }
+  .na6-s { margin: calc(-1 * var(--spacing-extra-extra-large)); }
+  .na7-s { margin: calc(-1 * var(--spacing-extra-extra-extra-large)); }
 
-  .nl1-ns { margin-left: calc(-1 * var(--spacing-extra-small)); }
-  .nl2-ns { margin-left: calc(-1 * var(--spacing-small)); }
-  .nl3-ns { margin-left: calc(-1 * var(--spacing-medium)); }
-  .nl4-ns { margin-left: calc(-1 * var(--spacing-large)); }
-  .nl5-ns { margin-left: calc(-1 * var(--spacing-extra-large)); }
-  .nl6-ns { margin-left: calc(-1 * var(--spacing-extra-extra-large)); }
-  .nl7-ns { margin-left: calc(-1 * var(--spacing-extra-extra-extra-large)); }
+  .nl1-s { margin-left: calc(-1 * var(--spacing-extra-small)); }
+  .nl2-s { margin-left: calc(-1 * var(--spacing-small)); }
+  .nl3-s { margin-left: calc(-1 * var(--spacing-medium)); }
+  .nl4-s { margin-left: calc(-1 * var(--spacing-large)); }
+  .nl5-s { margin-left: calc(-1 * var(--spacing-extra-large)); }
+  .nl6-s { margin-left: calc(-1 * var(--spacing-extra-extra-large)); }
+  .nl7-s { margin-left: calc(-1 * var(--spacing-extra-extra-extra-large)); }
 
-  .nr1-ns { margin-right: calc(-1 * var(--spacing-extra-small)); }
-  .nr2-ns { margin-right: calc(-1 * var(--spacing-small)); }
-  .nr3-ns { margin-right: calc(-1 * var(--spacing-medium)); }
-  .nr4-ns { margin-right: calc(-1 * var(--spacing-large)); }
-  .nr5-ns { margin-right: calc(-1 * var(--spacing-extra-large)); }
-  .nr6-ns { margin-right: calc(-1 * var(--spacing-extra-extra-large)); }
-  .nr7-ns { margin-right: calc(-1 * var(--spacing-extra-extra-extra-large)); }
+  .nr1-s { margin-right: calc(-1 * var(--spacing-extra-small)); }
+  .nr2-s { margin-right: calc(-1 * var(--spacing-small)); }
+  .nr3-s { margin-right: calc(-1 * var(--spacing-medium)); }
+  .nr4-s { margin-right: calc(-1 * var(--spacing-large)); }
+  .nr5-s { margin-right: calc(-1 * var(--spacing-extra-large)); }
+  .nr6-s { margin-right: calc(-1 * var(--spacing-extra-extra-large)); }
+  .nr7-s { margin-right: calc(-1 * var(--spacing-extra-extra-extra-large)); }
 
-  .nb1-ns { margin-bottom: calc(-1 * var(--spacing-extra-small)); }
-  .nb2-ns { margin-bottom: calc(-1 * var(--spacing-small)); }
-  .nb3-ns { margin-bottom: calc(-1 * var(--spacing-medium)); }
-  .nb4-ns { margin-bottom: calc(-1 * var(--spacing-large)); }
-  .nb5-ns { margin-bottom: calc(-1 * var(--spacing-extra-large)); }
-  .nb6-ns { margin-bottom: calc(-1 * var(--spacing-extra-extra-large)); }
-  .nb7-ns { margin-bottom: calc(-1 * var(--spacing-extra-extra-extra-large)); }
+  .nb1-s { margin-bottom: calc(-1 * var(--spacing-extra-small)); }
+  .nb2-s { margin-bottom: calc(-1 * var(--spacing-small)); }
+  .nb3-s { margin-bottom: calc(-1 * var(--spacing-medium)); }
+  .nb4-s { margin-bottom: calc(-1 * var(--spacing-large)); }
+  .nb5-s { margin-bottom: calc(-1 * var(--spacing-extra-large)); }
+  .nb6-s { margin-bottom: calc(-1 * var(--spacing-extra-extra-large)); }
+  .nb7-s { margin-bottom: calc(-1 * var(--spacing-extra-extra-extra-large)); }
 
-  .nt1-ns { margin-top: calc(-1 * var(--spacing-extra-small)); }
-  .nt2-ns { margin-top: calc(-1 * var(--spacing-small)); }
-  .nt3-ns { margin-top: calc(-1 * var(--spacing-medium)); }
-  .nt4-ns { margin-top: calc(-1 * var(--spacing-large)); }
-  .nt5-ns { margin-top: calc(-1 * var(--spacing-extra-large)); }
-  .nt6-ns { margin-top: calc(-1 * var(--spacing-extra-extra-large)); }
-  .nt7-ns { margin-top: calc(-1 * var(--spacing-extra-extra-extra-large)); }
+  .nt1-s { margin-top: calc(-1 * var(--spacing-extra-small)); }
+  .nt2-s { margin-top: calc(-1 * var(--spacing-small)); }
+  .nt3-s { margin-top: calc(-1 * var(--spacing-medium)); }
+  .nt4-s { margin-top: calc(-1 * var(--spacing-large)); }
+  .nt5-s { margin-top: calc(-1 * var(--spacing-extra-large)); }
+  .nt6-s { margin-top: calc(-1 * var(--spacing-extra-extra-large)); }
+  .nt7-s { margin-top: calc(-1 * var(--spacing-extra-extra-extra-large)); }
 
 }
 

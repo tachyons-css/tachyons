@@ -4,7 +4,7 @@
    Docs: http://tachyons.io/docs/typography/tracking/
 
    Media Query Extensions:
-     -ns = not-small
+     -ns = small
      -m  = medium
      -l  = large
 
@@ -14,10 +14,10 @@
 .tracked-tight { letter-spacing: -.05em; }
 .tracked-mega  { letter-spacing:  .25em; }
 
-@media (--breakpoint-not-small) {
-  .tracked-ns       { letter-spacing:  .1em; }
-  .tracked-tight-ns { letter-spacing: -.05em; }
-  .tracked-mega-ns  { letter-spacing:  .25em; }
+@media (--breakpoint-small) {
+  .tracked-s       { letter-spacing:  .1em; }
+  .tracked-tight-s { letter-spacing: -.05em; }
+  .tracked-mega-s  { letter-spacing:  .25em; }
 }
 
 @media (--breakpoint-medium) {

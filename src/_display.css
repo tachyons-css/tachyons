@@ -10,95 +10,86 @@
     n     = none
     b     = block
     ib    = inline-block
-    it    = inline-table
-    t     = table
-    tc    = table-cell
-    t-row          = table-row
-    t-columm       = table-column
-    t-column-group = table-column-group
+    if    = inline-flex
+    ig    = inline-grid
+    f    = flex
+    g    = grid
 
    Media Query Extensions:
-     -ns = not-small
+     -s = small
      -m  = medium
      -l  = large
 
 */
 
-.dn {              display: none; }
-.di {              display: inline; }
-.db {              display: block; }
-.dib {             display: inline-block; }
-.dit {             display: inline-table; }
-.dt {              display: table; }
-.dtc {             display: table-cell; }
-.dt-row {          display: table-row; }
-.dt-row-group {    display: table-row-group; }
-.dt-column {       display: table-column; }
-.dt-column-group { display: table-column-group; }
-
-/*
-  This will set table to full width and then
-  all cells will be equal width
-*/
-.dt--fixed {
-  table-layout: fixed;
-  width: 100%;
+.dn {                display: none; }
+.di {                display: inline; }
+.db {                display: block; }
+.dib {               display: inline-block; }
+.df, .flex {         display: flex; }
+.dif, .inline-flex { display: inline-flex; }
+.dg,
+.grid {
+  display: grid;
 }
 
-@media (--breakpoint-not-small) {
-  .dn-ns {              display: none; }
-  .di-ns {              display: inline; }
-  .db-ns {              display: block; }
-  .dib-ns {             display: inline-block; }
-  .dit-ns {             display: inline-table; }
-  .dt-ns {              display: table; }
-  .dtc-ns {             display: table-cell; }
-  .dt-row-ns {          display: table-row; }
-  .dt-row-group-ns {    display: table-row-group; }
-  .dt-column-ns {       display: table-column; }
-  .dt-column-group-ns { display: table-column-group; }
+.dig,
+.inline-grid {
+  display: inline-grid;
+}
 
-  .dt--fixed-ns {
-    table-layout: fixed;
-    width: 100%;
+@media (--breakpoint-small) {
+  .dn-s {                display: none; }
+  .di-s {                display: inline; }
+  .db-s {                display: block; }
+  .dib-s {               display: inline-block; }
+  .df-s, .flex-s {         display: flex; }
+  .dif-s, .inline-flex-s { display: inline-flex; }
+  .dg-s,
+  .grid-s {
+    display: grid;
+  }
+
+  .dig-s,
+  .inline-grid-s {
+    display: inline-grid;
   }
 }
 
 @media (--breakpoint-medium) {
-  .dn-m {              display: none; }
-  .di-m {              display: inline; }
-  .db-m {              display: block; }
-  .dib-m {             display: inline-block; }
-  .dit-m {             display: inline-table; }
-  .dt-m {              display: table; }
-  .dtc-m {             display: table-cell; }
-  .dt-row-m {          display: table-row; }
-  .dt-row-group-m {    display: table-row-group; }
-  .dt-column-m {       display: table-column; }
-  .dt-column-group-m { display: table-column-group; }
 
-  .dt--fixed-m {
-    table-layout: fixed;
-    width: 100%;
+  .dn-m {                display: none; }
+  .di-m {                display: inline; }
+  .db-m {                display: block; }
+  .dib-m {               display: inline-block; }
+  .df-m, .flex-m {         display: flex; }
+  .dif-m, .inline-flex-m { display: inline-flex; }
+  .dg-m,
+  .grid-m {
+    display: grid;
+  }
+
+  .dig-m,
+  .inline-grid-m {
+    display: inline-grid;
   }
 }
 
 @media (--breakpoint-large) {
-  .dn-l {              display: none; }
-  .di-l {              display: inline; }
-  .db-l {              display: block; }
-  .dib-l {             display: inline-block; }
-  .dit-l {             display: inline-table; }
-  .dt-l {              display: table; }
-  .dtc-l {             display: table-cell; }
-  .dt-row-l {          display: table-row; }
-  .dt-row-group-l {    display: table-row-group; }
-  .dt-column-l {       display: table-column; }
-  .dt-column-group-l { display: table-column-group; }
+  .dn-l {                display: none; }
+  .di-l {                display: inline; }
+  .db-l {                display: block; }
+  .dib-l {               display: inline-block; }
+  .df-l, .flex-l {         display: flex; }
+  .dif-l, .inline-flex-l { display: inline-flex; }
+  .dg-l,
+  .grid-l {
+    display: grid;
+  }
 
-  .dt--fixed-l {
-    table-layout: fixed;
-    width: 100%;
+  .dig-l,
+  .inline-grid-l {
+    display: inline-grid;
   }
 }
 

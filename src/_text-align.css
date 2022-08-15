@@ -13,7 +13,7 @@
     j = justify
 
   Media Query Extensions:
-    -ns = not-small
+    -s = small
     -m  = medium
     -l  = large
 
@@ -24,11 +24,11 @@
 .tc  { text-align: center; }
 .tj  { text-align: justify; }
 
-@media (--breakpoint-not-small) {
-  .tl-ns  { text-align: left; }
-  .tr-ns  { text-align: right; }
-  .tc-ns  { text-align: center; }
-  .tj-ns  { text-align: justify; }
+@media (--breakpoint-small) {
+  .tl-s  { text-align: left; }
+  .tr-s  { text-align: right; }
+  .tc-s  { text-align: center; }
+  .tj-s  { text-align: justify; }
 }
 
 @media (--breakpoint-medium) {

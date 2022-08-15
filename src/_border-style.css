@@ -15,7 +15,7 @@
      --solid  = solid
 
    Media Query Extensions:
-     -ns = not-small
+     -ns = small
      -m  = medium
      -l  = large
 
@@ -26,11 +26,11 @@
 .b--solid {  border-style: solid; }
 .b--none {   border-style: none; }
 
-@media (--breakpoint-not-small) {
-  .b--dotted-ns { border-style: dotted; }
-  .b--dashed-ns { border-style: dashed; }
-  .b--solid-ns {  border-style: solid; }
-  .b--none-ns {   border-style: none; }
+@media (--breakpoint-small) {
+  .b--dotted-s { border-style: dotted; }
+  .b--dashed-s { border-style: dashed; }
+  .b--solid-s {  border-style: solid; }
+  .b--none-s {   border-style: none; }
 }
 
 @media (--breakpoint-medium) {

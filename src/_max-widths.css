@@ -23,7 +23,7 @@
 
 
    Media Query Extensions:
-     -ns = not-small
+     -s = small
      -m  = medium
      -l  = large
 
@@ -49,20 +49,20 @@
 
 .mw-none { max-width: none; }
 
-@media (--breakpoint-not-small) {
-  .mw-100-ns  { max-width: 100%; }
+@media (--breakpoint-small) {
+  .mw-100-s  { max-width: 100%; }
 
-  .mw1-ns  {  max-width: 1rem; }
-  .mw2-ns  {  max-width: 2rem; }
-  .mw3-ns  {  max-width: 4rem; }
-  .mw4-ns  {  max-width: 8rem; }
-  .mw5-ns  {  max-width: 16rem; }
-  .mw6-ns  {  max-width: 32rem; }
-  .mw7-ns  {  max-width: 48rem; }
-  .mw8-ns  {  max-width: 64rem; }
-  .mw9-ns  {  max-width: 96rem; }
+  .mw1-s  {  max-width: 1rem; }
+  .mw2-s  {  max-width: 2rem; }
+  .mw3-s  {  max-width: 4rem; }
+  .mw4-s  {  max-width: 8rem; }
+  .mw5-s  {  max-width: 16rem; }
+  .mw6-s  {  max-width: 32rem; }
+  .mw7-s  {  max-width: 48rem; }
+  .mw8-s  {  max-width: 64rem; }
+  .mw9-s  {  max-width: 96rem; }
 
-  .mw-none-ns { max-width: none; }
+  .mw-none-s { max-width: none; }
 }
 
 @media (--breakpoint-medium) {

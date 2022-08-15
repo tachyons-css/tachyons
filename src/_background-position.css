@@ -13,7 +13,7 @@
     -left = center left
 
     Media Query Extensions:
-      -ns = not-small
+      -s  = small
       -m  = medium
       -l  = large
 
@@ -44,28 +44,28 @@
   background-position: center left;   
 }
 
-@media (--breakpoint-not-small) {
-  .bg-center-ns { 
+@media (--breakpoint-small) {
+  .bg-center-s { 
     background-repeat: no-repeat;
     background-position: center center; 
   }
 
-  .bg-top-ns {    
+  .bg-top-s {    
     background-repeat: no-repeat; 
     background-position: top center;    
   }
 
-  .bg-right-ns {  
+  .bg-right-s {  
     background-repeat: no-repeat; 
     background-position: center right;  
   }
 
-  .bg-bottom-ns { 
+  .bg-bottom-s { 
     background-repeat: no-repeat; 
     background-position: bottom center; 
   }
 
-  .bg-left-ns {   
+  .bg-left-s {   
     background-repeat: no-repeat; 
     background-position: center left;   
   }

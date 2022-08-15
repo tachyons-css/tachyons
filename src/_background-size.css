@@ -4,7 +4,7 @@
    Docs: http://tachyons.io/docs/themes/background-size/
 
    Media Query Extensions:
-     -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
 
@@ -18,7 +18,7 @@
   .cover { background-size: cover!important; }
   .contain { background-size: contain!important; }
 
-@media (--breakpoint-not-small) {
+@media (--breakpoint-small) {
   .cover-ns { background-size: cover!important; }
   .contain-ns { background-size: contain!important; }
 }

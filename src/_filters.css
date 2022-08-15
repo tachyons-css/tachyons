@@ -1,0 +1,16 @@
+/*
+
+  FILTER EFFECTS
+  Docs: http://tachyons.io/docs/themes/hovers/
+
+    - Blur
+    - Grayscale
+
+*/
+
+.filter-blur-none { filter: blur(0); }
+.filter-blur { filter: blur(96px); }
+
+.grayscale-0 { filter: grayscale(0); }
+.grayscale-50 { filter: grayscale(50%); }
+.grayscale-100 { filter: grayscale(100%); }

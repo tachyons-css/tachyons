@@ -1,0 +1,81 @@
+/*
+
+  Grid Template Columns
+  Docs: http://tachyons.io/docs/layout/grid-template-columns/
+
+  Base: 
+  cols = columns
+
+*/
+
+.cols-1  { grid-template-columns: repeat(1, 1fr) }
+.cols-2  { grid-template-columns: repeat(2, 1fr) }
+.cols-3  { grid-template-columns: repeat(3, 1fr) }
+.cols-4  { grid-template-columns: repeat(4, 1fr) }
+.cols-5  { grid-template-columns: repeat(5, 1fr) }
+.cols-6  { grid-template-columns: repeat(6, 1fr) }
+.cols-8  { grid-template-columns: repeat(8, 1fr) }
+.cols-9  { grid-template-columns: repeat(9, 1fr) }
+.cols-10 { grid-template-columns: repeat(10, 1fr) }
+.cols-12 { grid-template-columns: repeat(12, 1fr) }
+.cols-16 { grid-template-columns: repeat(16, 1fr) }
+
+.masonry { grid-template-columns: masonry }
+.subgrid { grid-template-columns: subgrid }
+.cols-none { grid-template-columns: none }
+
+
+@media (--breakpoint-small) {
+  .cols-1-s  { grid-template-columns: repeat(1, 1fr) }
+  .cols-2-s  { grid-template-columns: repeat(2, 1fr) }
+  .cols-3-s  { grid-template-columns: repeat(3, 1fr) }
+  .cols-4-s  { grid-template-columns: repeat(4, 1fr) }
+  .cols-5-s  { grid-template-columns: repeat(5, 1fr) }
+  .cols-6-s  { grid-template-columns: repeat(6, 1fr) }
+  .cols-8-s  { grid-template-columns: repeat(8, 1fr) }
+  .cols-9-s  { grid-template-columns: repeat(9, 1fr) }
+  .cols-10-s { grid-template-columns: repeat(10, 1fr) }
+  .cols-12-s { grid-template-columns: repeat(12, 1fr) }
+  .cols-16-s { grid-template-columns: repeat(16, 1fr) }
+
+  .masonry-s { grid-template-columns: masonry }
+  .subgrid-s { grid-template-columns: subgrid }
+  .cols-none-s { grid-template-columns: none }
+}
+
+@media (--breakpoint-medium) {
+  .cols-1-m  { grid-template-columns: repeat(1, 1fr) }
+  .cols-2-m  { grid-template-columns: repeat(2, 1fr) }
+  .cols-3-m  { grid-template-columns: repeat(3, 1fr) }
+  .cols-4-m  { grid-template-columns: repeat(4, 1fr) }
+  .cols-5-m  { grid-template-columns: repeat(5, 1fr) }
+  .cols-6-m  { grid-template-columns: repeat(6, 1fr) }
+  .cols-8-m  { grid-template-columns: repeat(8, 1fr) }
+  .cols-9-m  { grid-template-columns: repeat(9, 1fr) }
+  .cols-10-m { grid-template-columns: repeat(10, 1fr) }
+  .cols-12-m { grid-template-columns: repeat(12, 1fr) }
+  .cols-16-m { grid-template-columns: repeat(16, 1fr) }
+
+  .masonry-m { grid-template-columns: masonry }
+  .subgrid-m { grid-template-columns: subgrid }
+  .cols-none-m { grid-template-columns: none }
+}
+
+@media (--breakpoint-large) {
+  .cols-1-l  { grid-template-columns: repeat(1, 1fr) }
+  .cols-2-l  { grid-template-columns: repeat(2, 1fr) }
+  .cols-3-l  { grid-template-columns: repeat(3, 1fr) }
+  .cols-4-l  { grid-template-columns: repeat(4, 1fr) }
+  .cols-5-l  { grid-template-columns: repeat(5, 1fr) }
+  .cols-6-l  { grid-template-columns: repeat(6, 1fr) }
+  .cols-8-l  { grid-template-columns: repeat(8, 1fr) }
+  .cols-9-l  { grid-template-columns: repeat(9, 1fr) }
+  .cols-10-l { grid-template-columns: repeat(10, 1fr) }
+  .cols-12-l { grid-template-columns: repeat(12, 1fr) }
+  .cols-16-l { grid-template-columns: repeat(16, 1fr) }
+
+  .masonry-l { grid-template-columns: masonry }
+  .subgrid-l { grid-template-columns: subgrid }
+  .cols-none-l { grid-template-columns: none }
+}
+

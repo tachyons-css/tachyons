@@ -3,7 +3,7 @@
    VERTICAL ALIGN
 
    Media Query Extensions:
-     -ns = not-small
+     -s = small
      -m  = medium
      -l  = large
 
@@ -14,11 +14,11 @@
 .v-top      { vertical-align: top; }
 .v-btm      { vertical-align: bottom; }
 
-@media (--breakpoint-not-small) {
-  .v-base-ns     { vertical-align: baseline; }
-  .v-mid-ns      { vertical-align: middle; }
-  .v-top-ns      { vertical-align: top; }
-  .v-btm-ns      { vertical-align: bottom; }
+@media (--breakpoint-small) {
+  .v-base-s     { vertical-align: baseline; }
+  .v-mid-s      { vertical-align: middle; }
+  .v-top-s      { vertical-align: top; }
+  .v-btm-s      { vertical-align: bottom; }
 }
 
 @media (--breakpoint-medium) {
