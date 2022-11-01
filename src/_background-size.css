@@ -19,8 +19,8 @@
   .contain { background-size: contain!important; }
 
 @media (--breakpoint-small) {
-  .cover-ns { background-size: cover!important; }
-  .contain-ns { background-size: contain!important; }
+  .cover-s { background-size: cover!important; }
+  .contain-s { background-size: contain!important; }
 }
 
 @media (--breakpoint-medium) {

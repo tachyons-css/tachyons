@@ -2,6 +2,7 @@
 
    BORDER RADIUS
    Docs: http://tachyons.io/docs/themes/border-radius/
+   Interactive examples: https://components.ai/u/system/cl7crcjia022509masfvq73ny/cl7ztbozs1650909l6rllmvpko
 
    Base:
      br   = border-radius
@@ -20,7 +21,7 @@
      -pill = 9999px
 
    Media Query Extensions:
-     -ns = small
+     -n = small
      -m  = medium
      -l  = large
 
@@ -57,34 +58,34 @@
   .br-unset { border-radius: unset; }
 
 @media (--breakpoint-small) {
-  .br0-ns {     border-radius: 0; }
-  .br1-ns {     border-radius: 4px; }
-  .br2-ns {     border-radius: 6px; }
-  .br3-ns {     border-radius: 8px; }
-  .br4-ns {     border-radius: 12px; }
-  .br5-ns {     border-radius: 16px; }
-  .br6-ns {     border-radius: 32px; }
-  .br-100-ns {  border-radius: 100%; }
-  .br-pill-ns { border-radius: 9999px; }
-  .br--bottom-ns {
+  .br0-s {     border-radius: 0; }
+  .br1-s {     border-radius: 4px; }
+  .br2-s {     border-radius: 6px; }
+  .br3-s {     border-radius: 8px; }
+  .br4-s {     border-radius: 12px; }
+  .br5-s {     border-radius: 16px; }
+  .br6-s {     border-radius: 32px; }
+  .br-100-s {  border-radius: 100%; }
+  .br-pill-s { border-radius: 9999px; }
+  .br--bottom-s {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
   }
-  .br--top-ns {
+  .br--top-s {
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
   }
-  .br--right-ns {
+  .br--right-s {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
   }
-  .br--left-ns {
+  .br--left-s {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
   }
-  .br-inherit-ns { border-radius: inherit; }
-  .br-initial-ns { border-radius: initial; }
-  .br-unset-ns { border-radius: unset; }
+  .br-inherit-s { border-radius: inherit; }
+  .br-initial-s { border-radius: initial; }
+  .br-unset-s { border-radius: unset; }
 }
 
 @media (--breakpoint-medium) {

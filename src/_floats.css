@@ -31,9 +31,9 @@
 .fn { float: none; }
 
 @media (--breakpoint-small) {
-  .fl-ns { float: left; }
-  .fr-ns { float: right;  }
-  .fn-ns { float: none; }
+  .fl-s { float: left; }
+  .fr-s { float: right;  }
+  .fn-s { float: none; }
 }
 
 @media (--breakpoint-medium) {

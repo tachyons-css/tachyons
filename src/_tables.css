@@ -1,3 +1,5 @@
+/* Variables */
+
 /*
 
   TABLES
@@ -11,9 +13,9 @@
 }
 
 .striped--light:nth-child(odd) {
-  background-color: var(--light-silver);
+  background-color: var(--gray-10);
 }
 
-.stripe-dark:nth-child(odd) {
-  background-color: var(--black-10);
+.striped--dark:nth-child(odd) {
+  background-color: var(--gray-0);
 }
