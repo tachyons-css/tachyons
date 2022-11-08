@@ -1,0 +1,37 @@
+/*
+
+  FLEX-DIRECTION
+
+  Media Query Extensions:
+   -s = small
+   -m  = medium
+   -l  = large
+
+*/
+
+
+.flex-column  { flex-direction: column; }
+.flex-row     { flex-direction: row; }
+.flex-column-reverse  { flex-direction: column-reverse; }
+.flex-row-reverse     { flex-direction: row-reverse; }
+
+@media (--breakpoint-small) {
+  .flex-column-s { flex-direction: column; }
+  .flex-row-s { flex-direction: row; }
+  .flex-column-reverse-s { flex-direction: column-reverse; }
+  .flex-row-reverse-s { flex-direction: row-reverse; }
+}
+
+@media (--breakpoint-medium) {
+  .flex-column-m { flex-direction: column; }
+  .flex-row-m     { flex-direction: row; }
+  .flex-column-reverse-m { flex-direction: column-reverse; }
+  .flex-row-reverse-m { flex-direction: row-reverse; }
+}
+
+@media (--breakpoint-large) {
+  .flex-column-l { flex-direction: column; }
+  .flex-row-l { flex-direction: row; }
+  .flex-column-reverse-l { flex-direction: column-reverse; }
+  .flex-row-reverse-l { flex-direction: row-reverse; }
+}
