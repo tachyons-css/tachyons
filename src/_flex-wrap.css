@@ -1,0 +1,32 @@
+/*
+
+  FLEX-WRAP
+
+  Media Query Extensions:
+   -s = small
+   -m  = medium
+   -l  = large
+
+*/
+
+.flex-wrap    { flex-wrap: wrap; }
+.flex-nowrap    { flex-wrap: nowrap; }
+.flex-wrap-reverse    { flex-wrap: wrap-reverse; }
+
+@media (--breakpoint-small) {
+  .flex-wrap-s { flex-wrap: wrap; }
+  .flex-nowrap-s { flex-wrap: nowrap; }
+  .flex-wrap-reverse-s { flex-wrap: wrap-reverse; }
+}
+
+@media (--breakpoint-medium) {
+  .flex-wrap-m { flex-wrap: wrap; }
+  .flex-nowrap-m { flex-wrap: nowrap; }
+  .flex-wrap-reverse-m { flex-wrap: wrap-reverse; }
+}
+
+@media (--breakpoint-large) {
+  .flex-wrap-l { flex-wrap: wrap; }
+  .flex-nowrap-l { flex-wrap: nowrap; }
+  .flex-wrap-reverse-l { flex-wrap: wrap-reverse; }
+}

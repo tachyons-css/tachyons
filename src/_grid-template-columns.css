@@ -20,6 +20,14 @@
 .cols-12 { grid-template-columns: repeat(12, 1fr) }
 .cols-16 { grid-template-columns: repeat(16, 1fr) }
 
+.cols-min-64 { grid-template-columns: repeat(auto-fill, minmax( 64px, 1fr )); }
+.cols-min-128 { grid-template-columns: repeat(auto-fill, minmax( 128px, 1fr )); }
+.cols-min-192 { grid-template-columns: repeat(auto-fill, minmax( 192px, 1fr )); }
+.cols-min-240 { grid-template-columns: repeat(auto-fill, minmax( 240px, 1fr )); }
+.cols-min-256 { grid-template-columns: repeat(auto-fill, minmax( 256px, 1fr )); }
+.cols-min-320 { grid-template-columns: repeat(auto-fill, minmax( 320px, 1fr )); }
+.cols-min-480 { grid-template-columns: repeat(auto-fill, minmax( 480px, 1fr )); }
+
 .masonry { grid-template-columns: masonry }
 .subgrid { grid-template-columns: subgrid }
 .cols-none { grid-template-columns: none }
@@ -37,6 +45,14 @@
   .cols-10-s { grid-template-columns: repeat(10, 1fr) }
   .cols-12-s { grid-template-columns: repeat(12, 1fr) }
   .cols-16-s { grid-template-columns: repeat(16, 1fr) }
+
+  .cols-min-64-s { grid-template-columns: repeat(auto-fill, minmax( 64px, 1fr )); }
+  .cols-min-128-s { grid-template-columns: repeat(auto-fill, minmax( 128px, 1fr )); }
+  .cols-min-192-s { grid-template-columns: repeat(auto-fill, minmax( 192px, 1fr )); }
+  .cols-min-240-s { grid-template-columns: repeat(auto-fill, minmax( 240px, 1fr )); }
+  .cols-min-256-s { grid-template-columns: repeat(auto-fill, minmax( 256px, 1fr )); }
+  .cols-min-320-s { grid-template-columns: repeat(auto-fill, minmax( 320px, 1fr )); }
+  .cols-min-480-s { grid-template-columns: repeat(auto-fill, minmax( 480px, 1fr )); }
 
   .masonry-s { grid-template-columns: masonry }
   .subgrid-s { grid-template-columns: subgrid }
@@ -56,6 +72,14 @@
   .cols-12-m { grid-template-columns: repeat(12, 1fr) }
   .cols-16-m { grid-template-columns: repeat(16, 1fr) }
 
+  .cols-min-64-m { grid-template-columns: repeat(auto-fill, minmax( 64px, 1fr )); }
+  .cols-min-128-m { grid-template-columns: repeat(auto-fill, minmax( 128px, 1fr )); }
+  .cols-min-192-m { grid-template-columns: repeat(auto-fill, minmax( 192px, 1fr )); }
+  .cols-min-240-m { grid-template-columns: repeat(auto-fill, minmax( 240px, 1fr )); }
+  .cols-min-256-m { grid-template-columns: repeat(auto-fill, minmax( 256px, 1fr )); }
+  .cols-min-320-m { grid-template-columns: repeat(auto-fill, minmax( 320px, 1fr )); }
+  .cols-min-480-m { grid-template-columns: repeat(auto-fill, minmax( 480px, 1fr )); }
+
   .masonry-m { grid-template-columns: masonry }
   .subgrid-m { grid-template-columns: subgrid }
   .cols-none-m { grid-template-columns: none }
@@ -73,6 +97,14 @@
   .cols-10-l { grid-template-columns: repeat(10, 1fr) }
   .cols-12-l { grid-template-columns: repeat(12, 1fr) }
   .cols-16-l { grid-template-columns: repeat(16, 1fr) }
+
+  .cols-min-64-l { grid-template-columns: repeat(auto-fill, minmax( 64px, 1fr )); }
+  .cols-min-128-l { grid-template-columns: repeat(auto-fill, minmax( 128px, 1fr )); }
+  .cols-min-192-l { grid-template-columns: repeat(auto-fill, minmax( 192px, 1fr )); }
+  .cols-min-240-l { grid-template-columns: repeat(auto-fill, minmax( 240px, 1fr )); }
+  .cols-min-256-l { grid-template-columns: repeat(auto-fill, minmax( 256px, 1fr )); }
+  .cols-min-320-l { grid-template-columns: repeat(auto-fill, minmax( 320px, 1fr )); }
+  .cols-min-480-l { grid-template-columns: repeat(auto-fill, minmax( 480px, 1fr )); }
 
   .masonry-l { grid-template-columns: masonry }
   .subgrid-l { grid-template-columns: subgrid }

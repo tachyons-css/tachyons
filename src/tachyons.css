@@ -29,13 +29,12 @@
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-@import './_colors';
 @import './_media-queries';
+@import './_colors';
 
 
 /* Modules */
 @import './_box-sizing';
-@import './_align';
 @import './_aspect-ratios';
 @import './_images';
 @import './_background-size';
@@ -57,9 +56,12 @@
 @import './_grid-row';
 @import './_filters';
 @import './_flexbox';
+@import './_flex-wrap';
 @import './_align-items';
+@import './_align-content';
 @import './_align-self';
 @import './_justify-self';
+@import './_justify-content';
 @import './_order';
 @import './_floats';
 @import './_font-family';
