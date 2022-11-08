@@ -57,6 +57,10 @@
 @import './_grid-row';
 @import './_filters';
 @import './_flexbox';
+@import './_align-items';
+@import './_align-self';
+@import './_justify-self';
+@import './_order';
 @import './_floats';
 @import './_font-family';
 @import './_font-style';
