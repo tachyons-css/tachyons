@@ -1,0 +1,36 @@
+/*
+
+  JUSTIFY-SELF
+
+  Media Query Extensions:
+   -s = small
+   -m  = medium
+   -l  = large
+
+  MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
+
+*/
+
+.justify-self-start { justify-self: start; }
+.justify-self-end { justify-self: end; }
+.justify-self-center { justify-self: center; }
+.justify-self-stretch{ justify-self: stretch; }
+
+@media (--breakpoint-small) {
+  .justify-self-start-s { justify-self: start; }
+  .justify-self-end-s { justify-self: end; }
+  .justify-self-center-s { justify-self: center; }
+  .justify-self-stretch-s { justify-self: stretch; }
+}
+@media (--breakpoint-medium) {
+  .justify-self-start-m { justify-self: start; }
+  .justify-self-end-m { justify-self: end; }
+  .justify-self-center-m { justify-self: center; }
+  .justify-self-stretch-m { justify-self: stretch; }
+}
+@media (--breakpoint-large) {
+  .justify-self-start-l { justify-self: start; }
+  .justify-self-end-l { justify-self: end; }
+  .justify-self-center-l { justify-self: center; }
+  .justify-self-stretch-l { justify-self: stretch; }
+}

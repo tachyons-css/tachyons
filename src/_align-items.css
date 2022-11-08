@@ -1,0 +1,40 @@
+/*
+
+  ALIGN-ITEMS
+
+  Media Query Extensions:
+   -s = small
+   -m  = medium
+   -l  = large
+
+*/
+
+.items-start    { align-items: flex-start; }
+.items-end      { align-items: flex-end; }
+.items-center   { align-items: center; }
+.items-baseline { align-items: baseline; }
+.items-stretch  { align-items: stretch; }
+
+@media (--breakpoint-small) {
+  .items-start-s    { align-items: flex-start; }
+  .items-end-s   { align-items: flex-end; }
+  .items-center-s   { align-items: center; }
+  .items-baseline-s { align-items: baseline; }
+  .items-stretch-s  { align-items: stretch; }
+}
+
+@media (--breakpoint-medium) {
+  .items-start-m    { align-items: flex-start; }
+  .items-end-m   { align-items: flex-end; }
+  .items-center-m   { align-items: center; }
+  .items-baseline-m { align-items: baseline; }
+  .items-stretch-m  { align-items: stretch; }
+}
+
+@media (--breakpoint-large) {
+  .items-start-l    { align-items: flex-start; }
+  .items-end-l   { align-items: flex-end; }
+  .items-center-l   { align-items: center; }
+  .items-baseline-l { align-items: baseline; }
+  .items-stretch-l  { align-items: stretch; }
+}
