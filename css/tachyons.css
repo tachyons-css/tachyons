@@ -274,9 +274,9 @@ img { display: block; max-width: 100%; }
    Docs: http://tachyons.io/docs/themes/background-size/
 
    Media Query Extensions:
-     -s  = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 /*
@@ -300,9 +300,9 @@ img { display: block; max-width: 100%; }
     -left = center left
 
     Media Query Extensions:
-      -s  = small
-      -m  = medium
-      -l  = large
+      -s = small
+      -m = medium
+      -l = large
 
  */
 .bg-center { background-repeat: no-repeat; background-position: center center; }
@@ -316,8 +316,8 @@ img { display: block; max-width: 100%; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .outline { outline: 1px solid; }
@@ -341,8 +341,8 @@ img { display: block; max-width: 100%; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .ba { border-style: solid; border-width: 1px; }
@@ -397,9 +397,9 @@ img { display: block; max-width: 100%; }
      -pill = 9999px
 
    Media Query Extensions:
-     -n = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 .br0 { border-radius: 0; }
@@ -436,8 +436,8 @@ img { display: block; max-width: 100%; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
  */
 .b--dotted { border-style: dotted; }
@@ -461,8 +461,8 @@ img { display: block; max-width: 100%; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .bw0 { border-width: 0; }
@@ -483,8 +483,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
  */
 .shadow-border { box-shadow: inset 0 0 1px 0 rgba( 0, 0, 0, .125 ); }
@@ -529,8 +529,8 @@ img { display: block; max-width: 100%; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .top-0 { top: 0; }
@@ -564,7 +564,7 @@ img { display: block; max-width: 100%; }
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .cf:before, .cf:after { content: " "; display: table; }
 .cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf { zoom: 1; }
 .cl { clear: left; }
 .cr { clear: right; }
 .cb { clear: both; }
@@ -588,8 +588,8 @@ img { display: block; max-width: 100%; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .dn { display: none; }
@@ -611,8 +611,8 @@ img { display: block; max-width: 100%; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .g0 { gap: 0; }
@@ -781,8 +781,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
 */
 /* 1. Fix for Chrome 44 bug.
@@ -799,8 +799,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
 */
 .flex-column { flex-direction: column; }
@@ -813,8 +813,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
 */
 .flex-wrap { flex-wrap: wrap; }
@@ -826,8 +826,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
 */
 .items-start { align-items: flex-start; }
@@ -841,8 +841,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
   MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
 
@@ -860,8 +860,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
 */
 .self-start { align-self: flex-start; }
@@ -875,8 +875,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
   MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
 
@@ -891,8 +891,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
   MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
 
@@ -908,8 +908,8 @@ img { display: block; max-width: 100%; }
 
   Media Query Extensions:
    -s = small
-   -m  = medium
-   -l  = large
+   -m = medium
+   -l = large
 
 */
 .order-0 { order: 0; }
@@ -942,9 +942,9 @@ img { display: block; max-width: 100%; }
      n = none
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 .fl { float: left; }
@@ -979,8 +979,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .i { font-style: italic; }
@@ -1005,9 +1005,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
      9 = literal value 900
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 .normal { font-weight: normal; }
@@ -1055,8 +1055,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 /* Height Scale */
@@ -1085,9 +1085,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/typography/tracking/
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 .tracked { letter-spacing: .1em; }
@@ -1100,8 +1100,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .lh-solid { line-height: 1; }
@@ -1151,8 +1151,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 /* Max Width Percentages */
@@ -1205,9 +1205,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 /* Width Scale */
@@ -1231,8 +1231,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
     Media Query Extensions:
       -s = small
-      -m  = medium
-      -l  = large
+      -m = medium
+      -l = large
 
  */
 .overflow-visible { overflow: visible; }
@@ -1254,8 +1254,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .static { position: static; }
@@ -2512,8 +2512,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .p0 { padding: 0; }
@@ -2666,8 +2666,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .na1 { margin: -0.25rem; }
@@ -2723,8 +2723,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .strike { text-decoration: line-through; }
@@ -2746,8 +2746,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
   Media Query Extensions:
     -s = small
-    -m  = medium
-    -l  = large
+    -m = medium
+    -l = large
 
 */
 .tl { text-align: left; }
@@ -2769,9 +2769,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
      n = none
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 .ttc { text-transform: capitalize; }
@@ -2797,8 +2797,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 */
 /* Type Scale */
 .f1 { font-size: .75rem; }
@@ -2819,9 +2819,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
    http://tachyons.io/docs/typography/measure/
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 /* Measure is limited to 66 characters */
@@ -2840,9 +2840,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
    UTILITIES
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 /* Equivalent to .overflow-y-scroll */
@@ -2855,9 +2855,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
    VISIBILITY
 
    Media Query Extensions:
-     -s  = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 /*
@@ -2870,9 +2870,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
    WHITE SPACE
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 .ws-normal { white-space: normal; }
@@ -2884,8 +2884,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 
 */
 .v-base { vertical-align: baseline; }
@@ -3381,20 +3381,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mw8-s { max-width: 64rem; }
  .mw9-s { max-width: 96rem; }
  .mw-none-s { max-width: none; }
- .w1-ns { width: 1rem; }
- .w2-ns { width: 2rem; }
- .w3-ns { width: 4rem; }
- .w4-ns { width: 8rem; }
- .w5-ns { width: 16rem; }
- .w-10-ns { width: 10%; }
- .w-20-ns { width: 20%; }
- .w-25-ns { width: 25%; }
- .w-50-ns { width: 50%; }
- .w-75-ns { width: 75%; }
- .w-100-ns { width: 100%; }
- .w-third-ns { width: 33.33333%; }
- .w-two-thirds-ns { width: 66.66667%; }
- .w-auto-ns { width: auto; }
+ .w1-s { width: 1rem; }
+ .w2-s { width: 2rem; }
+ .w3-s { width: 4rem; }
+ .w4-s { width: 8rem; }
+ .w5-s { width: 16rem; }
+ .w-10-s { width: 10%; }
+ .w-20-s { width: 20%; }
+ .w-25-s { width: 25%; }
+ .w-50-s { width: 50%; }
+ .w-75-s { width: 75%; }
+ .w-100-s { width: 100%; }
+ .w-third-s { width: 33.33333%; }
+ .w-two-thirds-s { width: 66.66667%; }
+ .w-auto-s { width: auto; }
  .overflow-visible-s { overflow: visible; }
  .overflow-hidden-s { overflow: hidden; }
  .overflow-scroll-s { overflow: scroll; }
@@ -3570,9 +3570,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .small-caps-s { font-variant: small-caps; }
  .indent-s { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-s { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
- .center-ns { margin-right: auto; margin-left: auto; }
- .mr-auto-ns { margin-right: auto; }
- .ml-auto-ns { margin-left: auto; }
+ .center-s { margin-right: auto; margin-left: auto; }
+ .mr-auto-s { margin-right: auto; }
+ .ml-auto-s { margin-left: auto; }
  .clip-s { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-s { white-space: normal; }
  .nowrap-s { white-space: nowrap; }

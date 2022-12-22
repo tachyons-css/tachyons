@@ -34,9 +34,9 @@
 
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 
@@ -60,20 +60,20 @@
 .w-auto { width: auto; }
 
 @media (--breakpoint-small) {
-  .w1-ns {  width: 1rem; }
-  .w2-ns {  width: 2rem; }
-  .w3-ns {  width: 4rem; }
-  .w4-ns {  width: 8rem; }
-  .w5-ns {  width: 16rem; }
-  .w-10-ns { width:  10%; }
-  .w-20-ns { width:  20%; }
-  .w-25-ns { width:  25%; }
-  .w-50-ns { width:  50%; }
-  .w-75-ns { width:  75%; }
-  .w-100-ns { width: 100%; }
-  .w-third-ns { width: calc(100% / 3); }
-  .w-two-thirds-ns { width: calc(100% / 1.5); }
-  .w-auto-ns { width: auto; }
+  .w1-s {  width: 1rem; }
+  .w2-s {  width: 2rem; }
+  .w3-s {  width: 4rem; }
+  .w4-s {  width: 8rem; }
+  .w5-s {  width: 16rem; }
+  .w-10-s { width:  10%; }
+  .w-20-s { width:  20%; }
+  .w-25-s { width:  25%; }
+  .w-50-s { width:  50%; }
+  .w-75-s { width:  75%; }
+  .w-100-s { width: 100%; }
+  .w-third-s { width: calc(100% / 3); }
+  .w-two-thirds-s { width: calc(100% / 1.5); }
+  .w-auto-s { width: auto; }
 }
 
 @media (--breakpoint-medium) {

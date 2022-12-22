@@ -3,9 +3,9 @@
    UTILITIES
 
    Media Query Extensions:
-     -ns = small
-     -m  = medium
-     -l  = large
+     -s = small
+     -m = medium
+     -l = large
 
 */
 
@@ -23,12 +23,12 @@
 .ml-auto { margin-left:  auto; }
 
 @media (--breakpoint-small){
-  .center-ns {
+  .center-s {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-ns { margin-right: auto; }
-  .ml-auto-ns { margin-left:  auto; }
+  .mr-auto-s { margin-right: auto; }
+  .ml-auto-s { margin-left:  auto; }
 }
 
 @media (--breakpoint-medium){

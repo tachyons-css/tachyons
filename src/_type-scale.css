@@ -17,8 +17,8 @@
 
    Media Query Extensions:
      -s = small
-     -m  = medium
-     -l  = large
+     -m = medium
+     -l = large
 */
 
 /* Type Scale */
@@ -29,12 +29,12 @@
 .f4 { font-size: 1.125rem; }
 .f5 { font-size: 1.25rem; }
 .f6 { font-size: 1.5rem; }
-.f7 { font-size: 2rem; } 
-.f8 { font-size: 3rem; } 
-.f9 { font-size: 4rem; } 
-.f10 { font-size: 6rem; } 
-.f11 { font-size: 8rem; } 
-.f12 { font-size: 12rem; } 
+.f7 { font-size: 2rem; }
+.f8 { font-size: 3rem; }
+.f9 { font-size: 4rem; }
+.f10 { font-size: 6rem; }
+.f11 { font-size: 8rem; }
+.f12 { font-size: 12rem; }
 
 
 @media (--breakpoint-small){
@@ -44,12 +44,12 @@
   .f4-s { font-size: 1.125rem; }
   .f5-s { font-size: 1.25rem; }
   .f6-s { font-size: 1.5rem; }
-  .f7-s { font-size: 2rem; } 
-  .f8-s { font-size: 3rem; } 
-  .f9-s { font-size: 4rem; } 
-  .f10-s { font-size: 6rem; } 
-  .f11-s { font-size: 8rem; } 
-  .f12-s { font-size: 12rem; } 
+  .f7-s { font-size: 2rem; }
+  .f8-s { font-size: 3rem; }
+  .f9-s { font-size: 4rem; }
+  .f10-s { font-size: 6rem; }
+  .f11-s { font-size: 8rem; }
+  .f12-s { font-size: 12rem; }
 }
 
 @media (--breakpoint-medium) {
@@ -59,12 +59,12 @@
   .f4-m { font-size: 1.125rem; }
   .f5-m { font-size: 1.25rem; }
   .f6-m { font-size: 1.5rem; }
-  .f7-m { font-size: 2rem; } 
-  .f8-m { font-size: 3rem; } 
-  .f9-m { font-size: 4rem; } 
-  .f10-m { font-size: 6rem; } 
-  .f11-m { font-size: 8rem; } 
-  .f12-m { font-size: 12rem; } 
+  .f7-m { font-size: 2rem; }
+  .f8-m { font-size: 3rem; }
+  .f9-m { font-size: 4rem; }
+  .f10-m { font-size: 6rem; }
+  .f11-m { font-size: 8rem; }
+  .f12-m { font-size: 12rem; }
 }
 
 @media (--breakpoint-large) {
@@ -74,10 +74,10 @@
   .f4-l { font-size: 1.125rem; }
   .f5-l { font-size: 1.25rem; }
   .f6-l { font-size: 1.5rem; }
-  .f7-l { font-size: 2rem; } 
-  .f8-l { font-size: 3rem; } 
-  .f9-l { font-size: 4rem; } 
-  .f10-l { font-size: 6rem; } 
-  .f11-l { font-size: 8rem; } 
-  .f12-l { font-size: 12rem; } 
+  .f7-l { font-size: 2rem; }
+  .f8-l { font-size: 3rem; }
+  .f9-l { font-size: 4rem; }
+  .f10-l { font-size: 6rem; }
+  .f11-l { font-size: 8rem; }
+  .f12-l { font-size: 12rem; }
 }
