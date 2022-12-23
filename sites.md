@@ -68,7 +68,7 @@
 * https://uptimeumbrella.com
 * http://www.talbs.me
 * https://podviaznikov.com
-* http://seanoshea.me
+* https://seanoshea.me
 * https://www.hiaida.com
 * http://maxogden.github.io/screencat/
 * http://numenta.com
