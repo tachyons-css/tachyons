@@ -11,6 +11,8 @@
   ],
   "repository": "tachyons-css/tachyons",
   "keywords": [
+    "UI",
+    "UI design",
     "css",
     "oocss",
     "postcss",
@@ -31,20 +33,20 @@
   },
   "contributors": [
     {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
+      "name": "Adam Morse",
+      "url": "https://mrmrs.cc"
     },
     {
-      "name": "john otander",
-      "url": "http://johnotander.com"
+      "name": "John Otander",
+      "url": "https://johnotander.com"
     }
   ],
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
+    "build:css": "tachyons src/tachyons.css --preserveVariables > css/tachyons.css",
+    "build:minify": "tachyons src/tachyons.css --minify --preserveVariables > css/tachyons.min.css",
     "build:watch": "watch \"npm run build\" ./src/"
   },
   "dependencies": {
