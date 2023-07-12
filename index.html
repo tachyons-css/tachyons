@@ -6,890 +6,433 @@
     <title>
 
     </title>
-    <meta name="author" content="">
-    <meta name="description" content="">
+    <meta name="author" content="mrmrs">
+    <meta name="description" content="Tachyons stuff">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/tachyons.min.css">
+    <link rel="stylesheet" href="./css/tachyons.min.css">
+
   </head>
-  <body class="w-100 sans-serif">
-    <main class="w-100 bg-white">
-      <section>
-        <div class="ph3 ph5-ns pt5" id="style">
-          <div class="mw9 center overflow-auto">
-            <h3 class="f8 fw6 ttu tracked lh-sholid">Style Guide</h3>
-            <p class="lh-copy measure f6">
-              This is a quick introduction to some of the building blocks that Tachyons makes available. For a more in-depth look at design principles and how each module works, be sure to check out the <a class="link blue underline hover-navy" href="/docs" title="Tachyons docs">docs</a>
-            </p>
-            <h3 class="f6 ttu fw6 mb0 mt5 bb pb2">Typography</h3>
-            <article class="dt-ns dt--fixed-ns">
-              <div class="dtc-ns v-mid overflow-auto">
-                <h1 class="f1 lh-title">Level 1 Heading</h1>
-                <h2 class="f2 lh-title">Level 2 Heading</h2>
-                <h3 class="f3 lh-title">Level 3 Heading</h3>
-                <h4 class="f4 lh-title">Level 4 Heading</h4>
-                <h5 class="f5 lh-title">Level 5 Heading</h5>
-                <h6 class="f6 lh-title">Level 6 Heading</h6>
-              </div>
-              <div class="dtc-ns v-mid">
-                <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-.f1 { font-size: 3rem; }
-.f2 { font-size: 2.25rem; }
-.f3 { font-size: 1.5rem; }
-.f4 { font-size: 1.25rem; }
-.f5 { font-size: 1rem; }
-.f6 { font-size: .875rem; }
-</code>
-                </pre>
-              </div>
-            </article>
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Type Styles</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc v-mid">
-                  <p class="i">Italicize: to write or print (text) in italics.</p>
-                  <p class="b">Some text that needs to be super bold.</p>
-                  <p class="underline">This text wants to be underlined.</p>
-                  <p class="strike">This text should be crossed out.</p>
-                  <p class="ttc">This text should be capitalized.</p>
-                  <p class="ttu">This text should be uppercase.</p>
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-.i {         font-style: italic; }
-.b {         font-weight: bold; }
-.underline { text-decoration: underline; }
-.strike {    text-decoration: line-through; }
-.ttc {       text-transform: capitalize; }
-.ttu {       text-transform: uppercase; }
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Typefaces</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc v-mid">
-                  <h4 class="f6 mb0 mt3">system serif</h4>
-                  <p class="serif">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">Athelas</h4>
-                  <p class="athelas"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="athelas ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">georgia</h4>
-                  <p class="georgia"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="georgia ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">garamond</h4>
-                  <p class="garamond"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="garamond ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">baskerville</h4>
-                  <p class="baskerville"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="baskerville ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">calisto</h4>
-                  <p class="calisto"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="calisto ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">system sans-serif</h4>
-                  <p class="sans-serif"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="sans-serif ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">Helvetica</h4>
-                  <p class="helvetica"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="helvetica ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">Avenir Next</h4>
-                  <p class="avenir"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="avenir ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">Code</h4>
-                  <p class="code"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="code ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <h4 class="f6 mb0 mt3">Courier</h4>
-                  <p class="code"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                  <p class="code ttu"> a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-.sans-serif {
-  font-family: -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               helvetica, 'helvetica neue',
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
-}
-.serif { font-family: georgia, times, serif; }
-.code { font-family: Consolas, monaco, monospace; }
-.courier { font-family: 'Courier Next', courier, monospace; }
-.helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
-.avenir { font-family: 'avenir next', avenir, sans-serif; }
-.athelas { font-family: athelas, georgia, serif; }
-.georgia { font-family: georgia, serif; }
-.times { font-family: times, serif; }
-.bodoni { font-family: "Bodoni MT", serif; }
-.calisto { font-family: "Calisto MT", serif; }
-.garamond { font-family: garamond, serif; }
-.baskerville { font-family: baskerville, serif; }
-
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Measure</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc v-mid f6">
-                  <h4 class="mt4 fw6 f6">Wide Measure</h4>
-                  <p class="measure-wide lh-copy">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                    sanctus est Lorem ipsum dolor sit amet.
-                  </p>
-                  <h4 class="mt4 fw6 f6">Measure</h4>
-                  <p class="measure lh-copy">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                    sanctus est Lorem ipsum dolor sit amet.
-                  </p>
-                  <h4 class="mt4 fw6 f6">Narrow Measure</h4>
-                  <p class="measure-narrow lh-copy">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                    sanctus est Lorem ipsum dolor sit amet.
-                  </p>
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-.measure-wide {   max-width: 34em; }
-.measure {        max-width: 30em; }
-.measure-narrow { max-width: 20em; }
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-        <article class="mt5 id=" grids""="">
-          <div class="ph3 ph5-ns">
-            <div class="mw9 center">
-              <h3 class="f6 ttu fw6 mt0 bb pb2">Grids</h3>
-              <p class="lh-copy measure">
-                Floats, widths, and padding can be combined to build a
-                wide variety of grids.
-              </p>
-            </div>
-          </div>
-          <section class="cf w-100 pv3 f6 ph3 ph4-ns">
-            <div class="mw9 center ph3-ns">
-              <div class="ph2-ns">
-                <div class="fl w-100 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-100</code></div>
-                </div>
-                <div class="fl w-90 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-90</code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4 truncate no-wrap"><code>fl w-10</code></div>
-                </div>
-                <div class="fl w-80 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-80</code></div>
-                </div>
-                <div class="fl w-20 pa2">
-                  <div class="outline bg-white tc pv4 truncate no-wrap"><code>fl w-20</code></div>
-                </div>
-                <div class="fl w-75 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-75</code></div>
-                </div>
-                <div class="fl w-25 pa2">
-                  <div class="outline bg-white tc pv4 truncate no-wrap"><code>fl w-25</code></div>
-                </div>
-                <div class="fl w-70 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-70</code></div>
-                </div>
-                <div class="fl w-30 pa2">
-                  <div class="outline bg-white tc pv4 truncate no-wrap"><code>fl w-30</code></div>
-                </div>
-                <div class="fl w-60 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-60</code></div>
-                </div>
-                <div class="fl w-40 pa2">
-                  <div class="outline bg-white tc pv4 truncate no-wrap"><code>fl w-40</code></div>
-                </div>
-                <div class="fl w-50 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-50</code></div>
-                </div>
-                <div class="fl w-50 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-50</code></div>
-                </div>
-                <div class="fl w-third pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-third</code></div>
-                </div>
-                <div class="fl w-third pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-third</code></div>
-                </div>
-                <div class="fl w-third pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-third</code></div>
-                </div>
-                <div class="fl w-third pa2">
-                  <div class="outline bg-white tc pv4 truncate w-100 no-wrap"><code>fl w-third</code></div>
-                </div>
-                <div class="fl w-two-thirds pa2">
-                  <div class="outline bg-white tc pv4 truncate w-100 no-wrap"><code>fl w-two-thirds</code></div>
-                </div>
-                <div class="fl w-25 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-25</code></div>
-                </div>
-                <div class="fl w-25 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-25 </code></div>
-                </div>
-                <div class="fl w-25 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-25 </code></div>
-                </div>
-                <div class="fl w-25 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-25 </code></div>
-                </div>
-                <div class="fl w-20 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-20 </code></div>
-                </div>
-                <div class="fl w-20 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-20 </code></div>
-                </div>
-                <div class="fl w-20 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-20 </code></div>
-                </div>
-                <div class="fl w-20 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-20 </code></div>
-                </div>
-                <div class="fl w-20 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-20 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-                <div class="fl w-10 pa2">
-                  <div class="outline bg-white tc pv4"><code>fl w-10 </code></div>
-                </div>
-              </div>
-            </div>
+  <body>  
+    <header class='bb flex justify-between items-center'>
+      <a href="#0" class='link br p3 flex gray-0 fw9'>Tachyons</a>
+      <nav class='flex mr3'>
+      </nav>
+    </header>
+    <main>
+      <article class='p3 tc'>
+        <header class='p6'>
+          <article class='f3 dif justify-center g3 items-center gray-3 py2 px3 br9 shadow-border-solid'><p class='my0'>An inline notification that can be centered or not</p><a href="#0" class='link indigo-4 fw7'>Learn more</a></article>
+          <h2 class='tc f8 lh-solid my3 fw9 measure'>The fastest and lightest way to style the web</h2>
+          <p class='measure lh-copy f5 gray-4 center'>
+            Start building with Tachyons today. Use one of many off the shelf themes or bring your own variables to the party.
+          </p>
+          <footer class='flex items-center justify-center g4 mt4'>
+            <a class='f3 fw7 link bg-indigo-5 indigo-11 px3 py3 lh-copy br2' href='#0'>Get started</a> 
+            <a class='f3 fw7 link indigo-4' href='#0'>Learn more &rarr;</a> 
+          </footer>
+        </header>
+      </article>
+      <article class='grid g3 p3 cols-3'>
+        <a href="#0" class='db link gray-0 overflow-hidden br4 shadow shadow-hover'>
+          <img src='https://mrmrs.github.io/photos/u/049.jpg' />
+          <section class='p4'>
+          <h4 class='f6 fw9 my2'>Card title example</h4>
+          <p class='gray-5 lh-copy'>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
           </section>
+        </a>
+        <a href="#0" class='db link gray-0 br4 overflow-hidden shadow shadow-hover'>
+          <img src='https://mrmrs.github.io/photos/v/044.jpg' />
+          <section class='p4'>
+          <h4 class='f6 fw9 my2'>Card title example</h4>
+          <p class='gray-5 lh-copy'>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+          </section>
+        </a>
+<a href="#0" class='db link gray-0 br4 overflow-hidden shadow shadow-hover'>
+
+          <img src='https://mrmrs.github.io/photos/u/053.jpg' />
+          <section class='p4'>
+          <h4 class='f6 fw9 my2'>Card title example</h4>
+          <p class='gray-5 lh-copy'>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+          </section>
+        </a>
+      </article>
+      <article class='flex g5 m4'>
+        <dl class='flex flex-column-reverse'>
+          <dt class='gray-4'>A definition term</dt>
+          <dd class='m0 f7 fw7'>Description</dd>
+        </dl>
+        <dl class='flex flex-column-reverse'>
+          <dt class='gray-4'>GitHub Stars</dt>
+          <dd class='m0 f7 fw7'>11.4k+</dd>
+        </dl>
+        <dl class='flex flex-column-reverse'>
+          <dt class='gray-4'>File Size</dt>
+          <dd class='m0 f7 fw7'>24kb</dd>
+        </dl>
+        <dl class='flex flex-column-reverse'>
+          <dt class='gray-4'>Amazing Colors</dt>
+          <dd class='m0 f7 fw7'>144</dd>
+        </dl>
+        <dl class='flex flex-column-reverse'>
+          <dt class='gray-4'>Configurability</dt>
+          <dd class='m0 f7 fw7'>100%</dd>
+        </dl>
+        <dl class='flex flex-column-reverse'>
+          <dt class='gray-4'>Possible designs</dt>
+          <dd class='m0 f7 fw7'>Inifinite</dd>
+        </dl>
+      </article>
+      <article class='p3'>
+        <article class='f2 flex items-center indigo-4 bg-indigo-11 py3 px3 br9 shadow-border-solid'><p class='mx2 my0'>An alert banner for a new feature or notification</p><a href="#0" class='link indigo-4 fw7'>Learn more</a></article>
+      </article>
+      <article class='grid cols-3 g3 p3'>
+        <article class='shadow bg-blue-4 blue-11 p4 br4 flex g5 items-center justify-between'>
+          <div>
+            <h3 class='f6 fw9 my2'>This is a banner title</h3>
+            <p class='f3 lh-copy measure indigo-9'>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+            </p>
+          </div>
+          <a href="#0" class='f2 link indigo-11 px4 py3 ba br3 nowrap'>Click here</a>
         </article>
-        <div class="ph3 ph5-ns pt5">
-          <div class="mw9 center overflow-auto">
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Colors</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc-ns v-mid pr4-ns">
-                  <table class="border-collapse w-100" cellspacing="0" cellpadding="0">
-                    <tbody class="black-60 f6">
-                      <tr><td class="bb b--black-05 bg-dark-red pa4"></td><td class="bb b--black-05 ph4 f4 b dark-red">Aa</td><td class="bb b--black-05">--dark-red:  #e7040f;</td></tr>
-                      <tr><td class="bb b--black-05 bg-red pa4 "></td><td class="bb b--black-05 ph4 f4 b red">Aa</td><td class="bb b--black-05">--red:  #ff4136;</td></tr>
-                      <tr><td class="bb b--black-05 bg-light-red pa4 "></td><td class="bb b--black-05 ph4 f4 b light-red">Aa</td><td class="bb b--black-05">--light-red:  #ff725c;</td></tr>
-                      <tr><td class="bb b--black-05 bg-orange pa4 "></td><td class="bb b--black-05 ph4 f4 b orange">Aa</td><td class="bb b--black-05">--orange:  #ff6300;</td></tr>
-                      <tr><td class="bb b--black-05 bg-gold pa4 "></td><td class="bb b--black-05 ph4 f4 b gold">Aa</td><td class="bb b--black-05">--gold:  #ffb700;</td></tr>
-                      <tr><td class="bb b--black-05 bg-yellow pa4 "></td><td class="bb b--black-05 ph4 f4 b yellow">Aa</td><td class="bb b--black-05">--yellow:  #ffde37;</td></tr>
-                      <tr><td class="bb b--black-05 bg-light-yellow pa4 "></td><td class="bb b--black-05 ph4 f4 b light-yellow">Aa</td><td class="bb b--black-05">--light-yellow:  #fbf1a9;</td></tr>
-                      <tr><td class="bb b--black-05 bg-purple pa4 "></td><td class="bb b--black-05 ph4 f4 b purple">Aa</td><td class="bb b--black-05">--purple:  #5e2ca5;</td></tr>
-                      <tr><td class="bb b--black-05 bg-light-purple pa4 "></td><td class="bb b--black-05 ph4 f4 b light-purple">Aa</td><td class="bb b--black-05">--light-purple:  #a463f2;</td></tr>
-                      <tr><td class="bb b--black-05 bg-dark-pink pa4 "></td><td class="bb b--black-05 ph4 f4 b dark-pink">Aa</td><td class="bb b--black-05">--dark-pink:  #d5008f;</td></tr>
-                      <tr><td class="bb b--black-05 bg-hot-pink pa4 "></td><td class="bb b--black-05 ph4 f4 b hot-pink">Aa</td><td class="bb b--black-05">--hot-pink: #ff41b4;</td></tr>
-                      <tr><td class="bb b--black-05 bg-pink pa4 "></td><td class="bb b--black-05 ph4 f4 b pink">Aa</td><td class="bb b--black-05">--pink:  #ff80cc;</td></tr>
-                      <tr><td class="bb b--black-05 bg-light-pink pa4 "></td><td class="bb b--black-05 ph4 f4 b light-pink">Aa</td><td class="bb b--black-05">--light-pink:  #ffa3d7;</td></tr>
-                      <tr><td class="bb b--black-05 bg-dark-green pa4 "></td><td class="bb b--black-05 ph4 f4 b dark-green">Aa</td><td class="bb b--black-05">--dark-green:  #137752;</td></tr>
-                      <tr><td class="bb b--black-05 bg-green pa4 "></td><td class="bb b--black-05 ph4 f4 b green">Aa</td><td class="bb b--black-05">--green:  #19a974;</td></tr>
-                      <tr><td class="bb b--black-05 bg-light-green pa4 "></td><td class="bb b--black-05 ph4 f4 b light-green">Aa</td><td class="bb b--black-05">--light-green:  #9eebcf;</td></tr>
-                      <tr><td class="bb b--black-05 bg-navy pa4 "></td><td class="bb b--black-05 ph4 f4 b navy">Aa</td><td class="bb b--black-05">--navy:  #001b44;</td></tr>
-                      <tr><td class="bb b--black-05 bg-dark-blue pa4 "></td><td class="bb b--black-05 ph4 f4 b dark-blue">Aa</td><td class="bb b--black-05">--dark-blue:  #00449e;</td></tr>
-                      <tr><td class="bb b--black-05 bg-blue pa4 "></td><td class="bb b--black-05 ph4 f4 b blue">Aa</td><td class="bb b--black-05">--blue:  #357edd;</td></tr>
-                      <tr><td class="bb b--black-05 bg-light-blue pa4 "></td><td class="bb b--black-05 ph4 f4 b light-blue">Aa</td><td class="bb b--black-05">--light-blue:  #96ccff;</td></tr>
-                      <tr><td class="bb b--black-05 bg-lightest-blue pa4 "></td><td class="bb b--black-05 ph4 f4 b lightest-blue">Aa</td><td class="bb b--black-05">--lightest-blue:  #cdecff;</td></tr>
-                      <tr><td class="bb b--black-05 bg-washed-blue pa4 "></td><td class="bb b--black-05 ph4 f4 b washed-blue">Aa</td><td class="bb b--black-05">--washed-blue:  #f6fffe;</td></tr>
-                      <tr><td class="bb b--black-05 bg-washed-green pa4 "></td><td class="bb b--black-05 ph4 f4 b washed-green">Aa</td><td class="bb b--black-05">--washed-green:  #e8fdf5;</td></tr>
-                      <tr><td class="bb b--black-05 bg-washed-yellow pa4 "></td><td class="bb b--black-05 ph4 f4 b washed-yellow">Aa</td><td class="bb b--black-05">--washed-yellow:  #fffceb;</td></tr>
-                      <tr><td class="bb b--black-05 bg-washed-red pa4 "></td><td class="bb b--black-05 ph4 f4 b washed-red">Aa</td><td class="bb b--black-05">--washed-red:  #ffdfdf;</td></tr>
-                    </tbody>
-                  </table>
-
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05 pa2 overflow-auto"><code class="db f6 ph3 lh-copy">
-
-.bg-dark-red { background-color: var(--dark-red); }
-.bg-red { background-color: var(--red); }
-.bg-orange { background-color: var(--orange); }
-.bg-gold { background-color: var(--gold); }
-.bg-yellow { background-color: var(--yellow); }
-.bg-purple { background-color: var(--purple); }
-.bg-light-purple { background-color: var(--light-purple); }
-.bg-hot-pink { background-color:  var(--hot-pink); }
-.bg-dark-pink { background-color: var(--dark-pink); }
-.bg-pink { background-color: var(--pink); }
-.bg-dark-green { background-color: var(--dark-green); }
-.bg-green { background-color: var(--green); }
-.bg-navy { background-color: var(--navy); }
-.bg-dark-blue { background-color: var(--dark-blue); }
-.bg-blue { background-color: var(--blue); }
-.bg-light-blue { background-color: var(--light-blue); }
-.bg-lightest-blue { background-color: var(--lightest-blue); }
-.bg-washed-blue { background-color: var(--washed-blue); }
-.bg-washed-green { background-color: var(--washed-green); }
-.bg-washed-yellow { background-color: var(--washed-yellow); }
-.bg-light-pink { background-color: var(--light-pink); }
-.bg-light-yellow { background-color: var(--light-yellow); }
-.bg-light-red { background-color: var(--light-red); }
-
-.dark-red { color: var(--dark-red); }
-.red { color: var(--red); }
-.orange { color: var(--orange); }
-.gold { color: var(--gold); }
-.yellow { color: var(--yellow); }
-.purple { color: var(--purple); }
-.light-purple { color: var(--light-purple); }
-.hot-pink { color:  var(--hot-pink); }
-.dark-pink { color: var(--dark-pink); }
-.pink { color: var(--pink); }
-.dark-green { color: var(--dark-green); }
-.green { color: var(--green); }
-.navy { color: var(--navy); }
-.dark-blue { color: var(--dark-blue); }
-.blue { color: var(--blue); }
-.light-blue { color: var(--light-blue); }
-.lightest-blue { color: var(--lightest-blue); }
-.washed-blue { color: var(--washed-blue); }
-.washed-green { color: var(--washed-green); }
-.washed-yellow { color: var(--washed-yellow); }
-.light-pink { color: var(--light-pink); }
-.light-yellow { color: var(--light-yellow); }
-.light-red { color: var(--light-red); }
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Borders</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc-ns v-mid">
-                  <div class="ba db mw5 pa3 bg-black-025 mb3 bg-near-white">ba = border on all sides</div>
-                  <div class="bt db mw5 pa3 bg-black-025 mb3 bg-near-white">bt = border top</div>
-                  <div class="br db mw5 pa3 bg-black-025 mb3 bg-near-white">br = border right</div>
-                  <div class="bb db mw5 pa3 bg-black-025 mb3 bg-near-white">bb = border bottom</div>
-                  <div class="bl db mw5 pa3 bg-black-025 mb3 bg-near-white">bl = border left</div>
-                  <div class="bn db mw5 pa3 bg-black-025 mb3 bg-near-white">bn = border none</div>
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-  .ba { border-style: solid; border-width: 1px; }
-  .bt { border-top-style: solid; border-top-width: 1px; }
-  .br { border-right-style: solid; border-right-width: 1px; }
-  .bb { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl { border-left-style: solid; border-left-width: 1px; }
-  .bn { border-style: none; border-width: 0; }
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Border Styles</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc-ns v-mid">
-                  <div class="ba b--dotted db mw5 pa3 mb3 ">dotted</div>
-                  <div class="ba b--dashed db mw5 pa3 mb3 ">dashed</div>
-                  <div class="ba b--solid db mw5 pa3 mb3 ">solid</div>
-                  <div class="ba b--none db mw5 pa3 mb3 ">none</div>
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-.b--dotted { border-style: dotted; }
-.b--dashed { border-style: dashed; }
-.b--solid {  border-style: solid; }
-.b--none {   border-style: none; }
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Border Widths</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc-ns v-mid">
-                  <div class="bt db mw5 mb4 bg-near-white">default</div>
-                  <div class="bt bw1 db mw5 mb4 bg-near-white">.125rem</div>
-                  <div class="bt bw2 db mw5 mb4 bg-near-white">.25rem</div>
-                  <div class="bt bw3 db mw5 mb4 bg-near-white">.5rem</div>
-                  <div class="bt bw4 db mw5 mb4 bg-near-white">1rem</div>
-                  <div class="bt bw5 db mw5 mb4 bg-near-white">2rem</div>
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-.bw0 { border-width: 0; }
-.bw1 { border-width: .125rem; }
-.bw2 { border-width: .25rem; }
-.bw3 { border-width: .5rem; }
-.bw4 { border-width: 1rem; }
-.bw5 { border-width: 2rem; }
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Border Colors</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc-ns v-mid pr4">
-
-                  <div class="bt black b--black db pt2 pb2 mb3">b--black</div>
-                  <div class="bt black-90 b--black-90 db pt2 pb2 mb3">b--black-90</div>
-                  <div class="bt black-80 b--black-80 db pt2 pb2 mb3">b--black-80</div>
-                  <div class="bt black-70 b--black-70 db pt2 pb2 mb3">b--black-70</div>
-                  <div class="bt black-60 b--black-60 db pt2 pb2 mb3">b--black-60</div>
-                  <div class="bt black-50 b--black-50 db pt2 pb2 mb3">b--black-50</div>
-                  <div class="bt black-40 b--black-40 db pt2 pb2 mb3">b--black-40</div>
-                  <div class="bt black-30 b--black-30 db pt2 pb2 mb3">b--black-30</div>
-                  <div class="bt black-20 b--black-20 db pt2 pb2 mb3">b--black-20</div>
-                  <div class="bt black-10 b--black-10 db pt2 pb2 mb3">b--black-10</div>
-                  <div class="bt black-05 b--black-05 db pt2 pb2 mb3">b--black-05</div>
-                  <div class="bt black-025 b--black-025 db pt2 pb2 mb3">b--black-025</div>
-                  <div class="bt black-0125 b--black-0125 db pt2 pb2 mb3">b--black-0125</div>
-                  <div class="bt near-black b--near-black db pt2 pb2 mb3">b--near-black</div>
-                  <div class="bt dark-gray b--dark-gray db pt2 pb2 mb3">b--dark-gray</div>
-                  <div class="bt mid-gray b--mid-gray db pt2 pb2 mb3">b--mid-gray</div>
-                  <div class="bt gray b--gray db pt2 pb2 mb3">b--gray</div>
-                  <div class="bg-black pa2 db">
-                    <div class="bt silver silver b--silver db pt2 pb2 mb3">b--silver</div>
-                    <div class="bt light-silver b--light-silver db pt2 pb2 mb3">b--light-silver</div>
-                    <div class="bt light-gray b--light-gray db pt2 pb2 mb3">b--light-gray</div>
-                    <div class="bt near-white b--near-white db pt2 pb2 mb3">b--near-white</div>
-                    <div class="bt white b--white db pt2 pb2 mb3">b--white</div>
-                    <div class="bt white-90 b--white-90 db pt2 pb2 mb3">b--white-90</div>
-                    <div class="bt white-80 b--white-80 db pt2 pb2 mb3">b--white-80</div>
-                    <div class="bt white-70 b--white-70 db pt2 pb2 mb3">b--white-70</div>
-                    <div class="bt white-60 b--white-60 db pt2 pb2 mb3">b--white-60</div>
-                    <div class="bt white-50 b--white-50 db pt2 pb2 mb3">b--white-50</div>
-                    <div class="bt white-40 b--white-40 db pt2 pb2 mb3">b--white-40</div>
-                    <div class="bt white-30 b--white-30 db pt2 pb2 mb3">b--white-30</div>
-                    <div class="bt white-20 b--white-20 db pt2 pb2 mb3">b--white-20</div>
-                    <div class="bt white-10 b--white-10 db pt2 pb2 mb3">b--white-10</div>
-                    <div class="bt white-05 b--white-05 db pt2 pb2 mb3">b--white-05</div>
-                    <div class="bt white-025 b--white-025 db pt2 pb2 mb3">b--white-025</div>
-                    <div class="bt white-0125 b--white-0125 db pt2 pb2 mb3">b--white-0125</div>
-                    <div class="bt dark-red b--dark-red db pt2 pb2 mb3">b--dark-red</div>
-                    <div class="bt red b--red db pt2 pb2 mb3">b--red</div>
-                    <div class="bt orange b--orange db pt2 pb2 mb3">b--orange</div>
-                    <div class="bt gold b--gold db pt2 pb2 mb3">b--gold</div>
-                    <div class="bt yellow b--yellow db pt2 pb2 mb3">b--yellow</div>
-                    <div class="bt purple b--purple db pt2 pb2 mb3">b--purple</div>
-                    <div class="bt light-purple b--light-purple db pt2 pb2 mb3">b--light-purple</div>
-                    <div class="bt hot-pink b--hot-pink db pt2 pb2 mb3">b--hot-pink</div>
-                    <div class="bt dark-pink b--dark-pink db pt2 pb2 mb3">b--dark-pink</div>
-                    <div class="bt pink b--pink db pt2 pb2 mb3">b--pink</div>
-                    <div class="bt dark-green b--dark-green db pt2 pb2 mb3">b--dark-green</div>
-                    <div class="bt green b--green db pt2 pb2 mb3">b--green</div>
-                    <div class="bt navy b--navy db pt2 pb2 mb3">b--navy</div>
-                    <div class="bt dark-blue b--dark-blue db pt2 pb2 mb3">b--dark-blue</div>
-                    <div class="bt blue b--blue db pt2 pb2 mb3">b--blue</div>
-                    <div class="bt light-blue b--light-blue db pt2 pb2 mb3">b--light-blue</div>
-                    <div class="bt lightest-blue b--lightest-blue db pt2 pb2 mb3">b--lightest-blue</div>
-                    <div class="bt washed-blue b--washed-blue db pt2 pb2 mb3">b--washed-blue</div>
-                    <div class="bt washed-green b--washed-green db pt2 pb2 mb3">b--washed-green</div>
-                    <div class="bt washed-yellow b--washed-yellow db pt2 pb2 mb3">b--washed-yellow</div>
-                    <div class="bt light-pink b--light-pink db pt2 pb2 mb3">b--light-pink</div>
-                    <div class="bt light-yellow b--light-yellow db pt2 pb2 mb3">b--light-yellow</div>
-                    <div class="bt light-red b--light-red db pt2 pb2 mb3">b--light-red</div>
-                    <div class="bt transparent b--transparent db pt2 pb2 mb3">b--transparent</div>
-                  </div>
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-.b--black {        border-color: var(--black); }
-.b--black-90 {   border-color: var(--black-90); }
-.b--black-80 {   border-color: var(--black-80); }
-.b--black-70 {   border-color: var(--black-70); }
-.b--black-60 {   border-color: var(--black-60); }
-.b--black-50 {   border-color: var(--black-50); }
-.b--black-40 {   border-color: var(--black-40); }
-.b--black-30 {   border-color: var(--black-30); }
-.b--black-20 {   border-color: var(--black-20); }
-.b--black-10 {   border-color: var(--black-10); }
-.b--black-05 {   border-color: var(--black-05); }
-.b--black-025 {   border-color: var(--black-025); }
-.b--black-0125 {   border-color: var(--black-0125); }
-.b--near-black {   border-color: var(--near-black); }
-.b--dark-gray {    border-color: var(--dark-gray); }
-.b--mid-gray {     border-color: var(--mid-gray); }
-.b--gray {         border-color: var(--gray); }
-.b--silver {       border-color: var(--silver); }
-.b--light-silver { border-color: var(--light-silver); }
-.b--light-gray {   border-color: var(--light-gray); }
-.b--near-white {   border-color: var(--near-white); }
-.b--white {        border-color: var(--white); }
-.b--white-90 {   border-color: var(--white-90); }
-.b--white-80 {   border-color: var(--white-80); }
-.b--white-70 {   border-color: var(--white-70); }
-.b--white-60 {   border-color: var(--white-60); }
-.b--white-50 {   border-color: var(--white-50); }
-.b--white-40 {   border-color: var(--white-40); }
-.b--white-30 {   border-color: var(--white-30); }
-.b--white-20 {   border-color: var(--white-20); }
-.b--white-10 {   border-color: var(--white-10); }
-.b--white-05 {   border-color: var(--white-05); }
-.b--white-025 {   border-color: var(--white-025); }
-.b--white-0125 {   border-color: var(--white-0125); }
-.b--dark-red { border-color:  var(--dark-red); }
-.b--red { border-color:  var(--red); }
-.b--orange { border-color:  var(--orange); }
-.b--gold { border-color:  var(--gold); }
-.b--yellow { border-color:  var(--yellow); }
-.b--purple { border-color:  var(--purple); }
-.b--light-purple { border-color:  var(--light-purple); }
-.b--hot-pink { border-color:  var(--hot-pink); }
-.b--dark-pink { border-color:  var(--dark-pink); }
-.b--pink { border-color:  var(--pink); }
-.b--dark-green { border-color:  var(--dark-green); }
-.b--green { border-color:  var(--green); }
-.b--navy { border-color:  var(--navy); }
-.b--dark-blue { border-color:  var(--dark-blue); }
-.b--blue { border-color:  var(--blue); }
-.b--light-blue { border-color:  var(--light-blue); }
-.b--lightest-blue { border-color:  var(--lightest-blue); }
-.b--washed-blue { border-color:  var(--washed-blue); }
-.b--washed-green { border-color:  var(--washed-green); }
-.b--washed-yellow { border-color:  var(--washed-yellow); }
-.b--light-pink { border-color:  var(--light-pink); }
-.b--light-yellow { border-color:  var(--light-yellow); }
-.b--light-red { border-color:  var(--light-red); }
-.b--transparent { border-color: var(--transparent); }
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Border Radii</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc-ns v-mid">
-                  <div class="ba dib ph4 pv3 mb4  br1">br1</div>
-                  <div class="ba dib ph4 pv3 mb4  br2">br2</div>
-                  <div class="ba dib ph4 pv3 mb4  br3">br3</div>
-                  <div class="ba dib ph4 pv3 mb4  br4">br4</div><br>
-                  <div class="dt dt--fixed">
-                    <div class="dtc v-mid"><div class="ba dib mb4 br-100 h3 w3 pa4 tc"></div></div>
-                    <div class="dtc v-mid"><div class="ba dib mb4 ph4 pv3  br-pill">pill</div></div>
-                  </div>
-
-                  <div class="ba br--bottom dib ph4 pv3 mb4 br3">br--bottom</div>
-                  <div class="ba br--top dib ph4 pv3 mb4 br3">br--top</div><br>
-                  <div class="ba br--left dib ph4 pv3 mb4 br3">br--left</div>
-                  <div class="ba br--right dib ph4 pv3 mb4 br3">br--right</div>
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-.br0 {        border-radius: 0; }
-.br1 {        border-radius: .125rem; }
-.br2 {        border-radius: .25rem; }
-.br3 {        border-radius: .5rem; }
-.br4 {        border-radius: 1rem; }
-.br-100 {     border-radius: 100%; }
-.br-pill {    border-radius: 9999px; }
-.br--bottom {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-.br--top {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.br--right {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-.br--left {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
-            <article class="mt5">
-              <h3 class="f6 ttu fw6 mt0 mb3 bb pb2">Hover Animations</h3>
-              <div class="dt-ns dt--fixed-ns">
-                <div class="dtc-ns v-mid pr4-ns">
-                  <div class="pa3 bg-black mb3 white grow pointer">Grow</div>
-                  <div class="pa3 bg-black mb3 white dim pointer">Dim</div>
-                </div>
-                <div class="dtc-ns v-mid">
-                  <pre class="ba b--black-05  pa2 overflow-auto"><code class="db f6 pa3 lh-copy">
-.grow {
-  -moz-osx-font-smoothing: grayscale;
-  backface-visibility: hidden;
-  transform: translateZ(0);
-  transition: transform 0.25s ease-out;
-}
-
-.grow:hover,
-.grow:focus {
-  transform: scale(1.05);
-}
-
-.dim {
-  opacity: 1;
-  transition: opacity .15s ease-in;
-}
-.dim:hover,
-.dim:focus {
-  opacity: .5;
-  transition: opacity .15s ease-in;
-}
-</code>
-                  </pre>
-                </div>
-              </div>
-            </article>
+        <article class='shadow gradient-1 violet-11 p4 br4 flex g5 items-center justify-between' style='--gradient-color-1: var(--blue-0); --gradient-color-2: var(--violet-4)'>
+          <div>
+            <h3 class='f6 fw9 my2'>This is a banner title</h3>
+            <p class='f3 lh-copy measure violet-9'>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+            </p>
           </div>
-        </div>
-      </section>
-      <section class="bg-white black-70 bt b--black-10">
-        <div class="ph3 ph5-ns pt6 mb6">
-          <div class="mw9 center">
-            <h3 class="f6 fw6 mt0 mb4 tc ttu tracked">Used by people at</h3>
-            <div class="flex items-center mw6 mw7-l center">
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/californiasunday.com?size=256"></div>
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/amazon.com?size=256"></div>
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/ibm.com?size=256"></div>
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/jaguar.com?size=256"></div>
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/microsoft.com?size=256"></div>
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/nerdwallet.com?size=256"></div>
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/egghead.io?size=256"></div>
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/heroku.com?size=256"></div>
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/who.int?size=256"></div>
-              <div class="pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/ipfs.io?size=256"></div>
-            </div>
-            <div class="flex items-center mw6 mw7-l center">
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/tesla.com?size=256"></div>
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/npr.org?size=256"></div>
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/airbnb.com?size=256"></div>
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/facebook.com?size=256"></div>
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/nest.com?size=256"></div>
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/twitter.com?size=256"></div>
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/salesforce.com?size=256"></div>
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/bluebottlecoffee.com?size=256"></div>
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/fender.com?size=256"></div>
-              <div class="dtc pa2 pa3-l"><img class="br2 db w-100" src="http://logo.clearbit.com/monicahq.com?size=256"></div>
-            </div>
+          <a href="#0" class='f2 link indigo-11 px4 py3 ba br3 nowrap'>Click here</a>
+        </article>
+<article style='--gradient-color-1: var(--blue-10); --gradient-color-2: var(--magenta-11)' class='shadow gradient-1 indigo-3 p4 br4 flex g5 items-center justify-between'>
+          <div>
+            <h3 class='f6 fw9 my2'>This is a banner title</h3>
+            <p class='f3 lh-copy measure indigo-4'>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+            </p>
           </div>
-        </div>
-      </section>
-      <section class="bg-green black-80 pv5 pv6-ns bb bt b--black-10" id="testimonials">
-        <div class="ph3 ph5-ns">
-          <div class="center mw9">
-            <h3 class="f5 fw6 ttu tracke">Testimonials</h3>
+          <a href="#0" class='f2 link indigo-3 px4 py3 ba br3 nowrap'>Click here</a>
+        </article>
+      </article>
+<article class='p3'>
+        <article style='--gradient-degree: 180deg; --gradient-color-1: var(--blue-0); --gradient-color-2: var(--violet-4);' class='shadow gradient-1 indigo-11 py6 br5 items-center justify-between'>
+          <h3 class='f7 fw9 my2 tc'>CSS Variables are the future</h3>
+          <p class='fw4 f5 lh-copy measure-narrow tc center'>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
+          </p>
+          <div class='tc mt4'>
+          <a href="#0" class='f3 fw7 link lh-copy bg-indigo-11 px3 py2 ba br3 nowrap'>Click here</a>
+          <a href="#0" class='f3 fw7 link lh-copy indigo-11 px3 py2 br3 nowrap'>Learn more &rarr;</a>
           </div>
-          <div class="cf w-100 center mw9">
-            <blockquote class="fl w-100 mh0 mb4 mb5-ns border-box pb5 bb b--black-50">
-              <p class="f4 f2-m mt0 db fl w-100 f-subheadline-l lh-copy lh-title-l measure mb4 fw6">
-                Here’s why I think designing systems with tools/frameworks like Tachyons
-                is a Good Idea™.
-              </p>
-              <p class="fl w-100 w-50-l mh0 mt0 pr0 pr3-l measure lh-copy f5 f4-l">
-                Design Systems break as they scale (either scaling org or
-                scaling product) because new components/variants of a component
-                are introduced.  Those variants sometimes (read: often) go
-                undocumented, leading to duplication when that
-                component/variant is needed (and created) again.  Even when the
-                component is documented, documenting effectively often means
-                dozens/hundreds of instances to capture all states/variants.
-                Systems like Tachyons et al. approach this problem by instead
-                documenting and limiting *properties* of components.  (I like
-                to think of this as “subatomic” design.)
-              </p>
-              <p class="fl w-100 w-50-l mh0 mt0 pl0 pl3-l measure lh-copy f5 f4-l">
-                You then create
-                components by composing subatomic components (properties).
-                Rather than creating a component and its variants, you simply
-                have a comprehensive list of “ingredient” subatomic components.
-                Those subatomic components can be combined in thousands of ways
-                to create hundreds of components.  The properties of those
-                components are numerous, but constrained to a set of acceptable
-                values (our subatomic components).”
-              </p>
-              <cite class="fl w-100 mt2 f5 f4-m f3-l fs-normal">
-                <span class="fw6">Daniel Eden</span>
-                <span class="db f5">Designer at Facebook</span>
-              </cite>
-            </blockquote>
-            <blockquote class="fl w-100 ph0 border-box mh0 mb4 mb5-ns pb5 bb b--black-50">
-              <p class="f3 f1-ns measure fw7 lh-title mt0">
-                One of the comments I hear most frequently about Zarf’s design is ‘I love the minimalism!’ Zarf’s minimalist experience is completely powered by Tachyons. With Tachyons, I was able to build a product with a cohesive design story with minimal hassle and debugging. Tachyons truly made developing the design for Zarf fun.
-              </p>
-              <cite class="mtw f5 f4-m f3-l fs-normal">
-                <span class="fw6">Safia Abdalla</span>
-                <span class="db f5"><a class="link black-70 dim" href="http://tanmulabs.com" title="Tanmu Labs">Tanmu Labs</a></span>
-              </cite>
-            </blockquote>
-            <blockquote class="fl w-100 ph0 border-box mh0 mb4 mb5-ns pb5 bb b--black-50">
-              <p class="f3 f1-ns measure fw7 lh-title mt0">
-                As a front-end developer turned full-stack developer, I
-                appreciate maintainable and scalable front-end code, while
-                having very little time to implement it myself. Tachyons lets
-                me achieve custom results designers are happy with without me
-                having to spend too much time writing custom CSS
-              </p>
-              <cite class="mtw f5 f4-m f3-l fs-normal">
-                <span class="fw6">Tessa Thornton</span>
-                <span class="db f5">CTO of <a class="link black-70 dim" href="https://dothealth.ca" title="Dot Health">Dot Health</a></span>
-              </cite>
-            </blockquote>
-            <blockquote class="fl w-100 ph0 border-box mh0 mb4 mb5-ns pb5 bb b--black-50">
-              <p class="f3 f1-ns measure fw7 lh-title mt0">
-                Tachyons has seriously blown my mind. Making landing pages responsive is now… somehow… actually fun?!
-              </p>
-              <cite class="mtw f5 f4-m f3-l fs-normal">
-                <span class="fw6">Ian Storm Taylor</span>
-                <span class="db f5">Co-founder of <a class="link black-70 dim" href="https://segment.com" title="Segment.com">Segment.com</a></span>
-              </cite>
-            </blockquote>
-            <blockquote class="fl w-100 ph0 border-box mh0 mb4 mb5-ns pb5 bb b--black-50">
-              <p class="f3 f1-ns measure fw7 lh-title mt0">
-                I used Tachyons for the first time on <a class="link dim black-80 underline" href="http://goldenstaterecord.com">goldenstaterecord.com</a>.
-                Really fast to make big changes to the design in-flight. 👍
-              </p>
-              <cite class="mtw f5 f4-m f3-l fs-normal">
-                <span class="fw6">Wilson Miner</span>
-                <span class="db f5">Digital Design - The California Sunday Magazine</span>
-              </cite>
-            </blockquote>
-            <blockquote class="fl w-100 ph0 border-box mh0 pb5">
-              <p class="f3 f1-ns measure fw7 lh-title mt0">
-                Tachyons is powerful, obvious, and well documented. It’s made me rethink my approach to building organized and componentized CSS. I highly recommend you try it.
-              </p>
-              <cite class="mtw f5 f4-m f3-l fs-normal">
-                <span class="fw6">Dustin Senos</span>
-                <span class="db f5">Designer</span>
-              </cite>
-            </blockquote>
+        </article>
+      </article>
+      <article class='p3'>
+        <article class='grid cols-2'>
+          <div style='background: url(https://mrmrs.github.io/photos/u/035.jpg);' class='br4 aspect-ratio-16x9'>
+            
           </div>
-        </div>
-
-      </section>
+          <div class='bg-white pl5 flex flex-column justify-center'>
+          <h3 class='f7 fw9 mt0 mb3'>A large section panel title</h3>
+          <p class='measure lh-copy'>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+          <div class='mt4'>
+            <a href="#0" class='f3 fw7 link lh-copy indigo-0 px3 py2 ba br3 nowrap'>Click here</a>
+            <a href="#0" class='f3 fw7 link lh-copy indigo-0 px3 py2 br3 nowrap'>Learn more &rarr;</a>
+          </div>
+          </div>
+        </article>
+      </article>
     </main>
-    <footer class="bg-white black-70 ph3 ph5-ns pv5 pv6-ns bt b--black-10">
-      <div class="mw9 center">
-        <div class="mb5 lh-copy">
-          <a class="black-70 link hover-blue b dib mr3 mb3" href="/" title="Home">
-            Home
-          </a>
-          <a class="black-70 link hover-blue b dib mr3 mb3" href="/docs" title="Docs">
-            Docs
-          </a>
-          <a class="black-70 link hover-blue b dib mr3 mb3" href="/components/" title="Components">
-            Components
-          </a>
-          <a class="black-70 link hover-blue b dib mr3 mb3" href="/gallery/" title="Gallery of Sites built with Tachyons">
-            Gallery
-          </a>
-          <a class="black-70 link hover-blue b dib mr3 mb3" href="/resources/" title="Resources related to Tachyons">
-            Resources
-          </a>
-          <a class="black-70 link hover-blue b dib mr3 mb3" href="/xray/" title="The X-Ray chrome extension for aligning things to a grid.">
-            X-Ray
-          </a>
-          <a class="black-70 link hover-blue b dib mr3 mb3" href="http://opencollective.com/tachyons" title="Support Tachyons Development">
-            Supporting Tachyons
-          </a>
-        </div>
-        <article class="v-top">
-          <iframe src="https://ghbtns.com/github-btn.html?user=tachyons-css&amp;repo=tachyons&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
-          <iframe src="https://ghbtns.com/github-btn.html?user=tachyons-css&amp;repo=tachyons&amp;type=fork&amp;count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
-          <a href="https://twitter.com/intent/tweet?text=Tachyons: A functional css toolkit for designing in the browser.&amp;url=http://tachyons.io" class="twitter bg-white-50 link dib dim br2 ph2 pb1 lh-solid v-top" style="background-color: #55acee;">
-            <svg class="geomicon dib v-mid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="#fff">
-              <path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"></path>
-            </svg>
-            <span class="dib v-mid white fw6" style="font-size: 12px;">Tweet</span>
-          </a>
-        </article>
-        <div class="mt4">
-          <a class="ba black-70 no-underline grow br2 b inline-flex items-center mr3 mb3 pv2 ph3" href="https://twitter.com/tachyons_css" title="Follow us on Twitter">
-            <div class="w2 pv1 pr2">
-              <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill-rule="nonzero"></path></svg>
-            </div>
-            <span>Follow @tachyons_css</span>
-          </a>
-          <a class="ba black-70 no-underline grow br2 b inline-flex items-center mr3 mb3 pv2 ph3" href="http://tachyons-slack-invite.herokuapp.com" title="Join our Slack Channel">
-            <div class="dib w2 pv1 pr2">
-              <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><g fill-rule="nonzero"><path d="M6.586 7.33l.69 2.057 2.137-.716-.69-2.056-2.137.716z"></path><path d="M12.55 9.37l-1.037.347.36 1.073c.145.434-.09.904-.524 1.05-.096.03-.19.045-.287.042-.338-.01-.65-.226-.765-.566l-.36-1.072-2.138.716.36 1.072c.145.435-.09.905-.523 1.05-.096.032-.192.045-.286.043-.34-.01-.65-.226-.764-.566l-.36-1.075-1.037.348c-.096.03-.19.045-.286.042-.34-.008-.65-.226-.765-.565-.146-.434.09-.904.522-1.05L5.7 9.914l-.69-2.058-1.037.347c-.094.032-.19.045-.285.043-.338-.01-.65-.226-.765-.566-.145-.434.09-.904.523-1.05l1.037-.347-.36-1.073c-.145-.434.09-.904.524-1.05.435-.145.905.09 1.05.524l.36 1.072 2.137-.716-.36-1.072c-.144-.435.09-.905.524-1.05.435-.145.906.09 1.05.523l.36 1.075 1.037-.347c.434-.146.904.088 1.05.522.145.434-.09.904-.523 1.05l-1.037.347.69 2.057 1.036-.347c.435-.145.905.09 1.05.523.146.434-.09.904-.522 1.05zm2.78-3.57C13.68.304 11.298-.98 5.8.67.304 2.32-.98 4.7.67 10.2c1.65 5.497 4.03 6.78 9.53 5.13 5.497-1.65 6.78-4.03 5.13-9.53z"></path></g></svg>
-            </div>
-            <span>
-              Need Help? Join our Slack Channel
-            </span>
-          </a>
-          <a class="ba br2 black-70 no-underline grow b inline-flex items-center mb3 pv2 ph3" href="https://github.com/tachyons-css/tachyons/issues" title="File a bug, request a feature, ask a question!">
-            <div class="w2 pv1 pr2">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"></path></svg>
-            </div>
-            <span>Open an Issue on GitHub</span>
-          </a>
-        </div>
-        <p class="f6 measure copy lh-copy">
-          Have a question? Need help? Feel free to open an issue on GitHub or ask a
-          question in our slack channel. We’re here to try and help make designing in
-          the browser fun.
-        </p>
-        <div class="pt4 cf mw5">
-          <script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=tachyonsio" id="_carbonads_js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="https://srv.carbonads.net/ads/click/x/GTND42JNCTBI62QUC67LYKQNCYYDE27UCA7D4Z3JCYSDTK3LC6ADE27KCWBI62JMCWSDC237CKYICK7LCVSD4K3KC6SDKK3MCE7I6K3EHJNCLSIZ?segment=placement:tachyonsio;" class="carbon-img" target="_blank" rel="noopener sponsored"><img src="https://cdn4.buysellads.net/uu/1/112766/1647890552-logicmonitor1_march2022.png" alt="ads via Carbon" border="0" height="100" width="130" style="max-width: 130px;"></a><a href="https://srv.carbonads.net/ads/click/x/GTND42JNCTBI62QUC67LYKQNCYYDE27UCA7D4Z3JCYSDTK3LC6ADE27KCWBI62JMCWSDC237CKYICK7LCVSD4K3KC6SDKK3MCE7I6K3EHJNCLSIZ?segment=placement:tachyonsio;" class="carbon-text" target="_blank" rel="noopener sponsored">Intelligent insights you can actually use. Smarter troubleshooting, more possibilities for your applications.</a></span><a href="http://carbonads.net/?utm_source=tachyonsio&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank" rel="noopener sponsored">ads via Carbon</a></span></div>
-        </div>
-        <small class="f6 measure db lh-copy mt5">
-          A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle
-          that always moves faster than light.
-          The word comes from the Greek:
-          <br> <br>
-          ταχύς or tachys, meaning “swift, quick, fast, rapid”
-        </small>
+    <section>
+      <article class='flex items-center g3 p3'>
+        <img src='https://dc28c2r6oodom.cloudfront.net/avatars/11.jpg' class='br10 db aspect--1x1 w4' />
+        <img src='https://dc28c2r6oodom.cloudfront.net/avatars/11.jpg' class='br10 db aspect--1x1 w3' />
+        <img src='https://dc28c2r6oodom.cloudfront.net/avatars/11.jpg' class='br10 db aspect--1x1 w2' />
+      </article>
+      <article class='grid g3 p3'>
+        <label>
+          <span class='db'>Label</span>
+          <input type='text' />
+        </label>
+        <label>
+          <span class='db'>Password</span>
+          <input type='password' />
+        </label>
+      </article>
+    </section>
+    <section class='grid  cols-6 g4 m4' style='display: none;'>
+      <h4 class='m0 col-6'>Box Shadows</h4>
+      <div class='br4 p6 shadow-6'></div>
+      <div class='br4 p6 shadow-2'></div>
+      <div class='br4 p6 shadow-3'></div>
+      <div class='br4 p6 shadow-4'></div>
+      <div class='br4 p6 shadow-5'></div>
+      <div class='br4 p6 shadow-6'></div>
+      <div class='br4 p6 shadow-7'></div>
+      <div class='br4 p6 shadow-8'></div>
+      <div class='br4 p6 shadow-9'></div>
+      <div class='br4 p6 shadow-60'></div>
+      <div class='br4 p6 shadow-61'></div>
+      <div class='br4 p6 shadow-62'></div>
+    </section>
+    <section class='grid cols-6 g4 m4' style='display: none;'>
+      <h4 class='m0 col-6'>Gradients</h4>
+      <div class='br4 p6 gradient-1'></div>
+      <div class='br4 p6 gradient-2'></div>
+      <div style='--gradient-degree: 0' class='br4 p6 gradient-3'></div>
+      <div class='br4 p6 gradient-4'></div>
+      <div class='br4 p6 gradient-5'></div>
+      <div class='br4 p6 gradient-6'></div>
+      <div class='br4 p6 gradient-7'></div>
+      <div class='br4 p6 gradient-8'></div>
+      <div class='br4 p6 gradient-9'></div>
+      <div class='br4 p6 gradient-10'></div>
+      <div class='br4 p6 gradient-11'></div>
+      <div class='br4 p6 gradient-12'></div>
+      <div class='br4 p6 gradient-13'></div>
+      <div class='br4 p6 gradient-14'></div>
+      <div class='br4 p6 gradient-15'></div>
+      <div class='br4 p6 gradient-16'></div>
+    </section>
+    <section class='flex flex-wrap g3 px3 py4'>
+      <article class='flex g1'>
+        <div class='bg-green-0  h1 w1 p2 br10'></div>
+        <div class='bg-green-1  h1 w1 p2 br10'></div>
+        <div class='bg-green-2  h1 w1 p2 br10'></div>
+        <div class='bg-green-3  h1 w1 p2 br10'></div>
+        <div class='bg-green-4  h1 w1 p2 br10'></div>
+        <div class='bg-green-5  h1 w1 p2 br10'></div>
+        <div class='bg-green-6  h1 w1 p2 br10'></div>
+        <div class='bg-green-7  h1 w1 p2 br10'></div>
+        <div class='bg-green-8  h1 w1 p2 br10'></div>
+        <div class='bg-green-9  h1 w1 p2 br10'></div>
+        <div class='bg-green-10 h1 w1 p2 br10'></div>
+        <div class='bg-green-11 h1 w1 p2 br10'></div>
+      </article><article class='flex g1'>
+        <div class='bg-teal-0  h1 w1 p2 br10'></div>
+        <div class='bg-teal-1  h1 w1 p2 br10'></div>
+        <div class='bg-teal-2  h1 w1 p2 br10'></div>
+        <div class='bg-teal-3  h1 w1 p2 br10'></div>
+        <div class='bg-teal-4  h1 w1 p2 br10'></div>
+        <div class='bg-teal-5  h1 w1 p2 br10'></div>
+        <div class='bg-teal-6  h1 w1 p2 br10'></div>
+        <div class='bg-teal-7  h1 w1 p2 br10'></div>
+        <div class='bg-teal-8  h1 w1 p2 br10'></div>
+        <div class='bg-teal-9  h1 w1 p2 br10'></div>
+        <div class='bg-teal-10 h1 w1 p2 br10'></div>
+        <div class='bg-teal-11 h1 w1 p2 br10'></div>
+      </article>
+      <article class='flex g1'>
+        <div class='bg-cyan-0  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-1  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-2  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-3  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-4  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-5  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-6  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-7  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-8  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-9  h1 w1 p2 br10'></div>
+        <div class='bg-cyan-10 h1 w1 p2 br10'></div>
+        <div class='bg-cyan-11 h1 w1 p2 br10'></div>
+      </article>
 
-      </div>
-    </footer>
-
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-55773803-1', 'auto');
-ga('send', 'pageview');
-
-    </script>
-
-
+      <article class='flex g1'>
+        <div class='bg-blue-0  h1 w1 p2 br10'></div>
+        <div class='bg-blue-1  h1 w1 p2 br10'></div>
+        <div class='bg-blue-2  h1 w1 p2 br10'></div>
+        <div class='bg-blue-3  h1 w1 p2 br10'></div>
+        <div class='bg-blue-4  h1 w1 p2 br10'></div>
+        <div class='bg-blue-5  h1 w1 p2 br10'></div>
+        <div class='bg-blue-6  h1 w1 p2 br10'></div>
+        <div class='bg-blue-7  h1 w1 p2 br10'></div>
+        <div class='bg-blue-8  h1 w1 p2 br10'></div>
+        <div class='bg-blue-9  h1 w1 p2 br10'></div>
+        <div class='bg-blue-10 h1 w1 p2 br10'></div>
+        <div class='bg-blue-11 h1 w1 p2 br10'></div>
+      </article>
+      <article class='flex g1'>
+        <div class='bg-indigo-0  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-1  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-2  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-3  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-4  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-5  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-6  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-7  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-8  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-9  h1 w1 p2 br10'></div>
+        <div class='bg-indigo-10 h1 w1 p2 br10'></div>
+        <div class='bg-indigo-11 h1 w1 p2 br10'></div>
+      </article>
+<article class='flex g1'>
+        <div class='bg-violet-0  h1 w1 p2 br10'></div>
+        <div class='bg-violet-1  h1 w1 p2 br10'></div>
+        <div class='bg-violet-2  h1 w1 p2 br10'></div>
+        <div class='bg-violet-3  h1 w1 p2 br10'></div>
+        <div class='bg-violet-4  h1 w1 p2 br10'></div>
+        <div class='bg-violet-5  h1 w1 p2 br10'></div>
+        <div class='bg-violet-6  h1 w1 p2 br10'></div>
+        <div class='bg-violet-7  h1 w1 p2 br10'></div>
+        <div class='bg-violet-8  h1 w1 p2 br10'></div>
+        <div class='bg-violet-9  h1 w1 p2 br10'></div>
+        <div class='bg-violet-10 h1 w1 p2 br10'></div>
+        <div class='bg-violet-11 h1 w1 p2 br10'></div>
+      </article><article class='flex g1'>
+        <div class='bg-magenta-0  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-1  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-2  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-3  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-4  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-5  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-6  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-7  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-8  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-9  h1 w1 p2 br10'></div>
+        <div class='bg-magenta-10 h1 w1 p2 br10'></div>
+        <div class='bg-magenta-11 h1 w1 p2 br10'></div>
+      </article><article class='flex g1'>
+        <div class='bg-red-0  h1 w1 p2 br10'></div>
+        <div class='bg-red-1  h1 w1 p2 br10'></div>
+        <div class='bg-red-2  h1 w1 p2 br10'></div>
+        <div class='bg-red-3  h1 w1 p2 br10'></div>
+        <div class='bg-red-4  h1 w1 p2 br10'></div>
+        <div class='bg-red-5  h1 w1 p2 br10'></div>
+        <div class='bg-red-6  h1 w1 p2 br10'></div>
+        <div class='bg-red-7  h1 w1 p2 br10'></div>
+        <div class='bg-red-8  h1 w1 p2 br10'></div>
+        <div class='bg-red-9  h1 w1 p2 br10'></div>
+        <div class='bg-red-10 h1 w1 p2 br10'></div>
+        <div class='bg-red-11 h1 w1 p2 br10'></div>
+      </article><article class='flex g1'>
+        <div class='bg-red-orange-0  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-1  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-2  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-3  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-4  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-5  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-6  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-7  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-8  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-9  h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-10 h1 w1 p2 br10'></div>
+        <div class='bg-red-orange-11 h1 w1 p2 br10'></div>
+      </article><article class='flex g1'>
+        <div class='bg-orange-0  h1 w1 p2 br10'></div>
+        <div class='bg-orange-1  h1 w1 p2 br10'></div>
+        <div class='bg-orange-2  h1 w1 p2 br10'></div>
+        <div class='bg-orange-3  h1 w1 p2 br10'></div>
+        <div class='bg-orange-4  h1 w1 p2 br10'></div>
+        <div class='bg-orange-5  h1 w1 p2 br10'></div>
+        <div class='bg-orange-6  h1 w1 p2 br10'></div>
+        <div class='bg-orange-7  h1 w1 p2 br10'></div>
+        <div class='bg-orange-8  h1 w1 p2 br10'></div>
+        <div class='bg-orange-9  h1 w1 p2 br10'></div>
+        <div class='bg-orange-10 h1 w1 p2 br10'></div>
+        <div class='bg-orange-11 h1 w1 p2 br10'></div>
+      </article><article class='flex g1'>
+        <div class='bg-gold-0  h1 w1 p2 br10'></div>
+        <div class='bg-gold-1  h1 w1 p2 br10'></div>
+        <div class='bg-gold-2  h1 w1 p2 br10'></div>
+        <div class='bg-gold-3  h1 w1 p2 br10'></div>
+        <div class='bg-gold-4  h1 w1 p2 br10'></div>
+        <div class='bg-gold-5  h1 w1 p2 br10'></div>
+        <div class='bg-gold-6  h1 w1 p2 br10'></div>
+        <div class='bg-gold-7  h1 w1 p2 br10'></div>
+        <div class='bg-gold-8  h1 w1 p2 br10'></div>
+        <div class='bg-gold-9  h1 w1 p2 br10'></div>
+        <div class='bg-gold-10 h1 w1 p2 br10'></div>
+        <div class='bg-gold-11 h1 w1 p2 br10'></div>
+      </article><article class='flex g1'>
+        <div class='bg-yellow-0  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-1  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-2  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-3  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-4  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-5  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-6  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-7  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-8  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-9  h1 w1 p2 br10'></div>
+        <div class='bg-yellow-10 h1 w1 p2 br10'></div>
+        <div class='bg-yellow-11 h1 w1 p2 br10'></div>
+      </article>
+      <article class='flex g1'>
+        <div class='bg-slate-gray-0  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-1  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-2  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-3  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-4  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-5  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-6  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-7  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-8  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-9  h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-10 h1 w1 p2 br10'></div>
+        <div class='bg-slate-gray-11 h1 w1 p2 br10'></div>
+      </article>
+      <article class='flex g1'>
+        <div class='bg-gray-0  h1 w1 p2 br10'></div>
+        <div class='bg-gray-1  h1 w1 p2 br10'></div>
+        <div class='bg-gray-2  h1 w1 p2 br10'></div>
+        <div class='bg-gray-3  h1 w1 p2 br10'></div>
+        <div class='bg-gray-4  h1 w1 p2 br10'></div>
+        <div class='bg-gray-5  h1 w1 p2 br10'></div>
+        <div class='bg-gray-6  h1 w1 p2 br10'></div>
+        <div class='bg-gray-7  h1 w1 p2 br10'></div>
+        <div class='bg-gray-8  h1 w1 p2 br10'></div>
+        <div class='bg-gray-9  h1 w1 p2 br10'></div>
+        <div class='bg-gray-10 h1 w1 p2 br10'></div>
+        <div class='bg-gray-11 h1 w1 p2 br10'></div>
+      </article>
+      <article class='flex g1'>
+        <div class='bg-overlay-tint-0  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-1  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-2  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-3  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-4  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-5  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-6  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-7  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-8  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-9  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-10 h1 w1 p2 br10'></div>
+        <div class='bg-overlay-tint-11 h1 w1 p2 br10'></div>
+      </article>
+      <article class='flex g1'>
+        <div class='bg-overlay-shadow-0  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-6  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-2  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-3  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-4  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-5  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-6  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-7  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-8  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-9  h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-60 h1 w1 p2 br10'></div>
+        <div class='bg-overlay-shadow-61 h1 w1 p2 br10'></div>
+      </article>
+    </section>
+    <section class='p3 dif items-baseline g4'>
+      <p class='dib lh-solid m0 f11 fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f10 fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f9  fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f8  fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f7  fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f6  fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f5  fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f4  fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f3  fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f2  fw9'>Aa</p>  
+      <p class='dib lh-solid m0 f1  fw9'>Aa</p>  
+    </section>
   </body>
 </html>

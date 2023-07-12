@@ -509,7 +509,7 @@ img { display: block; max-width: 100%; }
 
  */
 .shadow { box-shadow: var( --shadow, inset 0 0 1px 0 rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .5 ) ) ); }
-.shadow-hover:hover, .shadow-hover:focus { --shadow-opacity: .15; }
+.shadow-hover:hover, .shadow-hover:focus { --shadow-opacity: .6; }
 /* 
  * TODO: potential pattern 
   .shadow-hover:hover {
