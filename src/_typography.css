@@ -4,12 +4,11 @@
    http://tachyons.io/docs/typography/measure/
 
    Media Query Extensions:
-     -ns = small
+     -s = small
      -m  = medium
      -l  = large
 
 */
-
 
 
 /* Measure is limited to 66 characters */
@@ -74,7 +73,7 @@
     margin-bottom: 0;
   }
   .truncate-m {
-    white-mpace: nowrap;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
