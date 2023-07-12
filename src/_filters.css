@@ -5,8 +5,11 @@
 
     - Blur
     - Grayscale
+    - Hue Rotate
 
 */
+
+.filter-none { filter: none; }
 
 .filter-blur-none { filter: blur(0); }
 .filter-blur { filter: blur(96px); }
@@ -14,3 +17,12 @@
 .grayscale-0 { filter: grayscale(0); }
 .grayscale-50 { filter: grayscale(50%); }
 .grayscale-100 { filter: grayscale(100%); }
+
+.hue-rotate0 { filter: hue-rotate(0deg);}
+.hue-rotate1 { filter: hue-rotate(45deg);}
+.hue-rotate2 { filter: hue-rotate(90deg);}
+.hue-rotate3 { filter: hue-rotate(135deg);}
+.hue-rotate4 { filter: hue-rotate(180deg);}
+.hue-rotate5 { filter: hue-rotate(225deg);}
+.hue-rotate6 { filter: hue-rotate(270deg);}
+.hue-rotate7 { filter: hue-rotate(315deg);}

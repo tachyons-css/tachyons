@@ -770,11 +770,20 @@ img { display: block; max-width: 100%; }
     - Grayscale
 
 */
+.filter-none { -webkit-filter: none; filter: none; }
 .filter-blur-none { -webkit-filter: blur( 0 ); filter: blur( 0 ); }
 .filter-blur { -webkit-filter: blur( 96px ); filter: blur( 96px ); }
 .grayscale-0 { -webkit-filter: grayscale( 0 ); filter: grayscale( 0 ); }
 .grayscale-50 { -webkit-filter: grayscale( 50% ); filter: grayscale( 50% ); }
 .grayscale-100 { -webkit-filter: grayscale( 100% ); filter: grayscale( 100% ); }
+.hue-rotate0 { -webkit-filter: hue-rotate( 0deg ); filter: hue-rotate( 0deg ); }
+.hue-rotate1 { -webkit-filter: hue-rotate( 45deg ); filter: hue-rotate( 45deg ); }
+.hue-rotate2 { -webkit-filter: hue-rotate( 90deg ); filter: hue-rotate( 90deg ); }
+.hue-rotate3 { -webkit-filter: hue-rotate( 135deg ); filter: hue-rotate( 135deg ); }
+.hue-rotate4 { -webkit-filter: hue-rotate( 180deg ); filter: hue-rotate( 180deg ); }
+.hue-rotate5 { -webkit-filter: hue-rotate( 225deg ); filter: hue-rotate( 225deg ); }
+.hue-rotate6 { -webkit-filter: hue-rotate( 270deg ); filter: hue-rotate( 270deg ); }
+.hue-rotate7 { -webkit-filter: hue-rotate( 315deg ); filter: hue-rotate( 315deg ); }
 /*
 
   FLEXBOX

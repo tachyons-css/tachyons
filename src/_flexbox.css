@@ -19,7 +19,6 @@
 
 .flex-none { flex: none; }
 
-
 .flex-grow-0 { flex-grow: 0; }
 .flex-grow-1 { flex-grow: 1; }
 
@@ -36,9 +35,6 @@
   }
   .flex-none-s { flex: none; }
 
-
-
-
   .flex-grow-0-s { flex-grow: 0; }
   .flex-grow-1-s { flex-grow: 1; }
 
@@ -54,7 +50,6 @@
     min-height: 0; /* 1 */
   }
   .flex-none-m { flex: none; }
-
 
   .flex-grow-0-m { flex-grow: 0; }
   .flex-grow-1-m { flex-grow: 1; }
