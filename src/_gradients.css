@@ -1,0 +1,57 @@
+/*
+
+  GRADIENTS
+
+
+*/
+
+.gradient-1 { 
+  background: linear-gradient(
+                var(--gradient-degree), 
+                var(--gradient-color-1), 
+                var(--gradient-color-2)
+              ); 
+}
+
+.gradient-2 { 
+  background: linear-gradient(
+                var(--gradient-degree), 
+                var(--gradient-color-1) var(--gradient-stop), 
+                var(--gradient-color-2) var(--gradient-stop)
+              ); 
+}
+
+.gradient-3 { 
+  background: repeating-linear-gradient(
+                var(--gradient-degree),
+                transparent 0px,
+                transparent var(--gradient-stripe-width),
+                var(--gradient-color-1) var(--gradient-stripe-width),
+                var(--gradient-color-1) calc(var(--gradient-stripe-width) + var(--gradient-stripe-width-2))
+              ); 
+}
+
+.gradient-4 { 
+  background: repeating-radial-gradient(
+                circle,
+                transparent 0px,
+                transparent var(--gradient-stripe-width),
+                var(--gradient-color-1) var(--gradient-stripe-width),
+                var(--gradient-color-1) calc(var(--gradient-stripe-width) + var(--gradient-stripe-width-2))
+              ); 
+}
+
+
+
+@media (--breakpoint-small) {
+
+}
+
+@media (--breakpoint-medium) {
+
+}
+
+@media (--breakpoint-large) {
+
+}
+
