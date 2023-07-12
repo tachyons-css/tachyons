@@ -5,16 +5,16 @@
 
 */
 
-.o-100 { opacity: 1;    }
-.o-90  { opacity: .9;   }
-.o-80  { opacity: .8;   }
-.o-70  { opacity: .7;   }
-.o-60  { opacity: .6;   }
-.o-50  { opacity: .5;   }
-.o-40  { opacity: .4;   }
-.o-30  { opacity: .3;   }
-.o-20  { opacity: .2;   }
-.o-10  { opacity: .1;   }
-.o-05  { opacity: .05;  }
-.o-025 { opacity: .025; }
-.o-0   { opacity: 0; }
+.o-100 { opacity: var(--opacity-12, 1); }
+.o-90  { opacity: var(--opacity-11,.9); }
+.o-80  { opacity: var(--opacity-10,.8); }
+.o-70  { opacity: var(--opacity-9,.7);  }
+.o-60  { opacity: var(--opacity-8,.6);  }
+.o-50  { opacity: var(--opacity-7,.5);  }
+.o-40  { opacity: var(--opacity-6,.4);  }
+.o-30  { opacity: var(--opacity-5,.3);  }
+.o-20  { opacity: var(--opacity-4,.2);  }
+.o-10  { opacity: var(--opacity-3,.1);  }
+.o-05  { opacity: var(--opacity-2,.05); }
+.o-025 { opacity: var(--opacity-1,.025);}
+.o-0   { opacity: var(--opacity-0,0);   }
