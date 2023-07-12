@@ -19,7 +19,7 @@
 
 .shadow-hover:hover,
 .shadow-hover:focus { 
-  --shadow-opacity: .15;
+  --shadow-opacity: .6;
 }
 
 /* 
