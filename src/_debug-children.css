@@ -8,7 +8,7 @@
 
 */
 
-.debug * { outline: 1px solid gold; }
+.debug * { outline: 1px solid rbg(128 0 90 / .8); }
 .debug-white * { outline: 1px solid white; }
 .debug-black * { outline: 1px solid black; }
 
