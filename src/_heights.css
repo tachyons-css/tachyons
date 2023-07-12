@@ -1,4 +1,4 @@
-/*
+/* TODO: Variables review
 
    HEIGHTS
    Docs: http://tachyons.io/docs/layout/heights/
@@ -32,11 +32,15 @@
 
 /* Height Scale */
 
-.h1 { height: 1rem; }
-.h2 { height: 2rem; }
-.h3 { height: 4rem; }
-.h4 { height: 8rem; }
-.h5 { height: 16rem; }
+.h0 {    height: var(--size-0, 0); }
+.h1 {    height: var(--size-1, 1rem); }
+.h2 {    height: var(--size-2, 2rem); }
+.h3 {    height: var(--size-3, 3rem); }
+.h4 {    height: var(--size-4, 4rem); }
+.h5 {    height: var(--size-5, 8rem); }
+.h6 {    height: var(--size-6, 16rem); }
+.h7 {    height: var(--size-7, 32rem); }
+.h8 {    height: var(--size-8, 64rem); }
 
 /* Height Percentages - Based off of height of parent */
 
@@ -62,11 +66,15 @@
 .h-inherit {  height: inherit; }
 
 @media (--breakpoint-small) {
-  .h1-s {  height: 1rem; }
-  .h2-s {  height: 2rem; }
-  .h3-s {  height: 4rem; }
-  .h4-s {  height: 8rem; }
-  .h5-s {  height: 16rem; }
+  .h0-s {    height: var(--size-0, 0); }
+  .h1-s {    height: var(--size-1, 1rem); }
+  .h2-s {    height: var(--size-2, 2rem); }
+  .h3-s {    height: var(--size-3, 3rem); }
+  .h4-s {    height: var(--size-4, 4rem); }
+  .h5-s {    height: var(--size-5, 8rem); }
+  .h6-s {    height: var(--size-6, 16rem); }
+  .h7-s {    height: var(--size-7, 32rem); }
+  .h8-s {    height: var(--size-8, 64rem); }
   .h-50-s { height: 50%; }
   .h-75-s { height: 75%; }
   .h-100-s { height: 100%; }
