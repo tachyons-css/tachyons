@@ -4,30 +4,30 @@
    Docs: http://tachyons.io/docs/typography/tracking/
 
    Media Query Extensions:
-     -ns = small
+     -s = small
      -m  = medium
      -l  = large
 
 */
 
-.tracked       { letter-spacing:  .1em; }
-.tracked-tight { letter-spacing: -.05em; }
-.tracked-mega  { letter-spacing:  .25em; }
+.tracked       { letter-spacing:  var(--letter-spacing-tracked, .1em); }
+.tracked-tight { letter-spacing: var(--letter-spacing-tight, -0.05em); }
+.tracked-mega  { letter-spacing:  var(--letter-spacing-large, .25em); }
 
 @media (--breakpoint-small) {
-  .tracked-s       { letter-spacing:  .1em; }
-  .tracked-tight-s { letter-spacing: -.05em; }
-  .tracked-mega-s  { letter-spacing:  .25em; }
+  .tracked-s       { letter-spacing:  var(--letter-spacing-tracked, .1em); }
+  .tracked-tight-s { letter-spacing: var(--letter-spacing-tight, -0.05em); }
+  .tracked-mega-s  { letter-spacing:  var(--letter-spacing-large, .25em); }
 }
 
 @media (--breakpoint-medium) {
-  .tracked-m       { letter-spacing:  .1em; }
-  .tracked-tight-m { letter-spacing: -.05em; }
-  .tracked-mega-m  { letter-spacing:  .25em; }
+  .tracked-m       { letter-spacing:  var(--letter-spacing-tracked, .1em); }
+  .tracked-tight-m { letter-spacing: var(--letter-spacing-tight, -0.05em); }
+  .tracked-mega-m  { letter-spacing:  var(--letter-spacing-large, .25em); }
 }
 
 @media (--breakpoint-large) {
-  .tracked-l       { letter-spacing:  .1em; }
-  .tracked-tight-l { letter-spacing: -.05em; }
-  .tracked-mega-l  { letter-spacing:  .25em; }
+  .tracked-l       { letter-spacing:  var(--letter-spacing-tracked, .1em); }
+  .tracked-tight-l { letter-spacing: var(--letter-spacing-tight, -0.05em); }
+  .tracked-mega-l  { letter-spacing:  var(--letter-spacing-large, .25em); }
 }
