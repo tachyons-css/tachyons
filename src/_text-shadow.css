@@ -1,0 +1,32 @@
+/*
+
+  TEXT-SHADOW
+  Docs: http://tachyons.io/docs/themes/text-shadow/
+
+  Media Query Extensions:
+   -s = small
+   -m  = medium
+   -l  = large
+
+ */
+
+.text-shadow-1 { text-shadow: rgb(var(--shadow-color)) -4px 4px 0px; }
+.text-shadow-2 { text-shadow: rgb(var(--shadow-color)) -8px 8px 0px; }
+.text-shadow-3 { text-shadow: rgb(var(--shadow-color) / var(--shadow-opacity ,.5)) -8px 8px 0px; }
+.text-shadow-4 { text-shadow: rgba(var(--shadow-color) / var(--shadow-opacity, .5)) -4px 4px 8px; }
+.text-shadow-5 { text-shadow: rgb(var(--shadow-color)) 2px 0px 0px, rgb(var(--shadow-color)) 0px 2px 0px, rgb(var(--shadow-color)) -2px 0px 0px, rgb(var(--shadow-color)) 0px -2px 0px, rgb(var(--shadow-color)) -2px -2px 0px, rgb(var(--shadow-color)) 2px -2px 0px, rgb(var(--shadow-color)) 2px 2px 0px, rgb(var(--shadow-color)) -2px 2px 0px; }
+.text-shadow-6 { text-shadow: rgb(var(--shadow-color-invert)) 2px 0px 0px, rgb(var(--shadow-color-invert)) 0px 2px 0px, rgb(var(--shadow-color-invert)) -2px 0px 0px, rgb(var(--shadow-color-invert)) 0px -2px 0px, rgb(var(--shadow-color-invert)) -2px -2px 0px, rgb(var(--shadow-color-invert)) 2px -2px 0px, rgb(var(--shadow-color-invert)) 2px 2px 0px, rgb(var(--shadow-color-invert)) -2px 2px 0px; }
+
+
+@media (--breakpoint-small) {
+
+}
+
+@media (--breakpoint-medium) {
+
+}
+
+@media (--breakpoint-large) {
+
+}
+
