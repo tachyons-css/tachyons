@@ -9,7 +9,7 @@
 .nested-copy-line-height p,
 .nested-copy-line-height ul,
 .nested-copy-line-height ol {
-  line-height: 1.5;
+  line-height: var(--line-height-body, 1.5);
 }
 
 .nested-headline-line-height h1,
@@ -18,7 +18,7 @@
 .nested-headline-line-height h4,
 .nested-headline-line-height h5,
 .nested-headline-line-height h6 {
-  line-height: 1.25;
+  line-height: var(--line-height-title, 1.25);
 }
 
 .nested-list-reset ul,
