@@ -18,8 +18,9 @@
 
 */
 
-
+.b--color { border-color: var(--border-color, gray); }
 .b--transparent { border-color: transparent; }
+.b--current { border-color: currentColor; }
 .b--inherit { border-color: inherit; }
 .b--initial { border-color: initial; }
 .b--unset { border-color: unset; }
