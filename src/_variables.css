@@ -242,7 +242,7 @@
   --gradient-color-15: var(--gold-0);
   --gradient-color-16: var(--gold-5);
   --gradient-color-17: var(--yellow-0);
-  --gradient-color-18: var(--yellow-5);;
+  --gradient-color-18: var(--yellow-5);
   --gradient-color-19: var(--green-0);
   --gradient-color-20: var(--green-5);
   --gradient-color-21: var(--teal-0);
@@ -277,6 +277,7 @@
   --border-radius-9: 48px;
   --border-radius-10: 64px;
   --border-radius-11: 9999px;
+  --border-radius: var(--border-radius-2);
 
   --border-width-0: 0;
   --border-width-1: 1px;
@@ -325,7 +326,7 @@
   --shadow-border-width: 1px;
   --shadow-opacity: .25;
 
-  // Opacity scale
+  /* Opacity scale */
 
   --opacity-0: 0;
   --opacity-1: .025;
