@@ -167,6 +167,8 @@
   transition: color .25s ease-in-out; 
 }
 
+.hover-filter-none:hover { filter: none; }
+
 .hover-filter-blur-none:hover { filter: blur(0); }
 .hover-filter-blur:hover { filter: blur(96px); }
 

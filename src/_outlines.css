@@ -9,24 +9,28 @@
 
 */
 
-.outline { outline: 1px solid; }
-.outline-transparent { outline: 1px solid transparent; }
+.outline { outline: var(--border-width, 1px) solid currentColor; }
+.outline-color { outline: var(--border-width, 1px) solid var(--border-color, gray); }
+.outline-transparent { outline: var(--border-width, 1px) solid transparent; }
 .outline-0 { outline: 0; }
 
 @media (--breakpoint-small) {
-  .outline-s { outline: 1px solid; }
-  .outline-transparent-s { outline: 1px solid transparent; }
+  .outline-s { outline: var(--border-width, 1px) solid currentColor; }
+  .outline-color-s { outline: var(--border-width, 1px) solid var(--border-color, gray); }
+  .outline-transparent-s { outline: var(--border-width, 1px) solid transparent; }
   .outline-0-s { outline: 0; }
 }
 
 @media (--breakpoint-medium) {
-  .outline-m { outline: 1px solid; }
-  .outline-transparent-m { outline: 1px solid transparent; }
+  .outline-m { outline: var(--border-width, 1px) solid currentColor; }
+  .outline-color-m { outline: var(--border-width, 1px) solid var(--border-color, gray); }
+  .outline-transparent-m { outline: var(--border-width, 1px) solid transparent; }
   .outline-0-m { outline: 0; }
 }
 
 @media (--breakpoint-large) {
-  .outline-l { outline: 1px solid; }
-  .outline-transparent-l { outline: 1px solid transparent; }
+  .outline-l { outline: var(--border-width, 1px) solid currentColor; }
+  .outline-color-l { outline: var(--border-width, 1px) solid var(--border-color, gray); }
+  .outline-transparent-l { outline: var(--border-width, 1px) solid transparent; }
   .outline-0-l { outline: 0; }
 }
