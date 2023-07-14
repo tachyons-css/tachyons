@@ -27,6 +27,7 @@
 
 */
 
+  .br  {        border-radius: var(--border-radius, 6px); }
   .br0 {        border-radius: var(--border-radius-0, 0); }
   .br1 {        border-radius: var(--border-radius-1, 4px); }
   .br2 {        border-radius: var(--border-radius-2, 6px); }
@@ -61,6 +62,7 @@
   .br-unset { border-radius: unset; }
 
 @media (--breakpoint-small) {
+  .br-s  {          border-radius: var(--border-radius, 6px); }
   .br0-s {        border-radius: var(--border-radius-0, 0); }
   .br1-s {        border-radius: var(--border-radius-1, 4px); }
   .br2-s {        border-radius: var(--border-radius-2, 6px); }
@@ -95,6 +97,7 @@
 }
 
 @media (--breakpoint-medium) {
+  .br-m  {        border-radius: var(--border-radius, 6px); }
   .br0-m {        border-radius: var(--border-radius-0, 0); }
   .br1-m {        border-radius: var(--border-radius-1, 4px); }
   .br2-m {        border-radius: var(--border-radius-2, 6px); }
@@ -129,6 +132,7 @@
 }
 
 @media (--breakpoint-large) {
+  .br-l  {        border-radius: var(--border-radius, 6px); }
   .br0-l {        border-radius: var(--border-radius-0, 0); }
   .br1-l {        border-radius: var(--border-radius-1, 4px); }
   .br2-l {        border-radius: var(--border-radius-2, 6px); }
