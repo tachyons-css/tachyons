@@ -7,11 +7,11 @@
 
 :root {
 
-  /* 
+  /*
    * COLORS
    * A balanced color system optimized for accessibility
    * Theme generated with https://components.ai/theme
-   * The first six steps in each scale are accessible with white 
+   * The first six steps in each scale are accessible with white
    *
    */
 
@@ -207,7 +207,7 @@
   --cyan-9: #85eaf2;
   --cyan-10: #b4f5f9;
   --cyan-11: #e2ffff;
-  --transparent: hsla(0,0,0,0);
+  --transparent: hsla(0, 0%, 0%, 0);
 
   --degrees-1: 0;
   --degrees-2: 45deg;
@@ -286,7 +286,7 @@
   --border-width-4: 8px;
   --border-width-5: 16px;
 
-  --border-width: var(--border-width-1,1px);
+  --border-width: var(--border-width-1, 1px);
   --border-color: var(--gray-5, gray);
 
   --line-height-solid: 1;
@@ -325,6 +325,7 @@
   --shadow-color-invert: 255 255 255;
   --shadow-border-width: 1px;
   --shadow-opacity: .25;
+  --shadow-y: 1px;
 
   /* Opacity scale */
 
@@ -355,5 +356,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  --shadow-color: 255 255 255;
+  :root {
+    --shadow-color: 255 255 255;
+  }
 }
