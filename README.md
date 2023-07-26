@@ -1,5 +1,7 @@
 # TACHYONS
 
+⚠️ Official update on the status/roadmap: https://github.com/tachyons-css/tachyons/issues/645#issuecomment-540896935
+
 Functional CSS for humans.
 
 Quickly build and design new UI without writing CSS.
