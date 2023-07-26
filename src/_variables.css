@@ -353,6 +353,8 @@
   --easing-function-3: ease-in-out;
   --easing-function-4: linear;
 
+  /* Primary */
+  --primary: var(--indigo-6);
 }
 
 @media (prefers-color-scheme: dark) {

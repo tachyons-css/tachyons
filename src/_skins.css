@@ -3,13 +3,12 @@
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 
 /* Text colors */
-
 .overlay-tint-0 { color: var( --overlay-tint-0); }
 .overlay-tint-1 { color: var( --overlay-tint-1); }
 .overlay-tint-2 { color: var( --overlay-tint-2); }
@@ -204,7 +203,6 @@
 .cyan-11 { color: var( --cyan-11); }
 
 /* Background colors */
-
 .bg-overlay-tint-0 { background-color: var( --overlay-tint-0); }
 .bg-overlay-tint-1 { background-color: var( --overlay-tint-1); }
 .bg-overlay-tint-2 { background-color: var( --overlay-tint-2); }
