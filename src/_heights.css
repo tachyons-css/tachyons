@@ -94,6 +94,9 @@
   .h3-m { height: 4rem; }
   .h4-m { height: 8rem; }
   .h5-m { height: 16rem; }
+  .h6-m {    height: var(--size-6, 16rem); }
+  .h7-m {    height: var(--size-7, 32rem); }
+  .h8-m {    height: var(--size-8, 64rem); }
   .h-50-m { height: 50%; }
   .h-75-m { height: 75%; }
   .h-100-m { height: 100%; }
@@ -113,6 +116,9 @@
   .h3-l { height: 4rem; }
   .h4-l { height: 8rem; }
   .h5-l { height: 16rem; }
+  .h6-l {    height: var(--size-6, 16rem); }
+  .h7-l {    height: var(--size-7, 32rem); }
+  .h8-l {    height: var(--size-8, 64rem); }
   .h-50-l { height: 50%; }
   .h-75-l { height: 75%; }
   .h-100-l { height: 100%; }

@@ -666,6 +666,7 @@ img { display: block; max-width: 100%; }
      -l  = large
 
 */
+.gc { gap: 1px; }
 .g0 { gap: var( --spacing-0, 0 ); }
 .g1 { gap: var( --spacing-1, 4px ); }
 .g2 { gap: var( --spacing-2, 8px ); }
@@ -825,6 +826,7 @@ img { display: block; max-width: 100%; }
 .filter-none { -webkit-filter: none; filter: none; }
 .filter-blur-none { -webkit-filter: blur( 0 ); filter: blur( 0 ); }
 .filter-blur { -webkit-filter: blur( 96px ); filter: blur( 96px ); }
+.filter-blur-bg { -webkit-backdrop-filter: blur( 96px ); backdrop-filter: blur( 96px ); }
 .grayscale-0 { -webkit-filter: grayscale( 0 ); filter: grayscale( 0 ); }
 .grayscale-50 { -webkit-filter: grayscale( 50% ); filter: grayscale( 50% ); }
 .grayscale-100 { -webkit-filter: grayscale( 100% ); filter: grayscale( 100% ); }
@@ -1747,14 +1749,14 @@ img { display: block; max-width: 100%; }
 .bg-cyan-9 { background-color: var( --cyan-9 ); }
 .bg-cyan-10 { background-color: var( --cyan-10 ); }
 .bg-cyan-11 { background-color: var( --cyan-11 ); }
-/* 
-  
+/*
+
    SKINS:PSEUDO
 
    Customize the color of an element when
    it is focused or hovered over. This is a larger file. Feel
    free to remove and edit colors that aren't needed.
- 
+
  */
 .hover-overlay-tint-0:hover { color: var( --overlay-tint-0 ); }
 .hover-overlay-tint-1:hover { color: var( --overlay-tint-1 ); }
@@ -1948,8 +1950,7 @@ img { display: block; max-width: 100%; }
 .hover-cyan-9:hover { color: var( --cyan-9 ); }
 .hover-cyan-10:hover { color: var( --cyan-10 ); }
 .hover-cyan-11:hover { color: var( --cyan-11 ); }
-/hover-* Background colors */
-
+/* Hover-Background colors */
 .hover-bg-overlay-tint-0:hover { background-color: var( --overlay-tint-0 ); }
 .hover-bg-overlay-tint-1:hover { background-color: var( --overlay-tint-1 ); }
 .hover-bg-overlay-tint-2:hover { background-color: var( --overlay-tint-2 ); }
@@ -2334,8 +2335,7 @@ img { display: block; max-width: 100%; }
 .focus-cyan-9:focus { color: var( --cyan-9 ); }
 .focus-cyan-10:focus { color: var( --cyan-10 ); }
 .focus-cyan-11:focus { color: var( --cyan-11 ); }
-/focus-* Background colors */
-
+/* Focus-Background colors */
 .focus-bg-overlay-tint-0:focus { background-color: var( --overlay-tint-0 ); }
 .focus-bg-overlay-tint-1:focus { background-color: var( --overlay-tint-1 ); }
 .focus-bg-overlay-tint-2:focus { background-color: var( --overlay-tint-2 ); }
@@ -3231,6 +3231,7 @@ img { display: block; max-width: 100%; }
  .dif-s, .inline-flex-s { display: inline-flex; }
  .dg-s, .grid-s { display: grid; }
  .dig-s, .inline-grid-s { display: inline-grid; }
+ .gc-s { gap: 1px; }
  .g0-s { gap: var( --spacing-0, 0 ); }
  .g1-s { gap: var( --spacing-1, 4px ); }
  .g2-s { gap: var( --spacing-2, 8px ); }
@@ -3744,6 +3745,7 @@ img { display: block; max-width: 100%; }
  .dif-m, .inline-flex-m { display: inline-flex; }
  .dg-m, .grid-m { display: grid; }
  .dig-m, .inline-grid-m { display: inline-grid; }
+ .gc-m { gap: 1px; }
  .g0-m { gap: var( --spacing-0, 0 ); }
  .g1-m { gap: var( --spacing-1, 4px ); }
  .g2-m { gap: var( --spacing-2, 8px ); }
@@ -3928,6 +3930,9 @@ img { display: block; max-width: 100%; }
  .h3-m { height: 4rem; }
  .h4-m { height: 8rem; }
  .h5-m { height: 16rem; }
+ .h6-m { height: var( --size-6, 16rem ); }
+ .h7-m { height: var( --size-7, 32rem ); }
+ .h8-m { height: var( --size-8, 64rem ); }
  .h-50-m { height: 50%; }
  .h-75-m { height: 75%; }
  .h-100-m { height: 100%; }
@@ -4254,6 +4259,7 @@ img { display: block; max-width: 100%; }
  .dif-l, .inline-flex-l { display: inline-flex; }
  .dg-l, .grid-l { display: grid; }
  .dig-l, .inline-grid-l { display: inline-grid; }
+ .gc-l { gap: 1px; }
  .g0-l { gap: var( --spacing-0 ); }
  .g1-l { gap: var( --spacing-1 ); }
  .g2-l { gap: var( --spacing-2 ); }
@@ -4438,6 +4444,9 @@ img { display: block; max-width: 100%; }
  .h3-l { height: 4rem; }
  .h4-l { height: 8rem; }
  .h5-l { height: 16rem; }
+ .h6-l { height: var( --size-6, 16rem ); }
+ .h7-l { height: var( --size-7, 32rem ); }
+ .h8-l { height: var( --size-8, 64rem ); }
  .h-50-l { height: 50%; }
  .h-75-l { height: 75%; }
  .h-100-l { height: 100%; }
