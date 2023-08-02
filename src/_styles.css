@@ -10,4 +10,4 @@
 .bg-primary { background-color: var( --primary); }
 
 .accent { color: var( --accent); }
-.bg-accent { color: var( --accent); }
+.bg-accent { background-color: var( --accent); }
