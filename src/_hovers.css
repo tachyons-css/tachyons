@@ -29,7 +29,7 @@
   transition: opacity .15s ease-in;
 }
 .dim:active {
-  opacity: .8; 
+  opacity: .8;
   transition: opacity .15s ease-out;
 }
 
@@ -65,12 +65,14 @@
 .hide-child .child {
   opacity: 0;
   transition: opacity .15s ease-in;
+  visibility: hidden;
 }
 .hide-child:hover  .child,
 .hide-child:focus  .child,
 .hide-child:active .child {
   opacity: 1;
   transition: opacity .15s ease-in;
+  visibility: visible;
 }
 
 .underline-hover:hover,
@@ -123,12 +125,12 @@
   transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-/* 
+/*
  * TODO: Test and rename
    Add shadow on hover.
 
-   Performant box-shadow animation pattern from 
-   http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 
 .shadow-hover {
   cursor: pointer;
@@ -156,15 +158,15 @@
 }
 */
 
-/* Combine with classes in skins and skins-pseudo for 
+/* Combine with classes in skins and skins-pseudo for
  * many different transition possibilities. */
 
 .trans-bg {
-  transition: background-color .25s ease-in-out; 
+  transition: background-color .25s ease-in-out;
 }
 
 .trans-color {
-  transition: color .25s ease-in-out; 
+  transition: color .25s ease-in-out;
 }
 
 .hover-filter-none:hover { filter: none; }

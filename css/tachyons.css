@@ -2983,8 +2983,8 @@ img { display: block; max-width: 100%; }
     <div class="child"> Hidden until hover or focus </div>
   </div>
 */
-.hide-child .child { opacity: 0; transition: opacity .15s ease-in; }
-.hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; transition: opacity .15s ease-in; }
+.hide-child .child { opacity: 0; transition: opacity .15s ease-in; visibility: hidden; }
+.hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; transition: opacity .15s ease-in; visibility: visible; }
 .underline-hover:hover, .underline-hover:focus { text-decoration: underline; }
 /* Can combine this with overflow-hidden to make background images grow on hover
  * even if you are using background-size: cover */
@@ -2997,12 +2997,12 @@ img { display: block; max-width: 100%; }
 /* Add pointer on hover */
 .pointer { cursor: pointer; }
 .trans-all { transition: all .25s cubic-bezier( .165, .84, .44, 1 ); }
-/* 
+/*
  * TODO: Test and rename
    Add shadow on hover.
 
-   Performant box-shadow animation pattern from 
-   http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 
 .shadow-hover {
   cursor: pointer;
@@ -3029,7 +3029,7 @@ img { display: block; max-width: 100%; }
   opacity: 1;
 }
 */
-/* Combine with classes in skins and skins-pseudo for 
+/* Combine with classes in skins and skins-pseudo for
  * many different transition possibilities. */
 .trans-bg { transition: background-color .25s ease-in-out; }
 .trans-color { transition: color .25s ease-in-out; }
@@ -3112,6 +3112,8 @@ img { display: block; max-width: 100%; }
 */
 .primary { color: var( --primary ); }
 .bg-primary { background-color: var( --primary ); }
+.accent { color: var( --accent ); }
+.bg-accent { color: var( --accent ); }
 /* Debugging */
 /*
 
