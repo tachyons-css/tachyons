@@ -24,21 +24,21 @@
 .tc  { text-align: center; }
 .tj  { text-align: justify; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .tl-s  { text-align: left; }
   .tr-s  { text-align: right; }
   .tc-s  { text-align: center; }
   .tj-s  { text-align: justify; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .tl-m  { text-align: left; }
   .tr-m  { text-align: right; }
   .tc-m  { text-align: center; }
   .tj-m  { text-align: justify; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .tl-l  { text-align: left; }
   .tr-l  { text-align: right; }
   .tc-l  { text-align: center; }

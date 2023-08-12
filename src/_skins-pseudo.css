@@ -201,7 +201,7 @@
 .hover-cyan-10:hover { color: var( --cyan-10); }
 .hover-cyan-11:hover { color: var( --cyan-11); }
 
-/hover-* Background colors */
+/* Background colors */
 
 .hover-bg-overlay-tint-0:hover { background-color: var( --overlay-tint-0); }
 .hover-bg-overlay-tint-1:hover { background-color: var( --overlay-tint-1); }
@@ -589,7 +589,7 @@
 .focus-cyan-10:focus { color: var( --cyan-10); }
 .focus-cyan-11:focus { color: var( --cyan-11); }
 
-/focus-* Background colors */
+/* Background colors */
 
 .focus-bg-overlay-tint-0:focus { background-color: var( --overlay-tint-0); }
 .focus-bg-overlay-tint-1:focus { background-color: var( --overlay-tint-1); }

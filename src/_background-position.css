@@ -44,7 +44,7 @@
   background-position: center left;   
 }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .bg-center-s { 
     background-repeat: no-repeat;
     background-position: center center; 
@@ -71,7 +71,7 @@
   }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .bg-center-m { 
     background-repeat: no-repeat;
     background-position: center center; 
@@ -98,7 +98,7 @@
   }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .bg-center-l { 
     background-repeat: no-repeat;
     background-position: center center; 

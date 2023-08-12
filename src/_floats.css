@@ -30,19 +30,19 @@
 .fr { float: right; }
 .fn { float: none; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .fl-s { float: left; }
   .fr-s { float: right;  }
   .fn-s { float: none; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .fl-m { float: left;  }
   .fr-m { float: right;  }
   .fn-m { float: none; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .fl-l { float: left; }
   .fr-l { float: right; }
   .fn-l { float: none; }

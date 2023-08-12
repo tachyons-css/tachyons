@@ -15,7 +15,7 @@
 .self-baseline { align-self: baseline; }
 .self-stretch  { align-self: stretch; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .self-start-s { align-self: flex-start; }
   .self-end-s { align-self: flex-end; }
   .self-center-s { align-self: center; }
@@ -23,7 +23,7 @@
   .self-stretch-s { align-self: stretch; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .self-start-m { align-self: flex-start; }
   .self-end-m { align-self: flex-end; }
   .self-center-m { align-self: center; }
@@ -32,7 +32,7 @@
 
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .self-start-l { align-self: flex-start; }
   .self-end-l { align-self: flex-end; }
   .self-center-l { align-self: center; }

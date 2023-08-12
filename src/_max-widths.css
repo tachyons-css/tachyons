@@ -49,7 +49,7 @@
 
 .mw-none { max-width: none; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .mw-100-s  { max-width: 100%; }
 
   .mw1-s  {  max-width: 1rem; }
@@ -65,7 +65,7 @@
   .mw-none-s { max-width: none; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .mw-100-m  { max-width: 100%; }
 
   .mw1-m  {  max-width: 1rem; }
@@ -81,7 +81,7 @@
   .mw-none-m { max-width: none; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .mw-100-l  { max-width: 100%; }
 
   .mw1-l  {  max-width: 1rem; }

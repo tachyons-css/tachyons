@@ -16,7 +16,7 @@
 .fixed  { position: fixed; }
 .sticky  { position: sticky; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .static-s { position: static; }
   .relative-s  { position: relative; }
   .absolute-s  { position: absolute; }
@@ -24,7 +24,7 @@
   .sticky-s  { position: sticky; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .static-m { position: static; }
   .relative-m  { position: relative; }
   .absolute-m  { position: absolute; }
@@ -32,7 +32,7 @@
   .sticky-m  { position: sticky; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .static-l { position: static; }
   .relative-l  { position: relative; }
   .absolute-l  { position: absolute; }

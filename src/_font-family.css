@@ -5,6 +5,6 @@
 
 */
 
-.f-heading { font-family: var(--font-family-heading); }
-.f-body { font-family: var(--font-family-body); }
-.f-mono { font-family: var(--font-family-mono); }
+.f-heading { font-family: var(--font-family-heading, sans-serif); }
+.f-body { font-family: var(--font-family-body, sans-serif); }
+.f-mono { font-family: var(--font-family-mono, monospace); }

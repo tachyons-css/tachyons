@@ -46,7 +46,7 @@
 .row-end-15 { grid-row-end: 15; }
 .row-end-16 { grid-row-end: 16; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .row-auto-s  { grid-row: auto; }
 
   .row-start-1-s { grid-row-start: 1; }
@@ -84,7 +84,7 @@
   .row-end-16-s { grid-row-end: 16; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .row-auto-m  { grid-row: auto; }
 
   .row-start-1-m { grid-row-start: 1; }
@@ -122,7 +122,7 @@
   .row-end-16-m { grid-row-end: 16; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .row-auto-l  { grid-row: auto; }
 
   .row-start-1-l { grid-row-start: 1; }

@@ -18,7 +18,7 @@
 .content-around  { align-content: space-around; }
 .content-stretch { align-content: stretch; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .content-start-s { align-content: flex-start; }
   .content-end-s { align-content: flex-end; }
   .content-center-s { align-content: center; }
@@ -26,7 +26,7 @@
   .content-around-s { align-content: space-around; }
   .content-stretch-s { align-content: stretch; }
 }
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .content-start-m { align-content: flex-start; }
   .content-end-m { align-content: flex-end; }
   .content-center-m { align-content: center; }
@@ -34,7 +34,7 @@
   .content-around-m { align-content: space-around; }
   .content-stretch-m { align-content: stretch; }
 }
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .content-start-l { align-content: flex-start; }
   .content-end-l { align-content: flex-end; }
   .content-center-l { align-content: center; }

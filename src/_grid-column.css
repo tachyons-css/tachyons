@@ -1,7 +1,7 @@
 /*
 
   Grid Column
-  Docs: http://tachyons.io/docs/layout/grid-column
+  Docs: http://tachyons.io/docs/grid-column
 
   This sets the width of the element via declaring how many columns wide it should be
 
@@ -66,7 +66,7 @@
 .end-15 { grid-column-end: 15; }
 .end-16 { grid-column-end: 16; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .col-1-s  { grid-column: span 1 / span 1; }
   .col-2-s  { grid-column: span 2 / span 2; }
   .col-3-s  { grid-column: span 3 / span 3; }
@@ -125,7 +125,7 @@
 
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .col-1-m  { grid-column: span 1 / span 1; }
   .col-2-m  { grid-column: span 2 / span 2; }
   .col-3-m  { grid-column: span 3 / span 3; }
@@ -183,7 +183,7 @@
   .end-16-m { grid-column-end: 16; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .col-1-l  { grid-column: span 1 / span 1; }
   .col-2-l  { grid-column: span 2 / span 2; }
   .col-3-l  { grid-column: span 3 / span 3; }

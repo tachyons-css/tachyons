@@ -1,7 +1,7 @@
 /* 
 
    TYPE SCALE
-   Docs: http://tachyons.io/docs/typography/scale/
+   Docs: http://tachyons.io/docs/type-scale
 
    Base:
     f = font-size
@@ -28,61 +28,61 @@
 
 /* Type Scale */
 
-.f1 { font-size:  var(--font-size-0, .75rem); }
-.f2 { font-size:  var(--font-size-1, .875rem); }
-.f3 { font-size:  var(--font-size-2, 1rem); }
-.f4 { font-size:  var(--font-size-3, 1.125rem); }
-.f5 { font-size:  var(--font-size-4, 1.25rem); }
-.f6 { font-size:  var(--font-size-5, 1.5rem); }
-.f7 { font-size:  var(--font-size-6, 2rem); } 
-.f8 { font-size:  var(--font-size-7, 3rem); } 
-.f9 { font-size:  var(--font-size-8, 4rem); } 
-.f10 { font-size: var(--font-size-9, 6rem); } 
-.f11 { font-size: var(--font-size-10, 8rem); } 
-.f12 { font-size: var(--font-size-11, 12rem); } 
+.f1 { font-size:  var(--font-size-1, .75rem); }
+.f2 { font-size:  var(--font-size-2, .875rem); }
+.f3 { font-size:  var(--font-size-3, 1rem); }
+.f4 { font-size:  var(--font-size-4, 1.125rem); }
+.f5 { font-size:  var(--font-size-5, 1.25rem); }
+.f6 { font-size:  var(--font-size-6, 1.5rem); }
+.f7 { font-size:  var(--font-size-7, 2rem); } 
+.f8 { font-size:  var(--font-size-8, 3rem); } 
+.f9 { font-size:  var(--font-size-9, 4rem); } 
+.f10 { font-size: var(--font-size-10, 6rem); } 
+.f11 { font-size: var(--font-size-11, 8rem); } 
+.f12 { font-size: var(--font-size-12, 12rem); } 
 
 
-@media (--breakpoint-small){
-  .f1-s { font-size:  var(--font-size-0, .75rem); }
-  .f2-s { font-size:  var(--font-size-1, .875rem); }
-  .f3-s { font-size:  var(--font-size-2, 1rem); }
-  .f4-s { font-size:  var(--font-size-3, 1.125rem); }
-  .f5-s { font-size:  var(--font-size-4, 1.25rem); }
-  .f6-s { font-size:  var(--font-size-5, 1.5rem); }
-  .f7-s { font-size:  var(--font-size-6, 2rem); } 
-  .f8-s { font-size:  var(--font-size-7, 3rem); } 
-  .f9-s { font-size:  var(--font-size-8, 4rem); } 
-  .f10-s { font-size: var(--font-size-9, 6rem); } 
-  .f11-s { font-size: var(--font-size-10, 8rem); } 
-  .f12-s { font-size: var(--font-size-11, 12rem); } 
+@container (min-width:30em){
+  .f1-s { font-size:  var(--font-size-1, .75rem); }
+  .f2-s { font-size:  var(--font-size-2, .875rem); }
+  .f3-s { font-size:  var(--font-size-3, 1rem); }
+  .f4-s { font-size:  var(--font-size-4, 1.125rem); }
+  .f5-s { font-size:  var(--font-size-5, 1.25rem); }
+  .f6-s { font-size:  var(--font-size-6, 1.5rem); }
+  .f7-s { font-size:  var(--font-size-7, 2rem); } 
+  .f8-s { font-size:  var(--font-size-8, 3rem); } 
+  .f9-s { font-size:  var(--font-size-9, 4rem); } 
+  .f10-s { font-size: var(--font-size-10, 6rem); } 
+  .f11-s { font-size: var(--font-size-11, 8rem); } 
+  .f12-s { font-size: var(--font-size-12, 12rem); } 
 }
 
-@media (--breakpoint-medium) {
-  .f1-m { font-size:  var(--font-size-0, .75rem); }
-  .f2-m { font-size:  var(--font-size-1, .875rem); }
-  .f3-m { font-size:  var(--font-size-2, 1rem); }
-  .f4-m { font-size:  var(--font-size-3, 1.125rem); }
-  .f5-m { font-size:  var(--font-size-4, 1.25rem); }
-  .f6-m { font-size:  var(--font-size-5, 1.5rem); }
-  .f7-m { font-size:  var(--font-size-6, 2rem); } 
-  .f8-m { font-size:  var(--font-size-7, 3rem); } 
-  .f9-m { font-size:  var(--font-size-8, 4rem); } 
-  .f10-m { font-size: var(--font-size-9, 6rem); } 
-  .f11-m { font-size: var(--font-size-10, 8rem); } 
-  .f12-m { font-size: var(--font-size-11, 12rem); } 
+@container (min-width:48em) {
+  .f1-m { font-size:  var(--font-size-1, .75rem); }
+  .f2-m { font-size:  var(--font-size-2, .875rem); }
+  .f3-m { font-size:  var(--font-size-3, 1rem); }
+  .f4-m { font-size:  var(--font-size-4, 1.125rem); }
+  .f5-m { font-size:  var(--font-size-5, 1.25rem); }
+  .f6-m { font-size:  var(--font-size-6, 1.5rem); }
+  .f7-m { font-size:  var(--font-size-7, 2rem); } 
+  .f8-m { font-size:  var(--font-size-8, 3rem); } 
+  .f9-m { font-size:  var(--font-size-9, 4rem); } 
+  .f10-m { font-size: var(--font-size-10, 6rem); } 
+  .f11-m { font-size: var(--font-size-11, 8rem); } 
+  .f12-m { font-size: var(--font-size-12, 12rem); } 
 }
 
-@media (--breakpoint-large) {
-  .f1-l { font-size:  var(--font-size-0, .75rem); }
-  .f2-l { font-size:  var(--font-size-1, .875rem); }
-  .f3-l { font-size:  var(--font-size-2, 1rem); }
-  .f4-l { font-size:  var(--font-size-3, 1.125rem); }
-  .f5-l { font-size:  var(--font-size-4, 1.25rem); }
-  .f6-l { font-size:  var(--font-size-5, 1.5rem); }
-  .f7-l { font-size:  var(--font-size-6, 2rem); } 
-  .f8-l { font-size:  var(--font-size-7, 3rem); } 
-  .f9-l { font-size:  var(--font-size-8, 4rem); } 
-  .f10-l { font-size: var(--font-size-9, 6rem); } 
-  .f11-l { font-size: var(--font-size-10, 8rem); } 
-  .f12-l { font-size: var(--font-size-11, 12rem); } 
+@container (min-width:64em) {
+  .f1-l { font-size:  var(--font-size-1, .75rem); }
+  .f2-l { font-size:  var(--font-size-2, .875rem); }
+  .f3-l { font-size:  var(--font-size-3, 1rem); }
+  .f4-l { font-size:  var(--font-size-4, 1.125rem); }
+  .f5-l { font-size:  var(--font-size-5, 1.25rem); }
+  .f6-l { font-size:  var(--font-size-6, 1.5rem); }
+  .f7-l { font-size:  var(--font-size-7, 2rem); } 
+  .f8-l { font-size:  var(--font-size-8, 3rem); } 
+  .f9-l { font-size:  var(--font-size-9, 4rem); } 
+  .f10-l { font-size: var(--font-size-10, 6rem); } 
+  .f11-l { font-size: var(--font-size-11, 8rem); } 
+  .f12-l { font-size: var(--font-size-12, 12rem); } 
 }

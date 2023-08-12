@@ -14,19 +14,19 @@
 .tracked-tight { letter-spacing: var(--letter-spacing-tight, -0.05em); }
 .tracked-mega  { letter-spacing:  var(--letter-spacing-large, .25em); }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .tracked-s       { letter-spacing:  var(--letter-spacing-tracked, .1em); }
   .tracked-tight-s { letter-spacing: var(--letter-spacing-tight, -0.05em); }
   .tracked-mega-s  { letter-spacing:  var(--letter-spacing-large, .25em); }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .tracked-m       { letter-spacing:  var(--letter-spacing-tracked, .1em); }
   .tracked-tight-m { letter-spacing: var(--letter-spacing-tight, -0.05em); }
   .tracked-mega-m  { letter-spacing:  var(--letter-spacing-large, .25em); }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .tracked-l       { letter-spacing:  var(--letter-spacing-tracked, .1em); }
   .tracked-tight-l { letter-spacing: var(--letter-spacing-tight, -0.05em); }
   .tracked-mega-l  { letter-spacing:  var(--letter-spacing-large, .25em); }

@@ -25,7 +25,7 @@
 .aspect-ratio-1x1 {  aspect-ratio: 1 / 1; }
 
 
-@media (--breakpoint-small){
+@container (min-width:30em){
   .aspect-ratio-16x9-s { aspect-ratio: 16 / 9; }
   .aspect-ratio-9x16-s { aspect-ratio: 9 / 16; }
 
@@ -45,7 +45,7 @@
   .aspect-ratio-1x1-s { aspect-ratio: 1 / 1; }
 }
 
-@media (--breakpoint-medium){
+@container (min-width:48em){
   .aspect-ratio-16x9-m { aspect-ratio: 16 / 9; }
   .aspect-ratio-9x16-m { aspect-ratio: 9 / 16; }
 
@@ -65,7 +65,7 @@
   .aspect-ratio-1x1-m { aspect-ratio: 1 / 1; }
 }
 
-@media (--breakpoint-large){
+@container (min-width:64em){
   .aspect-ratio-16x9-l { aspect-ratio: 16 / 9; }
   .aspect-ratio-9x16-l { aspect-ratio: 9 / 16; }
 

@@ -16,19 +16,19 @@
 .justify-self-center { justify-self: center; }
 .justify-self-stretch{ justify-self: stretch; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .justify-self-start-s { justify-self: start; }
   .justify-self-end-s { justify-self: end; }
   .justify-self-center-s { justify-self: center; }
   .justify-self-stretch-s { justify-self: stretch; }
 }
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .justify-self-start-m { justify-self: start; }
   .justify-self-end-m { justify-self: end; }
   .justify-self-center-m { justify-self: center; }
   .justify-self-stretch-m { justify-self: stretch; }
 }
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .justify-self-start-l { justify-self: start; }
   .justify-self-end-l { justify-self: end; }
   .justify-self-center-l { justify-self: center; }

@@ -24,21 +24,21 @@
 .ttu { text-transform: uppercase; }
 .ttn { text-transform: none; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .ttc-s { text-transform: capitalize; }
   .ttl-s { text-transform: lowercase; }
   .ttu-s { text-transform: uppercase; }
   .ttn-s { text-transform: none; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .ttc-m { text-transform: capitalize; }
   .ttl-m { text-transform: lowercase; }
   .ttu-m { text-transform: uppercase; }
   .ttn-m { text-transform: none; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .ttc-l { text-transform: capitalize; }
   .ttl-l { text-transform: lowercase; }
   .ttu-l { text-transform: uppercase; }

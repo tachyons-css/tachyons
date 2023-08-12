@@ -14,21 +14,21 @@
 .v-top      { vertical-align: top; }
 .v-btm      { vertical-align: bottom; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .v-base-s     { vertical-align: baseline; }
   .v-mid-s      { vertical-align: middle; }
   .v-top-s      { vertical-align: top; }
   .v-btm-s      { vertical-align: bottom; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .v-base-m     { vertical-align: baseline; }
   .v-mid-m      { vertical-align: middle; }
   .v-top-m      { vertical-align: top; }
   .v-btm-m      { vertical-align: bottom; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .v-base-l     { vertical-align: baseline; }
   .v-mid-l      { vertical-align: middle; }
   .v-top-l      { vertical-align: top; }

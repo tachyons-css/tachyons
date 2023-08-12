@@ -8,15 +8,15 @@
 */
 
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
 
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
 
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
 
 }
 

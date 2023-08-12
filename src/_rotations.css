@@ -12,7 +12,7 @@
 .rotate-270 { transform: rotate(270deg); }
 .rotate-315 { transform: rotate(315deg); }
 
-@media (--breakpoint-small){
+@container (min-width:30em){
   .rotate-45-s { transform: rotate(45deg); }
   .rotate-90-s { transform: rotate(90deg); }
   .rotate-135-s { transform: rotate(135deg); }
@@ -22,7 +22,7 @@
   .rotate-315-s { transform: rotate(315deg); }
 }
 
-@media (--breakpoint-medium){
+@container (min-width:48em){
   .rotate-45-m { transform: rotate(45deg); }
   .rotate-90-m { transform: rotate(90deg); }
   .rotate-135-m { transform: rotate(135deg); }
@@ -32,7 +32,7 @@
   .rotate-315-m { transform: rotate(315deg); }
 }
 
-@media (--breakpoint-large){
+@container (min-width:64em){
   .rotate-45-l { transform: rotate(45deg); }
   .rotate-90-l { transform: rotate(90deg); }
   .rotate-135-l { transform: rotate(135deg); }

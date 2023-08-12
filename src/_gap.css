@@ -23,7 +23,7 @@
 .g6 { gap: var(--spacing-6, 128px); }
 .g7 { gap: var(--spacing-7, 256px); }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .g0-s { gap: var(--spacing-0, 0); }
   .g1-s { gap: var(--spacing-1, 4px); }
   .g2-s { gap: var(--spacing-2, 8px); }
@@ -34,7 +34,7 @@
   .g7-s { gap: var(--spacing-7, 256px); }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .g0-m { gap: var(--spacing-0, 0); }
   .g1-m { gap: var(--spacing-1, 4px); }
   .g2-m { gap: var(--spacing-2, 8px); }
@@ -46,7 +46,7 @@
 }
 
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .g0-l { gap: var(--spacing-0); }
   .g1-l { gap: var(--spacing-1); }
   .g2-l { gap: var(--spacing-2); }

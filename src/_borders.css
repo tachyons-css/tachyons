@@ -29,7 +29,7 @@
   .bn { border-style: none; border-width: 0; }
 
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .ba-s { border-style: solid; border-width: var(--border-width, 1px); }
   .bt-s { border-top-style: solid; border-top-width: var(--border-width, 1px); }
   .br-s { border-right-style: solid; border-right-width: var(--border-width, 1px); }
@@ -38,7 +38,7 @@
   .bn-s { border-style: none; border-width: 0; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .ba-m { border-style: solid; border-width: var(--border-width, 1px); }
   .bt-m { border-top-style: solid; border-top-width: var(--border-width, 1px); }
   .br-m { border-right-style: solid; border-right-width: var(--border-width, 1px); }
@@ -47,7 +47,7 @@
   .bn-m { border-style: none; border-width: 0; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .ba-l { border-style: solid; border-width: var(--border-width, 1px); }
   .bt-l { border-top-style: solid; border-top-width: var(--border-width, 1px); }
   .br-l { border-right-style: solid; border-right-width: var(--border-width, 1px); }

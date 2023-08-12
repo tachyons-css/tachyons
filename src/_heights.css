@@ -65,7 +65,7 @@
 .h-auto {     height: auto; }
 .h-inherit {  height: inherit; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .h0-s {    height: var(--size-0, 0); }
   .h1-s {    height: var(--size-1, 1rem); }
   .h2-s {    height: var(--size-2, 2rem); }
@@ -88,7 +88,7 @@
   .h-inherit-s { height: inherit; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .h1-m { height: 1rem; }
   .h2-m { height: 2rem; }
   .h3-m { height: 4rem; }
@@ -107,7 +107,7 @@
   .h-inherit-m { height: inherit; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .h1-l { height: 1rem; }
   .h2-l { height: 2rem; }
   .h3-l { height: 4rem; }

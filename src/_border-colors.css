@@ -19,6 +19,8 @@
 */
 
 .b--color { border-color: var(--border-color, gray); }
+.b--light { border-color: var(--overlay-tint-2, gray); }
+.b--dark { border-color: var(--overlay-shadow-9, gray); }
 .b--transparent { border-color: transparent; }
 .b--current { border-color: currentColor; }
 .b--inherit { border-color: inherit; }

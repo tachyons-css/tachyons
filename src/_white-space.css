@@ -14,19 +14,19 @@
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .ws-normal-s { white-space: normal; }
   .nowrap-s { white-space: nowrap; }
   .pre-s { white-space: pre; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .ws-normal-m { white-space: normal; }
   .nowrap-m { white-space: nowrap; }
   .pre-m { white-space: pre; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .ws-normal-l { white-space: normal; }
   .nowrap-l { white-space: nowrap; }
   .pre-l { white-space: pre; }

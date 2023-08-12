@@ -17,14 +17,14 @@
 .justify-between { justify-content: space-between; }
 .justify-around  { justify-content: space-around; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .justify-start-s { justify-content: flex-start; }
   .justify-end-s { justify-content: flex-end; }
   .justify-center-s { justify-content: center; }
   .justify-between-s { justify-content: space-between; }
   .justify-around-s { justify-content: space-around; }
 }
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .justify-start-m { justify-content: flex-start; }
   .justify-end-m { justify-content: flex-end; }
   .justify-center-m { justify-content: center; }
@@ -32,7 +32,7 @@
   .justify-around-m { justify-content: space-around; }
 
 }
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .justify-start-l { justify-content: flex-start; }
   .justify-end-l { justify-content: flex-end; }
   .justify-center-l { justify-content: center; }

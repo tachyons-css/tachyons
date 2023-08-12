@@ -37,7 +37,7 @@
 .fw9    { font-weight: 900; }
 
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .normal-s { font-weight: normal; }
   .b-s      { font-weight: bold; }
   .fw1-s    { font-weight: 100; }
@@ -51,7 +51,7 @@
   .fw9-s    { font-weight: 900; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .normal-m { font-weight: normal; }
   .b-m      { font-weight: bold; }
   .fw1-m    { font-weight: 100; }
@@ -65,7 +65,7 @@
   .fw9-m    { font-weight: 900; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .normal-l { font-weight: normal; }
   .b-l      { font-weight: bold; }
   .fw1-l    { font-weight: 100; }

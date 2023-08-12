@@ -10,19 +10,19 @@
 
   These media queries can be referenced like so:
 
-  @media (--breakpoint-small) {
+  @container (min-width:30em) {
     .example-s {
       background-color: red;
     }
   }
 
-  @media (--breakpoint-medium) {
+  @container (min-width:48em) {
     .example-m {
       background-color: red;
     }
   }
 
-  @media (--breakpoint-large) {
+  @container (min-width:64em) {
     .example-l {
       background-color: red;
     }
@@ -31,6 +31,6 @@
 */
 
 /* Media Queries */
-@custom-media --breakpoint-small screen and (min-width: 30em);
-@custom-media --breakpoint-medium screen and (min-width: 48em);
-@custom-media --breakpoint-large screen and (min-width: 60em);
+@custom-media min-width:30em screen and (min-width: 30em);
+@custom-media min-width:48em screen and (min-width: 48em);
+@custom-media min-width:64em screen and (min-width: 60em);

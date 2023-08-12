@@ -26,7 +26,7 @@
   width: 1px;
 }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .clip-s {
     border: 0; 
     clip: rect(0 0 0 0); 
@@ -39,7 +39,7 @@
   }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .clip-m {
     border: 0; 
     clip: rect(0 0 0 0); 
@@ -52,7 +52,7 @@
   }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .clip-l {
     border: 0; 
     clip: rect(0 0 0 0); 

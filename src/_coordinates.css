@@ -50,15 +50,9 @@
 .bottom--2 { bottom: calc(var(--size, 1rem) * -2); }
 .left--2   { left:   calc(var(--size, 1rem) * -2); }
 
+.inset-0 { inset: 0; }
 
-.absolute--fill {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .top-0-s     { top:   0; }
   .left-0-s    { left:  0; }
   .right-0-s   { right: 0; }
@@ -79,15 +73,10 @@
   .right--2-s  { right:  calc(var(--size, 1rem) * -2); }
   .bottom--2-s { bottom: calc(var(--size, 1rem) * -2); }
   .left--2-s   { left:   calc(var(--size, 1rem) * -2); }
-  .absolute--fill-s {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
+  .inset-0-s { inset: 0; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .top-0-m     { top:   0; }
   .left-0-m    { left:  0; }
   .right-0-m   { right: 0; }
@@ -108,15 +97,10 @@
   .right--2-m  { right:  calc(var(--size, 1rem) * -2); }
   .bottom--2-m { bottom: calc(var(--size, 1rem) * -2); }
   .left--2-m   { left:   calc(var(--size, 1rem) * -2); }
-  .absolute--fill-m {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
+  .inset-0-m { inset: 0; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .top-0-l     { top:   0; }
   .left-0-l    { left:  0; }
   .right-0-l   { right: 0; }
@@ -137,10 +121,5 @@
   .right--2-l  { right:  calc(var(--size, 1rem) * -2); }
   .bottom--2-l { bottom: calc(var(--size, 1rem) * -2); }
   .left--2-l   { left:   calc(var(--size, 1rem) * -2); }
-  .absolute--fill-l {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
+  .inset-0-l { inset: 0; }
 }

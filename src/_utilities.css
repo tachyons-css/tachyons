@@ -17,7 +17,7 @@
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left:  auto; }
 
-@media (--breakpoint-small){
+@container (min-width:30em){
   .center-s {
     margin-right: auto;
     margin-left: auto;
@@ -26,7 +26,7 @@
   .ml-auto-s { margin-left:  auto; }
 }
 
-@media (--breakpoint-medium){
+@container (min-width:48em){
   .center-m {
     margin-right: auto;
     margin-left: auto;
@@ -35,7 +35,7 @@
   .ml-auto-m { margin-left:  auto; }
 }
 
-@media (--breakpoint-large){
+@container (min-width:64em){
   .center-l {
     margin-right: auto;
     margin-left: auto;

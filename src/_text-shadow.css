@@ -18,15 +18,15 @@
 .text-shadow-6 { text-shadow: rgb(var(--shadow-color-invert)) 2px 0px 0px, rgb(var(--shadow-color-invert)) 0px 2px 0px, rgb(var(--shadow-color-invert)) -2px 0px 0px, rgb(var(--shadow-color-invert)) 0px -2px 0px, rgb(var(--shadow-color-invert)) -2px -2px 0px, rgb(var(--shadow-color-invert)) 2px -2px 0px, rgb(var(--shadow-color-invert)) 2px 2px 0px, rgb(var(--shadow-color-invert)) -2px 2px 0px; }
 
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
 
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
 
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
 
 }
 

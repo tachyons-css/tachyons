@@ -20,7 +20,7 @@
 .order-8 { order: 8; }
 .order-last { order: 99999; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .order-0-s { order: 0; }
   .order-1-s { order: 1; }
   .order-2-s { order: 2; }
@@ -32,7 +32,7 @@
   .order-8-s { order: 8; }
   .order-last-s { order: 99999; }
 }
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .order-0-m { order: 0; }
   .order-1-m { order: 1; }
   .order-2-m { order: 2; }
@@ -46,7 +46,7 @@
 
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .order-0-l { order: 0; }
   .order-1-l { order: 1; }
   .order-2-l { order: 2; }

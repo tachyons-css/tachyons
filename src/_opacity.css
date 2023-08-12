@@ -5,16 +5,44 @@
 
 */
 
-.o-100 { opacity: var(--opacity-12, 1); }
-.o-90  { opacity: var(--opacity-11,.9); }
-.o-80  { opacity: var(--opacity-10,.8); }
-.o-70  { opacity: var(--opacity-9,.7);  }
-.o-60  { opacity: var(--opacity-8,.6);  }
-.o-50  { opacity: var(--opacity-7,.5);  }
-.o-40  { opacity: var(--opacity-6,.4);  }
-.o-30  { opacity: var(--opacity-5,.3);  }
-.o-20  { opacity: var(--opacity-4,.2);  }
-.o-10  { opacity: var(--opacity-3,.1);  }
-.o-05  { opacity: var(--opacity-2,.05); }
-.o-025 { opacity: var(--opacity-1,.025);}
-.o-0   { opacity: var(--opacity-0,0);   }
+.o12  { opacity: var(--opacity-12, 1); }
+.o11  { opacity: var(--opacity-11,.9); }
+.o10  { opacity: var(--opacity-10,.8); }
+.o9   { opacity: var(--opacity-9,.7);  }
+.o8   { opacity: var(--opacity-8,.6);  }
+.o7   { opacity: var(--opacity-7,.5);  }
+.o6   { opacity: var(--opacity-6,.4);  }
+.o5   { opacity: var(--opacity-5,.3);  }
+.o4   { opacity: var(--opacity-4,.2);  }
+.o3   { opacity: var(--opacity-3,.1);  }
+.o2   { opacity: var(--opacity-2,.05); }
+.o1   { opacity: var(--opacity-1,.025);}
+.o0   { opacity: var(--opacity-0,0);   }
+
+.h-o12:hover  { opacity: var(--opacity-12, 1); }
+.h-o11:hover  { opacity: var(--opacity-11,.9); }
+.h-o10:hover  { opacity: var(--opacity-10,.8); }
+.h-o9:hover   { opacity: var(--opacity-9,.7);  }
+.h-o8:hover   { opacity: var(--opacity-8,.6);  }
+.h-o7:hover   { opacity: var(--opacity-7,.5);  }
+.h-o6:hover   { opacity: var(--opacity-6,.4);  }
+.h-o5:hover   { opacity: var(--opacity-5,.3);  }
+.h-o4:hover   { opacity: var(--opacity-4,.2);  }
+.h-o3:hover   { opacity: var(--opacity-3,.1);  }
+.h-o2:hover   { opacity: var(--opacity-2,.05); }
+.h-o1:hover   { opacity: var(--opacity-1,.025);}
+.h-o0:hover   { opacity: var(--opacity-0,0);   }
+
+.f-o12:focus  { opacity: var(--opacity-12, 1); }
+.f-o11:focus  { opacity: var(--opacity-11,.9); }
+.f-o10:focus  { opacity: var(--opacity-10,.8); }
+.f-o9:focus   { opacity: var(--opacity-9,.7);  }
+.f-o8:focus   { opacity: var(--opacity-8,.6);  }
+.f-o7:focus   { opacity: var(--opacity-7,.5);  }
+.f-o6:focus   { opacity: var(--opacity-6,.4);  }
+.f-o5:focus   { opacity: var(--opacity-5,.3);  }
+.f-o4:focus   { opacity: var(--opacity-4,.2);  }
+.f-o3:focus   { opacity: var(--opacity-3,.1);  }
+.f-o2:focus   { opacity: var(--opacity-2,.05); }
+.f-o1:focus   { opacity: var(--opacity-1,.025);}
+.f-o0:focus   { opacity: var(--opacity-0,0);   }

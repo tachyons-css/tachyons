@@ -24,7 +24,7 @@
 .overflow-y-scroll { overflow-y: scroll; }
 .overflow-y-auto { overflow-y: auto; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .overflow-visible-s { overflow: visible; }
   .overflow-hidden-s { overflow: hidden; }
   .overflow-scroll-s { overflow: scroll; }
@@ -40,7 +40,7 @@
   .overflow-y-auto-s { overflow-y: auto; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .overflow-visible-m { overflow: visible; }
   .overflow-hidden-m { overflow: hidden; }
   .overflow-scroll-m { overflow: scroll; }
@@ -57,7 +57,7 @@
   .overflow-y-auto-m { overflow-y: auto; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .overflow-visible-l { overflow: visible; }
   .overflow-hidden-l { overflow: hidden; }
   .overflow-scroll-l { overflow: scroll; }

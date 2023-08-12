@@ -38,7 +38,7 @@
   display: inline-grid;
 }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .dn-s {                display: none; }
   .di-s {                display: inline; }
   .db-s {                display: block; }
@@ -56,7 +56,7 @@
   }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
 
   .dn-m {                display: none; }
   .di-m {                display: inline; }
@@ -75,7 +75,7 @@
   }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .dn-l {                display: none; }
   .di-l {                display: inline; }
   .db-l {                display: block; }

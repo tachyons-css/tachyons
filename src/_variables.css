@@ -15,30 +15,30 @@
    *
    */
 
-  --overlay-tint-0: hsla(0, 0%, 100%, 0.035);
-  --overlay-tint-1: hsla(0, 0%, 100%, 0.1);
-  --overlay-tint-2: hsla(0, 0%, 100%, 0.19);
-  --overlay-tint-3: hsla(0, 0%, 100%, 0.28);
-  --overlay-tint-4: hsla(0, 0%, 100%, 0.36);
-  --overlay-tint-5: hsla(0, 0%, 100%, 0.45);
-  --overlay-tint-6: hsla(0, 0%, 100%, 0.55);
-  --overlay-tint-7: hsla(0, 0%, 100%, 0.64);
-  --overlay-tint-8: hsla(0, 0%, 100%, 0.73);
-  --overlay-tint-9: hsla(0, 0%, 100%, 0.815);
-  --overlay-tint-10: hsla(0, 0%, 100%, 0.895);
-  --overlay-tint-11: hsla(0, 0%, 100%, 0.94);
-  --overlay-shadow-0: hsla(0, 0%, 0%, 0.94);
-  --overlay-shadow-1: hsla(0, 0%, 0%, 0.895);
-  --overlay-shadow-2: hsla(0, 0%, 0%, 0.815);
-  --overlay-shadow-3: hsla(0, 0%, 0%, 0.73);
-  --overlay-shadow-4: hsla(0, 0%, 0%, 0.64);
-  --overlay-shadow-5: hsla(0, 0%, 0%, 0.55);
-  --overlay-shadow-6: hsla(0, 0%, 0%, 0.45);
-  --overlay-shadow-7: hsla(0, 0%, 0%, 0.36);
-  --overlay-shadow-8: hsla(0, 0%, 0%, 0.28);
-  --overlay-shadow-9: hsla(0, 0%, 0%, 0.19);
-  --overlay-shadow-10: hsla(0, 0%, 0%, 0.1);
-  --overlay-shadow-11: hsla(0, 0%, 0%, 0.035);
+  --tint-0: hsla(0, 0%, 100%, 0.035);
+  --tint-1: hsla(0, 0%, 100%, 0.1);
+  --tint-2: hsla(0, 0%, 100%, 0.19);
+  --tint-3: hsla(0, 0%, 100%, 0.28);
+  --tint-4: hsla(0, 0%, 100%, 0.36);
+  --tint-5: hsla(0, 0%, 100%, 0.45);
+  --tint-6: hsla(0, 0%, 100%, 0.55);
+  --tint-7: hsla(0, 0%, 100%, 0.64);
+  --tint-8: hsla(0, 0%, 100%, 0.73);
+  --tint-9: hsla(0, 0%, 100%, 0.815);
+  --tint-10: hsla(0, 0%, 100%, 0.895);
+  --tint-11: hsla(0, 0%, 100%, 0.94);
+  --shadow-11: hsla(0, 0%, 0%, 0.94);
+  --shadow-10: hsla(0, 0%, 0%, 0.895);
+  --shadow-9: hsla(0, 0%, 0%, 0.815);
+  --shadow-8: hsla(0, 0%, 0%, 0.73);
+  --shadow-7: hsla(0, 0%, 0%, 0.64);
+  --shadow-6: hsla(0, 0%, 0%, 0.55);
+  --shadow-5: hsla(0, 0%, 0%, 0.45);
+  --shadow-4: hsla(0, 0%, 0%, 0.36);
+  --shadow-3: hsla(0, 0%, 0%, 0.28);
+  --shadow-2: hsla(0, 0%, 0%, 0.19);
+  --shadow-1: hsla(0, 0%, 0%, 0.1);
+  --shadow-0: hsla(0, 0%, 0%, 0.035);
   --gray-0: #000000;
   --gray-1: #171717;
   --gray-2: #2f2f2f;
@@ -63,7 +63,6 @@
   --slate-gray-9: #c9c9d0;
   --slate-gray-10: #e1e0e4;
   --slate-gray-11: #f8f8f9;
-  --blue-0: #030b18;
   --blue-1: #071e3f;
   --blue-2: #0c3166;
   --blue-3: #10448d;
@@ -209,6 +208,35 @@
   --cyan-11: #e2ffff;
   --transparent: hsla(0,0,0,0);
 
+  @supports (color: color(display-p3 1 1 1)) {
+    :root {
+      --blue-0: color(display-p3 0 0.07 0.25);
+      --blue-1: color(display-p3 0 0.09 0.32); 
+      --blue-2: color(display-p3 0 0.11 0.42);
+      --blue-3: color(display-p3 0 0.15 0.53);
+      --blue-4: color(display-p3 0 0.16 0.7);
+      --blue-5: color(display-p3 0 0.22 0.88);
+      --blue-6: color(display-p3 0.06 0.37 1);
+      --blue-7: color(display-p3 0.38 0.59 1 );
+      --blue-8: color(display-p3 0.66 0.79 1);
+      --blue-9: color(display-p3 0.79 0.86 0.99);
+      --blue-10: color(display-p3 0.87 0.92 0.99);
+      --blue-11: color(display-p3 0.92 0.95 1);
+      --indigo-0: color(display-p3 0.06 0.03 0.21);
+      --indigo-1: color(display-p3 0.09 0.07 0.26);
+      --indigo-2: color(display-p3 0.15 0.11 0.42);
+      --indigo-3: color(display-p3 0.18 0.14 0.57);
+      --indigo-4: color(display-p3 0.2 0.18 0.75);
+      --indigo-5: color(display-p3 0.26 0.22 1);
+      --indigo-6: color(display-p3 0.28 0.28 1);
+      --indigo-7: color(display-p3 0.47 0.49 1);  
+      --indigo-8: color(display-p3 0.67 0.68 1);
+      --indigo-9: color(display-p3 0.81 0.81 0.98);
+      --indigo-10: color(display-p3 0.87 0.92 0.99);
+      --indigo-11: color(display-p3 0.92 0.95 1);
+    }
+  }
+
   --degrees-1: 0;
   --degrees-2: 45deg;
   --degrees-3: 90deg;
@@ -252,18 +280,18 @@
 
   --gradient-stop: 50%;
 
-  --font-size-0: 10px;
   --font-size-1: 12px;
   --font-size-2: 14px;
   --font-size-3: 16px;
   --font-size-4: 20px;
   --font-size-5: 24px;
-  --font-size-6: 48px;
-  --font-size-7: 64px;
-  --font-size-8: 96px;
-  --font-size-9: 128px;
-  --font-size-10: 192px;
-  --font-size-11: 256px;
+  --font-size-6: 32px;
+  --font-size-7: 48px;
+  --font-size-8: 64px;
+  --font-size-9: 96px;
+  --font-size-10: 128px;
+  --font-size-11: 192px;
+  --font-size-12: 256px;
 
   --border-radius-0: 0;
   --border-radius-1: 4px;
@@ -297,19 +325,20 @@
   --letter-spacing-tight: -0.05em;
   --letter-spacing-large: 0.25em;
 
-  --font-family-heading: Inter, sans-serif;
-  --font-family-body: Inter, sans-serif;
-  --font-family-mono: Inconsolata, monospace;
+  --font-family-heading: Inter, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; 
+  --font-family-body: Inter, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; 
+  --font-family-mono: Inconsolata, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 
   --spacing-0: 0;
-  --spacing-1: 4px;
-  --spacing-2: 8px;
-  --spacing-3: 16px;
-  --spacing-4: 32px;
-  --spacing-5: 64px;
-  --spacing-6: 128px;
-  --spacing-7: 256px;
-  --spacing-8: 512px;
+  --spacing-1: 2px;
+  --spacing-2: 4px;
+  --spacing-3: 8px;
+  --spacing-4: 16px;
+  --spacing-5: 32px;
+  --spacing-6: 64px;
+  --spacing-7: 128px;
+  --spacing-8: 256px;
+  --spacing-9: 512px;
 
   --size-0: 0;
   --size-1: 1rem;

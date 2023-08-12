@@ -16,19 +16,19 @@
 .word-wrap { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
 
-@media (--breakpoint-small) {
+@container (min-width:30em) {
   .word-normal-s { word-break: normal; }
   .word-wrap-s { word-break: break-all; }
   .word-nowrap-s { word-break: keep-all; }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .word-normal-m { word-break: normal; }
   .word-wrap-m { word-break: break-all; }
   .word-nowrap-m { word-break: keep-all; }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .word-normal-l { word-break: normal; }
   .word-wrap-l { word-break: break-all; }
   .word-nowrap-l { word-break: keep-all; }
