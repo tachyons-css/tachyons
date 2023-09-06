@@ -1,0 +1,34 @@
+/*
+
+  CONTAINER-TYPE
+
+  Media Query Extensions:
+   -s = small
+   -m  = medium
+   -l  = large
+
+  MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/container-type
+
+*/
+
+.container-size { container-type: size; }
+.container-inline { container-type: inline-size; }
+.container-normal { container-type: normal; }
+
+@container (min-width:30em) {
+  .container-size-s { container-type: size; }
+  .container-inline-s { container-type: inline-size; }
+  .container-normal-s { container-type: normal; }
+}
+
+@container (min-width:48em) {
+  .container-size-m { container-type: size; }
+  .container-inline-m { container-type: inline-size; }
+  .container-normal-m { container-type: normal; }
+}
+
+@container (min-width:64em) {
+  .container-size-l { container-type: size; }
+  .container-inline-l { container-type: inline-size; }
+  .container-normal-l { container-type: normal; }
+}
