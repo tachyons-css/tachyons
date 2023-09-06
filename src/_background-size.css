@@ -22,9 +22,9 @@
   .bg3     { background-size: 16px; }
   .bg4     { background-size: 32px; }
   .bg5     { background-size: 64px; }
-  .bg-100  { background-size: 100%; }
-  .bg-150  { background-size: 150%; }
-  .bg-200  { background-size: 200%; }
+  .bg6  { background-size: 100%; }
+  .bg7  { background-size: 150%; }
+  .bg8  { background-size: 200%; }
 
 @container (min-width:30em) {
   .cover-s { background-size: cover!important; }
@@ -34,9 +34,9 @@
   .bg3-s     { background-size: 16px; }
   .bg4-s     { background-size: 32px; }
   .bg5-s     { background-size: 64px; }
-  .bg-100-s { background-size: 100%; }
-  .bg-150-s { background-size: 150%; }
-  .bg-200-s { background-size: 200%; }
+  .bg6-s { background-size: 100%; }
+  .bg7-s { background-size: 150%; }
+  .bg8-s { background-size: 200%; }
 }
 
 @container (min-width:48em) {
@@ -47,9 +47,9 @@
   .bg3-m     { background-size: 16px; }
   .bg4-m     { background-size: 32px; }
   .bg5-m     { background-size: 64px; }
-  .bg-100-m { background-size: 100%; }
-  .bg-150-m { background-size: 150%; }
-  .bg-200-m { background-size: 200%; }
+  .bg6-m { background-size: 100%; }
+  .bg7-m { background-size: 150%; }
+  .bg8-m { background-size: 200%; }
 }
 
 @container (min-width:64em) {
@@ -60,7 +60,7 @@
   .bg3-l     { background-size: 16px; }
   .bg4-l     { background-size: 32px; }
   .bg5-l     { background-size: 64px; }
-  .bg-100-l { background-size: 100%; }
-  .bg-150-l { background-size: 150%; }
-  .bg-200-l { background-size: 200%; }
+  .bg6-l { background-size: 100%; }
+  .bg7-l { background-size: 150%; }
+  .bg8-l { background-size: 200%; }
 }

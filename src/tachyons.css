@@ -37,6 +37,8 @@
 
 /* Modules */
 @import './_box-sizing';
+@import './_container-type';
+@import './_all';
 @import './_aspect-ratios';
 @import './_images';
 @import './_background-size';
@@ -53,12 +55,14 @@
 @import './_coordinates';
 @import './_clears';
 @import './_display';
+@import './_glass';
 @import './_gap';
 @import './_gap-column';
 @import './_gap-row';
 @import './_grid-template-columns';
 @import './_grid-column';
 @import './_grid-row';
+@import './_backdrop-filters';
 @import './_filters';
 @import './_flexbox';
 @import './_flex-direction';

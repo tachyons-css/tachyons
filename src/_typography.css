@@ -13,17 +13,17 @@
 
 /* Measure is limited to 66 characters */
 .measure {
-  max-width: 66ch;
+  max-width: var(--measure, 66ch);
 }
 
 /* Measure is limited to ~80 characters */
 .measure-wide {
-  max-width: 80ch;
+  max-width: var(--measure-wide, 80ch);
 }
 
 /* Measure is limited to 45 characters */
 .measure-narrow {
-  max-width: 45ch;
+  max-width: var(--measure-narrow, 45ch);
 }
 
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
@@ -46,9 +46,9 @@
 }
 
 @container (min-width:30em) {
-  .measure-s { max-width: 66ch; }
-  .measure-wide-s { max-width: 80ch; }
-  .measure-narrow-s { max-width: 45ch; }
+  .measure-s { max-width: var(--measure, 66ch); }
+  .measure-wide-s { max-width: var(--measure-wide, 80ch); }
+  .measure-narrow-s { max-width: var(--measure-narrow, 45ch); }
   .small-caps-s { font-variant: small-caps; }
   .indent-s {
     text-indent: 1em;
@@ -63,9 +63,9 @@
 }
 
 @container (min-width:48em) {
-  .measure-m { max-width: 66ch; }
-  .measure-wide-m { max-width: 80ch; }
-  .measure-narrow-m { max-width: 45ch; }
+  .measure-m { max-width: var(--measure, 66ch); }
+  .measure-wide-m { max-width: var(--measure-wide, 80ch); }
+  .measure-narrow-m { max-width: var(--measure-narrow, 45ch); }
   .small-caps-m { font-variant: small-caps; }
   .indent-m {
     text-indent: 1em;
@@ -80,9 +80,9 @@
 }
 
 @container (min-width:64em) {
-  .measure-l { max-width: 66ch; }
-  .measure-wide-l { max-width: 80ch; }
-  .measure-narrow-l { max-width: 45ch; }
+  .measure-l { max-width: var(--measure, 66ch); }
+  .measure-wide-l { max-width: var(--measure-wide, 80ch); }
+  .measure-narrow-l { max-width: var(--measure-narrow, 45ch); }
   .small-caps-l { font-variant: small-caps; }
   .indent-l {
     text-indent: 1em;

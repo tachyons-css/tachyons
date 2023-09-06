@@ -1,22 +1,23 @@
 /*
 
   FILTER EFFECTS
-  Docs: http://tachyons.io/docs/themes/hovers/
 
     - Blur
     - Grayscale
     - Hue Rotate
+    - Invert
 
 */
 
 .filter-none { filter: none; }
 
-.filter-blur-none { filter: blur(0); }
-.filter-blur { filter: blur(96px); }
+.blur1 { filter: blur(4px); }
+.blur2 { filter: blur(16px); }
+.blur3 { filter: blur(96px); }
 
-.grayscale-0 { filter: grayscale(0); }
-.grayscale-50 { filter: grayscale(50%); }
-.grayscale-100 { filter: grayscale(100%); }
+.grayscale1 { filter: grayscale(0); }
+.grayscale2 { filter: grayscale(50%); }
+.grayscale3 { filter: grayscale(100%); }
 
 .hue-rotate0 { filter: hue-rotate(0deg);}
 .hue-rotate1 { filter: hue-rotate(45deg);}
@@ -26,3 +27,47 @@
 .hue-rotate5 { filter: hue-rotate(225deg);}
 .hue-rotate6 { filter: hue-rotate(270deg);}
 .hue-rotate7 { filter: hue-rotate(315deg);}
+
+.invert { filter: invert(100%); }
+
+/* TODO: Add drop-shadow */
+
+.filter-none-hover:hover { filter: none; }
+
+.blur1-hover:hover { filter: blur(4px); }
+.blur2-hover:hover { filter: blur(16px); }
+.blur3-hover:hover { filter: blur(96px); }
+
+.grayscale1-hover:hover { filter: grayscale(0); }
+.grayscale2-hover:hover { filter: grayscale(50%); }
+.grayscale3-hover:hover { filter: grayscale(100%); }
+
+.hue-rotate0-hover:hover { filter: hue-rotate(0deg);}
+.hue-rotate1-hover:hover { filter: hue-rotate(45deg);}
+.hue-rotate2-hover:hover { filter: hue-rotate(90deg);}
+.hue-rotate3-hover:hover { filter: hue-rotate(135deg);}
+.hue-rotate4-hover:hover { filter: hue-rotate(180deg);}
+.hue-rotate5-hover:hover { filter: hue-rotate(225deg);}
+.hue-rotate6-hover:hover { filter: hue-rotate(270deg);}
+.hue-rotate7-hover:hover { filter: hue-rotate(315deg);}
+
+.invert-hover:hover { filter: invert(100%); }
+
+.blur1-focus:focus { filter: blur(4px); }
+.blur2-focus:focus { filter: blur(16px); }
+.blur3-focus:focus { filter: blur(96px); }
+
+.grayscale1-focus:focus { filter: grayscale(0); }
+.grayscale2-focus:focus { filter: grayscale(50%); }
+.grayscale3-focus:focus { filter: grayscale(100%); }
+
+.hue-rotate0-focus:focus { filter: hue-rotate(0deg);}
+.hue-rotate1-focus:focus { filter: hue-rotate(45deg);}
+.hue-rotate2-focus:focus { filter: hue-rotate(90deg);}
+.hue-rotate3-focus:focus { filter: hue-rotate(135deg);}
+.hue-rotate4-focus:focus { filter: hue-rotate(180deg);}
+.hue-rotate5-focus:focus { filter: hue-rotate(225deg);}
+.hue-rotate6-focus:focus { filter: hue-rotate(270deg);}
+.hue-rotate7-focus:focus { filter: hue-rotate(315deg);}
+
+.invert-focus:focus { filter: invert(100%); }
