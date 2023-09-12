@@ -12,6 +12,7 @@
 */
 
 .container-size { container-type: size; }
+.root,
 .container-inline { container-type: inline-size; }
 .container-normal { container-type: normal; }
 

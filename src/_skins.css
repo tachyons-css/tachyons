@@ -401,6 +401,16 @@
 .bg-cyan-10 { background-color: var(--cyan-10); }
 .bg-cyan-11 { background-color: var(--cyan-11); }
 
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
 .blue {
   background-color: var(--blue-5);
   color: var(--gray-11);

@@ -37,10 +37,11 @@
 /* Box shadow based borders */
  
 .shadow-border-1 { box-shadow: inset 0 0 var(--shadow-border-width, 1px) 0 rgb(var(--shadow-color, 0 0 0) / var(--shadow-opacity, .125)); }
-.shadow-border-2 { box-shadow: inset 0 0 var(--shadow-border-width) 0 currentColor; }
-.shadow-border-3 { box-shadow: inset 0 0 2px 0 rgb(var(--shadow-color-light, 255 255 255) / var(--shadow-opacity, .125)); }
-.shadow-border-4 { box-shadow: inset 0 0 2px 0 rgb(var(--shadow-color, 0 0 0) / var(--shadow-opacity, .125))}
-.shadow-border-5 { box-shadow: inset 0 0 2px 0 currentColor; }
+.shadow-border-2 { box-shadow: inset 0 0 var(--shadow-border-width, 1px) 0 rgb(var(--shadow-color, 0 0 0) / var(--shadow-opacity, .25)); }
+.shadow-border-3 { box-shadow: inset 0 0 var(--shadow-border-width) 0 currentColor; }
+.shadow-border-4 { box-shadow: inset 0 0 2px 0 rgb(var(--shadow-color-light, 255 255 255) / var(--shadow-opacity, .125)); }
+.shadow-border-5 { box-shadow: inset 0 0 2px 0 rgb(var(--shadow-color, 0 0 0) / var(--shadow-opacity, .125))}
+.shadow-border-6 { box-shadow: inset 0 0 2px 0 currentColor; }
 
 .shadow-1 { 
   box-shadow: 

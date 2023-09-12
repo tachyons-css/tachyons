@@ -592,7 +592,7 @@ template { display: none; }
 
 */
 .container-size { container-type: size; }
-.container-inline { container-type: inline-size; }
+.root, .container-inline { container-type: inline-size; }
 .container-normal { container-type: normal; }
 @container (min-width:30em) {
  .container-size-s { container-type: size; }
@@ -1164,10 +1164,11 @@ img { display: block; max-width: 100%; }
 */
 /* Box shadow based borders */
 .shadow-border-1 { box-shadow: inset 0 0 var( --shadow-border-width, 1px ) 0 rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ); }
-.shadow-border-2 { box-shadow: inset 0 0 var( --shadow-border-width ) 0 currentColor; }
-.shadow-border-3 { box-shadow: inset 0 0 2px 0 rgb( var( --shadow-color-light, 255 255 255 ) / var( --shadow-opacity, .125 ) ); }
-.shadow-border-4 { box-shadow: inset 0 0 2px 0 rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ); }
-.shadow-border-5 { box-shadow: inset 0 0 2px 0 currentColor; }
+.shadow-border-2 { box-shadow: inset 0 0 var( --shadow-border-width, 1px ) 0 rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .25 ) ); }
+.shadow-border-3 { box-shadow: inset 0 0 var( --shadow-border-width ) 0 currentColor; }
+.shadow-border-4 { box-shadow: inset 0 0 2px 0 rgb( var( --shadow-color-light, 255 255 255 ) / var( --shadow-opacity, .125 ) ); }
+.shadow-border-5 { box-shadow: inset 0 0 2px 0 rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ); }
+.shadow-border-6 { box-shadow: inset 0 0 2px 0 currentColor; }
 .shadow-1 { box-shadow: 0 1px 1px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ), 0 2px 2px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ), 0 4px 4px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ), 0 8px 8px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ), 0 16px 16px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ); }
 .shadow-2 { box-shadow: 0 1px 1px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ), 0 2px 2px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ), 0 4px 4px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ), 0 8px 8px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .125 ) ); }
 .shadow-3 { --shadow-opacity: .11; box-shadow: 0 1px 1px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .11 ) ), 0 2px 2px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .11 ) ), 0 4px 4px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .11 ) ), 0 8px 8px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .11 ) ), 0 16px 16px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .11 ) ), 0 32px 32px rgb( var( --shadow-color, 0 0 0 ) / var( --shadow-opacity, .11 ) ); }
@@ -3669,6 +3670,8 @@ img { display: block; max-width: 100%; }
 .bg-cyan-9 { background-color: var( --cyan-9 ); }
 .bg-cyan-10 { background-color: var( --cyan-10 ); }
 .bg-cyan-11 { background-color: var( --cyan-11 ); }
+.dark { background-color: black; color: white; }
+.light { background-color: white; color: black; }
 .blue { background-color: var( --blue-5 ); color: var( --gray-11 ); }
 .blue-dark { background-color: var( --blue-3 ); color: var( --blue-9 ); }
 .blue-light { color: var( --blue-3 ); background-color: var( --blue-10 ); }
