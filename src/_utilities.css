@@ -3,11 +3,16 @@
    UTILITIES
 
    Media Query Extensions:
-     -s = small
+     -ns = not-small
      -m  = medium
      -l  = large
 
 */
+
+/* Equivalent to .overflow-y-scroll */
+.overflow-container {
+  overflow-y: scroll;
+}
 
 .center {
   margin-right: auto;
@@ -17,16 +22,16 @@
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left:  auto; }
 
-@container (min-width:30em){
-  .center-s {
+@media (--breakpoint-not-small){
+  .center-ns {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-s { margin-right: auto; }
-  .ml-auto-s { margin-left:  auto; }
+  .mr-auto-ns { margin-right: auto; }
+  .ml-auto-ns { margin-left:  auto; }
 }
 
-@container (min-width:48em){
+@media (--breakpoint-medium){
   .center-m {
     margin-right: auto;
     margin-left: auto;
@@ -35,7 +40,7 @@
   .ml-auto-m { margin-left:  auto; }
 }
 
-@container (min-width:64em){
+@media (--breakpoint-large){
   .center-l {
     margin-right: auto;
     margin-left: auto;

@@ -10,7 +10,6 @@
     - Grow
     - Pointer
     - Shadow
-    - Colors
 
 */
 
@@ -29,8 +28,7 @@
   transition: opacity .15s ease-in;
 }
 .dim:active {
-  opacity: .8; 
-  transition: opacity .15s ease-out;
+  opacity: .8; transition: opacity .15s ease-out;
 }
 
 /*
@@ -115,20 +113,16 @@
 
 /* Add pointer on hover */
 
-.pointer {
+.pointer:hover {
   cursor: pointer;
 }
 
-.trans-all {
-  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
 /* 
- * TODO: Test and rename
    Add shadow on hover.
 
    Performant box-shadow animation pattern from 
    http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+*/
 
 .shadow-hover {
   cursor: pointer;
@@ -154,24 +148,13 @@
 .shadow-hover:focus::after {
   opacity: 1;
 }
-*/
 
 /* Combine with classes in skins and skins-pseudo for 
  * many different transition possibilities. */
 
-.trans-bg {
-  transition: background-color .25s ease-in-out; 
+.bg-animate,
+.bg-animate:hover,
+.bg-animate:focus {
+  transition: background-color .15s ease-in-out; 
 }
 
-.trans-color {
-  transition: color .25s ease-in-out; 
-}
-
-.hover-filter-none:hover { filter: none; }
-
-.hover-filter-blur-none:hover { filter: blur(0); }
-.hover-filter-blur:hover { filter: blur(96px); }
-
-.hover-grayscale-0:hover { filter: grayscale(0); }
-.hover-grayscale-50:hover { filter: grayscale(50%); }
-.hover-grayscale-100:hover { filter: grayscale(100%); }

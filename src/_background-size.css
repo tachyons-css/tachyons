@@ -4,7 +4,7 @@
    Docs: http://tachyons.io/docs/themes/background-size/
 
    Media Query Extensions:
-     -s  = small
+     -ns = not-small
      -m  = medium
      -l  = large
 
@@ -15,52 +15,20 @@
   on an html element.
 */
 
-  .cover   { background-size: cover!important; }
+  .cover { background-size: cover!important; }
   .contain { background-size: contain!important; }
-  .bg1     { background-size: 4px; }
-  .bg2     { background-size: 8px; }
-  .bg3     { background-size: 16px; }
-  .bg4     { background-size: 32px; }
-  .bg5     { background-size: 64px; }
-  .bg6  { background-size: 100%; }
-  .bg7  { background-size: 150%; }
-  .bg8  { background-size: 200%; }
 
-@container (min-width:30em) {
-  .cover-s { background-size: cover!important; }
-  .contain-s { background-size: contain!important; }
-  .bg1-s     { background-size: 4px; }
-  .bg2-s     { background-size: 8px; }
-  .bg3-s     { background-size: 16px; }
-  .bg4-s     { background-size: 32px; }
-  .bg5-s     { background-size: 64px; }
-  .bg6-s { background-size: 100%; }
-  .bg7-s { background-size: 150%; }
-  .bg8-s { background-size: 200%; }
+@media (--breakpoint-not-small) {
+  .cover-ns { background-size: cover!important; }
+  .contain-ns { background-size: contain!important; }
 }
 
-@container (min-width:48em) {
+@media (--breakpoint-medium) {
   .cover-m { background-size: cover!important; }
   .contain-m { background-size: contain!important; }
-  .bg1-m     { background-size: 4px; }
-  .bg2-m     { background-size: 8px; }
-  .bg3-m     { background-size: 16px; }
-  .bg4-m     { background-size: 32px; }
-  .bg5-m     { background-size: 64px; }
-  .bg6-m { background-size: 100%; }
-  .bg7-m { background-size: 150%; }
-  .bg8-m { background-size: 200%; }
 }
 
-@container (min-width:64em) {
+@media (--breakpoint-large) {
   .cover-l { background-size: cover!important; }
   .contain-l { background-size: contain!important; }
-  .bg1-l     { background-size: 4px; }
-  .bg2-l     { background-size: 8px; }
-  .bg3-l     { background-size: 16px; }
-  .bg4-l     { background-size: 32px; }
-  .bg5-l     { background-size: 64px; }
-  .bg6-l { background-size: 100%; }
-  .bg7-l { background-size: 150%; }
-  .bg8-l { background-size: 200%; }
 }
