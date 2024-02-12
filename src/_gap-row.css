@@ -1,0 +1,59 @@
+/*
+   GAP: GRID AND FLEX SPACING
+   Docs: http://tachyons.io/docs/layout/gap/
+
+   Base:
+     g = gap
+
+
+   Media Query Extensions:
+     -s = small
+     -m  = medium
+     -l  = large
+
+*/
+
+
+.gr0 { gap-row: var(--spacing-0, 0); }
+.gr1 { gap-row: var(--spacing-1, 4px); }
+.gr2 { gap-row: var(--spacing-2, 8px); }
+.gr3 { gap-row: var(--spacing-3, 16px); }
+.gr4 { gap-row: var(--spacing-4, 32px); }
+.gr5 { gap-row: var(--spacing-5, 64px); }
+.gr6 { gap-row: var(--spacing-6, 128px); }
+.gr7 { gap-row: var(--spacing-7, 256px); }
+
+@container (min-width:30em) {
+  .gr0-s { gap-row: var(--spacing-0, 0); }
+  .gr1-s { gap-row: var(--spacing-1, 4px); }
+  .gr2-s { gap-row: var(--spacing-2, 8px); }
+  .gr3-s { gap-row: var(--spacing-3, 16px); }
+  .gr4-s { gap-row: var(--spacing-4, 32px); }
+  .gr5-s { gap-row: var(--spacing-5, 64px); }
+  .gr6-s { gap-row: var(--spacing-6, 128px); }
+  .gr7-s { gap-row: var(--spacing-7, 256px); }
+}
+
+@container (min-width:48em) {
+  .gr0-m { gap-row: var(--spacing-0, 0); }
+  .gr1-m { gap-row: var(--spacing-1, 4px); }
+  .gr2-m { gap-row: var(--spacing-2, 8px); }
+  .gr3-m { gap-row: var(--spacing-3, 16px); }
+  .gr4-m { gap-row: var(--spacing-4, 32px); }
+  .gr5-m { gap-row: var(--spacing-5, 64px); }
+  .gr6-m { gap-row: var(--spacing-6, 128px); }
+  .gr7-m { gap-row: var(--spacing-7, 256px); }
+}
+
+
+@container (min-width:64em) {
+  .gr0-l { gap-row: var(--spacing-0); }
+  .gr1-l { gap-row: var(--spacing-1); }
+  .gr2-l { gap-row: var(--spacing-2); }
+  .gr3-l { gap-row: var(--spacing-3); }
+  .gr4-l { gap-row: var(--spacing-4); }
+  .gr5-l { gap-row: var(--spacing-5); }
+  .gr6-l { gap-row: var(--spacing-6); }
+  .gr7-l { gap-row: var(--spacing-7); }
+}
+

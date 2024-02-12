@@ -4,27 +4,26 @@
    http://tachyons.io/docs/typography/measure/
 
    Media Query Extensions:
-     -ns = not-small
+     -s = small
      -m  = medium
      -l  = large
 
 */
 
 
-
-/* Measure is limited to ~66 characters */
+/* Measure is limited to 66 characters */
 .measure {
-  max-width: 30em;
+  max-width: var(--measure, 66ch);
 }
 
 /* Measure is limited to ~80 characters */
 .measure-wide {
-  max-width: 34em;
+  max-width: var(--measure-wide, 80ch);
 }
 
-/* Measure is limited to ~45 characters */
+/* Measure is limited to 45 characters */
 .measure-narrow {
-  max-width: 20em;
+  max-width: var(--measure-narrow, 45ch);
 }
 
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
@@ -46,48 +45,32 @@
   text-overflow: ellipsis;
 }
 
-@media (--breakpoint-not-small) {
-  .measure-ns  {
-    max-width: 30em;
-  }
-  .measure-wide-ns {
-    max-width: 34em;
-  }
-  .measure-narrow-ns {
-    max-width: 20em;
-  }
-  .indent-ns {
+@container (min-width:30em) {
+  .measure-s { max-width: var(--measure, 66ch); }
+  .measure-wide-s { max-width: var(--measure-wide, 80ch); }
+  .measure-narrow-s { max-width: var(--measure-narrow, 45ch); }
+  .small-caps-s { font-variant: small-caps; }
+  .indent-s {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
-  .small-caps-ns {
-    font-variant: small-caps;
-  }
-  .truncate-ns {
+  .truncate-s {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 }
 
-@media (--breakpoint-medium) {
-  .measure-m {
-    max-width: 30em;
-  }
-  .measure-wide-m {
-    max-width: 34em;
-  }
-  .measure-narrow-m {
-    max-width: 20em;
-  }
+@container (min-width:48em) {
+  .measure-m { max-width: var(--measure, 66ch); }
+  .measure-wide-m { max-width: var(--measure-wide, 80ch); }
+  .measure-narrow-m { max-width: var(--measure-narrow, 45ch); }
+  .small-caps-m { font-variant: small-caps; }
   .indent-m {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
-  }
-  .small-caps-m {
-    font-variant: small-caps;
   }
   .truncate-m {
     white-space: nowrap;
@@ -96,23 +79,15 @@
   }
 }
 
-@media (--breakpoint-large) {
-  .measure-l {
-    max-width: 30em;
-  }
-  .measure-wide-l {
-    max-width: 34em;
-  }
-  .measure-narrow-l {
-    max-width: 20em;
-  }
+@container (min-width:64em) {
+  .measure-l { max-width: var(--measure, 66ch); }
+  .measure-wide-l { max-width: var(--measure-wide, 80ch); }
+  .measure-narrow-l { max-width: var(--measure-narrow, 45ch); }
+  .small-caps-l { font-variant: small-caps; }
   .indent-l {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
-  }
-  .small-caps-l {
-    font-variant: small-caps;
   }
   .truncate-l {
     white-space: nowrap;

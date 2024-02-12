@@ -1,0 +1,59 @@
+/*
+   GAP: GRID AND FLEX SPACING
+   Docs: http://tachyons.io/docs/layout/gap/
+
+   Base:
+     g = gap
+
+
+   Media Query Extensions:
+     -s = small
+     -m  = medium
+     -l  = large
+
+*/
+
+
+.g0 { gap: var(--spacing-0, 0); }
+.g1 { gap: var(--spacing-1, 4px); }
+.g2 { gap: var(--spacing-2, 8px); }
+.g3 { gap: var(--spacing-3, 16px); }
+.g4 { gap: var(--spacing-4, 32px); }
+.g5 { gap: var(--spacing-5, 64px); }
+.g6 { gap: var(--spacing-6, 128px); }
+.g7 { gap: var(--spacing-7, 256px); }
+
+@container (min-width:30em) {
+  .g0-s { gap: var(--spacing-0, 0); }
+  .g1-s { gap: var(--spacing-1, 4px); }
+  .g2-s { gap: var(--spacing-2, 8px); }
+  .g3-s { gap: var(--spacing-3, 16px); }
+  .g4-s { gap: var(--spacing-4, 32px); }
+  .g5-s { gap: var(--spacing-5, 64px); }
+  .g6-s { gap: var(--spacing-6, 128px); }
+  .g7-s { gap: var(--spacing-7, 256px); }
+}
+
+@container (min-width:48em) {
+  .g0-m { gap: var(--spacing-0, 0); }
+  .g1-m { gap: var(--spacing-1, 4px); }
+  .g2-m { gap: var(--spacing-2, 8px); }
+  .g3-m { gap: var(--spacing-3, 16px); }
+  .g4-m { gap: var(--spacing-4, 32px); }
+  .g5-m { gap: var(--spacing-5, 64px); }
+  .g6-m { gap: var(--spacing-6, 128px); }
+  .g7-m { gap: var(--spacing-7, 256px); }
+}
+
+
+@container (min-width:64em) {
+  .g0-l { gap: var(--spacing-0); }
+  .g1-l { gap: var(--spacing-1); }
+  .g2-l { gap: var(--spacing-2); }
+  .g3-l { gap: var(--spacing-3); }
+  .g4-l { gap: var(--spacing-4); }
+  .g5-l { gap: var(--spacing-5); }
+  .g6-l { gap: var(--spacing-6); }
+  .g7-l { gap: var(--spacing-7); }
+}
+

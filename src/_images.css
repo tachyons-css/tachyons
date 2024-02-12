@@ -5,7 +5,19 @@
 
 */
 
-/* Responsive images! */
+img { display: block; max-width: 100%; }
 
-img { max-width: 100%; }
+.random-image { 
+  background-image: url(https://source.unsplash.com/random/);
+  background-size: cover;
+}
 
+.random-image-landscape { 
+  background-image: url(https://source.unsplash.com/random/1920x1080);
+  background-size: cover;
+}
+
+.random-image-portrait { 
+  background-image: url(https://source.unsplash.com/random/1080x1920);
+  background-size: cover;
+}

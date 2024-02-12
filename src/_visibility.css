@@ -3,7 +3,7 @@
    VISIBILITY
 
    Media Query Extensions:
-     -ns = not-small
+     -s  = small
      -m  = medium
      -l  = large
 
@@ -12,40 +12,56 @@
 
 /*
     Text that is hidden but accessible
-    Ref: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+    Ref: https://accessibility.18f.gov/hidden-content/
 */
 
 .clip {
-  position: fixed !important;
-  _position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
+  border: 0; 
+  clip: rect(0 0 0 0); 
+  height: 1px; 
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
-@media (--breakpoint-not-small) {
-  .clip-ns {
-    position: fixed !important;
-    _position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
+@container (min-width:30em) {
+  .clip-s {
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
   }
 }
 
-@media (--breakpoint-medium) {
+@container (min-width:48em) {
   .clip-m {
-    position: fixed !important;
-    _position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
   }
 }
 
-@media (--breakpoint-large) {
+@container (min-width:64em) {
   .clip-l {
-    position: fixed !important;
-    _position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
   }
 }
 

@@ -1,7 +1,7 @@
-/*
+/* 
 
    TYPE SCALE
-   Docs: http://tachyons.io/docs/typography/scale/
+   Docs: http://tachyons.io/docs/type-scale
 
    Base:
     f = font-size
@@ -14,82 +14,75 @@
      5 = 5th step in size scale
      6 = 6th step in size scale
      7 = 7th step in size scale
+     8 = 8th step in size scale
+     9 = 9th step in size scale
+     10 = 10th step in size scale
+     11 = 11th step in size scale
+     12 = 12th step in size scale
 
    Media Query Extensions:
-     -ns = not-small
+     -s = small
      -m  = medium
      -l  = large
 */
 
-/*
- * For Hero/Marketing Titles
- *
- * These generally are too large for mobile
- * so be careful using them on smaller screens.
- * */
-
-.f-6,
-.f-headline {
-  font-size: 6rem;
-}
-.f-5,
-.f-subheadline {
-  font-size: 5rem;
-}
-
-
 /* Type Scale */
 
-.f1 { font-size: 3rem; }
-.f2 { font-size: 2.25rem; }
-.f3 { font-size: 1.5rem; }
-.f4 { font-size: 1.25rem; }
-.f5 { font-size: 1rem; }
-.f6 { font-size: .875rem; }
-.f7 { font-size: .75rem; } /* Small and hard to read for many people so use with extreme caution */
+.f1 { font-size:  var(--font-size-1, .75rem); }
+.f2 { font-size:  var(--font-size-2, .875rem); }
+.f3 { font-size:  var(--font-size-3, 1rem); }
+.f4 { font-size:  var(--font-size-4, 1.125rem); }
+.f5 { font-size:  var(--font-size-5, 1.25rem); }
+.f6 { font-size:  var(--font-size-6, 1.5rem); }
+.f7 { font-size:  var(--font-size-7, 2rem); } 
+.f8 { font-size:  var(--font-size-8, 3rem); } 
+.f9 { font-size:  var(--font-size-9, 4rem); } 
+.f10 { font-size: var(--font-size-10, 6rem); } 
+.f11 { font-size: var(--font-size-11, 8rem); } 
+.f12 { font-size: var(--font-size-12, 12rem); } 
 
-@media (--breakpoint-not-small){
-  .f-6-ns,
-  .f-headline-ns { font-size: 6rem; }
-  .f-5-ns,
-  .f-subheadline-ns { font-size: 5rem; }
-  .f1-ns { font-size: 3rem; }
-  .f2-ns { font-size: 2.25rem; }
-  .f3-ns { font-size: 1.5rem; }
-  .f4-ns { font-size: 1.25rem; }
-  .f5-ns { font-size: 1rem; }
-  .f6-ns { font-size: .875rem; }
-  .f7-ns { font-size: .75rem; }
+
+@container (min-width:30em){
+  .f1-s { font-size:  var(--font-size-1, .75rem); }
+  .f2-s { font-size:  var(--font-size-2, .875rem); }
+  .f3-s { font-size:  var(--font-size-3, 1rem); }
+  .f4-s { font-size:  var(--font-size-4, 1.125rem); }
+  .f5-s { font-size:  var(--font-size-5, 1.25rem); }
+  .f6-s { font-size:  var(--font-size-6, 1.5rem); }
+  .f7-s { font-size:  var(--font-size-7, 2rem); } 
+  .f8-s { font-size:  var(--font-size-8, 3rem); } 
+  .f9-s { font-size:  var(--font-size-9, 4rem); } 
+  .f10-s { font-size: var(--font-size-10, 6rem); } 
+  .f11-s { font-size: var(--font-size-11, 8rem); } 
+  .f12-s { font-size: var(--font-size-12, 12rem); } 
 }
 
-@media (--breakpoint-medium) {
-  .f-6-m,
-  .f-headline-m { font-size: 6rem; }
-  .f-5-m,
-  .f-subheadline-m { font-size: 5rem; }
-  .f1-m { font-size: 3rem; }
-  .f2-m { font-size: 2.25rem; }
-  .f3-m { font-size: 1.5rem; }
-  .f4-m { font-size: 1.25rem; }
-  .f5-m { font-size: 1rem; }
-  .f6-m { font-size: .875rem; }
-  .f7-m { font-size: .75rem; }
+@container (min-width:48em) {
+  .f1-m { font-size:  var(--font-size-1, .75rem); }
+  .f2-m { font-size:  var(--font-size-2, .875rem); }
+  .f3-m { font-size:  var(--font-size-3, 1rem); }
+  .f4-m { font-size:  var(--font-size-4, 1.125rem); }
+  .f5-m { font-size:  var(--font-size-5, 1.25rem); }
+  .f6-m { font-size:  var(--font-size-6, 1.5rem); }
+  .f7-m { font-size:  var(--font-size-7, 2rem); } 
+  .f8-m { font-size:  var(--font-size-8, 3rem); } 
+  .f9-m { font-size:  var(--font-size-9, 4rem); } 
+  .f10-m { font-size: var(--font-size-10, 6rem); } 
+  .f11-m { font-size: var(--font-size-11, 8rem); } 
+  .f12-m { font-size: var(--font-size-12, 12rem); } 
 }
 
-@media (--breakpoint-large) {
-  .f-6-l,
-  .f-headline-l {
-    font-size: 6rem;
-  }
-  .f-5-l,
-  .f-subheadline-l {
-    font-size: 5rem;
-  }
-  .f1-l { font-size: 3rem; }
-  .f2-l { font-size: 2.25rem; }
-  .f3-l { font-size: 1.5rem; }
-  .f4-l { font-size: 1.25rem; }
-  .f5-l { font-size: 1rem; }
-  .f6-l { font-size: .875rem; }
-  .f7-l { font-size: .75rem; }
+@container (min-width:64em) {
+  .f1-l { font-size:  var(--font-size-1, .75rem); }
+  .f2-l { font-size:  var(--font-size-2, .875rem); }
+  .f3-l { font-size:  var(--font-size-3, 1rem); }
+  .f4-l { font-size:  var(--font-size-4, 1.125rem); }
+  .f5-l { font-size:  var(--font-size-5, 1.25rem); }
+  .f6-l { font-size:  var(--font-size-6, 1.5rem); }
+  .f7-l { font-size:  var(--font-size-7, 2rem); } 
+  .f8-l { font-size:  var(--font-size-8, 3rem); } 
+  .f9-l { font-size:  var(--font-size-9, 4rem); } 
+  .f10-l { font-size: var(--font-size-10, 6rem); } 
+  .f11-l { font-size: var(--font-size-11, 8rem); } 
+  .f12-l { font-size: var(--font-size-12, 12rem); } 
 }

@@ -19,17 +19,16 @@ Quickly build and design new UI without writing CSS.
 ## Features
 
 * Mobile-first CSS architecture
-* 490 accessible color combinations
 * 8px baseline grid
 * Multiple debugging utilities to reduce layout struggles
 * Single-purpose class structure
 * Optimized for maximum gzip compression
-* Lightweight (~14kB)
+* Lightweight (~19.4kB)
 * Usable across projects
 * Growing open source component library
-* Works well with plain HTML, React, Ember, Angular, Rails and more
+* Works well with plain HTML, React, Ember, Angular, Rails Svelte, Vue, and more
 * Infinitely nestable responsive grid system
-* Built with PostCSS
+* Works out of the box but easy to customize and extend
 
 ## Getting Started
 
@@ -128,11 +127,11 @@ And of course...
 
 Development of Tachyons is supported by
 
-* [Digital Ocean](https://digitalocean.com)
+* [Components AI](https://components.ai)
 * [DWYL](https://dwyl.com)
 * [VTEX](https://vtex.com)
 * [Manifold](https://manifold.co)
 
 ## Help
 
-If you have a question or need help feel free to [open an issue here](https://github.com/tachyons-css/tachyons/issues/new) or jump into the [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com).
+If you have a question or need help feel free to [open an issue here](https://github.com/tachyons-css/tachyons/issues/new).

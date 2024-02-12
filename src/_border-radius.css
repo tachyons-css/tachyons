@@ -2,6 +2,7 @@
 
    BORDER RADIUS
    Docs: http://tachyons.io/docs/themes/border-radius/
+   Interactive examples: https://components.ai/u/system/cl7crcjia022509masfvq73ny/cl7ztbozs1650909l6rllmvpko
 
    Base:
      br   = border-radius
@@ -12,25 +13,34 @@
      2    = 2nd step in scale
      3    = 3rd step in scale
      4    = 4th step in scale
+     5    = 5th step in scale
+     6    = 6th step in scale
 
    Literal values:
      -100 = 100%
      -pill = 9999px
 
    Media Query Extensions:
-     -ns = not-small
+     -n = small
      -m  = medium
      -l  = large
 
 */
 
-  .br0 {        border-radius: 0; }
-  .br1 {        border-radius: .125rem; }
-  .br2 {        border-radius: .25rem; }
-  .br3 {        border-radius: .5rem; }
-  .br4 {        border-radius: 1rem; }
-  .br-100 {     border-radius: 100%; }
-  .br-pill {    border-radius: 9999px; }
+  .br-primary  {        border-radius: var(--border-radius, 6px); }
+  .br0 {        border-radius: var(--border-radius-0, 0); }
+  .br1 {        border-radius: var(--border-radius-1, 4px); }
+  .br2 {        border-radius: var(--border-radius-2, 6px); }
+  .br3 {        border-radius: var(--border-radius-3, 8px); }
+  .br4 {        border-radius: var(--border-radius-4, 12px); }
+  .br5 {        border-radius: var(--border-radius-5, 16px); }
+  .br6 {        border-radius: var(--border-radius-6, 20px); }
+  .br7 {        border-radius: var(--border-radius-7, 24px); }
+  .br8 {        border-radius: var(--border-radius-8, 32px); }
+  .br9 {        border-radius: var(--border-radius-9, 48px); }
+  .br10 {        border-radius: var(--border-radius-10, 64px); }
+  .br11 {        border-radius: var(--border-radius-11, 9999px); }
+
   .br--bottom {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
@@ -51,43 +61,55 @@
   .br-initial { border-radius: initial; }
   .br-unset { border-radius: unset; }
 
-@media (--breakpoint-not-small) {
-  .br0-ns {     border-radius: 0; }
-  .br1-ns {     border-radius: .125rem; }
-  .br2-ns {     border-radius: .25rem; }
-  .br3-ns {     border-radius: .5rem; }
-  .br4-ns {     border-radius: 1rem; }
-  .br-100-ns {  border-radius: 100%; }
-  .br-pill-ns { border-radius: 9999px; }
-  .br--bottom-ns {
+@container (min-width:30em) {
+  .br-primary-s  {          border-radius: var(--border-radius, 6px); }
+  .br0-s {        border-radius: var(--border-radius-0, 0); }
+  .br1-s {        border-radius: var(--border-radius-1, 4px); }
+  .br2-s {        border-radius: var(--border-radius-2, 6px); }
+  .br3-s {        border-radius: var(--border-radius-3, 8px); }
+  .br4-s {        border-radius: var(--border-radius-4, 12px); }
+  .br5-s {        border-radius: var(--border-radius-5, 16px); }
+  .br6-s {        border-radius: var(--border-radius-6, 20px); }
+  .br7-s {        border-radius: var(--border-radius-7, 24px); }
+  .br8-s {        border-radius: var(--border-radius-8, 32px); }
+  .br9-s {        border-radius: var(--border-radius-9, 48px); }
+  .br10-s {       border-radius: var(--border-radius-10, 64px); }
+  .br11-s {    border-radius: var(--border-radius-11, 9999px); }
+  .br--bottom-s {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
   }
-  .br--top-ns {
+  .br--top-s {
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
   }
-  .br--right-ns {
+  .br--right-s {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
   }
-  .br--left-ns {
+  .br--left-s {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
   }
-  .br-inherit-ns { border-radius: inherit; }
-  .br-initial-ns { border-radius: initial; }
-  .br-unset-ns { border-radius: unset; }
+  .br-inherit-s { border-radius: inherit; }
+  .br-initial-s { border-radius: initial; }
+  .br-unset-s { border-radius: unset; }
 }
 
-@media (--breakpoint-medium) {
-  .br0-m {     border-radius: 0; }
-  .br1-m {     border-radius: .125rem; }
-  .br2-m {     border-radius: .25rem; }
-  .br3-m {     border-radius: .5rem; }
-  .br4-m {     border-radius: 1rem; }
-  .br-100-m {  border-radius: 100%; }
-  .br-pill-m { border-radius: 9999px; }
+@container (min-width:48em) {
+  .br-primary-m  {        border-radius: var(--border-radius, 6px); }
+  .br0-m {        border-radius: var(--border-radius-0, 0); }
+  .br1-m {        border-radius: var(--border-radius-1, 4px); }
+  .br2-m {        border-radius: var(--border-radius-2, 6px); }
+  .br3-m {        border-radius: var(--border-radius-3, 8px); }
+  .br4-m {        border-radius: var(--border-radius-4, 12px); }
+  .br5-m {        border-radius: var(--border-radius-5, 16px); }
+  .br6-m {        border-radius: var(--border-radius-6, 20px); }
+  .br7-m {        border-radius: var(--border-radius-7, 24px); }
+  .br8-m {        border-radius: var(--border-radius-8, 32px); }
+  .br9-m {        border-radius: var(--border-radius-9, 48px); }
+  .br10-m {       border-radius: var(--border-radius-10, 64px); }
+  .br11-m {    border-radius: var(--border-radius-11, 9999px); }
   .br--bottom-m {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
@@ -109,14 +131,20 @@
   .br-unset-m { border-radius: unset; }
 }
 
-@media (--breakpoint-large) {
-  .br0-l {     border-radius: 0; }
-  .br1-l {     border-radius: .125rem; }
-  .br2-l {     border-radius: .25rem; }
-  .br3-l {     border-radius: .5rem; }
-  .br4-l {     border-radius: 1rem; }
-  .br-100-l {  border-radius: 100%; }
-  .br-pill-l { border-radius: 9999px; }
+@container (min-width:64em) {
+  .br-primary-l { border-radius: var(--border-radius, 6px); }
+  .br0-l {        border-radius: var(--border-radius-0, 0); }
+  .br1-l {        border-radius: var(--border-radius-1, 4px); }
+  .br2-l {        border-radius: var(--border-radius-2, 6px); }
+  .br3-l {        border-radius: var(--border-radius-3, 8px); }
+  .br4-l {        border-radius: var(--border-radius-4, 12px); }
+  .br5-l {        border-radius: var(--border-radius-5, 16px); }
+  .br6-l {        border-radius: var(--border-radius-6, 20px); }
+  .br7-l {        border-radius: var(--border-radius-7, 24px); }
+  .br8-l {        border-radius: var(--border-radius-8, 32px); }
+  .br9-l {        border-radius: var(--border-radius-9, 48px); }
+  .br10-l {       border-radius: var(--border-radius-10, 64px); }
+  .br11-l {       border-radius: var(--border-radius-11, 9999px); }
   .br--bottom-l {
       border-top-left-radius: 0;
       border-top-right-radius: 0;

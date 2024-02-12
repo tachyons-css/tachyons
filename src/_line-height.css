@@ -4,31 +4,31 @@
    Docs: http://tachyons.io/docs/typography/line-height
 
    Media Query Extensions:
-     -ns = not-small
+     -s = small
      -m  = medium
      -l  = large
 
 */
 
-  .lh-solid { line-height: 1; }
-  .lh-title { line-height: 1.25; }
-  .lh-copy  { line-height: 1.5; }
+  .lh-solid { line-height: var(--line-height-solid, 1); }
+  .lh-title { line-height: var(--line-height-title, 1.25); }
+  .lh-body  { line-height: var(--line-height-body, 1.5); }
 
-@media (--breakpoint-not-small) {
-  .lh-solid-ns { line-height: 1; }
-  .lh-title-ns { line-height: 1.25; }
-  .lh-copy-ns  { line-height: 1.5; }
+@container (min-width:30em) {
+  .lh-solid-s { line-height: var(--line-height-solid, 1); }
+  .lh-title-s { line-height: var(--line-height-title, 1.25); }
+  .lh-body-s  { line-height: var(--line-height-body, 1.5); }
 }
 
-@media (--breakpoint-medium) {
-  .lh-solid-m { line-height: 1; }
-  .lh-title-m { line-height: 1.25; }
-  .lh-copy-m  { line-height: 1.5; }
+@container (min-width:48em) {
+  .lh-solid-m { line-height: var(--line-height-solid, 1); }
+  .lh-title-m { line-height: var(--line-height-title, 1.25); }
+  .lh-body-m  { line-height: var(--line-height-body, 1.5); }
 }
 
-@media (--breakpoint-large) {
-  .lh-solid-l { line-height: 1; }
-  .lh-title-l { line-height: 1.25; }
-  .lh-copy-l  { line-height: 1.5; }
+@container (min-width:64em) {
+  .lh-solid-l { line-height: var(--line-height-solid, 1); }
+  .lh-title-l { line-height: var(--line-height-title, 1.25); }
+  .lh-body-l  { line-height: var(--line-height-body, 1.5); }
 }
 
