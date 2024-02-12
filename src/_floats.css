@@ -18,7 +18,7 @@
      n = none
 
    Media Query Extensions:
-     -s = small
+     -ns = not-small
      -m  = medium
      -l  = large
 
@@ -26,24 +26,24 @@
 
 
 
-.fl { float: left; }
-.fr { float: right; }
+.fl { float: left;  _display: inline; }
+.fr { float: right; _display: inline; }
 .fn { float: none; }
 
-@container (min-width:30em) {
-  .fl-s { float: left; }
-  .fr-s { float: right;  }
-  .fn-s { float: none; }
+@media (--breakpoint-not-small) {
+  .fl-ns { float: left; _display: inline; }
+  .fr-ns { float: right; _display: inline; }
+  .fn-ns { float: none; }
 }
 
-@container (min-width:48em) {
-  .fl-m { float: left;  }
-  .fr-m { float: right;  }
+@media (--breakpoint-medium) {
+  .fl-m { float: left; _display: inline; }
+  .fr-m { float: right; _display: inline; }
   .fn-m { float: none; }
 }
 
-@container (min-width:64em) {
-  .fl-l { float: left; }
-  .fr-l { float: right; }
+@media (--breakpoint-large) {
+  .fl-l { float: left; _display: inline; }
+  .fr-l { float: right; _display: inline; }
   .fn-l { float: none; }
 }

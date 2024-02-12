@@ -1,4 +1,4 @@
-/*! TACHYONS v5.0.0.beta | http://tachyons.io */
+/*! TACHYONS v4.12.0 | http://tachyons.io */
 
 /*
  *
@@ -27,18 +27,9 @@
 /* External Library Includes */
 @import './_normalize';
 
-/* Variables */
-/* Importing here will allow you to override any variables in the modules */
-@import './_media-queries';
-@import './_variables';
-
-@import './_gradients';
-
 
 /* Modules */
 @import './_box-sizing';
-@import './_container-type';
-@import './_all';
 @import './_aspect-ratios';
 @import './_images';
 @import './_background-size';
@@ -50,29 +41,11 @@
 @import './_border-style';
 @import './_border-widths';
 @import './_box-shadow';
-@import './_text-shadow';
 @import './_code';
 @import './_coordinates';
 @import './_clears';
 @import './_display';
-@import './_glass';
-@import './_gap';
-@import './_gap-column';
-@import './_gap-row';
-@import './_grid-template-columns';
-@import './_grid-column';
-@import './_grid-row';
-@import './_backdrop-filters';
-@import './_filters';
 @import './_flexbox';
-@import './_flex-direction';
-@import './_flex-wrap';
-@import './_align-items';
-@import './_align-content';
-@import './_align-self';
-@import './_justify-self';
-@import './_justify-content';
-@import './_order';
 @import './_floats';
 @import './_font-family';
 @import './_font-style';
@@ -108,6 +81,10 @@
 @import './_nested';
 @import './_styles';
 
+/* Variables */
+/* Importing here will allow you to override any variables in the modules */
+@import './_colors';
+@import './_media-queries';
 
 /* Debugging */
 @import './_debug-children';

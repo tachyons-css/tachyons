@@ -23,7 +23,7 @@
 
 
    Media Query Extensions:
-     -s = small
+     -ns = not-small
      -m  = medium
      -l  = large
 
@@ -49,23 +49,23 @@
 
 .mw-none { max-width: none; }
 
-@container (min-width:30em) {
-  .mw-100-s  { max-width: 100%; }
+@media (--breakpoint-not-small) {
+  .mw-100-ns  { max-width: 100%; }
 
-  .mw1-s  {  max-width: 1rem; }
-  .mw2-s  {  max-width: 2rem; }
-  .mw3-s  {  max-width: 4rem; }
-  .mw4-s  {  max-width: 8rem; }
-  .mw5-s  {  max-width: 16rem; }
-  .mw6-s  {  max-width: 32rem; }
-  .mw7-s  {  max-width: 48rem; }
-  .mw8-s  {  max-width: 64rem; }
-  .mw9-s  {  max-width: 96rem; }
+  .mw1-ns  {  max-width: 1rem; }
+  .mw2-ns  {  max-width: 2rem; }
+  .mw3-ns  {  max-width: 4rem; }
+  .mw4-ns  {  max-width: 8rem; }
+  .mw5-ns  {  max-width: 16rem; }
+  .mw6-ns  {  max-width: 32rem; }
+  .mw7-ns  {  max-width: 48rem; }
+  .mw8-ns  {  max-width: 64rem; }
+  .mw9-ns  {  max-width: 96rem; }
 
-  .mw-none-s { max-width: none; }
+  .mw-none-ns { max-width: none; }
 }
 
-@container (min-width:48em) {
+@media (--breakpoint-medium) {
   .mw-100-m  { max-width: 100%; }
 
   .mw1-m  {  max-width: 1rem; }
@@ -81,7 +81,7 @@
   .mw-none-m { max-width: none; }
 }
 
-@container (min-width:64em) {
+@media (--breakpoint-large) {
   .mw-100-l  { max-width: 100%; }
 
   .mw1-l  {  max-width: 1rem; }

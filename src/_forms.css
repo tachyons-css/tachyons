@@ -7,7 +7,6 @@
 .input-reset {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
 }
 
 .button-reset::-moz-focus-inner,

@@ -7,21 +7,21 @@
 
 .link {
   text-decoration: none;
-  transition: all .15s ease-in;
+  transition: color .15s ease-in;
 }
 
 .link:link,
 .link:visited {
-  transition: all .15s ease-in;
+  transition: color .15s ease-in;
 }
 .link:hover   {
-  transition: all .15s ease-in;
+  transition: color .15s ease-in;
 }
 .link:active  {
-  transition: all .15s ease-in;
+  transition: color .15s ease-in;
 }
 .link:focus   {
-  transition: all .15s ease-in;
+  transition: color .15s ease-in;
   outline: 1px dotted currentColor;
 }
 
