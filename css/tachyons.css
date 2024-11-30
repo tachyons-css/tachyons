@@ -1955,6 +1955,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .nested-links a:focus { color: #96ccff; transition: color .15s ease-in; }
 /*
 
+  OBJECT FIT
+
+  Base
+    object = object-fit
+
+*/
+.object-contain { -o-object-fit: contain; object-fit: contain; }
+.object-cover { -o-object-fit: cover; object-fit: cover; }
+.object-fill { -o-object-fit: fill; object-fit: fill; }
+.object-none { -o-object-fit: none; object-fit: none; }
+.object-scale-down { -o-object-fit: scale-down; object-fit: scale-down; }
+/*
+
   STYLES
 
   Add custom styles here.
