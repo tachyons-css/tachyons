@@ -1,0 +1,321 @@
+# Tachyons CSS
+
+> Functional CSS for humans. Quickly build and design new UI without writing CSS.
+
+Tachyons is a functional/atomic CSS framework that provides single-purpose utility classes. Instead of writing custom CSS, you compose classes directly in HTML to style elements. The framework is mobile-first, lightweight (~14kB), and optimized for maximum gzip compression.
+
+## Project Structure
+
+```
+/css/                 # Compiled CSS output
+  tachyons.css        # Full compiled CSS
+  tachyons.min.css    # Minified production CSS
+
+/src/                 # Source CSS modules (PostCSS)
+  tachyons.css        # Main entry point that imports all modules
+  _*.css              # Individual module files (prefixed with underscore)
+```
+
+## Core Principles
+
+- Everything should be 100% responsive
+- Single-purpose class structure (one class = one CSS property)
+- Mobile-first CSS architecture
+- 8px baseline grid for spacing
+- Designing in the browser should be easy
+- Changes to one interface shouldn't break others
+
+## Naming Conventions
+
+Tachyons uses abbreviated class names following consistent patterns:
+
+### Base + Modifier Pattern
+Classes follow the pattern: `{property}{value}` or `{property}{direction}{value}`
+
+Examples:
+- `pa3` = padding-all: 1rem
+- `mt2` = margin-top: 0.5rem  
+- `f4` = font-size: 1.25rem
+- `w-50` = width: 50%
+
+### Responsive Suffixes
+All classes support responsive variants via breakpoint suffixes:
+
+| Suffix | Breakpoint | Description |
+|--------|------------|-------------|
+| (none) | All | Mobile-first base styles |
+| `-ns`  | ≥30em (480px) | Not small (medium and up) |
+| `-m`   | 30em–60em | Medium only |
+| `-l`   | ≥60em (960px) | Large and up |
+
+Example: `dn db-ns` = display:none on mobile, display:block on medium+
+
+## Spacing Scale
+
+Uses powers of two scale (8px baseline):
+
+| Step | Value | CSS Variable |
+|------|-------|--------------|
+| 0 | 0 | --spacing-none |
+| 1 | 0.25rem (4px) | --spacing-extra-small |
+| 2 | 0.5rem (8px) | --spacing-small |
+| 3 | 1rem (16px) | --spacing-medium |
+| 4 | 2rem (32px) | --spacing-large |
+| 5 | 4rem (64px) | --spacing-extra-large |
+| 6 | 8rem (128px) | --spacing-extra-extra-large |
+| 7 | 16rem (256px) | --spacing-extra-extra-extra-large |
+
+### Spacing Classes
+- **Padding**: `pa`, `pl`, `pr`, `pt`, `pb`, `pv` (vertical), `ph` (horizontal)
+- **Margin**: `ma`, `ml`, `mr`, `mt`, `mb`, `mv` (vertical), `mh` (horizontal)
+
+Examples: `pa3`, `mt4`, `ph2-ns`, `mb0-l`
+
+## Type Scale
+
+| Class | Size |
+|-------|------|
+| `.f-headline`, `.f-6` | 6rem |
+| `.f-subheadline`, `.f-5` | 5rem |
+| `.f1` | 3rem |
+| `.f2` | 2.25rem |
+| `.f3` | 1.5rem |
+| `.f4` | 1.25rem |
+| `.f5` | 1rem |
+| `.f6` | 0.875rem |
+| `.f7` | 0.75rem (use sparingly) |
+
+## Width Scale
+
+### Fixed Widths (powers of 2)
+| Class | Width |
+|-------|-------|
+| `.w1` | 1rem |
+| `.w2` | 2rem |
+| `.w3` | 4rem |
+| `.w4` | 8rem |
+| `.w5` | 16rem |
+
+### Percentage Widths
+`.w-10`, `.w-20`, `.w-25`, `.w-30`, `.w-33`, `.w-34`, `.w-40`, `.w-50`, `.w-60`, `.w-70`, `.w-75`, `.w-80`, `.w-90`, `.w-100`
+
+Also: `.w-third`, `.w-two-thirds`, `.w-auto`
+
+## Color System
+
+### Grayscale
+`black`, `near-black`, `dark-gray`, `mid-gray`, `gray`, `silver`, `light-silver`, `moon-gray`, `light-gray`, `near-white`, `white`
+
+### Transparency
+- Black: `black-90` through `black-05` (90% to 5% opacity)
+- White: `white-90` through `white-10`
+
+### Colors
+`dark-red`, `red`, `light-red`, `orange`, `gold`, `yellow`, `light-yellow`, `purple`, `light-purple`, `dark-pink`, `hot-pink`, `pink`, `light-pink`, `dark-green`, `green`, `light-green`, `navy`, `dark-blue`, `blue`, `light-blue`, `lightest-blue`, `washed-blue`, `washed-green`, `washed-yellow`, `washed-red`
+
+### Color Classes
+- **Text color**: Use color name directly (e.g., `blue`, `dark-gray`)
+- **Background**: Prefix with `bg-` (e.g., `bg-blue`, `bg-dark-gray`)
+- **Border**: Prefix with `b--` (e.g., `b--blue`, `b--dark-gray`)
+
+## Common Class Categories
+
+### Display
+`dn` (none), `di` (inline), `db` (block), `dib` (inline-block), `dt` (table), `dtc` (table-cell), `flex`, `inline-flex`
+
+### Flexbox
+- Container: `flex`, `inline-flex`, `flex-column`, `flex-row`, `flex-wrap`
+- Alignment: `items-center`, `items-start`, `items-end`, `items-baseline`, `items-stretch`
+- Justify: `justify-center`, `justify-start`, `justify-end`, `justify-between`, `justify-around`
+- Self: `self-center`, `self-start`, `self-end`
+- Flex: `flex-auto`, `flex-none`, `flex-grow-0`, `flex-grow-1`, `flex-shrink-0`, `flex-shrink-1`
+- Order: `order-0` through `order-8`, `order-last`
+
+### Position
+`static`, `relative`, `absolute`, `fixed`, `sticky`
+
+### Coordinates
+`top-0`, `right-0`, `bottom-0`, `left-0`, `top-1`, `top-2`, etc.
+
+### Border Radius
+`br0`, `br1`, `br2`, `br3`, `br4`, `br-100` (circle), `br-pill` (rounded pill)
+Directional: `br--top`, `br--bottom`, `br--left`, `br--right`
+
+### Borders
+- Width: `bw0`, `bw1`, `bw2`, `bw3`, `bw4`, `bw5`
+- Style: `b--solid`, `b--dashed`, `b--dotted`, `b--none`
+- Sides: `ba` (all), `bt` (top), `br` (right), `bb` (bottom), `bl` (left), `bn` (none)
+
+### Typography
+- Weight: `fw1` (100) through `fw9` (900), `normal`, `b` (bold)
+- Style: `i` (italic), `fs-normal`
+- Alignment: `tl` (left), `tr` (right), `tc` (center), `tj` (justify)
+- Transform: `ttc` (capitalize), `ttl` (lowercase), `ttu` (uppercase), `ttn` (none)
+- Decoration: `no-underline`, `underline`, `strike`
+- Line height: `lh-solid` (1), `lh-title` (1.25), `lh-copy` (1.5)
+- Letter spacing: `tracked`, `tracked-tight`, `tracked-mega`
+
+### Visibility
+`o-0` through `o-100` (opacity), `v-hidden`, `v-visible`, `clip` (visually hidden)
+
+### Overflow
+`overflow-visible`, `overflow-hidden`, `overflow-scroll`, `overflow-auto`
+X/Y: `overflow-x-visible`, `overflow-y-hidden`, etc.
+
+### Heights
+Fixed: `h1`, `h2`, `h3`, `h4`, `h5` (1rem to 16rem)
+Percentage: `h-25`, `h-50`, `h-75`, `h-100`
+Viewport: `vh-25`, `vh-50`, `vh-75`, `vh-100`, `min-vh-100`
+
+### Max Width
+`mw1` through `mw9`, `mw-100`, `mw-none`
+
+### Z-Index
+`z-0`, `z-1`, `z-2`, `z-3`, `z-4`, `z-5`, `z-999`, `z-9999`, `z-max`, `z-inherit`, `z-initial`, `z-unset`
+
+### Floats & Clears
+`fl` (left), `fr` (right), `fn` (none), `cf` (clearfix)
+
+### Lists
+`list` (removes default styling)
+
+### Box Sizing
+`border-box` (applied globally via `*`)
+
+### Hovers
+Prefix with `hover-` for hover states: `hover-bg-blue`, `hover-black`, etc.
+
+## Usage Examples
+
+### Card Component
+```html
+<article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+  <div class="tc">
+    <img src="avatar.jpg" class="br-100 h4 w4 dib ba b--black-05 pa2">
+    <h1 class="f3 mb2">Jane Doe</h1>
+    <h2 class="f5 fw4 gray mt0">Designer</h2>
+  </div>
+</article>
+```
+
+### Responsive Navigation
+```html
+<nav class="flex flex-column flex-row-ns justify-between items-center pa3">
+  <a class="f4 fw6 link black">Logo</a>
+  <div class="flex flex-column flex-row-ns">
+    <a class="link black pa2">About</a>
+    <a class="link black pa2">Work</a>
+    <a class="link black pa2">Contact</a>
+  </div>
+</nav>
+```
+
+### Button
+```html
+<a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-dark-blue">
+  Click Me
+</a>
+```
+
+### Responsive Grid
+```html
+<div class="cf">
+  <div class="fl w-100 w-50-m w-25-l pa2">Column 1</div>
+  <div class="fl w-100 w-50-m w-25-l pa2">Column 2</div>
+  <div class="fl w-100 w-50-m w-25-l pa2">Column 3</div>
+  <div class="fl w-100 w-50-m w-25-l pa2">Column 4</div>
+</div>
+```
+
+### Flexbox Grid
+```html
+<div class="flex flex-wrap">
+  <div class="w-100 w-50-m w-25-l pa2">Column 1</div>
+  <div class="w-100 w-50-m w-25-l pa2">Column 2</div>
+  <div class="w-100 w-50-m w-25-l pa2">Column 3</div>
+  <div class="w-100 w-50-m w-25-l pa2">Column 4</div>
+</div>
+```
+
+## Build Commands
+
+```bash
+npm install           # Install dependencies
+npm start             # Build and watch for changes
+npm run build         # Build CSS once
+npm run mutations     # Check for class mutations/redefinitions
+```
+
+## CDN Usage
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+```
+
+## Source Modules
+
+The source is organized into focused single-responsibility modules:
+
+| Module | Description |
+|--------|-------------|
+| `_normalize.css` | CSS reset/normalization |
+| `_box-sizing.css` | Border-box sizing |
+| `_spacing.css` | Margin and padding |
+| `_type-scale.css` | Font sizes |
+| `_typography.css` | Font families, measures |
+| `_widths.css` | Width utilities |
+| `_heights.css` | Height utilities |
+| `_max-widths.css` | Max-width utilities |
+| `_display.css` | Display properties |
+| `_flexbox.css` | Flexbox utilities |
+| `_position.css` | Position utilities |
+| `_coordinates.css` | Top/right/bottom/left |
+| `_floats.css` | Float utilities |
+| `_colors.css` | CSS color variables |
+| `_skins.css` | Text and background colors |
+| `_border-colors.css` | Border colors |
+| `_borders.css` | Border utilities |
+| `_border-radius.css` | Border radius |
+| `_border-widths.css` | Border widths |
+| `_border-style.css` | Border styles |
+| `_box-shadow.css` | Box shadows |
+| `_opacity.css` | Opacity utilities |
+| `_overflow.css` | Overflow utilities |
+| `_visibility.css` | Visibility utilities |
+| `_z-index.css` | Z-index scale |
+| `_hovers.css` | Hover state utilities |
+| `_font-family.css` | Font stacks |
+| `_font-weight.css` | Font weights |
+| `_font-style.css` | Italic/normal |
+| `_line-height.css` | Line heights |
+| `_letter-spacing.css` | Letter spacing |
+| `_text-align.css` | Text alignment |
+| `_text-transform.css` | Text transforms |
+| `_text-decoration.css` | Underlines, etc. |
+| `_vertical-align.css` | Vertical alignment |
+| `_white-space.css` | White space handling |
+| `_word-break.css` | Word breaking |
+| `_aspect-ratios.css` | Aspect ratio containers |
+| `_images.css` | Image utilities |
+| `_background-size.css` | Background sizing |
+| `_background-position.css` | Background positioning |
+| `_lists.css` | List styling |
+| `_tables.css` | Table utilities |
+| `_forms.css` | Form element resets |
+| `_utilities.css` | Misc utilities |
+| `_negative-margins.css` | Negative margin utilities |
+| `_debug.css` | Layout debugging |
+| `_debug-children.css` | Debug children outlines |
+| `_debug-grid.css` | Grid overlay debugging |
+| `_media-queries.css` | Breakpoint definitions |
+
+## Key CSS Variables
+
+Spacing, colors, and breakpoints are defined as CSS custom properties in their respective modules. Override these in your own CSS to customize the design system.
+
+## Documentation
+
+Full documentation: http://tachyons.io/docs
+Component library: http://tachyons.io/components
+GitHub: https://github.com/tachyons-css/tachyons
+
