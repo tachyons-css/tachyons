@@ -1806,6 +1806,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .ws-normal { white-space: normal; }
 .nowrap { white-space: nowrap; }
 .pre { white-space: pre; }
+.pre-wrap { white-space: pre-wrap; }
 /*
 
    VERTICAL ALIGN
@@ -2455,6 +2456,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ws-normal-ns { white-space: normal; }
  .nowrap-ns { white-space: nowrap; }
  .pre-ns { white-space: pre; }
+ .pre-wrap-ns { white-space: pre-wrap; }
  .v-base-ns { vertical-align: baseline; }
  .v-mid-ns { vertical-align: middle; }
  .v-top-ns { vertical-align: top; }
@@ -2881,6 +2883,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ws-normal-m { white-space: normal; }
  .nowrap-m { white-space: nowrap; }
  .pre-m { white-space: pre; }
+ .pre-wrap-m { white-space: pre-wrap; }
  .v-base-m { vertical-align: baseline; }
  .v-mid-m { vertical-align: middle; }
  .v-top-m { vertical-align: top; }
@@ -3307,6 +3310,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ws-normal-l { white-space: normal; }
  .nowrap-l { white-space: nowrap; }
  .pre-l { white-space: pre; }
+ .pre-wrap-l { white-space: pre-wrap; }
  .v-base-l { vertical-align: baseline; }
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
